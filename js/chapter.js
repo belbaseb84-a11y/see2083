@@ -4,9 +4,12 @@
    =================================================== */
 
 (function () {
-  const medium = getParam("medium") || getCurrentMedium() || "english";
-  const subjectId = getParam("subject") || "science";
-  const chapterId = getParam("chapter") || "scientific-study";
+  const requestedMedium = getParam("medium");
+  const requestedSubject = getParam("subject");
+  const requestedChapter = getParam("chapter");
+  const medium = requestedMedium || getCurrentMedium() || "english";
+  const subjectId = requestedSubject || "science";
+  const chapterId = requestedChapter || "scientific-study";
 
   if (typeof setMedium === "function") {
     setMedium(medium);
@@ -47,7 +50,8 @@
     notFoundSub: isNp
       ? "यो अध्याय भेटिएन। कृपया विषय पृष्ठमा फर्कनुहोस्।"
       : "This chapter was not found. Please go back to the subject page.",
-    backToSubject: isNp ? "विषयमा फर्कनुहोस्" : "Back to subject"
+    backToSubject: isNp ? "विषयमा फर्कनुहोस्" : "Back to subject",
+    chooseAnotherChapter: isNp ? "← अर्को अध्याय छान्नुहोस्" : "← Choose Another Chapter"
   };
 
   const subjectIconEl = document.getElementById("chapter-subject-icon");
@@ -459,6 +463,34 @@
     });
   }
 
+  function getChooseAnotherChapterUrl() {
+    if (!requestedMedium) {
+      return "medium.html";
+    }
+
+    if (!requestedSubject) {
+      return "subjects.html?medium=" + encodeURIComponent(medium);
+    }
+
+    return "chapters.html?subject=" +
+      encodeURIComponent(subjectId) +
+      "&medium=" +
+      encodeURIComponent(medium);
+  }
+
+  function renderChooseAnotherChapterButton() {
+    if (!viewOptionsBtn || !viewOptionsBtn.parentElement) return;
+    if (document.getElementById("choose-another-chapter-btn")) return;
+
+    const link = document.createElement("a");
+    link.id = "choose-another-chapter-btn";
+    link.className = "btn btn-outline btn-sm";
+    link.href = getChooseAnotherChapterUrl();
+    link.textContent = labels.chooseAnotherChapter;
+
+    viewOptionsBtn.parentElement.appendChild(link);
+  }
+
   async function enhanceExternalContentPack() {
     if (!window.SEE2083ContentLoader) return;
     if (typeof SEE2083ContentLoader.loadChapterResourceBundle !== "function") return;
@@ -596,6 +628,7 @@
 
     if (viewOptionsBtn) {
       viewOptionsBtn.textContent = labels.viewOptions;
+      renderChooseAnotherChapterButton();
     }
 
     if (contentNotice) contentNotice.textContent = labels.contentNotice;

@@ -236,11 +236,17 @@
     const main = quizContainer.parentElement;
     if (!main) return;
 
-    const notice = document.createElement("div");
-    notice.id = "quiz-motivation";
-    notice.className = "content-notice";
-    notice.textContent = labels.motivation;
-    main.insertBefore(notice, quizContainer);
+    const quoteTarget = document.createElement("div");
+    quoteTarget.id = "quiz-motivation";
+    quoteTarget.innerHTML = '<div class="content-notice">' + escapeHTML(labels.motivation) + '</div>';
+    main.insertBefore(quoteTarget, quizContainer);
+
+    if (
+      window.SEE2083Motivation &&
+      typeof SEE2083Motivation.renderQuote === "function"
+    ) {
+      SEE2083Motivation.renderQuote("#quiz-motivation", "quiz");
+    }
   }
 
   function renderNoQuestions(customMessage) {

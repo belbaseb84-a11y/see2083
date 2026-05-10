@@ -1,0 +1,602 @@
+[
+  {
+    "id": "q001",
+    "en": "One focused hour of learning can beat many hours of scrolling.",
+    "np": "एक घण्टाको राम्रो अध्ययनले धेरै समयको स्क्रोलिङलाई जित्न सक्छ।",
+    "type": "focus"
+  },
+  {
+    "id": "q002",
+    "en": "Small revision today becomes confidence in the exam hall.",
+    "np": "आजको सानो पुनरावृत्तिले परीक्षा हलमा आत्मविश्वास दिन्छ।",
+    "type": "revision"
+  },
+  {
+    "id": "q003",
+    "en": "Every wrong answer shows one thing you can improve.",
+    "np": "हरेक गलत उत्तरले सुधार गर्नुपर्ने एउटा कुरा देखाउँछ।",
+    "type": "mistake"
+  },
+  {
+    "id": "q004",
+    "en": "Study a little daily; pressure becomes lighter slowly.",
+    "np": "दिनहुँ अलिकति पढ्दा दबाब बिस्तारै हल्का हुन्छ।",
+    "type": "consistency"
+  },
+  {
+    "id": "q005",
+    "en": "You do not need perfect mood; just start.",
+    "np": "सुरु गर्न पूर्ण मुड चाहिँदैन; बस सुरु गर्नुहोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q006",
+    "en": "Ten honest minutes are better than one hour of pretending.",
+    "np": "नाटकको एक घण्टाभन्दा इमानदार दस मिनेट राम्रो।",
+    "type": "focus"
+  },
+  {
+    "id": "q007",
+    "en": "Your future self will thank today's small effort.",
+    "np": "आजको सानो मेहनतलाई भविष्यको तपाईंले धन्यवाद दिनेछ।",
+    "type": "confidence"
+  },
+  {
+    "id": "q008",
+    "en": "Do not fear mistakes; use them as revision signals.",
+    "np": "गल्तीबाट नडराउनुहोस्; तिनलाई पुनरावृत्तिको संकेत बनाउनुहोस्।",
+    "type": "mistake"
+  },
+  {
+    "id": "q009",
+    "en": "A clear notebook and calm mind can change your marks.",
+    "np": "सफा कापी र शान्त मनले अंक बदल्न सक्छ।",
+    "type": "exam"
+  },
+  {
+    "id": "q010",
+    "en": "Start with one question, then continue with one more.",
+    "np": "एउटा प्रश्नबाट सुरु गर्नुहोस्, अनि अर्कोमा अघि बढ्नुहोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q011",
+    "en": "Consistency looks small today but powerful later.",
+    "np": "नियमितता आज सानो देखिन्छ, पछि शक्तिशाली बन्छ।",
+    "type": "consistency"
+  },
+  {
+    "id": "q012",
+    "en": "Reading once is not enough; revision makes it yours.",
+    "np": "एकपटक पढ्नु पर्याप्त हुँदैन; पुनरावृत्तिले ज्ञान आफ्नै बनाउँछ।",
+    "type": "revision"
+  },
+  {
+    "id": "q013",
+    "en": "Your exam confidence is built before exam day.",
+    "np": "परीक्षाको आत्मविश्वास परीक्षा अघि नै बनाइन्छ।",
+    "type": "exam"
+  },
+  {
+    "id": "q014",
+    "en": "Focus now, relax later with less regret.",
+    "np": "अहिले ध्यान दिनुहोस्, पछि कम पछुतोसँग आराम गर्नुहोस्।",
+    "type": "focus"
+  },
+  {
+    "id": "q015",
+    "en": "The chapter feels hard until you break it into parts.",
+    "np": "अध्यायलाई भागमा नछुट्याएसम्म कठिन लाग्छ।",
+    "type": "discipline"
+  },
+  {
+    "id": "q016",
+    "en": "You improve when you check why the answer was wrong.",
+    "np": "उत्तर किन गलत भयो भनेर जाँच्दा सुधार हुन्छ।",
+    "type": "mistake"
+  },
+  {
+    "id": "q017",
+    "en": "One page today is better than waiting for perfect time.",
+    "np": "पूर्ण समय कुर्नुभन्दा आजको एक पाना राम्रो।",
+    "type": "discipline"
+  },
+  {
+    "id": "q018",
+    "en": "A calm student remembers better than a panicked student.",
+    "np": "आत्तिएको विद्यार्थीभन्दा शान्त विद्यार्थीले राम्रो सम्झन्छ।",
+    "type": "confidence"
+  },
+  {
+    "id": "q019",
+    "en": "Practice makes the exam paper feel familiar.",
+    "np": "अभ्यासले परीक्षा पत्र परिचित जस्तो बनाउँछ।",
+    "type": "exam"
+  },
+  {
+    "id": "q020",
+    "en": "Do not compare; complete your own next step.",
+    "np": "तुलना नगर्नुहोस्; आफ्नो अर्को कदम पूरा गर्नुहोस्।",
+    "type": "confidence"
+  },
+  {
+    "id": "q021",
+    "en": "The best time to start is the next five minutes.",
+    "np": "सुरु गर्ने राम्रो समय आगामी पाँच मिनेट हो।",
+    "type": "discipline"
+  },
+  {
+    "id": "q022",
+    "en": "Small daily practice beats last-night panic.",
+    "np": "दिनहुँको सानो अभ्यासले अन्तिम रातको आत्तिनेलाई जित्छ।",
+    "type": "consistency"
+  },
+  {
+    "id": "q023",
+    "en": "Learn slowly, but do not stop.",
+    "np": "बिस्तारै सिक्नुहोस्, तर रोकिएर नबस्नुहोस्।",
+    "type": "consistency"
+  },
+  {
+    "id": "q024",
+    "en": "Your weak chapter is not your enemy; it is your target.",
+    "np": "कमजोर अध्याय शत्रु होइन; त्यो तपाईंको लक्ष्य हो।",
+    "type": "confidence"
+  },
+  {
+    "id": "q025",
+    "en": "A wrong MCQ is a free lesson before the exam.",
+    "np": "गलत MCQ परीक्षा अघिको निःशुल्क पाठ हो।",
+    "type": "mistake"
+  },
+  {
+    "id": "q026",
+    "en": "Today's focus is tomorrow's confidence.",
+    "np": "आजको ध्यान भोलिको आत्मविश्वास हो।",
+    "type": "focus"
+  },
+  {
+    "id": "q027",
+    "en": "Read, recall, write, and repeat.",
+    "np": "पढ्नुहोस्, सम्झनुहोस्, लेख्नुहोस्, फेरि दोहोर्याउनुहोस्।",
+    "type": "revision"
+  },
+  {
+    "id": "q028",
+    "en": "Simple understanding is stronger than blind memorization.",
+    "np": "सरल बुझाइ अन्धो कण्ठभन्दा बलियो हुन्छ।",
+    "type": "revision"
+  },
+  {
+    "id": "q029",
+    "en": "A clean plan reduces half of the stress.",
+    "np": "सफा योजनाले आधा तनाव घटाउँछ।",
+    "type": "discipline"
+  },
+  {
+    "id": "q030",
+    "en": "You are not behind if you start honestly now.",
+    "np": "अहिले इमानदारीसाथ सुरु गर्नुभयो भने तपाईं पछि हुनुहुन्न।",
+    "type": "confidence"
+  },
+  {
+    "id": "q031",
+    "en": "One solved question can unlock the whole topic.",
+    "np": "एउटा हल गरिएको प्रश्नले पूरा विषय खोल्न सक्छ।",
+    "type": "focus"
+  },
+  {
+    "id": "q032",
+    "en": "Keep your phone away; keep your goal near.",
+    "np": "फोन टाढा राख्नुहोस्; लक्ष्य नजिक राख्नुहोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q033",
+    "en": "Short revision every day keeps fear away.",
+    "np": "दिनहुँको छोटो पुनरावृत्तिले डर टाढा राख्छ।",
+    "type": "revision"
+  },
+  {
+    "id": "q034",
+    "en": "Learn the idea first, then memorize the words.",
+    "np": "पहिले विचार बुझ्नुहोस्, त्यसपछि शब्द याद गर्नुहोस्।",
+    "type": "revision"
+  },
+  {
+    "id": "q035",
+    "en": "The more you practice, the less the exam surprises you.",
+    "np": "जति अभ्यास गर्नुहुन्छ, परीक्षा त्यति कम अचम्म लाग्छ।",
+    "type": "exam"
+  },
+  {
+    "id": "q036",
+    "en": "Do not run from hard topics; divide them.",
+    "np": "कठिन विषयबाट नभाग्नुहोस्; तिनलाई भागमा छुट्याउनुहोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q037",
+    "en": "Good marks are built by small repeated actions.",
+    "np": "राम्रा अंक साना दोहोरिएका कामबाट बन्छन्।",
+    "type": "consistency"
+  },
+  {
+    "id": "q038",
+    "en": "Your attention is your strongest study tool.",
+    "np": "तपाईंको ध्यान नै सबैभन्दा बलियो अध्ययन साधन हो।",
+    "type": "focus"
+  },
+  {
+    "id": "q039",
+    "en": "Study today like you care about tomorrow.",
+    "np": "भोलिको ख्याल गरेजस्तै आज अध्ययन गर्नुहोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q040",
+    "en": "If you are confused, revise the basics first.",
+    "np": "अलमल भएमा पहिले आधारभूत कुरा दोहोर्याउनुहोस्।",
+    "type": "revision"
+  },
+  {
+    "id": "q041",
+    "en": "Finish one small task before thinking about all tasks.",
+    "np": "सबै काम सोच्नुअघि एउटा सानो काम पूरा गर्नुहोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q042",
+    "en": "The exam rewards clarity, not panic.",
+    "np": "परीक्षाले आत्तिनेलाई होइन, स्पष्टतालाई पुरस्कृत गर्छ।",
+    "type": "exam"
+  },
+  {
+    "id": "q043",
+    "en": "Try again after a mistake; that is real learning.",
+    "np": "गल्तीपछि फेरि प्रयास गर्नु नै वास्तविक सिकाइ हो।",
+    "type": "mistake"
+  },
+  {
+    "id": "q044",
+    "en": "A serious student is made by daily choices.",
+    "np": "गम्भीर विद्यार्थी दिनहुँका छनोटबाट बन्छ।",
+    "type": "discipline"
+  },
+  {
+    "id": "q045",
+    "en": "You can improve more than you think.",
+    "np": "तपाईंले सोच्नुभन्दा धेरै सुधार गर्न सक्नुहुन्छ।",
+    "type": "confidence"
+  },
+  {
+    "id": "q046",
+    "en": "Do not just read notes; test yourself.",
+    "np": "नोट मात्र नपढ्नुहोस्; आफैँलाई जाँच्नुहोस्।",
+    "type": "revision"
+  },
+  {
+    "id": "q047",
+    "en": "The chapter becomes easier after the second revision.",
+    "np": "दोस्रो पुनरावृत्तिपछि अध्याय सजिलो हुन थाल्छ।",
+    "type": "revision"
+  },
+  {
+    "id": "q048",
+    "en": "Your effort is counted even when nobody sees it.",
+    "np": "कसैले नदेखे पनि तपाईंको मेहनत गनिन्छ।",
+    "type": "confidence"
+  },
+  {
+    "id": "q049",
+    "en": "Study with patience; results grow slowly.",
+    "np": "धैर्यसँग पढ्नुहोस्; नतिजा बिस्तारै बढ्छ।",
+    "type": "consistency"
+  },
+  {
+    "id": "q050",
+    "en": "A focused mind learns faster than a worried mind.",
+    "np": "चिन्तित मनभन्दा केन्द्रित मनले छिटो सिक्छ।",
+    "type": "focus"
+  },
+  {
+    "id": "q051",
+    "en": "Today's discipline becomes exam-day strength.",
+    "np": "आजको अनुशासन परीक्षा दिनको शक्ति बन्छ।",
+    "type": "discipline"
+  },
+  {
+    "id": "q052",
+    "en": "Learning is not magic; it is repetition.",
+    "np": "सिकाइ जादु होइन; यो दोहोर्याइ हो।",
+    "type": "revision"
+  },
+  {
+    "id": "q053",
+    "en": "Make your weak point your next practice point.",
+    "np": "कमजोर बिन्दुलाई अर्को अभ्यास बिन्दु बनाउनुहोस्।",
+    "type": "mistake"
+  },
+  {
+    "id": "q054",
+    "en": "Do not wait for motivation; use routine.",
+    "np": "प्रेरणा कुर्नुहोस् होइन; दिनचर्या प्रयोग गर्नुहोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q055",
+    "en": "One honest attempt is better than quitting early.",
+    "np": "छिट्टै छोड्नुभन्दा एउटा इमानदार प्रयास राम्रो।",
+    "type": "confidence"
+  },
+  {
+    "id": "q056",
+    "en": "Your marks improve when your habits improve.",
+    "np": "बानी सुध्रिँदा अंक पनि सुध्रिन्छ।",
+    "type": "consistency"
+  },
+  {
+    "id": "q057",
+    "en": "Short breaks help, but long distractions hurt.",
+    "np": "छोटो विश्रामले सहयोग गर्छ, लामो विचलनले हानि गर्छ।",
+    "type": "discipline"
+  },
+  {
+    "id": "q058",
+    "en": "Write the answer once; remember it better.",
+    "np": "उत्तर एकपटक लेख्नुहोस्; अझ राम्रो सम्झनुहुन्छ।",
+    "type": "revision"
+  },
+  {
+    "id": "q059",
+    "en": "Revision turns information into confidence.",
+    "np": "पुनरावृत्तिले जानकारीलाई आत्मविश्वासमा बदल्छ।",
+    "type": "revision"
+  },
+  {
+    "id": "q060",
+    "en": "You are training your brain, not just finishing chapters.",
+    "np": "तपाईं अध्याय मात्र सक्दै हुनुहुन्न, दिमागलाई तालिम दिँदै हुनुहुन्छ।",
+    "type": "confidence"
+  },
+  {
+    "id": "q061",
+    "en": "Every chapter completed removes one fear.",
+    "np": "पूरा भएको हरेक अध्यायले एउटा डर हटाउँछ।",
+    "type": "confidence"
+  },
+  {
+    "id": "q062",
+    "en": "Stay simple, stay steady, keep moving.",
+    "np": "सरल रहनुहोस्, स्थिर रहनुहोस्, अघि बढिरहनुहोस्।",
+    "type": "consistency"
+  },
+  {
+    "id": "q063",
+    "en": "The question you avoid is the question you should try.",
+    "np": "जस प्रश्नबाट टाढिनुहुन्छ, त्यही प्रयास गर्नुपर्ने प्रश्न हो।",
+    "type": "mistake"
+  },
+  {
+    "id": "q064",
+    "en": "Learn today so tomorrow feels lighter.",
+    "np": "आज सिक्नुहोस् ताकि भोलि हल्का लागोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q065",
+    "en": "Good preparation gives peace before the exam.",
+    "np": "राम्रो तयारीले परीक्षा अघि शान्ति दिन्छ।",
+    "type": "exam"
+  },
+  {
+    "id": "q066",
+    "en": "You do not need to be fast; be consistent.",
+    "np": "छिटो हुनुपर्दैन; नियमित हुनुहोस्।",
+    "type": "consistency"
+  },
+  {
+    "id": "q067",
+    "en": "Practice quietly; results will speak later.",
+    "np": "शान्तसँग अभ्यास गर्नुहोस्; नतिजाले पछि बोल्नेछ।",
+    "type": "confidence"
+  },
+  {
+    "id": "q068",
+    "en": "One more question can make you stronger.",
+    "np": "अर्को एउटा प्रश्नले तपाईंलाई बलियो बनाउन सक्छ।",
+    "type": "focus"
+  },
+  {
+    "id": "q069",
+    "en": "Your mistakes are not failure; they are direction.",
+    "np": "गल्ती असफलता होइन; ती दिशा हुन्।",
+    "type": "mistake"
+  },
+  {
+    "id": "q070",
+    "en": "Read the question carefully; half the answer starts there.",
+    "np": "प्रश्न ध्यान दिएर पढ्नुहोस्; आधा उत्तर त्यहीँ सुरु हुन्छ।",
+    "type": "exam"
+  },
+  {
+    "id": "q071",
+    "en": "A strong student reviews old mistakes.",
+    "np": "बलियो विद्यार्थीले पुराना गल्ती समीक्षा गर्छ।",
+    "type": "mistake"
+  },
+  {
+    "id": "q072",
+    "en": "When you feel lazy, start with the easiest task.",
+    "np": "आलस्य लाग्दा सबैभन्दा सजिलो कामबाट सुरु गर्नुहोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q073",
+    "en": "Your focus decides the quality of your study time.",
+    "np": "तपाईंको ध्यानले अध्ययन समयको गुणस्तर तय गर्छ।",
+    "type": "focus"
+  },
+  {
+    "id": "q074",
+    "en": "Do not study for fear; study for freedom.",
+    "np": "डरका लागि होइन; स्वतन्त्रताका लागि पढ्नुहोस्।",
+    "type": "confidence"
+  },
+  {
+    "id": "q075",
+    "en": "Clear basics make difficult topics easier.",
+    "np": "स्पष्ट आधारले कठिन विषयलाई सजिलो बनाउँछ।",
+    "type": "revision"
+  },
+  {
+    "id": "q076",
+    "en": "Repeating the right thing builds memory.",
+    "np": "सही कुरा दोहोर्याउँदा स्मरणशक्ति बन्छ।",
+    "type": "revision"
+  },
+  {
+    "id": "q077",
+    "en": "The exam is easier when practice is honest.",
+    "np": "अभ्यास इमानदार हुँदा परीक्षा सजिलो लाग्छ।",
+    "type": "exam"
+  },
+  {
+    "id": "q078",
+    "en": "You can restart any time, including now.",
+    "np": "तपाईं कुनै पनि बेला फेरि सुरु गर्न सक्नुहुन्छ, अहिले पनि।",
+    "type": "confidence"
+  },
+  {
+    "id": "q079",
+    "en": "Keep going; slow progress is still progress.",
+    "np": "अघि बढिरहनुहोस्; ढिलो प्रगति पनि प्रगति नै हो।",
+    "type": "consistency"
+  },
+  {
+    "id": "q080",
+    "en": "Your best improvement starts with the weakest chapter.",
+    "np": "सबैभन्दा राम्रो सुधार कमजोर अध्यायबाट सुरु हुन्छ।",
+    "type": "mistake"
+  },
+  {
+    "id": "q081",
+    "en": "Learn the concept, then practice the question.",
+    "np": "पहिले अवधारणा सिक्नुहोस्, त्यसपछि प्रश्न अभ्यास गर्नुहोस्।",
+    "type": "revision"
+  },
+  {
+    "id": "q082",
+    "en": "A peaceful routine beats stressful cramming.",
+    "np": "शान्त दिनचर्याले तनावपूर्ण घोकाइलाई जित्छ।",
+    "type": "discipline"
+  },
+  {
+    "id": "q083",
+    "en": "Small effort repeated daily becomes a big result.",
+    "np": "दिनहुँ दोहोरिएको सानो मेहनत ठूलो नतिजा बन्छ।",
+    "type": "consistency"
+  },
+  {
+    "id": "q084",
+    "en": "Do not only collect notes; use them.",
+    "np": "नोट मात्र सङ्कलन नगर्नुहोस्; तिनको प्रयोग गर्नुहोस्।",
+    "type": "revision"
+  },
+  {
+    "id": "q085",
+    "en": "Understanding one topic well is real progress.",
+    "np": "एउटा विषय राम्रोसँग बुझ्नु नै वास्तविक प्रगति हो।",
+    "type": "confidence"
+  },
+  {
+    "id": "q086",
+    "en": "The more you revise, the more confident you become.",
+    "np": "जति पुनरावृत्ति गर्नुहुन्छ, त्यति आत्मविश्वासी बन्नुहुन्छ।",
+    "type": "revision"
+  },
+  {
+    "id": "q087",
+    "en": "Your study table is where your result begins.",
+    "np": "तपाईंको नतिजा अध्ययन टेबलबाट सुरु हुन्छ।",
+    "type": "discipline"
+  },
+  {
+    "id": "q088",
+    "en": "Avoid excuses; choose one small action.",
+    "np": "बहाना छोड्नुहोस्; एउटा सानो काम रोज्नुहोस्।",
+    "type": "discipline"
+  },
+  {
+    "id": "q089",
+    "en": "The student who reviews mistakes grows faster.",
+    "np": "गल्ती समीक्षा गर्ने विद्यार्थी छिटो बढ्छ।",
+    "type": "mistake"
+  },
+  {
+    "id": "q090",
+    "en": "A good answer starts with a clear mind.",
+    "np": "राम्रो उत्तर स्पष्ट मनबाट सुरु हुन्छ।",
+    "type": "exam"
+  },
+  {
+    "id": "q091",
+    "en": "Study with purpose, not just pressure.",
+    "np": "दबाबले मात्र होइन, उद्देश्यले पढ्नुहोस्।",
+    "type": "confidence"
+  },
+  {
+    "id": "q092",
+    "en": "Your concentration is more valuable than your time.",
+    "np": "समयभन्दा तपाईंको एकाग्रता बढी मूल्यवान छ।",
+    "type": "focus"
+  },
+  {
+    "id": "q093",
+    "en": "Practice before the exam, not after regret.",
+    "np": "पछुतोपछि होइन, परीक्षा अघि अभ्यास गर्नुहोस्।",
+    "type": "exam"
+  },
+  {
+    "id": "q094",
+    "en": "Be proud of small honest progress.",
+    "np": "सानो इमानदार प्रगतिमा गर्व गर्नुहोस्।",
+    "type": "confidence"
+  },
+  {
+    "id": "q095",
+    "en": "A difficult chapter becomes easy after enough attempts.",
+    "np": "पर्याप्त प्रयासपछि कठिन अध्याय सजिलो हुन्छ।",
+    "type": "consistency"
+  },
+  {
+    "id": "q096",
+    "en": "Focus on today's task, not tomorrow's fear.",
+    "np": "भोलिको डर होइन, आजको काममा ध्यान दिनुहोस्।",
+    "type": "focus"
+  },
+  {
+    "id": "q097",
+    "en": "Read less if needed, but understand better.",
+    "np": "आवश्यक परे कम पढ्नुहोस्, तर राम्रो बुझ्नुहोस्।",
+    "type": "revision"
+  },
+  {
+    "id": "q098",
+    "en": "Your future marks depend on today's habits.",
+    "np": "भविष्यका अंक आजका बानीमा निर्भर हुन्छन्।",
+    "type": "consistency"
+  },
+  {
+    "id": "q099",
+    "en": "Do not give up because one topic is hard.",
+    "np": "एउटा विषय कठिन भयो भन्दै हार नमान्नुहोस्।",
+    "type": "confidence"
+  },
+  {
+    "id": "q100",
+    "en": "Keep learning; every page brings you closer.",
+    "np": "सिकिरहनुहोस्; हरेक पानाले तपाईंलाई नजिक पुर्याउँछ।",
+    "type": "consistency"
+  }
+]

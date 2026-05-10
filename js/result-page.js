@@ -30,8 +30,8 @@
     total: isNp ? "जम्मा" : "Total",
     timeTaken: isNp ? "लिएको समय" : "Time taken",
     timeUp: isNp ? "समय समाप्त" : "Time is up",
-    reviewAnswers: isNp ? "उत्तर समीक्षा" : "Review answers",
-    tryAgain: isNp ? "फेरि प्रयास" : "Try again",
+    reviewAnswers: isNp ? "उत्तर समीक्षा" : "Review Answers",
+    tryAgain: isNp ? "फेरि प्रयास" : "Try Again",
     backToChapter: isNp ? "अध्यायमा फर्कनुहोस्" : "Back to Chapter",
     chooseChapter: isNp ? "अध्याय छान्नुहोस्" : "Choose Chapter",
     answerReview: isNp ? "उत्तर समीक्षा" : "Answer Review",
@@ -92,24 +92,47 @@
 
   function getGradeData(pct) {
     if (pct >= 80) {
-      return { icon: "✓", message: labels.excellent, className: "excellent" };
+      return { icon: "🏆", message: labels.excellent, className: "excellent" };
     }
 
-    if (pct >= 60) {
-      return { icon: "✓", message: labels.good, className: "good" };
+    if (pct >= 50) {
+      return { icon: "👍", message: labels.good, className: "good" };
     }
 
-    if (pct >= 40) {
-      return { icon: "•", message: labels.practiceMore, className: "average" };
-    }
-
-    return { icon: "•", message: labels.dontGiveUp, className: "low" };
+    return { icon: "💪", message: labels.practiceMore, className: "low" };
   }
 
   function getMotivation(pct) {
     if (pct >= 80) return labels.motivationHigh;
     if (pct >= 50) return labels.motivationMid;
     return labels.motivationLow;
+  }
+
+  function getScoreGuidance(pct) {
+    if (pct >= 80) {
+      return isNp ? "नियमित पुनरावृत्ति गरेर आफ्नो तयारी बलियो राख्नुहोस्।" : "Keep revising to stay sharp.";
+    }
+
+    if (pct >= 50) {
+      return isNp ? "गलत उत्तरहरू समीक्षा गरेर फेरि प्रयास गर्नुहोस्।" : "Review the wrong answers, then try again.";
+    }
+
+    return isNp ? "व्याख्या समीक्षा गरेर फेरि प्रयास गर्नुहोस्।" : "Review the explanations, then try again.";
+  }
+
+  function getMotivationContext(pct) {
+    if (pct >= 80) return "result-high";
+    if (pct >= 50) return "result-medium";
+    return "result-low";
+  }
+
+  function renderResultMotivation(pct) {
+    if (
+      window.SEE2083Motivation &&
+      typeof SEE2083Motivation.renderQuote === "function"
+    ) {
+      SEE2083Motivation.renderQuote("#result-motivation", getMotivationContext(pct));
+    }
   }
 
   function getResultMode(resultData) {
@@ -137,6 +160,25 @@
     }
 
     return textValue;
+  }
+
+  function toSafeNumber(value) {
+    const numberValue = Number(value);
+    return Number.isFinite(numberValue) ? numberValue : 0;
+  }
+
+  function getResultPercent(resultData, score, total) {
+    const pctValue = Number(resultData && resultData.pct);
+
+    if (Number.isFinite(pctValue)) {
+      return Math.max(0, Math.min(100, Math.round(pctValue)));
+    }
+
+    if (total > 0) {
+      return Math.max(0, Math.min(100, Math.round((score / total) * 100)));
+    }
+
+    return 0;
   }
 
   function getTryAgainUrl(resultData) {
@@ -226,9 +268,9 @@
   function renderResultSummary(resultData) {
     if (!resultArea) return;
 
-    const score = Number(resultData.score || 0);
-    const total = Number(resultData.total || 0);
-    const pct = Number(resultData.pct || 0);
+    const score = Math.max(0, toSafeNumber(resultData.score));
+    const total = Math.max(0, toSafeNumber(resultData.total));
+    const pct = getResultPercent(resultData, score, total);
     const wrong = Math.max(total - score, 0);
     const timeTaken = normalizeTimeTaken(resultData.timeTaken);
     const timeUp = Boolean(resultData.timeUp);
@@ -252,13 +294,16 @@
 
         '<div class="result-score-box">' +
           '<div class="result-score-ring">' +
-            '<span class="score-num">' + escapeHTML(pct) + '%</span>' +
+            '<span class="score-num">' + escapeHTML(String(pct)) + '%</span>' +
             '<span class="score-label">' + escapeHTML(labels.score) + '</span>' +
           '</div>' +
         '</div>' +
       '</div>' +
 
-      '<div class="content-notice">' + escapeHTML(getMotivation(pct)) + '</div>' +
+      '<div id="result-motivation">' +
+        '<div class="content-notice">' + escapeHTML(getMotivation(pct)) + '</div>' +
+      '</div>' +
+      '<div class="content-notice">' + escapeHTML(getScoreGuidance(pct)) + '</div>' +
 
       (timeUp
         ? '<div class="result-alert">' + escapeHTML(labels.timeUp) + '</div>'
@@ -267,17 +312,17 @@
       '<div class="result-stats-grid">' +
         '<div class="result-stat">' +
           '<span>' + escapeHTML(labels.correct) + '</span>' +
-          '<strong class="success">' + escapeHTML(score) + '</strong>' +
+          '<strong class="success">' + escapeHTML(String(score)) + '</strong>' +
         '</div>' +
 
         '<div class="result-stat">' +
           '<span>' + escapeHTML(labels.wrong) + '</span>' +
-          '<strong class="error">' + escapeHTML(wrong) + '</strong>' +
+          '<strong class="error">' + escapeHTML(String(wrong)) + '</strong>' +
         '</div>' +
 
         '<div class="result-stat">' +
           '<span>' + escapeHTML(labels.total) + '</span>' +
-          '<strong>' + escapeHTML(total) + '</strong>' +
+          '<strong>' + escapeHTML(String(total)) + '</strong>' +
         '</div>' +
 
         '<div class="result-stat">' +
@@ -311,6 +356,8 @@
         renderReview(resultData, true);
       });
     }
+
+    renderResultMotivation(pct);
 
     if (hasReview) {
       renderReview(resultData, false);

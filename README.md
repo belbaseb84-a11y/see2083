@@ -44,3 +44,26 @@ Result actions now show Back to Chapter or Choose Chapter more visibly beside Tr
 Motivation copy was improved and repeated low-score wording was removed.
 
 No CSS or runtime content system changes were made.
+
+---
+
+## Phase 2K Motivation System and Chapter Navigation
+
+100 original student motivation quotes were added in `data/motivation-quotes.json`.
+
+`js/motivation.js` loads the quote bank, avoids repeating the same quote twice in a row where possible, and renders visible quote cards on quiz and result pages.
+
+Chapter pages now include Choose Another Chapter navigation back to the chapter list.
+
+No backend, database, external library, or real textbook content was added.
+
+---
+
+## Phase 2K.1 Result Page Polish
+
+The result page was polished without changing data or content packs.
+
+- Fixed 0% score display so zero renders as `0%`.
+- Improved result motivation visibility with the existing quote card system.
+- Kept result actions clear: Review Answers, Try Again, Back to Chapter or Choose Chapter, and Home.
+- Kept mock result and old score-only result compatibility.
