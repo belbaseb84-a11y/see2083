@@ -1,0 +1,9 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "chapter-slug",
+  "status": "draft",
+  "timeLimitSeconds": 900,
+  "questionCount": 10,
+  "questions": []
+}

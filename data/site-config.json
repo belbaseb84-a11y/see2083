@@ -1,0 +1,7 @@
+{
+  "siteName": "SEE2083",
+  "version": "2.0-content-phase-1",
+  "contentSystem": "chapter-folder",
+  "mediumIds": ["english", "nepali", "electrical"],
+  "currentSystemFallback": "S2083"
+}

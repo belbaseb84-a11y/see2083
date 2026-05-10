@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SEE2083 Downloads Pack",
+  "type": "object",
+  "required": ["medium", "subject", "chapter", "status", "items"],
+  "properties": {
+    "medium": { "type": "string", "enum": ["english", "nepali", "electrical"] },
+    "subject": { "type": "string" },
+    "chapter": { "type": "string" },
+    "status": { "type": "string", "enum": ["draft", "checked", "published", "rejected"] },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "type", "mode", "viewUrl", "downloadAllowed", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "type": { "type": "string", "enum": ["docx", "pdf", "image", "other"] },
+          "mode": { "type": "string" },
+          "viewUrl": { "type": "string" },
+          "downloadAllowed": { "type": "boolean" },
+          "status": { "type": "string", "enum": ["draft", "checked", "published", "rejected"] }
+        }
+      }
+    }
+  }
+}

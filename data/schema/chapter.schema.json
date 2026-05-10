@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SEE2083 Chapter",
+  "type": "object",
+  "required": [
+    "id",
+    "legacyId",
+    "medium",
+    "subject",
+    "chapter",
+    "slug",
+    "unit",
+    "title",
+    "titleNp",
+    "summary",
+    "summaryNp",
+    "status",
+    "version",
+    "lastUpdated",
+    "resources"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "legacyId": { "type": "string" },
+    "medium": { "type": "string", "enum": ["english", "nepali", "electrical"] },
+    "subject": { "type": "string" },
+    "chapter": { "type": "string" },
+    "slug": { "type": "string" },
+    "unit": { "type": "integer", "minimum": 1 },
+    "title": { "type": "string" },
+    "titleNp": { "type": "string" },
+    "summary": { "type": "string" },
+    "summaryNp": { "type": "string" },
+    "status": { "type": "string", "enum": ["draft", "checked", "published", "rejected"] },
+    "version": { "type": "string" },
+    "lastUpdated": { "type": "string" },
+    "resources": {
+      "type": "object",
+      "required": [
+        "mcq",
+        "notes",
+        "easyNote",
+        "importantQuestions",
+        "mockTest",
+        "slides",
+        "infographics",
+        "downloads"
+      ]
+    }
+  }
+}

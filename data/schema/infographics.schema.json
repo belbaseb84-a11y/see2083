@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SEE2083 Infographics Pack",
+  "type": "object",
+  "required": ["medium", "subject", "chapter", "status", "items"],
+  "properties": {
+    "medium": { "type": "string", "enum": ["english", "nepali", "electrical"] },
+    "subject": { "type": "string" },
+    "chapter": { "type": "string" },
+    "status": { "type": "string", "enum": ["draft", "checked", "published", "rejected"] },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "image", "caption", "reviewStatus"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "titleNp": { "type": "string" },
+          "image": { "type": "string" },
+          "caption": { "type": "string" },
+          "captionNp": { "type": "string" },
+          "reviewStatus": { "type": "string", "enum": ["draft", "checked", "published", "rejected"] }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "chapter-slug",
+  "status": "draft",
+  "items": [
+    {
+      "id": "subject-chapter-info-001",
+      "title": "Chapter Demo Infographic",
+      "titleNp": "",
+      "image": "images/demo-infographic-placeholder.webp",
+      "caption": "Demo placeholder infographic item.",
+      "captionNp": "",
+      "reviewStatus": "draft"
+    }
+  ]
+}

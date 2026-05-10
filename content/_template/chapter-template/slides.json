@@ -1,0 +1,20 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "chapter-slug",
+  "status": "draft",
+  "slides": [
+    {
+      "id": "subject-chapter-slide-001",
+      "title": "Chapter Title",
+      "titleNp": "",
+      "points": [
+        "Demo slide point only.",
+        "This is placeholder content."
+      ],
+      "pointsNp": [],
+      "image": "images/demo-slide-placeholder.webp",
+      "reviewStatus": "draft"
+    }
+  ]
+}

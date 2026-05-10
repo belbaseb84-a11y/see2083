@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SEE2083 Slides Pack",
+  "type": "object",
+  "required": ["medium", "subject", "chapter", "status", "slides"],
+  "properties": {
+    "medium": { "type": "string", "enum": ["english", "nepali", "electrical"] },
+    "subject": { "type": "string" },
+    "chapter": { "type": "string" },
+    "status": { "type": "string", "enum": ["draft", "checked", "published", "rejected"] },
+    "slides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "points", "reviewStatus"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "titleNp": { "type": "string" },
+          "points": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "pointsNp": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "image": { "type": "string" },
+          "reviewStatus": { "type": "string", "enum": ["draft", "checked", "published", "rejected"] }
+        }
+      }
+    }
+  }
+}

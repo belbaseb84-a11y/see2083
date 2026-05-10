@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-09",
+  "mediums": {
+    "english": {
+      "subjects": {
+        "science": {
+          "chapters": {
+            "scientific-study": {
+              "id": "chapter:english:science:scientific-study",
+              "legacyId": "chapter-science-scientific-study",
+              "unit": 1,
+              "title": "Scientific Study",
+              "titleNp": "वैज्ञानिक अध्ययन",
+              "status": "published",
+              "basePath": "content/english/science/scientific-study/",
+              "resources": {
+                "chapter": "content/english/science/scientific-study/chapter.json",
+                "mcq": "content/english/science/scientific-study/mcq.json",
+                "notes": "content/english/science/scientific-study/notes.html",
+                "easyNote": "content/english/science/scientific-study/easy-note.html",
+                "importantQuestions": "content/english/science/scientific-study/important-questions.json",
+                "mockTest": "content/english/science/scientific-study/mock-test.json",
+                "slides": "content/english/science/scientific-study/slides.json",
+                "infographics": "content/english/science/scientific-study/infographics.json",
+                "downloads": "content/english/science/scientific-study/downloads.json"
+              }
+            }
+          }
+        }
+      }
+    },
+    "nepali": {
+      "subjects": {}
+    },
+    "electrical": {
+      "subjects": {}
+    }
+  }
+}

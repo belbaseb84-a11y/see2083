@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SEE2083 MCQ Pack",
+  "type": "object",
+  "required": ["medium", "subject", "chapter", "status", "questions"],
+  "properties": {
+    "medium": { "type": "string", "enum": ["english", "nepali", "electrical"] },
+    "subject": { "type": "string" },
+    "chapter": { "type": "string" },
+    "chapterTitle": { "type": "string" },
+    "status": { "type": "string", "enum": ["draft", "checked", "published", "rejected"] },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "subject",
+          "chapter",
+          "question",
+          "options",
+          "correct",
+          "explanation",
+          "difficulty",
+          "reviewStatus"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "legacyId": { "type": "string" },
+          "subject": { "type": "string" },
+          "chapter": { "type": "string" },
+          "question": { "type": "string" },
+          "questionNp": { "type": "string" },
+          "options": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": { "type": "string" }
+          },
+          "optionsNp": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "correct": { "type": "integer", "enum": [0, 1, 2, 3] },
+          "explanation": { "type": "string" },
+          "explanationNp": { "type": "string" },
+          "difficulty": { "type": "string" },
+          "type": { "type": "string" },
+          "reviewStatus": { "type": "string", "enum": ["draft", "checked", "published", "rejected"] }
+        }
+      }
+    }
+  }
+}

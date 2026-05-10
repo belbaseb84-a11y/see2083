@@ -1,0 +1,52 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "scientific-study",
+  "status": "published",
+  "timeLimitSeconds": 900,
+  "questionCount": 3,
+  "questions": [
+    {
+      "id": "science-scientific-study-mock-q001",
+      "subject": "science",
+      "chapter": "scientific-study",
+      "question": "Demo mock question 1?",
+      "questionNp": "",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "optionsNp": [],
+      "correct": 0,
+      "explanation": "Demo explanation only.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "science-scientific-study-mock-q002",
+      "subject": "science",
+      "chapter": "scientific-study",
+      "question": "Demo mock question 2?",
+      "questionNp": "",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "optionsNp": [],
+      "correct": 1,
+      "explanation": "Demo explanation only.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "science-scientific-study-mock-q003",
+      "subject": "science",
+      "chapter": "scientific-study",
+      "question": "Demo mock question 3?",
+      "questionNp": "",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "optionsNp": [],
+      "correct": 2,
+      "explanation": "Demo explanation only.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "reviewStatus": "published"
+    }
+  ]
+}

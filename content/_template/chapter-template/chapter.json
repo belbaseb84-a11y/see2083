@@ -1,0 +1,26 @@
+{
+  "id": "chapter:medium:subject:chapter-slug",
+  "legacyId": "chapter-subject-chapter-slug",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "chapter-slug",
+  "slug": "chapter-slug",
+  "unit": 1,
+  "title": "Chapter Title",
+  "titleNp": "",
+  "summary": "Short chapter summary.",
+  "summaryNp": "",
+  "status": "draft",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-09",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

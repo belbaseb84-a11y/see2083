@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:science:scientific-study",
+  "legacyId": "chapter-science-scientific-study",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "scientific-study",
+  "slug": "scientific-study",
+  "unit": 1,
+  "title": "Scientific Study",
+  "titleNp": "वैज्ञानिक अध्ययन",
+  "summary": "Demo placeholder summary for testing the future content system.",
+  "summaryNp": "भविष्यको content system परीक्षणका लागि demo placeholder summary.",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-09",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

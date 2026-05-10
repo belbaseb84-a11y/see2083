@@ -1,0 +1,20 @@
+[
+  {
+    "id": "english",
+    "label": "English Medium",
+    "labelNp": "अंग्रेजी माध्यम",
+    "status": "published"
+  },
+  {
+    "id": "nepali",
+    "label": "Nepali Medium",
+    "labelNp": "नेपाली माध्यम",
+    "status": "published"
+  },
+  {
+    "id": "electrical",
+    "label": "Electrical Engineering",
+    "labelNp": "इलेक्ट्रिकल इन्जिनियरिङ",
+    "status": "published"
+  }
+]

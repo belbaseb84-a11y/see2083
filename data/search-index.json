@@ -1,0 +1,51 @@
+[
+  {
+    "id": "chapter:english:science:scientific-study",
+    "legacyId": "chapter-science-scientific-study",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "scientific-study",
+    "title": "Scientific Study",
+    "titleNp": "वैज्ञानिक अध्ययन",
+    "keywords": ["scientific", "study", "science", "observation", "experiment"],
+    "url": "chapter.html?subject=science&chapter=scientific-study&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "material:english:science:scientific-study:easy-note",
+    "type": "material",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "scientific-study",
+    "title": "Scientific Study Easy Note",
+    "titleNp": "वैज्ञानिक अध्ययन सजिलो नोट",
+    "keywords": ["scientific", "study", "science", "easy", "note", "revision"],
+    "url": "notes.html?subject=science&chapter=scientific-study&medium=english&type=easy",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:scientific-study",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "scientific-study",
+    "title": "Scientific Study MCQ Practice",
+    "titleNp": "वैज्ञानिक अध्ययन MCQ अभ्यास",
+    "keywords": ["scientific", "study", "science", "mcq", "practice", "quiz"],
+    "url": "quiz.html?subject=science&chapter=scientific-study&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "material:english:science:scientific-study:mock-test",
+    "type": "material",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "scientific-study",
+    "title": "Scientific Study Mock Test",
+    "titleNp": "वैज्ञानिक अध्ययन नमुना परीक्षा",
+    "keywords": ["scientific", "study", "science", "mock", "test", "practice"],
+    "url": "mock-test.html?subject=science&chapter=scientific-study&medium=english",
+    "status": "published"
+  }
+]

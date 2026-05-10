@@ -1,0 +1,32 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "scientific-study",
+  "status": "published",
+  "slides": [
+    {
+      "id": "science-scientific-study-slide-001",
+      "title": "Scientific Study",
+      "titleNp": "वैज्ञानिक अध्ययन",
+      "points": [
+        "Demo slide point only.",
+        "This is placeholder content."
+      ],
+      "pointsNp": [],
+      "image": "images/demo-slide-placeholder.webp",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "science-scientific-study-slide-002",
+      "title": "Future Content Test",
+      "titleNp": "",
+      "points": [
+        "This slide exists only for structure testing.",
+        "Real chapter content will be added later after review."
+      ],
+      "pointsNp": [],
+      "image": "images/demo-slide-placeholder.webp",
+      "reviewStatus": "published"
+    }
+  ]
+}

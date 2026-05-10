@@ -1,0 +1,72 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "scientific-study",
+  "chapterTitle": "Scientific Study",
+  "status": "published",
+  "questions": [
+    {
+      "id": "science-scientific-study-q001",
+      "legacyId": "q1",
+      "subject": "science",
+      "chapter": "scientific-study",
+      "question": "Demo question text only?",
+      "questionNp": "",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "optionsNp": [],
+      "correct": 0,
+      "explanation": "Demo explanation only.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "type": "concept",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "science-scientific-study-q002",
+      "legacyId": "",
+      "subject": "science",
+      "chapter": "scientific-study",
+      "question": "Which option is used only as demo content?",
+      "questionNp": "",
+      "options": [
+        "Real textbook content",
+        "Option B",
+        "Official copied content",
+        "Internet content"
+      ],
+      "optionsNp": [],
+      "correct": 1,
+      "explanation": "This is demo explanation only for the future content structure.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "type": "concept",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "science-scientific-study-q003",
+      "legacyId": "",
+      "subject": "science",
+      "chapter": "scientific-study",
+      "question": "What does this sample MCQ file test?",
+      "questionNp": "",
+      "options": [
+        "Website styling",
+        "Payment setup",
+        "Future content loading structure",
+        "Admin login"
+      ],
+      "optionsNp": [],
+      "correct": 2,
+      "explanation": "This MCQ exists only to test the future content loading structure.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "type": "concept",
+      "reviewStatus": "published"
+    }
+  ]
+}

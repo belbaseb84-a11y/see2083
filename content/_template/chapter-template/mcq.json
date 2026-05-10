@@ -1,0 +1,30 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "chapter-slug",
+  "chapterTitle": "Chapter Title",
+  "status": "draft",
+  "questions": [
+    {
+      "id": "subject-chapter-q001",
+      "legacyId": "",
+      "subject": "science",
+      "chapter": "chapter-slug",
+      "question": "Demo question text only?",
+      "questionNp": "",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "optionsNp": [],
+      "correct": 0,
+      "explanation": "Demo explanation only.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "type": "concept",
+      "reviewStatus": "draft"
+    }
+  ]
+}

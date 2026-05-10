@@ -1,0 +1,26 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "scientific-study",
+  "status": "published",
+  "items": [
+    {
+      "id": "science-scientific-study-docx-view",
+      "title": "Scientific Study DOCX View",
+      "type": "docx",
+      "mode": "google-drive-view",
+      "viewUrl": "PASTE_GOOGLE_DRIVE_VIEW_LINK_HERE",
+      "downloadAllowed": false,
+      "status": "draft"
+    },
+    {
+      "id": "science-scientific-study-pdf-view",
+      "title": "Scientific Study PDF View",
+      "type": "pdf",
+      "mode": "google-drive-view",
+      "viewUrl": "PASTE_GOOGLE_DRIVE_VIEW_LINK_HERE",
+      "downloadAllowed": false,
+      "status": "draft"
+    }
+  ]
+}

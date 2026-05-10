@@ -1,0 +1,17 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "scientific-study",
+  "status": "published",
+  "items": [
+    {
+      "id": "science-scientific-study-info-001",
+      "title": "Scientific Study Demo Infographic",
+      "titleNp": "वैज्ञानिक अध्ययन Demo Infographic",
+      "image": "images/demo-infographic-placeholder.webp",
+      "caption": "Demo placeholder infographic item.",
+      "captionNp": "",
+      "reviewStatus": "published"
+    }
+  ]
+}
