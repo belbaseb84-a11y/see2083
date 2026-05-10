@@ -206,6 +206,33 @@
     ]);
   }
 
+  function getBackHref() {
+    if (requestedSubject && requestedChapter) {
+      return "chapter.html?subject=" + encodeURIComponent(requestedSubject) +
+        "&chapter=" + encodeURIComponent(requestedChapter) +
+        "&medium=" + encodeURIComponent(medium);
+    }
+
+    if (requestedSubject) {
+      return "chapters.html?subject=" + encodeURIComponent(requestedSubject) +
+        "&medium=" + encodeURIComponent(medium);
+    }
+
+    return "subjects.html?medium=" + encodeURIComponent(medium);
+  }
+
+  function getBackLabel() {
+    if (requestedSubject && requestedChapter) {
+      return isNp ? "अध्यायमा फर्कनुहोस्" : "Back to Chapter";
+    }
+
+    if (requestedSubject) {
+      return isNp ? "अध्याय छान्नुहोस्" : "Choose Chapter";
+    }
+
+    return labels.browseSubjects;
+  }
+
   function renderInstructions() {
     if (!instructionsList) return;
 
@@ -294,8 +321,8 @@
     if (mockSubtitle) mockSubtitle.textContent = subtitle;
 
     if (mockBackLink) {
-      mockBackLink.href = "subjects.html?medium=" + encodeURIComponent(medium);
-      mockBackLink.textContent = labels.browseSubjects;
+      mockBackLink.href = getBackHref();
+      mockBackLink.textContent = getBackLabel();
     }
 
     if (instructionsTitle) instructionsTitle.textContent = labels.instructions;

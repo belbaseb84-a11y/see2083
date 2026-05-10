@@ -84,3 +84,13 @@ The global website interface remains mostly English for now.
 The top language toggle was changed into a Medium shortcut, and the About page was cleaned to remove garbled text and clarify trust/privacy scope.
 
 No content pack or data system changes were made.
+
+---
+
+## Phase 2M Navigation Audit and Fix
+
+Navigation buttons and generated links were audited across the main static pages.
+
+Broken or weak routes were fixed using normal links or safe generated URLs.
+
+No router, framework, build tool, CSS redesign, or content system change was added.

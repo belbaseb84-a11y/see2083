@@ -121,7 +121,31 @@
   }
 
   function getBookmarkUrl(item) {
-    return item && item.url ? item.url : "index.html";
+    if (!item) return "index.html";
+    if (item.url) return item.url;
+
+    const medium = item.medium || getCurrentMedium() || "english";
+    const subject = item.subject || item.subjectId || "";
+    const chapter = item.chapter || item.chapterId || "";
+
+    if (item.type === "chapter" && subject && chapter) {
+      return "chapter.html?subject=" + encodeURIComponent(subject) +
+        "&chapter=" + encodeURIComponent(chapter) +
+        "&medium=" + encodeURIComponent(medium);
+    }
+
+    if (item.type === "mcq" && subject && chapter) {
+      return "quiz.html?subject=" + encodeURIComponent(subject) +
+        "&chapter=" + encodeURIComponent(chapter) +
+        "&medium=" + encodeURIComponent(medium);
+    }
+
+    if (subject) {
+      return "chapters.html?subject=" + encodeURIComponent(subject) +
+        "&medium=" + encodeURIComponent(medium);
+    }
+
+    return "bookmarks.html";
   }
 
   function formatSavedTime(item) {
