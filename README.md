@@ -67,3 +67,20 @@ The result page was polished without changing data or content packs.
 - Improved result motivation visibility with the existing quote card system.
 - Kept result actions clear: Review Answers, Try Again, Back to Chapter or Choose Chapter, and Home.
 - Kept mock result and old score-only result compatibility.
+
+---
+
+## Phase 2L Language Scope and About Cleanup
+
+v1 does not translate the whole website.
+
+Medium selection controls the main content language:
+- English Medium shows English content.
+- Nepali Medium shows Nepali content where available.
+- Electrical shows technical stream content.
+
+The global website interface remains mostly English for now.
+
+The top language toggle was changed into a Medium shortcut, and the About page was cleaned to remove garbled text and clarify trust/privacy scope.
+
+No content pack or data system changes were made.

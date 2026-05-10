@@ -1,31 +1,43 @@
 /* ===================================================
-   see2083 — Language (English / Nepali)
+   see2083 - Medium-aware content language
+   v1 keeps global UI mostly English.
    =================================================== */
 
 const Lang = (() => {
   const KEY = "s2083_lang";
-  let current = localStorage.getItem(KEY) || "en";
+  let current = "en";
+
+  function getMediumLanguage() {
+    let medium = "";
+
+    try {
+      medium = new URLSearchParams(window.location.search).get("medium") || "";
+    } catch (error) {
+      medium = "";
+    }
+
+    return medium === "nepali" ? "np" : "en";
+  }
 
   function apply(lang) {
     current = lang;
     localStorage.setItem(KEY, lang);
     document.documentElement.setAttribute("lang", lang === "np" ? "ne" : "en");
     document.body.classList.toggle("lang-np", lang === "np");
-    // Update toggle buttons
+
     document.querySelectorAll("[data-lang-toggle]").forEach(btn => {
-      btn.textContent = lang === "np" ? "English" : "नेपाली";
-      btn.setAttribute("title", lang === "np" ? "Switch to English" : "नेपालीमा जानुहोस्");
+      btn.textContent = "Medium";
+      btn.setAttribute("title", "Choose medium");
+      btn.setAttribute("aria-label", "Choose medium");
     });
   }
 
   function toggle() {
-    apply(current === "en" ? "np" : "en");
-    // Reload page so language-aware renders update
-    window.location.reload();
+    window.location.href = "medium.html";
   }
 
   function t(key) {
-    const labels = S2083.labels[current] || S2083.labels["en"];
+    const labels = S2083.labels["en"] || {};
     return labels[key] || key;
   }
 
@@ -36,7 +48,7 @@ const Lang = (() => {
   }
 
   function init() {
-    apply(current);
+    apply(getMediumLanguage());
   }
 
   return { init, toggle, t, display, current: () => current };

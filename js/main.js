@@ -19,21 +19,16 @@ function applyResponsiveSearchPlaceholders() {
   const isMobile = window.matchMedia("(max-width: 640px)").matches;
   const desktopText = "Search subjects or chapters...";
   const mobileText = "Search chapters...";
-  const npText = "विषय वा अध्याय खोज्नुहोस्...";
-  const currentLang = typeof Lang !== "undefined" ? Lang.current() : "en";
 
   document
     .querySelectorAll("#hero-search-input, #search-input, #main-search-input, .search-box input, .search-page-box input")
     .forEach(function (input) {
-      input.placeholder = currentLang === "np"
-        ? npText
-        : (isMobile ? mobileText : desktopText);
+      input.placeholder = isMobile ? mobileText : desktopText;
     });
 }
 
 // ─── Navbar ───────────────────────────────────────────
 function renderNavbar(activePage) {
-  const lang = Lang.current();
   const medium = getMedium();
   const nav = document.getElementById("navbar");
   if (!nav) return;
@@ -55,9 +50,7 @@ function renderNavbar(activePage) {
         `).join("")}
       </nav>
       <div class="navbar-actions">
-        <button class="icon-btn" data-lang-toggle title="Switch language" onclick="Lang.toggle()" aria-label="Switch language">
-          ${lang === "np" ? "English" : "नेपाली"}
-        </button>
+        <a class="icon-btn" href="medium.html" title="Choose medium" aria-label="Choose medium">Medium</a>
         <button class="icon-btn" data-theme-toggle title="Toggle theme" onclick="Theme.toggle()" aria-label="Toggle dark mode">🌙</button>
       </div>
     </div>

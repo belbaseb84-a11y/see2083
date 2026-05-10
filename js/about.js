@@ -1,6 +1,6 @@
-﻿/* ===================================================
+/* ===================================================
    see2083 - About Page Logic
-   Initializes shared layout and breadcrumb
+   v1 keeps this page in clean English.
    =================================================== */
 
 (function () {
@@ -8,43 +8,25 @@
     pageInit("about");
   }
 
-  const lang = getCurrentLanguage();
-  const isNp = lang === "np";
-
   const labels = {
-    home: isNp ? "à¤—à¥ƒà¤¹à¤ªà¥ƒà¤·à¥à¤ " : "Home",
-    about: isNp ? "à¤¬à¤¾à¤°à¥‡à¤®à¤¾" : "About",
-    kicker: isNp ? "see2083 à¤¬à¤¾à¤°à¥‡à¤®à¤¾" : "About see2083",
-    title: isNp
-      ? "see2083 बारेमा"
-      : "About see2083",
-    subtitle: isNp
-      ? "नेपालका विद्यार्थी र शिक्षकका लागि सरल SEE Grade 10 अध्ययन प्लेटफर्म।"
-      : "A simple SEE Grade 10 study platform for students and teachers in Nepal.",
-    start: isNp ? "à¤ªà¤¢à¥à¤¨ à¤¸à¥à¤°à¥ à¤—à¤°à¥à¤¨à¥à¤¹à¥‹à¤¸à¥" : "Start Learning",
-    subjects: isNp ? "à¤µà¤¿à¤·à¤¯à¤¹à¤°à¥‚ à¤¹à¥‡à¤°à¥à¤¨à¥à¤¹à¥‹à¤¸à¥" : "Browse Subjects",
-    purpose: isNp ? "à¤…à¤§à¥à¤¯à¤¯à¤¨ à¤²à¤•à¥à¤·à¥à¤¯" : "Study goal",
-    purposeTitle: isNp ? "Why see2083?" : "Why see2083?",
-    purposeSub: isNp
-      ? "Simple tools for chapter-wise SEE revision."
-      : "Simple tools for chapter-wise SEE revision.",
-    mainCopy: isNp
-      ? "see2083 helps students study chapter by chapter. Choose your medium, open subjects, revise notes, practice MCQs, take mock tests, and save useful chapters for later."
-      : "see2083 helps students study chapter by chapter. Choose your medium, open subjects, revise notes, practice MCQs, take mock tests, and save useful chapters for later.",
-    appTitle: isNp ? "Android app प्रयोग गर्नुहोस्" : "Use our Android app",
-    appText: isNp
-      ? "Class 10 SEE Guide सजिलो mobile अध्ययनका लागि Android मा पनि उपलब्ध छ।"
-      : "Class 10 SEE Guide is also available on Android for easier mobile study.",
-    appBtn: isNp ? "Play Store मा खोल्नुहोस्" : "Open on Play Store",
+    home: "Home",
+    about: "About",
+    kicker: "About see2083",
+    title: "About see2083",
+    subtitle: "A simple SEE Grade 10 study platform for students and teachers in Nepal.",
+    start: "Start Learning",
+    subjects: "Browse Subjects",
+    purpose: "Study platform",
+    purposeTitle: "Built for chapter-wise SEE study",
+    purposeSub:
+      "see2083 provides subject-wise and chapter-wise study tools for Grade 10 SEE students.",
+    mainCopy:
+      "Students can choose English Medium, Nepali Medium, or Electrical Engineering, then open subjects, chapters, notes, MCQ practice, mock tests, search, and bookmarks in one clean place.",
+    appTitle: "Use our Android app",
+    appText: "Class 10 SEE Guide is also available on Android for easier mobile study.",
+    appBtn: "Open on Play Store",
     appUrl: "https://play.google.com/store/apps/details?id=com.sushilmarashini.seeguide",
-    status4: isNp ? "Search and bookmarks" : "Search and bookmarks",
-    checklist: [
-      "Chapter-wise learning",
-      "Easy revision flow",
-      "MCQ and mock test practice",
-      "Search and bookmarks"
-    ],
-    final: isNp ? "à¤ªà¤¢à¥à¤¨ à¤¸à¥à¤°à¥ à¤—à¤°à¥à¤¨à¥à¤¹à¥‹à¤¸à¥" : "Start Learning"
+    final: "Start Learning"
   };
 
   function setText(id, value) {
@@ -73,34 +55,57 @@
   setText("about-subtitle", labels.subtitle);
   setText("start-btn", labels.start);
   setText("subjects-btn", labels.subjects);
+
+  setText("mini-1-title", "Chapter focused");
+  setText("mini-1-text", "Study one chapter at a time.");
+  setText("mini-2-title", "Practice tools");
+  setText("mini-2-text", "MCQs and mock tests for revision.");
+  setText("mini-3-title", "Easy to search");
+  setText("mini-3-text", "Find subjects and chapters easily.");
+
   setText("purpose-kicker", labels.purpose);
   setText("purpose-title", labels.purposeTitle);
   setText("purpose-subtitle", labels.purposeSub);
-  setText("goal-1-title", "Chapter-wise learning");
-  setText("goal-1-text", "Study one chapter at a time.");
-  setText("goal-2-title", "Easy revision flow");
-  setText("goal-2-text", "Move from notes to practice quickly.");
-  setText("goal-3-title", "Search and bookmarks");
-  setText("goal-3-text", "Find and save useful chapters.");
-  setText("for-title", "Why see2083?");
+
+  setText("goal-1-title", "Subject-wise study");
+  setText("goal-1-text", "Open the medium, subject, and chapter you want to revise.");
+  setText("goal-2-title", "Practice and revision");
+  setText("goal-2-text", "Use notes, MCQ practice, mock tests, and past-question sections.");
+  setText("goal-3-title", "Simple static website");
+  setText("goal-3-text", "No login is required, and no student personal data is collected.");
+
+  setText("for-kicker", "For students and teachers");
+  setText("for-title", "Study tools in one place");
   setText("for-text", labels.mainCopy);
-  setText("version-title", "Study smarter. Aim higher.");
-  setText("version-text", "Use see2083 to revise clearly, practice regularly, and prepare with confidence for SEE exams.");
-  setText("status-1", "Chapter-wise learning");
-  setText("status-2", "Easy revision flow");
-  setText("status-3", "MCQ and mock test practice");
-  setText("status-4", labels.status4);
+  setList("for-list", [
+    "English Medium, Nepali Medium, and Electrical Engineering sections",
+    "Subject-wise and chapter-wise navigation",
+    "Search, bookmarks, MCQ practice, and mock tests",
+    "Useful structure for students and teachers"
+  ]);
+
+  setText("version-kicker", "Content status");
+  setText("version-title", "Content is being added step by step");
+  setText(
+    "version-text",
+    "Some demo content may still be present while full study materials are reviewed and added."
+  );
+  setText("status-1", "No login required");
+  setText("status-2", "No student personal data collected");
+  setText("status-3", "Mistakes can be reported later");
+  setText("status-4", "Not an official government website");
+
   setText("app-title", labels.appTitle);
   setText("app-text", labels.appText);
   setText("app-btn", labels.appBtn);
-  setList("for-list", labels.checklist);
   const appBtn = document.getElementById("app-btn");
   if (appBtn) appBtn.href = labels.appUrl;
+
+  setText("scope-kicker", "Trust note");
+  setText("scope-title", "Clear scope for v1");
+  setText(
+    "scope-text",
+    "Medium selection controls the main content language. The global website interface remains mostly English for now."
+  );
   setText("final-btn", labels.final);
-  const scopeCard = document.getElementById("scope-kicker");
-  if (scopeCard && scopeCard.closest) {
-    scopeCard.closest(".about-note-card").style.display = "none";
-  }
 })();
-
-
