@@ -1,0 +1,57 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "classification-of-elements",
+  "chapterTitle": "Classification of Elements",
+  "status": "published",
+  "questions": [
+    {
+      "id": "science-classification-of-elements-q001",
+      "legacyId": "science-u2-q001",
+      "subject": "science",
+      "chapter": "classification-of-elements",
+      "question": "Demo MCQ question 1?",
+      "questionNp": "",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "optionsNp": [],
+      "correct": 0,
+      "explanation": "Demo explanation only.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "type": "concept",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "science-classification-of-elements-q002",
+      "legacyId": "science-u2-q002",
+      "subject": "science",
+      "chapter": "classification-of-elements",
+      "question": "Demo MCQ question 2?",
+      "questionNp": "",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "optionsNp": [],
+      "correct": 1,
+      "explanation": "Demo explanation only.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "type": "concept",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "science-classification-of-elements-q003",
+      "legacyId": "science-u2-q003",
+      "subject": "science",
+      "chapter": "classification-of-elements",
+      "question": "Demo MCQ question 3?",
+      "questionNp": "",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "optionsNp": [],
+      "correct": 2,
+      "explanation": "Demo explanation only.",
+      "explanationNp": "",
+      "difficulty": "easy",
+      "type": "concept",
+      "reviewStatus": "published"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 /* ===================================================
-   see2083 — Quiz Page Logic
+   see2083 - Quiz Page Logic
    Sets up MCQ practice filters and page labels
    =================================================== */
 
@@ -30,19 +30,21 @@
       : "Answer each question, get instant feedback, and learn with explanations.",
     chooseSubject: isNp ? "विषय छान्नुहोस्" : "Choose subject",
     filterSub: isNp ? "विषय अनुसार प्रश्नहरू फिल्टर गर्नुहोस्।" : "Filter questions by subject.",
-    browseSubjects: isNp ? "विषयहरू हेर्नुहोस्" : "Browse subjects",
+    browseSubjects: isNp ? "विषयहरू हेर्नुहोस्" : "Browse Subjects",
     practiceInfo: isNp ? "अभ्यास जानकारी" : "Practice info",
     questions: isNp ? "प्रश्नहरू" : "Questions",
     selected: isNp ? "छानिएको" : "Selected",
     mode: isNp ? "मोड" : "Mode",
     instantFeedback: isNp ? "तत्काल प्रतिक्रिया" : "Instant feedback",
     all: isNp ? "सबै" : "All",
-    noQuestions: isNp
-      ? "यस खण्डमा सामग्री थपिएको छैन।"
-      : "No content added in this section yet.",
-    noQuestionsSub: isNp
-      ? "यस खण्डमा सामग्री थपिएको छैन।"
-      : "No content added in this section yet."
+    noQuestions: isNp ? "यस खण्डमा सामग्री थपिएको छैन।" : "No content added in this section yet.",
+    noQuestionsSub: isNp ? "अर्को विषय वा अध्यायबाट अभ्यास गर्नुहोस्।" : "Choose another subject or chapter to practice.",
+    chapterMcqsMissing: isNp ? "यस अध्यायका MCQ अझै थपिएको छैन।" : "MCQs for this chapter are not added yet.",
+    backToChapter: isNp ? "अध्यायमा फर्कनुहोस्" : "Back to Chapter",
+    chooseChapter: isNp ? "अध्याय छान्नुहोस्" : "Choose Chapter",
+    motivation: isNp
+      ? "एक घण्टाको राम्रो अध्ययनले तपाईंलाई धेरै अगाडि लैजान सक्छ।"
+      : "One focused hour of learning can take you farther than hours of scrolling."
   };
 
   const titleEl = document.getElementById("quiz-page-title");
@@ -88,48 +90,64 @@
       .filter(Boolean);
 
     const uniqueIds = Array.from(new Set(ids));
+    const subjects = ["all"].concat(uniqueIds);
 
-    return ["all"].concat(uniqueIds);
+    if (requestedSubject && requestedSubject !== "all" && !subjects.includes(requestedSubject)) {
+      subjects.push(requestedSubject);
+    }
+
+    return subjects;
   }
 
-  function getFallbackQuestions() {
+  function getExactChapterFallbackQuestions(subjectId, chapterId) {
     if (!hasS2083Data() || !Array.isArray(S2083.sampleMCQs)) {
       return [];
     }
 
-    let questions = S2083.sampleMCQs;
+    return S2083.sampleMCQs.filter(function (question) {
+      return question.subject === subjectId && question.chapter === chapterId;
+    });
+  }
 
-    if (activeSubject !== "all") {
-      questions = questions.filter(function (question) {
-        return question.subject === activeSubject;
-      });
+  function getSubjectFallbackQuestions(subjectId) {
+    if (!hasS2083Data() || !Array.isArray(S2083.sampleMCQs)) {
+      return [];
     }
 
-    if (requestedChapter) {
-      const chapterQuestions = questions.filter(function (question) {
-        return question.chapter === requestedChapter;
-      });
+    return S2083.sampleMCQs.filter(function (question) {
+      return question.subject === subjectId;
+    });
+  }
 
-      if (chapterQuestions.length) {
-        return chapterQuestions;
-      }
+  function getAllFallbackQuestions() {
+    if (!hasS2083Data() || !Array.isArray(S2083.sampleMCQs)) {
+      return [];
     }
 
-    return questions;
+    return S2083.sampleMCQs;
+  }
+
+  function isExactChapterPractice() {
+    return Boolean(
+      requestedChapter &&
+      requestedSubject &&
+      requestedSubject !== "all" &&
+      activeSubject === requestedSubject
+    );
   }
 
   async function getExternalQuestionsIfAvailable() {
-    if (activeSubject === "all" || !requestedChapter) return null;
+    if (!isExactChapterPractice()) return null;
     if (!window.SEE2083ContentLoader) return null;
-    if (typeof SEE2083ContentLoader.loadQuizResource !== "function") return null;
-    if (typeof SEE2083ContentLoader.normalizeMCQData !== "function") return null;
+    if (typeof window.SEE2083ContentLoader.loadQuizResource !== "function") return null;
+    if (typeof window.SEE2083ContentLoader.normalizeMCQData !== "function") return null;
 
     try {
-      const result = await SEE2083ContentLoader.loadQuizResource(medium, activeSubject, requestedChapter);
+      const result = await window.SEE2083ContentLoader.loadQuizResource(medium, activeSubject, requestedChapter);
 
       if (!result || !result.found) return null;
 
-      const questions = SEE2083ContentLoader.normalizeMCQData(
+      const questions = window.SEE2083ContentLoader.normalizeMCQData(
         result.data,
         activeSubject,
         requestedChapter
@@ -137,7 +155,7 @@
 
       return questions.length ? questions : null;
     } catch (error) {
-      console.warn("External MCQ load failed; using fallback questions.", error);
+      console.warn("External MCQ load failed; using exact chapter fallback.", error);
       return null;
     }
   }
@@ -160,13 +178,80 @@
       '</div>';
   }
 
-  function renderNoQuestions() {
+  function getBackHref() {
+    if (requestedSubject && requestedSubject !== "all" && requestedChapter) {
+      return "chapter.html?subject=" + encodeURIComponent(requestedSubject) +
+        "&chapter=" + encodeURIComponent(requestedChapter) +
+        "&medium=" + encodeURIComponent(medium);
+    }
+
+    if (requestedSubject && requestedSubject !== "all") {
+      return "chapters.html?subject=" + encodeURIComponent(requestedSubject) +
+        "&medium=" + encodeURIComponent(medium);
+    }
+
+    return "subjects.html?medium=" + encodeURIComponent(medium);
+  }
+
+  function getBackLabel() {
+    if (requestedSubject && requestedSubject !== "all" && requestedChapter) {
+      return labels.backToChapter;
+    }
+
+    if (requestedSubject && requestedSubject !== "all") {
+      return labels.chooseChapter;
+    }
+
+    return labels.browseSubjects;
+  }
+
+  function getChooseChapterHref() {
+    if (!requestedSubject || requestedSubject === "all") return "";
+
+    return "chapters.html?subject=" + encodeURIComponent(requestedSubject) +
+      "&medium=" + encodeURIComponent(medium);
+  }
+
+  function renderSecondaryChapterLink() {
+    if (!backLink || !backLink.parentElement) return;
+
+    const oldLink = document.getElementById("choose-chapter-link");
+    if (oldLink && oldLink.parentElement) {
+      oldLink.parentElement.removeChild(oldLink);
+    }
+
+    if (!(requestedSubject && requestedSubject !== "all" && requestedChapter)) return;
+
+    const chooseLink = document.createElement("a");
+    chooseLink.id = "choose-chapter-link";
+    chooseLink.className = "btn btn-outline btn-sm";
+    chooseLink.href = getChooseChapterHref();
+    chooseLink.textContent = labels.chooseChapter;
+    backLink.parentElement.appendChild(chooseLink);
+  }
+
+  function renderMotivation() {
+    if (!quizContainer || document.getElementById("quiz-motivation")) return;
+
+    const main = quizContainer.parentElement;
+    if (!main) return;
+
+    const notice = document.createElement("div");
+    notice.id = "quiz-motivation";
+    notice.className = "content-notice";
+    notice.textContent = labels.motivation;
+    main.insertBefore(notice, quizContainer);
+  }
+
+  function renderNoQuestions(customMessage) {
     if (!quizContainer) return;
+
+    const message = customMessage || labels.noQuestions;
 
     quizContainer.innerHTML =
       '<div class="empty-state">' +
-        '<div class="empty-icon">✅</div>' +
-        '<h3>' + escapeHTML(labels.noQuestions) + '</h3>' +
+        '<div class="empty-icon">✓</div>' +
+        '<h3>' + escapeHTML(message) + '</h3>' +
         '<p>' + escapeHTML(labels.noQuestionsSub) + '</p>' +
         '<a href="subjects.html?medium=' + encodeURIComponent(medium) + '" class="btn btn-primary">' +
           escapeHTML(labels.browseSubjects) +
@@ -175,10 +260,27 @@
   }
 
   async function loadQuiz() {
-    let questions = await getExternalQuestionsIfAvailable();
+    let questions = [];
 
-    if (!questions) {
-      questions = getFallbackQuestions();
+    if (isExactChapterPractice()) {
+      const externalQuestions = await getExternalQuestionsIfAvailable();
+      questions = externalQuestions || getExactChapterFallbackQuestions(activeSubject, requestedChapter);
+
+      updateInfo(questions);
+
+      if (!questions.length) {
+        renderNoQuestions(labels.chapterMcqsMissing);
+        return;
+      }
+
+      Quiz.init(questions, lang);
+      return;
+    }
+
+    if (activeSubject && activeSubject !== "all") {
+      questions = getSubjectFallbackQuestions(activeSubject);
+    } else {
+      questions = getAllFallbackQuestions();
     }
 
     updateInfo(questions);
@@ -197,7 +299,7 @@
     const subjects = getAvailableSubjects();
 
     if (!subjects.includes(activeSubject)) {
-      activeSubject = "all";
+      activeSubject = requestedSubject && requestedSubject !== "all" ? requestedSubject : "all";
     }
 
     filterContainer.innerHTML = "";
@@ -233,7 +335,7 @@
   }
 
   function initPage() {
-    document.title = labels.title + " — see2083";
+    document.title = labels.title + " - see2083";
 
     if (titleEl) titleEl.textContent = labels.title;
     if (subEl) subEl.textContent = labels.sub;
@@ -243,12 +345,14 @@
     if (infoTitleEl) infoTitleEl.textContent = labels.practiceInfo;
 
     if (backLink) {
-      backLink.href = "subjects.html?medium=" + encodeURIComponent(medium);
-      backLink.textContent = labels.browseSubjects;
+      backLink.href = getBackHref();
+      backLink.textContent = getBackLabel();
+      renderSecondaryChapterLink();
     }
 
     renderBreadcrumbs();
     renderFilters();
+    renderMotivation();
     loadQuiz();
   }
 

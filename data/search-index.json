@@ -47,5 +47,54 @@
     "keywords": ["scientific", "study", "science", "mock", "test", "practice"],
     "url": "mock-test.html?subject=science&chapter=scientific-study&medium=english",
     "status": "published"
+  },
+  {
+    "id": "chapter:english:science:classification-of-elements",
+    "legacyId": "chapter-science-classification-of-elements",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "classification-of-elements",
+    "title": "Classification of Elements",
+    "titleNp": "तत्वहरूको वर्गीकरण",
+    "keywords": ["classification", "elements", "science", "periodic", "unit 2"],
+    "url": "chapter.html?subject=science&chapter=classification-of-elements&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "material:english:science:classification-of-elements:easy-note",
+    "type": "material",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "classification-of-elements",
+    "title": "Classification of Elements Easy Note",
+    "titleNp": "तत्वहरूको वर्गीकरण सजिलो नोट",
+    "keywords": ["classification", "elements", "science", "periodic", "unit 2", "easy", "note"],
+    "url": "notes.html?subject=science&chapter=classification-of-elements&medium=english&type=easy",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:classification-of-elements",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "classification-of-elements",
+    "title": "Classification of Elements MCQ Practice",
+    "titleNp": "तत्वहरूको वर्गीकरण MCQ अभ्यास",
+    "keywords": ["classification", "elements", "science", "periodic", "unit 2", "mcq", "practice"],
+    "url": "quiz.html?subject=science&chapter=classification-of-elements&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "material:english:science:classification-of-elements:mock-test",
+    "type": "material",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "classification-of-elements",
+    "title": "Classification of Elements Mock Test",
+    "titleNp": "तत्वहरूको वर्गीकरण नमुना परीक्षा",
+    "keywords": ["classification", "elements", "science", "periodic", "unit 2", "mock", "test"],
+    "url": "mock-test.html?subject=science&chapter=classification-of-elements&medium=english",
+    "status": "published"
   }
 ]

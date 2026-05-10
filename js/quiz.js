@@ -1,5 +1,5 @@
 /* ===================================================
-   see2083 — MCQ Practice Quiz
+   see2083 - MCQ Practice Quiz
    =================================================== */
 
 const Quiz = (() => {
@@ -8,9 +8,13 @@ const Quiz = (() => {
   let userAnswers = {};
   let lang = "en";
 
+  function text(en, np) {
+    return lang === "np" ? np : en;
+  }
+
   function init(qs, language) {
-    questions = qs;
-    lang = language;
+    questions = Array.isArray(qs) ? qs : [];
+    lang = language || "en";
     currentIdx = 0;
     userAnswers = {};
     renderQuestion();
@@ -30,23 +34,23 @@ const Quiz = (() => {
     if (!container) return;
 
     const total = questions.length;
-    const progress = ((currentIdx) / total) * 100;
+    const progress = total ? (currentIdx / total) * 100 : 0;
     const answered = userAnswers[currentIdx];
-    const letters = ["A","B","C","D"];
+    const letters = ["A", "B", "C", "D"];
 
     container.innerHTML = `
       <div class="quiz-header">
-        <span class="quiz-q-num">${lang === "np" ? "प्रश्न" : "Question"} ${currentIdx + 1} ${lang === "np" ? "को" : "of"} ${total}</span>
+        <span class="quiz-q-num">${text("Question", "प्रश्न")} ${currentIdx + 1} ${text("of", "को")} ${total}</span>
         <button class="bookmark-btn" id="q-bookmark-btn" onclick="toggleQuestionBookmark('${q.id}')">
-          ${Bookmarks.isBookmarked("mcq-" + q.id) ? "🔖 " + (lang === "np" ? "सुरक्षित" : "Saved") : "🔖 " + (lang === "np" ? "सुरक्षित गर्नुहोस्" : "Save Question")}
+          ${Bookmarks.isBookmarked("mcq-" + q.id) ? text("Saved", "सुरक्षित") : text("Save Question", "प्रश्न सुरक्षित गर्नुहोस्")}
         </button>
       </div>
       <div class="progress-bar" style="margin-bottom:20px">
         <div class="progress-fill" style="width:${progress}%"></div>
       </div>
-      <p class="quiz-question">${q.question}</p>
+      <p class="quiz-question">${escapeHTML(q.question || "")}</p>
       <div class="quiz-options">
-        ${q.options.map((opt, i) => {
+        ${safeArray(q.options).map((opt, i) => {
           let cls = "mcq-option";
           let disabled = "";
           if (answered !== undefined) {
@@ -56,30 +60,29 @@ const Quiz = (() => {
           }
           return `<button class="${cls}" ${disabled} onclick="Quiz.selectAnswer(${i})" aria-label="Option ${letters[i]}">
             <span class="mcq-letter">${letters[i]}</span>
-            <span>${opt}</span>
+            <span>${escapeHTML(opt)}</span>
           </button>`;
         }).join("")}
       </div>
       ${answered !== undefined ? renderFeedback(q, answered) : ""}
       <div class="quiz-nav">
         <button class="btn btn-ghost btn-sm" onclick="Quiz.prev()" ${currentIdx === 0 ? "disabled" : ""}>
-          ← ${lang === "np" ? "अघिल्लो" : "Previous"}
+          &larr; ${text("Previous", "अघिल्लो")}
         </button>
-        <span style="font-size:13px;color:var(--text-muted)">${Object.keys(userAnswers).length}/${total} ${lang === "np" ? "उत्तर दिइयो" : "answered"}</span>
+        <span style="font-size:13px;color:var(--text-muted)">${Object.keys(userAnswers).length}/${total} ${text("answered", "उत्तर दिइयो")}</span>
         ${currentIdx < total - 1
-          ? `<button class="btn btn-primary btn-sm" onclick="Quiz.next()">${lang === "np" ? "अर्को" : "Next"} →</button>`
-          : `<button class="btn btn-accent btn-sm" onclick="Quiz.finish()">${lang === "np" ? "समाप्त" : "Finish"} ✓</button>`
+          ? `<button class="btn btn-primary btn-sm" onclick="Quiz.next()">${text("Next", "अर्को")} &rarr;</button>`
+          : `<button class="btn btn-accent btn-sm" onclick="Quiz.finish()">${text("Finish", "समाप्त")} ✓</button>`
         }
       </div>
     `;
-
   }
 
   function renderFeedback(q, chosen) {
     const isCorrect = chosen === q.correct;
     return `<div class="mcq-feedback ${isCorrect ? "correct-fb" : "wrong-fb"}">
-      <strong>${isCorrect ? "✓ " + (lang === "np" ? "सही!" : "Correct!") : "✗ " + (lang === "np" ? "गलत" : "Wrong")}</strong>
-      ${q.explanation}
+      <strong>${isCorrect ? "✓ " + text("Correct!", "सही!") : "✕ " + text("Wrong", "गलत")}</strong>
+      ${escapeHTML(q.explanation || "")}
     </div>`;
   }
 
@@ -103,18 +106,52 @@ const Quiz = (() => {
     }
   }
 
+  function getQuizRouteContext() {
+    const medium = typeof getParam === "function"
+      ? (getParam("medium") || (typeof getMedium === "function" ? getMedium() : "english") || "english")
+      : "english";
+    const subjectParam = typeof getParam === "function" ? (getParam("subject") || "") : "";
+    const chapterParam = typeof getParam === "function" ? (getParam("chapter") || "") : "";
+    const subject = subjectParam && subjectParam !== "all" ? subjectParam : "";
+    const chapter = chapterParam || "";
+    const currentPath = window.location && window.location.pathname
+      ? (window.location.pathname.split("/").pop() || "quiz.html")
+      : "quiz.html";
+    const currentSearch = window.location && window.location.search ? window.location.search : "";
+    const quizUrl = currentPath + currentSearch;
+    const chapterUrl = subject && chapter
+      ? "chapter.html?subject=" + encodeURIComponent(subject) +
+        "&chapter=" + encodeURIComponent(chapter) +
+        "&medium=" + encodeURIComponent(medium)
+      : "";
+
+    return {
+      medium,
+      subject,
+      chapter,
+      chapterUrl,
+      quizUrl
+    };
+  }
+
   function finish() {
     const correct = Object.entries(userAnswers).filter(([i, a]) => a === questions[i].correct).length;
     const total = questions.length;
     const pct = Math.round((correct / total) * 100);
+    const routeContext = getQuizRouteContext();
     const result = {
       score: correct,
       total,
       pct,
-      timeTaken: "â€”",
+      timeTaken: "-",
       mode: "practice",
       resultType: "quiz",
       completedAt: Date.now(),
+      medium: routeContext.medium,
+      subject: routeContext.subject,
+      chapter: routeContext.chapter,
+      chapterUrl: routeContext.chapterUrl,
+      quizUrl: routeContext.quizUrl,
       answers: Object.assign({}, userAnswers),
       questions: questions.map(q => ({
         id: q.id || "",
@@ -133,32 +170,26 @@ const Quiz = (() => {
       }))
     };
 
-    // Save result to sessionStorage for result page
     sessionStorage.removeItem("s2083_mock_result");
-    sessionStorage.setItem("s2083_quiz_result", JSON.stringify({
-      score: correct,
-      total,
-      pct,
-      timeTaken: "—",
-      mode: "practice"
-    }));
-
     sessionStorage.setItem("s2083_quiz_result", JSON.stringify(result));
 
-    document.getElementById("quiz-container").innerHTML = `
-      <div style="text-align:center;padding:var(--sp-8)">
-        <div class="result-score-ring" style="margin-bottom:var(--sp-6)">
-          <span class="score-num">${pct}%</span>
-          <span class="score-label">${lang === "np" ? "अङ्क" : "Score"}</span>
+    const container = document.getElementById("quiz-container");
+    if (container) {
+      container.innerHTML = `
+        <div style="text-align:center;padding:var(--sp-8)">
+          <div class="result-score-ring" style="margin-bottom:var(--sp-6)">
+            <span class="score-num">${pct}%</span>
+            <span class="score-label">${text("Score", "अङ्क")}</span>
+          </div>
+          <h2 style="margin-bottom:var(--sp-2)">${pct >= 60 ? text("Well done!", "शाबास!") : text("Keep practicing!", "फेरि अभ्यास गर्नुहोस्!")}</h2>
+          <p style="margin-bottom:var(--sp-6)">${text("Correct", "सही")}: ${correct} / ${total}</p>
+          <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+            <button class="btn btn-outline" onclick="location.reload()">${text("Try Again", "फेरि प्रयास")}</button>
+            <a href="index.html" class="btn btn-primary">${text("Home", "गृहपृष्ठ")}</a>
+          </div>
         </div>
-        <h2 style="margin-bottom:var(--sp-2)">${pct >= 60 ? "🎉 " + (lang === "np" ? "शाबास!" : "Well done!") : "📚 " + (lang === "np" ? "फेरि प्रयास गर्नुहोस्!" : "Keep practicing!")}</h2>
-        <p style="margin-bottom:var(--sp-6)">${lang === "np" ? "सही" : "Correct"}: ${correct} / ${total}</p>
-        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
-          <button class="btn btn-outline" onclick="location.reload()">${lang === "np" ? "फेरि प्रयास" : "Try Again"}</button>
-          <a href="index.html" class="btn btn-primary">${lang === "np" ? "गृहपृष्ठ" : "Home"}</a>
-        </div>
-      </div>
-    `;
+      `;
+    }
 
     if (typeof window !== "undefined" && window.location) {
       window.location.href = "result.html";
@@ -178,6 +209,7 @@ function toggleQuestionBookmark(qId) {
   const q = currentQuestion || fallbackQuestion;
 
   if (!q) return;
+
   const medium = typeof getMedium === "function" ? getMedium() : "english";
   const added = Bookmarks.toggle({
     id: "mcq-" + qId,
@@ -187,5 +219,9 @@ function toggleQuestionBookmark(qId) {
       "&chapter=" + encodeURIComponent(q.chapter || "") +
       "&medium=" + encodeURIComponent(medium)
   });
-  showToast(added ? (Lang.current() === "np" ? "प्रश्न सुरक्षित भयो" : "Question saved") : (Lang.current() === "np" ? "हटाइयो" : "Removed"));
+
+  showToast(added
+    ? (Lang.current() === "np" ? "प्रश्न सुरक्षित भयो" : "Question saved")
+    : (Lang.current() === "np" ? "हटाइयो" : "Removed")
+  );
 }

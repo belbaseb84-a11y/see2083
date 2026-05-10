@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:science:classification-of-elements",
+  "legacyId": "chapter-science-classification-of-elements",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "classification-of-elements",
+  "slug": "classification-of-elements",
+  "unit": 2,
+  "title": "Classification of Elements",
+  "titleNp": "तत्वहरूको वर्गीकरण",
+  "summary": "Demo placeholder summary for testing the second content pack.",
+  "summaryNp": "दोस्रो content pack परीक्षणका लागि demo placeholder summary.",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-10",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

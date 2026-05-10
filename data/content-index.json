@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-09",
+  "lastUpdated": "2026-05-10",
   "mediums": {
     "english": {
       "subjects": {
@@ -24,6 +24,26 @@
                 "slides": "content/english/science/scientific-study/slides.json",
                 "infographics": "content/english/science/scientific-study/infographics.json",
                 "downloads": "content/english/science/scientific-study/downloads.json"
+              }
+            },
+            "classification-of-elements": {
+              "id": "chapter:english:science:classification-of-elements",
+              "legacyId": "chapter-science-classification-of-elements",
+              "unit": 2,
+              "title": "Classification of Elements",
+              "titleNp": "तत्वहरूको वर्गीकरण",
+              "status": "published",
+              "basePath": "content/english/science/classification-of-elements/",
+              "resources": {
+                "chapter": "content/english/science/classification-of-elements/chapter.json",
+                "mcq": "content/english/science/classification-of-elements/mcq.json",
+                "notes": "content/english/science/classification-of-elements/notes.html",
+                "easyNote": "content/english/science/classification-of-elements/easy-note.html",
+                "importantQuestions": "content/english/science/classification-of-elements/important-questions.json",
+                "mockTest": "content/english/science/classification-of-elements/mock-test.json",
+                "slides": "content/english/science/classification-of-elements/slides.json",
+                "infographics": "content/english/science/classification-of-elements/infographics.json",
+                "downloads": "content/english/science/classification-of-elements/downloads.json"
               }
             }
           }

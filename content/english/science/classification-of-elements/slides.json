@@ -1,0 +1,32 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "classification-of-elements",
+  "status": "published",
+  "slides": [
+    {
+      "id": "science-classification-of-elements-slide-001",
+      "title": "Classification of Elements",
+      "titleNp": "तत्वहरूको वर्गीकरण",
+      "points": [
+        "Demo slide point only.",
+        "This is placeholder content."
+      ],
+      "pointsNp": [],
+      "image": "images/demo-slide-placeholder.webp",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "science-classification-of-elements-slide-002",
+      "title": "Second Content Pack Test",
+      "titleNp": "",
+      "points": [
+        "This slide exists only for structure testing.",
+        "Real chapter content should be added later after review."
+      ],
+      "pointsNp": [],
+      "image": "images/demo-slide-placeholder.webp",
+      "reviewStatus": "published"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 /* ===================================================
-   see2083 — Result Page Logic
+   see2083 - Result Page Logic
    Shows mock / quiz result and answer review
    =================================================== */
 
@@ -15,9 +15,7 @@
     home: isNp ? "गृहपृष्ठ" : "Home",
     result: isNp ? "नतिजा" : "Result",
     noResult: isNp ? "कुनै परिणाम भेटिएन" : "No result found",
-    noResultSub: isNp
-      ? "पहिले मोक टेस्ट वा MCQ अभ्यास दिनुहोस्।"
-      : "Please take a mock test or MCQ practice first.",
+    noResultSub: isNp ? "पहिले मोक टेस्ट वा MCQ अभ्यास दिनुहोस्।" : "Please take a mock test or MCQ practice first.",
     takeTest: isNp ? "मोक टेस्ट दिनुहोस्" : "Take Test",
     practiceMcq: isNp ? "MCQ अभ्यास" : "Practice MCQs",
     homeBtn: isNp ? "गृहपृष्ठ" : "Home",
@@ -34,6 +32,8 @@
     timeUp: isNp ? "समय समाप्त" : "Time is up",
     reviewAnswers: isNp ? "उत्तर समीक्षा" : "Review answers",
     tryAgain: isNp ? "फेरि प्रयास" : "Try again",
+    backToChapter: isNp ? "अध्यायमा फर्कनुहोस्" : "Back to Chapter",
+    chooseChapter: isNp ? "अध्याय छान्नुहोस्" : "Choose Chapter",
     answerReview: isNp ? "उत्तर समीक्षा" : "Answer Review",
     reviewUnavailable: isNp ? "समीक्षा उपलब्ध छैन।" : "Review is not available for this result.",
     question: isNp ? "प्रश्न" : "Question",
@@ -43,7 +43,10 @@
     explanation: isNp ? "व्याख्या" : "Explanation",
     mode: isNp ? "मोड" : "Mode",
     mock: isNp ? "मोक टेस्ट" : "Mock test",
-    practice: isNp ? "MCQ अभ्यास" : "MCQ practice"
+    practice: isNp ? "MCQ अभ्यास" : "MCQ practice",
+    motivationHigh: isNp ? "राम्रो काम। अब नियमित पुनरावृत्ति गर्दै जानुहोस्।" : "Great work. Keep revising to stay sharp.",
+    motivationMid: isNp ? "राम्रो प्रयास। गलत उत्तरहरू समीक्षा गरेर फेरि प्रयास गर्नुहोस्।" : "Good effort. Review the wrong answers and try again.",
+    motivationLow: isNp ? "हरेक गलत उत्तरले सुधार गर्ने ठाउँ देखाउँछ। समीक्षा गरेर फेरि प्रयास गर्नुहोस्।" : "Every wrong answer shows what to improve. Review and try again."
   };
 
   const resultArea = document.getElementById("result-area");
@@ -89,34 +92,24 @@
 
   function getGradeData(pct) {
     if (pct >= 80) {
-      return {
-        icon: "🏆",
-        message: labels.excellent,
-        className: "excellent"
-      };
+      return { icon: "✓", message: labels.excellent, className: "excellent" };
     }
 
     if (pct >= 60) {
-      return {
-        icon: "🎉",
-        message: labels.good,
-        className: "good"
-      };
+      return { icon: "✓", message: labels.good, className: "good" };
     }
 
     if (pct >= 40) {
-      return {
-        icon: "📚",
-        message: labels.practiceMore,
-        className: "average"
-      };
+      return { icon: "•", message: labels.practiceMore, className: "average" };
     }
 
-    return {
-      icon: "💪",
-      message: labels.dontGiveUp,
-      className: "low"
-    };
+    return { icon: "•", message: labels.dontGiveUp, className: "low" };
+  }
+
+  function getMotivation(pct) {
+    if (pct >= 80) return labels.motivationHigh;
+    if (pct >= 50) return labels.motivationMid;
+    return labels.motivationLow;
   }
 
   function getResultMode(resultData) {
@@ -134,6 +127,61 @@
     );
   }
 
+  function normalizeTimeTaken(value) {
+    if (!value) return "-";
+
+    const textValue = String(value);
+
+    if (textValue === "—" || textValue.indexOf("â") !== -1 || textValue.indexOf("Ã") !== -1) {
+      return "-";
+    }
+
+    return textValue;
+  }
+
+  function getTryAgainUrl(resultData) {
+    if (resultData && resultData.quizUrl) {
+      return resultData.quizUrl;
+    }
+
+    return resultData && resultData.mode === "practice" ? "quiz.html" : "mock-test.html";
+  }
+
+  function getChapterUrl(resultData) {
+    if (!resultData) return "";
+    if (resultData.chapterUrl) return resultData.chapterUrl;
+
+    if (resultData.subject && resultData.chapter) {
+      const medium = resultData.medium || "english";
+      return "chapter.html?subject=" + encodeURIComponent(resultData.subject) +
+        "&chapter=" + encodeURIComponent(resultData.chapter) +
+        "&medium=" + encodeURIComponent(medium);
+    }
+
+    return "";
+  }
+
+  function getChapterAction(resultData) {
+    const chapterUrl = getChapterUrl(resultData);
+
+    if (chapterUrl) {
+      return {
+        href: chapterUrl,
+        label: labels.backToChapter
+      };
+    }
+
+    if (resultData && resultData.subject) {
+      return {
+        href: "chapters.html?subject=" + encodeURIComponent(resultData.subject) +
+          "&medium=" + encodeURIComponent(resultData.medium || "english"),
+        label: labels.chooseChapter
+      };
+    }
+
+    return null;
+  }
+
   function renderBreadcrumbs() {
     renderBreadcrumb(document.getElementById("breadcrumb"), [
       { label: labels.home, href: "index.html" },
@@ -144,12 +192,12 @@
   function renderNoResult() {
     if (!resultArea) return;
 
-    document.title = labels.noResult + " — see2083";
+    document.title = labels.noResult + " - see2083";
 
     resultArea.innerHTML =
       '<div class="result-empty-card">' +
         '<div class="empty-state">' +
-          '<div class="empty-icon">🎯</div>' +
+          '<div class="empty-icon">✓</div>' +
           '<h2>' + escapeHTML(labels.noResult) + '</h2>' +
           '<p>' + escapeHTML(labels.noResultSub) + '</p>' +
           '<div class="result-action-row center">' +
@@ -182,12 +230,14 @@
     const total = Number(resultData.total || 0);
     const pct = Number(resultData.pct || 0);
     const wrong = Math.max(total - score, 0);
-    const timeTaken = resultData.timeTaken || "—";
+    const timeTaken = normalizeTimeTaken(resultData.timeTaken);
     const timeUp = Boolean(resultData.timeUp);
     const grade = getGradeData(pct);
     const hasReview = hasDetailedReview(resultData);
+    const tryAgainUrl = getTryAgainUrl(resultData);
+    const chapterAction = getChapterAction(resultData);
 
-    document.title = labels.yourResult + " — see2083";
+    document.title = labels.yourResult + " - see2083";
 
     resultArea.innerHTML =
       '<div class="result-hero-card result-' + escapeHTML(grade.className) + '">' +
@@ -207,6 +257,8 @@
           '</div>' +
         '</div>' +
       '</div>' +
+
+      '<div class="content-notice">' + escapeHTML(getMotivation(pct)) + '</div>' +
 
       (timeUp
         ? '<div class="result-alert">' + escapeHTML(labels.timeUp) + '</div>'
@@ -240,9 +292,14 @@
               escapeHTML(labels.reviewAnswers) +
             '</button>'
           : '') +
-        '<a href="mock-test.html" class="btn btn-outline">' +
+        '<a href="' + escapeHTML(tryAgainUrl) + '" class="btn btn-outline">' +
           escapeHTML(labels.tryAgain) +
         '</a>' +
+        (chapterAction
+          ? '<a href="' + escapeHTML(chapterAction.href) + '" class="btn btn-outline">' +
+              escapeHTML(chapterAction.label) +
+            '</a>'
+          : '') +
         '<a href="index.html" class="btn btn-ghost">' +
           escapeHTML(labels.homeBtn) +
         '</a>' +
@@ -293,23 +350,23 @@
           const chosen = chosenRaw === undefined ? -1 : Number(chosenRaw);
           const isAnswered = chosen >= 0 && chosen < safeArray(question.options).length;
           const isCorrect = isAnswered && chosen === question.correct;
-          const statusLabel = !isAnswered
-            ? labels.notAnswered
-            : isCorrect
-              ? labels.correct
-              : labels.wrong;
-          const chosenText = chosen >= 0 && question.options && question.options[chosen]
+          const chosenText = isAnswered && question.options && question.options[chosen]
             ? question.options[chosen]
             : labels.notAnswered;
           const correctText = question.options && question.options[question.correct]
             ? question.options[question.correct]
             : "";
+          const badgeText = !isAnswered
+            ? labels.notAnswered
+            : isCorrect
+              ? labels.correct
+              : labels.wrong;
 
           return (
             '<article class="result-review-card">' +
               '<div class="result-review-card-head">' +
                 '<span class="badge ' + (isCorrect ? "badge-green" : "badge-red") + '">' +
-                  (isCorrect ? "✓ " + labels.correct : "✗ " + labels.wrong) +
+                  escapeHTML(badgeText) +
                 '</span>' +
                 '<span>' + escapeHTML(labels.question) + ' ' + escapeHTML(index + 1) + '</span>' +
               '</div>' +

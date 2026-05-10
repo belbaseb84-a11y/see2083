@@ -1,0 +1,26 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "classification-of-elements",
+  "status": "draft",
+  "items": [
+    {
+      "id": "science-classification-of-elements-docx-view",
+      "title": "Classification of Elements DOCX View",
+      "type": "docx",
+      "mode": "google-drive-view",
+      "viewUrl": "PASTE_GOOGLE_DRIVE_VIEW_LINK_HERE",
+      "downloadAllowed": false,
+      "status": "draft"
+    },
+    {
+      "id": "science-classification-of-elements-pdf-view",
+      "title": "Classification of Elements PDF View",
+      "type": "pdf",
+      "mode": "google-drive-view",
+      "viewUrl": "PASTE_GOOGLE_DRIVE_VIEW_LINK_HERE",
+      "downloadAllowed": false,
+      "status": "draft"
+    }
+  ]
+}

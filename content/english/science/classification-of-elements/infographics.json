@@ -1,0 +1,17 @@
+{
+  "medium": "english",
+  "subject": "science",
+  "chapter": "classification-of-elements",
+  "status": "published",
+  "items": [
+    {
+      "id": "science-classification-of-elements-info-001",
+      "title": "Classification of Elements Demo Infographic",
+      "titleNp": "तत्वहरूको वर्गीकरण Demo Infographic",
+      "image": "images/demo-infographic-placeholder.webp",
+      "caption": "Demo placeholder infographic item.",
+      "captionNp": "",
+      "reviewStatus": "published"
+    }
+  ]
+}
