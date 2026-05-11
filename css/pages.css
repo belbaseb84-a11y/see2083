@@ -447,3 +447,35 @@
     padding: var(--sp-8);
   }
 }
+
+/* Mock test answer selection polish */
+.mock-question-card .mcq-option.selected {
+  border-color: var(--color-primary);
+  background: rgba(37, 99, 235, 0.08);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.mock-question-card .mcq-option.selected .mcq-letter {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.mock-selected-label {
+  margin-left: auto;
+  border-radius: var(--radius-full);
+  padding: 4px 10px;
+  background: var(--color-success-bg);
+  color: var(--color-success);
+  font-size: var(--text-xs);
+  font-weight: var(--fw-bold);
+  white-space: nowrap;
+}
+
+.mock-selected-note {
+  margin-top: var(--sp-4);
+}
+
+.mock-question-card .quiz-nav .mock-next-ready,
+.mock-question-card .quiz-nav .mock-submit-ready {
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.18);
+}

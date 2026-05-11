@@ -52,6 +52,10 @@ const MockTest = (() => {
     if (!container) return;
     const letters = ["A","B","C","D"];
     const chosen = userAnswers[currentIdx];
+    const hasAnswer = chosen !== undefined;
+    const isLastQuestion = currentIdx >= questions.length - 1;
+    const nextButtonClass = hasAnswer ? "btn-primary mock-next-ready" : "btn-outline";
+    const submitButtonClass = hasAnswer ? "btn-accent mock-submit-ready" : "btn-accent";
 
     container.innerHTML = `
       <div class="quiz-header" style="margin-bottom:var(--sp-4)">
@@ -60,18 +64,22 @@ const MockTest = (() => {
       <p class="quiz-question">${q.question}</p>
       <div class="quiz-options">
         ${q.options.map((opt, i) => {
-          let cls = "mcq-option" + (chosen === i ? " bookmarked" : "");
-          return `<button class="${cls}" onclick="MockTest.select(${i})" aria-label="Option ${letters[i]}">
+          let cls = "mcq-option mock-option" + (chosen === i ? " selected" : "");
+          return `<button class="${cls}" onclick="MockTest.select(${i})" aria-label="Option ${letters[i]}" aria-pressed="${chosen === i ? "true" : "false"}">
             <span class="mcq-letter">${letters[i]}</span>
             <span>${opt}</span>
+            ${chosen === i ? '<strong class="mock-selected-label">Selected</strong>' : ''}
           </button>`;
         }).join("")}
       </div>
+      ${hasAnswer
+        ? '<div class="content-notice mock-selected-note">Answer selected. You can change it before moving on.</div>'
+        : ''}
       <div class="quiz-nav" style="margin-top:var(--sp-5)">
         <button class="btn btn-ghost btn-sm" onclick="MockTest.go(${currentIdx - 1})" ${currentIdx === 0 ? "disabled" : ""}>← Previous</button>
-        ${currentIdx < questions.length - 1
-          ? `<button class="btn btn-primary btn-sm" onclick="MockTest.go(${currentIdx + 1})">Next →</button>`
-          : `<button class="btn btn-accent btn-sm" onclick="MockTest.submitTest(false)">Submit Test</button>`
+        ${!isLastQuestion
+          ? `<button class="btn ${nextButtonClass} btn-sm" onclick="MockTest.go(${currentIdx + 1})">Next Question →</button>`
+          : `<button class="btn ${submitButtonClass} btn-sm" onclick="MockTest.submitTest(false)">Submit Test</button>`
         }
       </div>
     `;

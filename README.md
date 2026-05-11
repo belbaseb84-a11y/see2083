@@ -149,3 +149,15 @@ Unavailable content states were made clearer before real content entry.
 - Notes empty states now include Back to Chapter and Choose Another Chapter actions.
 
 External content packs and real content files were not changed.
+
+---
+
+## Phase 2R Mock Test Selection Polish
+
+Mock Test answer selection was made clearer without auto-advance.
+
+- Selected options now have a visible selected state.
+- Next Question becomes clearer after selecting an answer.
+- Submit Test remains clear on the final question.
+- Students can still change answers before moving on.
+- MCQ Practice and content packs were not changed.
