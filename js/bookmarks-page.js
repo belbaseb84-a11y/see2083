@@ -10,6 +10,8 @@
 
   const lang = getCurrentLanguage();
   const isNp = lang === "np";
+  const currentMedium = typeof getCurrentMedium === "function" ? getCurrentMedium() : "english";
+  const useNepaliEmpty = isNp || currentMedium === "nepali";
 
   let activeFilter = "all";
 
@@ -48,6 +50,13 @@
   const emptyTitle = document.getElementById("empty-title");
   const emptySub = document.getElementById("empty-sub");
   const emptyStartBtn = document.getElementById("empty-start-btn");
+
+  Object.assign(labels, {
+    noSaved: useNepaliEmpty ? "अहिलेसम्म कुनै bookmark छैन।" : "No bookmarks yet.",
+    noSavedSub: useNepaliEmpty
+      ? "पढ्दा उपयोगी अध्याय वा प्रश्न save गर्नुहोस्, ती यहाँ देखिन्छन्।"
+      : "Save chapters or questions while studying, and they will appear here."
+  });
 
   function setLabels() {
     document.title = labels.bookmarks + " — see2083";
@@ -120,13 +129,54 @@
     return "🔖";
   }
 
+  function isValidInternalUrl(url) {
+    const value = String(url || "").trim();
+
+    if (!value || value === "#") return false;
+    if (/^file:/i.test(value)) return false;
+    if (/^[a-z]:[\\/]/i.test(value)) return false;
+    if (value.includes("\\")) return false;
+
+    return true;
+  }
+
+  function parseLegacyChapterId(id) {
+    const value = String(id || "");
+    const match = value.match(/^chapter-([^-]+)-(.+)$/);
+
+    if (!match) return null;
+
+    return {
+      subject: match[1],
+      chapter: match[2]
+    };
+  }
+
+  function getRouteParts(item) {
+    const medium = item.medium || currentMedium || "english";
+    let subject = item.subject || item.subjectId || "";
+    let chapter = item.chapter || item.chapterId || "";
+
+    if (!subject || !chapter) {
+      const legacy = parseLegacyChapterId(item.id);
+
+      if (legacy) {
+        subject = subject || legacy.subject;
+        chapter = chapter || legacy.chapter;
+      }
+    }
+
+    return { medium, subject, chapter };
+  }
+
   function getBookmarkUrl(item) {
     if (!item) return "index.html";
-    if (item.url) return item.url;
+    if (isValidInternalUrl(item.url)) return item.url;
 
-    const medium = item.medium || getCurrentMedium() || "english";
-    const subject = item.subject || item.subjectId || "";
-    const chapter = item.chapter || item.chapterId || "";
+    const parts = getRouteParts(item);
+    const medium = parts.medium;
+    const subject = parts.subject;
+    const chapter = parts.chapter;
 
     if (item.type === "chapter" && subject && chapter) {
       return "chapter.html?subject=" + encodeURIComponent(subject) +
@@ -140,12 +190,16 @@
         "&medium=" + encodeURIComponent(medium);
     }
 
+    if (item.type === "mcq") {
+      return "quiz.html?subject=all";
+    }
+
     if (subject) {
       return "chapters.html?subject=" + encodeURIComponent(subject) +
         "&medium=" + encodeURIComponent(medium);
     }
 
-    return "bookmarks.html";
+    return "index.html";
   }
 
   function formatSavedTime(item) {
@@ -212,7 +266,7 @@
           '<p>' + escapeHTML(getBookmarkMeta(item)) + '</p>' +
 
           '<div class="bookmark-card-actions">' +
-            '<a href="' + escapeHTML(getBookmarkUrl(item)) + '" class="btn btn-primary btn-sm">' +
+            '<a href="' + escapeHTML(getBookmarkUrl(item)) + '" class="btn btn-primary btn-sm bookmark-open-link">' +
               escapeHTML(labels.open) +
             ' →</a>' +
 
@@ -251,6 +305,9 @@
 
       if (!button) return;
 
+      event.preventDefault();
+      event.stopPropagation();
+
       const id = button.dataset.id;
 
       if (!id) return;
@@ -264,9 +321,31 @@
     });
   }
 
+  function initOpenLinks() {
+    if (!listEl) return;
+
+    listEl.addEventListener("click", function (event) {
+      const link = event.target.closest(".bookmark-open-link");
+
+      if (!link) return;
+
+      const href = link.getAttribute("href");
+
+      event.preventDefault();
+
+      window.location.href = isValidInternalUrl(href)
+        ? href
+        : "index.html";
+    });
+  }
+
   setLabels();
   renderBreadcrumbs();
+  if (typeof Bookmarks !== "undefined" && typeof Bookmarks.dedupeBookmarks === "function") {
+    Bookmarks.dedupeBookmarks();
+  }
   initFilters();
   initRemoveButtons();
+  initOpenLinks();
   renderBookmarks();
 })();

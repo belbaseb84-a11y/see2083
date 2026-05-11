@@ -122,3 +122,17 @@ Search behavior was cleaned before real content entry.
 - Search page Enter key behavior now updates results without resetting the page.
 
 No router, framework, backend, CSS redesign, or real content was added.
+
+---
+
+## Phase 2P Bookmark Reliability Polish
+
+Bookmark storage was hardened before real content entry.
+
+- Duplicate bookmarks are prevented and existing saved items are updated instead of duplicated.
+- Remove now saves immediately and confirms the item is gone from `s2083_bookmarks`.
+- Older bookmarks without URLs get safe fallback routes where possible.
+- Invalid bookmark URLs fall back safely instead of crashing.
+- Invalid or non-array localStorage data now shows an empty bookmarks state.
+
+The localStorage key remains `s2083_bookmarks`.
