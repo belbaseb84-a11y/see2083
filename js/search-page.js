@@ -73,6 +73,22 @@
     return new URLSearchParams(window.location.search).get("q") || "";
   }
 
+  function updateQueryInUrl(query) {
+    if (!window.history || typeof window.history.replaceState !== "function") return;
+
+    const params = new URLSearchParams(window.location.search);
+
+    if (query) {
+      params.set("q", query);
+    } else {
+      params.delete("q");
+    }
+
+    const queryString = params.toString();
+    const nextUrl = window.location.pathname + (queryString ? "?" + queryString : "");
+    window.history.replaceState(null, "", nextUrl);
+  }
+
   function clearResults() {
     if (listEl) listEl.innerHTML = "";
     if (statusEl) statusEl.textContent = "";
@@ -184,6 +200,15 @@
     }
 
     searchInput.addEventListener("input", doSearch);
+    searchInput.addEventListener("keydown", function (event) {
+      if (event.key !== "Enter") return;
+
+      event.preventDefault();
+
+      const query = searchInput.value.trim();
+      updateQueryInUrl(query);
+      doSearch();
+    });
 
     if (prefilledQuery) {
       doSearch();

@@ -107,3 +107,18 @@ Mock Test now uses clearer exam-style wording so it feels separate from MCQ Prac
 - External `mock-test.json` loading remains unchanged.
 
 No real content, CSS redesign, router, or framework was added.
+
+---
+
+## Phase 2O Search Cleanup
+
+Search behavior was cleaned before real content entry.
+
+- External `published` search-index results are prioritized.
+- Draft, rejected, hidden, private, or invalid external search entries are skipped.
+- Duplicate results are reduced using URL, ID, and title/context checks.
+- S2083 fallback still provides useful subject and chapter results.
+- Old individual `S2083.sampleMCQs` fallback search noise was removed.
+- Search page Enter key behavior now updates results without resetting the page.
+
+No router, framework, backend, CSS redesign, or real content was added.

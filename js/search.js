@@ -37,13 +37,75 @@ const Search = (() => {
       .toLowerCase();
   }
 
+  function normalizeText(value) {
+    return String(value || "").trim().toLowerCase().replace(/\s+/g, " ");
+  }
+
+  function escapeRegExp(value) {
+    return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function matchesSearchText(value, query) {
+    const text = normalizeText(value);
+
+    if (!text) return false;
+    if (!/^[a-z0-9 -]+$/.test(query)) return text.includes(query);
+
+    if (query.length <= 4) {
+      return new RegExp("(^|[^a-z0-9])" + escapeRegExp(query), "i").test(text);
+    }
+
+    return text.includes(query);
+  }
+
+  function isPublishedStatus(status) {
+    return !status || status === "published";
+  }
+
+  function isValidResultUrl(url) {
+    const value = String(url || "").trim();
+
+    if (!value || value === "#") return false;
+    if (/^file:/i.test(value)) return false;
+    if (/^[a-z]:[\\/]/i.test(value)) return false;
+    if (value.includes("\\")) return false;
+
+    return true;
+  }
+
+  function normalizeUrlForDedupe(url) {
+    const value = String(url || "").trim().split("#")[0];
+
+    if (!value) return "";
+
+    try {
+      const baseHref = window.location && window.location.href
+        ? window.location.href
+        : "http://see2083.local/";
+      const parsed = new URL(value, baseHref);
+      const currentOrigin = window.location && window.location.origin
+        ? window.location.origin
+        : parsed.origin;
+
+      if (parsed.origin === currentOrigin) {
+        return parsed.pathname.replace(/^\/+/, "") + parsed.search;
+      }
+
+      return parsed.href;
+    } catch (error) {
+      return value;
+    }
+  }
+
   function normalizeExternalSearchItem(item) {
-    if (!item || !item.url) return null;
-    if (item.status && item.status !== "published") return null;
+    if (!item || !isValidResultUrl(item.url)) return null;
+    if (!isPublishedStatus(item.status)) return null;
 
     const lang = getLang();
     const type = item.type || "chapter";
     const title = item.title || item.display || "";
+    if (!String(title).trim()) return null;
+
     const titleNp = item.titleNp || title;
     const keywordSource = Array.isArray(item.keywords)
       ? item.keywords
@@ -74,7 +136,7 @@ const Search = (() => {
         item.medium,
         keywordSource
       ]),
-      url: item.url,
+      url: String(item.url).trim(),
       icon: item.icon || getTypeIcon(type),
       subjectTitle: subjectTitle,
       source: "external"
@@ -112,18 +174,29 @@ const Search = (() => {
     const merged = [];
     const seenKeys = new Set();
     const seenUrls = new Set();
+    const seenTitleKeys = new Set();
 
     function addItem(item) {
       if (!item) return;
+      if (!isValidResultUrl(item.url)) return;
+      if (!String(item.display || item.title || "").trim()) return;
 
       const key = (item.type || "") + "::" + (item.id || "");
-      const url = item.url || "";
+      const url = normalizeUrlForDedupe(item.url || "");
+      const titleKey = [
+        item.type || "",
+        normalizeText(item.title || item.display || ""),
+        normalizeText(item.subject || item.subjectTitle || ""),
+        normalizeText(item.chapter || "")
+      ].join("::");
 
       if (key !== "::" && seenKeys.has(key)) return;
       if (url && seenUrls.has(url)) return;
+      if (titleKey !== "::::::" && seenTitleKeys.has(titleKey)) return;
 
       if (key !== "::") seenKeys.add(key);
       if (url) seenUrls.add(url);
+      if (titleKey !== "::::::") seenTitleKeys.add(titleKey);
 
       merged.push(item);
     }
@@ -145,10 +218,10 @@ const Search = (() => {
       const title = String(item.title || "");
       const titleNp = String(item.titleNp || "");
 
-      return keywords.includes(q) ||
-        display.toLowerCase().includes(q) ||
-        title.toLowerCase().includes(q) ||
-        titleNp.toLowerCase().includes(q) ||
+      return matchesSearchText(keywords, q) ||
+        matchesSearchText(display, q) ||
+        matchesSearchText(title, q) ||
+        matchesSearchText(titleNp, q) ||
         titleNp.includes(q);
     });
   }
@@ -195,21 +268,6 @@ const Search = (() => {
           url: `chapter.html?subject=${subjectId}&chapter=${ch.id}&medium=${medium}`,
           icon: subject.icon
         });
-      });
-    });
-
-    // Add MCQ questions
-    (Array.isArray(S2083.sampleMCQs) ? S2083.sampleMCQs : []).forEach(q => {
-      index.push({
-        id: q.id,
-        type: "mcq",
-        typeLabel: lang === "np" ? "MCQ" : "MCQ",
-        title: q.question,
-        titleNp: q.question,
-        display: q.question,
-        keywords: [q.question, ...q.options].join(" ").toLowerCase(),
-        url: `quiz.html`,
-        icon: "✅"
       });
     });
 
