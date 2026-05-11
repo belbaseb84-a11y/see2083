@@ -136,3 +136,16 @@ Bookmark storage was hardened before real content entry.
 - Invalid or non-array localStorage data now shows an empty bookmarks state.
 
 The localStorage key remains `s2083_bookmarks`.
+
+---
+
+## Phase 2Q Content Availability Polish
+
+Unavailable content states were made clearer before real content entry.
+
+- Chapters without external content packs now show honest content-being-added messaging.
+- Note-heavy study option cards show availability helper text instead of looking fully complete.
+- External content pack chapters still show connected resource notices and keep existing routes.
+- Notes empty states now include Back to Chapter and Choose Another Chapter actions.
+
+External content packs and real content files were not changed.

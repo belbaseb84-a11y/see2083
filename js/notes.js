@@ -18,6 +18,7 @@
 
   const lang = getCurrentLanguage();
   const isNp = lang === "np";
+  const isNepaliMedium = medium === "nepali";
 
   const subject = getSubjectObject();
   const chapter = getChapterObject();
@@ -71,6 +72,17 @@
       : "Subject or chapter was not found. Please go back to the subjects page.",
     backSubjects: isNp ? "विषयहरूमा फर्कनुहोस्" : "Back to subjects"
   };
+
+  Object.assign(labels, {
+    comingSoon: isNepaliMedium
+      ? "यो अध्यायको सामग्री थपिँदैछ।"
+      : "Content is being added for this chapter.",
+    comingSoonSub: isNepaliMedium
+      ? "कृपया अन्य अध्ययन सामग्री हेर्नुहोस् वा अर्को अध्याय छान्नुहोस्।"
+      : "Please check other study tools or choose another chapter.",
+    chooseAnotherChapter: isNepaliMedium ? "अर्को अध्याय छान्नुहोस्" : "Choose Another Chapter",
+    backChapter: isNepaliMedium ? "अध्यायमा फर्कनुहोस्" : "Back to Chapter"
+  });
 
   const notesKickerEl = document.getElementById("notes-kicker");
   const notesTitleEl = document.getElementById("notes-title");
@@ -220,9 +232,35 @@
     const summary = getChapterSummary();
     const typeLabel = getTabLabel(currentTab);
 
-    const mcqUrl = "quiz.html?" + getBaseQuery();
-    const mockUrl = "mock-test.html?" + getBaseQuery();
     const backUrl = "chapter.html?" + getBaseQuery();
+    const chooseUrl =
+      "chapters.html?subject=" +
+      encodeURIComponent(subjectId) +
+      "&medium=" +
+      encodeURIComponent(medium);
+
+    area.innerHTML =
+      '<article class="notes-content notes-reader-card">' +
+        '<div class="notes-content-head">' +
+          '<span class="notes-content-badge">' + escapeHTML(typeLabel) + '</span>' +
+          '<h2>' + escapeHTML(chapterTitle || typeLabel) + '</h2>' +
+          '<p>' + escapeHTML(subjectName) + '</p>' +
+        '</div>' +
+        '<div class="empty-state">' +
+          '<div class="empty-icon">📚</div>' +
+          '<h3>' + escapeHTML(labels.comingSoon) + '</h3>' +
+          '<p>' + escapeHTML(labels.comingSoonSub) + '</p>' +
+          '<div class="notes-action-row">' +
+            '<a href="' + escapeHTML(backUrl) + '" class="btn btn-primary btn-sm">' +
+              escapeHTML(labels.backChapter) +
+            '</a>' +
+            '<a href="' + escapeHTML(chooseUrl) + '" class="btn btn-outline btn-sm">' +
+              escapeHTML(labels.chooseAnotherChapter) +
+            '</a>' +
+          '</div>' +
+        '</div>' +
+      '</article>';
+    return;
 
     const keyPoints = isNp
       ? [

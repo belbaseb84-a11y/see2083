@@ -21,6 +21,7 @@
 
   const lang = getCurrentLanguage();
   const isNp = lang === "np";
+  const isNepaliMedium = medium === "nepali";
 
   const labels = {
     home: isNp ? "गृहपृष्ठ" : "Home",
@@ -53,6 +54,14 @@
     backToSubject: isNp ? "विषयमा फर्कनुहोस्" : "Back to subject",
     chooseAnotherChapter: isNp ? "← अर्को अध्याय छान्नुहोस्" : "← Choose Another Chapter"
   };
+
+  Object.assign(labels, {
+    contentNotice: isNepaliMedium
+      ? "यो अध्यायको सामग्री थपिँदैछ। केही अध्ययन सामग्री अझै उपलब्ध नहुन सक्छ।"
+      : "Content for this chapter is being added. Some study tools may not be available yet.",
+    contentBeingAdded: isNepaliMedium ? "थपिँदैछ" : "Content being added",
+    comingSoon: isNepaliMedium ? "चाँडै" : "Coming soon"
+  });
 
   const subjectIconEl = document.getElementById("chapter-subject-icon");
   const metaEl = document.getElementById("chapter-meta");
@@ -262,24 +271,49 @@
   }
 
   function getOptionStatus(optionId) {
-    if (optionId === "mcq-practice" || optionId === "mock-test") {
-      return "";
-    }
-
-    if (
-      optionId === "easy-note" ||
-      optionId === "overview" ||
-      optionId === "theory" ||
-      optionId === "practical"
-    ) {
-      return "";
-    }
-
-    return labels.soon;
+    return isResourceHeavyOption(optionId) ? labels.contentBeingAdded : "";
   }
 
   function isPrimaryOption(optionId) {
     return optionId === "mcq-practice" || optionId === "mock-test";
+  }
+
+  function getOptionResourceKey(optionId) {
+    const map = {
+      "easy-note": "easyNote",
+      "handwritten-note": "handwrittenNote",
+      infographic: "infographics",
+      slides: "slides",
+      slide: "slides",
+      "short-questions": "shortQuestions",
+      "important-questions": "importantQuestions",
+      "past-questions": "pastQuestions",
+      overview: "notes",
+      theory: "notes",
+      practical: "notes",
+      past: "pastQuestions",
+      "mcq-practice": "mcq",
+      "mock-test": "mockTest"
+    };
+
+    return map[optionId] || "";
+  }
+
+  function isResourceHeavyOption(optionId) {
+    return [
+      "easy-note",
+      "handwritten-note",
+      "infographic",
+      "slides",
+      "slide",
+      "short-questions",
+      "important-questions",
+      "past-questions",
+      "overview",
+      "theory",
+      "practical",
+      "past"
+    ].includes(optionId);
   }
 
   function renderBreadcrumbs(subject, chapter) {
@@ -379,7 +413,7 @@
           '<div class="study-option-info">' +
             '<div class="study-option-title-row">' +
               '<div class="study-option-title">' + escapeHTML(title) + '</div>' +
-              '<span class="option-status">' + escapeHTML(status) + '</span>' +
+              '<span class="option-status" data-option-id="' + escapeHTML(option.id) + '">' + escapeHTML(status) + '</span>' +
             '</div>' +
             '<div class="study-option-desc">' + escapeHTML(desc) + '</div>' +
           '</div>' +
@@ -424,6 +458,30 @@
       : "";
 
     contentNotice.textContent = prefix + suffix;
+  }
+
+  function updateOptionAvailability(bundle) {
+    if (!optionsGrid) return;
+
+    const availableTypes = new Set(safeArray(bundle && bundle.availableTypes));
+    const hasBundle = Boolean(bundle && bundle.found);
+
+    optionsGrid.querySelectorAll(".option-status[data-option-id]").forEach(function (statusEl) {
+      const optionId = statusEl.getAttribute("data-option-id");
+      const resourceKey = getOptionResourceKey(optionId);
+
+      if (!resourceKey) {
+        statusEl.textContent = "";
+        return;
+      }
+
+      if (hasBundle) {
+        statusEl.textContent = availableTypes.has(resourceKey) ? "" : labels.comingSoon;
+        return;
+      }
+
+      statusEl.textContent = isResourceHeavyOption(optionId) ? labels.contentBeingAdded : "";
+    });
   }
 
   function renderDownloadCards(items) {
@@ -498,7 +556,13 @@
     try {
       const bundle = await SEE2083ContentLoader.loadChapterResourceBundle(medium, subjectId, chapterId);
 
-      if (!bundle || !bundle.found) return;
+      if (!bundle || !bundle.found) {
+        if (contentNotice) {
+          contentNotice.textContent = labels.contentNotice;
+        }
+        updateOptionAvailability(null);
+        return;
+      }
 
       let downloads = {
         found: false,
@@ -510,11 +574,16 @@
       }
 
       renderExternalNotice(bundle, Boolean(downloads && downloads.found));
+      updateOptionAvailability(bundle);
 
       if (downloads && downloads.found) {
         renderDownloadCards(downloads.items);
       }
     } catch (error) {
+      if (contentNotice) {
+        contentNotice.textContent = labels.contentNotice;
+      }
+      updateOptionAvailability(null);
       return;
     }
   }
