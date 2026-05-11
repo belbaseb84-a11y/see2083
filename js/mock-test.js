@@ -55,7 +55,7 @@ const MockTest = (() => {
 
     container.innerHTML = `
       <div class="quiz-header" style="margin-bottom:var(--sp-4)">
-        <span class="quiz-q-num">${lang === "np" ? "प्रश्न" : "Q"} ${currentIdx + 1} / ${questions.length}</span>
+        <span class="quiz-q-num">Question ${currentIdx + 1} of ${questions.length}</span>
       </div>
       <p class="quiz-question">${q.question}</p>
       <div class="quiz-options">
@@ -68,10 +68,10 @@ const MockTest = (() => {
         }).join("")}
       </div>
       <div class="quiz-nav" style="margin-top:var(--sp-5)">
-        <button class="btn btn-ghost btn-sm" onclick="MockTest.go(${currentIdx - 1})" ${currentIdx === 0 ? "disabled" : ""}>← ${lang === "np" ? "अघिल्लो" : "Prev"}</button>
+        <button class="btn btn-ghost btn-sm" onclick="MockTest.go(${currentIdx - 1})" ${currentIdx === 0 ? "disabled" : ""}>← Previous</button>
         ${currentIdx < questions.length - 1
-          ? `<button class="btn btn-primary btn-sm" onclick="MockTest.go(${currentIdx + 1})">${lang === "np" ? "अर्को" : "Next"} →</button>`
-          : `<button class="btn btn-accent btn-sm" onclick="MockTest.submitTest(false)">${lang === "np" ? "बुझाउनुहोस्" : "Submit"}</button>`
+          ? `<button class="btn btn-primary btn-sm" onclick="MockTest.go(${currentIdx + 1})">Next →</button>`
+          : `<button class="btn btn-accent btn-sm" onclick="MockTest.submitTest(false)">Submit Test</button>`
         }
       </div>
     `;
@@ -82,7 +82,7 @@ const MockTest = (() => {
     const panel = document.getElementById("mock-nav-panel");
     if (!panel) return;
     panel.innerHTML = `
-      <p style="font-size:13px;color:var(--text-muted);margin-bottom:var(--sp-3)">${lang === "np" ? "प्रश्न नेभिगेसन" : "Question Navigator"}</p>
+      <p style="font-size:13px;color:var(--text-muted);margin-bottom:var(--sp-3)">Question Navigator</p>
       <div class="q-nav-grid" style="margin-bottom:var(--sp-4)">
         ${questions.map((_, i) => `
           <button class="q-nav-btn ${userAnswers[i] !== undefined ? "answered" : ""} ${i === currentIdx ? "current" : ""}"
@@ -90,10 +90,10 @@ const MockTest = (() => {
         `).join("")}
       </div>
       <div style="font-size:12px;color:var(--text-muted);margin-bottom:var(--sp-4)">
-        <span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:var(--color-primary);margin-right:4px"></span>${lang === "np" ? "उत्तर दिइयो" : "Answered"}: ${Object.keys(userAnswers).length}<br>
-        <span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:var(--bg-muted);margin-right:4px;margin-top:4px"></span>${lang === "np" ? "उत्तर दिइएन" : "Not answered"}: ${questions.length - Object.keys(userAnswers).length}
+        <span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:var(--color-primary);margin-right:4px"></span>Answered: ${Object.keys(userAnswers).length}<br>
+        <span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:var(--bg-muted);margin-right:4px;margin-top:4px"></span>Not answered: ${questions.length - Object.keys(userAnswers).length}
       </div>
-      <button class="btn btn-accent btn-full btn-sm" onclick="MockTest.submitTest(false)">${lang === "np" ? "टेस्ट बुझाउनुहोस्" : "Submit Test"}</button>
+      <button class="btn btn-accent btn-full btn-sm" onclick="MockTest.submitTest(false)">Submit Test</button>
     `;
   }
 
@@ -116,7 +116,23 @@ const MockTest = (() => {
     const elapsed = Math.floor((Date.now() - startTime) / 1000);
     const mins = Math.floor(elapsed / 60);
     const secs = elapsed % 60;
+    const params = new URLSearchParams(window.location.search);
+    const medium = params.get("medium") || (typeof getMedium === "function" ? getMedium() : "english");
+    const subject = params.get("subject") || (questions[0] && questions[0].subject) || "";
+    const chapter = params.get("chapter") || (questions[0] && questions[0].chapter) || "";
+    const chapterUrl = subject && chapter
+      ? "chapter.html?subject=" + encodeURIComponent(subject) +
+        "&chapter=" + encodeURIComponent(chapter) +
+        "&medium=" + encodeURIComponent(medium)
+      : "";
+    const mockParams = new URLSearchParams();
+    if (subject) mockParams.set("subject", subject);
+    if (chapter) mockParams.set("chapter", chapter);
+    if (medium) mockParams.set("medium", medium);
+    const mockQuery = mockParams.toString();
+    const mockUrl = "mock-test.html" + (mockQuery ? "?" + mockQuery : "");
 
+    sessionStorage.removeItem("s2083_quiz_result");
     sessionStorage.setItem("s2083_mock_result", JSON.stringify({
       score: correct,
       total,
@@ -124,8 +140,23 @@ const MockTest = (() => {
       timeTaken: `${mins}m ${secs}s`,
       timeUp,
       answers: userAnswers,
-      questions: questions.map(q => ({ question: q.question, correct: q.correct, explanation: q.explanation, options: q.options })),
-      mode: "mock"
+      questions: questions.map(q => ({
+        id: q.id || "",
+        subject: q.subject || subject,
+        chapter: q.chapter || chapter,
+        question: q.question,
+        correct: q.correct,
+        explanation: q.explanation,
+        options: q.options
+      })),
+      mode: "mock",
+      resultType: "mock",
+      completedAt: Date.now(),
+      medium,
+      subject,
+      chapter,
+      chapterUrl,
+      mockUrl
     }));
 
     window.location.href = "result.html";

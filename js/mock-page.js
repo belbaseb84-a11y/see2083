@@ -17,7 +17,7 @@
   }
 
   const lang = getCurrentLanguage();
-  const isNp = lang === "np";
+  const isNp = false;
   const TIME_LIMIT = 15 * 60;
   let questions = [];
   let timeLimitSeconds = TIME_LIMIT;
@@ -57,6 +57,33 @@
     backSubjects: isNp ? "विषयहरूमा फर्कनुहोस्" : "Back to subjects"
   };
 
+  Object.assign(labels, {
+    home: "Home",
+    mockTest: "Mock Test",
+    timedPractice: "Exam Practice",
+    title: "Mock Test",
+    subtitle: "Practice in exam-style mode with a timer and final review.",
+    browseSubjects: "Browse Subjects",
+    instructions: "Before you start",
+    instructionsSub: "Answer all questions within the time limit, then review your result.",
+    startTest: "Start Mock Test",
+    summaryTitle: "Exam-style test setup",
+    questions: "Total Questions",
+    timeLimit: "Time Limit",
+    mode: "Mode",
+    mock: "Mock Test",
+    feedback: "Feedback",
+    afterSubmit: "After Submit",
+    minutes: "minutes",
+    summaryNote: "Feedback is shown after submit, with final score and answer review.",
+    testRunning: "Mock Test in Progress",
+    liveTitle: "Mock Test",
+    liveSub: "Answer all questions within the time limit, then submit for final review.",
+    noQuestions: "No questions are available for this mock test.",
+    noQuestionsSub: "Content for this section is being added.",
+    backSubjects: "Back to Subjects"
+  });
+
   const startScreen = document.getElementById("start-screen");
   const testScreen = document.getElementById("test-screen");
   const mockKicker = document.getElementById("mock-kicker");
@@ -75,6 +102,8 @@
   const timeLimit = document.getElementById("time-limit");
   const modeLabel = document.getElementById("mode-label");
   const modeValue = document.getElementById("mode-value");
+  const feedbackLabel = document.getElementById("feedback-label");
+  const feedbackValue = document.getElementById("feedback-value");
   const summaryNote = document.getElementById("summary-note");
   const liveKicker = document.getElementById("live-kicker");
   const liveTitle = document.getElementById("live-title");
@@ -222,6 +251,10 @@
   }
 
   function getBackLabel() {
+    if (requestedSubject && requestedChapter) return "Back to Chapter";
+    if (requestedSubject) return "Choose Chapter";
+    return labels.browseSubjects;
+
     if (requestedSubject && requestedChapter) {
       return isNp ? "अध्यायमा फर्कनुहोस्" : "Back to Chapter";
     }
@@ -252,9 +285,16 @@
           "The test auto-submits when time runs out."
         ];
 
+    const visibleInstructions = [
+      "Answer all questions within the time limit.",
+      "You can move between questions before submitting.",
+      "Feedback and explanations appear only after final submit.",
+      "The test auto-submits when time runs out."
+    ];
+
     instructionsList.innerHTML = "";
 
-    instructions.forEach(function (item) {
+    visibleInstructions.forEach(function (item) {
       const li = document.createElement("li");
       li.textContent = item;
       instructionsList.appendChild(li);
@@ -314,7 +354,13 @@
       subtitle = subjectName + " · " + labels.subtitle;
     }
 
+    const contextText = chapterTitle && subjectName
+      ? chapterTitle + " - " + subjectName
+      : subjectName;
+    subtitle = labels.subtitle + (contextText ? " " + contextText + "." : "");
+
     document.title = labels.mockTest + " — see2083";
+    document.title = labels.mockTest + " - see2083";
 
     if (mockKicker) mockKicker.textContent = labels.timedPractice;
     if (mockTitle) mockTitle.textContent = labels.title;
@@ -334,6 +380,8 @@
     if (timeLabel) timeLabel.textContent = labels.timeLimit;
     if (modeLabel) modeLabel.textContent = labels.mode;
     if (modeValue) modeValue.textContent = labels.mock;
+    if (feedbackLabel) feedbackLabel.textContent = labels.feedback;
+    if (feedbackValue) feedbackValue.textContent = labels.afterSubmit;
     if (summaryNote) summaryNote.textContent = labels.summaryNote;
 
     if (liveKicker) liveKicker.textContent = labels.testRunning;

@@ -94,3 +94,16 @@ Navigation buttons and generated links were audited across the main static pages
 Broken or weak routes were fixed using normal links or safe generated URLs.
 
 No router, framework, build tool, CSS redesign, or content system change was added.
+
+---
+
+## Phase 2N Mock Test Identity Polish
+
+Mock Test now uses clearer exam-style wording so it feels separate from MCQ Practice.
+
+- The mock start screen shows `Mock Test`, `Exam Practice`, `Start Mock Test`, timer mode, and feedback-after-submit wording.
+- Active mock test labels now use exam-style text such as `Question 1 of X`, `Time Left`, and `Submit Test`.
+- Mock results keep mock mode metadata so result.html can identify the latest mock attempt correctly.
+- External `mock-test.json` loading remains unchanged.
+
+No real content, CSS redesign, router, or framework was added.
