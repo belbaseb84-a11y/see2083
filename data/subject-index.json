@@ -5,7 +5,11 @@
       "name": "Science and Technology",
       "nameNp": "विज्ञान तथा प्रविधि",
       "status": "published",
-      "chapters": ["scientific-study", "classification-of-elements"]
+      "chapters": [
+        "scientific-study",
+        "classification-of-elements",
+        "classification-of-living-things"
+      ]
     }
   },
   "nepali": {},

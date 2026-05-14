@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:science:classification-living",
+  "legacyId": "chapter-science-classification-living",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "classification-living",
+  "slug": "classification-living",
+  "unit": 2,
+  "title": "Classification of Living Beings",
+  "titleNp": "सजीवहरूको वर्गीकरण",
+  "summary": "Learn how living beings are grouped based on common features and evolution.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-14",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

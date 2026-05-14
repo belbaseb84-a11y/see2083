@@ -36,7 +36,12 @@ const Quiz = (() => {
     const total = questions.length;
     const progress = total ? (currentIdx / total) * 100 : 0;
     const answered = userAnswers[currentIdx];
+    const hasAnswered = answered !== undefined;
     const letters = ["A", "B", "C", "D"];
+    const actionClass = "quiz-nav quiz-action-bar" + (hasAnswered ? " quiz-action-ready" : "");
+
+    container.classList.toggle("quiz-has-answer", hasAnswered);
+    container.classList.toggle("quiz-last-question", currentIdx >= total - 1);
 
     container.innerHTML = `
       <div class="quiz-header">
@@ -53,7 +58,7 @@ const Quiz = (() => {
         ${safeArray(q.options).map((opt, i) => {
           let cls = "mcq-option";
           let disabled = "";
-          if (answered !== undefined) {
+          if (hasAnswered) {
             disabled = "disabled";
             if (i === q.correct) cls += " correct";
             else if (i === answered && i !== q.correct) cls += " selected-wrong";
@@ -64,15 +69,15 @@ const Quiz = (() => {
           </button>`;
         }).join("")}
       </div>
-      ${answered !== undefined ? renderFeedback(q, answered) : ""}
-      <div class="quiz-nav">
+      ${hasAnswered ? renderFeedback(q, answered) : ""}
+      <div class="${actionClass}">
         <button class="btn btn-ghost btn-sm" onclick="Quiz.prev()" ${currentIdx === 0 ? "disabled" : ""}>
           &larr; ${text("Previous", "अघिल्लो")}
         </button>
-        <span style="font-size:13px;color:var(--text-muted)">${Object.keys(userAnswers).length}/${total} ${text("answered", "उत्तर दिइयो")}</span>
+        <span class="quiz-answered-count">${Object.keys(userAnswers).length}/${total} ${text("answered", "उत्तर दिइयो")}</span>
         ${currentIdx < total - 1
-          ? `<button class="btn btn-primary btn-sm" onclick="Quiz.next()">${text("Next", "अर्को")} &rarr;</button>`
-          : `<button class="btn btn-accent btn-sm" onclick="Quiz.finish()">${text("Finish", "समाप्त")} ✓</button>`
+          ? `<button class="btn btn-primary btn-sm quiz-next-btn" onclick="Quiz.next()">${text("Next Question", "अर्को प्रश्न")} &rarr;</button>`
+          : `<button class="btn btn-accent btn-sm quiz-finish-btn" onclick="Quiz.finish()">${text("Finish Quiz", "क्विज समाप्त")}</button>`
         }
       </div>
     `;
@@ -225,3 +230,4 @@ function toggleQuestionBookmark(qId) {
     : (Lang.current() === "np" ? "हटाइयो" : "Removed")
   );
 }
+

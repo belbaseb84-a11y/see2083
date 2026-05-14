@@ -171,3 +171,49 @@ Unit 1 `easy-note.html` was converted from raw DOCX-style text into structured w
 - Added a note hero, quick revision summary, key term cards, formula box, question-answer blocks, memory tips, exam tips, and final checklist.
 - Added small note-specific styling in `css/pages.css`.
 - No quiz, mock test, search, JavaScript, or data-index changes were made.
+
+---
+
+## Phase 3B.1 Quiz Focus Mode and Random Order
+
+Chapter-specific MCQ practice now uses a focused layout.
+
+- Unnecessary sidebar cards are hidden on exact chapter quiz routes.
+- Question order is randomized per attempt without repeating questions inside one attempt.
+- Result review preserves the attempted question order.
+- Next Question and Finish Quiz actions are easier to reach after answering.
+- Answer options are not shuffled yet.
+- No MCQ data, mock test, search, or content-index changes were made.
+
+---
+
+## Phase 3C.0 Classification of Living Beings Pack
+
+Created the correct Science Unit 2 content pack folder: `content/english/science/classification-living/`.
+
+- The old `classification-of-elements` demo pack was not deleted.
+- `data/content-index.json`, `data/search-index.json`, and `data/subject-index.json` now include `classification-living`.
+- MCQ/search practice entry is draft until real Unit 2 MCQs are added.
+- Real MCQs will be added in Phase 3C.1.
+
+---
+
+## Phase 3C.1 Fix Classification Living MCQ Loading
+
+Fixed Unit 2 Classification of Living Beings MCQ loading.
+
+- Active MCQ file is `content/english/science/classification-living/mcq.json`.
+- Extra temporary balanced JSON file was not present in the active folder.
+- Updated the `classification-living` MCQ search entry to `published`.
+- Confirmed Unit 1 Scientific Study quiz still resolves 50 MCQs.
+
+---
+
+## Phase 3C.1B Unit 2 Slug Mismatch Fix
+
+Fixed the Classification of Living Beings slug mismatch.
+
+- Site routes use `classification-of-living-things`.
+- The external content pack now matches the actual route at `content/english/science/classification-of-living-things/`.
+- Unit 2 quiz now loads 50 MCQs from `classification-of-living-things/mcq.json`.
+- Unit 1 Scientific Study quiz remains working.

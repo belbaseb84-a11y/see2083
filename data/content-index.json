@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-10",
+  "lastUpdated": "2026-05-14",
   "mediums": {
     "english": {
       "subjects": {
@@ -44,6 +44,26 @@
                 "slides": "content/english/science/classification-of-elements/slides.json",
                 "infographics": "content/english/science/classification-of-elements/infographics.json",
                 "downloads": "content/english/science/classification-of-elements/downloads.json"
+              }
+            },
+            "classification-of-living-things": {
+              "id": "chapter:english:science:classification-of-living-things",
+              "legacyId": "chapter-science-classification-of-living-things",
+              "unit": 2,
+              "title": "Classification of Living Beings",
+              "titleNp": "सजीवहरूको वर्गीकरण",
+              "status": "published",
+              "basePath": "content/english/science/classification-of-living-things/",
+              "resources": {
+                "chapter": "content/english/science/classification-of-living-things/chapter.json",
+                "mcq": "content/english/science/classification-of-living-things/mcq.json",
+                "notes": "content/english/science/classification-of-living-things/notes.html",
+                "easyNote": "content/english/science/classification-of-living-things/easy-note.html",
+                "importantQuestions": "content/english/science/classification-of-living-things/important-questions.json",
+                "mockTest": "content/english/science/classification-of-living-things/mock-test.json",
+                "slides": "content/english/science/classification-of-living-things/slides.json",
+                "infographics": "content/english/science/classification-of-living-things/infographics.json",
+                "downloads": "content/english/science/classification-of-living-things/downloads.json"
               }
             }
           }

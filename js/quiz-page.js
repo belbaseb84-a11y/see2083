@@ -136,6 +136,32 @@
     );
   }
 
+  function isChapterQuizRoute() {
+    return Boolean(requestedSubject && requestedSubject !== "all" && requestedChapter);
+  }
+
+  function shuffleQuestions(questionList) {
+    const shuffled = safeArray(questionList).slice();
+
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = shuffled[i];
+      shuffled[i] = shuffled[j];
+      shuffled[j] = temp;
+    }
+
+    return shuffled;
+  }
+
+  function applyFocusMode() {
+    const page = document.querySelector(".practice-page");
+    const enabled = isChapterQuizRoute();
+
+    if (page) {
+      page.classList.toggle("quiz-focus-mode", enabled);
+    }
+  }
+
   async function getExternalQuestionsIfAvailable() {
     if (!isExactChapterPractice()) return null;
     if (!window.SEE2083ContentLoader) return null;
@@ -279,7 +305,7 @@
         return;
       }
 
-      Quiz.init(questions, lang);
+      Quiz.init(shuffleQuestions(questions), lang);
       return;
     }
 
@@ -296,7 +322,7 @@
       return;
     }
 
-    Quiz.init(questions, lang);
+    Quiz.init(shuffleQuestions(questions), lang);
   }
 
   function renderFilters() {
@@ -356,6 +382,7 @@
       renderSecondaryChapterLink();
     }
 
+    applyFocusMode();
     renderBreadcrumbs();
     renderFilters();
     renderMotivation();
