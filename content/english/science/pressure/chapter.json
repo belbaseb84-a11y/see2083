@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:science:pressure",
+  "legacyId": "chapter-science-pressure",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "pressure",
+  "slug": "pressure",
+  "unit": 8,
+  "title": "Pressure",
+  "titleNp": "",
+  "summary": "Learn about pressure, Pascal's law, hydraulic machines, upthrust, Archimedes' principle, and floatation.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-14",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

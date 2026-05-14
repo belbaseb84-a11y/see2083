@@ -125,6 +125,106 @@
                 "infographics": "content/english/science/physiological-structure-and-life-process/infographics.json",
                 "downloads": "content/english/science/physiological-structure-and-life-process/downloads.json"
               }
+            },
+            "nature-and-environment": {
+              "id": "chapter:english:science:nature-and-environment",
+              "legacyId": "chapter-science-nature-and-environment",
+              "unit": 6,
+              "title": "Nature and Environment",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/nature-and-environment/",
+              "resources": {
+                "chapter": "content/english/science/nature-and-environment/chapter.json",
+                "mcq": "content/english/science/nature-and-environment/mcq.json",
+                "notes": "content/english/science/nature-and-environment/notes.html",
+                "easyNote": "content/english/science/nature-and-environment/easy-note.html",
+                "importantQuestions": "content/english/science/nature-and-environment/important-questions.json",
+                "mockTest": "content/english/science/nature-and-environment/mock-test.json",
+                "slides": "content/english/science/nature-and-environment/slides.json",
+                "infographics": "content/english/science/nature-and-environment/infographics.json",
+                "downloads": "content/english/science/nature-and-environment/downloads.json"
+              }
+            },
+            "force-and-motion": {
+              "id": "chapter:english:science:force-and-motion",
+              "legacyId": "chapter-science-force-and-motion",
+              "unit": 7,
+              "title": "Force and Motion",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/force-and-motion/",
+              "resources": {
+                "chapter": "content/english/science/force-and-motion/chapter.json",
+                "mcq": "content/english/science/force-and-motion/mcq.json",
+                "notes": "content/english/science/force-and-motion/notes.html",
+                "easyNote": "content/english/science/force-and-motion/easy-note.html",
+                "importantQuestions": "content/english/science/force-and-motion/important-questions.json",
+                "mockTest": "content/english/science/force-and-motion/mock-test.json",
+                "slides": "content/english/science/force-and-motion/slides.json",
+                "infographics": "content/english/science/force-and-motion/infographics.json",
+                "downloads": "content/english/science/force-and-motion/downloads.json"
+              }
+            },
+            "pressure": {
+              "id": "chapter:english:science:pressure",
+              "legacyId": "chapter-science-pressure",
+              "unit": 8,
+              "title": "Pressure",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/pressure/",
+              "resources": {
+                "chapter": "content/english/science/pressure/chapter.json",
+                "mcq": "content/english/science/pressure/mcq.json",
+                "notes": "content/english/science/pressure/notes.html",
+                "easyNote": "content/english/science/pressure/easy-note.html",
+                "importantQuestions": "content/english/science/pressure/important-questions.json",
+                "mockTest": "content/english/science/pressure/mock-test.json",
+                "slides": "content/english/science/pressure/slides.json",
+                "infographics": "content/english/science/pressure/infographics.json",
+                "downloads": "content/english/science/pressure/downloads.json"
+              }
+            },
+            "heat-energy": {
+              "id": "chapter:english:science:heat-energy",
+              "legacyId": "chapter-science-heat-energy",
+              "unit": 9,
+              "title": "Heat Energy",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/heat-energy/",
+              "resources": {
+                "chapter": "content/english/science/heat-energy/chapter.json",
+                "mcq": "content/english/science/heat-energy/mcq.json",
+                "notes": "content/english/science/heat-energy/notes.html",
+                "easyNote": "content/english/science/heat-energy/easy-note.html",
+                "importantQuestions": "content/english/science/heat-energy/important-questions.json",
+                "mockTest": "content/english/science/heat-energy/mock-test.json",
+                "slides": "content/english/science/heat-energy/slides.json",
+                "infographics": "content/english/science/heat-energy/infographics.json",
+                "downloads": "content/english/science/heat-energy/downloads.json"
+              }
+            },
+            "wave": {
+              "id": "chapter:english:science:wave",
+              "legacyId": "chapter-science-wave",
+              "unit": 10,
+              "title": "Wave",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/wave/",
+              "resources": {
+                "chapter": "content/english/science/wave/chapter.json",
+                "mcq": "content/english/science/wave/mcq.json",
+                "notes": "content/english/science/wave/notes.html",
+                "easyNote": "content/english/science/wave/easy-note.html",
+                "importantQuestions": "content/english/science/wave/important-questions.json",
+                "mockTest": "content/english/science/wave/mock-test.json",
+                "slides": "content/english/science/wave/slides.json",
+                "infographics": "content/english/science/wave/infographics.json",
+                "downloads": "content/english/science/wave/downloads.json"
+              }
             }
           }
         }

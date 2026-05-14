@@ -230,3 +230,18 @@ Created content-pack folders for Science Unit 3, Unit 4, and Unit 5.
 - MCQ files are draft placeholders for manual paste in the next step.
 - Unit 1 and Unit 2 content files were not modified.
 - Notes, mock test, slides, infographics, and downloads remain draft placeholders.
+
+---
+
+## Phase 3E.1A Science Unit 6-10 Structure
+
+Created content-pack folders for Science Unit 6, Unit 7, Unit 8, Unit 9, and Unit 10.
+
+- Unit 6: `nature-and-environment`
+- Unit 7: `force-and-motion`
+- Unit 8: `pressure`
+- Unit 9: `heat-energy`
+- Unit 10: `wave`
+- MCQ files are draft placeholders for manual paste in the next step.
+- Unit 1-5 content files were not modified.
+- Notes, mock test, slides, infographics, and downloads remain draft placeholders.
