@@ -65,6 +65,66 @@
                 "infographics": "content/english/science/classification-of-living-things/infographics.json",
                 "downloads": "content/english/science/classification-of-living-things/downloads.json"
               }
+            },
+            "life-cycle-of-honey-bee": {
+              "id": "chapter:english:science:life-cycle-of-honey-bee",
+              "legacyId": "chapter-science-life-cycle-of-honey-bee",
+              "unit": 3,
+              "title": "Life Cycle of Honey Bee",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/life-cycle-of-honey-bee/",
+              "resources": {
+                "chapter": "content/english/science/life-cycle-of-honey-bee/chapter.json",
+                "mcq": "content/english/science/life-cycle-of-honey-bee/mcq.json",
+                "notes": "content/english/science/life-cycle-of-honey-bee/notes.html",
+                "easyNote": "content/english/science/life-cycle-of-honey-bee/easy-note.html",
+                "importantQuestions": "content/english/science/life-cycle-of-honey-bee/important-questions.json",
+                "mockTest": "content/english/science/life-cycle-of-honey-bee/mock-test.json",
+                "slides": "content/english/science/life-cycle-of-honey-bee/slides.json",
+                "infographics": "content/english/science/life-cycle-of-honey-bee/infographics.json",
+                "downloads": "content/english/science/life-cycle-of-honey-bee/downloads.json"
+              }
+            },
+            "heredity": {
+              "id": "chapter:english:science:heredity",
+              "legacyId": "chapter-science-heredity",
+              "unit": 4,
+              "title": "Heredity",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/heredity/",
+              "resources": {
+                "chapter": "content/english/science/heredity/chapter.json",
+                "mcq": "content/english/science/heredity/mcq.json",
+                "notes": "content/english/science/heredity/notes.html",
+                "easyNote": "content/english/science/heredity/easy-note.html",
+                "importantQuestions": "content/english/science/heredity/important-questions.json",
+                "mockTest": "content/english/science/heredity/mock-test.json",
+                "slides": "content/english/science/heredity/slides.json",
+                "infographics": "content/english/science/heredity/infographics.json",
+                "downloads": "content/english/science/heredity/downloads.json"
+              }
+            },
+            "physiological-structure-and-life-process": {
+              "id": "chapter:english:science:physiological-structure-and-life-process",
+              "legacyId": "chapter-science-physiological-structure-and-life-process",
+              "unit": 5,
+              "title": "Physiological Structure and Life Process",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/physiological-structure-and-life-process/",
+              "resources": {
+                "chapter": "content/english/science/physiological-structure-and-life-process/chapter.json",
+                "mcq": "content/english/science/physiological-structure-and-life-process/mcq.json",
+                "notes": "content/english/science/physiological-structure-and-life-process/notes.html",
+                "easyNote": "content/english/science/physiological-structure-and-life-process/easy-note.html",
+                "importantQuestions": "content/english/science/physiological-structure-and-life-process/important-questions.json",
+                "mockTest": "content/english/science/physiological-structure-and-life-process/mock-test.json",
+                "slides": "content/english/science/physiological-structure-and-life-process/slides.json",
+                "infographics": "content/english/science/physiological-structure-and-life-process/infographics.json",
+                "downloads": "content/english/science/physiological-structure-and-life-process/downloads.json"
+              }
             }
           }
         }

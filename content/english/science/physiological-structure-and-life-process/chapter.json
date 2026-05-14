@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:science:physiological-structure-and-life-process",
+  "legacyId": "chapter-science-physiological-structure-and-life-process",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "physiological-structure-and-life-process",
+  "slug": "physiological-structure-and-life-process",
+  "unit": 5,
+  "title": "Physiological Structure and Life Process",
+  "titleNp": "",
+  "summary": "Learn about body systems, blood circulation, blood pressure, and life processes.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-14",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

@@ -196,5 +196,138 @@
     ],
     "url": "quiz.html?subject=science&chapter=classification-of-living-things&medium=english",
     "status": "published"
+  },
+  {
+    "id": "chapter:english:science:life-cycle-of-honey-bee",
+    "legacyId": "chapter-science-life-cycle-of-honey-bee",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "life-cycle-of-honey-bee",
+    "title": "Life Cycle of Honey Bee",
+    "titleNp": "",
+    "keywords": [
+      "life cycle",
+      "honey bee",
+      "bee",
+      "science",
+      "biology",
+      "unit 3"
+    ],
+    "url": "chapter.html?subject=science&chapter=life-cycle-of-honey-bee&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:life-cycle-of-honey-bee",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "life-cycle-of-honey-bee",
+    "title": "Life Cycle of Honey Bee MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "life cycle",
+      "honey bee",
+      "bee",
+      "science",
+      "biology",
+      "unit 3",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=life-cycle-of-honey-bee&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:science:heredity",
+    "legacyId": "chapter-science-heredity",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "heredity",
+    "title": "Heredity",
+    "titleNp": "",
+    "keywords": [
+      "heredity",
+      "chromosomes",
+      "dna",
+      "genes",
+      "mendel",
+      "inheritance",
+      "science",
+      "biology",
+      "unit 4"
+    ],
+    "url": "chapter.html?subject=science&chapter=heredity&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:heredity",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "heredity",
+    "title": "Heredity MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "heredity",
+      "chromosomes",
+      "dna",
+      "genes",
+      "mendel",
+      "inheritance",
+      "science",
+      "biology",
+      "unit 4",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=heredity&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:science:physiological-structure-and-life-process",
+    "legacyId": "chapter-science-physiological-structure-and-life-process",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "physiological-structure-and-life-process",
+    "title": "Physiological Structure and Life Process",
+    "titleNp": "",
+    "keywords": [
+      "physiological structure",
+      "life process",
+      "body systems",
+      "blood circulation",
+      "blood pressure",
+      "science",
+      "biology",
+      "unit 5"
+    ],
+    "url": "chapter.html?subject=science&chapter=physiological-structure-and-life-process&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:physiological-structure-and-life-process",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "physiological-structure-and-life-process",
+    "title": "Physiological Structure and Life Process MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "physiological structure",
+      "life process",
+      "body systems",
+      "blood circulation",
+      "blood pressure",
+      "science",
+      "biology",
+      "unit 5",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=physiological-structure-and-life-process&medium=english",
+    "status": "draft"
   }
 ]

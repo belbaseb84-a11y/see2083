@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:science:life-cycle-of-honey-bee",
+  "legacyId": "chapter-science-life-cycle-of-honey-bee",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "life-cycle-of-honey-bee",
+  "slug": "life-cycle-of-honey-bee",
+  "unit": 3,
+  "title": "Life Cycle of Honey Bee",
+  "titleNp": "",
+  "summary": "Learn about the types of honey bees, their life cycle, and their importance.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-14",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

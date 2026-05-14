@@ -217,3 +217,16 @@ Fixed the Classification of Living Beings slug mismatch.
 - The external content pack now matches the actual route at `content/english/science/classification-of-living-things/`.
 - Unit 2 quiz now loads 50 MCQs from `classification-of-living-things/mcq.json`.
 - Unit 1 Scientific Study quiz remains working.
+
+---
+
+## Phase 3D.1A Science Unit 3-5 Structure
+
+Created content-pack folders for Science Unit 3, Unit 4, and Unit 5.
+
+- Unit 3: `life-cycle-of-honey-bee`
+- Unit 4: `heredity`
+- Unit 5: `physiological-structure-and-life-process`
+- MCQ files are draft placeholders for manual paste in the next step.
+- Unit 1 and Unit 2 content files were not modified.
+- Notes, mock test, slides, infographics, and downloads remain draft placeholders.
