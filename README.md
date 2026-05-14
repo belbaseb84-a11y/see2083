@@ -161,3 +161,13 @@ Mock Test answer selection was made clearer without auto-advance.
 - Submit Test remains clear on the final question.
 - Students can still change answers before moving on.
 - MCQ Practice and content packs were not changed.
+
+---
+
+## Phase 3A.1 Easy Note Layout Polish
+
+Unit 1 `easy-note.html` was converted from raw DOCX-style text into structured website note sections.
+
+- Added a note hero, quick revision summary, key term cards, formula box, question-answer blocks, memory tips, exam tips, and final checklist.
+- Added small note-specific styling in `css/pages.css`.
+- No quiz, mock test, search, JavaScript, or data-index changes were made.
