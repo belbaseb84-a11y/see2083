@@ -26,7 +26,16 @@
     appText: "Class 10 SEE Guide is also available on Android for easier mobile study.",
     appBtn: "Open on Play Store",
     appUrl: "https://play.google.com/store/apps/details?id=com.sushilmarashini.seeguide",
-    final: "Start Learning"
+    whatsappBadge: "SEE 2083 WHATSAPP COMMUNITY",
+    whatsappTitle: "Don’t prepare alone — join our SEE2083 WhatsApp community",
+    whatsappText:
+      "Connect with other SEE 2083 students on WhatsApp, ask doubts, get study updates, share useful resources, and stay motivated throughout your exam preparation.",
+    whatsappBtn: "Join WhatsApp Community",
+    youtubeBadge: "SIMPLE VIDEO LESSONS",
+    youtubeTitle: "Watch easy explanation videos",
+    youtubeText:
+      "Prefer learning by watching? Visit our YouTube channel for simple chapter explanations, MCQ practice, exam tips, and visual lessons made for Class 10 students.",
+    youtubeBtn: "Watch on YouTube"
   };
 
   function setText(id, value) {
@@ -101,11 +110,13 @@
   const appBtn = document.getElementById("app-btn");
   if (appBtn) appBtn.href = labels.appUrl;
 
-  setText("scope-kicker", "Trust note");
-  setText("scope-title", "Clear scope for v1");
-  setText(
-    "scope-text",
-    "Medium selection controls the main content language. The global website interface remains mostly English for now."
-  );
-  setText("final-btn", labels.final);
+  setText("whatsapp-badge", labels.whatsappBadge);
+  setText("whatsapp-title", labels.whatsappTitle);
+  setText("whatsapp-text", labels.whatsappText);
+  setText("whatsapp-btn", labels.whatsappBtn);
+
+  setText("youtube-badge", labels.youtubeBadge);
+  setText("youtube-title", labels.youtubeTitle);
+  setText("youtube-text", labels.youtubeText);
+  setText("youtube-btn", labels.youtubeBtn);
 })();
