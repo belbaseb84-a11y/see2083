@@ -305,6 +305,86 @@
                 "infographics": "content/english/science/chemical-reaction/infographics.json",
                 "downloads": "content/english/science/chemical-reaction/downloads.json"
               }
+            },
+            "some-gases": {
+              "id": "chapter:english:science:some-gases",
+              "legacyId": "chapter-science-some-gases",
+              "unit": 16,
+              "title": "Some Gases",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/some-gases/",
+              "resources": {
+                "chapter": "content/english/science/some-gases/chapter.json",
+                "mcq": "content/english/science/some-gases/mcq.json",
+                "notes": "content/english/science/some-gases/notes.html",
+                "easyNote": "content/english/science/some-gases/easy-note.html",
+                "importantQuestions": "content/english/science/some-gases/important-questions.json",
+                "mockTest": "content/english/science/some-gases/mock-test.json",
+                "slides": "content/english/science/some-gases/slides.json",
+                "infographics": "content/english/science/some-gases/infographics.json",
+                "downloads": "content/english/science/some-gases/downloads.json"
+              }
+            },
+            "metals": {
+              "id": "chapter:english:science:metals",
+              "legacyId": "chapter-science-metals",
+              "unit": 17,
+              "title": "Metals",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/metals/",
+              "resources": {
+                "chapter": "content/english/science/metals/chapter.json",
+                "mcq": "content/english/science/metals/mcq.json",
+                "notes": "content/english/science/metals/notes.html",
+                "easyNote": "content/english/science/metals/easy-note.html",
+                "importantQuestions": "content/english/science/metals/important-questions.json",
+                "mockTest": "content/english/science/metals/mock-test.json",
+                "slides": "content/english/science/metals/slides.json",
+                "infographics": "content/english/science/metals/infographics.json",
+                "downloads": "content/english/science/metals/downloads.json"
+              }
+            },
+            "hydrocarbons-and-its-compounds": {
+              "id": "chapter:english:science:hydrocarbons-and-its-compounds",
+              "legacyId": "chapter-science-hydrocarbons-and-its-compounds",
+              "unit": 18,
+              "title": "Hydrocarbons and Its Compounds",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/hydrocarbons-and-its-compounds/",
+              "resources": {
+                "chapter": "content/english/science/hydrocarbons-and-its-compounds/chapter.json",
+                "mcq": "content/english/science/hydrocarbons-and-its-compounds/mcq.json",
+                "notes": "content/english/science/hydrocarbons-and-its-compounds/notes.html",
+                "easyNote": "content/english/science/hydrocarbons-and-its-compounds/easy-note.html",
+                "importantQuestions": "content/english/science/hydrocarbons-and-its-compounds/important-questions.json",
+                "mockTest": "content/english/science/hydrocarbons-and-its-compounds/mock-test.json",
+                "slides": "content/english/science/hydrocarbons-and-its-compounds/slides.json",
+                "infographics": "content/english/science/hydrocarbons-and-its-compounds/infographics.json",
+                "downloads": "content/english/science/hydrocarbons-and-its-compounds/downloads.json"
+              }
+            },
+            "chemicals-used-in-daily-life": {
+              "id": "chapter:english:science:chemicals-used-in-daily-life",
+              "legacyId": "chapter-science-chemicals-used-in-daily-life",
+              "unit": 19,
+              "title": "Chemicals Used in Daily Life",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/chemicals-used-in-daily-life/",
+              "resources": {
+                "chapter": "content/english/science/chemicals-used-in-daily-life/chapter.json",
+                "mcq": "content/english/science/chemicals-used-in-daily-life/mcq.json",
+                "notes": "content/english/science/chemicals-used-in-daily-life/notes.html",
+                "easyNote": "content/english/science/chemicals-used-in-daily-life/easy-note.html",
+                "importantQuestions": "content/english/science/chemicals-used-in-daily-life/important-questions.json",
+                "mockTest": "content/english/science/chemicals-used-in-daily-life/mock-test.json",
+                "slides": "content/english/science/chemicals-used-in-daily-life/slides.json",
+                "infographics": "content/english/science/chemicals-used-in-daily-life/infographics.json",
+                "downloads": "content/english/science/chemicals-used-in-daily-life/downloads.json"
+              }
             }
           }
         }

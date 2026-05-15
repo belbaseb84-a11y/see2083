@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:science:metals",
+  "legacyId": "chapter-science-metals",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "metals",
+  "slug": "metals",
+  "unit": 17,
+  "title": "Metals",
+  "titleNp": "",
+  "summary": "Learn about minerals, ores, metallurgy, concentration, oxidation, reduction, refining, and electro-refining of copper.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-14",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

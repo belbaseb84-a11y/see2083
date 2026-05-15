@@ -261,3 +261,7 @@ Created or normalized content-pack folders for Science Unit 11, Unit 12, Unit 13
 - The existing `classification-of-elements` demo pack was reused safely for Unit 14.
 - Unit 1-10 content files were not modified.
 - Notes, mock test, slides, infographics, and downloads remain draft placeholders.
+
+## Phase 3G.1A Science Unit 16-19 Structure
+
+Created content-pack folders for Unit 16, Unit 17, Unit 18, and Unit 19 using the active website slugs: some-gases, metals, hydrocarbons-and-its-compounds, and chemicals-used-in-daily-life. MCQ files are draft placeholders for manual paste in the next step. Unit 1-15 were not modified. Notes, mock tests, slides, and infographics remain draft.

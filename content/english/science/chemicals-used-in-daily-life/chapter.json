@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:science:chemicals-used-in-daily-life",
+  "legacyId": "chapter-science-chemicals-used-in-daily-life",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "chemicals-used-in-daily-life",
+  "slug": "chemicals-used-in-daily-life",
+  "unit": 19,
+  "title": "Chemicals Used in Daily Life",
+  "titleNp": "",
+  "summary": "Learn about soap, detergent, pesticides, food preservatives, artificial fruit ripening, and chemical pollution.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-14",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}
