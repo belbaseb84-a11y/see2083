@@ -29,9 +29,9 @@
             "classification-of-elements": {
               "id": "chapter:english:science:classification-of-elements",
               "legacyId": "chapter-science-classification-of-elements",
-              "unit": 2,
+              "unit": 14,
               "title": "Classification of Elements",
-              "titleNp": "तत्वहरूको वर्गीकरण",
+              "titleNp": "",
               "status": "published",
               "basePath": "content/english/science/classification-of-elements/",
               "resources": {
@@ -224,6 +224,86 @@
                 "slides": "content/english/science/wave/slides.json",
                 "infographics": "content/english/science/wave/infographics.json",
                 "downloads": "content/english/science/wave/downloads.json"
+              }
+            },
+            "electricity-and-magnetism": {
+              "id": "chapter:english:science:electricity-and-magnetism",
+              "legacyId": "chapter-science-electricity-and-magnetism",
+              "unit": 11,
+              "title": "Electricity and Magnetism",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/electricity-and-magnetism/",
+              "resources": {
+                "chapter": "content/english/science/electricity-and-magnetism/chapter.json",
+                "mcq": "content/english/science/electricity-and-magnetism/mcq.json",
+                "notes": "content/english/science/electricity-and-magnetism/notes.html",
+                "easyNote": "content/english/science/electricity-and-magnetism/easy-note.html",
+                "importantQuestions": "content/english/science/electricity-and-magnetism/important-questions.json",
+                "mockTest": "content/english/science/electricity-and-magnetism/mock-test.json",
+                "slides": "content/english/science/electricity-and-magnetism/slides.json",
+                "infographics": "content/english/science/electricity-and-magnetism/infographics.json",
+                "downloads": "content/english/science/electricity-and-magnetism/downloads.json"
+              }
+            },
+            "universe": {
+              "id": "chapter:english:science:universe",
+              "legacyId": "chapter-science-universe",
+              "unit": 12,
+              "title": "Universe",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/universe/",
+              "resources": {
+                "chapter": "content/english/science/universe/chapter.json",
+                "mcq": "content/english/science/universe/mcq.json",
+                "notes": "content/english/science/universe/notes.html",
+                "easyNote": "content/english/science/universe/easy-note.html",
+                "importantQuestions": "content/english/science/universe/important-questions.json",
+                "mockTest": "content/english/science/universe/mock-test.json",
+                "slides": "content/english/science/universe/slides.json",
+                "infographics": "content/english/science/universe/infographics.json",
+                "downloads": "content/english/science/universe/downloads.json"
+              }
+            },
+            "information-and-communication-technology": {
+              "id": "chapter:english:science:information-and-communication-technology",
+              "legacyId": "chapter-science-information-and-communication-technology",
+              "unit": 13,
+              "title": "Information and Communication Technology",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/information-and-communication-technology/",
+              "resources": {
+                "chapter": "content/english/science/information-and-communication-technology/chapter.json",
+                "mcq": "content/english/science/information-and-communication-technology/mcq.json",
+                "notes": "content/english/science/information-and-communication-technology/notes.html",
+                "easyNote": "content/english/science/information-and-communication-technology/easy-note.html",
+                "importantQuestions": "content/english/science/information-and-communication-technology/important-questions.json",
+                "mockTest": "content/english/science/information-and-communication-technology/mock-test.json",
+                "slides": "content/english/science/information-and-communication-technology/slides.json",
+                "infographics": "content/english/science/information-and-communication-technology/infographics.json",
+                "downloads": "content/english/science/information-and-communication-technology/downloads.json"
+              }
+            },
+            "chemical-reaction": {
+              "id": "chapter:english:science:chemical-reaction",
+              "legacyId": "chapter-science-chemical-reaction",
+              "unit": 15,
+              "title": "Chemical Reaction",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/science/chemical-reaction/",
+              "resources": {
+                "chapter": "content/english/science/chemical-reaction/chapter.json",
+                "mcq": "content/english/science/chemical-reaction/mcq.json",
+                "notes": "content/english/science/chemical-reaction/notes.html",
+                "easyNote": "content/english/science/chemical-reaction/easy-note.html",
+                "importantQuestions": "content/english/science/chemical-reaction/important-questions.json",
+                "mockTest": "content/english/science/chemical-reaction/mock-test.json",
+                "slides": "content/english/science/chemical-reaction/slides.json",
+                "infographics": "content/english/science/chemical-reaction/infographics.json",
+                "downloads": "content/english/science/chemical-reaction/downloads.json"
               }
             }
           }

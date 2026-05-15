@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:science:information-and-communication-technology",
+  "legacyId": "chapter-science-information-and-communication-technology",
+  "medium": "english",
+  "subject": "science",
+  "chapter": "information-and-communication-technology",
+  "slug": "information-and-communication-technology",
+  "unit": 13,
+  "title": "Information and Communication Technology",
+  "titleNp": "",
+  "summary": "Learn about analogue and digital signals, digital transmission, digital media, digital citizenship, and digital well-being.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-14",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

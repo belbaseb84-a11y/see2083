@@ -245,3 +245,19 @@ Created content-pack folders for Science Unit 6, Unit 7, Unit 8, Unit 9, and Uni
 - MCQ files are draft placeholders for manual paste in the next step.
 - Unit 1-5 content files were not modified.
 - Notes, mock test, slides, infographics, and downloads remain draft placeholders.
+
+---
+
+## Phase 3F.1A Science Unit 11-15 Structure
+
+Created or normalized content-pack folders for Science Unit 11, Unit 12, Unit 13, Unit 14, and Unit 15.
+
+- Unit 11: `electricity-and-magnetism`
+- Unit 12: `universe`
+- Unit 13: `information-and-communication-technology`
+- Unit 14: `classification-of-elements`
+- Unit 15: `chemical-reaction`
+- MCQ files are draft placeholders for manual paste in the next step.
+- The existing `classification-of-elements` demo pack was reused safely for Unit 14.
+- Unit 1-10 content files were not modified.
+- Notes, mock test, slides, infographics, and downloads remain draft placeholders.

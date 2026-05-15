@@ -76,25 +76,6 @@
     "status": "published"
   },
   {
-    "id": "chapter:english:science:classification-of-elements",
-    "legacyId": "chapter-science-classification-of-elements",
-    "type": "chapter",
-    "medium": "english",
-    "subject": "science",
-    "chapter": "classification-of-elements",
-    "title": "Classification of Elements",
-    "titleNp": "तत्वहरूको वर्गीकरण",
-    "keywords": [
-      "classification",
-      "elements",
-      "science",
-      "periodic",
-      "unit 2"
-    ],
-    "url": "chapter.html?subject=science&chapter=classification-of-elements&medium=english",
-    "status": "published"
-  },
-  {
     "id": "material:english:science:classification-of-elements:easy-note",
     "type": "material",
     "medium": "english",
@@ -112,27 +93,7 @@
       "note"
     ],
     "url": "notes.html?subject=science&chapter=classification-of-elements&medium=english&type=easy",
-    "status": "published"
-  },
-  {
-    "id": "mcq:english:science:classification-of-elements",
-    "type": "mcq",
-    "medium": "english",
-    "subject": "science",
-    "chapter": "classification-of-elements",
-    "title": "Classification of Elements MCQ Practice",
-    "titleNp": "तत्वहरूको वर्गीकरण MCQ अभ्यास",
-    "keywords": [
-      "classification",
-      "elements",
-      "science",
-      "periodic",
-      "unit 2",
-      "mcq",
-      "practice"
-    ],
-    "url": "quiz.html?subject=science&chapter=classification-of-elements&medium=english",
-    "status": "published"
+    "status": "draft"
   },
   {
     "id": "material:english:science:classification-of-elements:mock-test",
@@ -152,7 +113,7 @@
       "test"
     ],
     "url": "mock-test.html?subject=science&chapter=classification-of-elements&medium=english",
-    "status": "published"
+    "status": "draft"
   },
   {
     "id": "chapter:english:science:classification-of-living-things",
@@ -564,5 +525,246 @@
     ],
     "url": "quiz.html?subject=science&chapter=wave&medium=english",
     "status": "published"
+  },
+  {
+    "id": "chapter:english:science:electricity-and-magnetism",
+    "legacyId": "chapter-science-electricity-and-magnetism",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "electricity-and-magnetism",
+    "title": "Electricity and Magnetism",
+    "titleNp": "",
+    "keywords": [
+      "electricity",
+      "magnetism",
+      "electric current",
+      "magnetic effect",
+      "electromagnetic induction",
+      "motor effect",
+      "generators",
+      "transformers",
+      "science",
+      "physics",
+      "unit 11"
+    ],
+    "url": "chapter.html?subject=science&chapter=electricity-and-magnetism&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:electricity-and-magnetism",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "electricity-and-magnetism",
+    "title": "Electricity and Magnetism MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "electricity",
+      "magnetism",
+      "electric current",
+      "magnetic effect",
+      "electromagnetic induction",
+      "motor effect",
+      "generators",
+      "transformers",
+      "science",
+      "physics",
+      "unit 11",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=electricity-and-magnetism&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:science:universe",
+    "legacyId": "chapter-science-universe",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "universe",
+    "title": "Universe",
+    "titleNp": "",
+    "keywords": [
+      "universe",
+      "galaxies",
+      "big bang theory",
+      "hubble law",
+      "future of universe",
+      "science",
+      "astronomy",
+      "unit 12"
+    ],
+    "url": "chapter.html?subject=science&chapter=universe&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:universe",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "universe",
+    "title": "Universe MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "universe",
+      "galaxies",
+      "big bang theory",
+      "hubble law",
+      "future of universe",
+      "science",
+      "astronomy",
+      "unit 12",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=universe&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:science:information-and-communication-technology",
+    "legacyId": "chapter-science-information-and-communication-technology",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "information-and-communication-technology",
+    "title": "Information and Communication Technology",
+    "titleNp": "",
+    "keywords": [
+      "information and communication technology",
+      "ict",
+      "analogue signal",
+      "digital signal",
+      "digital transmission",
+      "digital media",
+      "digital citizenship",
+      "digital well-being",
+      "science",
+      "unit 13"
+    ],
+    "url": "chapter.html?subject=science&chapter=information-and-communication-technology&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:information-and-communication-technology",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "information-and-communication-technology",
+    "title": "Information and Communication Technology MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "information and communication technology",
+      "ict",
+      "analogue signal",
+      "digital signal",
+      "digital transmission",
+      "digital media",
+      "digital citizenship",
+      "digital well-being",
+      "science",
+      "unit 13",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=information-and-communication-technology&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:science:classification-of-elements",
+    "legacyId": "chapter-science-classification-of-elements",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "classification-of-elements",
+    "title": "Classification of Elements",
+    "titleNp": "",
+    "keywords": [
+      "classification of elements",
+      "periodic table",
+      "periodic law",
+      "electronic configuration",
+      "element groups",
+      "periodic trends",
+      "science",
+      "chemistry",
+      "unit 14"
+    ],
+    "url": "chapter.html?subject=science&chapter=classification-of-elements&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:classification-of-elements",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "classification-of-elements",
+    "title": "Classification of Elements MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "classification of elements",
+      "periodic table",
+      "periodic law",
+      "electronic configuration",
+      "element groups",
+      "periodic trends",
+      "science",
+      "chemistry",
+      "unit 14",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=classification-of-elements&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:science:chemical-reaction",
+    "legacyId": "chapter-science-chemical-reaction",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "chemical-reaction",
+    "title": "Chemical Reaction",
+    "titleNp": "",
+    "keywords": [
+      "chemical reaction",
+      "types of reactions",
+      "catalysts",
+      "acids",
+      "bases",
+      "salts",
+      "chemical equations",
+      "science",
+      "chemistry",
+      "unit 15"
+    ],
+    "url": "chapter.html?subject=science&chapter=chemical-reaction&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:science:chemical-reaction",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "science",
+    "chapter": "chemical-reaction",
+    "title": "Chemical Reaction MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "chemical reaction",
+      "types of reactions",
+      "catalysts",
+      "acids",
+      "bases",
+      "salts",
+      "chemical equations",
+      "science",
+      "chemistry",
+      "unit 15",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=chemical-reaction&medium=english",
+    "status": "draft"
   }
 ]

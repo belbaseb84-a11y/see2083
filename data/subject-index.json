@@ -7,7 +7,6 @@
       "status": "published",
       "chapters": [
         "scientific-study",
-        "classification-of-elements",
         "classification-of-living-things",
         "life-cycle-of-honey-bee",
         "heredity",
@@ -16,7 +15,12 @@
         "force-and-motion",
         "pressure",
         "heat-energy",
-        "wave"
+        "wave",
+        "electricity-and-magnetism",
+        "universe",
+        "information-and-communication-technology",
+        "classification-of-elements",
+        "chemical-reaction"
       ]
     }
   },

@@ -1,6 +1,6 @@
-# Source Log - Classification of Elements
+# Source Log - Electricity and Magnetism
 
-Status: folder structure normalized.
+Status: folder structure created.
 
 MCQs will be pasted manually in the next step.
 
