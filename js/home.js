@@ -159,6 +159,13 @@
       return;
     }
 
+    function getMediumCardDescription(id) {
+      if (id === "english") return "Read SEE subjects in English.";
+      if (id === "nepali") return "Read SEE subjects in Nepali.";
+      if (id === "electrical") return "Open Grade 10 technical subjects.";
+      return "";
+    }
+
     S2083.mediums.forEach(function (item) {
       const card = document.createElement("a");
 
@@ -168,10 +175,9 @@
       card.innerHTML =
         '<div class="medium-card-icon">' + escapeHTML(item.icon) + '</div>' +
         '<div class="medium-card-title">' + escapeHTML(item.label) + '</div>' +
-        '<div class="medium-card-subtitle">' + escapeHTML(item.labelNp) + '</div>' +
-        '<p class="medium-card-desc">' + escapeHTML(item.desc || "") + '</p>' +
+        '<p class="medium-card-desc">' + escapeHTML(getMediumCardDescription(item.id)) + '</p>' +
         '<div class="medium-card-footer">' +
-          '<span class="btn btn-primary btn-sm" style="pointer-events:none">Select</span>' +
+          '<span class="btn btn-primary btn-sm" style="pointer-events:none">Select &rarr;</span>' +
         '</div>';
 
       card.addEventListener("click", function () {

@@ -1192,7 +1192,9 @@ h4 {
 /* Medium cards: more dashboard/professional, less toy-like */
 .home-medium-grid .medium-card {
   min-height: 210px;
+  align-items: center;
   justify-content: space-between;
+  text-align: center;
   padding: 28px;
   border-radius: 28px;
   background:
@@ -1220,6 +1222,7 @@ h4 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-inline: auto;
   border-radius: 18px;
   background: var(--bg-subtle);
   font-size: 28px;
@@ -1229,6 +1232,13 @@ h4 {
   font-size: 23px;
   font-weight: 850;
   letter-spacing: -0.04em;
+}
+
+.home-medium-grid .medium-card-desc {
+  max-width: 240px;
+  margin-inline: auto;
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
 
 .home-medium-grid .medium-card-subtitle {
@@ -1438,6 +1448,8 @@ h4 {
 
 .medium-page-grid .medium-card {
   min-height: 250px;
+  align-items: center;
+  text-align: center;
   padding: 30px;
   border-radius: 30px;
 }
@@ -1448,6 +1460,7 @@ h4 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-inline: auto;
   border-radius: 20px;
   background: var(--bg-subtle);
   font-size: 30px;
@@ -1468,6 +1481,8 @@ h4 {
 
 .medium-page-grid .medium-card-desc {
   margin-top: 14px;
+  margin-inline: auto;
+  max-width: 250px;
   color: var(--text-secondary);
   font-size: 14px;
   line-height: 1.65;
