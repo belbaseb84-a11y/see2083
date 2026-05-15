@@ -5,7 +5,7 @@
 
 (function () {
   if (typeof pageInit === "function") {
-    pageInit("home");
+    pageInit("medium");
   }
 
   const titleEl = document.getElementById("medium-page-title");

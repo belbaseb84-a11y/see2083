@@ -197,7 +197,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=life-cycle-of-honey-bee&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:heredity",
@@ -244,7 +244,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=heredity&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:physiological-structure-and-life-process",
@@ -289,7 +289,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=physiological-structure-and-life-process&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:nature-and-environment",
@@ -575,7 +575,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=electricity-and-magnetism&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:universe",
@@ -620,7 +620,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=universe&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:information-and-communication-technology",
@@ -669,7 +669,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=information-and-communication-technology&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:classification-of-elements",
@@ -716,7 +716,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=classification-of-elements&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:chemical-reaction",
@@ -765,7 +765,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=chemical-reaction&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:some-gases",
@@ -816,7 +816,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=some-gases&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:metals",
@@ -873,7 +873,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=metals&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:hydrocarbons-and-its-compounds",
@@ -926,7 +926,7 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=hydrocarbons-and-its-compounds&medium=english",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:english:science:chemicals-used-in-daily-life",
@@ -977,6 +977,6 @@
       "practice"
     ],
     "url": "quiz.html?subject=science&chapter=chemicals-used-in-daily-life&medium=english",
-    "status": "draft"
+    "status": "published"
   }
 ]

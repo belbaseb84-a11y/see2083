@@ -265,3 +265,11 @@ Created or normalized content-pack folders for Science Unit 11, Unit 12, Unit 13
 ## Phase 3G.1A Science Unit 16-19 Structure
 
 Created content-pack folders for Unit 16, Unit 17, Unit 18, and Unit 19 using the active website slugs: some-gases, metals, hydrocarbons-and-its-compounds, and chemicals-used-in-daily-life. MCQ files are draft placeholders for manual paste in the next step. Unit 1-15 were not modified. Notes, mock tests, slides, and infographics remain draft.
+
+## Phase Mock.1 Chapter Mock Tests From MCQ Pool
+
+Mock tests now use `mock-test.json` first when it contains published real mock questions. If `mock-test.json` is empty, draft, missing, or only placeholder-style content, chapter mock tests use the chapter `mcq.json` pool instead. Mock mode selects up to 25 random questions, keeps feedback until after submit, and preserves result review. MCQ Practice was not changed.
+
+## Phase QA.1 Post Science MCQ QA Fixes
+
+Verified Unit 1-19 Science MCQ availability, including the fixed Some Gases chapter. Added an early Finish Practice action for exact chapter MCQ practice, aligned completed Science MCQ search entries to published status, fixed the Medium page active nav state, and rechecked bookmark/mobile/dark-mode behavior. No MCQ content files were changed.

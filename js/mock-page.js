@@ -19,6 +19,7 @@
   const lang = getCurrentLanguage();
   const isNp = false;
   const TIME_LIMIT = 15 * 60;
+  const MOCK_QUESTION_LIMIT = 25;
   let questions = [];
   let timeLimitSeconds = TIME_LIMIT;
 
@@ -79,8 +80,8 @@
     testRunning: "Mock Test in Progress",
     liveTitle: "Mock Test",
     liveSub: "Answer all questions within the time limit, then submit for final review.",
-    noQuestions: "No questions are available for this mock test.",
-    noQuestionsSub: "Content for this section is being added.",
+    noQuestions: "Mock test for this chapter is being added.",
+    noQuestionsSub: "Please check MCQ Practice or choose another chapter for now.",
     backSubjects: "Back to Subjects"
   });
 
@@ -150,6 +151,10 @@
   }
 
   function getFallbackMockQuestions() {
+    if (requestedSubject && requestedChapter) {
+      return [];
+    }
+
     if (!hasS2083Data() || !Array.isArray(S2083.mockTestQuestions)) {
       return [];
     }
@@ -179,6 +184,46 @@
     return questions.slice(0, 10);
   }
 
+  function shuffleQuestions(sourceQuestions) {
+    const copy = safeArray(sourceQuestions).slice();
+
+    for (let index = copy.length - 1; index > 0; index--) {
+      const swapIndex = Math.floor(Math.random() * (index + 1));
+      const temp = copy[index];
+      copy[index] = copy[swapIndex];
+      copy[swapIndex] = temp;
+    }
+
+    return copy;
+  }
+
+  function selectMockQuestionSet(sourceQuestions) {
+    const shuffled = shuffleQuestions(sourceQuestions);
+    const limit = Math.min(MOCK_QUESTION_LIMIT, shuffled.length);
+    return shuffled.slice(0, limit);
+  }
+
+  function isPlaceholderMockQuestion(question) {
+    if (!question) return true;
+
+    const questionText = String(question.question || "").toLowerCase();
+    const explanation = String(question.explanation || "").toLowerCase();
+    const options = safeArray(question.options).map(function (option) {
+      return String(option || "").trim().toLowerCase();
+    }).join("|");
+
+    return (
+      questionText.indexOf("demo mock question") >= 0 ||
+      explanation.indexOf("demo explanation only") >= 0 ||
+      options === "option a|option b|option c|option d"
+    );
+  }
+
+  function isPublishedMockData(data) {
+    if (!data || !data.status) return false;
+    return String(data.status).toLowerCase() === "published";
+  }
+
   async function getExternalMockQuestionsIfAvailable() {
     if (!requestedSubject || !requestedChapter) return null;
     if (!window.SEE2083ContentLoader) return null;
@@ -193,6 +238,7 @@
       );
 
       if (!result || !result.found) return null;
+      if (!isPublishedMockData(result.data)) return null;
 
       const normalizedQuestions = SEE2083ContentLoader.normalizeMockTestData(
         result.data,
@@ -200,16 +246,53 @@
         requestedChapter
       );
 
-      if (!normalizedQuestions.length) return null;
+      const realQuestions = normalizedQuestions.filter(function (question) {
+        return !isPlaceholderMockQuestion(question);
+      });
+
+      if (!realQuestions.length) return null;
 
       const externalTimeLimit = Number(result.data && result.data.timeLimitSeconds);
 
       return {
-        questions: normalizedQuestions,
+        questions: realQuestions,
         timeLimitSeconds: externalTimeLimit > 0 ? externalTimeLimit : TIME_LIMIT
       };
     } catch (error) {
       console.warn("External mock test load failed; using fallback questions.", error);
+      return null;
+    }
+  }
+
+  async function getChapterMCQPoolIfAvailable() {
+    if (!requestedSubject || !requestedChapter) return null;
+    if (!window.SEE2083ContentLoader) return null;
+    if (typeof SEE2083ContentLoader.loadQuizResource !== "function") return null;
+    if (typeof SEE2083ContentLoader.normalizeMCQData !== "function") return null;
+
+    try {
+      const result = await SEE2083ContentLoader.loadQuizResource(
+        medium,
+        requestedSubject,
+        requestedChapter
+      );
+
+      if (!result || !result.found) return null;
+
+      const normalizedQuestions = SEE2083ContentLoader.normalizeMCQData(
+        result.data,
+        requestedSubject,
+        requestedChapter
+      );
+
+      if (!normalizedQuestions.length) return null;
+
+      return {
+        questions: selectMockQuestionSet(normalizedQuestions),
+        timeLimitSeconds: TIME_LIMIT
+      };
+    } catch (error) {
+      console.warn("Chapter MCQ mock fallback load failed.", error);
       return null;
     }
   }
@@ -220,6 +303,20 @@
     if (external && external.questions.length) {
       questions = external.questions;
       timeLimitSeconds = external.timeLimitSeconds || TIME_LIMIT;
+      return;
+    }
+
+    if (requestedSubject && requestedChapter) {
+      const mcqFallback = await getChapterMCQPoolIfAvailable();
+
+      if (mcqFallback && mcqFallback.questions.length) {
+        questions = mcqFallback.questions;
+        timeLimitSeconds = mcqFallback.timeLimitSeconds || TIME_LIMIT;
+        return;
+      }
+
+      questions = [];
+      timeLimitSeconds = TIME_LIMIT;
       return;
     }
 
@@ -242,6 +339,15 @@
         "&medium=" + encodeURIComponent(medium);
     }
 
+    if (requestedSubject) {
+      return "chapters.html?subject=" + encodeURIComponent(requestedSubject) +
+        "&medium=" + encodeURIComponent(medium);
+    }
+
+    return "subjects.html?medium=" + encodeURIComponent(medium);
+  }
+
+  function getChooseChapterHref() {
     if (requestedSubject) {
       return "chapters.html?subject=" + encodeURIComponent(requestedSubject) +
         "&medium=" + encodeURIComponent(medium);
@@ -317,6 +423,21 @@
         '<a href="subjects.html?medium=' + encodeURIComponent(medium) + '" class="btn btn-primary">' +
           escapeHTML(labels.backSubjects) +
         '</a>' +
+      '</div>';
+
+    mockQuestionArea.innerHTML =
+      '<div class="empty-state">' +
+        '<div class="empty-icon">!</div>' +
+        '<h3>' + escapeHTML(labels.noQuestions) + '</h3>' +
+        '<p>' + escapeHTML(labels.noQuestionsSub) + '</p>' +
+        '<div class="empty-actions">' +
+          '<a href="' + escapeHTML(getBackHref()) + '" class="btn btn-primary">' +
+            escapeHTML(requestedSubject && requestedChapter ? "Back to Chapter" : labels.backSubjects) +
+          '</a>' +
+          '<a href="' + escapeHTML(getChooseChapterHref()) + '" class="btn btn-outline">' +
+            escapeHTML(requestedSubject ? "Choose Chapter" : labels.browseSubjects) +
+          '</a>' +
+        '</div>' +
       '</div>';
   }
 

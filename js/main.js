@@ -40,6 +40,8 @@ function renderNavbar(activePage) {
     { href: "bookmarks.html", key: "bookmarks", icon: "🔖" },
     { href: "about.html", key: "about", icon: "ℹ️" }
   ];
+  const mediumActiveClass = activePage === "medium" ? " active" : "";
+  const mediumCurrentAttr = activePage === "medium" ? ' aria-current="page"' : "";
 
   nav.innerHTML = `
     <div class="container">
@@ -50,7 +52,7 @@ function renderNavbar(activePage) {
         `).join("")}
       </nav>
       <div class="navbar-actions">
-        <a class="icon-btn" href="medium.html" title="Choose medium" aria-label="Choose medium">Medium</a>
+        <a class="icon-btn${mediumActiveClass}" href="medium.html" title="Choose medium" aria-label="Choose medium"${mediumCurrentAttr}>Medium</a>
         <button class="icon-btn" data-theme-toggle title="Toggle theme" onclick="Theme.toggle()" aria-label="Toggle dark mode">🌙</button>
       </div>
     </div>

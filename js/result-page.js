@@ -186,6 +186,10 @@
       return resultData.quizUrl;
     }
 
+    if (resultData && resultData.mockUrl) {
+      return resultData.mockUrl;
+    }
+
     return resultData && resultData.mode === "practice" ? "quiz.html" : "mock-test.html";
   }
 

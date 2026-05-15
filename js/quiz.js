@@ -12,6 +12,11 @@ const Quiz = (() => {
     return lang === "np" ? np : en;
   }
 
+  function isExactChapterPractice() {
+    const routeContext = getQuizRouteContext();
+    return Boolean(routeContext.subject && routeContext.chapter);
+  }
+
   function init(qs, language) {
     questions = Array.isArray(qs) ? qs : [];
     lang = language || "en";
@@ -39,6 +44,7 @@ const Quiz = (() => {
     const hasAnswered = answered !== undefined;
     const letters = ["A", "B", "C", "D"];
     const actionClass = "quiz-nav quiz-action-bar" + (hasAnswered ? " quiz-action-ready" : "");
+    const showEarlyFinish = isExactChapterPractice() && currentIdx < total - 1;
 
     container.classList.toggle("quiz-has-answer", hasAnswered);
     container.classList.toggle("quiz-last-question", currentIdx >= total - 1);
@@ -76,7 +82,8 @@ const Quiz = (() => {
         </button>
         <span class="quiz-answered-count">${Object.keys(userAnswers).length}/${total} ${text("answered", "उत्तर दिइयो")}</span>
         ${currentIdx < total - 1
-          ? `<button class="btn btn-primary btn-sm quiz-next-btn" onclick="Quiz.next()">${text("Next Question", "अर्को प्रश्न")} &rarr;</button>`
+          ? `<button class="btn btn-primary btn-sm quiz-next-btn" onclick="Quiz.next()">${text("Next Question", "अर्को प्रश्न")} &rarr;</button>
+            ${showEarlyFinish ? `<button class="btn btn-outline btn-sm quiz-finish-btn" onclick="Quiz.finish()">${text("Finish Practice", "Finish Practice")}</button>` : ""}`
           : `<button class="btn btn-accent btn-sm quiz-finish-btn" onclick="Quiz.finish()">${text("Finish Quiz", "क्विज समाप्त")}</button>`
         }
       </div>
@@ -140,8 +147,19 @@ const Quiz = (() => {
   }
 
   function finish() {
-    const correct = Object.entries(userAnswers).filter(([i, a]) => a === questions[i].correct).length;
     const total = questions.length;
+    const unanswered = total - Object.keys(userAnswers).length;
+
+    if (
+      unanswered > 0 &&
+      typeof window !== "undefined" &&
+      typeof window.confirm === "function" &&
+      !window.confirm(text("You still have unanswered questions. Finish anyway?", "You still have unanswered questions. Finish anyway?"))
+    ) {
+      return;
+    }
+
+    const correct = Object.entries(userAnswers).filter(([i, a]) => a === questions[i].correct).length;
     const pct = Math.round((correct / total) * 100);
     const routeContext = getQuizRouteContext();
     const result = {

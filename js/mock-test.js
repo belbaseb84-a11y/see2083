@@ -53,6 +53,7 @@ const MockTest = (() => {
     const letters = ["A","B","C","D"];
     const chosen = userAnswers[currentIdx];
     const hasAnswer = chosen !== undefined;
+    const answeredCount = Object.keys(userAnswers).length;
     const isLastQuestion = currentIdx >= questions.length - 1;
     const nextButtonClass = hasAnswer ? "btn-primary mock-next-ready" : "btn-outline";
     const submitButtonClass = hasAnswer ? "btn-accent mock-submit-ready" : "btn-accent";
@@ -60,6 +61,7 @@ const MockTest = (() => {
     container.innerHTML = `
       <div class="quiz-header" style="margin-bottom:var(--sp-4)">
         <span class="quiz-q-num">Question ${currentIdx + 1} of ${questions.length}</span>
+        <span class="quiz-q-num">Answered ${answeredCount} / ${questions.length}</span>
       </div>
       <p class="quiz-question">${q.question}</p>
       <div class="quiz-options">
@@ -83,6 +85,7 @@ const MockTest = (() => {
         }
       </div>
     `;
+    container.innerHTML = container.innerHTML.replace(/Next Question[^<]*</g, "Next Question &rarr;<");
     renderNavPanel();
   }
 
@@ -98,7 +101,7 @@ const MockTest = (() => {
         `).join("")}
       </div>
       <div style="font-size:12px;color:var(--text-muted);margin-bottom:var(--sp-4)">
-        <span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:var(--color-primary);margin-right:4px"></span>Answered: ${Object.keys(userAnswers).length}<br>
+        <span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:var(--color-primary);margin-right:4px"></span>Answered ${Object.keys(userAnswers).length} / ${questions.length}<br>
         <span style="display:inline-block;width:12px;height:12px;border-radius:2px;background:var(--bg-muted);margin-right:4px;margin-top:4px"></span>Not answered: ${questions.length - Object.keys(userAnswers).length}
       </div>
       <button class="btn btn-accent btn-full btn-sm" onclick="MockTest.submitTest(false)">Submit Test</button>
@@ -117,9 +120,16 @@ const MockTest = (() => {
   }
 
   function submitTest(timeUp = false) {
+    const total = questions.length;
+    const unanswered = total - Object.keys(userAnswers).length;
+
+    if (!timeUp && unanswered > 0 && !window.confirm("You still have unanswered questions. Submit anyway?")) {
+      return;
+    }
+
     clearInterval(timerInterval);
     const correct = Object.entries(userAnswers).filter(([i, a]) => Number(a) === questions[Number(i)].correct).length;
-    const total = questions.length;
+    const wrong = total - correct - unanswered;
     const pct = Math.round((correct / total) * 100);
     const elapsed = Math.floor((Date.now() - startTime) / 1000);
     const mins = Math.floor(elapsed / 60);
@@ -145,6 +155,11 @@ const MockTest = (() => {
       score: correct,
       total,
       pct,
+      totalQuestions: total,
+      correctAnswers: correct,
+      wrongAnswers: wrong,
+      unansweredAnswers: unanswered,
+      selectedAnswers: userAnswers,
       timeTaken: `${mins}m ${secs}s`,
       timeUp,
       answers: userAnswers,
@@ -164,7 +179,8 @@ const MockTest = (() => {
       subject,
       chapter,
       chapterUrl,
-      mockUrl
+      mockUrl,
+      quizUrl: mockUrl
     }));
 
     window.location.href = "result.html";
