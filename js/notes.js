@@ -196,7 +196,7 @@
   }
 
   function renderNotFound() {
-    document.title = labels.notFound + " — see2083";
+    document.title = labels.notFound + " — SEE 2083";
 
     if (notesKickerEl) notesKickerEl.textContent = labels.studyMaterial;
     if (notesTitleEl) notesTitleEl.textContent = labels.notFound;
@@ -503,7 +503,7 @@
     const chapterTitle = getChapterTitle();
     const subjectName = getSubjectName();
 
-    document.title = typeLabel + " — " + chapterTitle + " — see2083";
+    document.title = typeLabel + " — " + chapterTitle + " — SEE 2083";
 
     if (notesKickerEl) notesKickerEl.textContent = labels.studyMaterial;
     if (notesTitleEl) notesTitleEl.textContent = typeLabel;

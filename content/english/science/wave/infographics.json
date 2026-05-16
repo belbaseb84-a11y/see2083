@@ -1,4 +1,29 @@
 {
-  "status": "draft",
-  "items": []
+    "medium":  "english",
+    "subject":  "science",
+    "chapter":  "wave",
+    "status":  "published",
+    "resourceType":  "infographics",
+    "source":  "google_drive",
+    "downloadAllowed":  false,
+    "items":  [
+                  {
+                      "id":  "infographic-wave-1",
+                      "unit":  10,
+                      "title":  "Wave Infographic",
+                      "type":  "drive",
+                      "provider":  "google_drive",
+                      "fileName":  "Unit 10 - Wave - Infographic.png",
+                      "driveFileId":  "1T_wGuNmw6WQoeYznz2RLLtIIBV2XJKDg",
+                      "embedUrl":  "https://drive.google.com/file/d/1T_wGuNmw6WQoeYznz2RLLtIIBV2XJKDg/preview",
+                      "previewUrl":  "https://drive.google.com/file/d/1T_wGuNmw6WQoeYznz2RLLtIIBV2XJKDg/preview",
+                      "viewUrl":  "https://drive.google.com/file/d/1T_wGuNmw6WQoeYznz2RLLtIIBV2XJKDg/view",
+                      "directImageUrl":  "https://drive.google.com/uc?export=view&id=1T_wGuNmw6WQoeYznz2RLLtIIBV2XJKDg",
+                      "description":  "Visual summary for Wave.",
+                      "caption":  "Visual summary for Wave.",
+                      "downloadAllowed":  false,
+                      "status":  "published",
+                      "reviewStatus":  "published"
+                  }
+              ]
 }

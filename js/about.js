@@ -11,15 +11,15 @@
   const labels = {
     home: "Home",
     about: "About",
-    kicker: "About see2083",
-    title: "About see2083",
+    kicker: "About SEE 2083",
+    title: "About SEE 2083",
     subtitle: "A simple SEE Grade 10 study platform for students and teachers in Nepal.",
     start: "Start Learning",
     subjects: "Browse Subjects",
     purpose: "Study platform",
     purposeTitle: "Built for chapter-wise SEE study",
     purposeSub:
-      "see2083 provides subject-wise and chapter-wise study tools for Grade 10 SEE students.",
+      "SEE 2083 provides subject-wise and chapter-wise study tools for Grade 10 SEE students.",
     mainCopy:
       "Students can choose English Medium, Nepali Medium, or Electrical Engineering, then open subjects, chapters, notes, MCQ practice, mock tests, search, and bookmarks in one clean place.",
     appTitle: "Use our Android app",
@@ -27,7 +27,7 @@
     appBtn: "Open on Play Store",
     appUrl: "https://play.google.com/store/apps/details?id=com.sushilmarashini.seeguide",
     whatsappBadge: "SEE 2083 WHATSAPP COMMUNITY",
-    whatsappTitle: "Don’t prepare alone — join our SEE2083 WhatsApp community",
+    whatsappTitle: "Don’t prepare alone — join our SEE 2083 WhatsApp community",
     whatsappText:
       "Connect with other SEE 2083 students on WhatsApp, ask doubts, get study updates, share useful resources, and stay motivated throughout your exam preparation.",
     whatsappBtn: "Join WhatsApp Community",
@@ -52,7 +52,7 @@
     }).join("");
   }
 
-  document.title = labels.about + " - see2083";
+  document.title = labels.about + " - SEE 2083";
 
   renderBreadcrumb(document.getElementById("breadcrumb"), [
     { label: labels.home, href: "index.html" },

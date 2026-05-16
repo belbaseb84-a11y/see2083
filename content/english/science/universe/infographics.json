@@ -1,4 +1,29 @@
 {
-  "status": "draft",
-  "items": []
+    "medium":  "english",
+    "subject":  "science",
+    "chapter":  "universe",
+    "status":  "published",
+    "resourceType":  "infographics",
+    "source":  "google_drive",
+    "downloadAllowed":  false,
+    "items":  [
+                  {
+                      "id":  "infographic-universe-1",
+                      "unit":  12,
+                      "title":  "Universe Infographic",
+                      "type":  "drive",
+                      "provider":  "google_drive",
+                      "fileName":  "Unit 12 - Universe - Infographic.png",
+                      "driveFileId":  "1UTKt4DHWE35o9UFjUAH1mHQhRHkSsgwL",
+                      "embedUrl":  "https://drive.google.com/file/d/1UTKt4DHWE35o9UFjUAH1mHQhRHkSsgwL/preview",
+                      "previewUrl":  "https://drive.google.com/file/d/1UTKt4DHWE35o9UFjUAH1mHQhRHkSsgwL/preview",
+                      "viewUrl":  "https://drive.google.com/file/d/1UTKt4DHWE35o9UFjUAH1mHQhRHkSsgwL/view",
+                      "directImageUrl":  "https://drive.google.com/uc?export=view&id=1UTKt4DHWE35o9UFjUAH1mHQhRHkSsgwL",
+                      "description":  "Visual summary for Universe.",
+                      "caption":  "Visual summary for Universe.",
+                      "downloadAllowed":  false,
+                      "status":  "published",
+                      "reviewStatus":  "published"
+                  }
+              ]
 }

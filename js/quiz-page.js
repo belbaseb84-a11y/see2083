@@ -100,6 +100,10 @@
   }
 
   function getExactChapterFallbackQuestions(subjectId, chapterId) {
+    if (medium !== "english") {
+      return [];
+    }
+
     if (!hasS2083Data() || !Array.isArray(S2083.sampleMCQs)) {
       return [];
     }
@@ -110,6 +114,10 @@
   }
 
   function getSubjectFallbackQuestions(subjectId) {
+    if (medium !== "english") {
+      return [];
+    }
+
     if (!hasS2083Data() || !Array.isArray(S2083.sampleMCQs)) {
       return [];
     }
@@ -120,6 +128,10 @@
   }
 
   function getAllFallbackQuestions() {
+    if (medium !== "english") {
+      return [];
+    }
+
     if (!hasS2083Data() || !Array.isArray(S2083.sampleMCQs)) {
       return [];
     }
@@ -367,7 +379,7 @@
   }
 
   function initPage() {
-    document.title = labels.title + " - see2083";
+    document.title = labels.title + " - SEE 2083";
 
     if (titleEl) titleEl.textContent = labels.title;
     if (subEl) subEl.textContent = labels.sub;

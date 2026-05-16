@@ -1,4 +1,29 @@
 {
-  "status": "draft",
-  "items": []
+    "medium":  "english",
+    "subject":  "science",
+    "chapter":  "heredity",
+    "status":  "published",
+    "resourceType":  "infographics",
+    "source":  "google_drive",
+    "downloadAllowed":  false,
+    "items":  [
+                  {
+                      "id":  "infographic-heredity-1",
+                      "unit":  4,
+                      "title":  "Heredity Infographic",
+                      "type":  "drive",
+                      "provider":  "google_drive",
+                      "fileName":  "Unit 04 - Heredity - Infographic.png",
+                      "driveFileId":  "1ShSixWfWOlEm4buYEhYUQI1z1LN5kG5j",
+                      "embedUrl":  "https://drive.google.com/file/d/1ShSixWfWOlEm4buYEhYUQI1z1LN5kG5j/preview",
+                      "previewUrl":  "https://drive.google.com/file/d/1ShSixWfWOlEm4buYEhYUQI1z1LN5kG5j/preview",
+                      "viewUrl":  "https://drive.google.com/file/d/1ShSixWfWOlEm4buYEhYUQI1z1LN5kG5j/view",
+                      "directImageUrl":  "https://drive.google.com/uc?export=view&id=1ShSixWfWOlEm4buYEhYUQI1z1LN5kG5j",
+                      "description":  "Visual summary for Heredity.",
+                      "caption":  "Visual summary for Heredity.",
+                      "downloadAllowed":  false,
+                      "status":  "published",
+                      "reviewStatus":  "published"
+                  }
+              ]
 }

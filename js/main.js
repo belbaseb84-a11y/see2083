@@ -45,7 +45,7 @@ function renderNavbar(activePage) {
 
   nav.innerHTML = `
     <div class="container">
-      <a href="index.html" class="navbar-brand">see<span>2083</span></a>
+      <a href="index.html" class="navbar-brand">SEE <span>2083</span></a>
       <nav class="navbar-nav-desktop" aria-label="Main navigation">
         ${links.map(l => `
           <a href="${l.href}" class="${activePage === l.key ? "active" : ""}">${Lang.t(l.key)}</a>
@@ -89,7 +89,7 @@ function renderFooter() {
   footer.innerHTML = `
     <div class="container">
       <div class="footer-inner">
-        <span class="footer-brand">see2083</span>
+        <span class="footer-brand">SEE 2083</span>
         <div class="footer-links">
           <a href="about.html">About</a>
         </div>

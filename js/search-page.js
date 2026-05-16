@@ -52,7 +52,7 @@
   const tfMcq = document.getElementById("tf-mcq");
 
   function setLabels() {
-    document.title = labels.kicker + " — see2083";
+    document.title = labels.kicker + " — SEE 2083";
 
     if (searchKicker) searchKicker.textContent = labels.kicker;
     if (searchTitle) searchTitle.textContent = labels.title;

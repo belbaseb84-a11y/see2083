@@ -188,7 +188,7 @@
   }
 
   function renderNotFound() {
-    document.title = labels.notFound + " — see2083";
+    document.title = labels.notFound + " — SEE 2083";
 
     if (subjectIconEl) subjectIconEl.textContent = "📚";
     if (chaptersKickerEl) chaptersKickerEl.textContent = labels.subjectChapters;
@@ -225,7 +225,7 @@
     const categoryLabel = getCategoryLabel(subject);
     const mediumLabel = getMediumLabel();
 
-    document.title = subjectName + " — Chapters — see2083";
+    document.title = subjectName + " — Chapters — SEE 2083";
 
     if (subjectIconEl) subjectIconEl.textContent = subject.icon || "📚";
     if (chaptersKickerEl) chaptersKickerEl.textContent = mediumLabel;

@@ -302,11 +302,11 @@
     icon: "🧮",
     category: "optional",
     mediumGroup: "common",
-    units: 1,
-    description: "Official chapter list needs manual PDF verification.",
+    units: 8,
+    description: "8 structure-only chapters for SEE Grade 10 Optional Mathematics.",
     descriptionNp: "आधिकारिक अध्याय सूची PDF बाट म्यानुअल जाँच आवश्यक छ।",
-    verifiedStatus: "needs manual PDF check",
-    sourceNote: "Official CDC page/PDF found, but TOC was not fully verified in uploaded report. Do not publish non-official guide-site chapter list.",
+    verifiedStatus: "structure only; needs official CDC check",
+    sourceNote: "Structure added for 8 Optional Mathematics units. Verify against the official CDC Optional Mathematics Grade 10 book before adding real content.",
     officialSourceType: "CDC official page/PDF; TOC not fully verified"
   });
 
@@ -481,8 +481,36 @@
 
   setChapters("optional-math", [
     {
-      title: "Official Chapter List Needs Manual PDF Verification",
-      summary: "Official CDC page/PDF found, but TOC was not fully verified in uploaded report. Do not publish non-official guide-site chapter list."
+      title: "Algebra",
+      summary: "Learn about functions, polynomials, sequences and series, linear programming, and quadratic equations."
+    },
+    {
+      title: "Continuity",
+      summary: "Learn about limits, continuity, and basic graphical understanding of functions."
+    },
+    {
+      title: "Matrix",
+      summary: "Learn about determinants, inverse matrices, matrix method, and Cramer's rule."
+    },
+    {
+      title: "Coordinate Geometry",
+      summary: "Learn about straight lines, angle between lines, pair of straight lines, conic sections, and circle."
+    },
+    {
+      title: "Trigonometry",
+      summary: "Learn about multiple angles, sub-multiple angles, transformations, identities, equations, and height and distance."
+    },
+    {
+      title: "Vector",
+      summary: "Learn about scalar product and vector geometry."
+    },
+    {
+      title: "Transformation",
+      summary: "Learn about combined transformation, inversion, and matrix transformation."
+    },
+    {
+      title: "Statistics",
+      summary: "Learn about quartile deviation, mean deviation, standard deviation, and coefficient of variation."
     }
   ]);
 

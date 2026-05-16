@@ -26,8 +26,52 @@
         "hydrocarbons-and-its-compounds",
         "chemicals-used-in-daily-life"
       ]
+    },
+    "optional-math": {
+      "id": "optional-math",
+      "name": "Optional Mathematics",
+      "nameNp": "ऐच्छिक गणित",
+      "status": "published",
+      "chapters": [
+        "algebra",
+        "continuity",
+        "matrix",
+        "coordinate-geometry",
+        "trigonometry",
+        "vector",
+        "transformation",
+        "statistics"
+      ]
     }
   },
-  "nepali": {},
+  "nepali": {
+    "science": {
+      "id": "science",
+      "name": "Science and Technology",
+      "nameNp": "विज्ञान तथा प्रविधि",
+      "status": "published",
+      "chapters": [
+        "scientific-study",
+        "classification-of-living-things",
+        "life-cycle-of-honey-bee",
+        "heredity",
+        "physiological-structure-and-life-process",
+        "nature-and-environment",
+        "force-and-motion",
+        "pressure",
+        "heat-energy",
+        "wave",
+        "electricity-and-magnetism",
+        "universe",
+        "information-and-communication-technology",
+        "classification-of-elements",
+        "chemical-reaction",
+        "some-gases",
+        "metals",
+        "hydrocarbons-and-its-compounds",
+        "chemicals-used-in-daily-life"
+      ]
+    }
+  },
   "electrical": {}
 }

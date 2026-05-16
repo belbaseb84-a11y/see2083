@@ -978,5 +978,1088 @@
     ],
     "url": "quiz.html?subject=science&chapter=chemicals-used-in-daily-life&medium=english",
     "status": "published"
+  },
+  {
+    "id": "chapter:english:optional-math:algebra",
+    "legacyId": "chapter-optional-math-algebra",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "algebra",
+    "title": "Algebra",
+    "titleNp": "",
+    "keywords": [
+      "algebra",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 1"
+    ],
+    "url": "chapter.html?subject=optional-math&chapter=algebra&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:optional-math:algebra",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "algebra",
+    "title": "Algebra MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "algebra",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 1",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=optional-math&chapter=algebra&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:optional-math:continuity",
+    "legacyId": "chapter-optional-math-continuity",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "continuity",
+    "title": "Continuity",
+    "titleNp": "",
+    "keywords": [
+      "continuity",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 2"
+    ],
+    "url": "chapter.html?subject=optional-math&chapter=continuity&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:optional-math:continuity",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "continuity",
+    "title": "Continuity MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "continuity",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 2",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=optional-math&chapter=continuity&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:optional-math:matrix",
+    "legacyId": "chapter-optional-math-matrix",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "matrix",
+    "title": "Matrix",
+    "titleNp": "",
+    "keywords": [
+      "matrix",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 3"
+    ],
+    "url": "chapter.html?subject=optional-math&chapter=matrix&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:optional-math:matrix",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "matrix",
+    "title": "Matrix MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "matrix",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 3",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=optional-math&chapter=matrix&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:optional-math:coordinate-geometry",
+    "legacyId": "chapter-optional-math-coordinate-geometry",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "coordinate-geometry",
+    "title": "Coordinate Geometry",
+    "titleNp": "",
+    "keywords": [
+      "coordinate",
+      "geometry",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 4"
+    ],
+    "url": "chapter.html?subject=optional-math&chapter=coordinate-geometry&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:optional-math:coordinate-geometry",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "coordinate-geometry",
+    "title": "Coordinate Geometry MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "coordinate",
+      "geometry",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 4",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=optional-math&chapter=coordinate-geometry&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:optional-math:trigonometry",
+    "legacyId": "chapter-optional-math-trigonometry",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "trigonometry",
+    "title": "Trigonometry",
+    "titleNp": "",
+    "keywords": [
+      "trigonometry",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 5"
+    ],
+    "url": "chapter.html?subject=optional-math&chapter=trigonometry&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:optional-math:trigonometry",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "trigonometry",
+    "title": "Trigonometry MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "trigonometry",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 5",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=optional-math&chapter=trigonometry&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:optional-math:vector",
+    "legacyId": "chapter-optional-math-vector",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "vector",
+    "title": "Vector",
+    "titleNp": "",
+    "keywords": [
+      "vector",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 6"
+    ],
+    "url": "chapter.html?subject=optional-math&chapter=vector&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:optional-math:vector",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "vector",
+    "title": "Vector MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "vector",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 6",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=optional-math&chapter=vector&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:optional-math:transformation",
+    "legacyId": "chapter-optional-math-transformation",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "transformation",
+    "title": "Transformation",
+    "titleNp": "",
+    "keywords": [
+      "transformation",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 7"
+    ],
+    "url": "chapter.html?subject=optional-math&chapter=transformation&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:optional-math:transformation",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "transformation",
+    "title": "Transformation MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "transformation",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 7",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=optional-math&chapter=transformation&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:english:optional-math:statistics",
+    "legacyId": "chapter-optional-math-statistics",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "statistics",
+    "title": "Statistics",
+    "titleNp": "",
+    "keywords": [
+      "statistics",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 8"
+    ],
+    "url": "chapter.html?subject=optional-math&chapter=statistics&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:optional-math:statistics",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "optional-math",
+    "chapter": "statistics",
+    "title": "Statistics MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "statistics",
+      "optional",
+      "mathematics",
+      "optional math",
+      "unit 8",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=optional-math&chapter=statistics&medium=english",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:scientific-study",
+    "legacyId": "chapter-nepali-science-scientific-study",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "scientific-study",
+    "title": "Scientific Study",
+    "titleNp": "वैज्ञानिक अध्ययन",
+    "keywords": [
+      "scientific",
+      "study",
+      "science",
+      "nepali medium",
+      "unit 1"
+    ],
+    "url": "chapter.html?subject=science&chapter=scientific-study&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:scientific-study",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "scientific-study",
+    "title": "Scientific Study MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "scientific",
+      "study",
+      "science",
+      "nepali medium",
+      "unit 1",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=scientific-study&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:classification-of-living-things",
+    "legacyId": "chapter-nepali-science-classification-of-living-things",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "classification-of-living-things",
+    "title": "Classification of Living Beings",
+    "titleNp": "सजीवहरूको वर्गीकरण",
+    "keywords": [
+      "classification",
+      "of",
+      "living",
+      "beings",
+      "science",
+      "nepali medium",
+      "unit 2"
+    ],
+    "url": "chapter.html?subject=science&chapter=classification-of-living-things&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:classification-of-living-things",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "classification-of-living-things",
+    "title": "Classification of Living Beings MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "classification",
+      "of",
+      "living",
+      "beings",
+      "science",
+      "nepali medium",
+      "unit 2",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=classification-of-living-things&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:life-cycle-of-honey-bee",
+    "legacyId": "chapter-nepali-science-life-cycle-of-honey-bee",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "life-cycle-of-honey-bee",
+    "title": "Life Cycle of Honey Bee",
+    "titleNp": "",
+    "keywords": [
+      "life",
+      "cycle",
+      "of",
+      "honey",
+      "bee",
+      "science",
+      "nepali medium",
+      "unit 3"
+    ],
+    "url": "chapter.html?subject=science&chapter=life-cycle-of-honey-bee&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:life-cycle-of-honey-bee",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "life-cycle-of-honey-bee",
+    "title": "Life Cycle of Honey Bee MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "life",
+      "cycle",
+      "of",
+      "honey",
+      "bee",
+      "science",
+      "nepali medium",
+      "unit 3",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=life-cycle-of-honey-bee&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:heredity",
+    "legacyId": "chapter-nepali-science-heredity",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "heredity",
+    "title": "Heredity",
+    "titleNp": "",
+    "keywords": [
+      "heredity",
+      "science",
+      "nepali medium",
+      "unit 4"
+    ],
+    "url": "chapter.html?subject=science&chapter=heredity&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:heredity",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "heredity",
+    "title": "Heredity MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "heredity",
+      "science",
+      "nepali medium",
+      "unit 4",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=heredity&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:physiological-structure-and-life-process",
+    "legacyId": "chapter-nepali-science-physiological-structure-and-life-process",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "physiological-structure-and-life-process",
+    "title": "Physiological Structure and Life Process",
+    "titleNp": "",
+    "keywords": [
+      "physiological",
+      "structure",
+      "and",
+      "life",
+      "process",
+      "science",
+      "nepali medium",
+      "unit 5"
+    ],
+    "url": "chapter.html?subject=science&chapter=physiological-structure-and-life-process&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:physiological-structure-and-life-process",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "physiological-structure-and-life-process",
+    "title": "Physiological Structure and Life Process MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "physiological",
+      "structure",
+      "and",
+      "life",
+      "process",
+      "science",
+      "nepali medium",
+      "unit 5",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=physiological-structure-and-life-process&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:nature-and-environment",
+    "legacyId": "chapter-nepali-science-nature-and-environment",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "nature-and-environment",
+    "title": "Nature and Environment",
+    "titleNp": "",
+    "keywords": [
+      "nature",
+      "and",
+      "environment",
+      "science",
+      "nepali medium",
+      "unit 6"
+    ],
+    "url": "chapter.html?subject=science&chapter=nature-and-environment&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:nature-and-environment",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "nature-and-environment",
+    "title": "Nature and Environment MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "nature",
+      "and",
+      "environment",
+      "science",
+      "nepali medium",
+      "unit 6",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=nature-and-environment&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:force-and-motion",
+    "legacyId": "chapter-nepali-science-force-and-motion",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "force-and-motion",
+    "title": "Force and Motion",
+    "titleNp": "",
+    "keywords": [
+      "force",
+      "and",
+      "motion",
+      "science",
+      "nepali medium",
+      "unit 7"
+    ],
+    "url": "chapter.html?subject=science&chapter=force-and-motion&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:force-and-motion",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "force-and-motion",
+    "title": "Force and Motion MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "force",
+      "and",
+      "motion",
+      "science",
+      "nepali medium",
+      "unit 7",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=force-and-motion&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:pressure",
+    "legacyId": "chapter-nepali-science-pressure",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "pressure",
+    "title": "Pressure",
+    "titleNp": "",
+    "keywords": [
+      "pressure",
+      "science",
+      "nepali medium",
+      "unit 8"
+    ],
+    "url": "chapter.html?subject=science&chapter=pressure&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:pressure",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "pressure",
+    "title": "Pressure MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "pressure",
+      "science",
+      "nepali medium",
+      "unit 8",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=pressure&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:heat-energy",
+    "legacyId": "chapter-nepali-science-heat-energy",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "heat-energy",
+    "title": "Heat Energy",
+    "titleNp": "",
+    "keywords": [
+      "heat",
+      "energy",
+      "science",
+      "nepali medium",
+      "unit 9"
+    ],
+    "url": "chapter.html?subject=science&chapter=heat-energy&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:heat-energy",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "heat-energy",
+    "title": "Heat Energy MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "heat",
+      "energy",
+      "science",
+      "nepali medium",
+      "unit 9",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=heat-energy&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:wave",
+    "legacyId": "chapter-nepali-science-wave",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "wave",
+    "title": "Wave",
+    "titleNp": "",
+    "keywords": [
+      "wave",
+      "science",
+      "nepali medium",
+      "unit 10"
+    ],
+    "url": "chapter.html?subject=science&chapter=wave&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:wave",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "wave",
+    "title": "Wave MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "wave",
+      "science",
+      "nepali medium",
+      "unit 10",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=wave&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:electricity-and-magnetism",
+    "legacyId": "chapter-nepali-science-electricity-and-magnetism",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "electricity-and-magnetism",
+    "title": "Electricity and Magnetism",
+    "titleNp": "",
+    "keywords": [
+      "electricity",
+      "and",
+      "magnetism",
+      "science",
+      "nepali medium",
+      "unit 11"
+    ],
+    "url": "chapter.html?subject=science&chapter=electricity-and-magnetism&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:electricity-and-magnetism",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "electricity-and-magnetism",
+    "title": "Electricity and Magnetism MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "electricity",
+      "and",
+      "magnetism",
+      "science",
+      "nepali medium",
+      "unit 11",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=electricity-and-magnetism&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:universe",
+    "legacyId": "chapter-nepali-science-universe",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "universe",
+    "title": "Universe",
+    "titleNp": "",
+    "keywords": [
+      "universe",
+      "science",
+      "nepali medium",
+      "unit 12"
+    ],
+    "url": "chapter.html?subject=science&chapter=universe&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:universe",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "universe",
+    "title": "Universe MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "universe",
+      "science",
+      "nepali medium",
+      "unit 12",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=universe&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:information-and-communication-technology",
+    "legacyId": "chapter-nepali-science-information-and-communication-technology",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "information-and-communication-technology",
+    "title": "Information and Communication Technology",
+    "titleNp": "",
+    "keywords": [
+      "information",
+      "and",
+      "communication",
+      "technology",
+      "science",
+      "nepali medium",
+      "unit 13"
+    ],
+    "url": "chapter.html?subject=science&chapter=information-and-communication-technology&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:information-and-communication-technology",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "information-and-communication-technology",
+    "title": "Information and Communication Technology MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "information",
+      "and",
+      "communication",
+      "technology",
+      "science",
+      "nepali medium",
+      "unit 13",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=information-and-communication-technology&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:classification-of-elements",
+    "legacyId": "chapter-nepali-science-classification-of-elements",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "classification-of-elements",
+    "title": "Classification of Elements",
+    "titleNp": "",
+    "keywords": [
+      "classification",
+      "of",
+      "elements",
+      "science",
+      "nepali medium",
+      "unit 14"
+    ],
+    "url": "chapter.html?subject=science&chapter=classification-of-elements&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:classification-of-elements",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "classification-of-elements",
+    "title": "Classification of Elements MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "classification",
+      "of",
+      "elements",
+      "science",
+      "nepali medium",
+      "unit 14",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=classification-of-elements&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:chemical-reaction",
+    "legacyId": "chapter-nepali-science-chemical-reaction",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "chemical-reaction",
+    "title": "Chemical Reaction",
+    "titleNp": "",
+    "keywords": [
+      "chemical",
+      "reaction",
+      "science",
+      "nepali medium",
+      "unit 15"
+    ],
+    "url": "chapter.html?subject=science&chapter=chemical-reaction&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:chemical-reaction",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "chemical-reaction",
+    "title": "Chemical Reaction MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "chemical",
+      "reaction",
+      "science",
+      "nepali medium",
+      "unit 15",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=chemical-reaction&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:some-gases",
+    "legacyId": "chapter-nepali-science-some-gases",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "some-gases",
+    "title": "Some Gases",
+    "titleNp": "",
+    "keywords": [
+      "some",
+      "gases",
+      "science",
+      "nepali medium",
+      "unit 16"
+    ],
+    "url": "chapter.html?subject=science&chapter=some-gases&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:some-gases",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "some-gases",
+    "title": "Some Gases MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "some",
+      "gases",
+      "science",
+      "nepali medium",
+      "unit 16",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=some-gases&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:metals",
+    "legacyId": "chapter-nepali-science-metals",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "metals",
+    "title": "Metals",
+    "titleNp": "",
+    "keywords": [
+      "metals",
+      "science",
+      "nepali medium",
+      "unit 17"
+    ],
+    "url": "chapter.html?subject=science&chapter=metals&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:metals",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "metals",
+    "title": "Metals MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "metals",
+      "science",
+      "nepali medium",
+      "unit 17",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=metals&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:hydrocarbons-and-its-compounds",
+    "legacyId": "chapter-nepali-science-hydrocarbons-and-its-compounds",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "hydrocarbons-and-its-compounds",
+    "title": "Hydrocarbons and Its Compounds",
+    "titleNp": "",
+    "keywords": [
+      "hydrocarbons",
+      "and",
+      "its",
+      "compounds",
+      "science",
+      "nepali medium",
+      "unit 18"
+    ],
+    "url": "chapter.html?subject=science&chapter=hydrocarbons-and-its-compounds&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:hydrocarbons-and-its-compounds",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "hydrocarbons-and-its-compounds",
+    "title": "Hydrocarbons and Its Compounds MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "hydrocarbons",
+      "and",
+      "its",
+      "compounds",
+      "science",
+      "nepali medium",
+      "unit 18",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=hydrocarbons-and-its-compounds&medium=nepali",
+    "status": "draft"
+  },
+  {
+    "id": "chapter:nepali:science:chemicals-used-in-daily-life",
+    "legacyId": "chapter-nepali-science-chemicals-used-in-daily-life",
+    "type": "chapter",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "chemicals-used-in-daily-life",
+    "title": "Chemicals Used in Daily Life",
+    "titleNp": "",
+    "keywords": [
+      "chemicals",
+      "used",
+      "in",
+      "daily",
+      "life",
+      "science",
+      "nepali medium",
+      "unit 19"
+    ],
+    "url": "chapter.html?subject=science&chapter=chemicals-used-in-daily-life&medium=nepali",
+    "status": "published"
+  },
+  {
+    "id": "mcq:nepali:science:chemicals-used-in-daily-life",
+    "type": "mcq",
+    "medium": "nepali",
+    "subject": "science",
+    "chapter": "chemicals-used-in-daily-life",
+    "title": "Chemicals Used in Daily Life MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "chemicals",
+      "used",
+      "in",
+      "daily",
+      "life",
+      "science",
+      "nepali medium",
+      "unit 19",
+      "mcq",
+      "practice"
+    ],
+    "url": "quiz.html?subject=science&chapter=chemicals-used-in-daily-life&medium=nepali",
+    "status": "draft"
   }
 ]

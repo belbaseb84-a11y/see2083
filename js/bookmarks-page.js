@@ -59,7 +59,7 @@
   });
 
   function setLabels() {
-    document.title = labels.bookmarks + " — see2083";
+    document.title = labels.bookmarks + " — SEE 2083";
 
     if (titleEl) titleEl.textContent = labels.bookmarks;
     if (subEl) subEl.textContent = labels.sub;

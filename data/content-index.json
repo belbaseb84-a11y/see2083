@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-14",
+  "lastUpdated": "2026-05-15",
   "mediums": {
     "english": {
       "subjects": {
@@ -387,11 +387,560 @@
               }
             }
           }
+        },
+        "optional-math": {
+          "chapters": {
+            "algebra": {
+              "id": "chapter:english:optional-math:algebra",
+              "legacyId": "chapter-optional-math-algebra",
+              "unit": 1,
+              "title": "Algebra",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/optional-math/algebra/",
+              "resources": {
+                "chapter": "content/english/optional-math/algebra/chapter.json",
+                "mcq": "content/english/optional-math/algebra/mcq.json",
+                "notes": "content/english/optional-math/algebra/notes.html",
+                "easyNote": "content/english/optional-math/algebra/easy-note.html",
+                "importantQuestions": "content/english/optional-math/algebra/important-questions.json",
+                "mockTest": "content/english/optional-math/algebra/mock-test.json",
+                "slides": "content/english/optional-math/algebra/slides.json",
+                "infographics": "content/english/optional-math/algebra/infographics.json",
+                "downloads": "content/english/optional-math/algebra/downloads.json"
+              }
+            },
+            "continuity": {
+              "id": "chapter:english:optional-math:continuity",
+              "legacyId": "chapter-optional-math-continuity",
+              "unit": 2,
+              "title": "Continuity",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/optional-math/continuity/",
+              "resources": {
+                "chapter": "content/english/optional-math/continuity/chapter.json",
+                "mcq": "content/english/optional-math/continuity/mcq.json",
+                "notes": "content/english/optional-math/continuity/notes.html",
+                "easyNote": "content/english/optional-math/continuity/easy-note.html",
+                "importantQuestions": "content/english/optional-math/continuity/important-questions.json",
+                "mockTest": "content/english/optional-math/continuity/mock-test.json",
+                "slides": "content/english/optional-math/continuity/slides.json",
+                "infographics": "content/english/optional-math/continuity/infographics.json",
+                "downloads": "content/english/optional-math/continuity/downloads.json"
+              }
+            },
+            "matrix": {
+              "id": "chapter:english:optional-math:matrix",
+              "legacyId": "chapter-optional-math-matrix",
+              "unit": 3,
+              "title": "Matrix",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/optional-math/matrix/",
+              "resources": {
+                "chapter": "content/english/optional-math/matrix/chapter.json",
+                "mcq": "content/english/optional-math/matrix/mcq.json",
+                "notes": "content/english/optional-math/matrix/notes.html",
+                "easyNote": "content/english/optional-math/matrix/easy-note.html",
+                "importantQuestions": "content/english/optional-math/matrix/important-questions.json",
+                "mockTest": "content/english/optional-math/matrix/mock-test.json",
+                "slides": "content/english/optional-math/matrix/slides.json",
+                "infographics": "content/english/optional-math/matrix/infographics.json",
+                "downloads": "content/english/optional-math/matrix/downloads.json"
+              }
+            },
+            "coordinate-geometry": {
+              "id": "chapter:english:optional-math:coordinate-geometry",
+              "legacyId": "chapter-optional-math-coordinate-geometry",
+              "unit": 4,
+              "title": "Coordinate Geometry",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/optional-math/coordinate-geometry/",
+              "resources": {
+                "chapter": "content/english/optional-math/coordinate-geometry/chapter.json",
+                "mcq": "content/english/optional-math/coordinate-geometry/mcq.json",
+                "notes": "content/english/optional-math/coordinate-geometry/notes.html",
+                "easyNote": "content/english/optional-math/coordinate-geometry/easy-note.html",
+                "importantQuestions": "content/english/optional-math/coordinate-geometry/important-questions.json",
+                "mockTest": "content/english/optional-math/coordinate-geometry/mock-test.json",
+                "slides": "content/english/optional-math/coordinate-geometry/slides.json",
+                "infographics": "content/english/optional-math/coordinate-geometry/infographics.json",
+                "downloads": "content/english/optional-math/coordinate-geometry/downloads.json"
+              }
+            },
+            "trigonometry": {
+              "id": "chapter:english:optional-math:trigonometry",
+              "legacyId": "chapter-optional-math-trigonometry",
+              "unit": 5,
+              "title": "Trigonometry",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/optional-math/trigonometry/",
+              "resources": {
+                "chapter": "content/english/optional-math/trigonometry/chapter.json",
+                "mcq": "content/english/optional-math/trigonometry/mcq.json",
+                "notes": "content/english/optional-math/trigonometry/notes.html",
+                "easyNote": "content/english/optional-math/trigonometry/easy-note.html",
+                "importantQuestions": "content/english/optional-math/trigonometry/important-questions.json",
+                "mockTest": "content/english/optional-math/trigonometry/mock-test.json",
+                "slides": "content/english/optional-math/trigonometry/slides.json",
+                "infographics": "content/english/optional-math/trigonometry/infographics.json",
+                "downloads": "content/english/optional-math/trigonometry/downloads.json"
+              }
+            },
+            "vector": {
+              "id": "chapter:english:optional-math:vector",
+              "legacyId": "chapter-optional-math-vector",
+              "unit": 6,
+              "title": "Vector",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/optional-math/vector/",
+              "resources": {
+                "chapter": "content/english/optional-math/vector/chapter.json",
+                "mcq": "content/english/optional-math/vector/mcq.json",
+                "notes": "content/english/optional-math/vector/notes.html",
+                "easyNote": "content/english/optional-math/vector/easy-note.html",
+                "importantQuestions": "content/english/optional-math/vector/important-questions.json",
+                "mockTest": "content/english/optional-math/vector/mock-test.json",
+                "slides": "content/english/optional-math/vector/slides.json",
+                "infographics": "content/english/optional-math/vector/infographics.json",
+                "downloads": "content/english/optional-math/vector/downloads.json"
+              }
+            },
+            "transformation": {
+              "id": "chapter:english:optional-math:transformation",
+              "legacyId": "chapter-optional-math-transformation",
+              "unit": 7,
+              "title": "Transformation",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/optional-math/transformation/",
+              "resources": {
+                "chapter": "content/english/optional-math/transformation/chapter.json",
+                "mcq": "content/english/optional-math/transformation/mcq.json",
+                "notes": "content/english/optional-math/transformation/notes.html",
+                "easyNote": "content/english/optional-math/transformation/easy-note.html",
+                "importantQuestions": "content/english/optional-math/transformation/important-questions.json",
+                "mockTest": "content/english/optional-math/transformation/mock-test.json",
+                "slides": "content/english/optional-math/transformation/slides.json",
+                "infographics": "content/english/optional-math/transformation/infographics.json",
+                "downloads": "content/english/optional-math/transformation/downloads.json"
+              }
+            },
+            "statistics": {
+              "id": "chapter:english:optional-math:statistics",
+              "legacyId": "chapter-optional-math-statistics",
+              "unit": 8,
+              "title": "Statistics",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/optional-math/statistics/",
+              "resources": {
+                "chapter": "content/english/optional-math/statistics/chapter.json",
+                "mcq": "content/english/optional-math/statistics/mcq.json",
+                "notes": "content/english/optional-math/statistics/notes.html",
+                "easyNote": "content/english/optional-math/statistics/easy-note.html",
+                "importantQuestions": "content/english/optional-math/statistics/important-questions.json",
+                "mockTest": "content/english/optional-math/statistics/mock-test.json",
+                "slides": "content/english/optional-math/statistics/slides.json",
+                "infographics": "content/english/optional-math/statistics/infographics.json",
+                "downloads": "content/english/optional-math/statistics/downloads.json"
+              }
+            }
+          }
         }
       }
     },
     "nepali": {
-      "subjects": {}
+      "subjects": {
+        "science": {
+          "chapters": {
+            "scientific-study": {
+              "id": "chapter:nepali:science:scientific-study",
+              "legacyId": "chapter-nepali-science-scientific-study",
+              "unit": 1,
+              "title": "Scientific Study",
+              "titleNp": "वैज्ञानिक अध्ययन",
+              "status": "published",
+              "basePath": "content/nepali/science/scientific-study/",
+              "resources": {
+                "chapter": "content/nepali/science/scientific-study/chapter.json",
+                "mcq": "content/nepali/science/scientific-study/mcq.json",
+                "notes": "content/nepali/science/scientific-study/notes.html",
+                "easyNote": "content/nepali/science/scientific-study/easy-note.html",
+                "importantQuestions": "content/nepali/science/scientific-study/important-questions.json",
+                "mockTest": "content/nepali/science/scientific-study/mock-test.json",
+                "slides": "content/nepali/science/scientific-study/slides.json",
+                "infographics": "content/nepali/science/scientific-study/infographics.json",
+                "downloads": "content/nepali/science/scientific-study/downloads.json"
+              }
+            },
+            "classification-of-living-things": {
+              "id": "chapter:nepali:science:classification-of-living-things",
+              "legacyId": "chapter-nepali-science-classification-of-living-things",
+              "unit": 2,
+              "title": "Classification of Living Beings",
+              "titleNp": "सजीवहरूको वर्गीकरण",
+              "status": "published",
+              "basePath": "content/nepali/science/classification-of-living-things/",
+              "resources": {
+                "chapter": "content/nepali/science/classification-of-living-things/chapter.json",
+                "mcq": "content/nepali/science/classification-of-living-things/mcq.json",
+                "notes": "content/nepali/science/classification-of-living-things/notes.html",
+                "easyNote": "content/nepali/science/classification-of-living-things/easy-note.html",
+                "importantQuestions": "content/nepali/science/classification-of-living-things/important-questions.json",
+                "mockTest": "content/nepali/science/classification-of-living-things/mock-test.json",
+                "slides": "content/nepali/science/classification-of-living-things/slides.json",
+                "infographics": "content/nepali/science/classification-of-living-things/infographics.json",
+                "downloads": "content/nepali/science/classification-of-living-things/downloads.json"
+              }
+            },
+            "life-cycle-of-honey-bee": {
+              "id": "chapter:nepali:science:life-cycle-of-honey-bee",
+              "legacyId": "chapter-nepali-science-life-cycle-of-honey-bee",
+              "unit": 3,
+              "title": "Life Cycle of Honey Bee",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/life-cycle-of-honey-bee/",
+              "resources": {
+                "chapter": "content/nepali/science/life-cycle-of-honey-bee/chapter.json",
+                "mcq": "content/nepali/science/life-cycle-of-honey-bee/mcq.json",
+                "notes": "content/nepali/science/life-cycle-of-honey-bee/notes.html",
+                "easyNote": "content/nepali/science/life-cycle-of-honey-bee/easy-note.html",
+                "importantQuestions": "content/nepali/science/life-cycle-of-honey-bee/important-questions.json",
+                "mockTest": "content/nepali/science/life-cycle-of-honey-bee/mock-test.json",
+                "slides": "content/nepali/science/life-cycle-of-honey-bee/slides.json",
+                "infographics": "content/nepali/science/life-cycle-of-honey-bee/infographics.json",
+                "downloads": "content/nepali/science/life-cycle-of-honey-bee/downloads.json"
+              }
+            },
+            "heredity": {
+              "id": "chapter:nepali:science:heredity",
+              "legacyId": "chapter-nepali-science-heredity",
+              "unit": 4,
+              "title": "Heredity",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/heredity/",
+              "resources": {
+                "chapter": "content/nepali/science/heredity/chapter.json",
+                "mcq": "content/nepali/science/heredity/mcq.json",
+                "notes": "content/nepali/science/heredity/notes.html",
+                "easyNote": "content/nepali/science/heredity/easy-note.html",
+                "importantQuestions": "content/nepali/science/heredity/important-questions.json",
+                "mockTest": "content/nepali/science/heredity/mock-test.json",
+                "slides": "content/nepali/science/heredity/slides.json",
+                "infographics": "content/nepali/science/heredity/infographics.json",
+                "downloads": "content/nepali/science/heredity/downloads.json"
+              }
+            },
+            "physiological-structure-and-life-process": {
+              "id": "chapter:nepali:science:physiological-structure-and-life-process",
+              "legacyId": "chapter-nepali-science-physiological-structure-and-life-process",
+              "unit": 5,
+              "title": "Physiological Structure and Life Process",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/physiological-structure-and-life-process/",
+              "resources": {
+                "chapter": "content/nepali/science/physiological-structure-and-life-process/chapter.json",
+                "mcq": "content/nepali/science/physiological-structure-and-life-process/mcq.json",
+                "notes": "content/nepali/science/physiological-structure-and-life-process/notes.html",
+                "easyNote": "content/nepali/science/physiological-structure-and-life-process/easy-note.html",
+                "importantQuestions": "content/nepali/science/physiological-structure-and-life-process/important-questions.json",
+                "mockTest": "content/nepali/science/physiological-structure-and-life-process/mock-test.json",
+                "slides": "content/nepali/science/physiological-structure-and-life-process/slides.json",
+                "infographics": "content/nepali/science/physiological-structure-and-life-process/infographics.json",
+                "downloads": "content/nepali/science/physiological-structure-and-life-process/downloads.json"
+              }
+            },
+            "nature-and-environment": {
+              "id": "chapter:nepali:science:nature-and-environment",
+              "legacyId": "chapter-nepali-science-nature-and-environment",
+              "unit": 6,
+              "title": "Nature and Environment",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/nature-and-environment/",
+              "resources": {
+                "chapter": "content/nepali/science/nature-and-environment/chapter.json",
+                "mcq": "content/nepali/science/nature-and-environment/mcq.json",
+                "notes": "content/nepali/science/nature-and-environment/notes.html",
+                "easyNote": "content/nepali/science/nature-and-environment/easy-note.html",
+                "importantQuestions": "content/nepali/science/nature-and-environment/important-questions.json",
+                "mockTest": "content/nepali/science/nature-and-environment/mock-test.json",
+                "slides": "content/nepali/science/nature-and-environment/slides.json",
+                "infographics": "content/nepali/science/nature-and-environment/infographics.json",
+                "downloads": "content/nepali/science/nature-and-environment/downloads.json"
+              }
+            },
+            "force-and-motion": {
+              "id": "chapter:nepali:science:force-and-motion",
+              "legacyId": "chapter-nepali-science-force-and-motion",
+              "unit": 7,
+              "title": "Force and Motion",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/force-and-motion/",
+              "resources": {
+                "chapter": "content/nepali/science/force-and-motion/chapter.json",
+                "mcq": "content/nepali/science/force-and-motion/mcq.json",
+                "notes": "content/nepali/science/force-and-motion/notes.html",
+                "easyNote": "content/nepali/science/force-and-motion/easy-note.html",
+                "importantQuestions": "content/nepali/science/force-and-motion/important-questions.json",
+                "mockTest": "content/nepali/science/force-and-motion/mock-test.json",
+                "slides": "content/nepali/science/force-and-motion/slides.json",
+                "infographics": "content/nepali/science/force-and-motion/infographics.json",
+                "downloads": "content/nepali/science/force-and-motion/downloads.json"
+              }
+            },
+            "pressure": {
+              "id": "chapter:nepali:science:pressure",
+              "legacyId": "chapter-nepali-science-pressure",
+              "unit": 8,
+              "title": "Pressure",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/pressure/",
+              "resources": {
+                "chapter": "content/nepali/science/pressure/chapter.json",
+                "mcq": "content/nepali/science/pressure/mcq.json",
+                "notes": "content/nepali/science/pressure/notes.html",
+                "easyNote": "content/nepali/science/pressure/easy-note.html",
+                "importantQuestions": "content/nepali/science/pressure/important-questions.json",
+                "mockTest": "content/nepali/science/pressure/mock-test.json",
+                "slides": "content/nepali/science/pressure/slides.json",
+                "infographics": "content/nepali/science/pressure/infographics.json",
+                "downloads": "content/nepali/science/pressure/downloads.json"
+              }
+            },
+            "heat-energy": {
+              "id": "chapter:nepali:science:heat-energy",
+              "legacyId": "chapter-nepali-science-heat-energy",
+              "unit": 9,
+              "title": "Heat Energy",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/heat-energy/",
+              "resources": {
+                "chapter": "content/nepali/science/heat-energy/chapter.json",
+                "mcq": "content/nepali/science/heat-energy/mcq.json",
+                "notes": "content/nepali/science/heat-energy/notes.html",
+                "easyNote": "content/nepali/science/heat-energy/easy-note.html",
+                "importantQuestions": "content/nepali/science/heat-energy/important-questions.json",
+                "mockTest": "content/nepali/science/heat-energy/mock-test.json",
+                "slides": "content/nepali/science/heat-energy/slides.json",
+                "infographics": "content/nepali/science/heat-energy/infographics.json",
+                "downloads": "content/nepali/science/heat-energy/downloads.json"
+              }
+            },
+            "wave": {
+              "id": "chapter:nepali:science:wave",
+              "legacyId": "chapter-nepali-science-wave",
+              "unit": 10,
+              "title": "Wave",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/wave/",
+              "resources": {
+                "chapter": "content/nepali/science/wave/chapter.json",
+                "mcq": "content/nepali/science/wave/mcq.json",
+                "notes": "content/nepali/science/wave/notes.html",
+                "easyNote": "content/nepali/science/wave/easy-note.html",
+                "importantQuestions": "content/nepali/science/wave/important-questions.json",
+                "mockTest": "content/nepali/science/wave/mock-test.json",
+                "slides": "content/nepali/science/wave/slides.json",
+                "infographics": "content/nepali/science/wave/infographics.json",
+                "downloads": "content/nepali/science/wave/downloads.json"
+              }
+            },
+            "electricity-and-magnetism": {
+              "id": "chapter:nepali:science:electricity-and-magnetism",
+              "legacyId": "chapter-nepali-science-electricity-and-magnetism",
+              "unit": 11,
+              "title": "Electricity and Magnetism",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/electricity-and-magnetism/",
+              "resources": {
+                "chapter": "content/nepali/science/electricity-and-magnetism/chapter.json",
+                "mcq": "content/nepali/science/electricity-and-magnetism/mcq.json",
+                "notes": "content/nepali/science/electricity-and-magnetism/notes.html",
+                "easyNote": "content/nepali/science/electricity-and-magnetism/easy-note.html",
+                "importantQuestions": "content/nepali/science/electricity-and-magnetism/important-questions.json",
+                "mockTest": "content/nepali/science/electricity-and-magnetism/mock-test.json",
+                "slides": "content/nepali/science/electricity-and-magnetism/slides.json",
+                "infographics": "content/nepali/science/electricity-and-magnetism/infographics.json",
+                "downloads": "content/nepali/science/electricity-and-magnetism/downloads.json"
+              }
+            },
+            "universe": {
+              "id": "chapter:nepali:science:universe",
+              "legacyId": "chapter-nepali-science-universe",
+              "unit": 12,
+              "title": "Universe",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/universe/",
+              "resources": {
+                "chapter": "content/nepali/science/universe/chapter.json",
+                "mcq": "content/nepali/science/universe/mcq.json",
+                "notes": "content/nepali/science/universe/notes.html",
+                "easyNote": "content/nepali/science/universe/easy-note.html",
+                "importantQuestions": "content/nepali/science/universe/important-questions.json",
+                "mockTest": "content/nepali/science/universe/mock-test.json",
+                "slides": "content/nepali/science/universe/slides.json",
+                "infographics": "content/nepali/science/universe/infographics.json",
+                "downloads": "content/nepali/science/universe/downloads.json"
+              }
+            },
+            "information-and-communication-technology": {
+              "id": "chapter:nepali:science:information-and-communication-technology",
+              "legacyId": "chapter-nepali-science-information-and-communication-technology",
+              "unit": 13,
+              "title": "Information and Communication Technology",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/information-and-communication-technology/",
+              "resources": {
+                "chapter": "content/nepali/science/information-and-communication-technology/chapter.json",
+                "mcq": "content/nepali/science/information-and-communication-technology/mcq.json",
+                "notes": "content/nepali/science/information-and-communication-technology/notes.html",
+                "easyNote": "content/nepali/science/information-and-communication-technology/easy-note.html",
+                "importantQuestions": "content/nepali/science/information-and-communication-technology/important-questions.json",
+                "mockTest": "content/nepali/science/information-and-communication-technology/mock-test.json",
+                "slides": "content/nepali/science/information-and-communication-technology/slides.json",
+                "infographics": "content/nepali/science/information-and-communication-technology/infographics.json",
+                "downloads": "content/nepali/science/information-and-communication-technology/downloads.json"
+              }
+            },
+            "classification-of-elements": {
+              "id": "chapter:nepali:science:classification-of-elements",
+              "legacyId": "chapter-nepali-science-classification-of-elements",
+              "unit": 14,
+              "title": "Classification of Elements",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/classification-of-elements/",
+              "resources": {
+                "chapter": "content/nepali/science/classification-of-elements/chapter.json",
+                "mcq": "content/nepali/science/classification-of-elements/mcq.json",
+                "notes": "content/nepali/science/classification-of-elements/notes.html",
+                "easyNote": "content/nepali/science/classification-of-elements/easy-note.html",
+                "importantQuestions": "content/nepali/science/classification-of-elements/important-questions.json",
+                "mockTest": "content/nepali/science/classification-of-elements/mock-test.json",
+                "slides": "content/nepali/science/classification-of-elements/slides.json",
+                "infographics": "content/nepali/science/classification-of-elements/infographics.json",
+                "downloads": "content/nepali/science/classification-of-elements/downloads.json"
+              }
+            },
+            "chemical-reaction": {
+              "id": "chapter:nepali:science:chemical-reaction",
+              "legacyId": "chapter-nepali-science-chemical-reaction",
+              "unit": 15,
+              "title": "Chemical Reaction",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/chemical-reaction/",
+              "resources": {
+                "chapter": "content/nepali/science/chemical-reaction/chapter.json",
+                "mcq": "content/nepali/science/chemical-reaction/mcq.json",
+                "notes": "content/nepali/science/chemical-reaction/notes.html",
+                "easyNote": "content/nepali/science/chemical-reaction/easy-note.html",
+                "importantQuestions": "content/nepali/science/chemical-reaction/important-questions.json",
+                "mockTest": "content/nepali/science/chemical-reaction/mock-test.json",
+                "slides": "content/nepali/science/chemical-reaction/slides.json",
+                "infographics": "content/nepali/science/chemical-reaction/infographics.json",
+                "downloads": "content/nepali/science/chemical-reaction/downloads.json"
+              }
+            },
+            "some-gases": {
+              "id": "chapter:nepali:science:some-gases",
+              "legacyId": "chapter-nepali-science-some-gases",
+              "unit": 16,
+              "title": "Some Gases",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/some-gases/",
+              "resources": {
+                "chapter": "content/nepali/science/some-gases/chapter.json",
+                "mcq": "content/nepali/science/some-gases/mcq.json",
+                "notes": "content/nepali/science/some-gases/notes.html",
+                "easyNote": "content/nepali/science/some-gases/easy-note.html",
+                "importantQuestions": "content/nepali/science/some-gases/important-questions.json",
+                "mockTest": "content/nepali/science/some-gases/mock-test.json",
+                "slides": "content/nepali/science/some-gases/slides.json",
+                "infographics": "content/nepali/science/some-gases/infographics.json",
+                "downloads": "content/nepali/science/some-gases/downloads.json"
+              }
+            },
+            "metals": {
+              "id": "chapter:nepali:science:metals",
+              "legacyId": "chapter-nepali-science-metals",
+              "unit": 17,
+              "title": "Metals",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/metals/",
+              "resources": {
+                "chapter": "content/nepali/science/metals/chapter.json",
+                "mcq": "content/nepali/science/metals/mcq.json",
+                "notes": "content/nepali/science/metals/notes.html",
+                "easyNote": "content/nepali/science/metals/easy-note.html",
+                "importantQuestions": "content/nepali/science/metals/important-questions.json",
+                "mockTest": "content/nepali/science/metals/mock-test.json",
+                "slides": "content/nepali/science/metals/slides.json",
+                "infographics": "content/nepali/science/metals/infographics.json",
+                "downloads": "content/nepali/science/metals/downloads.json"
+              }
+            },
+            "hydrocarbons-and-its-compounds": {
+              "id": "chapter:nepali:science:hydrocarbons-and-its-compounds",
+              "legacyId": "chapter-nepali-science-hydrocarbons-and-its-compounds",
+              "unit": 18,
+              "title": "Hydrocarbons and Its Compounds",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/hydrocarbons-and-its-compounds/",
+              "resources": {
+                "chapter": "content/nepali/science/hydrocarbons-and-its-compounds/chapter.json",
+                "mcq": "content/nepali/science/hydrocarbons-and-its-compounds/mcq.json",
+                "notes": "content/nepali/science/hydrocarbons-and-its-compounds/notes.html",
+                "easyNote": "content/nepali/science/hydrocarbons-and-its-compounds/easy-note.html",
+                "importantQuestions": "content/nepali/science/hydrocarbons-and-its-compounds/important-questions.json",
+                "mockTest": "content/nepali/science/hydrocarbons-and-its-compounds/mock-test.json",
+                "slides": "content/nepali/science/hydrocarbons-and-its-compounds/slides.json",
+                "infographics": "content/nepali/science/hydrocarbons-and-its-compounds/infographics.json",
+                "downloads": "content/nepali/science/hydrocarbons-and-its-compounds/downloads.json"
+              }
+            },
+            "chemicals-used-in-daily-life": {
+              "id": "chapter:nepali:science:chemicals-used-in-daily-life",
+              "legacyId": "chapter-nepali-science-chemicals-used-in-daily-life",
+              "unit": 19,
+              "title": "Chemicals Used in Daily Life",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/nepali/science/chemicals-used-in-daily-life/",
+              "resources": {
+                "chapter": "content/nepali/science/chemicals-used-in-daily-life/chapter.json",
+                "mcq": "content/nepali/science/chemicals-used-in-daily-life/mcq.json",
+                "notes": "content/nepali/science/chemicals-used-in-daily-life/notes.html",
+                "easyNote": "content/nepali/science/chemicals-used-in-daily-life/easy-note.html",
+                "importantQuestions": "content/nepali/science/chemicals-used-in-daily-life/important-questions.json",
+                "mockTest": "content/nepali/science/chemicals-used-in-daily-life/mock-test.json",
+                "slides": "content/nepali/science/chemicals-used-in-daily-life/slides.json",
+                "infographics": "content/nepali/science/chemicals-used-in-daily-life/infographics.json",
+                "downloads": "content/nepali/science/chemicals-used-in-daily-life/downloads.json"
+              }
+            }
+          }
+        }
+      }
     },
     "electrical": {
       "subjects": {}

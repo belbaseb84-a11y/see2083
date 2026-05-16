@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:optional-math:transformation",
+  "legacyId": "chapter-optional-math-transformation",
+  "medium": "english",
+  "subject": "optional-math",
+  "chapter": "transformation",
+  "slug": "transformation",
+  "unit": 7,
+  "title": "Transformation",
+  "titleNp": "",
+  "summary": "Learn about combined transformation, inversion, and matrix transformation.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-15",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

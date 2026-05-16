@@ -1,4 +1,29 @@
 {
-  "status": "draft",
-  "items": []
+    "medium":  "english",
+    "subject":  "science",
+    "chapter":  "force-and-motion",
+    "status":  "published",
+    "resourceType":  "infographics",
+    "source":  "google_drive",
+    "downloadAllowed":  false,
+    "items":  [
+                  {
+                      "id":  "infographic-force-and-motion-1",
+                      "unit":  7,
+                      "title":  "Force and Motion Infographic",
+                      "type":  "drive",
+                      "provider":  "google_drive",
+                      "fileName":  "Unit 07 - Motion and Force - Infographic.png",
+                      "driveFileId":  "1RH09gx2eE-FqhVRdMdc7x_Hs5xDdlnqm",
+                      "embedUrl":  "https://drive.google.com/file/d/1RH09gx2eE-FqhVRdMdc7x_Hs5xDdlnqm/preview",
+                      "previewUrl":  "https://drive.google.com/file/d/1RH09gx2eE-FqhVRdMdc7x_Hs5xDdlnqm/preview",
+                      "viewUrl":  "https://drive.google.com/file/d/1RH09gx2eE-FqhVRdMdc7x_Hs5xDdlnqm/view",
+                      "directImageUrl":  "https://drive.google.com/uc?export=view&id=1RH09gx2eE-FqhVRdMdc7x_Hs5xDdlnqm",
+                      "description":  "Visual summary for Force and Motion.",
+                      "caption":  "Visual summary for Force and Motion.",
+                      "downloadAllowed":  false,
+                      "status":  "published",
+                      "reviewStatus":  "published"
+                  }
+              ]
 }

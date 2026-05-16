@@ -173,6 +173,120 @@
   font-weight: var(--fw-semibold);
 }
 
+/* Resource viewer */
+.resource-viewer-page {
+  padding-block: var(--sp-8) var(--sp-10);
+}
+
+.resource-viewer-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  margin-bottom: var(--sp-5);
+}
+
+.resource-viewer-kicker {
+  color: var(--color-primary);
+  font-size: var(--text-sm);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--sp-2);
+}
+
+.resource-viewer-head h1 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: clamp(24px, 4vw, 38px);
+}
+
+.resource-viewer-head p {
+  max-width: 720px;
+  margin-top: var(--sp-2);
+  color: var(--text-secondary);
+  line-height: var(--lh-relaxed);
+}
+
+.resource-viewer-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.resource-viewer-card {
+  overflow: hidden;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+}
+
+.resource-frame-wrap {
+  background: var(--bg-page);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.resource-frame {
+  display: block;
+  width: 100%;
+  height: 75vh;
+  min-height: 520px;
+  border: 0;
+  background: #fff;
+}
+
+.resource-viewer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+.resource-fallback-link {
+  color: var(--color-primary);
+  font-weight: var(--fw-semibold);
+}
+
+.resource-viewer-next {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--sp-5);
+}
+
+.resource-viewer-empty {
+  margin-top: var(--sp-4);
+}
+
+@media (max-width: 720px) {
+  .resource-viewer-head {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .resource-viewer-actions,
+  .resource-viewer-next {
+    justify-content: stretch;
+  }
+
+  .resource-viewer-actions .btn,
+  .resource-viewer-next .btn {
+    width: 100%;
+  }
+
+  .resource-frame {
+    height: 70vh;
+    min-height: 420px;
+  }
+
+  .resource-viewer-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
 /* ─── Quiz / MCQ page ─────────────────────────────── */
 .quiz-header {
   display: flex;

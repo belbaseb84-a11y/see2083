@@ -480,8 +480,8 @@
       : subjectName;
     subtitle = labels.subtitle + (contextText ? " " + contextText + "." : "");
 
-    document.title = labels.mockTest + " — see2083";
-    document.title = labels.mockTest + " - see2083";
+    document.title = labels.mockTest + " — SEE 2083";
+    document.title = labels.mockTest + " - SEE 2083";
 
     if (mockKicker) mockKicker.textContent = labels.timedPractice;
     if (mockTitle) mockTitle.textContent = labels.title;

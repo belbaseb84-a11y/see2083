@@ -1,4 +1,29 @@
 {
-  "status": "draft",
-  "items": []
+    "medium":  "english",
+    "subject":  "science",
+    "chapter":  "information-and-communication-technology",
+    "status":  "published",
+    "resourceType":  "infographics",
+    "source":  "google_drive",
+    "downloadAllowed":  false,
+    "items":  [
+                  {
+                      "id":  "infographic-information-and-communication-technology-1",
+                      "unit":  13,
+                      "title":  "Information and Communication Technology Infographic",
+                      "type":  "drive",
+                      "provider":  "google_drive",
+                      "fileName":  "Unit 13 - Information and Communication Technology - Infographic.png",
+                      "driveFileId":  "1t2FKsKE-LWyx-_Uz9izdw2LY7QWjLW5K",
+                      "embedUrl":  "https://drive.google.com/file/d/1t2FKsKE-LWyx-_Uz9izdw2LY7QWjLW5K/preview",
+                      "previewUrl":  "https://drive.google.com/file/d/1t2FKsKE-LWyx-_Uz9izdw2LY7QWjLW5K/preview",
+                      "viewUrl":  "https://drive.google.com/file/d/1t2FKsKE-LWyx-_Uz9izdw2LY7QWjLW5K/view",
+                      "directImageUrl":  "https://drive.google.com/uc?export=view&id=1t2FKsKE-LWyx-_Uz9izdw2LY7QWjLW5K",
+                      "description":  "Visual summary for Information and Communication Technology.",
+                      "caption":  "Visual summary for Information and Communication Technology.",
+                      "downloadAllowed":  false,
+                      "status":  "published",
+                      "reviewStatus":  "published"
+                  }
+              ]
 }

@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:optional-math:vector",
+  "legacyId": "chapter-optional-math-vector",
+  "medium": "english",
+  "subject": "optional-math",
+  "chapter": "vector",
+  "slug": "vector",
+  "unit": 6,
+  "title": "Vector",
+  "titleNp": "",
+  "summary": "Learn about scalar product and vector geometry.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-15",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

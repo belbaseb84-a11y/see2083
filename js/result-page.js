@@ -238,7 +238,7 @@
   function renderNoResult() {
     if (!resultArea) return;
 
-    document.title = labels.noResult + " - see2083";
+    document.title = labels.noResult + " - SEE 2083";
 
     resultArea.innerHTML =
       '<div class="result-empty-card">' +
@@ -283,7 +283,7 @@
     const tryAgainUrl = getTryAgainUrl(resultData);
     const chapterAction = getChapterAction(resultData);
 
-    document.title = labels.yourResult + " - see2083";
+    document.title = labels.yourResult + " - SEE 2083";
 
     resultArea.innerHTML =
       '<div class="result-hero-card result-' + escapeHTML(grade.className) + '">' +

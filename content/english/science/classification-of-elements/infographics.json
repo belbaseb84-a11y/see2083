@@ -1,17 +1,29 @@
 {
-  "medium": "english",
-  "subject": "science",
-  "chapter": "classification-of-elements",
-  "status": "published",
-  "items": [
-    {
-      "id": "science-classification-of-elements-info-001",
-      "title": "Classification of Elements Demo Infographic",
-      "titleNp": "तत्वहरूको वर्गीकरण Demo Infographic",
-      "image": "images/demo-infographic-placeholder.webp",
-      "caption": "Demo placeholder infographic item.",
-      "captionNp": "",
-      "reviewStatus": "published"
-    }
-  ]
+    "medium":  "english",
+    "subject":  "science",
+    "chapter":  "classification-of-elements",
+    "status":  "published",
+    "resourceType":  "infographics",
+    "source":  "google_drive",
+    "downloadAllowed":  false,
+    "items":  [
+                  {
+                      "id":  "infographic-classification-of-elements-1",
+                      "unit":  14,
+                      "title":  "Classification of Elements Infographic",
+                      "type":  "drive",
+                      "provider":  "google_drive",
+                      "fileName":  "Unit 14 - Classification of Elements - Infographic.png",
+                      "driveFileId":  "1Ecnk6p4xQzXqnUsQGhcaxPsM7CAnlhpj",
+                      "embedUrl":  "https://drive.google.com/file/d/1Ecnk6p4xQzXqnUsQGhcaxPsM7CAnlhpj/preview",
+                      "previewUrl":  "https://drive.google.com/file/d/1Ecnk6p4xQzXqnUsQGhcaxPsM7CAnlhpj/preview",
+                      "viewUrl":  "https://drive.google.com/file/d/1Ecnk6p4xQzXqnUsQGhcaxPsM7CAnlhpj/view",
+                      "directImageUrl":  "https://drive.google.com/uc?export=view&id=1Ecnk6p4xQzXqnUsQGhcaxPsM7CAnlhpj",
+                      "description":  "Visual summary for Classification of Elements.",
+                      "caption":  "Visual summary for Classification of Elements.",
+                      "downloadAllowed":  false,
+                      "status":  "published",
+                      "reviewStatus":  "published"
+                  }
+              ]
 }

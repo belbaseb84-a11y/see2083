@@ -1,0 +1,26 @@
+{
+  "id": "chapter:nepali:science:metals",
+  "legacyId": "chapter-nepali-science-metals",
+  "medium": "nepali",
+  "subject": "science",
+  "chapter": "metals",
+  "slug": "metals",
+  "unit": 17,
+  "title": "Metals",
+  "titleNp": "",
+  "summary": "Content is being prepared for Nepali Medium Science.",
+  "summaryNp": "नेपाली माध्यम विज्ञान सामग्री तयार हुँदैछ।",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-15",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

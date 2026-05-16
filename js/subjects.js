@@ -92,7 +92,7 @@
   if (technicalTitle) technicalTitle.textContent = labels.technicalTitle;
   if (technicalSubtitle) technicalSubtitle.textContent = labels.technicalSub;
 
-  document.title = labels.title + " — " + mediumLabel + " — see2083";
+  document.title = labels.title + " — " + mediumLabel + " — SEE 2083";
 
   renderBreadcrumb(document.getElementById("breadcrumb"), [
     { label: labels.home, href: "index.html" },

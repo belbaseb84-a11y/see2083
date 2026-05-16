@@ -345,6 +345,49 @@
     }
   }
 
+  async function loadInfographicsResource(medium, subjectId, chapterId) {
+    try {
+      var entry = await getChapterEntry(medium, subjectId, chapterId);
+      var path = entry && entry.resources ? entry.resources.infographics : null;
+
+      if (!entry || !path) {
+        return {
+          found: false,
+          items: [],
+          path: path || null
+        };
+      }
+
+      var json = await loadJSON(path);
+      var items = json && Array.isArray(json.items) ? json.items : [];
+      var validItems = items.filter(function (item) {
+        var status = item && (item.status || item.reviewStatus || json.status);
+        var normalizedStatus = status ? String(status).toLowerCase() : "";
+        var previewUrl = item && (item.previewUrl || item.embedUrl) ? String(item.previewUrl || item.embedUrl).trim() : "";
+
+        if (!item) return false;
+        if (normalizedStatus && normalizedStatus !== "published") return false;
+        if (!item.title || !previewUrl) return false;
+        if (previewUrl === "#") return false;
+        if (previewUrl.indexOf("PASTE_GOOGLE_DRIVE") !== -1) return false;
+
+        return true;
+      });
+
+      return {
+        found: validItems.length > 0,
+        items: validItems,
+        path: path
+      };
+    } catch (error) {
+      return {
+        found: false,
+        items: [],
+        path: null
+      };
+    }
+  }
+
   async function loadDownloadsResource(medium, subjectId, chapterId) {
     try {
       var entry = await getChapterEntry(medium, subjectId, chapterId);
@@ -398,6 +441,7 @@
     loadMockTestResource: loadMockTestResource,
     normalizeMockTestData: normalizeMockTestData,
     loadChapterResourceBundle: loadChapterResourceBundle,
+    loadInfographicsResource: loadInfographicsResource,
     loadDownloadsResource: loadDownloadsResource
   };
 })();

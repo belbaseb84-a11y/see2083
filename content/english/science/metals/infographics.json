@@ -1,4 +1,29 @@
 {
-  "status": "draft",
-  "items": []
+    "medium":  "english",
+    "subject":  "science",
+    "chapter":  "metals",
+    "status":  "published",
+    "resourceType":  "infographics",
+    "source":  "google_drive",
+    "downloadAllowed":  false,
+    "items":  [
+                  {
+                      "id":  "infographic-metals-1",
+                      "unit":  17,
+                      "title":  "Metals Infographic",
+                      "type":  "drive",
+                      "provider":  "google_drive",
+                      "fileName":  "Unit 17 - Metals and Non-Metals - Infographic.png",
+                      "driveFileId":  "1luFsAjy2yHGjDOZ36B5Y-ENcXMwb-gSr",
+                      "embedUrl":  "https://drive.google.com/file/d/1luFsAjy2yHGjDOZ36B5Y-ENcXMwb-gSr/preview",
+                      "previewUrl":  "https://drive.google.com/file/d/1luFsAjy2yHGjDOZ36B5Y-ENcXMwb-gSr/preview",
+                      "viewUrl":  "https://drive.google.com/file/d/1luFsAjy2yHGjDOZ36B5Y-ENcXMwb-gSr/view",
+                      "directImageUrl":  "https://drive.google.com/uc?export=view&id=1luFsAjy2yHGjDOZ36B5Y-ENcXMwb-gSr",
+                      "description":  "Visual summary for Metals.",
+                      "caption":  "Visual summary for Metals.",
+                      "downloadAllowed":  false,
+                      "status":  "published",
+                      "reviewStatus":  "published"
+                  }
+              ]
 }

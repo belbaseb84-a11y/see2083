@@ -147,7 +147,7 @@
       "mock-test": "mock-test.html?" + base,
       "handwritten-note": "notes.html?" + base + "&type=handwritten",
       "easy-note": "notes.html?" + base + "&type=easy",
-      "infographic": "notes.html?" + base + "&type=infographic",
+      "infographic": "resource-viewer.html?" + base + "&type=infographic",
       "slides": "notes.html?" + base + "&type=slides",
       "slide": "notes.html?" + base + "&type=slides",
       "short-questions": "notes.html?" + base + "&type=short",
@@ -165,6 +165,7 @@
   function getOptionActionLabel(optionId) {
     if (optionId === "mcq-practice") return labels.startPractice;
     if (optionId === "mock-test") return labels.takeTest;
+    if (optionId === "infographic") return isNp ? "Infographic हेर्नुहोस्" : "View Infographic";
     return labels.open;
   }
 
@@ -551,10 +552,11 @@
 
   async function enhanceExternalContentPack() {
     if (!window.SEE2083ContentLoader) return;
-    if (typeof SEE2083ContentLoader.loadChapterResourceBundle !== "function") return;
+    const loader = window.SEE2083ContentLoader;
+    if (typeof loader.loadChapterResourceBundle !== "function") return;
 
     try {
-      const bundle = await SEE2083ContentLoader.loadChapterResourceBundle(medium, subjectId, chapterId);
+      const bundle = await loader.loadChapterResourceBundle(medium, subjectId, chapterId);
 
       if (!bundle || !bundle.found) {
         if (contentNotice) {
@@ -568,13 +570,29 @@
         found: false,
         items: []
       };
+      let effectiveBundle = bundle;
 
-      if (typeof SEE2083ContentLoader.loadDownloadsResource === "function") {
-        downloads = await SEE2083ContentLoader.loadDownloadsResource(medium, subjectId, chapterId);
+      if (typeof loader.loadDownloadsResource === "function") {
+        downloads = await loader.loadDownloadsResource(medium, subjectId, chapterId);
       }
 
-      renderExternalNotice(bundle, Boolean(downloads && downloads.found));
-      updateOptionAvailability(bundle);
+      if (typeof loader.loadInfographicsResource === "function") {
+        const infographics = await loader.loadInfographicsResource(medium, subjectId, chapterId);
+        const availableTypes = safeArray(bundle.availableTypes).filter(function (type) {
+          return type !== "infographics";
+        });
+
+        if (infographics && infographics.found) {
+          availableTypes.push("infographics");
+        }
+
+        effectiveBundle = Object.assign({}, bundle, {
+          availableTypes: availableTypes
+        });
+      }
+
+      renderExternalNotice(effectiveBundle, Boolean(downloads && downloads.found));
+      updateOptionAvailability(effectiveBundle);
 
       if (downloads && downloads.found) {
         renderDownloadCards(downloads.items);
@@ -632,7 +650,7 @@
   }
 
   function renderNotFound() {
-    document.title = labels.notFound + " — see2083";
+    document.title = labels.notFound + " — SEE 2083";
 
     if (subjectIconEl) subjectIconEl.textContent = "📚";
     if (metaEl) metaEl.innerHTML = '<span class="badge badge-gray">' + labels.notFound + '</span>';
@@ -674,7 +692,7 @@
     const chapterTitle = getChapterTitle(chapter);
     const summary = getChapterSummary(chapter);
 
-    document.title = chapterTitle + " — see2083";
+    document.title = chapterTitle + " — SEE 2083";
 
     if (subjectIconEl) subjectIconEl.textContent = subject.icon || "📚";
 

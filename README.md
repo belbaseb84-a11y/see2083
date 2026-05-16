@@ -1,5 +1,5 @@
-# see2083
-SEE2083 static education website
+# SEE 2083
+SEE 2083 static education website
 
 ---
 
@@ -273,3 +273,15 @@ Mock tests now use `mock-test.json` first when it contains published real mock q
 ## Phase QA.1 Post Science MCQ QA Fixes
 
 Verified Unit 1-19 Science MCQ availability, including the fixed Some Gases chapter. Added an early Finish Practice action for exact chapter MCQ practice, aligned completed Science MCQ search entries to published status, fixed the Medium page active nav state, and rechecked bookmark/mobile/dark-mode behavior. No MCQ content files were changed.
+
+## Phase 4A Optional Math and Nepali Science Structure
+
+Created English Optional Mathematics chapter-pack structure and Nepali Medium Science chapter-pack structure. No real MCQs, notes, mock questions, slides, infographics, or Drive links were added. Existing English Science content was not modified. Optional Math units should be verified against the official CDC source before real content entry.
+
+## Phase 4C Runtime Connection for Optional Math and Nepali Science
+
+Optional Math 8 chapters are now visible in the runtime chapter listing, and Nepali Science 19 chapters are available through the existing Science chapter routes for Nepali Medium. Draft quiz routes do not fall back to wrong English/sample MCQs, while English Science MCQ and mock routes remain working. No real Optional Math or Nepali Science content was added.
+
+## Phase Viewer.1 Science Infographic Drive Viewer
+
+Added `resource-viewer.html` and `js/resource-viewer.js` for in-site Google Drive infographic previews. Added 19 English Science Drive infographic links, corrected source slugs to active website slugs, and connected chapter infographic buttons to the viewer. MCQ and mock test routes were not changed.

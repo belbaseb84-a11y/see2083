@@ -1,17 +1,29 @@
 {
-  "medium": "english",
-  "subject": "science",
-  "chapter": "scientific-study",
-  "status": "published",
-  "items": [
-    {
-      "id": "science-scientific-study-info-001",
-      "title": "Scientific Study Demo Infographic",
-      "titleNp": "वैज्ञानिक अध्ययन Demo Infographic",
-      "image": "images/demo-infographic-placeholder.webp",
-      "caption": "Demo placeholder infographic item.",
-      "captionNp": "",
-      "reviewStatus": "published"
-    }
-  ]
+    "medium":  "english",
+    "subject":  "science",
+    "chapter":  "scientific-study",
+    "status":  "published",
+    "resourceType":  "infographics",
+    "source":  "google_drive",
+    "downloadAllowed":  false,
+    "items":  [
+                  {
+                      "id":  "infographic-scientific-study-1",
+                      "unit":  1,
+                      "title":  "Scientific Study Infographic",
+                      "type":  "drive",
+                      "provider":  "google_drive",
+                      "fileName":  "Unit 01 - Scientific Learning - Infographic.png",
+                      "driveFileId":  "1WC1e3Yjbn2xHiZVXKzRMgSg_8HzPbBaY",
+                      "embedUrl":  "https://drive.google.com/file/d/1WC1e3Yjbn2xHiZVXKzRMgSg_8HzPbBaY/preview",
+                      "previewUrl":  "https://drive.google.com/file/d/1WC1e3Yjbn2xHiZVXKzRMgSg_8HzPbBaY/preview",
+                      "viewUrl":  "https://drive.google.com/file/d/1WC1e3Yjbn2xHiZVXKzRMgSg_8HzPbBaY/view",
+                      "directImageUrl":  "https://drive.google.com/uc?export=view&id=1WC1e3Yjbn2xHiZVXKzRMgSg_8HzPbBaY",
+                      "description":  "Visual summary for Scientific Study.",
+                      "caption":  "Visual summary for Scientific Study.",
+                      "downloadAllowed":  false,
+                      "status":  "published",
+                      "reviewStatus":  "published"
+                  }
+              ]
 }

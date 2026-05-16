@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:optional-math:continuity",
+  "legacyId": "chapter-optional-math-continuity",
+  "medium": "english",
+  "subject": "optional-math",
+  "chapter": "continuity",
+  "slug": "continuity",
+  "unit": 2,
+  "title": "Continuity",
+  "titleNp": "",
+  "summary": "Learn about limits, continuity, and basic graphical understanding of functions.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-15",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

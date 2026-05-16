@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:optional-math:trigonometry",
+  "legacyId": "chapter-optional-math-trigonometry",
+  "medium": "english",
+  "subject": "optional-math",
+  "chapter": "trigonometry",
+  "slug": "trigonometry",
+  "unit": 5,
+  "title": "Trigonometry",
+  "titleNp": "",
+  "summary": "Learn about multiple angles, sub-multiple angles, transformations, identities, equations, and height and distance.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-15",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}
