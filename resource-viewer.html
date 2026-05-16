@@ -43,7 +43,8 @@
       </div>
 
       <section class="resource-viewer-card" id="viewer-card" aria-label="Resource preview">
-        <div class="resource-frame-wrap">
+        <div class="resource-frame-wrap" id="resource-frame-wrap">
+          <div class="resource-loading" id="resource-loading">Loading infographic preview...</div>
           <iframe
             class="resource-frame"
             id="resource-frame"
@@ -57,10 +58,14 @@
         <div class="resource-viewer-footer">
           <span id="resource-source">Google Drive preview</span>
           <a href="#" class="resource-fallback-link" id="open-drive-link" target="_blank" rel="noopener noreferrer">
-            Open in Drive if preview does not load
+            Open preview
           </a>
         </div>
       </section>
+
+      <p class="resource-viewer-note" id="resource-view-note">
+        View-only study resource. Please use it for revision.
+      </p>
 
       <section class="empty-state resource-viewer-empty" id="empty-state" hidden>
         <div class="empty-icon">i</div>

@@ -222,8 +222,35 @@
 }
 
 .resource-frame-wrap {
+  position: relative;
   background: var(--bg-page);
   border-bottom: 1px solid var(--border-color);
+}
+
+.resource-loading {
+  position: absolute;
+  inset: var(--sp-4);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  font-weight: var(--fw-semibold);
+  text-align: center;
+  background: var(--bg-card);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--radius-lg);
+  pointer-events: none;
+}
+
+.resource-loading[hidden],
+.resource-viewer-empty[hidden],
+.resource-viewer-card[hidden],
+.resource-viewer-next[hidden],
+.resource-viewer-note[hidden] {
+  display: none !important;
 }
 
 .resource-frame {
@@ -260,6 +287,13 @@
   margin-top: var(--sp-4);
 }
 
+.resource-viewer-note {
+  margin: var(--sp-3) 0 0;
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+  line-height: var(--lh-relaxed);
+}
+
 @media (max-width: 720px) {
   .resource-viewer-head {
     align-items: stretch;
@@ -269,11 +303,13 @@
   .resource-viewer-actions,
   .resource-viewer-next {
     justify-content: stretch;
+    width: 100%;
   }
 
   .resource-viewer-actions .btn,
   .resource-viewer-next .btn {
     width: 100%;
+    min-height: 44px;
   }
 
   .resource-frame {

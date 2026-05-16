@@ -285,3 +285,15 @@ Optional Math 8 chapters are now visible in the runtime chapter listing, and Nep
 ## Phase Viewer.1 Science Infographic Drive Viewer
 
 Added `resource-viewer.html` and `js/resource-viewer.js` for in-site Google Drive infographic previews. Added 19 English Science Drive infographic links, corrected source slugs to active website slugs, and connected chapter infographic buttons to the viewer. MCQ and mock test routes were not changed.
+
+## Drive infographic protection note
+
+The website uses Google Drive preview iframe links for infographics and does not expose `directImageUrl` in infographic metadata. The viewer does not show download buttons for infographics. The Drive owner should manually disable download, print, and copy for viewers in Google Drive sharing settings. This does not prevent screenshots or screen recording.
+
+## Phase Viewer.1B Infographic Viewer QA Fixes
+
+Fixed the fallback message appearing under loaded infographics by separating success and empty viewer states. Added a Drive iframe loading state, polished mobile button wrapping, and corrected the Unit 2 infographic title wording. MCQ and mock systems were not changed.
+
+## Phase NotesViewer.1 Resource Viewer Note Support Preparation
+
+`resource-viewer.html` now understands future `note`, `easy-note`, `full-note`, and `slides` resource types while keeping the infographic viewer working. Note and slides routes show friendly empty states until Drive links are added. Download hardening remains in place with preview/embed URLs only, no direct image URL, and no download action. No real note or slides links were added in this phase.
