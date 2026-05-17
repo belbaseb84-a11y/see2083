@@ -297,3 +297,7 @@ Fixed the fallback message appearing under loaded infographics by separating suc
 ## Phase NotesViewer.1 Resource Viewer Note Support Preparation
 
 `resource-viewer.html` now understands future `note`, `easy-note`, `full-note`, and `slides` resource types while keeping the infographic viewer working. Note and slides routes show friendly empty states until Drive links are added. Download hardening remains in place with preview/embed URLs only, no direct image URL, and no download action. No real note or slides links were added in this phase.
+
+## Phase UX.1 Dark Mode and Mobile Polish
+
+Improved dark mode contrast, mobile tap targets/layout, quiz/mock/resource viewer button spacing, and placeholder/tag readability. No content or quiz logic changed.
