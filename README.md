@@ -301,3 +301,7 @@ Fixed the fallback message appearing under loaded infographics by separating suc
 ## Phase UX.1 Dark Mode and Mobile Polish
 
 Improved dark mode contrast, mobile tap targets/layout, quiz/mock/resource viewer button spacing, and placeholder/tag readability. No content or quiz logic changed.
+
+## Phase UX.2 Resource Availability Badges
+
+Added Available / Coming soon badges on chapter study options. English Science MCQ, Mock, and Infographic show available where real resources exist. Optional Math and Nepali Science draft resources show coming soon. No content or quiz logic was changed.

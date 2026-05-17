@@ -63,6 +63,9 @@
     comingSoon: isNepaliMedium ? "चाँडै" : "Coming soon"
   });
 
+  labels.comingSoon = "Coming soon";
+  labels.available = "Available";
+
   const subjectIconEl = document.getElementById("chapter-subject-icon");
   const metaEl = document.getElementById("chapter-meta");
   const titleEl = document.getElementById("chapter-title");
@@ -264,15 +267,60 @@
   }
 
   function getOptionName(option) {
+    if (!isNp && option.id === "mock-test") return "Mock Test";
     return isNp ? (option.titleNp || option.title) : option.title;
   }
 
-  function getOptionDesc(option) {
-    return isNp ? (option.descNp || option.desc || "") : (option.desc || "");
+  function getOptionDescription(optionId, isAvailable, fallback) {
+    const availableDescriptions = {
+      "easy-note": "Read the simple revision note for this chapter.",
+      "handwritten-note": "Open the handwritten note for visual revision.",
+      infographic: "View a visual summary inside SEE 2083.",
+      slides: "View chapter slides for quick revision.",
+      slide: "View chapter slides for quick revision.",
+      "mcq-practice": "Practice questions with instant feedback.",
+      "mock-test": "Try exam-style questions with timer.",
+      "short-questions": "Practice short answer questions.",
+      "important-questions": "Review important questions for exam practice.",
+      "past-questions": "Review past exam-style questions.",
+      overview: "Read the chapter overview.",
+      theory: "Study the core theory for this chapter.",
+      practical: "Review practical tasks and safety points.",
+      past: "Review past exam-style questions."
+    };
+    const comingSoonDescriptions = {
+      "easy-note": "Simple PDF note will be added soon.",
+      "handwritten-note": "Handwritten note will be added soon.",
+      infographic: "Visual summary will be added soon.",
+      slides: "Chapter slides will be added soon.",
+      slide: "Chapter slides will be added soon.",
+      "mcq-practice": "MCQ practice will be added soon.",
+      "mock-test": "Mock test will be added soon.",
+      "short-questions": "Short questions will be added soon.",
+      "important-questions": "Important questions will be added soon.",
+      "past-questions": "Past questions will be added soon.",
+      overview: "Overview content will be added soon.",
+      theory: "Theory content will be added soon.",
+      practical: "Practical content will be added soon.",
+      past: "Past questions will be added soon."
+    };
+    const descriptions = isAvailable ? availableDescriptions : comingSoonDescriptions;
+
+    return descriptions[optionId] || fallback || "";
   }
 
-  function getOptionStatus(optionId) {
-    return isResourceHeavyOption(optionId) ? labels.contentBeingAdded : "";
+  function getOptionDesc(option, isAvailable) {
+    const fallback = isNp ? (option.descNp || option.desc || "") : (option.desc || "");
+
+    return getOptionDescription(option.id, Boolean(isAvailable), fallback);
+  }
+
+  function getOptionStatusLabel(isAvailable) {
+    return isAvailable ? labels.available : labels.comingSoon;
+  }
+
+  function getOptionStatusClass(isAvailable) {
+    return isAvailable ? "option-status-available" : "option-status-coming-soon";
   }
 
   function isPrimaryOption(optionId) {
@@ -315,6 +363,199 @@
       "practical",
       "past"
     ].includes(optionId);
+  }
+
+  function normalizeStatus(value) {
+    return value ? String(value).toLowerCase() : "";
+  }
+
+  function isPublishedResource(data) {
+    return normalizeStatus(data && data.status) === "published";
+  }
+
+  function getStringSnapshot(value) {
+    try {
+      return JSON.stringify(value || {});
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function isPlaceholderText(value) {
+    const text = String(value || "").toLowerCase();
+
+    return [
+      "content is being added",
+      "easy note is being added",
+      "being prepared",
+      "will be added later",
+      "will be pasted manually",
+      "placeholder",
+      "demo ",
+      "demo-",
+      "structure testing",
+      "तयार हुँदैछ",
+      "थपिँदैछ"
+    ].some(function (phrase) {
+      return text.indexOf(phrase) !== -1;
+    });
+  }
+
+  function stripHTML(value) {
+    return String(value || "")
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function hasRealHTMLContent(html) {
+    const text = stripHTML(html);
+
+    if (!text || text.length < 160) return false;
+    if (isPlaceholderText(text)) return false;
+
+    return true;
+  }
+
+  function getResourceItems(data, keys) {
+    if (!data) return [];
+
+    return keys.reduce(function (items, key) {
+      return Array.isArray(data[key]) ? items.concat(data[key]) : items;
+    }, []);
+  }
+
+  function hasUsefulJSONItems(data, keys) {
+    const items = getResourceItems(data, keys);
+
+    if (!isPublishedResource(data)) return false;
+    if (!items.length) return false;
+    if (isPlaceholderText(getStringSnapshot(items))) return false;
+
+    return true;
+  }
+
+  function hasUsableQuestionSet(resource, normalizer) {
+    if (!resource || !resource.data || !isPublishedResource(resource.data)) return false;
+    if (typeof normalizer !== "function") return false;
+
+    const questions = normalizer(resource.data, subjectId, chapterId);
+
+    if (!questions.length) return false;
+    if (isPlaceholderText(getStringSnapshot(resource.data.questions))) return false;
+
+    return true;
+  }
+
+  async function loadJSONResource(loader, bundle, resourceKey) {
+    const path = bundle && bundle.resources ? bundle.resources[resourceKey] : "";
+
+    if (!path || !loader || typeof loader.loadJSON !== "function") return null;
+
+    return loader.loadJSON(path);
+  }
+
+  async function resolveResourceAvailability(loader, bundle, downloads) {
+    const availability = {
+      notes: false,
+      easyNote: false,
+      handwrittenNote: false,
+      mcq: false,
+      mockTest: false,
+      slides: false,
+      infographics: false,
+      importantQuestions: false,
+      shortQuestions: false,
+      pastQuestions: false,
+      downloads: Boolean(downloads && downloads.found)
+    };
+
+    if (!loader || !bundle || !bundle.found) return availability;
+
+    const quiz = typeof loader.loadQuizResource === "function"
+      ? await loader.loadQuizResource(medium, subjectId, chapterId)
+      : null;
+    const mock = typeof loader.loadMockTestResource === "function"
+      ? await loader.loadMockTestResource(medium, subjectId, chapterId)
+      : null;
+    const infographics = typeof loader.loadInfographicsResource === "function"
+      ? await loader.loadInfographicsResource(medium, subjectId, chapterId)
+      : null;
+    const notes = typeof loader.loadNotesResource === "function"
+      ? await loader.loadNotesResource(medium, subjectId, chapterId, "overview")
+      : null;
+    const easyNote = typeof loader.loadNotesResource === "function"
+      ? await loader.loadNotesResource(medium, subjectId, chapterId, "easy")
+      : null;
+    const handwrittenNote = typeof loader.loadNotesResource === "function"
+      ? await loader.loadNotesResource(medium, subjectId, chapterId, "handwritten")
+      : null;
+    const slides = await loadJSONResource(loader, bundle, "slides");
+    const importantQuestions = await loadJSONResource(loader, bundle, "importantQuestions");
+    const shortQuestions = await loadJSONResource(loader, bundle, "shortQuestions");
+    const pastQuestions = await loadJSONResource(loader, bundle, "pastQuestions");
+    const mcqAvailable = hasUsableQuestionSet(quiz, loader.normalizeMCQData);
+    const mockAvailable = hasUsableQuestionSet(mock, loader.normalizeMockTestData);
+
+    availability.mcq = mcqAvailable;
+    availability.mockTest = mockAvailable || mcqAvailable;
+    availability.infographics = Boolean(infographics && infographics.found);
+    availability.notes = Boolean(notes && notes.kind === "html" && hasRealHTMLContent(notes.data));
+    availability.easyNote = Boolean(easyNote && easyNote.kind === "html" && hasRealHTMLContent(easyNote.data));
+    availability.handwrittenNote = Boolean(handwrittenNote && handwrittenNote.kind === "html" && hasRealHTMLContent(handwrittenNote.data));
+    availability.slides = hasUsefulJSONItems(slides, ["slides", "items"]);
+    availability.importantQuestions = hasUsefulJSONItems(importantQuestions, ["items", "questions"]);
+    availability.shortQuestions = hasUsefulJSONItems(shortQuestions, ["items", "questions"]);
+    availability.pastQuestions = hasUsefulJSONItems(pastQuestions, ["items", "questions"]);
+
+    return availability;
+  }
+
+  function getAvailableTypesFromAvailability(availability) {
+    if (!availability) return [];
+
+    return [
+      "notes",
+      "easyNote",
+      "handwrittenNote",
+      "mcq",
+      "mockTest",
+      "slides",
+      "infographics",
+      "importantQuestions",
+      "shortQuestions",
+      "pastQuestions",
+      "downloads"
+    ].filter(function (type) {
+      return Boolean(availability[type]);
+    });
+  }
+
+  function setOptionAvailability(optionId, isAvailable) {
+    const statusEl = optionsGrid && optionsGrid.querySelector(
+      '.option-status[data-option-id="' + optionId + '"]'
+    );
+    const descEl = optionsGrid && optionsGrid.querySelector(
+      '.study-option-desc[data-option-id="' + optionId + '"]'
+    );
+    const cardEl = statusEl ? statusEl.closest(".study-option-card") : null;
+
+    if (statusEl) {
+      statusEl.textContent = getOptionStatusLabel(isAvailable);
+      statusEl.className = "option-status " + getOptionStatusClass(isAvailable);
+      statusEl.setAttribute("data-status", isAvailable ? "available" : "coming-soon");
+    }
+
+    if (descEl) {
+      descEl.textContent = getOptionDescription(optionId, isAvailable, descEl.textContent);
+    }
+
+    if (cardEl) {
+      cardEl.classList.toggle("is-resource-available", Boolean(isAvailable));
+      cardEl.classList.toggle("is-resource-coming-soon", !isAvailable);
+    }
   }
 
   function renderBreadcrumbs(subject, chapter) {
@@ -401,12 +642,11 @@
       const card = document.createElement("a");
 
       const title = getOptionName(option);
-      const desc = getOptionDesc(option);
-      const status = getOptionStatus(option.id);
+      const desc = getOptionDesc(option, false);
       const primary = isPrimaryOption(option.id);
 
       card.href = getOptionUrl(option.id);
-      card.className = "study-option-card chapter-option-card";
+      card.className = "study-option-card chapter-option-card is-resource-coming-soon";
 
       card.innerHTML =
         '<div class="chapter-option-main">' +
@@ -414,9 +654,9 @@
           '<div class="study-option-info">' +
             '<div class="study-option-title-row">' +
               '<div class="study-option-title">' + escapeHTML(title) + '</div>' +
-              '<span class="option-status" data-option-id="' + escapeHTML(option.id) + '">' + escapeHTML(status) + '</span>' +
+              '<span class="option-status option-status-coming-soon" data-status="coming-soon" data-option-id="' + escapeHTML(option.id) + '">' + escapeHTML(getOptionStatusLabel(false)) + '</span>' +
             '</div>' +
-            '<div class="study-option-desc">' + escapeHTML(desc) + '</div>' +
+            '<div class="study-option-desc" data-option-id="' + escapeHTML(option.id) + '">' + escapeHTML(desc) + '</div>' +
           '</div>' +
         '</div>' +
         '<span class="btn btn-sm ' + (primary ? "btn-primary" : "btn-ghost") + '" style="pointer-events:none;flex-shrink:0">' +
@@ -461,27 +701,18 @@
     contentNotice.textContent = prefix + suffix;
   }
 
-  function updateOptionAvailability(bundle) {
+  function updateOptionAvailability(availability) {
     if (!optionsGrid) return;
-
-    const availableTypes = new Set(safeArray(bundle && bundle.availableTypes));
-    const hasBundle = Boolean(bundle && bundle.found);
 
     optionsGrid.querySelectorAll(".option-status[data-option-id]").forEach(function (statusEl) {
       const optionId = statusEl.getAttribute("data-option-id");
       const resourceKey = getOptionResourceKey(optionId);
 
       if (!resourceKey) {
-        statusEl.textContent = "";
         return;
       }
 
-      if (hasBundle) {
-        statusEl.textContent = availableTypes.has(resourceKey) ? "" : labels.comingSoon;
-        return;
-      }
-
-      statusEl.textContent = isResourceHeavyOption(optionId) ? labels.contentBeingAdded : "";
+      setOptionAvailability(optionId, Boolean(availability && availability[resourceKey]));
     });
   }
 
@@ -570,29 +801,18 @@
         found: false,
         items: []
       };
-      let effectiveBundle = bundle;
 
       if (typeof loader.loadDownloadsResource === "function") {
         downloads = await loader.loadDownloadsResource(medium, subjectId, chapterId);
       }
 
-      if (typeof loader.loadInfographicsResource === "function") {
-        const infographics = await loader.loadInfographicsResource(medium, subjectId, chapterId);
-        const availableTypes = safeArray(bundle.availableTypes).filter(function (type) {
-          return type !== "infographics";
-        });
-
-        if (infographics && infographics.found) {
-          availableTypes.push("infographics");
-        }
-
-        effectiveBundle = Object.assign({}, bundle, {
-          availableTypes: availableTypes
-        });
-      }
+      const availability = await resolveResourceAvailability(loader, bundle, downloads);
+      const effectiveBundle = Object.assign({}, bundle, {
+        availableTypes: getAvailableTypesFromAvailability(availability)
+      });
 
       renderExternalNotice(effectiveBundle, Boolean(downloads && downloads.found));
-      updateOptionAvailability(effectiveBundle);
+      updateOptionAvailability(availability);
 
       if (downloads && downloads.found) {
         renderDownloadCards(downloads.items);
