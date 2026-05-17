@@ -241,8 +241,8 @@
     const expectedSubjectIds = [
       "electrical-machine",
       "basic-electronics",
-      "industrial-installation-maintenance",
-      "utilization-electrical-energy"
+      "industrial-installation-and-maintenance",
+      "utilization-of-electrical-energy"
     ];
 
     const hasCorrectFour =

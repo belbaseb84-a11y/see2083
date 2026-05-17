@@ -1,0 +1,6 @@
+- Subject: Utilization of Electrical Energy
+- Chapter: Illumination
+- Medium: electrical
+- Status: structure created only
+- Real MCQs/notes/slides/infographics will be added later
+- Official technical/electrical learning resource should be used before adding real content

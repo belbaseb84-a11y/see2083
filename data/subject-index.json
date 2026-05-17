@@ -73,5 +73,63 @@
       ]
     }
   },
-  "electrical": {}
+  "electrical": {
+    "basic-electronics": {
+      "id": "basic-electronics",
+      "name": "Basic Electronics",
+      "nameNp": "",
+      "status": "published",
+      "chapters": [
+        "passive-components",
+        "basic-of-semiconductors",
+        "semiconductor-diode",
+        "power-supplies",
+        "transistors",
+        "field-effect-transistors",
+        "logic-gates"
+      ]
+    },
+    "electrical-machine": {
+      "id": "electrical-machine",
+      "name": "Electrical Machine",
+      "nameNp": "",
+      "status": "published",
+      "chapters": [
+        "electromagnetism",
+        "transformers",
+        "dc-machines",
+        "three-phase-induction-machine",
+        "synchronous-machines",
+        "single-phase-fractional-horse-power-motors"
+      ]
+    },
+    "industrial-installation-and-maintenance": {
+      "id": "industrial-installation-and-maintenance",
+      "name": "Industrial Installation and Maintenance",
+      "nameNp": "",
+      "status": "published",
+      "chapters": [
+        "fire-and-safety-standards",
+        "distribution-system-in-industrial-installations",
+        "industrial-wiring",
+        "earthing-arrangements",
+        "inspection-testing-and-maintenance-of-industrial-installations",
+        "three-phase-induction-motor-controls"
+      ]
+    },
+    "utilization-of-electrical-energy": {
+      "id": "utilization-of-electrical-energy",
+      "name": "Utilization of Electrical Energy",
+      "nameNp": "",
+      "status": "published",
+      "chapters": [
+        "introduction-to-electrical-energy",
+        "illumination",
+        "industrial-utilization-of-electric-energy",
+        "electric-traction",
+        "power-factor",
+        "tariff"
+      ]
+    }
+  }
 }

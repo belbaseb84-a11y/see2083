@@ -1,0 +1,6 @@
+- Subject: Utilization of Electrical Energy
+- Chapter: Industrial Utilization of Electric Energy
+- Medium: electrical
+- Status: structure created only
+- Real MCQs/notes/slides/infographics will be added later
+- Official technical/electrical learning resource should be used before adding real content

@@ -943,7 +943,256 @@
       }
     },
     "electrical": {
-      "subjects": {}
+      "subjects": {
+        "industrial-installation-and-maintenance": {
+          "chapters": {
+            "fire-and-safety-standards": {
+              "id": "chapter:electrical:industrial-installation-and-maintenance:fire-and-safety-standards",
+              "legacyId": "chapter-electrical-industrial-installation-and-maintenance-fire-and-safety-standards",
+              "unit": 1,
+              "title": "Fire and Safety Standards",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/",
+              "resources": {
+                "chapter": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/chapter.json",
+                "mcq": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/mcq.json",
+                "notes": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/notes.html",
+                "easyNote": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/easy-note.html",
+                "importantQuestions": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/important-questions.json",
+                "mockTest": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/mock-test.json",
+                "slides": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/slides.json",
+                "infographics": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/infographics.json",
+                "downloads": "content/electrical/industrial-installation-and-maintenance/fire-and-safety-standards/downloads.json"
+              }
+            },
+            "distribution-system-in-industrial-installations": {
+              "id": "chapter:electrical:industrial-installation-and-maintenance:distribution-system-in-industrial-installations",
+              "legacyId": "chapter-electrical-industrial-installation-and-maintenance-distribution-system-in-industrial-installations",
+              "unit": 2,
+              "title": "Distribution System in Industrial Installations",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/",
+              "resources": {
+                "chapter": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/chapter.json",
+                "mcq": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/mcq.json",
+                "notes": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/notes.html",
+                "easyNote": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/easy-note.html",
+                "importantQuestions": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/important-questions.json",
+                "mockTest": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/mock-test.json",
+                "slides": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/slides.json",
+                "infographics": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/infographics.json",
+                "downloads": "content/electrical/industrial-installation-and-maintenance/distribution-system-in-industrial-installations/downloads.json"
+              }
+            },
+            "industrial-wiring": {
+              "id": "chapter:electrical:industrial-installation-and-maintenance:industrial-wiring",
+              "legacyId": "chapter-electrical-industrial-installation-and-maintenance-industrial-wiring",
+              "unit": 3,
+              "title": "Industrial Wiring",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/",
+              "resources": {
+                "chapter": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/chapter.json",
+                "mcq": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/mcq.json",
+                "notes": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/notes.html",
+                "easyNote": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/easy-note.html",
+                "importantQuestions": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/important-questions.json",
+                "mockTest": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/mock-test.json",
+                "slides": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/slides.json",
+                "infographics": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/infographics.json",
+                "downloads": "content/electrical/industrial-installation-and-maintenance/industrial-wiring/downloads.json"
+              }
+            },
+            "earthing-arrangements": {
+              "id": "chapter:electrical:industrial-installation-and-maintenance:earthing-arrangements",
+              "legacyId": "chapter-electrical-industrial-installation-and-maintenance-earthing-arrangements",
+              "unit": 4,
+              "title": "Earthing Arrangements",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/",
+              "resources": {
+                "chapter": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/chapter.json",
+                "mcq": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/mcq.json",
+                "notes": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/notes.html",
+                "easyNote": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/easy-note.html",
+                "importantQuestions": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/important-questions.json",
+                "mockTest": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/mock-test.json",
+                "slides": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/slides.json",
+                "infographics": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/infographics.json",
+                "downloads": "content/electrical/industrial-installation-and-maintenance/earthing-arrangements/downloads.json"
+              }
+            },
+            "inspection-testing-and-maintenance-of-industrial-installations": {
+              "id": "chapter:electrical:industrial-installation-and-maintenance:inspection-testing-and-maintenance-of-industrial-installations",
+              "legacyId": "chapter-electrical-industrial-installation-and-maintenance-inspection-testing-and-maintenance-of-industrial-installations",
+              "unit": 5,
+              "title": "Inspection, Testing and Maintenance of Industrial Installations",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/",
+              "resources": {
+                "chapter": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/chapter.json",
+                "mcq": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/mcq.json",
+                "notes": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/notes.html",
+                "easyNote": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/easy-note.html",
+                "importantQuestions": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/important-questions.json",
+                "mockTest": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/mock-test.json",
+                "slides": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/slides.json",
+                "infographics": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/infographics.json",
+                "downloads": "content/electrical/industrial-installation-and-maintenance/inspection-testing-and-maintenance-of-industrial-installations/downloads.json"
+              }
+            },
+            "three-phase-induction-motor-controls": {
+              "id": "chapter:electrical:industrial-installation-and-maintenance:three-phase-induction-motor-controls",
+              "legacyId": "chapter-electrical-industrial-installation-and-maintenance-three-phase-induction-motor-controls",
+              "unit": 6,
+              "title": "Three-phase Induction Motor Controls",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/",
+              "resources": {
+                "chapter": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/chapter.json",
+                "mcq": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/mcq.json",
+                "notes": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/notes.html",
+                "easyNote": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/easy-note.html",
+                "importantQuestions": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/important-questions.json",
+                "mockTest": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/mock-test.json",
+                "slides": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/slides.json",
+                "infographics": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/infographics.json",
+                "downloads": "content/electrical/industrial-installation-and-maintenance/three-phase-induction-motor-controls/downloads.json"
+              }
+            }
+          }
+        },
+        "utilization-of-electrical-energy": {
+          "chapters": {
+            "introduction-to-electrical-energy": {
+              "id": "chapter:electrical:utilization-of-electrical-energy:introduction-to-electrical-energy",
+              "legacyId": "chapter-electrical-utilization-of-electrical-energy-introduction-to-electrical-energy",
+              "unit": 1,
+              "title": "Introduction to Electrical Energy",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/",
+              "resources": {
+                "chapter": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/chapter.json",
+                "mcq": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/mcq.json",
+                "notes": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/notes.html",
+                "easyNote": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/easy-note.html",
+                "importantQuestions": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/important-questions.json",
+                "mockTest": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/mock-test.json",
+                "slides": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/slides.json",
+                "infographics": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/infographics.json",
+                "downloads": "content/electrical/utilization-of-electrical-energy/introduction-to-electrical-energy/downloads.json"
+              }
+            },
+            "illumination": {
+              "id": "chapter:electrical:utilization-of-electrical-energy:illumination",
+              "legacyId": "chapter-electrical-utilization-of-electrical-energy-illumination",
+              "unit": 2,
+              "title": "Illumination",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/utilization-of-electrical-energy/illumination/",
+              "resources": {
+                "chapter": "content/electrical/utilization-of-electrical-energy/illumination/chapter.json",
+                "mcq": "content/electrical/utilization-of-electrical-energy/illumination/mcq.json",
+                "notes": "content/electrical/utilization-of-electrical-energy/illumination/notes.html",
+                "easyNote": "content/electrical/utilization-of-electrical-energy/illumination/easy-note.html",
+                "importantQuestions": "content/electrical/utilization-of-electrical-energy/illumination/important-questions.json",
+                "mockTest": "content/electrical/utilization-of-electrical-energy/illumination/mock-test.json",
+                "slides": "content/electrical/utilization-of-electrical-energy/illumination/slides.json",
+                "infographics": "content/electrical/utilization-of-electrical-energy/illumination/infographics.json",
+                "downloads": "content/electrical/utilization-of-electrical-energy/illumination/downloads.json"
+              }
+            },
+            "industrial-utilization-of-electric-energy": {
+              "id": "chapter:electrical:utilization-of-electrical-energy:industrial-utilization-of-electric-energy",
+              "legacyId": "chapter-electrical-utilization-of-electrical-energy-industrial-utilization-of-electric-energy",
+              "unit": 3,
+              "title": "Industrial Utilization of Electric Energy",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/",
+              "resources": {
+                "chapter": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/chapter.json",
+                "mcq": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/mcq.json",
+                "notes": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/notes.html",
+                "easyNote": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/easy-note.html",
+                "importantQuestions": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/important-questions.json",
+                "mockTest": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/mock-test.json",
+                "slides": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/slides.json",
+                "infographics": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/infographics.json",
+                "downloads": "content/electrical/utilization-of-electrical-energy/industrial-utilization-of-electric-energy/downloads.json"
+              }
+            },
+            "electric-traction": {
+              "id": "chapter:electrical:utilization-of-electrical-energy:electric-traction",
+              "legacyId": "chapter-electrical-utilization-of-electrical-energy-electric-traction",
+              "unit": 4,
+              "title": "Electric Traction",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/utilization-of-electrical-energy/electric-traction/",
+              "resources": {
+                "chapter": "content/electrical/utilization-of-electrical-energy/electric-traction/chapter.json",
+                "mcq": "content/electrical/utilization-of-electrical-energy/electric-traction/mcq.json",
+                "notes": "content/electrical/utilization-of-electrical-energy/electric-traction/notes.html",
+                "easyNote": "content/electrical/utilization-of-electrical-energy/electric-traction/easy-note.html",
+                "importantQuestions": "content/electrical/utilization-of-electrical-energy/electric-traction/important-questions.json",
+                "mockTest": "content/electrical/utilization-of-electrical-energy/electric-traction/mock-test.json",
+                "slides": "content/electrical/utilization-of-electrical-energy/electric-traction/slides.json",
+                "infographics": "content/electrical/utilization-of-electrical-energy/electric-traction/infographics.json",
+                "downloads": "content/electrical/utilization-of-electrical-energy/electric-traction/downloads.json"
+              }
+            },
+            "power-factor": {
+              "id": "chapter:electrical:utilization-of-electrical-energy:power-factor",
+              "legacyId": "chapter-electrical-utilization-of-electrical-energy-power-factor",
+              "unit": 5,
+              "title": "Power Factor",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/utilization-of-electrical-energy/power-factor/",
+              "resources": {
+                "chapter": "content/electrical/utilization-of-electrical-energy/power-factor/chapter.json",
+                "mcq": "content/electrical/utilization-of-electrical-energy/power-factor/mcq.json",
+                "notes": "content/electrical/utilization-of-electrical-energy/power-factor/notes.html",
+                "easyNote": "content/electrical/utilization-of-electrical-energy/power-factor/easy-note.html",
+                "importantQuestions": "content/electrical/utilization-of-electrical-energy/power-factor/important-questions.json",
+                "mockTest": "content/electrical/utilization-of-electrical-energy/power-factor/mock-test.json",
+                "slides": "content/electrical/utilization-of-electrical-energy/power-factor/slides.json",
+                "infographics": "content/electrical/utilization-of-electrical-energy/power-factor/infographics.json",
+                "downloads": "content/electrical/utilization-of-electrical-energy/power-factor/downloads.json"
+              }
+            },
+            "tariff": {
+              "id": "chapter:electrical:utilization-of-electrical-energy:tariff",
+              "legacyId": "chapter-electrical-utilization-of-electrical-energy-tariff",
+              "unit": 6,
+              "title": "Tariff",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/utilization-of-electrical-energy/tariff/",
+              "resources": {
+                "chapter": "content/electrical/utilization-of-electrical-energy/tariff/chapter.json",
+                "mcq": "content/electrical/utilization-of-electrical-energy/tariff/mcq.json",
+                "notes": "content/electrical/utilization-of-electrical-energy/tariff/notes.html",
+                "easyNote": "content/electrical/utilization-of-electrical-energy/tariff/easy-note.html",
+                "importantQuestions": "content/electrical/utilization-of-electrical-energy/tariff/important-questions.json",
+                "mockTest": "content/electrical/utilization-of-electrical-energy/tariff/mock-test.json",
+                "slides": "content/electrical/utilization-of-electrical-energy/tariff/slides.json",
+                "infographics": "content/electrical/utilization-of-electrical-energy/tariff/infographics.json",
+                "downloads": "content/electrical/utilization-of-electrical-energy/tariff/downloads.json"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

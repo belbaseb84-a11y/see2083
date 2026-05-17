@@ -147,6 +147,7 @@
     "electrical-machines",
     "electrical-machine-old",
     "electrical-installation",
+    "industrial-installation-maintenance",
     "electrical-" + "safety",
     "workshop-practice",
     "basic-electrical",
@@ -155,6 +156,7 @@
     "digital-design-microprocessor",
     "electrical-measurements-instruments",
     "electronic-devices-circuits",
+    "utilization-electrical-energy",
     "elec-util",
     "industrial"
   ];
@@ -178,7 +180,11 @@
     "engineering-drawing": "electrical-machine",
     "electrical-machines": "electrical-machine",
     "electronic-devices": "basic-electronics",
-    "electrical-installation": "industrial-installation-maintenance"
+    "electrical-installation": "industrial-installation-and-maintenance",
+    "industrial-installation-maintenance": "industrial-installation-and-maintenance",
+    "industrial": "industrial-installation-and-maintenance",
+    "utilization-electrical-energy": "utilization-of-electrical-energy",
+    "elec-util": "utilization-of-electrical-energy"
   });
 
   upsertSubject({
@@ -543,7 +549,7 @@
   });
 
   upsertSubject({
-    id: "industrial-installation-maintenance",
+    id: "industrial-installation-and-maintenance",
     name: "Industrial Installation and Maintenance",
     nameNp: "औद्योगिक जडान तथा मर्मत",
     icon: "🏭",
@@ -557,7 +563,7 @@
   });
 
   upsertSubject({
-    id: "utilization-electrical-energy",
+    id: "utilization-of-electrical-energy",
     name: "Utilization of Electrical Energy",
     nameNp: "विद्युत् ऊर्जाको उपयोग",
     icon: "💡",
@@ -589,16 +595,16 @@
     "Single Phase Fractional Horse Power Motors"
   ]);
 
-  setChapters("industrial-installation-maintenance", [
+  setChapters("industrial-installation-and-maintenance", [
     "Fire and " + "Safety Standards",
     "Distribution System in Industrial Installations",
     "Industrial Wiring",
-    "Earthing Arrangements of Distribution System",
+    "Earthing Arrangements",
     "Inspection, Testing and Maintenance of Industrial Installations",
-    "Three Phase Induction Motor Controls"
+    "Three-phase Induction Motor Controls"
   ]);
 
-  setChapters("utilization-electrical-energy", [
+  setChapters("utilization-of-electrical-energy", [
     "Introduction to Electrical Energy",
     "Illumination",
     "Industrial Utilization of Electric Energy",

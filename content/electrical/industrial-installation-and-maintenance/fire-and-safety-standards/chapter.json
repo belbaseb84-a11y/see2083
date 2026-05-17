@@ -1,0 +1,26 @@
+{
+  "id": "chapter:electrical:industrial-installation-and-maintenance:fire-and-safety-standards",
+  "legacyId": "chapter-electrical-industrial-installation-and-maintenance-fire-and-safety-standards",
+  "medium": "electrical",
+  "subject": "industrial-installation-and-maintenance",
+  "chapter": "fire-and-safety-standards",
+  "slug": "fire-and-safety-standards",
+  "unit": 1,
+  "title": "Fire and Safety Standards",
+  "titleNp": "",
+  "summary": "Technical stream content for this chapter is being prepared.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-17",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

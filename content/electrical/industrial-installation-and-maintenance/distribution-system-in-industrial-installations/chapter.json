@@ -1,0 +1,26 @@
+{
+  "id": "chapter:electrical:industrial-installation-and-maintenance:distribution-system-in-industrial-installations",
+  "legacyId": "chapter-electrical-industrial-installation-and-maintenance-distribution-system-in-industrial-installations",
+  "medium": "electrical",
+  "subject": "industrial-installation-and-maintenance",
+  "chapter": "distribution-system-in-industrial-installations",
+  "slug": "distribution-system-in-industrial-installations",
+  "unit": 2,
+  "title": "Distribution System in Industrial Installations",
+  "titleNp": "",
+  "summary": "Technical stream content for this chapter is being prepared.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-17",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

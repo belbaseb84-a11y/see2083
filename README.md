@@ -305,3 +305,7 @@ Improved dark mode contrast, mobile tap targets/layout, quiz/mock/resource viewe
 ## Phase UX.2 Resource Availability Badges
 
 Added Available / Coming soon badges on chapter study options. English Science MCQ, Mock, and Infographic show available where real resources exist. Optional Math and Nepali Science draft resources show coming soon. No content or quiz logic was changed.
+
+## Phase Electrical.1 Missing Electrical Subject Structures
+
+Added Industrial Installation and Maintenance structure with 6 official units and Utilization of Electrical Energy structure with 6 official units. Created draft placeholder packs only, with no real MCQs, notes, slides, infographics, or downloads added. Existing Science, Optional Math, Nepali Science, Basic Electronics, and Electrical Machine systems were not changed.
