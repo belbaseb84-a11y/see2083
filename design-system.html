@@ -1,6 +1,40 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+  (function () {
+    try {
+      var savedTheme =
+        localStorage.getItem("s2083_theme") ||
+        localStorage.getItem("theme") ||
+        localStorage.getItem("see2083_theme");
+
+      var prefersDark =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      var useDark = savedTheme
+        ? savedTheme === "dark"
+        : prefersDark;
+
+      var root = document.documentElement;
+
+      if (useDark) {
+        root.setAttribute("data-theme", "dark");
+        root.classList.add("dark", "dark-mode", "theme-dark");
+        root.style.backgroundColor = "#07111f";
+        root.style.colorScheme = "dark";
+      } else {
+        root.setAttribute("data-theme", "light");
+        root.classList.remove("dark", "dark-mode", "theme-dark");
+        root.style.backgroundColor = "#f6f8fc";
+        root.style.colorScheme = "light";
+      }
+    } catch (error) {
+      document.documentElement.style.backgroundColor = "#f6f8fc";
+    }
+  })();
+</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Developer UI Reference - SEE 2083</title>
