@@ -309,3 +309,7 @@ Added Available / Coming soon badges on chapter study options. English Science M
 ## Phase Electrical.1 Missing Electrical Subject Structures
 
 Added Industrial Installation and Maintenance structure with 6 official units and Utilization of Electrical Energy structure with 6 official units. Created draft placeholder packs only, with no real MCQs, notes, slides, infographics, or downloads added. Existing Science, Optional Math, Nepali Science, Basic Electronics, and Electrical Machine systems were not changed.
+
+## Phase QA-Fix.1 Functional Bug Fixes
+
+Fixed mock early-submit same-tab behavior and changed empty draft mock tests so they show a clear empty state instead of an active 15-minute setup. Verified Unit 5 uses its actual 49-question count, dark mode persistence, bookmark add/remove/dedupe behavior, and infographic loading-state logic. No content or MCQ JSON files were changed.

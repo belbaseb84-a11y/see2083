@@ -119,9 +119,17 @@ const MockTest = (() => {
     renderQuestion();
   }
 
-  function submitTest(timeUp = false) {
+  function submitTest(timeUp = false, event) {
+    if (event && typeof event.preventDefault === "function") {
+      event.preventDefault();
+    }
+
     const total = questions.length;
     const unanswered = total - Object.keys(userAnswers).length;
+
+    if (!total) {
+      return;
+    }
 
     if (!timeUp && unanswered > 0 && !window.confirm("You still have unanswered questions. Submit anyway?")) {
       return;
@@ -183,7 +191,7 @@ const MockTest = (() => {
       quizUrl: mockUrl
     }));
 
-    window.location.href = "result.html";
+    window.location.assign("result.html");
   }
 
   return { init, select, go, submitTest };

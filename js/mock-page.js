@@ -316,12 +316,12 @@
       }
 
       questions = [];
-      timeLimitSeconds = TIME_LIMIT;
+      timeLimitSeconds = 0;
       return;
     }
 
     questions = getFallbackMockQuestions();
-    timeLimitSeconds = TIME_LIMIT;
+    timeLimitSeconds = questions.length ? TIME_LIMIT : 0;
   }
 
   function renderBreadcrumbs() {
@@ -410,20 +410,19 @@
   function renderNoQuestions() {
     if (!mockQuestionArea) return;
 
+    if (startScreen) startScreen.style.display = "none";
+    if (testScreen) testScreen.style.display = "";
+
     if (startBtn) {
       startBtn.disabled = true;
       startBtn.classList.add("disabled");
     }
 
-    mockQuestionArea.innerHTML =
-      '<div class="empty-state">' +
-        '<div class="empty-icon">🎯</div>' +
-        '<h3>' + escapeHTML(labels.noQuestions) + '</h3>' +
-        '<p>' + escapeHTML(labels.noQuestionsSub) + '</p>' +
-        '<a href="subjects.html?medium=' + encodeURIComponent(medium) + '" class="btn btn-primary">' +
-          escapeHTML(labels.backSubjects) +
-        '</a>' +
-      '</div>';
+    const liveHead = document.querySelector(".mock-live-head");
+    const mockSidebar = document.querySelector(".mock-sidebar");
+
+    if (liveHead) liveHead.style.display = "none";
+    if (mockSidebar) mockSidebar.style.display = "none";
 
     mockQuestionArea.innerHTML =
       '<div class="empty-state">' +
@@ -442,7 +441,11 @@
   }
 
   function getTimeLimitLabel(seconds) {
-    const minutes = Math.max(1, Math.round(Number(seconds || TIME_LIMIT) / 60));
+    if (!questions.length || Number(seconds) <= 0) {
+      return "Not available";
+    }
+
+    const minutes = Math.max(1, Math.round(Number(seconds) / 60));
     return minutes + " " + labels.minutes;
   }
 
