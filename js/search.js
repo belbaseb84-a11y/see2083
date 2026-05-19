@@ -13,18 +13,68 @@ const Search = (() => {
       : "en";
   }
 
-  function getTypeLabel(type, lang) {
+  function inferTypeFromItem(item, type) {
+    const value = [
+      type,
+      item && item.category,
+      item && item.resourceType,
+      item && item.title,
+      item && item.url
+    ].join(" ").toLowerCase();
+
+    if (value.includes("infographic")) return "infographic";
+    if (value.includes("mock-test") || value.includes("mock test") || value.includes("mock")) return "mock";
+    if (value.includes("slide")) return "slides";
+    if (value.includes("easy-note") || value.includes("full-note") || value.includes("note")) return "note";
+
+    return type;
+  }
+
+  function getTypeLabel(type, lang, item) {
+    const inferredType = inferTypeFromItem(item, type);
+
     if (type === "subject") return lang === "np" ? "विषय" : "Subject";
     if (type === "chapter") return lang === "np" ? "अध्याय" : "Chapter";
-    if (type === "mcq") return "MCQ";
+    if (type === "mcq") return "MCQ Practice";
+    if (inferredType === "mock") return "Mock Test";
+    if (inferredType === "infographic") return "Infographic";
+    if (inferredType === "note") return "Note";
+    if (inferredType === "slides") return "Slides";
     return lang === "np" ? "अध्ययन सामग्री" : "Study Material";
   }
 
-  function getTypeIcon(type) {
+  function getTypeIcon(type, item) {
+    const inferredType = inferTypeFromItem(item, type);
+
     if (type === "subject") return "📚";
     if (type === "chapter") return "📖";
     if (type === "mcq") return "✅";
+    if (inferredType === "mock") return "⏱";
+    if (inferredType === "infographic") return "🖼";
+    if (inferredType === "note") return "📝";
+    if (inferredType === "slides") return "🗂";
     return "🔎";
+  }
+
+  function getActionLabel(type, item) {
+    const inferredType = inferTypeFromItem(item, type);
+
+    if (type === "subject") return "Open subject";
+    if (type === "chapter") return "Open chapter";
+    if (type === "mcq") return "Start practice";
+    if (inferredType === "mock") return "Start mock test";
+    if (inferredType === "infographic") return "View infographic";
+    if (inferredType === "note") return "Open note";
+    if (inferredType === "slides") return "View slides";
+
+    return "Open resource";
+  }
+
+  function getMediumLabel(medium) {
+    if (medium === "english") return "English Medium";
+    if (medium === "nepali") return "Nepali Medium";
+    if (medium === "electrical") return "Electrical";
+    return "";
   }
 
   function keywordText(parts) {
@@ -124,21 +174,26 @@ const Search = (() => {
     return {
       id: item.id || item.legacyId || item.url,
       type: type,
-      typeLabel: getTypeLabel(type, lang),
+      typeLabel: getTypeLabel(type, lang, item),
       title: title,
       titleNp: titleNp,
       display: lang === "np" && titleNp ? titleNp : title,
       keywords: keywordText([
         title,
         titleNp,
+        item.type,
+        item.category,
+        item.resourceType,
         item.subject,
         item.chapter,
         item.medium,
         keywordSource
       ]),
       url: String(item.url).trim(),
-      icon: item.icon || getTypeIcon(type),
+      icon: item.icon || getTypeIcon(type, item),
       subjectTitle: subjectTitle,
+      mediumLabel: getMediumLabel(item.medium),
+      actionLabel: item.actionLabel || getActionLabel(type, item),
       source: "external"
     };
   }
@@ -211,19 +266,64 @@ const Search = (() => {
     if (!term || term.trim().length < 2) return [];
 
     const q = term.toLowerCase().trim();
+    const tokens = q.split(/\s+/).filter(function (token) {
+      return token.length > 1;
+    });
 
     return index.filter(function (item) {
       const keywords = String(item.keywords || "");
       const display = String(item.display || "");
       const title = String(item.title || "");
       const titleNp = String(item.titleNp || "");
+      const searchable = keywordText([
+        keywords,
+        display,
+        title,
+        titleNp,
+        item.typeLabel,
+        item.actionLabel,
+        item.subjectTitle,
+        item.mediumLabel
+      ]);
 
-      return matchesSearchText(keywords, q) ||
+      const directMatch = matchesSearchText(keywords, q) ||
         matchesSearchText(display, q) ||
         matchesSearchText(title, q) ||
         matchesSearchText(titleNp, q) ||
         titleNp.includes(q);
+
+      const tokenMatch = tokens.length > 1 && tokens.every(function (token) {
+        return matchesSearchText(searchable, token);
+      });
+
+      return directMatch || tokenMatch;
+    }).sort(function (a, b) {
+      return scoreResult(b, q, tokens) - scoreResult(a, q, tokens);
     });
+  }
+
+  function scoreResult(item, query, tokens) {
+    const title = normalizeText(item.title || item.display || "");
+    const display = normalizeText(item.display || "");
+    const typeLabel = normalizeText(item.typeLabel || "");
+    const keywords = normalizeText(item.keywords || "");
+    const actionLabel = normalizeText(item.actionLabel || "");
+    const subjectTitle = normalizeText(item.subjectTitle || "");
+    const text = [title, display, typeLabel, keywords, actionLabel, subjectTitle].join(" ");
+    let score = 0;
+
+    if (title === query || display === query) score += 100;
+    if (title.startsWith(query) || display.startsWith(query)) score += 80;
+    if (title.includes(query) || display.includes(query)) score += 60;
+    if (typeLabel === query) score += 55;
+    if (typeLabel.includes(query)) score += 45;
+    if (keywords.includes(query)) score += 30;
+    if (actionLabel.includes(query)) score += 20;
+    if (tokens.length > 1 && tokens.every(function (token) { return text.includes(token); })) score += 35;
+    if (item.type === "infographic" && query.includes("infographic")) score += 30;
+    if (item.type === "chapter") score += 5;
+
+    return score;
   }
 
   // Build searchable index from all data

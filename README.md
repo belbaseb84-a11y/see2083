@@ -313,3 +313,7 @@ Added Industrial Installation and Maintenance structure with 6 official units an
 ## Phase QA-Fix.1 Functional Bug Fixes
 
 Fixed mock early-submit same-tab behavior and changed empty draft mock tests so they show a clear empty state instead of an active 15-minute setup. Verified Unit 5 uses its actual 49-question count, dark mode persistence, bookmark add/remove/dedupe behavior, and infographic loading-state logic. No content or MCQ JSON files were changed.
+
+## Phase SEARCH.1 Resource Search Polish
+
+Added English Science infographic search results, with clearer resource category labels and resource-viewer routes. Search now recognizes infographic, visual, summary, and diagram queries while preserving existing chapter, MCQ, and mock search behavior. No content or MCQ JSON files were changed.

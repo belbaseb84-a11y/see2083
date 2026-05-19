@@ -110,14 +110,20 @@
     if (!listEl) return;
 
     listEl.innerHTML = results.map(function (result) {
+      const metaParts = [
+        result.typeLabel || "",
+        result.subjectTitle || "",
+        result.mediumLabel || "",
+        result.actionLabel || ""
+      ].filter(Boolean);
+
       return (
         '<a href="' + escapeHTML(result.url) + '" class="search-result-item search-page-result">' +
           '<span class="search-result-icon">' + escapeHTML(result.icon || "🔎") + '</span>' +
           '<div class="search-result-info">' +
             '<div class="search-result-title">' + escapeHTML(result.display || result.title || "") + '</div>' +
             '<div class="search-result-meta">' +
-              escapeHTML(result.typeLabel || "") +
-              (result.subjectTitle ? " · " + escapeHTML(result.subjectTitle) : "") +
+              escapeHTML(metaParts.join(" · ")) +
             '</div>' +
           '</div>' +
           '<span class="search-result-arrow">→</span>' +
