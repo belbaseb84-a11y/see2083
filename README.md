@@ -325,3 +325,7 @@ Added review filters for All, Wrong only, and Unanswered questions, plus collaps
 ## Route Smoke Testing
 
 Run `BASE_URL=http://127.0.0.1:5500 node tools/smoke-test-routes.js` after starting a local static server. The script checks key pages, English Science quiz/mock/infographic routes, Optional Math, Nepali Science, Electrical draft routes, search routes, and resource viewer routes. It prints PASS/FAIL per route and exits with a failure code if any route fails.
+
+## Phase ABOUT.FINAL Publish-Ready About Page
+
+Reworked the About page into a public, future-ready overview for SEE 2083. The page now explains the platform purpose, study flow, organization by medium and subject, content growth policy, trust/disclaimer, privacy, community/report links, and Android app access. Progress-style Science counts and beta-report language were removed.

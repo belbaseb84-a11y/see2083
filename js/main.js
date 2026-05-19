@@ -92,6 +92,8 @@ function renderFooter() {
         <span class="footer-brand">SEE 2083</span>
         <div class="footer-links">
           <a href="about.html">About</a>
+          <a href="about.html#contact">Contact</a>
+          <a href="about.html#trust">Disclaimer</a>
         </div>
         <span class="footer-copy">Built for SEE students in Nepal.</span>
       </div>
