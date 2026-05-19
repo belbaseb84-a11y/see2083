@@ -111,6 +111,7 @@
     emptyTitle: labels.unsupportedTitle,
     previewMissingTitle: labels.previewMissingTitle
   };
+  let activePreviewUrl = "";
 
   function buildQuery(params) {
     return Object.keys(params)
@@ -539,6 +540,8 @@
     document.title = currentConfig.label + " - SEE 2083";
     const emptyTitle = title || currentConfig.emptyTitle;
 
+    activePreviewUrl = "";
+
     if (els.kicker) els.kicker.textContent = currentConfig.label;
     if (els.title) els.title.textContent = emptyTitle;
     if (els.description) els.description.textContent = labels.emptyText;
@@ -585,6 +588,7 @@
     if (els.viewNote) els.viewNote.textContent = labels.viewOnlyNote;
 
     if (els.frame) {
+      activePreviewUrl = previewUrl;
       setLoading(true);
       els.frame.src = previewUrl;
       els.frame.title = title;
@@ -616,6 +620,12 @@
     if (!els.frame || typeof els.frame.addEventListener !== "function") return;
 
     els.frame.addEventListener("load", function () {
+      const currentFrameUrl = String(els.frame.getAttribute("src") || "").trim();
+
+      if (!activePreviewUrl || currentFrameUrl !== activePreviewUrl) {
+        return;
+      }
+
       setLoading(false);
     });
   }

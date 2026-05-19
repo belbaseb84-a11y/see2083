@@ -329,3 +329,7 @@ Run `BASE_URL=http://127.0.0.1:5500 node tools/smoke-test-routes.js` after start
 ## Phase ABOUT.FINAL Publish-Ready About Page
 
 Reworked the About page into a public, future-ready overview for SEE 2083. The page now explains the platform purpose, study flow, organization by medium and subject, content growth policy, trust/disclaimer, privacy, community/report links, and Android app access. Progress-style Science counts and beta-report language were removed.
+
+## Phase LAUNCH-FIX.1 Final Beta Readiness Fixes
+
+Fixed the chapter infographic action handling, including the Unit 18 Hydrocarbons route. The URL `medium` parameter now overrides stored medium state, search input reflects the `q=` URL query, and the resource viewer loading state waits for the active iframe preview to load. Utilization of Electrical Energy routes were verified. No content or MCQ files were changed.

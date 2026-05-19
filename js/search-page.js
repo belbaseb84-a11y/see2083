@@ -203,6 +203,7 @@
 
     if (prefilledQuery) {
       searchInput.value = prefilledQuery;
+      searchInput.setAttribute("value", prefilledQuery);
     }
 
     searchInput.addEventListener("input", doSearch);

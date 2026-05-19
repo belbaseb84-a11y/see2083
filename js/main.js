@@ -8,11 +8,26 @@ function getParam(key) {
 }
 
 // ─── Medium state ─────────────────────────────────────
+const VALID_MEDIUMS = ["english", "nepali", "electrical"];
+
+function normalizeMedium(value) {
+  const medium = String(value || "").trim().toLowerCase();
+  return VALID_MEDIUMS.includes(medium) ? medium : "";
+}
+
 function getMedium() {
-  return getParam("medium") || sessionStorage.getItem("s2083_medium") || "english";
+  const urlMedium = normalizeMedium(getParam("medium"));
+
+  if (urlMedium) {
+    sessionStorage.setItem("s2083_medium", urlMedium);
+    return urlMedium;
+  }
+
+  return normalizeMedium(sessionStorage.getItem("s2083_medium")) || "english";
 }
 function setMedium(m) {
-  sessionStorage.setItem("s2083_medium", m);
+  const medium = normalizeMedium(m);
+  sessionStorage.setItem("s2083_medium", medium || "english");
 }
 
 function applyResponsiveSearchPlaceholders() {

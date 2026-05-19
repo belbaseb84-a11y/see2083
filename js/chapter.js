@@ -151,6 +151,7 @@
       "handwritten-note": "notes.html?" + base + "&type=handwritten",
       "easy-note": "notes.html?" + base + "&type=easy",
       "infographic": "resource-viewer.html?" + base + "&type=infographic",
+      "infographics": "resource-viewer.html?" + base + "&type=infographic",
       "slides": "notes.html?" + base + "&type=slides",
       "slide": "notes.html?" + base + "&type=slides",
       "short-questions": "notes.html?" + base + "&type=short",
@@ -168,7 +169,7 @@
   function getOptionActionLabel(optionId) {
     if (optionId === "mcq-practice") return labels.startPractice;
     if (optionId === "mock-test") return labels.takeTest;
-    if (optionId === "infographic") return isNp ? "Infographic हेर्नुहोस्" : "View Infographic";
+    if (optionId === "infographic" || optionId === "infographics") return isNp ? "Infographic हेर्नुहोस्" : "View Infographic";
     return labels.open;
   }
 
@@ -332,6 +333,7 @@
       "easy-note": "easyNote",
       "handwritten-note": "handwrittenNote",
       infographic: "infographics",
+      infographics: "infographics",
       slides: "slides",
       slide: "slides",
       "short-questions": "shortQuestions",
