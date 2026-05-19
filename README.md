@@ -317,3 +317,7 @@ Fixed mock early-submit same-tab behavior and changed empty draft mock tests so 
 ## Phase SEARCH.1 Resource Search Polish
 
 Added English Science infographic search results, with clearer resource category labels and resource-viewer routes. Search now recognizes infographic, visual, summary, and diagram queries while preserving existing chapter, MCQ, and mock search behavior. No content or MCQ JSON files were changed.
+
+## Phase RESULT.1 Result Review Polish
+
+Added review filters for All, Wrong only, and Unanswered questions, plus collapsible explanations to reduce long review scrolling. Improved result review spacing for mobile while preserving quiz and mock result compatibility. No MCQ content or quiz/mock loading logic was changed.

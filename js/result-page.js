@@ -40,7 +40,13 @@
     yourAnswer: isNp ? "तपाईंको उत्तर" : "Your answer",
     correctAnswer: isNp ? "सही उत्तर" : "Correct answer",
     notAnswered: isNp ? "उत्तर दिइएन" : "Not answered",
+    unanswered: isNp ? "उत्तर नदिएको" : "Unanswered",
     explanation: isNp ? "व्याख्या" : "Explanation",
+    all: isNp ? "सबै" : "All",
+    wrongOnly: isNp ? "गलत मात्र" : "Wrong only",
+    noQuestionsInFilter: isNp ? "यो फिल्टरमा कुनै प्रश्न छैन।" : "No questions in this filter.",
+    showExplanation: isNp ? "व्याख्या देखाउनुहोस्" : "Show explanation",
+    hideExplanation: isNp ? "व्याख्या लुकाउनुहोस्" : "Hide explanation",
     mode: isNp ? "मोड" : "Mode",
     mock: isNp ? "मोक टेस्ट" : "Mock test",
     practice: isNp ? "MCQ अभ्यास" : "MCQ practice",
@@ -89,6 +95,7 @@
   }
 
   const result = getStoredResult();
+  let activeReviewFilter = "all";
 
   function getGradeData(pct) {
     if (pct >= 80) {
@@ -144,10 +151,126 @@
     return Boolean(
       resultData &&
       Array.isArray(resultData.questions) &&
-      resultData.questions.length &&
-      resultData.answers &&
-      typeof resultData.answers === "object"
+      resultData.questions.length
     );
+  }
+
+  function getAnswers(resultData) {
+    if (!resultData) return {};
+
+    if (resultData.answers && typeof resultData.answers === "object") {
+      return resultData.answers;
+    }
+
+    if (resultData.selectedAnswers && typeof resultData.selectedAnswers === "object") {
+      return resultData.selectedAnswers;
+    }
+
+    return {};
+  }
+
+  function getAnswerForQuestion(answers, question, index) {
+    if (!answers || typeof answers !== "object") return undefined;
+    if (answers[index] !== undefined) return answers[index];
+    if (String(index) in answers) return answers[String(index)];
+    if (question && question.id && answers[question.id] !== undefined) return answers[question.id];
+    return undefined;
+  }
+
+  function getLocalizedQuestionText(question) {
+    if (!question) return "";
+    return isNp && question.questionNp ? question.questionNp : question.question || "";
+  }
+
+  function getLocalizedOptions(question) {
+    if (!question) return [];
+    if (isNp && Array.isArray(question.optionsNp) && question.optionsNp.length) {
+      return question.optionsNp;
+    }
+
+    return safeArray(question.options);
+  }
+
+  function getLocalizedExplanation(question) {
+    if (!question) return "";
+    return isNp && question.explanationNp ? question.explanationNp : question.explanation || "";
+  }
+
+  function buildReviewItems(resultData) {
+    const questions = Array.isArray(resultData && resultData.questions) ? resultData.questions : [];
+    const answers = getAnswers(resultData);
+
+    return questions.map(function (question, index) {
+      const options = getLocalizedOptions(question);
+      const correct = Number(question && question.correct);
+      const chosenRaw = getAnswerForQuestion(answers, question, index);
+      const chosen = chosenRaw === undefined || chosenRaw === null || chosenRaw === "" ? -1 : Number(chosenRaw);
+      const hasValidCorrect = Number.isFinite(correct) && correct >= 0 && correct < options.length;
+      const isAnswered = Number.isFinite(chosen) && chosen >= 0 && chosen < options.length;
+      const isCorrect = isAnswered && hasValidCorrect && chosen === correct;
+      const status = !isAnswered ? "unanswered" : isCorrect ? "correct" : "wrong";
+
+      return {
+        question: question || {},
+        index: index,
+        options: options,
+        correct: correct,
+        chosen: chosen,
+        isAnswered: isAnswered,
+        isCorrect: isCorrect,
+        status: status,
+        questionText: getLocalizedQuestionText(question),
+        chosenText: isAnswered ? options[chosen] : labels.notAnswered,
+        correctText: hasValidCorrect ? options[correct] : "",
+        explanation: getLocalizedExplanation(question)
+      };
+    });
+  }
+
+  function getFilteredReviewItems(items) {
+    if (activeReviewFilter === "wrong") {
+      return items.filter(function (item) {
+        return item.status === "wrong";
+      });
+    }
+
+    if (activeReviewFilter === "unanswered") {
+      return items.filter(function (item) {
+        return item.status === "unanswered";
+      });
+    }
+
+    return items;
+  }
+
+  function getResultCounts(resultData) {
+    const reviewItems = buildReviewItems(resultData);
+    const reviewTotal = reviewItems.length;
+    const total = Math.max(0, toSafeNumber(
+      (resultData && (resultData.totalQuestions || resultData.total)) || reviewTotal
+    ));
+    const reviewCorrect = reviewItems.filter(function (item) { return item.status === "correct"; }).length;
+    const reviewWrong = reviewItems.filter(function (item) { return item.status === "wrong"; }).length;
+    const reviewUnanswered = reviewItems.filter(function (item) { return item.status === "unanswered"; }).length;
+    const correct = Math.max(0, toSafeNumber(
+      resultData && (resultData.correctAnswers !== undefined ? resultData.correctAnswers : resultData.score)
+    ) || reviewCorrect);
+    const unanswered = Math.max(0, toSafeNumber(
+      resultData && resultData.unansweredAnswers !== undefined ? resultData.unansweredAnswers : reviewUnanswered
+    ));
+    const wrongFromResult = resultData && resultData.wrongAnswers !== undefined
+      ? toSafeNumber(resultData.wrongAnswers)
+      : reviewItems.length
+        ? reviewWrong
+        : Math.max(total - correct - unanswered, 0);
+
+    return {
+      score: correct,
+      correct: correct,
+      wrong: Math.max(0, wrongFromResult),
+      unanswered: unanswered,
+      total: total
+    };
   }
 
   function normalizeTimeTaken(value) {
@@ -272,10 +395,12 @@
   function renderResultSummary(resultData) {
     if (!resultArea) return;
 
-    const score = Math.max(0, toSafeNumber(resultData.score));
-    const total = Math.max(0, toSafeNumber(resultData.total));
+    const counts = getResultCounts(resultData);
+    const score = counts.score;
+    const total = counts.total;
     const pct = getResultPercent(resultData, score, total);
-    const wrong = Math.max(total - score, 0);
+    const wrong = counts.wrong;
+    const unanswered = counts.unanswered;
     const timeTaken = normalizeTimeTaken(resultData.timeTaken);
     const timeUp = Boolean(resultData.timeUp);
     const grade = getGradeData(pct);
@@ -322,6 +447,11 @@
         '<div class="result-stat">' +
           '<span>' + escapeHTML(labels.wrong) + '</span>' +
           '<strong class="error">' + escapeHTML(String(wrong)) + '</strong>' +
+        '</div>' +
+
+        '<div class="result-stat">' +
+          '<span>' + escapeHTML(labels.unanswered) + '</span>' +
+          '<strong class="neutral">' + escapeHTML(String(unanswered)) + '</strong>' +
         '</div>' +
 
         '<div class="result-stat">' +
@@ -373,13 +503,13 @@
   function renderReview(resultData, shouldScroll) {
     if (!reviewArea) return;
 
-    const questions = Array.isArray(resultData.questions) ? resultData.questions : [];
-    const answers = resultData.answers || {};
+    const reviewItems = buildReviewItems(resultData);
+    const filteredItems = getFilteredReviewItems(reviewItems);
     const letters = ["A", "B", "C", "D"];
 
     reviewArea.style.display = "block";
 
-    if (!questions.length) {
+    if (!reviewItems.length) {
       reviewArea.innerHTML =
         '<div class="result-review-head">' +
           '<h2>' + escapeHTML(labels.answerReview) + '</h2>' +
@@ -392,82 +522,151 @@
       '<div class="result-review-head">' +
         '<div class="result-kicker">' + escapeHTML(labels.reviewAnswers) + '</div>' +
         '<h2>' + escapeHTML(labels.answerReview) + '</h2>' +
-        '<p>' + escapeHTML(questions.length) + ' ' + escapeHTML(labels.question) + '</p>' +
+        '<p>' + escapeHTML(String(filteredItems.length)) + ' / ' +
+          escapeHTML(String(reviewItems.length)) + ' ' + escapeHTML(labels.question) + '</p>' +
+      '</div>' +
+
+      '<div class="result-review-toolbar">' +
+        '<div class="result-review-filters" role="group" aria-label="' + escapeHTML(labels.answerReview) + '">' +
+          renderReviewFilterButton("all", labels.all, reviewItems.length) +
+          renderReviewFilterButton("wrong", labels.wrongOnly, reviewItems.filter(function (item) { return item.status === "wrong"; }).length) +
+          renderReviewFilterButton("unanswered", labels.unanswered, reviewItems.filter(function (item) { return item.status === "unanswered"; }).length) +
+        '</div>' +
       '</div>' +
 
       '<div class="result-review-list">' +
-        questions.map(function (question, index) {
-          const chosenRaw = answers[index];
-          const chosen = chosenRaw === undefined ? -1 : Number(chosenRaw);
-          const isAnswered = chosen >= 0 && chosen < safeArray(question.options).length;
-          const isCorrect = isAnswered && chosen === question.correct;
-          const chosenText = isAnswered && question.options && question.options[chosen]
-            ? question.options[chosen]
-            : labels.notAnswered;
-          const correctText = question.options && question.options[question.correct]
-            ? question.options[question.correct]
-            : "";
-          const badgeText = !isAnswered
-            ? labels.notAnswered
-            : isCorrect
-              ? labels.correct
-              : labels.wrong;
-
-          return (
-            '<article class="result-review-card">' +
-              '<div class="result-review-card-head">' +
-                '<span class="badge ' + (isCorrect ? "badge-green" : "badge-red") + '">' +
-                  escapeHTML(badgeText) +
-                '</span>' +
-                '<span>' + escapeHTML(labels.question) + ' ' + escapeHTML(index + 1) + '</span>' +
-              '</div>' +
-
-              '<h3>' + escapeHTML(question.question || "") + '</h3>' +
-
-              '<div class="result-answer-summary">' +
-                '<div>' +
-                  '<span>' + escapeHTML(labels.yourAnswer) + '</span>' +
-                  '<strong class="' + (isCorrect ? "success" : "error") + '">' +
-                    escapeHTML(chosenText) +
-                  '</strong>' +
-                '</div>' +
-                '<div>' +
-                  '<span>' + escapeHTML(labels.correctAnswer) + '</span>' +
-                  '<strong class="success">' + escapeHTML(correctText) + '</strong>' +
-                '</div>' +
-              '</div>' +
-
-              '<div class="result-option-list">' +
-                safeArray(question.options).map(function (option, optionIndex) {
-                  let optionClass = "";
-
-                  if (optionIndex === question.correct) {
-                    optionClass = " correct";
-                  } else if (optionIndex === chosen && !isCorrect) {
-                    optionClass = " wrong";
-                  }
-
-                  return (
-                    '<div class="result-option' + optionClass + '">' +
-                      '<span>' + escapeHTML(letters[optionIndex] || "") + '</span>' +
-                      '<p>' + escapeHTML(option) + '</p>' +
-                    '</div>'
-                  );
-                }).join("") +
-              '</div>' +
-
-              '<div class="result-explanation">' +
-                '<strong>' + escapeHTML(labels.explanation) + ':</strong> ' +
-                escapeHTML(question.explanation || "") +
-              '</div>' +
-            '</article>'
-          );
-        }).join("") +
+        (filteredItems.length
+          ? filteredItems.map(function (item) {
+              return renderReviewCard(item, letters);
+            }).join("")
+          : '<div class="result-review-empty">' +
+              '<p>' + escapeHTML(labels.noQuestionsInFilter) + '</p>' +
+            '</div>') +
       '</div>';
+
+    bindReviewControls(resultData);
 
     if (shouldScroll !== false) {
       reviewArea.scrollIntoView({ behavior: "smooth", block: "start" });
     }
+  }
+
+  function renderReviewFilterButton(filter, label, count) {
+    return (
+      '<button class="result-review-filter' + (activeReviewFilter === filter ? " active" : "") + '"' +
+        ' type="button"' +
+        ' data-review-filter="' + escapeHTML(filter) + '"' +
+        ' aria-pressed="' + (activeReviewFilter === filter ? "true" : "false") + '">' +
+        '<span>' + escapeHTML(label) + '</span>' +
+        '<strong>' + escapeHTML(String(count)) + '</strong>' +
+      '</button>'
+    );
+  }
+
+  function getStatusLabel(status) {
+    if (status === "correct") return labels.correct;
+    if (status === "wrong") return labels.wrong;
+    return labels.unanswered;
+  }
+
+  function getStatusBadgeClass(status) {
+    if (status === "correct") return "badge-green";
+    if (status === "wrong") return "badge-red";
+    return "badge-gray";
+  }
+
+  function renderReviewCard(item, letters) {
+    const explanationId = "result-explanation-" + item.index;
+    const answerClass = item.status === "correct" ? "success" : item.status === "wrong" ? "error" : "neutral";
+
+    return (
+      '<article class="result-review-card result-review-' + escapeHTML(item.status) + '">' +
+        '<div class="result-review-card-head">' +
+          '<span class="badge ' + getStatusBadgeClass(item.status) + '">' +
+            escapeHTML(getStatusLabel(item.status)) +
+          '</span>' +
+          '<span>' + escapeHTML(labels.question) + ' ' + escapeHTML(String(item.index + 1)) + '</span>' +
+        '</div>' +
+
+        '<h3>' + escapeHTML(item.questionText) + '</h3>' +
+
+        '<div class="result-answer-summary">' +
+          '<div>' +
+            '<span>' + escapeHTML(labels.yourAnswer) + '</span>' +
+            '<strong class="' + answerClass + '">' +
+              escapeHTML(item.chosenText) +
+            '</strong>' +
+          '</div>' +
+          '<div>' +
+            '<span>' + escapeHTML(labels.correctAnswer) + '</span>' +
+            '<strong class="success">' + escapeHTML(item.correctText) + '</strong>' +
+          '</div>' +
+        '</div>' +
+
+        '<div class="result-option-list">' +
+          item.options.map(function (option, optionIndex) {
+            let optionClass = "";
+
+            if (optionIndex === item.correct) {
+              optionClass = " correct";
+            } else if (optionIndex === item.chosen && item.status === "wrong") {
+              optionClass = " wrong";
+            }
+
+            return (
+              '<div class="result-option' + optionClass + '">' +
+                '<span>' + escapeHTML(letters[optionIndex] || "") + '</span>' +
+                '<p>' + escapeHTML(option) + '</p>' +
+              '</div>'
+            );
+          }).join("") +
+        '</div>' +
+
+        (item.explanation
+          ? '<div class="result-explanation-block">' +
+              '<button class="result-explanation-toggle" type="button"' +
+                ' data-explanation-toggle="' + escapeHTML(String(item.index)) + '"' +
+                ' aria-expanded="false"' +
+                ' aria-controls="' + escapeHTML(explanationId) + '">' +
+                escapeHTML(labels.showExplanation) +
+              '</button>' +
+              '<div class="result-explanation" id="' + escapeHTML(explanationId) + '" hidden>' +
+                '<strong>' + escapeHTML(labels.explanation) + ':</strong> ' +
+                escapeHTML(item.explanation) +
+              '</div>' +
+            '</div>'
+          : '') +
+      '</article>'
+    );
+  }
+
+  function bindReviewControls(resultData) {
+    reviewArea.querySelectorAll("[data-review-filter]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        activeReviewFilter = button.getAttribute("data-review-filter") || "all";
+        renderReview(resultData, false);
+      });
+    });
+
+    reviewArea.querySelectorAll("[data-explanation-toggle]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        const targetId = button.getAttribute("aria-controls");
+        const target = targetId ? document.getElementById(targetId) : null;
+        if (!target) return;
+
+        const isHidden = target.hasAttribute("hidden");
+
+        if (isHidden) {
+          target.removeAttribute("hidden");
+          button.setAttribute("aria-expanded", "true");
+          button.textContent = labels.hideExplanation;
+        } else {
+          target.setAttribute("hidden", "");
+          button.setAttribute("aria-expanded", "false");
+          button.textContent = labels.showExplanation;
+        }
+      });
+    });
   }
 
   function initPage() {
