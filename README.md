@@ -321,3 +321,7 @@ Added English Science infographic search results, with clearer resource category
 ## Phase RESULT.1 Result Review Polish
 
 Added review filters for All, Wrong only, and Unanswered questions, plus collapsible explanations to reduce long review scrolling. Improved result review spacing for mobile while preserving quiz and mock result compatibility. No MCQ content or quiz/mock loading logic was changed.
+
+## Route Smoke Testing
+
+Run `BASE_URL=http://127.0.0.1:5500 node tools/smoke-test-routes.js` after starting a local static server. The script checks key pages, English Science quiz/mock/infographic routes, Optional Math, Nepali Science, Electrical draft routes, search routes, and resource viewer routes. It prints PASS/FAIL per route and exits with a failure code if any route fails.
