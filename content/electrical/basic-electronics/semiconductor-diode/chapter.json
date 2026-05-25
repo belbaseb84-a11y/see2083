@@ -1,0 +1,26 @@
+{
+  "id": "chapter:electrical:basic-electronics:semiconductor-diode",
+  "legacyId": "chapter-electrical-basic-electronics-semiconductor-diode",
+  "medium": "electrical",
+  "subject": "basic-electronics",
+  "chapter": "semiconductor-diode",
+  "slug": "semiconductor-diode",
+  "unit": 3,
+  "title": "Semiconductor Diode",
+  "titleNp": "",
+  "summary": "Technical stream content for this chapter is being prepared.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-25",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

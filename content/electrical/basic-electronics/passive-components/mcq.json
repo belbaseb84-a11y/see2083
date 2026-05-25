@@ -1,0 +1,1518 @@
+{
+  "medium": "electrical",
+  "mediumId": "electrical",
+  "subject": "basic-electronics",
+  "subjectId": "basic-electronics",
+  "subjectTitle": "Basic Electronics",
+  "chapter": "passive-components",
+  "unitSlug": "passive-components",
+  "chapterTitle": "Passive Components",
+  "unit": 1,
+  "unitTitle": "Passive Components",
+  "mcqKey": "mcq:electrical/basic-electronics/passive-components",
+  "status": "published",
+  "version": 1,
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "electrical-basic-electronics-passive-components-q001",
+      "question": "What will be the color-coding of a resistor when the resistance of the resistor is 50 ohms with 2% tolerance?",
+      "options": [
+        "Green-Black-Brown-Red",
+        "Green-Black-Black-Brown",
+        "Yellow-Brown-Black-Red",
+        "Green-Black-Black-Red"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Green-Black-Black-Red",
+      "correctAnswer": "Green-Black-Black-Red",
+      "explanation": "Green and black give the digits 5 and 0.\nBlack multiplier means no zero is added, and red means 2% tolerance.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q001",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q002",
+      "question": "Capacitance of a capacitor is not affected by ______.",
+      "options": [
+        "Plate area",
+        "Distance between plates",
+        "Dielectric material",
+        "Frequency"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Frequency",
+      "correctAnswer": "Frequency",
+      "explanation": "Capacitance depends on plate area, plate distance, and dielectric material.\nFrequency is not listed as a factor affecting capacitance in this unit.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q002",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q003",
+      "question": "What will happen to the capacitance value if the area of the plates of the capacitor is reduced?",
+      "options": [
+        "Capacitance value increases",
+        "Capacitance value reduces",
+        "Capacitance value remains same",
+        "Capacitance value becomes zero"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Capacitance value reduces",
+      "correctAnswer": "Capacitance value reduces",
+      "explanation": "Less plate area stores less charge.\nCapacitance is directly affected by the shape and size of conducting surfaces.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q003",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q004",
+      "question": "Resistor color bands are read from ______.",
+      "options": [
+        "Left to right",
+        "From both sides",
+        "Right to left",
+        "Are correct"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Left to right",
+      "correctAnswer": "Left to right",
+      "explanation": "The first two bands are read first from the left side.\nThen multiplier and tolerance are read in order.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q004",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q005",
+      "question": "What are the first two bands on the resistors?",
+      "options": [
+        "Tolerance",
+        "Decimal multiplier",
+        "Two digits",
+        "All are correct"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Two digits",
+      "correctAnswer": "Two digits",
+      "explanation": "The first two bands represent the first two digits.\nThe next band is multiplier and the last band is tolerance.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q005",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q006",
+      "question": "The digit that represents the green band on a resistor is ______.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "5",
+      "correctAnswer": "5",
+      "explanation": "Green represents the digit 5 in resistor color code.\nMemory order: black, brown, red, orange, yellow, green.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q006",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q007",
+      "question": "______ is to be added after the first two digits in a decimal multiplier.",
+      "options": [
+        "Resistance",
+        "Digits",
+        "Tolerance",
+        "Zeros"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Zeros",
+      "correctAnswer": "Zeros",
+      "explanation": "The multiplier tells how many zeros to add.\nThis gives the resistance value in ohms.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q007",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q008",
+      "question": "No band on the resistor means the tolerance is ______.",
+      "options": [
+        "0.3%",
+        "15%",
+        "30%",
+        "20%"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "20%",
+      "correctAnswer": "20%",
+      "explanation": "No color band represents 20% tolerance.\nGold is 5% and silver is 10% tolerance.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q008",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q009",
+      "question": "Which of the following is the color code for a resistor having resistance equal to 68 kΩ with 5% tolerance?",
+      "options": [
+        "Blue, grey, orange, gold",
+        "Blue, grey, orange, silver",
+        "Grey, blue, orange, gold",
+        "Grey, blue, orange, silver"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Blue, grey, orange, gold",
+      "correctAnswer": "Blue, grey, orange, gold",
+      "explanation": "Blue and grey give 6 and 8.\nOrange adds three zeros and gold gives 5% tolerance.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q009",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q010",
+      "question": "In a resistor, the first three bands from left to right have colors yellow, violet and red. What is the value of resistance in ohms?",
+      "options": [
+        "6700",
+        "540",
+        "52000",
+        "4700"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "4700",
+      "correctAnswer": "4700",
+      "explanation": "Yellow and violet give 47.\nRed multiplier adds two zeros, so the value is 4700 ohms.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q010",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q011",
+      "question": "Capacitance of a capacitor is the measure of its ability to ______.",
+      "options": [
+        "Resist flow of current",
+        "Store charge",
+        "Allow flow of current",
+        "None of these"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Store charge",
+      "correctAnswer": "Store charge",
+      "explanation": "Capacitance means the ability to hold charge.\nA capacitor stores electric charge between its plates.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q011",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q012",
+      "question": "If a capacitor is marked as 221K, then its value is ______.",
+      "options": [
+        "220 pF",
+        "221 pF",
+        "22 pF",
+        "2.21 pF"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "220 pF",
+      "correctAnswer": "220 pF",
+      "explanation": "In numeric code, 22 is followed by one zero.\nSo 221 means 220 pF, and K shows tolerance.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q012",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q013",
+      "question": "Which passive component opposes the flow of electric current?",
+      "options": [
+        "Resistor",
+        "Capacitor",
+        "Inductor",
+        "Diode"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Resistor",
+      "correctAnswer": "Resistor",
+      "explanation": "A resistor resists the flow of current.\nResistance is measured in ohm.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q014",
+      "question": "Which passive component stores electric charge?",
+      "options": [
+        "Resistor",
+        "Capacitor",
+        "Inductor",
+        "Transistor"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Capacitor",
+      "correctAnswer": "Capacitor",
+      "explanation": "A capacitor stores electric charge.\nIt has two conducting plates separated by a dielectric.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q015",
+      "question": "Which passive component stores energy in a magnetic field?",
+      "options": [
+        "Resistor",
+        "Capacitor",
+        "Inductor",
+        "Zener diode"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Inductor",
+      "correctAnswer": "Inductor",
+      "explanation": "An inductor stores energy in a magnetic field.\nInductance is measured in henry.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q016",
+      "question": "What separates the two conducting plates of a capacitor?",
+      "options": [
+        "Emitter",
+        "Collector",
+        "Base",
+        "Dielectric"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Dielectric",
+      "correctAnswer": "Dielectric",
+      "explanation": "A dielectric separates the capacitor plates.\nMica, air and paper are examples of dielectric materials.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q017",
+      "question": "What is the SI unit of capacitance?",
+      "options": [
+        "Farad",
+        "Ohm",
+        "Henry",
+        "Volt"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Farad",
+      "correctAnswer": "Farad",
+      "explanation": "Capacitance is measured in farad.\nThe symbol of farad is F.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q018",
+      "question": "What is the SI unit of inductance?",
+      "options": [
+        "Farad",
+        "Henry",
+        "Ohm",
+        "Ampere"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Henry",
+      "correctAnswer": "Henry",
+      "explanation": "Inductance is measured in henry.\nIts symbol is H.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q019",
+      "question": "Which resistor has a fixed resistance value?",
+      "options": [
+        "Variable resistor",
+        "Preset resistor",
+        "Fixed resistor",
+        "Variable capacitor"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Fixed resistor",
+      "correctAnswer": "Fixed resistor",
+      "explanation": "A fixed resistor has a fixed value.\nIts resistance cannot be changed normally.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q020",
+      "question": "Which resistor allows the resistance value to be changed?",
+      "options": [
+        "Fixed resistor",
+        "Ceramic capacitor",
+        "Air core inductor",
+        "Variable resistor"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Variable resistor",
+      "correctAnswer": "Variable resistor",
+      "explanation": "A variable resistor allows value adjustment.\nIt is used where resistance must be varied.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q021",
+      "question": "Which material is commonly used as a dielectric in capacitors?",
+      "options": [
+        "Mica",
+        "Copper wire",
+        "Aluminium case",
+        "Iron core"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Mica",
+      "correctAnswer": "Mica",
+      "explanation": "Mica is listed as a dielectric material.\nAir and paper are also dielectric materials.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q022",
+      "question": "What happens if an electrolytic capacitor is connected with wrong polarity?",
+      "options": [
+        "It becomes a resistor",
+        "It gets damaged",
+        "It changes into an inductor",
+        "It becomes a diode"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It gets damaged",
+      "correctAnswer": "It gets damaged",
+      "explanation": "Electrolytic capacitors are polarized.\nThey need proper positive and negative connection.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q023",
+      "question": "Which capacitor type has no polarity requirement?",
+      "options": [
+        "Electrolytic capacitor",
+        "Transistor",
+        "Non-electrolytic capacitor",
+        "Zener diode"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Non-electrolytic capacitor",
+      "correctAnswer": "Non-electrolytic capacitor",
+      "explanation": "Non-electrolytic capacitors can be connected with any polarity.\nPaper, mica and ceramic capacitors are examples.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q024",
+      "question": "Which capacitor type generally has high capacitance value?",
+      "options": [
+        "Mica capacitor",
+        "Paper capacitor",
+        "Ceramic capacitor",
+        "Electrolytic capacitor"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Electrolytic capacitor",
+      "correctAnswer": "Electrolytic capacitor",
+      "explanation": "Electrolytic capacitors have high capacitance.\nThey are polarized components.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q025",
+      "question": "Which factor increases capacitance when plate area increases?",
+      "options": [
+        "Plate area",
+        "Wire color",
+        "Resistor tolerance",
+        "Inductor core only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Plate area",
+      "correctAnswer": "Plate area",
+      "explanation": "Greater plate area can increase capacitance.\nThe unit says capacitance depends on size of conducting surfaces.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q026",
+      "question": "What happens to capacitance when distance between plates increases?",
+      "options": [
+        "Capacitance increases",
+        "Capacitance decreases",
+        "Capacitance becomes resistance",
+        "Capacitance becomes zero always"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Capacitance decreases",
+      "correctAnswer": "Capacitance decreases",
+      "explanation": "Greater separation reduces capacitance.\nPlate distance is one factor affecting capacitance.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q027",
+      "question": "Which code system is used to find resistor value from colored bands?",
+      "options": [
+        "Boolean code",
+        "Binary code",
+        "Resistor color code",
+        "Diode code"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Resistor color code",
+      "correctAnswer": "Resistor color code",
+      "explanation": "Resistor color code gives resistor value.\nDigits, multiplier and tolerance are read from bands.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q028",
+      "question": "Which color represents digit 0 in resistor color code?",
+      "options": [
+        "Brown",
+        "Red",
+        "Orange",
+        "Black"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Black",
+      "correctAnswer": "Black",
+      "explanation": "Black represents 0.\nIt is the first color in the resistor color code sequence.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q029",
+      "question": "Which color represents digit 1 in resistor color code?",
+      "options": [
+        "Brown",
+        "Black",
+        "Red",
+        "Yellow"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Brown",
+      "correctAnswer": "Brown",
+      "explanation": "Brown represents 1.\nThe order starts black 0, brown 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q030",
+      "question": "Which color represents digit 2 in resistor color code?",
+      "options": [
+        "Orange",
+        "Red",
+        "Green",
+        "Blue"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Red",
+      "correctAnswer": "Red",
+      "explanation": "Red represents 2.\nIt is the third color in the color code order.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q031",
+      "question": "Which color represents digit 4 in resistor color code?",
+      "options": [
+        "Orange",
+        "Green",
+        "Yellow",
+        "Violet"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Yellow",
+      "correctAnswer": "Yellow",
+      "explanation": "Yellow represents 4.\nIt comes after orange in the color code order.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q032",
+      "question": "Which color represents digit 6 in resistor color code?",
+      "options": [
+        "Green",
+        "Violet",
+        "Grey",
+        "Blue"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Blue",
+      "correctAnswer": "Blue",
+      "explanation": "Blue represents 6.\nGreen is 5 and violet is 7.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q033",
+      "question": "Which color represents digit 7 in resistor color code?",
+      "options": [
+        "Violet",
+        "Blue",
+        "Grey",
+        "White"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Violet",
+      "correctAnswer": "Violet",
+      "explanation": "Violet represents 7.\nIt comes between blue and grey.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q034",
+      "question": "Which color represents digit 8 in resistor color code?",
+      "options": [
+        "White",
+        "Grey",
+        "Violet",
+        "Green"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Grey",
+      "correctAnswer": "Grey",
+      "explanation": "Grey represents 8.\nWhite represents 9.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q035",
+      "question": "Which color represents digit 9 in resistor color code?",
+      "options": [
+        "Black",
+        "Grey",
+        "White",
+        "Brown"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "White",
+      "correctAnswer": "White",
+      "explanation": "White represents 9.\nIt is the last digit color in the table.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q036",
+      "question": "What tolerance is represented by gold color?",
+      "options": [
+        "±10%",
+        "±20%",
+        "±2%",
+        "±5%"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "±5%",
+      "correctAnswer": "±5%",
+      "explanation": "Gold represents ±5% tolerance.\nTolerance shows possible variation in value.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q037",
+      "question": "What tolerance is represented by silver color?",
+      "options": [
+        "±10%",
+        "±5%",
+        "±20%",
+        "±1%"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "±10%",
+      "correctAnswer": "±10%",
+      "explanation": "Silver represents ±10% tolerance.\nNo color represents ±20% tolerance.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q038",
+      "question": "In a four-band resistor, what does the third band generally show?",
+      "options": [
+        "First digit",
+        "Multiplier",
+        "Second digit",
+        "Tolerance only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Multiplier",
+      "correctAnswer": "Multiplier",
+      "explanation": "The third band shows the multiplier.\nIt tells how many zeros are added after the first two digits.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q039",
+      "question": "In a four-band resistor, what does the fourth band generally show?",
+      "options": [
+        "Multiplier",
+        "First digit",
+        "Tolerance",
+        "Second digit"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Tolerance",
+      "correctAnswer": "Tolerance",
+      "explanation": "The fourth band shows tolerance.\nTolerance gives the allowed error in resistance value.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q040",
+      "question": "What does the numeric code of capacitor help to find?",
+      "options": [
+        "Resistance value",
+        "Current gain",
+        "Logic output",
+        "Capacitance value"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Capacitance value",
+      "correctAnswer": "Capacitance value",
+      "explanation": "Capacitor numeric code gives capacitance value.\nIt is normally read in pF.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q041",
+      "question": "For capacitor code 473, what does the digit 3 mean?",
+      "options": [
+        "Add three zeros",
+        "Add three farads",
+        "Subtract three zeros",
+        "Tolerance is 3%"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Add three zeros",
+      "correctAnswer": "Add three zeros",
+      "explanation": "The last digit tells the number of zeros.\nThus 47 followed by three zeros gives 47000 pF.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q042",
+      "question": "Which device is used to compare calculated resistor value with measured value in practical work?",
+      "options": [
+        "Breadboard only",
+        "Multimeter",
+        "Logic gate",
+        "Transformer"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Multimeter",
+      "correctAnswer": "Multimeter",
+      "explanation": "A multimeter can measure resistance.\nThe practical work compares color code value with multimeter value.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q043",
+      "question": "Which board is used for simple electronic circuit demonstration?",
+      "options": [
+        "Iron core",
+        "Heat sink",
+        "Breadboard",
+        "Truth table"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Breadboard",
+      "correctAnswer": "Breadboard",
+      "explanation": "A breadboard is used to build simple circuits.\nThe unit includes familiarization with multimeter and breadboard.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q044",
+      "question": "Which passive component is related with the term resistance?",
+      "options": [
+        "Capacitor",
+        "Inductor",
+        "MOSFET",
+        "Resistor"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Resistor",
+      "correctAnswer": "Resistor",
+      "explanation": "Resistance is the property of a resistor.\nIt opposes current flow.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q045",
+      "question": "Which passive component is related with the term capacitance?",
+      "options": [
+        "Capacitor",
+        "Resistor",
+        "Inductor",
+        "BJT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Capacitor",
+      "correctAnswer": "Capacitor",
+      "explanation": "Capacitance belongs to a capacitor.\nIt measures ability to store charge.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q046",
+      "question": "Which passive component is related with the term inductance?",
+      "options": [
+        "Resistor",
+        "Inductor",
+        "Capacitor",
+        "Diode"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Inductor",
+      "correctAnswer": "Inductor",
+      "explanation": "Inductance belongs to an inductor.\nIt is connected with magnetic field energy.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q047",
+      "question": "Which type of capacitor can be adjusted to different capacitance values?",
+      "options": [
+        "Fixed capacitor",
+        "Fixed resistor",
+        "Variable capacitor",
+        "PN diode"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Variable capacitor",
+      "correctAnswer": "Variable capacitor",
+      "explanation": "A variable capacitor has adjustable capacitance.\nFixed capacitors have fixed capacitance.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q048",
+      "question": "Which of these is a passive component from Unit 1?",
+      "options": [
+        "Transistor",
+        "MOSFET",
+        "Logic gate",
+        "Resistor"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Resistor",
+      "correctAnswer": "Resistor",
+      "explanation": "Resistor is a passive component.\nThe unit studies resistor, capacitor and inductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q049",
+      "question": "Which statement is correct for a capacitor?",
+      "options": [
+        "It has two conducting surfaces",
+        "It has emitter and collector",
+        "It has source and drain only",
+        "It has one input only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It has two conducting surfaces",
+      "correctAnswer": "It has two conducting surfaces",
+      "explanation": "A capacitor has two conducting surfaces called plates.\nThe plates are separated by dielectric material.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-passive-components-q050",
+      "question": "Which statement is correct for an inductor?",
+      "options": [
+        "It stores charge in plates",
+        "It is related to inductance",
+        "It is a logic gate",
+        "It has p-n junction only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It is related to inductance",
+      "correctAnswer": "It is related to inductance",
+      "explanation": "An inductor is related to inductance.\nIt is one of the passive components in this unit.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "passive-components"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "passive-components",
+      "legacyId": "electrical-basic-electronics-passive-components-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:computer:database-management-system",
+  "legacyId": "chapter-english-computer-database-management-system",
+  "medium": "english",
+  "subject": "computer",
+  "chapter": "database-management-system",
+  "slug": "database-management-system",
+  "unit": 2,
+  "title": "Database Management System",
+  "titleNp": "",
+  "summary": "Computer Science chapter resources and practice are organized here.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-25",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

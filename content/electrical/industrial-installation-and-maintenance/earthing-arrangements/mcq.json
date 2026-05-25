@@ -3,6 +3,1515 @@
   "subject": "industrial-installation-and-maintenance",
   "chapter": "earthing-arrangements",
   "chapterTitle": "Earthing Arrangements",
-  "status": "draft",
-  "questions": []
+  "unit": 4,
+  "status": "published",
+  "questionCount": 50,
+  "schemaVersion": "1.0.0",
+  "source": {
+    "type": "docx_import",
+    "file": "Industrial_Installation_Maintenance_All_Units_300_MCQs.docx",
+    "note": "Converted from uploaded DOCX. One JSON file per unit."
+  },
+  "questions": [
+    {
+      "id": "iim-u4-q001",
+      "question": "What is the purpose of substation earthing?",
+      "options": [
+        "To reduce power loss",
+        "To prevent electrical shock and equipment damage",
+        "To improve voltage regulation",
+        "To increase system reliability"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "To prevent electrical shock and equipment damage",
+      "correctOptionIndex": 1,
+      "explanation": "Substation earthing diverts fault currents to earth. It reduces shock risk and equipment damage.",
+      "explanationLines": [
+        "Substation earthing diverts fault currents to earth.",
+        "It reduces shock risk and equipment damage."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q001",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q002",
+      "question": "Which of the following is a type of system earthing arrangement in medium voltage systems?",
+      "options": [
+        "Balanced Neutral System",
+        "Unearthed Neutral System",
+        "Overloaded Neutral System",
+        "Grounded Fault System"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Unearthed Neutral System",
+      "correctOptionIndex": 1,
+      "explanation": "Unearthed neutral system is listed as an MV earthing arrangement. The neutral point is left isolated or floating.",
+      "explanationLines": [
+        "Unearthed neutral system is listed as an MV earthing arrangement.",
+        "The neutral point is left isolated or floating."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q002",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q003",
+      "question": "What does Step and Touch Voltage Regulation aim to control?",
+      "options": [
+        "The voltage drop across transmission lines",
+        "The voltage difference during faults in substations",
+        "The resistance of earthing electrodes",
+        "The current flow through transformers"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "The voltage difference during faults in substations",
+      "correctOptionIndex": 1,
+      "explanation": "Step and touch voltage are voltage differences near faults. Regulations limit them for safety.",
+      "explanationLines": [
+        "Step and touch voltage are voltage differences near faults.",
+        "Regulations limit them for safety."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q003",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q004",
+      "question": "Substation earthing mats are primarily used for...........",
+      "options": [
+        "Insulating electrical components",
+        "Providing a common ground reference",
+        "Reducing power consumption",
+        "Storing electrical energy"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Providing a common ground reference",
+      "correctOptionIndex": 1,
+      "explanation": "Earthing mat provides common earth for substation parts. It connects devices and metallic structures to ground.",
+      "explanationLines": [
+        "Earthing mat provides common earth for substation parts.",
+        "It connects devices and metallic structures to ground."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q004",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q005",
+      "question": "Equipment and neutral earthing are classified under which category?",
+      "options": [
+        "System Earthing",
+        "Protective Earthing",
+        "Earthing of Electric Equipment",
+        "Dynamic Earthing"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Earthing of Electric Equipment",
+      "correctOptionIndex": 2,
+      "explanation": "The unit places equipment and neutral earthing under earthing of equipment. Both connect parts or neutral to earth.",
+      "explanationLines": [
+        "The unit places equipment and neutral earthing under earthing of equipment.",
+        "Both connect parts or neutral to earth."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q005",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q006",
+      "question": "Equipment earthing is mainly provided for…..",
+      "options": [
+        "Safety of equipment",
+        "Safety of operating personnel",
+        "Safety of starters and cables",
+        "None"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Safety of equipment",
+      "correctOptionIndex": 0,
+      "explanation": "Equipment earthing protects the system from damage. Fault current passes to earth through the earthing wire.",
+      "explanationLines": [
+        "Equipment earthing protects the system from damage.",
+        "Fault current passes to earth through the earthing wire."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q006",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q007",
+      "question": "Earthing is necessary to ….",
+      "options": [
+        "Protect human and machine",
+        "Protect machine winding",
+        "Protect birds form current",
+        "All of above"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Protect human and machine",
+      "correctOptionIndex": 0,
+      "explanation": "Earthing protects people and equipment. It gives fault current a safe path to earth.",
+      "explanationLines": [
+        "Earthing protects people and equipment.",
+        "It gives fault current a safe path to earth."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q007",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q008",
+      "question": "Earth wire is made of:",
+      "options": [
+        "Copper",
+        "Aluminum",
+        "Iron",
+        "Galvanized steel"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Galvanized steel",
+      "correctOptionIndex": 3,
+      "explanation": "The source mentions GI wire for neutral earthing. GI means galvanized iron or steel conductor in this context.",
+      "explanationLines": [
+        "The source mentions GI wire for neutral earthing.",
+        "GI means galvanized iron or steel conductor in this context."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q008",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q009",
+      "question": "What is the advantage of an earthed neutral system?",
+      "options": [
+        "Reduced fault currents",
+        "Better voltage stability",
+        "Increased equipment cost",
+        "Increased risk of arcing grounds"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Better voltage stability",
+      "correctOptionIndex": 1,
+      "explanation": "The source says earthed systems maintain stable voltage. They keep the system near ground potential.",
+      "explanationLines": [
+        "The source says earthed systems maintain stable voltage.",
+        "They keep the system near ground potential."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q009",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q010",
+      "question": "Which type of earthing is used to limit the magnitude of fault currents?",
+      "options": [
+        "Equipment earthing",
+        "Solid neutral earthing",
+        "Resistance earthing",
+        "Unearthed neutral system"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Resistance earthing",
+      "correctOptionIndex": 2,
+      "explanation": "Resistance earthing limits fault current magnitude. It is a system earthing method.",
+      "explanationLines": [
+        "Resistance earthing limits fault current magnitude.",
+        "It is a system earthing method."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q010",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q011",
+      "question": "Body earthing is also known as",
+      "options": [
+        "equipment earthing",
+        "neutral earthing",
+        "plate earthing",
+        "pipe earthing"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "equipment earthing",
+      "correctOptionIndex": 0,
+      "explanation": "Body earthing connects metallic equipment body to earth. The unit calls this equipment earthing.",
+      "explanationLines": [
+        "Body earthing connects metallic equipment body to earth.",
+        "The unit calls this equipment earthing."
+      ],
+      "sourceType": "Existing source MCQ (previous paper)",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q011",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q012",
+      "question": "The value of earth resistance in large substation is",
+      "options": [
+        "5 ohm",
+        "2.5 ohm",
+        "1 ohm",
+        "0.5 ohm"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "0.5 ohm",
+      "correctOptionIndex": 3,
+      "explanation": "Large substations require very low earth resistance. The previous paper source gives 0.5 ohm as the marked value.",
+      "explanationLines": [
+        "Large substations require very low earth resistance.",
+        "The previous paper source gives 0.5 ohm as the marked value."
+      ],
+      "sourceType": "Existing source MCQ (previous paper)",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q012",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q013",
+      "question": "Which option best matches this source description: connection of non-current carrying parts or neutral point to earth?",
+      "options": [
+        "Earthing",
+        "Touch voltage",
+        "Earthing grid depth",
+        "Earthing word use"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Earthing",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Earthing. It uses a low-resistance conductor for safety.",
+      "explanationLines": [
+        "The correct answer is Earthing.",
+        "It uses a low-resistance conductor for safety."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q014",
+      "question": "In this unit, which item is described as: metal casing, stay wire or cable armour connected to an earth electrode?",
+      "options": [
+        "Step and touch limits",
+        "Metallic casing earthing",
+        "Vertical earth electrode",
+        "Operational staff safety"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Metallic casing earthing",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Metallic casing earthing. These parts do not normally carry current.",
+      "explanationLines": [
+        "The correct answer is Metallic casing earthing.",
+        "These parts do not normally carry current."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q015",
+      "question": "Which source term is correctly linked with this point: earthing provided to electrical equipment body or frame?",
+      "options": [
+        "Electrode configuration",
+        "High conductivity earthing material",
+        "Equipment earthing",
+        "Discharge of electrical charges"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Equipment earthing",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Equipment earthing. Fault current passes to earth through the wire.",
+      "explanationLines": [
+        "The correct answer is Equipment earthing.",
+        "Fault current passes to earth through the wire."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q016",
+      "question": "Choose the correct match for this source idea: system neutral directly connected to earth using GI wire.",
+      "options": [
+        "Soil resistivity",
+        "Low earth resistance",
+        "Overhead shielding wire grounding",
+        "Neutral earthing"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Neutral earthing",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Neutral earthing. It is also called system earthing.",
+      "explanationLines": [
+        "The correct answer is Neutral earthing.",
+        "It is also called system earthing."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q017",
+      "question": "Which answer fits this unit statement: system where neutral earthing is mostly provided?",
+      "options": [
+        "Star winding system",
+        "Fault current analysis",
+        "Low touch potential",
+        "Electro-magnetic interference"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Star winding system",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Star winding system. The source gives generator, transformer and motor examples.",
+      "explanationLines": [
+        "The correct answer is Star winding system.",
+        "The source gives generator, transformer and motor examples."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q018",
+      "question": "Which option best matches this source description: connection of conductive substation parts to ground?",
+      "options": [
+        "Grounding system maintenance",
+        "Substation earthing",
+        "Low step potential",
+        "System earthing"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Substation earthing",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Substation earthing. It diverts fault current safely to earth.",
+      "explanationLines": [
+        "The correct answer is Substation earthing.",
+        "It diverts fault current safely to earth."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q019",
+      "question": "In this unit, which item is described as: voltage difference between a person's feet near a faulted area?",
+      "options": [
+        "Substation earthing mat",
+        "Grounding",
+        "Step voltage",
+        "Fault current path"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Step voltage",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Step voltage. It can cause current through the legs.",
+      "explanationLines": [
+        "The correct answer is Step voltage.",
+        "It can cause current through the legs."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q020",
+      "question": "Which source term is correctly linked with this point: voltage experienced while touching a grounded object while standing on ground?",
+      "options": [
+        "Earthing grid depth",
+        "Earthing word use",
+        "Voltage stabilization",
+        "Touch voltage"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Touch voltage",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Touch voltage. It is the difference between the object and ground point.",
+      "explanationLines": [
+        "The correct answer is Touch voltage.",
+        "It is the difference between the object and ground point."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q021",
+      "question": "Choose the correct match for this source idea: maximum allowable voltages set by regulations for safety.",
+      "options": [
+        "Step and touch limits",
+        "Vertical earth electrode",
+        "Operational staff safety",
+        "Lightning current path"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Step and touch limits",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Step and touch limits. Grounding systems must reduce these voltages.",
+      "explanationLines": [
+        "The correct answer is Step and touch limits.",
+        "Grounding systems must reduce these voltages."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q022",
+      "question": "Which answer fits this unit statement: proper placement and design of grounding electrodes?",
+      "options": [
+        "High conductivity earthing material",
+        "Electrode configuration",
+        "Discharge of electrical charges",
+        "Unearthed neutral system"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Electrode configuration",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Electrode configuration. It distributes fault current and reduces voltages.",
+      "explanationLines": [
+        "The correct answer is Electrode configuration.",
+        "It distributes fault current and reduces voltages."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q023",
+      "question": "Which option best matches this source description: soil property affecting how current disperses?",
+      "options": [
+        "Low earth resistance",
+        "Overhead shielding wire grounding",
+        "Soil resistivity",
+        "Continuous operation advantage"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Soil resistivity",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Soil resistivity. Lower resistivity gives better grounding performance.",
+      "explanationLines": [
+        "The correct answer is Soil resistivity.",
+        "Lower resistivity gives better grounding performance."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q024",
+      "question": "In this unit, which item is described as: study of expected fault currents for grounding design?",
+      "options": [
+        "Low touch potential",
+        "Electro-magnetic interference",
+        "Fault locating difficulty",
+        "Fault current analysis"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Fault current analysis",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Fault current analysis. It prevents exceeding voltage limits.",
+      "explanationLines": [
+        "The correct answer is Fault current analysis.",
+        "It prevents exceeding voltage limits."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q025",
+      "question": "Which source term is correctly linked with this point: regular testing and maintenance of the earthing system?",
+      "options": [
+        "Grounding system maintenance",
+        "Low step potential",
+        "System earthing",
+        "Transient overvoltage risk"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Grounding system maintenance",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Grounding system maintenance. It keeps the grounding system effective.",
+      "explanationLines": [
+        "The correct answer is Grounding system maintenance.",
+        "It keeps the grounding system effective."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q026",
+      "question": "Choose the correct match for this source idea: mesh of interconnected bare conductors buried horizontally.",
+      "options": [
+        "Grounding",
+        "Substation earthing mat",
+        "Fault current path",
+        "Earthed neutral system"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Substation earthing mat",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Substation earthing mat. It provides common earth in high-voltage substations.",
+      "explanationLines": [
+        "The correct answer is Substation earthing mat.",
+        "It provides common earth in high-voltage substations."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q027",
+      "question": "Which answer fits this unit statement: horizontal conductors buried about 0.5 m deep?",
+      "options": [
+        "Earthing word use",
+        "Voltage stabilization",
+        "Earthing grid depth",
+        "Fault clearing in earthed system"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Earthing grid depth",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Earthing grid depth. This source detail describes substation mats.",
+      "explanationLines": [
+        "The correct answer is Earthing grid depth.",
+        "This source detail describes substation mats."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q028",
+      "question": "Which option best matches this source description: electrode about 3 m long connected to the grid?",
+      "options": [
+        "Operational staff safety",
+        "Lightning current path",
+        "Large earth fault current",
+        "Vertical earth electrode"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Vertical earth electrode",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Vertical earth electrode. Several electrodes connect the mat to earth.",
+      "explanationLines": [
+        "The correct answer is Vertical earth electrode.",
+        "Several electrodes connect the mat to earth."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q029",
+      "question": "In this unit, which item is described as: copper, steel and aluminium used for earthing systems?",
+      "options": [
+        "High conductivity earthing material",
+        "Discharge of electrical charges",
+        "Unearthed neutral system",
+        "Earthing infrastructure cost"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "High conductivity earthing material",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is High conductivity earthing material. Materials must also resist underground corrosion.",
+      "explanationLines": [
+        "The correct answer is High conductivity earthing material.",
+        "Materials must also resist underground corrosion."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q030",
+      "question": "Which source term is correctly linked with this point: required quality of substation earthing?",
+      "options": [
+        "Overhead shielding wire grounding",
+        "Low earth resistance",
+        "Continuous operation advantage",
+        "Earthing"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Low earth resistance",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Low earth resistance. It helps fault current go safely to earth.",
+      "explanationLines": [
+        "The correct answer is Low earth resistance.",
+        "It helps fault current go safely to earth."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q031",
+      "question": "Choose the correct match for this source idea: required safety feature of substation earthing.",
+      "options": [
+        "Electro-magnetic interference",
+        "Fault locating difficulty",
+        "Low touch potential",
+        "Metallic casing earthing"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Low touch potential",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Low touch potential. It reduces danger when touching grounded parts.",
+      "explanationLines": [
+        "The correct answer is Low touch potential.",
+        "It reduces danger when touching grounded parts."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q032",
+      "question": "Which answer fits this unit statement: required safety feature of substation earthing?",
+      "options": [
+        "System earthing",
+        "Transient overvoltage risk",
+        "Equipment earthing",
+        "Low step potential"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Low step potential",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Low step potential. It reduces danger while walking near faults.",
+      "explanationLines": [
+        "The correct answer is Low step potential.",
+        "It reduces danger while walking near faults."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q033",
+      "question": "Which option best matches this source description: North American word commonly used for earthing?",
+      "options": [
+        "Grounding",
+        "Fault current path",
+        "Earthed neutral system",
+        "Neutral earthing"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Grounding",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Grounding. The source links it with IEEE, NEC, ANSI and UL.",
+      "explanationLines": [
+        "The correct answer is Grounding.",
+        "The source links it with IEEE, NEC, ANSI and UL."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q034",
+      "question": "In this unit, which item is described as: term used in European, Commonwealth and Britain standards?",
+      "options": [
+        "Voltage stabilization",
+        "Earthing word use",
+        "Fault clearing in earthed system",
+        "Star winding system"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Earthing word use",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Earthing word use. The source links it with IS and IEC standards.",
+      "explanationLines": [
+        "The correct answer is Earthing word use.",
+        "The source links it with IS and IEC standards."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q035",
+      "question": "Which source term is correctly linked with this point: purpose of substation earthing system?",
+      "options": [
+        "Lightning current path",
+        "Large earth fault current",
+        "Operational staff safety",
+        "Substation earthing"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Operational staff safety",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Operational staff safety. It protects operation and maintenance workers.",
+      "explanationLines": [
+        "The correct answer is Operational staff safety.",
+        "It protects operation and maintenance workers."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q036",
+      "question": "Choose the correct match for this source idea: purpose of substation earthing system.",
+      "options": [
+        "Unearthed neutral system",
+        "Earthing infrastructure cost",
+        "Step voltage",
+        "Discharge of electrical charges"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Discharge of electrical charges",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Discharge of electrical charges. Earthing sends charges safely to ground.",
+      "explanationLines": [
+        "The correct answer is Discharge of electrical charges.",
+        "Earthing sends charges safely to ground."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q037",
+      "question": "Which answer fits this unit statement: purpose of substation earthing system?",
+      "options": [
+        "Overhead shielding wire grounding",
+        "Continuous operation advantage",
+        "Earthing",
+        "Touch voltage"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Overhead shielding wire grounding",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Overhead shielding wire grounding. It connects shielding wires to the earth system.",
+      "explanationLines": [
+        "The correct answer is Overhead shielding wire grounding.",
+        "It connects shielding wires to the earth system."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q038",
+      "question": "Which option best matches this source description: issue reduced by substation earthing?",
+      "options": [
+        "Fault locating difficulty",
+        "Electro-magnetic interference",
+        "Metallic casing earthing",
+        "Step and touch limits"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Electro-magnetic interference",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Electro-magnetic interference. The earthing system helps control it.",
+      "explanationLines": [
+        "The correct answer is Electro-magnetic interference.",
+        "The earthing system helps control it."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q039",
+      "question": "In this unit, which item is described as: intentional connection of system conductive parts to earth?",
+      "options": [
+        "Transient overvoltage risk",
+        "Equipment earthing",
+        "System earthing",
+        "Electrode configuration"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "System earthing",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is System earthing. It keeps a defined potential with respect to ground.",
+      "explanationLines": [
+        "The correct answer is System earthing.",
+        "It keeps a defined potential with respect to ground."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q040",
+      "question": "Which source term is correctly linked with this point: safe route to earth provided by system earthing?",
+      "options": [
+        "Earthed neutral system",
+        "Neutral earthing",
+        "Soil resistivity",
+        "Fault current path"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Fault current path",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Fault current path. It protects from shock and fires.",
+      "explanationLines": [
+        "The correct answer is Fault current path.",
+        "It protects from shock and fires."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q041",
+      "question": "Choose the correct match for this source idea: purpose of system earthing to reduce excessive voltage fluctuation.",
+      "options": [
+        "Voltage stabilization",
+        "Fault clearing in earthed system",
+        "Star winding system",
+        "Fault current analysis"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Voltage stabilization",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Voltage stabilization. It protects equipment from damage.",
+      "explanationLines": [
+        "The correct answer is Voltage stabilization.",
+        "It protects equipment from damage."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q042",
+      "question": "Which answer fits this unit statement: low-resistance route to earth for lightning current?",
+      "options": [
+        "Large earth fault current",
+        "Lightning current path",
+        "Substation earthing",
+        "Grounding system maintenance"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Lightning current path",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Lightning current path. It protects buildings and equipment.",
+      "explanationLines": [
+        "The correct answer is Lightning current path.",
+        "It protects buildings and equipment."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q043",
+      "question": "Which option best matches this source description: neutral point left isolated or floating?",
+      "options": [
+        "Earthing infrastructure cost",
+        "Step voltage",
+        "Unearthed neutral system",
+        "Substation earthing mat"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Unearthed neutral system",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Unearthed neutral system. There is no direct connection to ground.",
+      "explanationLines": [
+        "The correct answer is Unearthed neutral system.",
+        "There is no direct connection to ground."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q044",
+      "question": "In this unit, which item is described as: single-phase earth fault may not stop an unearthed neutral system?",
+      "options": [
+        "Earthing",
+        "Touch voltage",
+        "Earthing grid depth",
+        "Continuous operation advantage"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Continuous operation advantage",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Continuous operation advantage. Fault current has no direct earth path.",
+      "explanationLines": [
+        "The correct answer is Continuous operation advantage.",
+        "Fault current has no direct earth path."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q045",
+      "question": "Which source term is correctly linked with this point: problem in unearthed neutral systems due to low fault current?",
+      "options": [
+        "Fault locating difficulty",
+        "Metallic casing earthing",
+        "Step and touch limits",
+        "Vertical earth electrode"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Fault locating difficulty",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Fault locating difficulty. Faults may be hard to detect and isolate.",
+      "explanationLines": [
+        "The correct answer is Fault locating difficulty.",
+        "Faults may be hard to detect and isolate."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q046",
+      "question": "Choose the correct match for this source idea: problem in unearthed neutral systems.",
+      "options": [
+        "Equipment earthing",
+        "Transient overvoltage risk",
+        "Electrode configuration",
+        "High conductivity earthing material"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Transient overvoltage risk",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Transient overvoltage risk. It can increase insulation stress.",
+      "explanationLines": [
+        "The correct answer is Transient overvoltage risk.",
+        "It can increase insulation stress."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q047",
+      "question": "Which answer fits this unit statement: neutral point connected to earth by low-impedance path?",
+      "options": [
+        "Neutral earthing",
+        "Soil resistivity",
+        "Earthed neutral system",
+        "Low earth resistance"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Earthed neutral system",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Earthed neutral system. It is common in medium voltage distribution networks.",
+      "explanationLines": [
+        "The correct answer is Earthed neutral system.",
+        "It is common in medium voltage distribution networks."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q048",
+      "question": "Which option best matches this source description: ground faults are detected and cleared using measurable fault current?",
+      "options": [
+        "Star winding system",
+        "Fault current analysis",
+        "Low touch potential",
+        "Fault clearing in earthed system"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Fault clearing in earthed system",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Fault clearing in earthed system. This improves safety and reliability.",
+      "explanationLines": [
+        "The correct answer is Fault clearing in earthed system.",
+        "This improves safety and reliability."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q049",
+      "question": "In this unit, which item is described as: possible disadvantage of solidly earthed systems?",
+      "options": [
+        "Large earth fault current",
+        "Substation earthing",
+        "Grounding system maintenance",
+        "Low step potential"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Large earth fault current",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Large earth fault current. It may cause equipment damage.",
+      "explanationLines": [
+        "The correct answer is Large earth fault current.",
+        "It may cause equipment damage."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u4-q050",
+      "question": "Which source term is correctly linked with this point: possible cost increase in earthed neutral systems?",
+      "options": [
+        "Step voltage",
+        "Earthing infrastructure cost",
+        "Substation earthing mat",
+        "Grounding"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Earthing infrastructure cost",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Earthing infrastructure cost. Proper earthing infrastructure is required.",
+      "explanationLines": [
+        "The correct answer is Earthing infrastructure cost.",
+        "Proper earthing infrastructure is required."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "earthing-arrangements",
+      "legacyId": "iim-u4-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
 }

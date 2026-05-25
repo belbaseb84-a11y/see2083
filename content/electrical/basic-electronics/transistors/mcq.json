@@ -1,0 +1,1518 @@
+{
+  "medium": "electrical",
+  "mediumId": "electrical",
+  "subject": "basic-electronics",
+  "subjectId": "basic-electronics",
+  "subjectTitle": "Basic Electronics",
+  "chapter": "transistors",
+  "unitSlug": "transistors",
+  "chapterTitle": "Transistors",
+  "unit": 5,
+  "unitTitle": "Transistors",
+  "mcqKey": "mcq:electrical/basic-electronics/transistors",
+  "status": "published",
+  "version": 1,
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "electrical-basic-electronics-transistors-q001",
+      "question": "In a common emitter transistor, the current gain β equals to ______, where Ib, Ic, Ie have their usual meanings.",
+      "options": [
+        "Ib/Ic",
+        "Ie/Ic",
+        "Ic/Ib",
+        "Ic/Ie"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Ic/Ib",
+      "correctAnswer": "Ic/Ib",
+      "explanation": "Current gain beta is collector current divided by base current.\nSo beta equals Ic/Ib.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q001",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q002",
+      "question": "In a transistor, the ______ is moderately doped and largest in size.",
+      "options": [
+        "Emitter",
+        "Base",
+        "Junction",
+        "Collector"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Collector",
+      "correctAnswer": "Collector",
+      "explanation": "Collector is largest and moderately doped.\nIt collects charge carriers from the base region.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q002",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q003",
+      "question": "In a transistor the ______ is of moderate size and heavily doped.",
+      "options": [
+        "Emitter",
+        "Junction",
+        "Base",
+        "Collector"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Emitter",
+      "correctAnswer": "Emitter",
+      "explanation": "Emitter is heavily doped and moderate in size.\nIt emits majority charge carriers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q003",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q004",
+      "question": "When the transistor is used in the cut-off or saturation state, it acts as ______.",
+      "options": [
+        "An amplifier",
+        "Zener diode",
+        "A switch",
+        "An AND gate"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "A switch",
+      "correctAnswer": "A switch",
+      "explanation": "Cut-off and saturation are switching states.\nThe transistor works like OFF and ON switch.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q004",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q005",
+      "question": "When a transistor is used in common emitter configuration, the ______.",
+      "options": [
+        "Output is between the base and the emitter",
+        "Input is between the base and the emitter",
+        "Input is between the collector and the emitter",
+        "Output is between the base and the collector"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Input is between the base and the emitter",
+      "correctAnswer": "Input is between the base and the emitter",
+      "explanation": "In CE configuration, input is applied between base and emitter.\nOutput is taken between collector and emitter.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q005",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q006",
+      "question": "In order to use the transistor as an amplifier, it has to operate in the ______ region.",
+      "options": [
+        "Switched region",
+        "Cutoff region",
+        "Active region",
+        "Saturation region"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Active region",
+      "correctAnswer": "Active region",
+      "explanation": "Amplification occurs in active region.\nCutoff and saturation are used for switching.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q006",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q007",
+      "question": "The emitter of a transistor is ______ doped.",
+      "options": [
+        "Of moderate size and lightly",
+        "Of moderate size and heavily",
+        "Very thin and heavily",
+        "Very thin and lightly"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Of moderate size and heavily",
+      "correctAnswer": "Of moderate size and heavily",
+      "explanation": "Emitter is heavily doped.\nIt supplies many charge carriers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q007",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q008",
+      "question": "A heat sink is generally used with a transistor to ______.",
+      "options": [
+        "Increase the forward current",
+        "Decrease the forward current",
+        "Compensate for excessive doping",
+        "Prevent excessive temperature rise"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Prevent excessive temperature rise",
+      "correctAnswer": "Prevent excessive temperature rise",
+      "explanation": "Heat sink removes excess heat.\nIt prevents excessive temperature rise in transistor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q008",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q009",
+      "question": "A transistor can be made to operate as a switch by operating it in which regions?",
+      "options": [
+        "Active region",
+        "Active region, cut-off region",
+        "Active region, saturation region",
+        "Saturation region, cut-off region"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Saturation region, cut-off region",
+      "correctAnswer": "Saturation region, cut-off region",
+      "explanation": "Switching uses cutoff and saturation.\nCutoff means OFF and saturation means ON.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q009",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q010",
+      "question": "Which of the following BJT configuration has highest power gain?",
+      "options": [
+        "Common collector",
+        "Common emitter",
+        "Common base",
+        "None of these"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Common emitter",
+      "correctAnswer": "Common emitter",
+      "explanation": "Common emitter gives high power gain.\nIt is a commonly used amplifier configuration.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q010",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q011",
+      "question": "The early effect in BJT is related to ______.",
+      "options": [
+        "Base narrowing",
+        "Avalanche breakdown",
+        "Zener breakdown",
+        "Thermal runaway"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Base narrowing",
+      "correctAnswer": "Base narrowing",
+      "explanation": "Early effect is related to base narrowing.\nIt affects BJT characteristics.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q011",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q012",
+      "question": "In how many regions can the biased transistor work?",
+      "options": [
+        "Four",
+        "Two",
+        "Three",
+        "Five"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Three",
+      "correctAnswer": "Three",
+      "explanation": "A biased transistor can work in three regions.\nThey are cutoff, active and saturation regions.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q012",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q013",
+      "question": "What does BJT stand for?",
+      "options": [
+        "Bipolar Junction Transistor",
+        "Binary Junction Transistor",
+        "Basic Junction Transformer",
+        "Bipolar Junction Thermistor"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Bipolar Junction Transistor",
+      "correctAnswer": "Bipolar Junction Transistor",
+      "explanation": "BJT means Bipolar Junction Transistor.\nIt uses both electrons and holes.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q014",
+      "question": "Why is BJT called bipolar?",
+      "options": [
+        "It has only one carrier",
+        "It uses both electrons and holes",
+        "It has no junction",
+        "It is only a resistor"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It uses both electrons and holes",
+      "correctAnswer": "It uses both electrons and holes",
+      "explanation": "BJT conduction uses two types of carriers.\nThese carriers are electrons and holes.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q015",
+      "question": "How many terminals are there in a BJT?",
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "One"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Three",
+      "correctAnswer": "Three",
+      "explanation": "A BJT has three terminals.\nThey are emitter, base and collector.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q016",
+      "question": "Which terminal emits charge carriers?",
+      "options": [
+        "Base",
+        "Collector",
+        "Gate",
+        "Emitter"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Emitter",
+      "correctAnswer": "Emitter",
+      "explanation": "Emitter emits charge carriers.\nIt is heavily doped.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q017",
+      "question": "Which terminal controls transistor action?",
+      "options": [
+        "Base",
+        "Emitter",
+        "Collector",
+        "Drain"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Base",
+      "correctAnswer": "Base",
+      "explanation": "Base controls transistor current.\nIt is very thin and lightly doped.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q018",
+      "question": "Which terminal collects charge carriers?",
+      "options": [
+        "Emitter",
+        "Collector",
+        "Base",
+        "Source"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Collector",
+      "correctAnswer": "Collector",
+      "explanation": "Collector collects charge carriers.\nIt is largest in size.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q019",
+      "question": "Which region of BJT is very thin and lightly doped?",
+      "options": [
+        "Emitter",
+        "Collector",
+        "Base",
+        "Heat sink"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Base",
+      "correctAnswer": "Base",
+      "explanation": "Base is thin and lightly doped.\nThis helps transistor action.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q020",
+      "question": "Which BJT type has p-type material between two n-type materials?",
+      "options": [
+        "PNP transistor",
+        "JFET",
+        "MOSFET",
+        "NPN transistor"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "NPN transistor",
+      "correctAnswer": "NPN transistor",
+      "explanation": "NPN has n-p-n layers.\nThe p-type base is between two n-type regions.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q021",
+      "question": "Which BJT type has n-type material between two p-type materials?",
+      "options": [
+        "PNP transistor",
+        "NPN transistor",
+        "Zener diode",
+        "N-channel JFET"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "PNP transistor",
+      "correctAnswer": "PNP transistor",
+      "explanation": "PNP has p-n-p layers.\nThe n-type base is between two p-type regions.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q022",
+      "question": "Which BJT configuration has emitter common to input and output?",
+      "options": [
+        "Common base",
+        "Common emitter",
+        "Common collector",
+        "Common gate"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Common emitter",
+      "correctAnswer": "Common emitter",
+      "explanation": "In common emitter, emitter is common.\nInput is base-emitter and output is collector-emitter.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q023",
+      "question": "Which BJT configuration has base common to input and output?",
+      "options": [
+        "Common emitter",
+        "Common collector",
+        "Common base",
+        "Common source"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Common base",
+      "correctAnswer": "Common base",
+      "explanation": "In common base, base is common.\nIt is one BJT configuration.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q024",
+      "question": "Which BJT configuration has collector common to input and output?",
+      "options": [
+        "Common emitter",
+        "Common base",
+        "Common drain",
+        "Common collector"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Common collector",
+      "correctAnswer": "Common collector",
+      "explanation": "In common collector, collector is common.\nIt is also called an emitter follower in basic electronics.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q025",
+      "question": "Which BJT region is used for amplification?",
+      "options": [
+        "Active region",
+        "Cutoff region",
+        "Saturation region",
+        "Breakdown region"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Active region",
+      "correctAnswer": "Active region",
+      "explanation": "Amplifier operation needs active region.\nSmall input change can control larger output current.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q026",
+      "question": "Which BJT region represents switch OFF?",
+      "options": [
+        "Active region",
+        "Cutoff region",
+        "Saturation region",
+        "Linear region"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Cutoff region",
+      "correctAnswer": "Cutoff region",
+      "explanation": "Cutoff region means no collector current ideally.\nIt acts like an open switch.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q027",
+      "question": "Which BJT region represents switch ON?",
+      "options": [
+        "Cutoff region",
+        "Active region",
+        "Saturation region",
+        "Reverse region"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Saturation region",
+      "correctAnswer": "Saturation region",
+      "explanation": "Saturation region means transistor is fully ON.\nIt acts like a closed switch.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q028",
+      "question": "What is the current gain symbol in common emitter configuration?",
+      "options": [
+        "α",
+        "γ",
+        "Ω",
+        "β"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "β",
+      "correctAnswer": "β",
+      "explanation": "Beta is the common emitter current gain.\nIt is equal to Ic/Ib.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q029",
+      "question": "What is the main use of transistor in amplifier circuit?",
+      "options": [
+        "Amplify weak signals",
+        "Store charge only",
+        "Add binary numbers",
+        "Act as dielectric"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Amplify weak signals",
+      "correctAnswer": "Amplify weak signals",
+      "explanation": "A transistor can amplify weak signals.\nIt must operate in active region for amplification.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q030",
+      "question": "Which BJT application is mentioned for power supply circuits?",
+      "options": [
+        "Binary multiplication",
+        "Voltage stabilization",
+        "Capacitor coding",
+        "Lamp fitting"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Voltage stabilization",
+      "correctAnswer": "Voltage stabilization",
+      "explanation": "BJT is used in power supply circuits for voltage stabilization.\nThis is listed as an application of BJT.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q031",
+      "question": "Which medical device use is mentioned for transistor?",
+      "options": [
+        "Blood pressure measuring spring only",
+        "X-ray shielding",
+        "ECG signal amplification",
+        "Thermometer glass"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "ECG signal amplification",
+      "correctAnswer": "ECG signal amplification",
+      "explanation": "BJT can amplify heart signals in ECG.\nThis is listed in the applications.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q032",
+      "question": "Which communication use is mentioned for transistor?",
+      "options": [
+        "Earthing only",
+        "Color coding",
+        "Binary subtraction",
+        "Modulation circuits"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Modulation circuits",
+      "correctAnswer": "Modulation circuits",
+      "explanation": "Transistors are used in modulation circuits.\nThis helps radio communication.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q033",
+      "question": "Which system use is mentioned for transistor?",
+      "options": [
+        "Automation and robotics",
+        "Wood cutting only",
+        "Paper folding only",
+        "Water boiling"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Automation and robotics",
+      "correctAnswer": "Automation and robotics",
+      "explanation": "Transistors are used in automation and robotics.\nThey help control electronic circuits.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q034",
+      "question": "What does a BJT datasheet provide?",
+      "options": [
+        "Only resistor color code",
+        "Electrical, thermal and mechanical specifications",
+        "Only binary table",
+        "Only handwriting notes"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Electrical, thermal and mechanical specifications",
+      "correctAnswer": "Electrical, thermal and mechanical specifications",
+      "explanation": "Datasheet gives important transistor specifications.\nIt helps select the correct transistor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q035",
+      "question": "Why is transistor rating important?",
+      "options": [
+        "For changing logic symbol",
+        "For making paper capacitor",
+        "For safe circuit selection",
+        "For coloring resistor"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "For safe circuit selection",
+      "correctAnswer": "For safe circuit selection",
+      "explanation": "Ratings show voltage, current and thermal limits.\nThey help prevent wrong transistor selection.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q036",
+      "question": "Which transistor responds to light?",
+      "options": [
+        "Ordinary resistor",
+        "Electrolytic capacitor",
+        "Inductor",
+        "Phototransistor"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Phototransistor",
+      "correctAnswer": "Phototransistor",
+      "explanation": "Phototransistor works with light.\nThe unit includes photo transistor and its applications.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q037",
+      "question": "Which BJT characteristic is drawn between input current and input voltage?",
+      "options": [
+        "Input characteristic",
+        "Output characteristic",
+        "Transfer characteristic",
+        "Color characteristic"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Input characteristic",
+      "correctAnswer": "Input characteristic",
+      "explanation": "Input characteristic relates input current and input voltage.\nIt is studied in BJT characteristics.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q038",
+      "question": "Which BJT characteristic is drawn between output current and output voltage?",
+      "options": [
+        "Input characteristic",
+        "Output characteristic",
+        "Transfer characteristic",
+        "Tolerance characteristic"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Output characteristic",
+      "correctAnswer": "Output characteristic",
+      "explanation": "Output characteristic relates output current and output voltage.\nIt is important in CE configuration.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q039",
+      "question": "Which characteristic shows relation between output and input quantities?",
+      "options": [
+        "Color code table",
+        "Truth table only",
+        "Transfer characteristic",
+        "Capacitor code"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Transfer characteristic",
+      "correctAnswer": "Transfer characteristic",
+      "explanation": "Transfer characteristic shows input-output relation.\nIt helps understand transistor control.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q040",
+      "question": "Which region is between cutoff and saturation for amplifier use?",
+      "options": [
+        "Dead region",
+        "Color region",
+        "Logic region",
+        "Active region"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Active region",
+      "correctAnswer": "Active region",
+      "explanation": "Active region is used for amplification.\nCutoff and saturation are switch regions.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q041",
+      "question": "Which terminal current is Ib?",
+      "options": [
+        "Base current",
+        "Collector current",
+        "Emitter current",
+        "Drain current"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Base current",
+      "correctAnswer": "Base current",
+      "explanation": "Ib means base current.\nIt controls collector current in BJT.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q042",
+      "question": "Which terminal current is Ic?",
+      "options": [
+        "Base current",
+        "Collector current",
+        "Emitter current",
+        "Gate current"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Collector current",
+      "correctAnswer": "Collector current",
+      "explanation": "Ic means collector current.\nBeta is Ic divided by Ib.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q043",
+      "question": "Which terminal current is Ie?",
+      "options": [
+        "Base current",
+        "Collector current",
+        "Emitter current",
+        "Source current"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Emitter current",
+      "correctAnswer": "Emitter current",
+      "explanation": "Ie means emitter current.\nIt is one of the usual BJT currents.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q044",
+      "question": "What is the purpose of heat sink in transistor circuits?",
+      "options": [
+        "Increase doping",
+        "Add binary numbers",
+        "Store charge in plates",
+        "Remove heat"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Remove heat",
+      "correctAnswer": "Remove heat",
+      "explanation": "Heat sink removes heat from transistor.\nIt protects from excessive temperature rise.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q045",
+      "question": "Which configuration has high power gain according to source MCQ?",
+      "options": [
+        "Common emitter",
+        "Common base",
+        "Common collector",
+        "Common drain"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Common emitter",
+      "correctAnswer": "Common emitter",
+      "explanation": "Common emitter has highest power gain among the given options.\nIt is widely used for amplification.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q046",
+      "question": "What is transistor switching based on?",
+      "options": [
+        "Only active region",
+        "Cutoff and saturation",
+        "Only base narrowing",
+        "Only thermal runaway"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Cutoff and saturation",
+      "correctAnswer": "Cutoff and saturation",
+      "explanation": "Switching uses cutoff and saturation.\nThese act like OFF and ON states.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q047",
+      "question": "Which practical work includes identifying transistor terminals?",
+      "options": [
+        "Using only truth table",
+        "Using only binary addition",
+        "Using datasheet and multimeter",
+        "Using only lamp holder"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Using datasheet and multimeter",
+      "correctAnswer": "Using datasheet and multimeter",
+      "explanation": "The practical work includes terminal identification.\nDatasheet and multimeter help find terminals.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q048",
+      "question": "Which practical task demonstrates transistor as switch?",
+      "options": [
+        "Capacitor numeric code",
+        "Inductor color code",
+        "Binary gate table",
+        "BJT switch demonstration"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "BJT switch demonstration",
+      "correctAnswer": "BJT switch demonstration",
+      "explanation": "The unit includes BJT as a switch practical.\nSwitching uses cutoff and saturation.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q049",
+      "question": "Which practical work uses CE configuration graph?",
+      "options": [
+        "Plotting input and output characteristics",
+        "Writing truth table",
+        "Measuring color bands only",
+        "Drawing transformer"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Plotting input and output characteristics",
+      "correctAnswer": "Plotting input and output characteristics",
+      "explanation": "The unit includes plotting BJT characteristics in CE configuration.\nGraphs help understand input and output behavior.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-transistors-q050",
+      "question": "Which simple project uses transistor according to the unit?",
+      "options": [
+        "Full-wave bridge only",
+        "Automatic street light controller",
+        "MOSFET data sheet only",
+        "Inductor winding chart"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Automatic street light controller",
+      "correctAnswer": "Automatic street light controller",
+      "explanation": "Automatic street light controller is listed as a transistor project.\nAlarm circuit and clap switch are also listed.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "transistors",
+      "legacyId": "electrical-basic-electronics-transistors-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
+}

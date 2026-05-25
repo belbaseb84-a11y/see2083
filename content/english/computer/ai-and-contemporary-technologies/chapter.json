@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:computer:ai-and-contemporary-technologies",
+  "legacyId": "chapter-english-computer-ai-and-contemporary-technologies",
+  "medium": "english",
+  "subject": "computer",
+  "chapter": "ai-and-contemporary-technologies",
+  "slug": "ai-and-contemporary-technologies",
+  "unit": 5,
+  "title": "AI and Contemporary Technologies",
+  "titleNp": "",
+  "summary": "Computer Science chapter resources and practice are organized here.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-25",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

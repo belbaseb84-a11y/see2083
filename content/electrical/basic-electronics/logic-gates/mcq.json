@@ -1,0 +1,1518 @@
+{
+  "medium": "electrical",
+  "mediumId": "electrical",
+  "subject": "basic-electronics",
+  "subjectId": "basic-electronics",
+  "subjectTitle": "Basic Electronics",
+  "chapter": "logic-gates",
+  "unitSlug": "logic-gates",
+  "chapterTitle": "Logic Gates",
+  "unit": 7,
+  "unitTitle": "Logic Gates",
+  "mcqKey": "mcq:electrical/basic-electronics/logic-gates",
+  "status": "published",
+  "version": 1,
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "electrical-basic-electronics-logic-gates-q001",
+      "question": "What is the output if both inputs of a XNOR gate are at the opposite logic level?",
+      "options": [
+        "1",
+        "0",
+        "No output",
+        "Either 1 or 0"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "0",
+      "correctAnswer": "0",
+      "explanation": "XNOR gives 1 when inputs are same.\nOpposite inputs give output 0.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q001",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q002",
+      "question": "Which among the following logic gates are known as universal gates?",
+      "options": [
+        "XOR, NAND, OR",
+        "OR, NOT, XOR",
+        "NOR, NAND, XNOR",
+        "NOR, NAND"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "NOR, NAND",
+      "correctAnswer": "NOR, NAND",
+      "explanation": "NAND and NOR are universal gates.\nThey can make other logic gates.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q002",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q003",
+      "question": "The output of a 2-input OR gate is zero only when its ______.",
+      "options": [
+        "Either input is 0",
+        "Either input is 1",
+        "Both inputs are 1",
+        "Both inputs are 0"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Both inputs are 0",
+      "correctAnswer": "Both inputs are 0",
+      "explanation": "OR gate gives 0 only when both inputs are 0.\nIf any input is 1, output becomes 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q003",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q004",
+      "question": "What is the output of an AND gate if both inputs are 1?",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "Depends on the voltage"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "AND gate gives 1 only when all inputs are 1.\nFor inputs 1 and 1, output is 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q004",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q005",
+      "question": "Which logic gate gives an output of 1 when at least one input is 1?",
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "XOR"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "OR",
+      "correctAnswer": "OR",
+      "explanation": "OR gate gives 1 if any input is 1.\nAND needs all inputs to be 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q005",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q006",
+      "question": "What is the Boolean expression for an OR gate?",
+      "options": [
+        "A.B",
+        "A + B",
+        "A’",
+        "A + B"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "A + B",
+      "correctAnswer": "A + B",
+      "explanation": "OR operation is represented by plus sign.\nSo OR expression is A + B.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q006",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q007",
+      "question": "How many inputs are required for a NOT gate?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "NOT gate has one input.\nIt gives the inverted output.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q007",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q008",
+      "question": "What is the output of an AND gate when both inputs are 1?",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "None of the above"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "AND output is 1 when both inputs are 1.\nThis repeats the basic AND truth table rule.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q008",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q009",
+      "question": "A NOT gate is also known as ______.",
+      "options": [
+        "Inverter",
+        "Buffer",
+        "Comparator",
+        "Amplifier"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Inverter",
+      "correctAnswer": "Inverter",
+      "explanation": "NOT gate inverts the input.\nSo it is also called inverter.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q009",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q010",
+      "question": "How many entries will be there in the truth table of a 3 input NAND gate?",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "9"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "8",
+      "correctAnswer": "8",
+      "explanation": "A truth table with n inputs has 2^n entries.\nFor 3 inputs, 2^3 = 8 entries.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q010",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q011",
+      "question": "Which number system uses only 0 and 1?",
+      "options": [
+        "Decimal number system",
+        "Octal only",
+        "Binary number system",
+        "Color code"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Binary number system",
+      "correctAnswer": "Binary number system",
+      "explanation": "Binary number system uses two digits.\nThe two digits are 0 and 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q011",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q012",
+      "question": "What is a bit?",
+      "options": [
+        "A capacitor plate",
+        "A diode junction",
+        "A resistor band",
+        "A binary digit"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "A binary digit",
+      "correctAnswer": "A binary digit",
+      "explanation": "Bit means binary digit.\nIt can be 0 or 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q012",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q013",
+      "question": "Which algebra is used in digital logic?",
+      "options": [
+        "Boolean algebra",
+        "Resistor algebra",
+        "Thermal algebra",
+        "Color algebra"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Boolean algebra",
+      "correctAnswer": "Boolean algebra",
+      "explanation": "Boolean algebra is used in logic operations.\nIt uses logic values like 0 and 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q014",
+      "question": "What does a truth table show?",
+      "options": [
+        "Only resistor value",
+        "Input-output relation of logic circuit",
+        "Only capacitor code",
+        "Only transistor shape"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Input-output relation of logic circuit",
+      "correctAnswer": "Input-output relation of logic circuit",
+      "explanation": "Truth table shows outputs for all input combinations.\nIt is used to study logic gates.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q015",
+      "question": "What is a logic gate?",
+      "options": [
+        "A passive resistor",
+        "A power transformer",
+        "Digital circuit that performs logical operation",
+        "A dielectric plate"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Digital circuit that performs logical operation",
+      "correctAnswer": "Digital circuit that performs logical operation",
+      "explanation": "Logic gate performs a logical operation.\nIt gives output according to input logic levels.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q016",
+      "question": "Which gate gives opposite output of input?",
+      "options": [
+        "AND gate",
+        "OR gate",
+        "XOR gate",
+        "NOT gate"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "NOT gate",
+      "correctAnswer": "NOT gate",
+      "explanation": "NOT gate reverses input.\nInput 1 gives 0 and input 0 gives 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q017",
+      "question": "Which gate gives output 1 only when all inputs are 1?",
+      "options": [
+        "AND gate",
+        "OR gate",
+        "NOR gate",
+        "NOT gate"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "AND gate",
+      "correctAnswer": "AND gate",
+      "explanation": "AND gate needs all inputs high.\nIf any input is 0, output is 0.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q018",
+      "question": "Which gate gives output 1 when at least one input is 1?",
+      "options": [
+        "AND gate",
+        "OR gate",
+        "NOT gate",
+        "XNOR gate"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "OR gate",
+      "correctAnswer": "OR gate",
+      "explanation": "OR gate gives 1 if any input is 1.\nIt gives 0 only for 0 and 0.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q019",
+      "question": "Which gate is the complement of AND gate?",
+      "options": [
+        "NOR gate",
+        "XOR gate",
+        "NAND gate",
+        "OR gate"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "NAND gate",
+      "correctAnswer": "NAND gate",
+      "explanation": "NAND means NOT AND.\nIt gives the opposite output of AND.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q020",
+      "question": "Which gate is the complement of OR gate?",
+      "options": [
+        "NAND gate",
+        "XOR gate",
+        "AND gate",
+        "NOR gate"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "NOR gate",
+      "correctAnswer": "NOR gate",
+      "explanation": "NOR means NOT OR.\nIt gives the opposite output of OR.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q021",
+      "question": "Which gate gives output 1 when inputs are different?",
+      "options": [
+        "XOR gate",
+        "XNOR gate",
+        "AND gate",
+        "NOR gate"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "XOR gate",
+      "correctAnswer": "XOR gate",
+      "explanation": "XOR gives 1 for different inputs.\nIt gives 0 when inputs are same.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q022",
+      "question": "Which gate gives output 1 when inputs are same?",
+      "options": [
+        "XOR gate",
+        "XNOR gate",
+        "OR gate",
+        "NAND gate"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "XNOR gate",
+      "correctAnswer": "XNOR gate",
+      "explanation": "XNOR gives 1 for same inputs.\nIt is the complement of XOR.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q023",
+      "question": "Which gates are called universal gates?",
+      "options": [
+        "AND and OR",
+        "XOR and XNOR",
+        "NAND and NOR",
+        "NOT and XOR"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "NAND and NOR",
+      "correctAnswer": "NAND and NOR",
+      "explanation": "NAND and NOR are universal gates.\nThey can be used to make other gates.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q024",
+      "question": "What is the Boolean expression of AND gate?",
+      "options": [
+        "A + B",
+        "A’",
+        "(A+B)’",
+        "A.B"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "A.B",
+      "correctAnswer": "A.B",
+      "explanation": "AND operation is shown by dot.\nFor two inputs, expression is A.B.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q025",
+      "question": "What is the Boolean expression of NOT gate?",
+      "options": [
+        "A’",
+        "A.B",
+        "A + B",
+        "A ⊕ B"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A’",
+      "correctAnswer": "A’",
+      "explanation": "NOT operation is shown by a bar or apostrophe.\nIt means complement of A.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q026",
+      "question": "What is the Boolean expression of NAND gate?",
+      "options": [
+        "A+B",
+        "(A.B)’",
+        "A.B",
+        "(A+B)’"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "(A.B)’",
+      "correctAnswer": "(A.B)’",
+      "explanation": "NAND is complement of AND.\nSo expression is (A.B) prime.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q027",
+      "question": "What is the Boolean expression of NOR gate?",
+      "options": [
+        "A.B",
+        "(A.B)’",
+        "(A+B)’",
+        "A ⊕ B"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "(A+B)’",
+      "correctAnswer": "(A+B)’",
+      "explanation": "NOR is complement of OR.\nSo expression is (A+B) prime.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q028",
+      "question": "For OR gate, what is output when A=0 and B=0?",
+      "options": [
+        "1",
+        "Undefined",
+        "No output",
+        "0"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "0",
+      "correctAnswer": "0",
+      "explanation": "OR gate gives 0 only when all inputs are 0.\nHere both inputs are 0.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q029",
+      "question": "For OR gate, what is output when A=1 and B=0?",
+      "options": [
+        "1",
+        "0",
+        "Undefined",
+        "No output"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "OR gate gives 1 if any input is 1.\nHere A is 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q030",
+      "question": "For AND gate, what is output when A=1 and B=0?",
+      "options": [
+        "1",
+        "0",
+        "Undefined",
+        "Both"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "0",
+      "correctAnswer": "0",
+      "explanation": "AND gate needs both inputs 1.\nHere B is 0, so output is 0.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q031",
+      "question": "For NAND gate, what is output when A=1 and B=1?",
+      "options": [
+        "1",
+        "Undefined",
+        "0",
+        "No output"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "0",
+      "correctAnswer": "0",
+      "explanation": "AND output is 1 for 1 and 1.\nNAND gives the opposite, so output is 0.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q032",
+      "question": "For NOR gate, what is output when A=0 and B=0?",
+      "options": [
+        "0",
+        "Undefined",
+        "No output",
+        "1"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "OR output is 0 for 0 and 0.\nNOR gives the opposite, so output is 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q033",
+      "question": "For XOR gate, what is output when A=1 and B=0?",
+      "options": [
+        "1",
+        "0",
+        "Undefined",
+        "No output"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "XOR gives 1 for different inputs.\nHere inputs are different.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q034",
+      "question": "For XNOR gate, what is output when A=1 and B=1?",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "No output"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "XNOR gives 1 when inputs are same.\nHere both inputs are 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q035",
+      "question": "How many rows are in the truth table of a 2-input gate?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "4",
+      "correctAnswer": "4",
+      "explanation": "Two inputs give 2^2 combinations.\nSo a 2-input truth table has 4 rows.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q036",
+      "question": "How many rows are in the truth table of a 1-input NOT gate?",
+      "options": [
+        "1",
+        "4",
+        "8",
+        "2"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "2",
+      "correctAnswer": "2",
+      "explanation": "One input gives 2^1 combinations.\nSo NOT gate truth table has 2 rows.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q037",
+      "question": "Which binary addition result is correct for 1 + 1?",
+      "options": [
+        "10",
+        "0",
+        "1",
+        "11"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "10",
+      "correctAnswer": "10",
+      "explanation": "In binary, 1 + 1 gives 10.\nIt means sum 0 with carry 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q038",
+      "question": "Which binary addition result is correct for 1 + 0?",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "11"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "One plus zero gives one.\nThis is same in binary addition.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q039",
+      "question": "Which binary multiplication result is correct for 1 × 1?",
+      "options": [
+        "0",
+        "10",
+        "1",
+        "11"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "One multiplied by one gives one.\nThis is a basic binary multiplication rule.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q040",
+      "question": "Which binary multiplication result is correct for 1 × 0?",
+      "options": [
+        "1",
+        "10",
+        "11",
+        "0"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "0",
+      "correctAnswer": "0",
+      "explanation": "Any number multiplied by zero gives zero.\nSo 1 × 0 = 0 in binary.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q041",
+      "question": "Which binary subtraction result is correct for 1 − 0?",
+      "options": [
+        "1",
+        "0",
+        "10",
+        "11"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "1",
+      "correctAnswer": "1",
+      "explanation": "One minus zero gives one.\nThis is a basic binary subtraction rule.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q042",
+      "question": "Which binary subtraction result is correct for 1 − 1?",
+      "options": [
+        "1",
+        "0",
+        "10",
+        "11"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "0",
+      "correctAnswer": "0",
+      "explanation": "One minus one gives zero.\nThis is a basic binary subtraction rule.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q043",
+      "question": "Which gate has only one input among basic gates?",
+      "options": [
+        "AND gate",
+        "OR gate",
+        "NOT gate",
+        "NAND gate"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "NOT gate",
+      "correctAnswer": "NOT gate",
+      "explanation": "NOT gate has one input.\nOther gates usually have two or more inputs.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q044",
+      "question": "Which gate is also called inverter?",
+      "options": [
+        "OR gate",
+        "AND gate",
+        "XOR gate",
+        "NOT gate"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "NOT gate",
+      "correctAnswer": "NOT gate",
+      "explanation": "NOT gate inverts input.\nThat is why it is called inverter.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q045",
+      "question": "Which gate output is low only when all inputs are high?",
+      "options": [
+        "NAND gate",
+        "AND gate",
+        "OR gate",
+        "XOR gate"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "NAND gate",
+      "correctAnswer": "NAND gate",
+      "explanation": "NAND output is 0 when all inputs are 1.\nOtherwise NAND output is 1.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q046",
+      "question": "Which gate output is high only when all inputs are low?",
+      "options": [
+        "OR gate",
+        "NOR gate",
+        "AND gate",
+        "XOR gate"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "NOR gate",
+      "correctAnswer": "NOR gate",
+      "explanation": "NOR output is 1 only when all inputs are 0.\nIt is complement of OR.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q047",
+      "question": "Which logic gate is used for logical conjunction?",
+      "options": [
+        "OR gate",
+        "NOT gate",
+        "AND gate",
+        "XOR gate"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "AND gate",
+      "correctAnswer": "AND gate",
+      "explanation": "AND gate implements logical conjunction.\nIt needs all inputs true for output true.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q048",
+      "question": "Which logic gate is used for logical disjunction?",
+      "options": [
+        "AND gate",
+        "NOT gate",
+        "NAND gate",
+        "OR gate"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "OR gate",
+      "correctAnswer": "OR gate",
+      "explanation": "OR gate implements logical disjunction.\nIt gives true if any input is true.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q049",
+      "question": "Which logic gate output is complement of XOR?",
+      "options": [
+        "XNOR gate",
+        "NAND gate",
+        "NOR gate",
+        "AND gate"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "XNOR gate",
+      "correctAnswer": "XNOR gate",
+      "explanation": "XNOR is complement of XOR.\nIt gives 1 when inputs are same.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-logic-gates-q050",
+      "question": "Which logic gate output is complement of XNOR?",
+      "options": [
+        "NAND gate",
+        "XOR gate",
+        "NOR gate",
+        "OR gate"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "XOR gate",
+      "correctAnswer": "XOR gate",
+      "explanation": "XOR is opposite of XNOR.\nIt gives 1 when inputs are different.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "logic-gates"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "logic-gates",
+      "legacyId": "electrical-basic-electronics-logic-gates-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
+}

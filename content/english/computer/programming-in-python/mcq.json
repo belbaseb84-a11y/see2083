@@ -1,0 +1,4368 @@
+{
+  "medium": "english",
+  "mediumId": "english",
+  "subject": "computer",
+  "subjectId": "computer",
+  "chapter": "programming-in-python",
+  "unitSlug": "programming-in-python",
+  "chapterTitle": "Programming in Python",
+  "mcqKey": "mcq:english/computer/programming-in-python",
+  "status": "published",
+  "version": 1,
+  "totalQuestions": 150,
+  "websiteQuizReady": true,
+  "sourceFile": "7122878c-323a-4b34-bbcb-a6fdf7e8d68e.docx",
+  "notes": "",
+  "questions": [
+    {
+      "id": "english-computer-programming-in-python-q001",
+      "question": "What is the main role of the Python interpreter?",
+      "options": [
+        "It stores Python programs permanently in memory.",
+        "It reads and executes Python code line by line.",
+        "It designs graphical windows automatically.",
+        "It converts Python programs into spreadsheet files."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It reads and executes Python code line by line.",
+      "correctAnswer": "It reads and executes Python code line by line.",
+      "explanation": "The correct answer is It reads and executes Python code line by line..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q001",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q002",
+      "question": "Which statement is most accurate about the Python shell?",
+      "options": [
+        "It is mainly used to type commands and see output immediately.",
+        "It is used only for saving large CSV files.",
+        "It executes only turtle graphics programs.",
+        "It is the same as a Python package."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It is mainly used to type commands and see output immediately.",
+      "correctAnswer": "It is mainly used to type commands and see output immediately.",
+      "explanation": "The correct answer is It is mainly used to type commands and see output immediately..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q002",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q003",
+      "question": "What will be the output of the following code?\nx = 3\ny = 2\nprint('Sum of', x, 'and', y, 'is', x + y)",
+      "options": [
+        "Sum of x and y is 5",
+        "Sum of 3 and 2 is 5",
+        "Sum of 3 and 2 is 32",
+        "Error because commas cannot be used in print()"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Sum of 3 and 2 is 5",
+      "correctAnswer": "Sum of 3 and 2 is 5",
+      "explanation": "The correct answer is Sum of 3 and 2 is 5.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q003",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q004",
+      "question": "Which Python function is used to display output on the screen?",
+      "options": [
+        "input()",
+        "print()",
+        "type()",
+        "range()"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "print()",
+      "correctAnswer": "print()",
+      "explanation": "The correct answer is print().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q004",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q005",
+      "question": "What data type does input() return by default?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "str",
+      "correctAnswer": "str",
+      "explanation": "The correct answer is str.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q005",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q006",
+      "question": "A program takes age using age = input(\"Age: \") and then uses age + 1. What is the main problem?",
+      "options": [
+        "input() cannot take numbers at all.",
+        "age is a string unless converted using int() or float().",
+        "The variable name age is invalid.",
+        "The print() function must be used before input()."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "age is a string unless converted using int() or float().",
+      "correctAnswer": "age is a string unless converted using int() or float().",
+      "explanation": "The correct answer is age is a string unless converted using int() or float()..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q006",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q007",
+      "question": "What will \"2\" + \"3\" produce in Python?",
+      "options": [
+        "5",
+        "23",
+        "Error in every case",
+        "6"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "23",
+      "correctAnswer": "23",
+      "explanation": "The correct answer is 23.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q007",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q008",
+      "question": "Which conversion correctly changes suitable text into a whole number?",
+      "options": [
+        "str()",
+        "float()",
+        "int()",
+        "bool()"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "int()",
+      "correctAnswer": "int()",
+      "explanation": "The correct answer is int().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q008",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q009",
+      "question": "Which value is an example of float data type?",
+      "options": [
+        "\"87.5\"",
+        "87.5",
+        "True",
+        "87"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "87.5",
+      "correctAnswer": "87.5",
+      "explanation": "The correct answer is 87.5.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q009",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q010",
+      "question": "Which statement best defines a variable?",
+      "options": [
+        "A fixed Python keyword that cannot change.",
+        "A named memory location used to store data.",
+        "A chart created using Matplotlib.",
+        "A file opening mode used for reading."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "A named memory location used to store data.",
+      "correctAnswer": "A named memory location used to store data.",
+      "explanation": "The correct answer is A named memory location used to store data..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q010",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q011",
+      "question": "Which of the following is a valid identifier in Python?",
+      "options": [
+        "2name",
+        "student_name",
+        "class",
+        "roll-no"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "student_name",
+      "correctAnswer": "student_name",
+      "explanation": "The correct answer is student_name.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q011",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q012",
+      "question": "Why is class not a valid identifier?",
+      "options": [
+        "It starts with a digit.",
+        "It contains an underscore.",
+        "It is a Python keyword.",
+        "It is too short."
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "It is a Python keyword.",
+      "correctAnswer": "It is a Python keyword.",
+      "explanation": "The correct answer is It is a Python keyword..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q012",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q013",
+      "question": "An operator is best described as:",
+      "options": [
+        "a named memory location.",
+        "a symbol or keyword that performs an operation.",
+        "a file that stores tabular data.",
+        "a chart label."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "a symbol or keyword that performs an operation.",
+      "correctAnswer": "a symbol or keyword that performs an operation.",
+      "explanation": "The correct answer is a symbol or keyword that performs an operation..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q013",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q014",
+      "question": "Which expression gives the remainder after division?",
+      "options": [
+        "20 / 6",
+        "20 // 6",
+        "20 % 6",
+        "20 ** 6"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "20 % 6",
+      "correctAnswer": "20 % 6",
+      "explanation": "The correct answer is 20 % 6.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q014",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q015",
+      "question": "What is the result of 9 // 2 in Python?",
+      "options": [
+        "4",
+        "4.5",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "4",
+      "correctAnswer": "4",
+      "explanation": "The correct answer is 4.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q015",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q016",
+      "question": "What is the result of 2 ** 3?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "8",
+      "correctAnswer": "8",
+      "explanation": "The correct answer is 8.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q016",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q017",
+      "question": "Which operator is used to test equality in a condition?",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        ">="
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "==",
+      "correctAnswer": "==",
+      "explanation": "The correct answer is ==.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q017",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q018",
+      "question": "Which logical operator returns True only when both conditions are true?",
+      "options": [
+        "or",
+        "not",
+        "and",
+        "in"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "and",
+      "correctAnswer": "and",
+      "explanation": "The correct answer is and.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q018",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q019",
+      "question": "What does not True evaluate to?",
+      "options": [
+        "True",
+        "False",
+        "None",
+        "0 only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "False",
+      "correctAnswer": "False",
+      "explanation": "The correct answer is False.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q019",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q020",
+      "question": "Which statement is true about conditional statements?",
+      "options": [
+        "They repeat code fixed times only.",
+        "They execute blocks depending on true or false conditions.",
+        "They are used only for file handling.",
+        "They must always contain a while loop."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "They execute blocks depending on true or false conditions.",
+      "correctAnswer": "They execute blocks depending on true or false conditions.",
+      "explanation": "The correct answer is They execute blocks depending on true or false conditions..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q020",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q021",
+      "question": "Which Python conditional structure checks many conditions one by one?",
+      "options": [
+        "if only",
+        "if-else",
+        "if-elif-else",
+        "for-if"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "if-elif-else",
+      "correctAnswer": "if-elif-else",
+      "explanation": "The correct answer is if-elif-else.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q021",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q022",
+      "question": "What common symbol is required at the end of if, elif, else, while, for, and def headers?",
+      "options": [
+        "semicolon ;",
+        "colon :",
+        "comma ,",
+        "period ."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "colon :",
+      "correctAnswer": "colon :",
+      "explanation": "The correct answer is colon :.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q023",
+      "question": "What will be printed?\nnum = 0\nif num > 0:\nprint(\"Positive\")\nelif num == 0:\nprint(\"Zero\")\nelse:\nprint(\"Negative\")",
+      "options": [
+        "Positive",
+        "Zero",
+        "Negative",
+        "No output"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Zero",
+      "correctAnswer": "Zero",
+      "explanation": "The correct answer is Zero.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q023",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q024",
+      "question": "What will this loop print?\nfor i in range(1, 6):\nprint(i)",
+      "options": [
+        "0 1 2 3 4",
+        "1 2 3 4 5",
+        "1 2 3 4 5 6",
+        "6 only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "1 2 3 4 5",
+      "correctAnswer": "1 2 3 4 5",
+      "explanation": "The correct answer is 1 2 3 4 5.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q024",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q025",
+      "question": "What sequence is generated by range(2, 11, 2)?",
+      "options": [
+        "2, 4, 6, 8, 10",
+        "2, 4, 6, 8, 10, 12",
+        "0, 2, 4, 6, 8, 10",
+        "1, 3, 5, 7, 9"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "2, 4, 6, 8, 10",
+      "correctAnswer": "2, 4, 6, 8, 10",
+      "explanation": "The correct answer is 2, 4, 6, 8, 10.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q026",
+      "question": "Which loop is usually better when the number of repetitions is known?",
+      "options": [
+        "while loop",
+        "for loop",
+        "try block",
+        "except block"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "for loop",
+      "correctAnswer": "for loop",
+      "explanation": "The correct answer is for loop.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q027",
+      "question": "Which loop repeats as long as a condition remains true?",
+      "options": [
+        "for loop",
+        "while loop",
+        "range loop only",
+        "list loop only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "while loop",
+      "correctAnswer": "while loop",
+      "explanation": "The correct answer is while loop.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q027",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q028",
+      "question": "What is the likely error in a while loop if the control variable is never updated?",
+      "options": [
+        "Syntax error always occurs.",
+        "The loop may become infinite.",
+        "The list is automatically deleted.",
+        "The file is closed automatically."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "The loop may become infinite.",
+      "correctAnswer": "The loop may become infinite.",
+      "explanation": "The correct answer is The loop may become infinite..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q028",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q029",
+      "question": "What is the value of total after this code?\ntotal = 0\nfor i in range(1, 11):\ntotal += i",
+      "options": [
+        "10",
+        "45",
+        "55",
+        "66"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "55",
+      "correctAnswer": "55",
+      "explanation": "The correct answer is 55.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q029",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q030",
+      "question": "Which statement is correct about Python list indexing?",
+      "options": [
+        "The first item is at index 1.",
+        "The first item is at index 0.",
+        "Indexes begin from -1 only.",
+        "Lists do not support indexes."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "The first item is at index 0.",
+      "correctAnswer": "The first item is at index 0.",
+      "explanation": "The correct answer is The first item is at index 0..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q031",
+      "question": "What will be printed?\nthislist = [\"Computer\", \"Science\", 20, True]\nprint(thislist[0])",
+      "options": [
+        "Computer",
+        "Science",
+        "20",
+        "True"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Computer",
+      "correctAnswer": "Computer",
+      "explanation": "The correct answer is Computer.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q031",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q032",
+      "question": "Which method adds a new item at the end of a list?",
+      "options": [
+        "insert_end()",
+        "add()",
+        "append()",
+        "push()"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "append()",
+      "correctAnswer": "append()",
+      "explanation": "The correct answer is append().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q032",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q033",
+      "question": "Which data type has only True or False values?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "bool",
+      "correctAnswer": "bool",
+      "explanation": "The correct answer is bool.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q033",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q034",
+      "question": "Which expression is a relational expression?",
+      "options": [
+        "10 + 20",
+        "marks >= 40",
+        "\"Python\"",
+        "range(5)"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "marks >= 40",
+      "correctAnswer": "marks >= 40",
+      "explanation": "The correct answer is marks >= 40.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q035",
+      "question": "A Python function is mainly used to:",
+      "options": [
+        "create only CSV files.",
+        "organize reusable code that performs a specific task.",
+        "replace every variable in a program.",
+        "draw charts without any library."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "organize reusable code that performs a specific task.",
+      "correctAnswer": "organize reusable code that performs a specific task.",
+      "explanation": "The correct answer is organize reusable code that performs a specific task..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q035",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q036",
+      "question": "Which keyword is used to define a user-defined function?",
+      "options": [
+        "function",
+        "define",
+        "def",
+        "lambdaonly"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "def",
+      "correctAnswer": "def",
+      "explanation": "The correct answer is def.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q036",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q037",
+      "question": "Which function is a built-in function?",
+      "options": [
+        "add_numbers()",
+        "rectangle_area()",
+        "print()",
+        "show_student()"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "print()",
+      "correctAnswer": "print()",
+      "explanation": "The correct answer is print().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q037",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q038",
+      "question": "A user-defined function is executed:",
+      "options": [
+        "as soon as Python reads the def line only.",
+        "only when it is called.",
+        "only inside the Python shell.",
+        "only after importing math."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "only when it is called.",
+      "correctAnswer": "only when it is called.",
+      "explanation": "The correct answer is only when it is called..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q039",
+      "question": "Which function header is correctly written?",
+      "options": [
+        "def add(a, b)",
+        "def add(a, b):",
+        "define add(a, b):",
+        "function add(a, b):"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "def add(a, b):",
+      "correctAnswer": "def add(a, b):",
+      "explanation": "The correct answer is def add(a, b):.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q039",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q040",
+      "question": "In def area_of_circle(radius):, radius is a:",
+      "options": [
+        "keyword",
+        "argument",
+        "parameter",
+        "library"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "parameter",
+      "correctAnswer": "parameter",
+      "explanation": "The correct answer is parameter.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q040",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q041",
+      "question": "In area_of_circle(7), the value 7 is a:",
+      "options": [
+        "parameter",
+        "argument",
+        "module",
+        "scope"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "argument",
+      "correctAnswer": "argument",
+      "explanation": "The correct answer is argument.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q041",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q042",
+      "question": "What is the main job of the return statement?",
+      "options": [
+        "To display a message only.",
+        "To send a value back to the function caller.",
+        "To import a module.",
+        "To create a CSV file."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "To send a value back to the function caller.",
+      "correctAnswer": "To send a value back to the function caller.",
+      "explanation": "The correct answer is To send a value back to the function caller..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q043",
+      "question": "What will be printed?\ndef product(a, b):\nreturn a * b\nanswer = product(4, 5)\nprint(answer)",
+      "options": [
+        "9",
+        "20",
+        "45",
+        "Error"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "20",
+      "correctAnswer": "20",
+      "explanation": "The correct answer is 20.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q043",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q044",
+      "question": "A void function is a function that:",
+      "options": [
+        "always returns a useful value.",
+        "performs an action but does not return a useful value.",
+        "cannot contain print().",
+        "must contain exactly two parameters."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "performs an action but does not return a useful value.",
+      "correctAnswer": "performs an action but does not return a useful value.",
+      "explanation": "The correct answer is performs an action but does not return a useful value..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q044",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q045",
+      "question": "A non-void function usually:",
+      "options": [
+        "uses return to give a result back.",
+        "cannot take arguments.",
+        "must be a built-in function.",
+        "cannot be called."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "uses return to give a result back.",
+      "correctAnswer": "uses return to give a result back.",
+      "explanation": "The correct answer is uses return to give a result back..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q046",
+      "question": "Which statement correctly compares print and return?",
+      "options": [
+        "print sends a value back; return displays it on screen.",
+        "print displays output; return sends a value back to caller.",
+        "Both are exactly the same.",
+        "return can be used only outside functions."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "print displays output; return sends a value back to caller.",
+      "correctAnswer": "print displays output; return sends a value back to caller.",
+      "explanation": "The correct answer is print displays output; return sends a value back to caller..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q047",
+      "question": "What will be printed?\ndef square_and_cube(n):\nreturn n ** 2, n ** 3\nsq, cb = square_and_cube(4)\nprint(sq, cb)",
+      "options": [
+        "4 8",
+        "8 16",
+        "16 64",
+        "64 16"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "16 64",
+      "correctAnswer": "16 64",
+      "explanation": "The correct answer is 16 64.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q048",
+      "question": "What is scope in Python?",
+      "options": [
+        "The color of turtle pen.",
+        "The region where a variable or function can be accessed.",
+        "A file opening mode.",
+        "A type of chart."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "The region where a variable or function can be accessed.",
+      "correctAnswer": "The region where a variable or function can be accessed.",
+      "explanation": "The correct answer is The region where a variable or function can be accessed..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q048",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q049",
+      "question": "A local variable is declared:",
+      "options": [
+        "inside a function.",
+        "outside all functions only.",
+        "inside a CSV file.",
+        "only inside a chart title."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "inside a function.",
+      "correctAnswer": "inside a function.",
+      "explanation": "The correct answer is inside a function..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q050",
+      "question": "Which statement is true about a local variable?",
+      "options": [
+        "It can always be accessed directly from anywhere.",
+        "It is usually accessible only inside the function where it is created.",
+        "It must be imported using import.",
+        "It is saved permanently in a file."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It is usually accessible only inside the function where it is created.",
+      "correctAnswer": "It is usually accessible only inside the function where it is created.",
+      "explanation": "The correct answer is It is usually accessible only inside the function where it is created..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q051",
+      "question": "A global variable is declared:",
+      "options": [
+        "inside a loop only.",
+        "outside all functions.",
+        "inside the return statement only.",
+        "inside a list only."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "outside all functions.",
+      "correctAnswer": "outside all functions.",
+      "explanation": "The correct answer is outside all functions..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q051",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q052",
+      "question": "What will this code print?\nschool_name = \"Nepal Secondary School\"\ndef show_school():\nprint(school_name)\nshow_school()",
+      "options": [
+        "school_name",
+        "Nepal Secondary School",
+        "Error because global variables cannot be read inside functions",
+        "Nothing"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Nepal Secondary School",
+      "correctAnswer": "Nepal Secondary School",
+      "explanation": "The correct answer is Nepal Secondary School.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q052",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q053",
+      "question": "Positional arguments are passed:",
+      "options": [
+        "using only parameter names.",
+        "in the same order as parameters are defined.",
+        "only after default arguments.",
+        "only to built-in functions."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "in the same order as parameters are defined.",
+      "correctAnswer": "in the same order as parameters are defined.",
+      "explanation": "The correct answer is in the same order as parameters are defined..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q053",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q054",
+      "question": "Why does divide(10, 2) usually produce a different result from divide(2, 10)?",
+      "options": [
+        "Because positional order changes which value goes to which parameter.",
+        "Because functions cannot divide.",
+        "Because arguments are always sorted automatically.",
+        "Because Python ignores the second argument."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Because positional order changes which value goes to which parameter.",
+      "correctAnswer": "Because positional order changes which value goes to which parameter.",
+      "explanation": "The correct answer is Because positional order changes which value goes to which parameter..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q054",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q055",
+      "question": "A default argument is best described as:",
+      "options": [
+        "a parameter with a predefined value used when no value is passed.",
+        "an argument that must always be passed by position.",
+        "a variable declared outside all functions.",
+        "an error handling block."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "a parameter with a predefined value used when no value is passed.",
+      "correctAnswer": "a parameter with a predefined value used when no value is passed.",
+      "explanation": "The correct answer is a parameter with a predefined value used when no value is passed..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q055",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q056",
+      "question": "What will be used as rate in simple_interest(2000, 2) if the function is def simple_interest(principal, time, rate=10)?",
+      "options": [
+        "0",
+        "2",
+        "10",
+        "2000"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "10",
+      "correctAnswer": "10",
+      "explanation": "The correct answer is 10.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q056",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q057",
+      "question": "Keyword arguments are passed by:",
+      "options": [
+        "position only.",
+        "using parameter_name=value format.",
+        "writing values in a list only.",
+        "using return statement."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "using parameter_name=value format.",
+      "correctAnswer": "using parameter_name=value format.",
+      "explanation": "The correct answer is using parameter_name=value format..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q057",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q058",
+      "question": "Which call is a keyword argument call?",
+      "options": [
+        "simple_interest(2000, 2, 12)",
+        "simple_interest(time=2, rate=12, principal=2000)",
+        "simple_interest[2000, 2, 12]",
+        "return simple_interest"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "simple_interest(time=2, rate=12, principal=2000)",
+      "correctAnswer": "simple_interest(time=2, rate=12, principal=2000)",
+      "explanation": "The correct answer is simple_interest(time=2, rate=12, principal=2000).\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q058",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q059",
+      "question": "What is one advantage of keyword arguments?",
+      "options": [
+        "They make order less important and code clearer.",
+        "They remove the need for function names.",
+        "They automatically create files.",
+        "They stop all runtime errors."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "They make order less important and code clearer.",
+      "correctAnswer": "They make order less important and code clearer.",
+      "explanation": "The correct answer is They make order less important and code clearer..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q059",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q060",
+      "question": "Which built-in function returns the number of characters in \"Python\"?",
+      "options": [
+        "sum()",
+        "type()",
+        "len()",
+        "input()"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "len()",
+      "correctAnswer": "len()",
+      "explanation": "The correct answer is len().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q060",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q061",
+      "question": "What does sum([10, 20, 30]) return?",
+      "options": [
+        "10",
+        "30",
+        "60",
+        "102030"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "60",
+      "correctAnswer": "60",
+      "explanation": "The correct answer is 60.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q061",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q062",
+      "question": "What is the result of type(12.5)?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "float",
+      "correctAnswer": "float",
+      "explanation": "The correct answer is float.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q062",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q063",
+      "question": "Which function name follows identifier rules?",
+      "options": [
+        "2area",
+        "calculate_area",
+        "total-marks",
+        "for"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "calculate_area",
+      "correctAnswer": "calculate_area",
+      "explanation": "The correct answer is calculate_area.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q063",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q064",
+      "question": "What happens if a required positional argument is missing in a function call?",
+      "options": [
+        "Python uses any random value.",
+        "Python usually raises an error.",
+        "The function becomes a module.",
+        "The argument becomes global automatically."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Python usually raises an error.",
+      "correctAnswer": "Python usually raises an error.",
+      "explanation": "The correct answer is Python usually raises an error..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q064",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q065",
+      "question": "Which function is best suited to return both square and cube together?",
+      "options": [
+        "A void function with only print()",
+        "A function using return n ** 2, n ** 3",
+        "A function without def",
+        "A function that imports csv"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "A function using return n ** 2, n ** 3",
+      "correctAnswer": "A function using return n ** 2, n ** 3",
+      "explanation": "The correct answer is A function using return n ** 2, n ** 3.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q065",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q066",
+      "question": "In the prime number example, why is n <= 1 checked first?",
+      "options": [
+        "Because 1 and smaller numbers are not prime.",
+        "Because every number less than 2 is prime.",
+        "Because loops cannot run for n = 1.",
+        "Because input() returns float."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Because 1 and smaller numbers are not prime.",
+      "correctAnswer": "Because 1 and smaller numbers are not prime.",
+      "explanation": "The correct answer is Because 1 and smaller numbers are not prime..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q066",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q067",
+      "question": "In a vowel-counting program, which idea is most important?",
+      "options": [
+        "Check each character and increase count when it is in the vowel string.",
+        "Use only the print() function.",
+        "Use turtle.forward() for every vowel.",
+        "Store all vowels in a CSV file first."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Check each character and increase count when it is in the vowel string.",
+      "correctAnswer": "Check each character and increase count when it is in the vowel string.",
+      "explanation": "The correct answer is Check each character and increase count when it is in the vowel string..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q067",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q068",
+      "question": "What does the factorial function usually do inside the loop?",
+      "options": [
+        "Adds digits one by one.",
+        "Multiplies fact by each number from 1 to n.",
+        "Reads each row of CSV.",
+        "Draws a polygon."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Multiplies fact by each number from 1 to n.",
+      "correctAnswer": "Multiplies fact by each number from 1 to n.",
+      "explanation": "The correct answer is Multiplies fact by each number from 1 to n..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q068",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q069",
+      "question": "A module is best defined as:",
+      "options": [
+        "a Python file or unit containing reusable code.",
+        "a row inside a DataFrame.",
+        "a type of error only.",
+        "a chart title."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "a Python file or unit containing reusable code.",
+      "correctAnswer": "a Python file or unit containing reusable code.",
+      "explanation": "The correct answer is a Python file or unit containing reusable code..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q069",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q070",
+      "question": "A library is best described as:",
+      "options": [
+        "one variable inside a program.",
+        "a collection of modules and packages that provides ready-made tools.",
+        "a file mode used for writing.",
+        "a condition used in if-else."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "a collection of modules and packages that provides ready-made tools.",
+      "correctAnswer": "a collection of modules and packages that provides ready-made tools.",
+      "explanation": "The correct answer is a collection of modules and packages that provides ready-made tools..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q070",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q071",
+      "question": "A package is:",
+      "options": [
+        "a single character in a string.",
+        "a collection of related modules organized together.",
+        "a value returned by input().",
+        "only a turtle command."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "a collection of related modules organized together.",
+      "correctAnswer": "a collection of related modules organized together.",
+      "explanation": "The correct answer is a collection of related modules organized together..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q071",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q072",
+      "question": "Which order is most accurate from smaller to broader concept?",
+      "options": [
+        "Library -> Package -> Module",
+        "Module -> Package -> Library",
+        "Package -> Module -> Library",
+        "Library -> Module -> Package"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Module -> Package -> Library",
+      "correctAnswer": "Module -> Package -> Library",
+      "explanation": "The correct answer is Module -> Package -> Library.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q072",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q073",
+      "question": "What is the purpose of the import statement?",
+      "options": [
+        "To bring a module, package, or library into a Python program.",
+        "To close an opened file.",
+        "To compare two values.",
+        "To define a local variable only."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "To bring a module, package, or library into a Python program.",
+      "correctAnswer": "To bring a module, package, or library into a Python program.",
+      "explanation": "The correct answer is To bring a module, package, or library into a Python program..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q073",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q074",
+      "question": "Which code imports the entire math module?",
+      "options": [
+        "from math import sqrt",
+        "import math",
+        "import math as sqrt",
+        "math import *"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "import math",
+      "correctAnswer": "import math",
+      "explanation": "The correct answer is import math.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q074",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q075",
+      "question": "After import math, how should sqrt(25) usually be called?",
+      "options": [
+        "sqrt.math(25)",
+        "math.sqrt(25)",
+        "math->sqrt(25)",
+        "import.sqrt(25)"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "math.sqrt(25)",
+      "correctAnswer": "math.sqrt(25)",
+      "explanation": "The correct answer is math.sqrt(25).\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q075",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q076",
+      "question": "After from math import sqrt, which call is correct?",
+      "options": [
+        "math.sqrt(25) only",
+        "sqrt(25)",
+        "math->sqrt(25)",
+        "from.sqrt(25)"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "sqrt(25)",
+      "correctAnswer": "sqrt(25)",
+      "explanation": "The correct answer is sqrt(25).\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q076",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q077",
+      "question": "What is the use of as in import pandas as pd?",
+      "options": [
+        "It creates a default argument.",
+        "It gives a shorter alias name.",
+        "It starts an exception block.",
+        "It writes data to CSV automatically."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It gives a shorter alias name.",
+      "correctAnswer": "It gives a shorter alias name.",
+      "explanation": "The correct answer is It gives a shorter alias name..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q077",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q078",
+      "question": "Why is from math import * not recommended in large programs?",
+      "options": [
+        "It cannot import functions.",
+        "It can make names confusing.",
+        "It works only in turtle.",
+        "It deletes all variables."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It can make names confusing.",
+      "correctAnswer": "It can make names confusing.",
+      "explanation": "The correct answer is It can make names confusing..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q078",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q079",
+      "question": "Which module provides sqrt(), sin(), cos(), log(), and pi?",
+      "options": [
+        "random",
+        "math",
+        "csv",
+        "turtle"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "math",
+      "correctAnswer": "math",
+      "explanation": "The correct answer is math.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q079",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q080",
+      "question": "What must be remembered about many math trigonometric functions in Python?",
+      "options": [
+        "They use radians.",
+        "They use degrees only.",
+        "They work only with strings.",
+        "They require Pandas DataFrame."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "They use radians.",
+      "correctAnswer": "They use radians.",
+      "explanation": "The correct answer is They use radians..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q080",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q081",
+      "question": "Which module is useful for generating random numbers or choosing random items?",
+      "options": [
+        "math",
+        "random",
+        "matplotlib",
+        "pandas"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "random",
+      "correctAnswer": "random",
+      "explanation": "The correct answer is random.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q081",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q082",
+      "question": "Which random function can choose one item from a list?",
+      "options": [
+        "random.choice()",
+        "random.sqrt()",
+        "random.DataFrame()",
+        "random.forward()"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "random.choice()",
+      "correctAnswer": "random.choice()",
+      "explanation": "The correct answer is random.choice().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q082",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q083",
+      "question": "What does random.randint(1, 6) represent well?",
+      "options": [
+        "A random dice number from 1 to 6.",
+        "A square root from 1 to 6.",
+        "A fixed number 6 always.",
+        "A DataFrame row count."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A random dice number from 1 to 6.",
+      "correctAnswer": "A random dice number from 1 to 6.",
+      "explanation": "The correct answer is A random dice number from 1 to 6..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q083",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q084",
+      "question": "Pandas is mainly used for:",
+      "options": [
+        "drawing only turtle shapes.",
+        "manipulating, analyzing, reading, and writing structured table data.",
+        "handling only syntax errors.",
+        "turning conditions into loops."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "manipulating, analyzing, reading, and writing structured table data.",
+      "correctAnswer": "manipulating, analyzing, reading, and writing structured table data.",
+      "explanation": "The correct answer is manipulating, analyzing, reading, and writing structured table data..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q084",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q085",
+      "question": "A DataFrame in Pandas is most similar to:",
+      "options": [
+        "a table with rows and columns.",
+        "a single Boolean value.",
+        "a turtle cursor.",
+        "a file opening mode."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "a table with rows and columns.",
+      "correctAnswer": "a table with rows and columns.",
+      "explanation": "The correct answer is a table with rows and columns..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q085",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q086",
+      "question": "Which library is used to create charts such as bar, line, pie, scatter, and histogram?",
+      "options": [
+        "Matplotlib",
+        "random",
+        "math",
+        "os only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Matplotlib",
+      "correctAnswer": "Matplotlib",
+      "explanation": "The correct answer is Matplotlib.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q086",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q087",
+      "question": "How is Matplotlib commonly imported for plotting?",
+      "options": [
+        "import matplotlib as math",
+        "import matplotlib.pyplot as plt",
+        "from plt import matplotlib",
+        "import chart.pyplot as mp"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "import matplotlib.pyplot as plt",
+      "correctAnswer": "import matplotlib.pyplot as plt",
+      "explanation": "The correct answer is import matplotlib.pyplot as plt.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q087",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q088",
+      "question": "Which module helps draw lines, shapes, figures, and patterns using a cursor?",
+      "options": [
+        "turtle",
+        "random",
+        "math",
+        "csv"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "turtle",
+      "correctAnswer": "turtle",
+      "explanation": "The correct answer is turtle.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q088",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q089",
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "math - CSV row reading",
+        "random - random choice generation",
+        "turtle - table analysis",
+        "Pandas - turning right 90 degrees"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "random - random choice generation",
+      "correctAnswer": "random - random choice generation",
+      "explanation": "The correct answer is random - random choice generation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q089",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q090",
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "Pandas - DataFrame",
+        "Matplotlib - file closing",
+        "random - chart title",
+        "math - penup()"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Pandas - DataFrame",
+      "correctAnswer": "Pandas - DataFrame",
+      "explanation": "The correct answer is Pandas - DataFrame.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q090",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q091",
+      "question": "What will happen if math.sqrt(25) is used before importing math?",
+      "options": [
+        "It always prints 5.",
+        "It usually gives an error because math is not defined.",
+        "It creates a module automatically.",
+        "It saves 25 in a CSV file."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It usually gives an error because math is not defined.",
+      "correctAnswer": "It usually gives an error because math is not defined.",
+      "explanation": "The correct answer is It usually gives an error because math is not defined..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q091",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q092",
+      "question": "Which library purpose is correctly matched with NumPy in the notes?",
+      "options": [
+        "Scientific computing and arrays",
+        "Exception handling only",
+        "Drawing turtle patterns only",
+        "Writing plain text files only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Scientific computing and arrays",
+      "correctAnswer": "Scientific computing and arrays",
+      "explanation": "The correct answer is Scientific computing and arrays.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q092",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q093",
+      "question": "Turtle graphics uses a cursor called a turtle to:",
+      "options": [
+        "read CSV files row by row.",
+        "draw lines, shapes, figures, and patterns.",
+        "handle all exceptions automatically.",
+        "convert strings to integers."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "draw lines, shapes, figures, and patterns.",
+      "correctAnswer": "draw lines, shapes, figures, and patterns.",
+      "explanation": "The correct answer is draw lines, shapes, figures, and patterns..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q093",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q094",
+      "question": "Which command moves the turtle forward by a given distance?",
+      "options": [
+        "t.right(distance)",
+        "t.forward(distance)",
+        "t.shape(distance)",
+        "t.fillcolor(distance)"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "t.forward(distance)",
+      "correctAnswer": "t.forward(distance)",
+      "explanation": "The correct answer is t.forward(distance).\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q094",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q095",
+      "question": "Which command turns the turtle clockwise?",
+      "options": [
+        "left(angle)",
+        "right(angle)",
+        "penup()",
+        "begin_fill()"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "right(angle)",
+      "correctAnswer": "right(angle)",
+      "explanation": "The correct answer is right(angle).\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q095",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q096",
+      "question": "Which command turns the turtle counterclockwise?",
+      "options": [
+        "left(angle)",
+        "right(angle)",
+        "pendown()",
+        "end_fill()"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "left(angle)",
+      "correctAnswer": "left(angle)",
+      "explanation": "The correct answer is left(angle).\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q096",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q097",
+      "question": "What does penup() do?",
+      "options": [
+        "Starts filling a closed shape.",
+        "Lifts the pen so movement does not draw.",
+        "Changes the turtle cursor shape.",
+        "Closes the turtle window."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Lifts the pen so movement does not draw.",
+      "correctAnswer": "Lifts the pen so movement does not draw.",
+      "explanation": "The correct answer is Lifts the pen so movement does not draw..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q097",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q098",
+      "question": "What does pendown() do?",
+      "options": [
+        "Puts the pen down so movement draws.",
+        "Turns turtle left.",
+        "Stops the program forever.",
+        "Creates a DataFrame."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Puts the pen down so movement draws.",
+      "correctAnswer": "Puts the pen down so movement draws.",
+      "explanation": "The correct answer is Puts the pen down so movement draws..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q098",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q099",
+      "question": "Which command changes the line color in turtle?",
+      "options": [
+        "t.color(\"red\")",
+        "t.chart(\"red\")",
+        "t.axis(\"red\")",
+        "t.mode(\"red\")"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "t.color(\"red\")",
+      "correctAnswer": "t.color(\"red\")",
+      "explanation": "The correct answer is t.color(\"red\").\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q099",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q100",
+      "question": "Which pair of commands is used to fill a closed shape?",
+      "options": [
+        "open_fill() and close_fill()",
+        "begin_fill() and end_fill()",
+        "start_color() and stop_color()",
+        "fill_start() and fill_stop()"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "begin_fill() and end_fill()",
+      "correctAnswer": "begin_fill() and end_fill()",
+      "explanation": "The correct answer is begin_fill() and end_fill().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q100",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q101",
+      "question": "Which command changes the turtle cursor appearance?",
+      "options": [
+        "shape()",
+        "append()",
+        "read_csv()",
+        "except()"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "shape()",
+      "correctAnswer": "shape()",
+      "explanation": "The correct answer is shape().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q101",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q102",
+      "question": "What turn angle is used to draw a square with right turns?",
+      "options": [
+        "45 degrees",
+        "60 degrees",
+        "90 degrees",
+        "120 degrees"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "90 degrees",
+      "correctAnswer": "90 degrees",
+      "explanation": "The correct answer is 90 degrees.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q102",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q103",
+      "question": "What turn angle is commonly used for an equilateral triangle in turtle?",
+      "options": [
+        "60 degrees",
+        "90 degrees",
+        "120 degrees",
+        "180 degrees"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "120 degrees",
+      "correctAnswer": "120 degrees",
+      "explanation": "The correct answer is 120 degrees.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q103",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q104",
+      "question": "For a regular polygon with n sides, the turtle turn angle is:",
+      "options": [
+        "n / 360",
+        "360 / n",
+        "180 / n",
+        "n * 90"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "360 / n",
+      "correctAnswer": "360 / n",
+      "explanation": "The correct answer is 360 / n.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q104",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q105",
+      "question": "Which code idea correctly draws a square?",
+      "options": [
+        "Repeat 4 times: forward and right 90.",
+        "Repeat 3 times: forward and right 90.",
+        "Repeat 5 times: forward and right 120.",
+        "Use only penup() four times."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Repeat 4 times: forward and right 90.",
+      "correctAnswer": "Repeat 4 times: forward and right 90.",
+      "explanation": "The correct answer is Repeat 4 times: forward and right 90..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q105",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q106",
+      "question": "Why is turtle useful in learning loops?",
+      "options": [
+        "It hides all program output.",
+        "It visually shows repeated movement and shapes.",
+        "It prevents every syntax error.",
+        "It replaces the need for indentation."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It visually shows repeated movement and shapes.",
+      "correctAnswer": "It visually shows repeated movement and shapes.",
+      "explanation": "The correct answer is It visually shows repeated movement and shapes..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q106",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q107",
+      "question": "Error handling is mainly used to:",
+      "options": [
+        "make programs longer only.",
+        "identify, manage, and respond to errors reliably.",
+        "avoid using variables.",
+        "draw better bar charts."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "identify, manage, and respond to errors reliably.",
+      "correctAnswer": "identify, manage, and respond to errors reliably.",
+      "explanation": "The correct answer is identify, manage, and respond to errors reliably..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q107",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q108",
+      "question": "Which block contains risky code that may produce an exception?",
+      "options": [
+        "try",
+        "except",
+        "else",
+        "finally"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "try",
+      "correctAnswer": "try",
+      "explanation": "The correct answer is try.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q108",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q109",
+      "question": "Which block handles an exception raised inside try?",
+      "options": [
+        "try",
+        "except",
+        "else",
+        "import"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "except",
+      "correctAnswer": "except",
+      "explanation": "The correct answer is except.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q109",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q110",
+      "question": "When does the else block in exception handling run?",
+      "options": [
+        "Always, even when an exception occurs.",
+        "Only when no exception occurs in the try block.",
+        "Only before try.",
+        "Only for syntax errors."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Only when no exception occurs in the try block.",
+      "correctAnswer": "Only when no exception occurs in the try block.",
+      "explanation": "The correct answer is Only when no exception occurs in the try block..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q110",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q111",
+      "question": "When does the finally block run?",
+      "options": [
+        "Only when ZeroDivisionError occurs.",
+        "Only when no error occurs.",
+        "Always, whether exception occurs or not.",
+        "Only before try."
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Always, whether exception occurs or not.",
+      "correctAnswer": "Always, whether exception occurs or not.",
+      "explanation": "The correct answer is Always, whether exception occurs or not..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q111",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q112",
+      "question": "A syntax error occurs when:",
+      "options": [
+        "the program grammar or syntax rules are broken.",
+        "the program gives wrong output but still runs.",
+        "a file is not found during execution only.",
+        "a chart has no title."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "the program grammar or syntax rules are broken.",
+      "correctAnswer": "the program grammar or syntax rules are broken.",
+      "explanation": "The correct answer is the program grammar or syntax rules are broken..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q112",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q113",
+      "question": "Which is an example of a syntax error?",
+      "options": [
+        "10 / 0",
+        "int(\"abc\")",
+        "missing colon after if condition",
+        "wrong average formula"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "missing colon after if condition",
+      "correctAnswer": "missing colon after if condition",
+      "explanation": "The correct answer is missing colon after if condition.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q113",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q114",
+      "question": "A runtime error occurs:",
+      "options": [
+        "before Python reads any code.",
+        "while the program is running after syntax is correct.",
+        "only when a variable name is meaningful.",
+        "only in comments."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "while the program is running after syntax is correct.",
+      "correctAnswer": "while the program is running after syntax is correct.",
+      "explanation": "The correct answer is while the program is running after syntax is correct..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q114",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q115",
+      "question": "Which expression commonly causes ZeroDivisionError?",
+      "options": [
+        "10 / 0",
+        "10 + 0",
+        "10 * 0",
+        "10 ** 0"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "10 / 0",
+      "correctAnswer": "10 / 0",
+      "explanation": "The correct answer is 10 / 0.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q115",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q116",
+      "question": "Which code commonly causes ValueError?",
+      "options": [
+        "int(\"abc\")",
+        "10 + 20",
+        "print(\"Hello\")",
+        "range(5)"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "int(\"abc\")",
+      "correctAnswer": "int(\"abc\")",
+      "explanation": "The correct answer is int(\"abc\").\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q116",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q117",
+      "question": "Which error can occur when opening a missing file?",
+      "options": [
+        "SyntaxError only",
+        "FileNotFoundError",
+        "LogicalError built-in",
+        "IndentationSuccess"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "FileNotFoundError",
+      "correctAnswer": "FileNotFoundError",
+      "explanation": "The correct answer is FileNotFoundError.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q117",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q118",
+      "question": "A logical error means:",
+      "options": [
+        "the program cannot start because of broken syntax.",
+        "the program runs but produces wrong output due to wrong logic.",
+        "the file mode is always r.",
+        "Python is not installed."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "the program runs but produces wrong output due to wrong logic.",
+      "correctAnswer": "the program runs but produces wrong output due to wrong logic.",
+      "explanation": "The correct answer is the program runs but produces wrong output due to wrong logic..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q118",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q119",
+      "question": "Which is an example of a logical error?",
+      "options": [
+        "print(\"Hello) missing quote",
+        "10 / 0",
+        "wrong average formula because brackets are missing",
+        "opening a missing file"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "wrong average formula because brackets are missing",
+      "correctAnswer": "wrong average formula because brackets are missing",
+      "explanation": "The correct answer is wrong average formula because brackets are missing.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q119",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q120",
+      "question": "Why is wrong_average = first + second / 2 logically wrong for average?",
+      "options": [
+        "Division happens before addition, so brackets are needed.",
+        "Python cannot divide numbers.",
+        "Variables cannot store marks.",
+        "second must be a string."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Division happens before addition, so brackets are needed.",
+      "correctAnswer": "Division happens before addition, so brackets are needed.",
+      "explanation": "The correct answer is Division happens before addition, so brackets are needed..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q120",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q121",
+      "question": "Which exception should handle invalid numeric input from int(input())?",
+      "options": [
+        "ValueError",
+        "ZeroDivisionError",
+        "NameError only",
+        "IndexTitleError"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "ValueError",
+      "correctAnswer": "ValueError",
+      "explanation": "The correct answer is ValueError.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q121",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q122",
+      "question": "Which exception should handle denominator 0 in division?",
+      "options": [
+        "ValueError",
+        "ZeroDivisionError",
+        "FileNotFoundError",
+        "ImportWarning only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "ZeroDivisionError",
+      "correctAnswer": "ZeroDivisionError",
+      "explanation": "The correct answer is ZeroDivisionError.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q122",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q123",
+      "question": "What is the benefit of handling exceptions?",
+      "options": [
+        "It prevents sudden program termination and shows proper messages.",
+        "It removes the need for testing.",
+        "It makes every answer correct automatically.",
+        "It changes all files into CSV files."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It prevents sudden program termination and shows proper messages.",
+      "correctAnswer": "It prevents sudden program termination and shows proper messages.",
+      "explanation": "The correct answer is It prevents sudden program termination and shows proper messages..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q123",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q124",
+      "question": "Which statement about multiple except blocks is correct?",
+      "options": [
+        "They can handle different specific exceptions.",
+        "They are never allowed in Python.",
+        "They must all have the same exception name.",
+        "They run before the try block."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "They can handle different specific exceptions.",
+      "correctAnswer": "They can handle different specific exceptions.",
+      "explanation": "The correct answer is They can handle different specific exceptions..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q124",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q125",
+      "question": "Which block is best for cleanup tasks such as closing files or printing \"Program ended\"?",
+      "options": [
+        "try",
+        "except",
+        "finally",
+        "elif"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "finally",
+      "correctAnswer": "finally",
+      "explanation": "The correct answer is finally.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q125",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q126",
+      "question": "A file is best defined as:",
+      "options": [
+        "a collection of data stored on a storage device as a single unit with a filename.",
+        "a condition inside an if statement.",
+        "a turtle movement command.",
+        "a logical operator."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "a collection of data stored on a storage device as a single unit with a filename.",
+      "correctAnswer": "a collection of data stored on a storage device as a single unit with a filename.",
+      "explanation": "The correct answer is a collection of data stored on a storage device as a single unit with a filename..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q126",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q127",
+      "question": "File handling includes:",
+      "options": [
+        "only drawing bar charts.",
+        "creating, opening, reading, writing, appending, and closing files.",
+        "only writing print statements.",
+        "only importing math."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "creating, opening, reading, writing, appending, and closing files.",
+      "correctAnswer": "creating, opening, reading, writing, appending, and closing files.",
+      "explanation": "The correct answer is creating, opening, reading, writing, appending, and closing files..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q127",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q128",
+      "question": "Which file mode opens a file for reading and gives an error if the file does not exist?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "r",
+      "correctAnswer": "r",
+      "explanation": "The correct answer is r.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q128",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q129",
+      "question": "Which file mode overwrites old content if the file already exists?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "w",
+      "correctAnswer": "w",
+      "explanation": "The correct answer is w.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q129",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q130",
+      "question": "Which file mode adds new content at the end of an existing file?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "a",
+      "correctAnswer": "a",
+      "explanation": "The correct answer is a.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q130",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q131",
+      "question": "Which file mode is used to create a new file and gives an error if the same file already exists?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "x",
+      "correctAnswer": "x",
+      "explanation": "The correct answer is x.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q131",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q132",
+      "question": "Which method reads the full content of a file?",
+      "options": [
+        "read()",
+        "readline()",
+        "readrows()",
+        "readtitle()"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "read()",
+      "correctAnswer": "read()",
+      "explanation": "The correct answer is read().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q132",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q133",
+      "question": "Which statement about write mode is correct?",
+      "options": [
+        "It always keeps old content safe.",
+        "It may delete/overwrite old content.",
+        "It can only read files.",
+        "It is the same as append mode."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It may delete/overwrite old content.",
+      "correctAnswer": "It may delete/overwrite old content.",
+      "explanation": "The correct answer is It may delete/overwrite old content..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q133",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q134",
+      "question": "Why should a file be closed after work?",
+      "options": [
+        "To release system resources and save changes properly.",
+        "To convert it to a list automatically.",
+        "To make it a Python module.",
+        "To remove all exceptions."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "To release system resources and save changes properly.",
+      "correctAnswer": "To release system resources and save changes properly.",
+      "explanation": "The correct answer is To release system resources and save changes properly..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q134",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q135",
+      "question": "What is the advantage of using with open()?",
+      "options": [
+        "It automatically closes the file after the block.",
+        "It always creates charts.",
+        "It removes the need for variables.",
+        "It opens only CSV files."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It automatically closes the file after the block.",
+      "correctAnswer": "It automatically closes the file after the block.",
+      "explanation": "The correct answer is It automatically closes the file after the block..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q135",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q136",
+      "question": "CSV stands for:",
+      "options": [
+        "Computer Stored Values",
+        "Comma Separated Values",
+        "Code Syntax Validator",
+        "Column Sorted Variable"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Comma Separated Values",
+      "correctAnswer": "Comma Separated Values",
+      "explanation": "The correct answer is Comma Separated Values.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q136",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q137",
+      "question": "Which built-in module reads CSV rows using csv.reader()?",
+      "options": [
+        "math",
+        "csv",
+        "random",
+        "turtle"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "csv",
+      "correctAnswer": "csv",
+      "explanation": "The correct answer is csv.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q137",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q138",
+      "question": "Which Pandas function reads a CSV file into a DataFrame?",
+      "options": [
+        "pd.open_csv()",
+        "pd.read_csv()",
+        "pd.csv_reader()",
+        "pd.file_csv()"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "pd.read_csv()",
+      "correctAnswer": "pd.read_csv()",
+      "explanation": "The correct answer is pd.read_csv().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q138",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q139",
+      "question": "In Pandas, df[\"Marks\"] accesses:",
+      "options": [
+        "a specific column.",
+        "a file mode.",
+        "a turtle shape.",
+        "a logical operator."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "a specific column.",
+      "correctAnswer": "a specific column.",
+      "explanation": "The correct answer is a specific column..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q139",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q140",
+      "question": "What is the purpose of index=False in df.to_csv(\"file.csv\", index=False)?",
+      "options": [
+        "It prevents row index numbers from being written into the CSV file.",
+        "It deletes all columns.",
+        "It changes CSV into turtle drawing.",
+        "It reads only the first row."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It prevents row index numbers from being written into the CSV file.",
+      "correctAnswer": "It prevents row index numbers from being written into the CSV file.",
+      "explanation": "The correct answer is It prevents row index numbers from being written into the CSV file..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q140",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q141",
+      "question": "Data visualization means:",
+      "options": [
+        "representing data using charts, graphs, and visual forms.",
+        "storing data only in text files.",
+        "converting every value into a Boolean.",
+        "handling only syntax errors."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "representing data using charts, graphs, and visual forms.",
+      "correctAnswer": "representing data using charts, graphs, and visual forms.",
+      "explanation": "The correct answer is representing data using charts, graphs, and visual forms..\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q141",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q142",
+      "question": "Which chart is best for showing change or trend over time?",
+      "options": [
+        "Pie chart",
+        "Line plot",
+        "Histogram",
+        "Single text file"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Line plot",
+      "correctAnswer": "Line plot",
+      "explanation": "The correct answer is Line plot.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q142",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q143",
+      "question": "Which chart uses rectangular bars to compare categories?",
+      "options": [
+        "Bar chart",
+        "Scatter plot",
+        "Pie chart",
+        "Histogram only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Bar chart",
+      "correctAnswer": "Bar chart",
+      "explanation": "The correct answer is Bar chart.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q143",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q144",
+      "question": "Which chart is best for showing parts of a whole?",
+      "options": [
+        "Line plot",
+        "Pie chart",
+        "Scatter plot",
+        "DataFrame only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Pie chart",
+      "correctAnswer": "Pie chart",
+      "explanation": "The correct answer is Pie chart.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q144",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q145",
+      "question": "Which chart shows relationship between two numerical variables using points?",
+      "options": [
+        "Scatter plot",
+        "Pie chart",
+        "File mode chart",
+        "CSV header"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Scatter plot",
+      "correctAnswer": "Scatter plot",
+      "explanation": "The correct answer is Scatter plot.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q145",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q146",
+      "question": "Which Matplotlib function displays the final chart?",
+      "options": [
+        "plt.show()",
+        "plt.read()",
+        "plt.open()",
+        "plt.closefile()"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "plt.show()",
+      "correctAnswer": "plt.show()",
+      "explanation": "The correct answer is plt.show().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q146",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q147",
+      "question": "Which Matplotlib functions add x-axis and y-axis labels?",
+      "options": [
+        "plt.title() and plt.show()",
+        "plt.xlabel() and plt.ylabel()",
+        "plt.read_csv() and plt.to_csv()",
+        "plt.try() and plt.except()"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "plt.xlabel() and plt.ylabel()",
+      "correctAnswer": "plt.xlabel() and plt.ylabel()",
+      "explanation": "The correct answer is plt.xlabel() and plt.ylabel().\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q147",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q148",
+      "question": "Which visualization library is built on top of Matplotlib and works well with Pandas DataFrames?",
+      "options": [
+        "Seaborn",
+        "random",
+        "csv",
+        "turtle"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Seaborn",
+      "correctAnswer": "Seaborn",
+      "explanation": "The correct answer is Seaborn.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q148",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q149",
+      "question": "Which Python library is used for interactive charts with zooming and browser/notebook viewing?",
+      "options": [
+        "Plotly",
+        "math",
+        "csv",
+        "turtle"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Plotly",
+      "correctAnswer": "Plotly",
+      "explanation": "The correct answer is Plotly.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q149",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-programming-in-python-q150",
+      "question": "Which chart type shows frequency distribution of numerical data?",
+      "options": [
+        "Histogram",
+        "Pie chart only",
+        "Line plot only",
+        "CSV chart"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Histogram",
+      "correctAnswer": "Histogram",
+      "explanation": "The correct answer is Histogram.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "programming-in-python"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "programming-in-python",
+      "legacyId": "english-computer-programming-in-python-q150",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
+}

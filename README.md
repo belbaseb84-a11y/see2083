@@ -333,3 +333,15 @@ Reworked the About page into a public, future-ready overview for SEE 2083. The p
 ## Phase LAUNCH-FIX.1 Final Beta Readiness Fixes
 
 Fixed the chapter infographic action handling, including the Unit 18 Hydrocarbons route. The URL `medium` parameter now overrides stored medium state, search input reflects the `q=` URL query, and the resource viewer loading state waits for the active iframe preview to load. Utilization of Electrical Energy routes were verified. No content or MCQ files were changed.
+
+## Phase STRUCTURE+MCQ.1 Computer and Technical MCQ Structure
+
+Created and verified the Computer subject structure and the four Technical / Electrical subject structures. Prepared MCQ JSON files were imported where their answer data is ready for student use, with source-flagged units held for review rather than published prematurely. Content and search indexes were updated where needed. The About page was redesigned with a premium soft UI treatment and a developer contact card. Existing Science systems were preserved.
+
+## Phase MCQ-IMPORT-FIX.1 Import Diagnosis and Route Fix
+
+The `_import-mcqs` folder was not present in the project during this check, but Computer and Technical MCQ target files were already present under `content/`. The Computer Network target file contained real questions with valid answer indexes but lacked the quiz loader's compatibility metadata; it was normalized so its quiz route now loads. Published Computer, Basic Electronics, Electrical Machine, Industrial Installation, and Power Factor routes remain available, while source-held draft units remain unavailable until reviewed. No MCQs were generated.
+
+## Phase TECH-STRUCTURE-LOCK.1 Technical Stream Structure Lock
+
+Locked the approved Technical / Electrical stream structure for the four electrical subjects. Unit titles, slugs, content-index entries, search labels, and runtime labels were verified and corrected where needed. MCQ content was not changed in this phase, and held/draft MCQ units remain safely unpublished.

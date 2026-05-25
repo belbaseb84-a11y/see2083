@@ -1,0 +1,1518 @@
+{
+  "medium": "electrical",
+  "mediumId": "electrical",
+  "subject": "basic-electronics",
+  "subjectId": "basic-electronics",
+  "subjectTitle": "Basic Electronics",
+  "chapter": "field-effect-transistors",
+  "unitSlug": "field-effect-transistors",
+  "chapterTitle": "Field Effect Transistors",
+  "unit": 6,
+  "unitTitle": "Field Effect Transistors",
+  "mcqKey": "mcq:electrical/basic-electronics/field-effect-transistors",
+  "status": "published",
+  "version": 1,
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q001",
+      "question": "FETs are ______.",
+      "options": [
+        "Unipolar devices",
+        "Bipolar devices",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Unipolar devices",
+      "correctAnswer": "Unipolar devices",
+      "explanation": "FETs use majority carriers only.\nSo they are unipolar devices.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q001",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q002",
+      "question": "How many terminals are there in a field effect transistor?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "3",
+      "correctAnswer": "3",
+      "explanation": "A FET has three terminals.\nThey are source, gate and drain.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q002",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q003",
+      "question": "In a metal oxide semiconductor FET, the metal oxide layer acts as a/an ______.",
+      "options": [
+        "Electric field",
+        "Capacitor",
+        "Dielectric",
+        "Gate"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Dielectric",
+      "correctAnswer": "Dielectric",
+      "explanation": "The oxide layer acts as an insulating dielectric.\nIt separates the gate from the channel.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q003",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q004",
+      "question": "For n-JFET, the channel is a/an ______ channel and gates are ______.",
+      "options": [
+        "N type, P type",
+        "P type, P type",
+        "N type, N type",
+        "P type, N type"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "N type, P type",
+      "correctAnswer": "N type, P type",
+      "explanation": "An n-channel JFET has n-type channel.\nIts gate regions are p-type.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q004",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q005",
+      "question": "FET is a ______ controlled device.",
+      "options": [
+        "Current",
+        "Resistance",
+        "Impedance",
+        "Voltage"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Voltage",
+      "correctAnswer": "Voltage",
+      "explanation": "FET is controlled by voltage.\nGate-source voltage controls drain current.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q005",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q006",
+      "question": "Which of the following is NOT true for JFET?",
+      "options": [
+        "Drain current is controlled by changing the channel width.",
+        "Gate-source p-n junction is always forward biased.",
+        "JFET is a voltage-controlled three terminal device.",
+        "Gate-source p-n junction is always reverse biased."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Gate-source p-n junction is always forward biased.",
+      "correctAnswer": "Gate-source p-n junction is always forward biased.",
+      "explanation": "JFET gate-source junction is reverse biased.\nSo the statement saying always forward biased is not true.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q006",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q007",
+      "question": "Which of the following terminals does not belong to the MOSFET?",
+      "options": [
+        "Drain",
+        "Gate",
+        "Base",
+        "Source"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Base",
+      "correctAnswer": "Base",
+      "explanation": "Base is a BJT terminal, not MOSFET terminal.\nMOSFET terminals are drain, gate and source.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q007",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q008",
+      "question": "The arrow on the symbol of MOSFET indicates ______.",
+      "options": [
+        "That it is a N-channel MOSFET",
+        "The direction of electrons",
+        "The direction of conventional current flow",
+        "That it is a P-channel MOSFET"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "The direction of conventional current flow",
+      "correctAnswer": "The direction of conventional current flow",
+      "explanation": "The arrow shows conventional current direction.\nIt helps identify channel type in symbols.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q008",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q009",
+      "question": "The controlling parameter in MOSFET is ______.",
+      "options": [
+        "Vds",
+        "Ig",
+        "VGS",
+        "IS"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "VGS",
+      "correctAnswer": "VGS",
+      "explanation": "Gate-source voltage controls MOSFET.\nThe controlling parameter is VGS.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q009",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q010",
+      "question": "Choose the correct statement.",
+      "options": [
+        "MOSFET is a unipolar, voltage controlled, two terminal device",
+        "MOSFET is a bipolar, current controlled, three terminal device",
+        "MOSFET is a unipolar, voltage controlled, three terminal device",
+        "MOSFET is a bipolar, current controlled, two terminal device"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "MOSFET is a unipolar, voltage controlled, three terminal device",
+      "correctAnswer": "MOSFET is a unipolar, voltage controlled, three terminal device",
+      "explanation": "MOSFET is a unipolar device.\nIt is voltage controlled and has three terminals.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q010",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q011",
+      "question": "What does FET stand for?",
+      "options": [
+        "Forward Effect Transistor",
+        "Full Energy Transformer",
+        "Field Effect Transistor",
+        "Field Electric Terminal"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Field Effect Transistor",
+      "correctAnswer": "Field Effect Transistor",
+      "explanation": "FET means Field Effect Transistor.\nIts current is controlled by electric field effect.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q011",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q012",
+      "question": "Which terminals are found in a FET?",
+      "options": [
+        "Emitter, base and collector",
+        "Anode, cathode and gate",
+        "Input, output and clock",
+        "Source, gate and drain"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Source, gate and drain",
+      "correctAnswer": "Source, gate and drain",
+      "explanation": "FET has source, gate and drain terminals.\nBase, emitter and collector belong to BJT.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q012",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q013",
+      "question": "Which terminal controls current in FET?",
+      "options": [
+        "Gate",
+        "Source",
+        "Drain",
+        "Collector"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Gate",
+      "correctAnswer": "Gate",
+      "explanation": "Gate controls the channel current.\nIt controls current by voltage.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q014",
+      "question": "Which terminal supplies carriers into the channel?",
+      "options": [
+        "Gate",
+        "Source",
+        "Drain",
+        "Base"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Source",
+      "correctAnswer": "Source",
+      "explanation": "Source is one terminal of FET.\nIt is the carrier source side of the channel.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q015",
+      "question": "Which terminal collects carriers from the channel?",
+      "options": [
+        "Gate",
+        "Source",
+        "Drain",
+        "Emitter"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Drain",
+      "correctAnswer": "Drain",
+      "explanation": "Drain is a FET terminal.\nDrain current flows through the channel.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q016",
+      "question": "Which type of FET has a p-n junction gate?",
+      "options": [
+        "MOSFET",
+        "BJT",
+        "Zener diode",
+        "JFET"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "JFET",
+      "correctAnswer": "JFET",
+      "explanation": "JFET means Junction Field Effect Transistor.\nIts gate-source junction is reverse biased.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q017",
+      "question": "Which type of FET has insulated gate with metal oxide?",
+      "options": [
+        "MOSFET",
+        "JFET",
+        "BJT",
+        "PN diode"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "MOSFET",
+      "correctAnswer": "MOSFET",
+      "explanation": "MOSFET has metal oxide gate insulation.\nThe oxide layer acts as dielectric.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q018",
+      "question": "What does MOSFET stand for?",
+      "options": [
+        "Metal Ordinary Semiconductor Field Effect Transistor",
+        "Metal Oxide Semiconductor Field Effect Transistor",
+        "Main Oxide Silicon Fast Electronic Transistor",
+        "Metal Output Source Field Effect Transistor"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Metal Oxide Semiconductor Field Effect Transistor",
+      "correctAnswer": "Metal Oxide Semiconductor Field Effect Transistor",
+      "explanation": "MOSFET means Metal Oxide Semiconductor Field Effect Transistor.\nIts gate is insulated by oxide layer.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q019",
+      "question": "What does JFET stand for?",
+      "options": [
+        "Joint Frequency Electric Terminal",
+        "Junction Forward Electron Transformer",
+        "Junction Field Effect Transistor",
+        "Java Field Electric Table"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Junction Field Effect Transistor",
+      "correctAnswer": "Junction Field Effect Transistor",
+      "explanation": "JFET means Junction Field Effect Transistor.\nIt is a voltage-controlled FET.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q020",
+      "question": "Which FET is voltage controlled?",
+      "options": [
+        "Only resistor",
+        "Only capacitor",
+        "Only inductor",
+        "Both JFET and MOSFET"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Both JFET and MOSFET",
+      "correctAnswer": "Both JFET and MOSFET",
+      "explanation": "FETs are voltage controlled devices.\nGate voltage controls the current.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q021",
+      "question": "Which bias is normally applied to gate-source junction of JFET?",
+      "options": [
+        "Reverse bias",
+        "Forward bias",
+        "Zero bias only",
+        "Short circuit bias"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Reverse bias",
+      "correctAnswer": "Reverse bias",
+      "explanation": "JFET gate-source junction is reverse biased.\nThis controls channel width.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q022",
+      "question": "How is drain current controlled in JFET?",
+      "options": [
+        "By resistor color",
+        "By changing channel width",
+        "By capacitor code",
+        "By binary addition"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "By changing channel width",
+      "correctAnswer": "By changing channel width",
+      "explanation": "Gate voltage changes channel width.\nThis controls drain current.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q023",
+      "question": "Which JFET channel type has p-type channel?",
+      "options": [
+        "N-channel JFET",
+        "NPN transistor",
+        "P-channel JFET",
+        "Zener diode"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "P-channel JFET",
+      "correctAnswer": "P-channel JFET",
+      "explanation": "P-channel JFET has p-type channel.\nIts gate regions are n-type.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q024",
+      "question": "Which JFET channel type has n-type channel?",
+      "options": [
+        "P-channel JFET",
+        "PNP transistor",
+        "LED",
+        "N-channel JFET"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "N-channel JFET",
+      "correctAnswer": "N-channel JFET",
+      "explanation": "N-channel JFET has n-type channel.\nIts gate regions are p-type.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q025",
+      "question": "Which MOSFET type works by depletion mode?",
+      "options": [
+        "D-MOSFET",
+        "E-MOSFET only",
+        "BJT",
+        "Photodiode"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "D-MOSFET",
+      "correctAnswer": "D-MOSFET",
+      "explanation": "D-MOSFET is depletion type MOSFET.\nIt is one classification based on operation mode.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q026",
+      "question": "Which MOSFET type works by enhancement mode?",
+      "options": [
+        "D-MOSFET only",
+        "E-MOSFET",
+        "JFET only",
+        "Rectifier diode"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "E-MOSFET",
+      "correctAnswer": "E-MOSFET",
+      "explanation": "E-MOSFET is enhancement type MOSFET.\nIt is another MOSFET classification.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q027",
+      "question": "Which MOSFET channel type is listed in the source?",
+      "options": [
+        "Emitter-channel MOSFET",
+        "Base-channel MOSFET",
+        "P-channel MOSFET",
+        "Collector-channel MOSFET"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "P-channel MOSFET",
+      "correctAnswer": "P-channel MOSFET",
+      "explanation": "P-channel MOSFET is listed in the source.\nN-channel MOSFET is also listed.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q028",
+      "question": "Which other MOSFET channel type is listed in the source?",
+      "options": [
+        "Base-channel MOSFET",
+        "Emitter-channel MOSFET",
+        "Truth-channel MOSFET",
+        "N-channel MOSFET"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "N-channel MOSFET",
+      "correctAnswer": "N-channel MOSFET",
+      "explanation": "N-channel MOSFET is listed in the source.\nMOSFETs are classified by channel type.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q029",
+      "question": "Which material is commonly used as insulating layer in MOSFET?",
+      "options": [
+        "Silicon dioxide",
+        "Copper oxide only",
+        "Gold plate",
+        "Iron core"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Silicon dioxide",
+      "correctAnswer": "Silicon dioxide",
+      "explanation": "The source says silicon dioxide is commonly used.\nIt is a thin insulating material like glass.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q030",
+      "question": "Why is gate current very small in MOSFET?",
+      "options": [
+        "Gate is emitter",
+        "Gate is insulated",
+        "Gate is collector",
+        "Gate is a resistor band"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Gate is insulated",
+      "correctAnswer": "Gate is insulated",
+      "explanation": "MOSFET gate is insulated by oxide.\nThis gives very high input resistance.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q031",
+      "question": "Which device has base terminal?",
+      "options": [
+        "MOSFET",
+        "JFET",
+        "BJT",
+        "Capacitor"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "BJT",
+      "correctAnswer": "BJT",
+      "explanation": "Base is the terminal of BJT.\nFET has gate, source and drain.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q032",
+      "question": "Which device has gate terminal?",
+      "options": [
+        "BJT only",
+        "Resistor",
+        "Capacitor",
+        "FET"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "FET",
+      "correctAnswer": "FET",
+      "explanation": "FET has a gate terminal.\nGate voltage controls drain current.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q033",
+      "question": "Which device is unipolar?",
+      "options": [
+        "FET",
+        "BJT",
+        "PN diode only",
+        "Transformer"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "FET",
+      "correctAnswer": "FET",
+      "explanation": "FET is unipolar.\nIt uses majority carriers only.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q034",
+      "question": "Which device is bipolar?",
+      "options": [
+        "JFET",
+        "BJT",
+        "MOSFET",
+        "Capacitor"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "BJT",
+      "correctAnswer": "BJT",
+      "explanation": "BJT is bipolar.\nIt uses electrons and holes.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q035",
+      "question": "Which FET application is switching?",
+      "options": [
+        "Resistor color code",
+        "Binary subtraction only",
+        "FET as switch",
+        "Capacitor numeric code"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "FET as switch",
+      "correctAnswer": "FET as switch",
+      "explanation": "FET can be used as a switch.\nThe project work includes demonstrating FET as a switch.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q036",
+      "question": "Which practical work asks students to identify FET terminals?",
+      "options": [
+        "Find resistor color only",
+        "Find diode anode only",
+        "Draw truth table only",
+        "Identify source, gate and drain"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Identify source, gate and drain",
+      "correctAnswer": "Identify source, gate and drain",
+      "explanation": "The unit includes identifying FET terminals.\nFET terminals are source, gate and drain.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q037",
+      "question": "Which MOSFET operation uses gate-source voltage?",
+      "options": [
+        "Control of channel current",
+        "Capacitor numeric coding",
+        "Inductor magnetic storage",
+        "Binary multiplication"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Control of channel current",
+      "correctAnswer": "Control of channel current",
+      "explanation": "Gate-source voltage controls MOSFET current.\nVGS is the controlling parameter.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q038",
+      "question": "Which terminal voltage is written as VGS?",
+      "options": [
+        "Drain-source voltage",
+        "Gate-source voltage",
+        "Input-output voltage",
+        "Emitter-base voltage"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Gate-source voltage",
+      "correctAnswer": "Gate-source voltage",
+      "explanation": "VGS means gate-source voltage.\nIt is the controlling parameter in MOSFET.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q039",
+      "question": "Which terminal voltage is written as VDS?",
+      "options": [
+        "Gate-source voltage",
+        "Base-emitter voltage",
+        "Drain-source voltage",
+        "Anode-cathode voltage"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Drain-source voltage",
+      "correctAnswer": "Drain-source voltage",
+      "explanation": "VDS means drain-source voltage.\nIt is a MOSFET voltage term.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q040",
+      "question": "What happens when JFET gate reverse bias is changed?",
+      "options": [
+        "Resistor color changes",
+        "Capacitor plate melts",
+        "Truth table entries double",
+        "Channel width changes"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Channel width changes",
+      "correctAnswer": "Channel width changes",
+      "explanation": "Changing reverse bias changes channel width.\nThis controls drain current.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q041",
+      "question": "Which region carries current in a JFET?",
+      "options": [
+        "Channel",
+        "Base",
+        "Collector",
+        "Depletion color band"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Channel",
+      "correctAnswer": "Channel",
+      "explanation": "JFET current flows through the channel.\nChannel can be n-type or p-type.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q042",
+      "question": "Which layer separates MOSFET gate from semiconductor channel?",
+      "options": [
+        "Depletion color layer",
+        "Oxide insulating layer",
+        "Collector metal only",
+        "Emitter layer"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Oxide insulating layer",
+      "correctAnswer": "Oxide insulating layer",
+      "explanation": "The oxide layer insulates the gate.\nIt is usually silicon dioxide.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q043",
+      "question": "What is a key advantage of MOSFET for switching?",
+      "options": [
+        "Low-speed mechanical motion",
+        "Needs high gate current",
+        "High-speed switching",
+        "Works only as resistor"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "High-speed switching",
+      "correctAnswer": "High-speed switching",
+      "explanation": "The unit asks why E-MOSFET is preferred in high-speed switching.\nMOSFET is useful in switching applications.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q044",
+      "question": "Which mode MOSFET is preferred in high-speed switching question?",
+      "options": [
+        "Only BJT",
+        "Only capacitor",
+        "Only diode",
+        "E-MOSFET"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "E-MOSFET",
+      "correctAnswer": "E-MOSFET",
+      "explanation": "The source asks about E-MOSFET in high-speed switching.\nIt is an enhancement-mode MOSFET.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q045",
+      "question": "Which comparison is included in Unit 6 long answer?",
+      "options": [
+        "Depletion-mode and enhancement-mode MOSFETs",
+        "Resistor and capacitor only",
+        "LED and lamp only",
+        "Transformer and motor only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Depletion-mode and enhancement-mode MOSFETs",
+      "correctAnswer": "Depletion-mode and enhancement-mode MOSFETs",
+      "explanation": "Unit 6 asks to compare depletion and enhancement MOSFETs.\nThis is a source-based long-answer topic.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q046",
+      "question": "Which comparison is included in Unit 6 short answer?",
+      "options": [
+        "Resistor and inductor",
+        "BJT and MOSFET",
+        "NAND and NOR",
+        "Transformer and rectifier"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "BJT and MOSFET",
+      "correctAnswer": "BJT and MOSFET",
+      "explanation": "Unit 6 asks to differentiate BJT and MOSFET.\nThe comparison belongs to FET unit.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q047",
+      "question": "Which FET type has no direct gate-channel connection due to insulation?",
+      "options": [
+        "JFET",
+        "BJT",
+        "MOSFET",
+        "PN diode"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "MOSFET",
+      "correctAnswer": "MOSFET",
+      "explanation": "MOSFET gate is insulated from channel.\nThe oxide layer works as dielectric.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q048",
+      "question": "Which FET type controls current by reverse-biased p-n junction?",
+      "options": [
+        "MOSFET",
+        "BJT",
+        "LED",
+        "JFET"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "JFET",
+      "correctAnswer": "JFET",
+      "explanation": "JFET uses reverse-biased gate junction.\nThis varies the channel width.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q049",
+      "question": "What is the main controlling input in FET?",
+      "options": [
+        "Voltage",
+        "Current",
+        "Resistance color",
+        "Capacitor tolerance"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Voltage",
+      "correctAnswer": "Voltage",
+      "explanation": "FET is voltage controlled.\nGate voltage controls drain current.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-field-effect-transistors-q050",
+      "question": "What is the output current of FET commonly called?",
+      "options": [
+        "Base current",
+        "Drain current",
+        "Emitter current",
+        "Capacitance current"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Drain current",
+      "correctAnswer": "Drain current",
+      "explanation": "FET output current is drain current.\nIt flows through drain-source path.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "field-effect-transistors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "field-effect-transistors",
+      "legacyId": "electrical-basic-electronics-field-effect-transistors-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
+}

@@ -1,0 +1,1518 @@
+{
+  "medium": "electrical",
+  "mediumId": "electrical",
+  "subject": "basic-electronics",
+  "subjectId": "basic-electronics",
+  "subjectTitle": "Basic Electronics",
+  "chapter": "semiconductor-diode",
+  "unitSlug": "semiconductor-diode",
+  "chapterTitle": "Semiconductor Diode",
+  "unit": 3,
+  "unitTitle": "Semiconductor Diode",
+  "mcqKey": "mcq:electrical/basic-electronics/semiconductor-diode",
+  "status": "published",
+  "version": 1,
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q001",
+      "question": "With forward biased mode, the p-n junction diode ______.",
+      "options": [
+        "Is one in which width of depletion layer increases",
+        "Is one in which potential barrier increases",
+        "Acts as closed switch",
+        "Acts as open switch"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Acts as closed switch",
+      "correctAnswer": "Acts as closed switch",
+      "explanation": "In forward bias, diode conducts current.\nSo it behaves like a closed switch.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q001",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q002",
+      "question": "In the reverse biasing of a p-n junction diode ______.",
+      "options": [
+        "The width of the depletion layer decreases",
+        "The width of the depletion layer increases",
+        "The number of minority charge carriers increase",
+        "The number of majority charge carriers increase"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "The width of the depletion layer increases",
+      "correctAnswer": "The width of the depletion layer increases",
+      "explanation": "Reverse bias increases the depletion layer width.\nIt blocks normal current flow.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q002",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q003",
+      "question": "The resistance of a p-n junction in forward bias is ______.",
+      "options": [
+        "Zero",
+        "Infinity",
+        "Very low",
+        "High"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Very low",
+      "correctAnswer": "Very low",
+      "explanation": "Forward bias gives very low resistance.\nThat is why current can flow easily.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q003",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q004",
+      "question": "The reason of current flow in p-n junction in forward bias is ______.",
+      "options": [
+        "Drifting of charge carriers",
+        "Drifting of minority charge carriers",
+        "Diffusion of charge carriers",
+        "All of the above"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Diffusion of charge carriers",
+      "correctAnswer": "Diffusion of charge carriers",
+      "explanation": "Forward current is mainly due to diffusion of charge carriers.\nMajority carriers cross the junction in forward bias.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q004",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q005",
+      "question": "What is the meaning of doping a semiconductor?",
+      "options": [
+        "Increasing its energy",
+        "Adding impurities to it",
+        "Reducing the band gap",
+        "Heating it to high temperatures"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Adding impurities to it",
+      "correctAnswer": "Adding impurities to it",
+      "explanation": "Doping means adding impurities.\nIt changes the conductivity of semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q005",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q006",
+      "question": "For a reverse biased p-n junction ______.",
+      "options": [
+        "P region is positive and the current is due to electrons",
+        "P region is positive and the current is due to holes",
+        "P region is negative and the current is due to electrons",
+        "P region is negative and the current is due to both electrons and holes"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "P region is negative and the current is due to both electrons and holes",
+      "correctAnswer": "P region is negative and the current is due to both electrons and holes",
+      "explanation": "In reverse bias, p-side is connected to negative supply.\nOnly a very small current due to minority carriers may flow.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q006",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q007",
+      "question": "The increase in the width of the depletion region in a p-n junction diode is due to ______.",
+      "options": [
+        "Both forward bias and reverse bias",
+        "Increase in forward current",
+        "Forward bias only",
+        "Reverse bias only"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Reverse bias only",
+      "correctAnswer": "Reverse bias only",
+      "explanation": "Reverse bias increases depletion width.\nForward bias reduces the barrier and helps conduction.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q007",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q008",
+      "question": "What is formed when p-type and n-type semiconductors are joined?",
+      "options": [
+        "MOSFET",
+        "Logic gate",
+        "Transformer",
+        "PN junction"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "PN junction",
+      "correctAnswer": "PN junction",
+      "explanation": "A PN junction is formed by joining p-type and n-type semiconductors.\nIt is the base of a semiconductor diode.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q008",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q009",
+      "question": "What is the region near the junction without free charge carriers called?",
+      "options": [
+        "Depletion region",
+        "Collector region",
+        "Truth table",
+        "Heat sink"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Depletion region",
+      "correctAnswer": "Depletion region",
+      "explanation": "Depletion region has depleted charge carriers.\nIt is also called depletion layer.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q009",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q010",
+      "question": "Which barrier opposes majority carriers at the PN junction?",
+      "options": [
+        "Color barrier",
+        "Potential barrier",
+        "Heat barrier",
+        "Binary barrier"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Potential barrier",
+      "correctAnswer": "Potential barrier",
+      "explanation": "Potential barrier opposes carrier movement.\nIt is formed at the junction.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q010",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q011",
+      "question": "Which bias makes a PN diode conduct easily?",
+      "options": [
+        "Reverse bias",
+        "No bias",
+        "Forward bias",
+        "Open bias"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Forward bias",
+      "correctAnswer": "Forward bias",
+      "explanation": "Forward bias allows current through diode.\nThe diode behaves like a closed switch.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q011",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q012",
+      "question": "Which bias makes a PN diode block current normally?",
+      "options": [
+        "Forward bias",
+        "Short bias",
+        "Active bias",
+        "Reverse bias"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Reverse bias",
+      "correctAnswer": "Reverse bias",
+      "explanation": "Reverse bias blocks normal current.\nIt increases depletion layer width.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q012",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q013",
+      "question": "In forward bias, the positive terminal is connected to which region?",
+      "options": [
+        "P region",
+        "N region",
+        "Depletion layer only",
+        "Cathode of supply"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "P region",
+      "correctAnswer": "P region",
+      "explanation": "Forward bias connects positive to p-region.\nThis reduces the potential barrier.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q014",
+      "question": "In reverse bias, the positive terminal is connected to which region?",
+      "options": [
+        "P region",
+        "N region",
+        "Both regions equally",
+        "Metal case"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "N region",
+      "correctAnswer": "N region",
+      "explanation": "Reverse bias connects positive to n-region.\nThe p-region is connected to negative supply.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q015",
+      "question": "What happens to depletion layer in forward bias?",
+      "options": [
+        "It becomes wider",
+        "It becomes a capacitor",
+        "It becomes thinner",
+        "It disappears as a wire"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "It becomes thinner",
+      "correctAnswer": "It becomes thinner",
+      "explanation": "Forward bias reduces depletion width.\nThis helps majority carriers cross the junction.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q016",
+      "question": "What happens to potential barrier in forward bias?",
+      "options": [
+        "It increases",
+        "It becomes infinite",
+        "It becomes color code",
+        "It decreases"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "It decreases",
+      "correctAnswer": "It decreases",
+      "explanation": "Forward bias reduces potential barrier.\nCurrent can flow more easily.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q017",
+      "question": "What happens to potential barrier in reverse bias?",
+      "options": [
+        "It increases",
+        "It decreases",
+        "It becomes zero always",
+        "It becomes a resistor"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It increases",
+      "correctAnswer": "It increases",
+      "explanation": "Reverse bias increases the barrier.\nThis blocks majority carrier current.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q018",
+      "question": "Which diode allows current mainly in one direction?",
+      "options": [
+        "Resistor",
+        "PN junction diode",
+        "Inductor",
+        "Breadboard"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "PN junction diode",
+      "correctAnswer": "PN junction diode",
+      "explanation": "A PN junction diode conducts mostly in one direction.\nForward bias conducts and reverse bias blocks.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q019",
+      "question": "What is reverse breakdown?",
+      "options": [
+        "Normal forward current",
+        "Capacitor charging only",
+        "Large reverse current after breakdown voltage",
+        "Resistor color change"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Large reverse current after breakdown voltage",
+      "correctAnswer": "Large reverse current after breakdown voltage",
+      "explanation": "Reverse breakdown occurs in reverse bias at high voltage.\nCurrent increases due to breakdown effect.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q020",
+      "question": "Which breakdown occurs when free electrons ionize lattice atoms?",
+      "options": [
+        "Zener breakdown",
+        "Thermal runaway",
+        "Forward bias",
+        "Avalanche breakdown"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Avalanche breakdown",
+      "correctAnswer": "Avalanche breakdown",
+      "explanation": "Avalanche breakdown is due to impact ionization.\nFree electrons create more free electrons.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q021",
+      "question": "Which breakdown occurs due to very strong electric field across junction?",
+      "options": [
+        "Zener breakdown",
+        "Avalanche breakdown",
+        "Diffusion current",
+        "Color coding"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Zener breakdown",
+      "correctAnswer": "Zener breakdown",
+      "explanation": "Zener breakdown is caused by strong electric field.\nIt breaks covalent bonds and produces many carriers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q022",
+      "question": "Which diode is used for voltage regulation?",
+      "options": [
+        "LED only",
+        "Zener diode",
+        "Photo diode only",
+        "Ordinary resistor"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Zener diode",
+      "correctAnswer": "Zener diode",
+      "explanation": "Zener diode is used in voltage regulation.\nThe source lists it as an application.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q023",
+      "question": "Which diode is used as peak clipper?",
+      "options": [
+        "Capacitor",
+        "Inductor",
+        "Zener diode",
+        "BJT only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Zener diode",
+      "correctAnswer": "Zener diode",
+      "explanation": "Zener diode can be used as peak clipper.\nIt controls voltage level in a circuit.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q024",
+      "question": "Which diode is used to protect meters from accidental overload?",
+      "options": [
+        "NOT gate",
+        "Breadboard",
+        "Air capacitor",
+        "Zener diode"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Zener diode",
+      "correctAnswer": "Zener diode",
+      "explanation": "Zener diode protects meters from overload.\nIt limits voltage in protection circuits.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q025",
+      "question": "Which device emits light when forward biased?",
+      "options": [
+        "LED",
+        "Photodiode",
+        "Zener diode",
+        "Resistor"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "LED",
+      "correctAnswer": "LED",
+      "explanation": "LED gives light when current flows.\nIt is a type of diode introduced in this unit.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q026",
+      "question": "Which diode is sensitive to light?",
+      "options": [
+        "LED",
+        "Photodiode",
+        "Zener diode",
+        "Rectifier diode only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Photodiode",
+      "correctAnswer": "Photodiode",
+      "explanation": "Photodiode works with light.\nIt is included in various diode types.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q027",
+      "question": "Which diode is used in solar cell operation?",
+      "options": [
+        "Varactor only",
+        "Tunnel diode only",
+        "Photovoltaic diode",
+        "Resistor"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Photovoltaic diode",
+      "correctAnswer": "Photovoltaic diode",
+      "explanation": "Photovoltaic action is related with light energy.\nThe unit introduces different special diodes.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q028",
+      "question": "Which diode is commonly used for rectification?",
+      "options": [
+        "NOT gate",
+        "MOSFET gate",
+        "Capacitor code",
+        "PN junction diode"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "PN junction diode",
+      "correctAnswer": "PN junction diode",
+      "explanation": "PN junction diode is used in rectifier circuits.\nIt conducts in forward bias and blocks in reverse bias.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q029",
+      "question": "Which current is very small in reverse bias?",
+      "options": [
+        "Reverse saturation current",
+        "Forward majority current",
+        "Emitter current",
+        "Drain current"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Reverse saturation current",
+      "correctAnswer": "Reverse saturation current",
+      "explanation": "Reverse bias gives very small current.\nIt is mainly due to minority carriers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q030",
+      "question": "What is the direction behavior of diode current?",
+      "options": [
+        "Two-way equal conduction",
+        "One-way conduction",
+        "No conduction in any bias",
+        "Only magnetic conduction"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "One-way conduction",
+      "correctAnswer": "One-way conduction",
+      "explanation": "A diode conducts mainly in one direction.\nThis property is useful in rectifiers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q031",
+      "question": "Which carrier movement causes forward current?",
+      "options": [
+        "Only minority carrier drift",
+        "No charge movement",
+        "Majority carrier diffusion",
+        "Truth table entries"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Majority carrier diffusion",
+      "correctAnswer": "Majority carrier diffusion",
+      "explanation": "Forward current is due to diffusion.\nMajority carriers cross the junction.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q032",
+      "question": "Which condition makes a diode act as an open switch?",
+      "options": [
+        "Forward bias",
+        "Low resistance state",
+        "Closed circuit state",
+        "Reverse bias"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Reverse bias",
+      "correctAnswer": "Reverse bias",
+      "explanation": "Reverse bias blocks current.\nSo the diode behaves like an open switch.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q033",
+      "question": "Which condition makes a diode act as a closed switch?",
+      "options": [
+        "Forward bias",
+        "Reverse bias",
+        "Breakdown only",
+        "No connection"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Forward bias",
+      "correctAnswer": "Forward bias",
+      "explanation": "Forward bias allows current.\nSo the diode behaves like a closed switch.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q034",
+      "question": "Which terminal side of a diode is connected with p-type material?",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Gate",
+        "Drain"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Anode",
+      "correctAnswer": "Anode",
+      "explanation": "The p-side of diode is called anode.\nThe n-side is called cathode.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q035",
+      "question": "Which terminal side of a diode is connected with n-type material?",
+      "options": [
+        "Anode",
+        "Base",
+        "Cathode",
+        "Emitter"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Cathode",
+      "correctAnswer": "Cathode",
+      "explanation": "The n-side of diode is cathode.\nAnode is the p-side.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q036",
+      "question": "Which voltage must be overcome for diode conduction?",
+      "options": [
+        "Color code voltage",
+        "Truth table voltage",
+        "Gate oxide voltage",
+        "Barrier potential"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Barrier potential",
+      "correctAnswer": "Barrier potential",
+      "explanation": "Barrier potential opposes conduction.\nForward bias reduces this barrier.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q037",
+      "question": "What happens to majority carriers in reverse bias?",
+      "options": [
+        "They move away from junction",
+        "They easily cross junction",
+        "They become color bands",
+        "They become truth table inputs"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "They move away from junction",
+      "correctAnswer": "They move away from junction",
+      "explanation": "Reverse bias pulls majority carriers away.\nThis widens the depletion layer.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q038",
+      "question": "What is the main use of a diode in power supply?",
+      "options": [
+        "Amplification only",
+        "Rectification",
+        "Memory storage only",
+        "Binary counting only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Rectification",
+      "correctAnswer": "Rectification",
+      "explanation": "Diode is used for rectification.\nIt changes AC into pulsating DC in rectifier circuits.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q039",
+      "question": "Which special diode operates in reverse breakdown region for useful work?",
+      "options": [
+        "Ordinary LED",
+        "Paper capacitor",
+        "Zener diode",
+        "Inductor"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Zener diode",
+      "correctAnswer": "Zener diode",
+      "explanation": "Zener diode works safely in breakdown region.\nThis is why it is used for voltage regulation.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q040",
+      "question": "Which diode is used as fixed reference voltage?",
+      "options": [
+        "OR gate",
+        "Inductor",
+        "Thermistor",
+        "Zener diode"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Zener diode",
+      "correctAnswer": "Zener diode",
+      "explanation": "Zener diode can provide fixed reference voltage.\nThe source lists fixed reference voltage as an application.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q041",
+      "question": "Which effect produces more carriers by collision ionization?",
+      "options": [
+        "Avalanche effect",
+        "Zener effect",
+        "Capacitance effect",
+        "Color effect"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Avalanche effect",
+      "correctAnswer": "Avalanche effect",
+      "explanation": "Avalanche effect uses collision ionization.\nOne electron creates more electrons by impact.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q042",
+      "question": "Which effect breaks covalent bonds by strong electric field?",
+      "options": [
+        "Avalanche effect",
+        "Zener effect",
+        "Inductive effect",
+        "Logic effect"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Zener effect",
+      "correctAnswer": "Zener effect",
+      "explanation": "Zener effect is due to strong electric field.\nIt produces many charge carriers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q043",
+      "question": "What is the diode state before forward voltage overcomes barrier?",
+      "options": [
+        "Full conduction",
+        "Binary addition",
+        "Poor conduction",
+        "Open collector only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Poor conduction",
+      "correctAnswer": "Poor conduction",
+      "explanation": "The barrier opposes initial current.\nForward bias must reduce the barrier for conduction.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q044",
+      "question": "Which layer is formed because electrons and holes combine near junction?",
+      "options": [
+        "Collector layer",
+        "Metal oxide layer",
+        "Insulator paint",
+        "Depletion layer"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Depletion layer",
+      "correctAnswer": "Depletion layer",
+      "explanation": "Recombination creates the depletion layer.\nThis region lacks free charge carriers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q045",
+      "question": "Which type of bias is needed for normal LED light emission?",
+      "options": [
+        "Forward bias",
+        "Reverse bias",
+        "No bias",
+        "Breakdown bias only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Forward bias",
+      "correctAnswer": "Forward bias",
+      "explanation": "LED emits light when forward biased.\nCurrent must flow through the diode.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q046",
+      "question": "Which term means applying external voltage to a diode?",
+      "options": [
+        "Doping",
+        "Biasing",
+        "Filtering",
+        "Coding"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Biasing",
+      "correctAnswer": "Biasing",
+      "explanation": "Biasing means applying voltage to the junction.\nForward and reverse bias are the two cases.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q047",
+      "question": "Which diode type can be used to detect light?",
+      "options": [
+        "Zener regulator",
+        "Rectifier bridge",
+        "Photodiode",
+        "Fixed resistor"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Photodiode",
+      "correctAnswer": "Photodiode",
+      "explanation": "Photodiode responds to light.\nIt is a special diode type.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q048",
+      "question": "Which diode type converts electrical energy into light?",
+      "options": [
+        "Photodiode",
+        "Zener diode",
+        "Varactor diode",
+        "LED"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "LED",
+      "correctAnswer": "LED",
+      "explanation": "LED emits light from electric current.\nLED stands for light emitting diode.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q049",
+      "question": "What is the main topic of Unit 3?",
+      "options": [
+        "Semiconductor diode",
+        "Power supplies",
+        "Logic gates",
+        "Passive components"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Semiconductor diode",
+      "correctAnswer": "Semiconductor diode",
+      "explanation": "Unit 3 focuses on semiconductor diode.\nIt includes PN junction, biasing and diode types.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-semiconductor-diode-q050",
+      "question": "Which condition can produce avalanche or zener effect?",
+      "options": [
+        "Normal forward bias",
+        "Reverse breakdown",
+        "Low temperature only",
+        "Color coding"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Reverse breakdown",
+      "correctAnswer": "Reverse breakdown",
+      "explanation": "Avalanche and zener are reverse breakdown effects.\nBoth happen in reverse bias at breakdown condition.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "semiconductor-diode"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "semiconductor-diode",
+      "legacyId": "electrical-basic-electronics-semiconductor-diode-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
+}

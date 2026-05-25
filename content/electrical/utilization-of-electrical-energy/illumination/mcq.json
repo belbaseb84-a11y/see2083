@@ -1,8 +1,18 @@
 {
   "medium": "electrical",
   "subject": "utilization-of-electrical-energy",
+  "subjectTitle": "Utilization of Electrical Energy",
   "chapter": "illumination",
   "chapterTitle": "Illumination",
+  "unit": 2,
   "status": "draft",
-  "questions": []
+  "questionCount": 50,
+  "pageRangeUsed": "11-52",
+  "existingSourceMCQsUsed": 29,
+  "newMCQsGenerated": 21,
+  "sourceNote": "Created from the uploaded DOCX content. Questions with unclear source answer are marked needsReview.",
+  "questions": [],
+  "sourceQuestionCount": 50,
+  "needsReviewCount": 7,
+  "importNote": "Questions are withheld until the unclear source answer is verified."
 }

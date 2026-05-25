@@ -1,0 +1,26 @@
+{
+  "id": "chapter:electrical:basic-electronics:power-supplies",
+  "legacyId": "chapter-electrical-basic-electronics-power-supplies",
+  "medium": "electrical",
+  "subject": "basic-electronics",
+  "chapter": "power-supplies",
+  "slug": "power-supplies",
+  "unit": 4,
+  "title": "Power Supplies",
+  "titleNp": "",
+  "summary": "Technical stream content for this chapter is being prepared.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-25",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

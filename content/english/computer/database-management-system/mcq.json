@@ -1,0 +1,4518 @@
+{
+  "medium": "english",
+  "mediumId": "english",
+  "subject": "computer",
+  "subjectId": "computer",
+  "chapter": "database-management-system",
+  "unitSlug": "database-management-system",
+  "chapterTitle": "Database Management System",
+  "mcqKey": "mcq:english/computer/database-management-system",
+  "status": "published",
+  "version": 1,
+  "totalQuestions": 150,
+  "websiteQuizReady": true,
+  "sourceFile": "0b4de793-44f1-41a9-a1e5-253225a91cea.json",
+  "notes": "",
+  "questions": [
+    {
+      "id": "english-computer-database-management-system-q001",
+      "question": "Which statement best describes a database in an exam-ready way?",
+      "options": [
+        "A random group of unrelated files kept on a computer",
+        "An organized collection of related data that can be stored, searched, updated and managed efficiently",
+        "A software used only to print reports",
+        "A spreadsheet that cannot be edited after saving"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "An organized collection of related data that can be stored, searched, updated and managed efficiently",
+      "correctAnswer": "An organized collection of related data that can be stored, searched, updated and managed efficiently",
+      "explanation": "An organized collection of related data that can be stored, searched, updated and managed efficiently is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q001",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q002",
+      "question": "A school stores names, roll numbers, attendance, marks, fees and addresses together. What is the best term for this organized system?",
+      "options": [
+        "Word processing document",
+        "Database",
+        "Operating system",
+        "Compiler"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Database",
+      "correctAnswer": "Database",
+      "explanation": "Database is the correct answer.\nA database keeps related records organized for fast search, update and safe management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q002",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q003",
+      "question": "Which is the strongest reason for using a database instead of paper registers in a large school?",
+      "options": [
+        "It removes the need for all computers",
+        "It makes searching, updating and protecting records faster and safer",
+        "It makes every record public by default",
+        "It stores only images, not text"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It makes searching, updating and protecting records faster and safer",
+      "correctAnswer": "It makes searching, updating and protecting records faster and safer",
+      "explanation": "It makes searching, updating and protecting records faster and safer is the correct answer.\nA database keeps related records organized for fast search, update and safe management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q003",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q004",
+      "question": "In online shopping, which database use is most directly related to checking whether a product is available?",
+      "options": [
+        "Storing only customer passwords",
+        "Storing product stock and order details",
+        "Changing monitor brightness",
+        "Formatting a printed bill only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Storing product stock and order details",
+      "correctAnswer": "Storing product stock and order details",
+      "explanation": "Storing product stock and order details is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q004",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q005",
+      "question": "Which situation is the best example of a daily-life database?",
+      "options": [
+        "A calculator showing 9 + 5 = 14",
+        "A library system showing book location and availability using book records",
+        "A keyboard typing letters into Notepad",
+        "A speaker playing audio from a file"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "A library system showing book location and availability using book records",
+      "correctAnswer": "A library system showing book location and availability using book records",
+      "explanation": "A library system showing book location and availability using book records is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q005",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q006",
+      "question": "Which pair correctly matches an area with data stored in its database?",
+      "options": [
+        "Banking - account balances and transactions",
+        "Healthcare - only website colors",
+        "Social media - only computer hardware parts",
+        "Library - only electricity bills"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Banking - account balances and transactions",
+      "correctAnswer": "Banking - account balances and transactions",
+      "explanation": "Banking - account balances and transactions is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q006",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q007",
+      "question": "A cloud database is different from a simple local database mainly because it is:",
+      "options": [
+        "Stored only in paper form",
+        "Hosted online and accessed through the Internet with permission",
+        "Used only without Internet in one room",
+        "Not able to support scaling"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Hosted online and accessed through the Internet with permission",
+      "correctAnswer": "Hosted online and accessed through the Internet with permission",
+      "explanation": "Hosted online and accessed through the Internet with permission is the correct answer.\nCloud databases are hosted online and need permission/security to access.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q007",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q008",
+      "question": "Which condition is most important for safe use of a cloud database?",
+      "options": [
+        "No username should be used",
+        "Proper permission and security settings should be applied",
+        "All users should get admin access",
+        "Data should never be backed up"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Proper permission and security settings should be applied",
+      "correctAnswer": "Proper permission and security settings should be applied",
+      "explanation": "Proper permission and security settings should be applied is the correct answer.\nCloud databases are hosted online and need permission/security to access.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q008",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q009",
+      "question": "A company wants staff in different cities to access the same sales data. Which database type best fits this need?",
+      "options": [
+        "Cloud database",
+        "Paper file system",
+        "Offline calculator",
+        "Single printed table"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Cloud database",
+      "correctAnswer": "Cloud database",
+      "explanation": "Cloud database is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q009",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q010",
+      "question": "Which option is NOT a major benefit of storing related data in a database?",
+      "options": [
+        "Fast searching",
+        "Organized records",
+        "Easy updating",
+        "Guaranteed removal of all security risks"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Guaranteed removal of all security risks",
+      "correctAnswer": "Guaranteed removal of all security risks",
+      "explanation": "Guaranteed removal of all security risks is the correct answer.\nA database keeps related records organized for fast search, update and safe management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q010",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q011",
+      "question": "Which data set is most suitable to be stored in a school database table?",
+      "options": [
+        "StudentID, Name, Class, DOB, Marks",
+        "Computer fan speed only",
+        "Random drawings with no labels",
+        "A single paragraph about holidays only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "StudentID, Name, Class, DOB, Marks",
+      "correctAnswer": "StudentID, Name, Class, DOB, Marks",
+      "explanation": "StudentID, Name, Class, DOB, Marks is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q011",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q012",
+      "question": "Why does a database reduce confusion in record keeping?",
+      "options": [
+        "It arranges data in a fixed and meaningful structure",
+        "It deletes old data automatically every day",
+        "It uses only one column for all information",
+        "It prevents users from searching records"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It arranges data in a fixed and meaningful structure",
+      "correctAnswer": "It arranges data in a fixed and meaningful structure",
+      "explanation": "It arranges data in a fixed and meaningful structure is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q012",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q013",
+      "question": "Which example best shows data being stored for future decision-making?",
+      "options": [
+        "A bank keeps transaction records to review account activity",
+        "A teacher erases marks after reading them",
+        "A shop writes prices on a temporary paper and throws it away",
+        "A phone displays time without storing any record"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A bank keeps transaction records to review account activity",
+      "correctAnswer": "A bank keeps transaction records to review account activity",
+      "explanation": "A bank keeps transaction records to review account activity is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q014",
+      "question": "Which statement about databases is most accurate?",
+      "options": [
+        "Databases are useful only for banks",
+        "Databases are useful in schools, hospitals, shops, websites and apps",
+        "Databases cannot store dates",
+        "Databases are always slower than paper files"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Databases are useful in schools, hospitals, shops, websites and apps",
+      "correctAnswer": "Databases are useful in schools, hospitals, shops, websites and apps",
+      "explanation": "Databases are useful in schools, hospitals, shops, websites and apps is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q015",
+      "question": "A hospital searches patient information using PatientID. What database advantage is mainly shown?",
+      "options": [
+        "Fast retrieval of organized records",
+        "Changing image resolution",
+        "Playing sound files",
+        "Increasing screen size"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Fast retrieval of organized records",
+      "correctAnswer": "Fast retrieval of organized records",
+      "explanation": "Fast retrieval of organized records is the correct answer.\nA database keeps related records organized for fast search, update and safe management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-1-introduction-to-database"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q015",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q016",
+      "question": "Which option best distinguishes data from information?",
+      "options": [
+        "Data is processed; information is always raw",
+        "Data is raw facts; information is processed and meaningful data",
+        "Data is useful only after printing; information is useless",
+        "Data and information always mean exactly the same thing"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Data is raw facts; information is processed and meaningful data",
+      "correctAnswer": "Data is raw facts; information is processed and meaningful data",
+      "explanation": "Data is raw facts; information is processed and meaningful data is the correct answer.\nData is raw facts, while information is processed data with clear meaning.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q016",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q017",
+      "question": "The values \"Binay\", \"95\" and \"2082\" become information when they are arranged as:",
+      "options": [
+        "Binay scored 95 marks in 2082 BS",
+        "95 Binay 2082",
+        "2082 95 Binay",
+        "A list of random symbols"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Binay scored 95 marks in 2082 BS",
+      "correctAnswer": "Binay scored 95 marks in 2082 BS",
+      "explanation": "Binay scored 95 marks in 2082 BS is the correct answer.\nData is raw facts, while information is processed data with clear meaning.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q018",
+      "question": "Which option is an example of raw data?",
+      "options": [
+        "The average mark of the class is 85",
+        "80, 85, 90",
+        "Class 10 performed well in Computer Science",
+        "Ram passed the exam with 90 marks"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "80, 85, 90",
+      "correctAnswer": "80, 85, 90",
+      "explanation": "80, 85, 90 is the correct answer.\nData is raw facts, while information is processed data with clear meaning.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q019",
+      "question": "A DBMS acts as a bridge mainly between:",
+      "options": [
+        "Keyboard and monitor",
+        "User and database",
+        "Printer and paper",
+        "CPU and mouse"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "User and database",
+      "correctAnswer": "User and database",
+      "explanation": "User and database is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q019",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q020",
+      "question": "Which task is NOT a normal function of a DBMS?",
+      "options": [
+        "Creating tables",
+        "Retrieving data",
+        "Updating records",
+        "Physically repairing a broken hard disk"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Physically repairing a broken hard disk",
+      "correctAnswer": "Physically repairing a broken hard disk",
+      "explanation": "Physically repairing a broken hard disk is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q021",
+      "question": "Which software is an example of an RDBMS commonly used in websites and learning projects?",
+      "options": [
+        "MySQL",
+        "MS Paint",
+        "VLC Media Player",
+        "Notepad only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "MySQL",
+      "correctAnswer": "MySQL",
+      "explanation": "MySQL is the correct answer.\nRDBMS stores data in related tables using rows, columns and keys.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q022",
+      "question": "Which statement best defines RDBMS?",
+      "options": [
+        "A DBMS that stores data only in image files",
+        "A DBMS that stores data in related tables using rows, columns and keys",
+        "A system that deletes all duplicate records without rules",
+        "A programming language for drawing pictures"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "A DBMS that stores data in related tables using rows, columns and keys",
+      "correctAnswer": "A DBMS that stores data in related tables using rows, columns and keys",
+      "explanation": "A DBMS that stores data in related tables using rows, columns and keys is the correct answer.\nRDBMS stores data in related tables using rows, columns and keys.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q023",
+      "question": "In a school RDBMS, Students and Marks tables are connected using StudentID. Which idea is mainly shown?",
+      "options": [
+        "Data compression",
+        "Relationship using keys",
+        "Screen resolution",
+        "File extension conversion"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Relationship using keys",
+      "correctAnswer": "Relationship using keys",
+      "explanation": "Relationship using keys is the correct answer.\nRDBMS stores data in related tables using rows, columns and keys.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q023",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q024",
+      "question": "Which problem is common in a traditional file system?",
+      "options": [
+        "Fast SQL filtering",
+        "High data redundancy and slow searching",
+        "Automatic relationship creation",
+        "Built-in primary key enforcement"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "High data redundancy and slow searching",
+      "correctAnswer": "High data redundancy and slow searching",
+      "explanation": "High data redundancy and slow searching is the correct answer.\nData is raw facts, while information is processed data with clear meaning.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q024",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q025",
+      "question": "Which feature of a computerized database makes it safer than paper records for large organizations?",
+      "options": [
+        "It can provide backup, security and controlled access",
+        "It has no need for storage devices",
+        "It cannot be searched",
+        "It removes the need for data types"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It can provide backup, security and controlled access",
+      "correctAnswer": "It can provide backup, security and controlled access",
+      "explanation": "It can provide backup, security and controlled access is the correct answer.\nA database keeps related records organized for fast search, update and safe management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q026",
+      "question": "Which DBMS trend is best for storing flexible or unstructured JSON-like app data?",
+      "options": [
+        "NoSQL database",
+        "Paper file",
+        "Fixed-length CHAR only",
+        "Manual register"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "NoSQL database",
+      "correctAnswer": "NoSQL database",
+      "explanation": "NoSQL database is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q026",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q027",
+      "question": "Which DBMS trend stores data mainly in main memory for very fast retrieval?",
+      "options": [
+        "In-memory database",
+        "Traditional paper file",
+        "Relational table only",
+        "Spreadsheet printout"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "In-memory database",
+      "correctAnswer": "In-memory database",
+      "explanation": "In-memory database is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q027",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q028",
+      "question": "Which DBMS trend stores data across multiple servers or locations?",
+      "options": [
+        "Distributed database",
+        "Single manual notebook",
+        "Single image file",
+        "Word template"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Distributed database",
+      "correctAnswer": "Distributed database",
+      "explanation": "Distributed database is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q028",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q029",
+      "question": "Data integrity in DBMS means:",
+      "options": [
+        "Keeping data correct, complete and valid",
+        "Making data colorful",
+        "Deleting all constraints",
+        "Allowing only one user to view data forever"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Keeping data correct, complete and valid",
+      "correctAnswer": "Keeping data correct, complete and valid",
+      "explanation": "Keeping data correct, complete and valid is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q030",
+      "question": "Data redundancy control in DBMS mainly helps to:",
+      "options": [
+        "Increase unnecessary repetition",
+        "Reduce duplicate data by proper organization",
+        "Make all fields text type",
+        "Remove security rules"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Reduce duplicate data by proper organization",
+      "correctAnswer": "Reduce duplicate data by proper organization",
+      "explanation": "Reduce duplicate data by proper organization is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q031",
+      "question": "A bank allows many branches to access customer records safely. Which DBMS benefit is shown?",
+      "options": [
+        "Multiple-user support with controlled access",
+        "No need for data storage",
+        "Only single-user access",
+        "Manual searching"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Multiple-user support with controlled access",
+      "correctAnswer": "Multiple-user support with controlled access",
+      "explanation": "Multiple-user support with controlled access is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q031",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q032",
+      "question": "Which is a possible challenge of DBMS?",
+      "options": [
+        "It may require technical knowledge and maintenance",
+        "It cannot store any data",
+        "It does not allow searching",
+        "It works only with paper files"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It may require technical knowledge and maintenance",
+      "correctAnswer": "It may require technical knowledge and maintenance",
+      "explanation": "It may require technical knowledge and maintenance is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q032",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q033",
+      "question": "Which option correctly orders these concepts from broader management software to relational type?",
+      "options": [
+        "Database -> RDBMS -> DBMS",
+        "DBMS -> RDBMS as a special type of DBMS",
+        "RDBMS -> Data -> DBMS",
+        "Information -> Data -> RDBMS"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "DBMS -> RDBMS as a special type of DBMS",
+      "correctAnswer": "DBMS -> RDBMS as a special type of DBMS",
+      "explanation": "DBMS -> RDBMS as a special type of DBMS is the correct answer.\nData is raw facts, while information is processed data with clear meaning.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q033",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q034",
+      "question": "Which DBMS example is described as lightweight and often used in mobile apps or embedded systems?",
+      "options": [
+        "SQLite",
+        "Oracle Database",
+        "PostgreSQL only",
+        "Microsoft Word"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SQLite",
+      "correctAnswer": "SQLite",
+      "explanation": "SQLite is the correct answer.\nDBMS helps users create, store, retrieve, update and protect database records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q034",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q035",
+      "question": "Which feature protects sensitive data by controlling who can access or change records?",
+      "options": [
+        "Security",
+        "Modulus",
+        "Indentation",
+        "Animation"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Security",
+      "correctAnswer": "Security",
+      "explanation": "Security is the correct answer.\nSecurity controls who can view or change important records.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-2-data-information-dbms-and-rdbms"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q035",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q036",
+      "question": "What is the main purpose of choosing a correct database data type?",
+      "options": [
+        "To decide which font should be used",
+        "To control what kind of value a column can store",
+        "To remove all rows from a table",
+        "To create a relationship without keys"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "To control what kind of value a column can store",
+      "correctAnswer": "To control what kind of value a column can store",
+      "explanation": "To control what kind of value a column can store is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q036",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q037",
+      "question": "Which data type is best for storing a student age as a whole number?",
+      "options": [
+        "INT",
+        "VARCHAR(50)",
+        "DATE",
+        "TEXT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "INT",
+      "correctAnswer": "INT",
+      "explanation": "INT is the correct answer.\nInteger types store whole number values.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q038",
+      "question": "Which data type is most suitable for storing exact salary values such as 30000.50?",
+      "options": [
+        "DECIMAL(10,2)",
+        "FLOAT only",
+        "CHAR(1)",
+        "BOOLEAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DECIMAL(10,2)",
+      "correctAnswer": "DECIMAL(10,2)",
+      "explanation": "DECIMAL(10,2) is the correct answer.\nDECIMAL is good for exact numeric values such as money.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q038",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q039",
+      "question": "Which data type is best for storing a student name up to 50 characters?",
+      "options": [
+        "VARCHAR(50)",
+        "INT",
+        "DATE",
+        "BOOLEAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "VARCHAR(50)",
+      "correctAnswer": "VARCHAR(50)",
+      "explanation": "VARCHAR(50) is the correct answer.\nVARCHAR stores variable-length text like names.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q039",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q040",
+      "question": "Which data type stores fixed-length text and reserves exactly n characters?",
+      "options": [
+        "CHAR(n)",
+        "VARCHAR(n)",
+        "TEXT",
+        "DATETIME"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "CHAR(n)",
+      "correctAnswer": "CHAR(n)",
+      "explanation": "CHAR(n) is the correct answer.\nCHAR stores fixed-length text.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q040",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q041",
+      "question": "Which data type should be used for long address details or paragraphs?",
+      "options": [
+        "TEXT",
+        "BOOLEAN",
+        "SMALLINT",
+        "TIME"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "TEXT",
+      "correctAnswer": "TEXT",
+      "explanation": "TEXT is the correct answer.\nTEXT is suitable for long text such as addresses or paragraphs.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q042",
+      "question": "Which database data type stores only calendar date values?",
+      "options": [
+        "DATE",
+        "TIME",
+        "DATETIME",
+        "TIMESTAMP only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DATE",
+      "correctAnswer": "DATE",
+      "explanation": "DATE is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q042",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q043",
+      "question": "Which data type stores both date and time together?",
+      "options": [
+        "DATETIME",
+        "DATE only",
+        "TIME only",
+        "VARCHAR only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DATETIME",
+      "correctAnswer": "DATETIME",
+      "explanation": "DATETIME is the correct answer.\nDATETIME stores date and time together.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q043",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q044",
+      "question": "Which data type is most suitable for IsActive status?",
+      "options": [
+        "BOOLEAN",
+        "DECIMAL",
+        "TEXT",
+        "BIGINT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "BOOLEAN",
+      "correctAnswer": "BOOLEAN",
+      "explanation": "BOOLEAN is the correct answer.\nBOOLEAN stores true/false type values.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q044",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q045",
+      "question": "Which option correctly matches a field with a data type?",
+      "options": [
+        "DOB DATE",
+        "Name INT",
+        "Age TEXT only",
+        "IsActive DECIMAL"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DOB DATE",
+      "correctAnswer": "DOB DATE",
+      "explanation": "DOB DATE is the correct answer.\nDATE stores calendar date values.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q046",
+      "question": "Why is DECIMAL preferred over FLOAT for money in many database designs?",
+      "options": [
+        "DECIMAL stores exact decimal values better for money",
+        "DECIMAL stores only text",
+        "FLOAT cannot store fractions",
+        "FLOAT is always forbidden"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DECIMAL stores exact decimal values better for money",
+      "correctAnswer": "DECIMAL stores exact decimal values better for money",
+      "explanation": "DECIMAL stores exact decimal values better for money is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q046",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q047",
+      "question": "Which SQL definition best fits a basic Students table from the notes?",
+      "options": [
+        "StudentID INT, Name VARCHAR(50), DOB DATE, IsActive BOOLEAN",
+        "StudentID DATE, Name INT, DOB BOOLEAN, IsActive TEXT",
+        "StudentID TEXT only for every field",
+        "StudentID FLOAT, Name FLOAT, DOB FLOAT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "StudentID INT, Name VARCHAR(50), DOB DATE, IsActive BOOLEAN",
+      "correctAnswer": "StudentID INT, Name VARCHAR(50), DOB DATE, IsActive BOOLEAN",
+      "explanation": "StudentID INT, Name VARCHAR(50), DOB DATE, IsActive BOOLEAN is the correct answer.\nVARCHAR stores variable-length text like names.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q047",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q048",
+      "question": "Which value is most appropriate for Gender CHAR(1)?",
+      "options": [
+        "M",
+        "MaleStudentFullName",
+        "2010-03-12",
+        "TRUE only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "M",
+      "correctAnswer": "M",
+      "explanation": "M is the correct answer.\nA data type controls what kind of value a database column can store.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q048",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q049",
+      "question": "Which data type is best when a value may be a very large whole number?",
+      "options": [
+        "BIGINT",
+        "CHAR(1)",
+        "TIME",
+        "TEXT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "BIGINT",
+      "correctAnswer": "BIGINT",
+      "explanation": "BIGINT is the correct answer.\nInteger types store whole number values.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q050",
+      "question": "If a database column stores start time such as 14:30:00, which type is best?",
+      "options": [
+        "TIME",
+        "DATE",
+        "BOOLEAN",
+        "VARCHAR only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "TIME",
+      "correctAnswer": "TIME",
+      "explanation": "TIME is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-3-data-types"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q050",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q051",
+      "question": "A table in a relational database is mainly made of:",
+      "options": [
+        "Rows and columns",
+        "Only paragraphs",
+        "Only images",
+        "Only formulas"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Rows and columns",
+      "correctAnswer": "Rows and columns",
+      "explanation": "Rows and columns is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q051",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q052",
+      "question": "In a Students table, Student_ID, Name, Class and DOB are examples of:",
+      "options": [
+        "Fields or columns",
+        "Records only",
+        "Databases only",
+        "Reports only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Fields or columns",
+      "correctAnswer": "Fields or columns",
+      "explanation": "Fields or columns is the correct answer.\nA relational table is made of rows and columns.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q052",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q053",
+      "question": "One complete row containing 101, Aarosh Pokharel, 10 and 2010-03-12 is a:",
+      "options": [
+        "Record",
+        "Field",
+        "Schema",
+        "Constraint name"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Record",
+      "correctAnswer": "Record",
+      "explanation": "Record is the correct answer.\nA record is one complete row of related values.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q053",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q054",
+      "question": "Which term means the defined structure of a table including field names, data types and rules?",
+      "options": [
+        "Schema",
+        "Report",
+        "Query output only",
+        "Index card"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Schema",
+      "correctAnswer": "Schema",
+      "explanation": "Schema is the correct answer.\nA field is a column that stores one type of information.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q054",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q055",
+      "question": "Which option is the best example of an entity in database design?",
+      "options": [
+        "Student",
+        "VARCHAR",
+        "SELECT",
+        "Semicolon"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Student",
+      "correctAnswer": "Student",
+      "explanation": "Student is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q055",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q056",
+      "question": "A table should usually store:",
+      "options": [
+        "One type of information, such as students or products",
+        "Every unrelated topic in one field",
+        "Only passwords without names",
+        "Only pictures without labels"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "One type of information, such as students or products",
+      "correctAnswer": "One type of information, such as students or products",
+      "explanation": "One type of information, such as students or products is the correct answer.\nA relational table is made of rows and columns.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q056",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q057",
+      "question": "Which feature helps each row in a table be identified uniquely?",
+      "options": [
+        "Primary key",
+        "Font size",
+        "Window title",
+        "File icon"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Primary key",
+      "correctAnswer": "Primary key",
+      "explanation": "Primary key is the correct answer.\nA record is one complete row of related values.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q057",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q058",
+      "question": "Which statement about rows and columns is correct?",
+      "options": [
+        "Rows are records and columns are fields",
+        "Rows are fields and columns are records",
+        "Rows are databases and columns are DBMS",
+        "Rows are queries and columns are reports"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Rows are records and columns are fields",
+      "correctAnswer": "Rows are records and columns are fields",
+      "explanation": "Rows are records and columns are fields is the correct answer.\nA field is a column that stores one type of information.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q058",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q059",
+      "question": "A good table design includes field names and data types. This is part of its:",
+      "options": [
+        "Defined schema",
+        "Cloud storage only",
+        "Screen resolution",
+        "Keyboard layout"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Defined schema",
+      "correctAnswer": "Defined schema",
+      "explanation": "Defined schema is the correct answer.\nA field is a column that stores one type of information.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q059",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q060",
+      "question": "Which table is best designed for student details?",
+      "options": [
+        "Students(StudentID, Name, Class, DOB)",
+        "Students(Name, ProductPrice, CropSeason, ToolID)",
+        "Students(OnlyOneLongParagraph)",
+        "Students(NoFieldNames)"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Students(StudentID, Name, Class, DOB)",
+      "correctAnswer": "Students(StudentID, Name, Class, DOB)",
+      "explanation": "Students(StudentID, Name, Class, DOB) is the correct answer.\nA relational table is made of rows and columns.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-4-table-field-record-and-schema"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q060",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q061",
+      "question": "What is a key in a database?",
+      "options": [
+        "A field or combination of fields used to identify records or create relationships",
+        "A password for opening a computer only",
+        "A keyboard key used to type SQL",
+        "A chart title"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A field or combination of fields used to identify records or create relationships",
+      "correctAnswer": "A field or combination of fields used to identify records or create relationships",
+      "explanation": "A field or combination of fields used to identify records or create relationships is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q061",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q062",
+      "question": "Which statement about a primary key is correct?",
+      "options": [
+        "It allows duplicate and NULL values",
+        "It uniquely identifies each record and does not allow duplicate or NULL values",
+        "It is used only for chart labels",
+        "It must always be a student name"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It uniquely identifies each record and does not allow duplicate or NULL values",
+      "correctAnswer": "It uniquely identifies each record and does not allow duplicate or NULL values",
+      "explanation": "It uniquely identifies each record and does not allow duplicate or NULL values is the correct answer.\nA primary key uniquely identifies each record and should not repeat.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q062",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q063",
+      "question": "Why is StudentID better than Name as a primary key in a Students table?",
+      "options": [
+        "Names may repeat, but StudentID can be unique",
+        "StudentID must always be text",
+        "Names cannot be stored in databases",
+        "StudentID is never used in relationships"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Names may repeat, but StudentID can be unique",
+      "correctAnswer": "Names may repeat, but StudentID can be unique",
+      "explanation": "Names may repeat, but StudentID can be unique is the correct answer.\nA primary key uniquely identifies each record and should not repeat.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q063",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q064",
+      "question": "A foreign key is best described as:",
+      "options": [
+        "A field that refers to the primary key of another table",
+        "A field that stores only foreign language words",
+        "A key that deletes a database",
+        "A field that must be empty"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A field that refers to the primary key of another table",
+      "correctAnswer": "A field that refers to the primary key of another table",
+      "explanation": "A field that refers to the primary key of another table is the correct answer.\nA primary key uniquely identifies each record and should not repeat.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q064",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q065",
+      "question": "Library.StudentID refers to Students.StudentID. What is Library.StudentID called?",
+      "options": [
+        "Foreign key",
+        "Primary key of Students only",
+        "Data type",
+        "Report title"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Foreign key",
+      "correctAnswer": "Foreign key",
+      "explanation": "Foreign key is the correct answer.\nA foreign key links one table to the primary key of another table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q065",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q066",
+      "question": "Which key is formed by combining two or more fields to identify a record uniquely?",
+      "options": [
+        "Composite key",
+        "Foreign language key",
+        "Cloud key",
+        "Default key only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Composite key",
+      "correctAnswer": "Composite key",
+      "explanation": "Composite key is the correct answer.\nKeys identify records and connect related tables safely.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q066",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q067",
+      "question": "In a Marks table, StudentID alone repeats and Subject alone repeats, but StudentID + Subject is unique. This is an example of:",
+      "options": [
+        "Composite key",
+        "Boolean value",
+        "Cloud database",
+        "DCL command"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Composite key",
+      "correctAnswer": "Composite key",
+      "explanation": "Composite key is the correct answer.\nA composite key uses two or more fields together to identify a record.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q067",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q068",
+      "question": "Which relationship best describes \"one customer can place many orders\"?",
+      "options": [
+        "One-to-many",
+        "One-to-one",
+        "Many-to-many without junction",
+        "No relationship"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "One-to-many",
+      "correctAnswer": "One-to-many",
+      "explanation": "One-to-many is the correct answer.\nRelationships connect tables and reduce unnecessary data repetition.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q068",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q069",
+      "question": "Which relationship best describes \"a person has one passport and each passport belongs to one person\"?",
+      "options": [
+        "One-to-one",
+        "One-to-many",
+        "Many-to-many",
+        "Recursive only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "One-to-one",
+      "correctAnswer": "One-to-one",
+      "explanation": "One-to-one is the correct answer.\nRelationships connect tables and reduce unnecessary data repetition.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q069",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q070",
+      "question": "Which relationship usually needs a junction table?",
+      "options": [
+        "Many-to-many",
+        "One-to-one only",
+        "Single table with no keys",
+        "One field only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Many-to-many",
+      "correctAnswer": "Many-to-many",
+      "explanation": "Many-to-many is the correct answer.\nRelationships connect tables and reduce unnecessary data repetition.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q070",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q071",
+      "question": "A student can enroll in many courses and each course can have many students. Which relationship is this?",
+      "options": [
+        "Many-to-many",
+        "One-to-one",
+        "One-to-zero",
+        "Single-column relationship"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Many-to-many",
+      "correctAnswer": "Many-to-many",
+      "explanation": "Many-to-many is the correct answer.\nRelationships connect tables and reduce unnecessary data repetition.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q071",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q072",
+      "question": "Which benefit is directly provided by table relationships?",
+      "options": [
+        "They reduce data repetition and improve connected retrieval",
+        "They remove the need for all data types",
+        "They force every column to become TEXT",
+        "They prevent use of SQL"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "They reduce data repetition and improve connected retrieval",
+      "correctAnswer": "They reduce data repetition and improve connected retrieval",
+      "explanation": "They reduce data repetition and improve connected retrieval is the correct answer.\nRelationships connect tables and reduce unnecessary data repetition.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q072",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q073",
+      "question": "Which constraint prevents a foreign key from referencing a non-existing primary key value?",
+      "options": [
+        "Referential integrity through foreign key",
+        "Font color rule",
+        "Chart legend",
+        "Table border"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Referential integrity through foreign key",
+      "correctAnswer": "Referential integrity through foreign key",
+      "explanation": "Referential integrity through foreign key is the correct answer.\nA primary key uniquely identifies each record and should not repeat.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q073",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q074",
+      "question": "Which statement is true about primary keys?",
+      "options": [
+        "A table can have only one primary key constraint, but it may include more than one field in a composite primary key",
+        "Every table must have ten primary keys",
+        "Primary key values are always NULL",
+        "Primary keys cannot be used for searching"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A table can have only one primary key constraint, but it may include more than one field in a composite primary key",
+      "correctAnswer": "A table can have only one primary key constraint, but it may include more than one field in a composite primary key",
+      "explanation": "A table can have only one primary key constraint, but it may include more than one field in a composite primary key is the correct answer.\nA primary key uniquely identifies each record and should not repeat.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q074",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q075",
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "Primary key - identifies; foreign key - links",
+        "Primary key - draws chart; foreign key - stores image",
+        "Composite key - deletes database; primary key - adds column",
+        "Foreign key - stores only time; primary key - stores only date"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Primary key - identifies; foreign key - links",
+      "correctAnswer": "Primary key - identifies; foreign key - links",
+      "explanation": "Primary key - identifies; foreign key - links is the correct answer.\nA primary key uniquely identifies each record and should not repeat.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-5-keys-and-relationships"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q075",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q076",
+      "question": "What is MySQL?",
+      "options": [
+        "A popular RDBMS that uses SQL to manage data in tables",
+        "A drawing software for turtle graphics",
+        "A hardware device for printing",
+        "A data type for true or false values"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A popular RDBMS that uses SQL to manage data in tables",
+      "correctAnswer": "A popular RDBMS that uses SQL to manage data in tables",
+      "explanation": "A popular RDBMS that uses SQL to manage data in tables is the correct answer.\nMySQL is an RDBMS used to manage data with SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q076",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q077",
+      "question": "Which company currently maintains MySQL according to the notes?",
+      "options": [
+        "Oracle Corporation",
+        "Microsoft Paint Team",
+        "Python Software Foundation only",
+        "Adobe"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Oracle Corporation",
+      "correctAnswer": "Oracle Corporation",
+      "explanation": "Oracle Corporation is the correct answer.\nMySQL is an RDBMS used to manage data with SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q077",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q078",
+      "question": "Which tool provides a graphical interface to connect to MySQL Server and run SQL queries?",
+      "options": [
+        "MySQL Workbench",
+        "Notepad Calculator",
+        "Paint Brush",
+        "Windows Media Player"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "MySQL Workbench",
+      "correctAnswer": "MySQL Workbench",
+      "explanation": "MySQL Workbench is the correct answer.\nMySQL is an RDBMS used to manage data with SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q078",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q079",
+      "question": "Which command checks whether MySQL is installed and recognized from command line?",
+      "options": [
+        "mysql --version",
+        "SELECT VERSION FROM Paint;",
+        "CREATE COMPUTER mysql;",
+        "python --mysql only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "mysql --version",
+      "correctAnswer": "mysql --version",
+      "explanation": "mysql --version is the correct answer.\nMySQL is an RDBMS used to manage data with SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q079",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q080",
+      "question": "Which command logs in to MySQL using root user and asks for password?",
+      "options": [
+        "mysql -u root -p",
+        "mysql open paint",
+        "root login --word",
+        "SELECT root PASSWORD;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "mysql -u root -p",
+      "correctAnswer": "mysql -u root -p",
+      "explanation": "mysql -u root -p is the correct answer.\nMySQL is an RDBMS used to manage data with SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q080",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q081",
+      "question": "Which command closes the MySQL command-line client?",
+      "options": [
+        "exit; or quit;",
+        "close window only without saving",
+        "stop database forever;",
+        "delete mysql;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "exit; or quit;",
+      "correctAnswer": "exit; or quit;",
+      "explanation": "exit; or quit; is the correct answer.\nMySQL is an RDBMS used to manage data with SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q081",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q082",
+      "question": "A query is best defined as:",
+      "options": [
+        "A request or command given to a database to perform an action",
+        "A random sentence in English only",
+        "A type of monitor",
+        "A fixed-length data type"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A request or command given to a database to perform an action",
+      "correctAnswer": "A request or command given to a database to perform an action",
+      "explanation": "A request or command given to a database to perform an action is the correct answer.\nA query is a command or request given to a database.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q082",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q083",
+      "question": "SQL stands for:",
+      "options": [
+        "Structured Query Language",
+        "Simple Question List",
+        "System Queue Logic",
+        "Stored Quick Link"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Structured Query Language",
+      "correctAnswer": "Structured Query Language",
+      "explanation": "Structured Query Language is the correct answer.\nSQL is the language used to communicate with relational databases.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q083",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q084",
+      "question": "Which statement is true about SQL?",
+      "options": [
+        "It is used to communicate with relational databases",
+        "It is used only to design posters",
+        "It cannot retrieve data",
+        "It was created only for audio editing"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It is used to communicate with relational databases",
+      "correctAnswer": "It is used to communicate with relational databases",
+      "explanation": "It is used to communicate with relational databases is the correct answer.\nSQL is the language used to communicate with relational databases.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q084",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q085",
+      "question": "Which SQL sublanguage is used to define and manage database structure?",
+      "options": [
+        "DDL",
+        "DML",
+        "DCL only for data insert",
+        "HTML"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DDL",
+      "correctAnswer": "DDL",
+      "explanation": "DDL is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q085",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q086",
+      "question": "Which SQL sublanguage is used to insert, select, update and delete records?",
+      "options": [
+        "DML",
+        "DDL",
+        "CSS",
+        "BIOS"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DML",
+      "correctAnswer": "DML",
+      "explanation": "DML is the correct answer.\nSQL is the language used to communicate with relational databases.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q086",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q087",
+      "question": "Which SQL sublanguage controls access and permissions?",
+      "options": [
+        "DCL",
+        "DDL",
+        "DML",
+        "CPU"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DCL",
+      "correctAnswer": "DCL",
+      "explanation": "DCL is the correct answer.\nSQL is the language used to communicate with relational databases.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q087",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q088",
+      "question": "Which command belongs to DDL?",
+      "options": [
+        "CREATE",
+        "INSERT",
+        "SELECT",
+        "UPDATE"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "CREATE",
+      "correctAnswer": "CREATE",
+      "explanation": "CREATE is the correct answer.\nDDL is used to define and manage database structure.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q088",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q089",
+      "question": "Which command belongs to DML?",
+      "options": [
+        "SELECT",
+        "DROP",
+        "TRUNCATE",
+        "RENAME"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SELECT",
+      "correctAnswer": "SELECT",
+      "explanation": "SELECT is the correct answer.\nDML is used to insert, select, update and delete table data.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q089",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q090",
+      "question": "Which statement is a valid SQL query to show all records from students?",
+      "options": [
+        "SELECT * FROM students;",
+        "SHOW ALL IN students BY PAINT;",
+        "GET students ALL;",
+        "PRINT students;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SELECT * FROM students;",
+      "correctAnswer": "SELECT * FROM students;",
+      "explanation": "SELECT * FROM students; is the correct answer.\nSQL is the language used to communicate with relational databases.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-sql-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q090",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q091",
+      "question": "What are MySQL constraints?",
+      "options": [
+        "Rules applied to columns to control validity and correctness of stored data",
+        "Chart styles for reports",
+        "Commands used only to install MySQL",
+        "Names of keyboard shortcuts"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Rules applied to columns to control validity and correctness of stored data",
+      "correctAnswer": "Rules applied to columns to control validity and correctness of stored data",
+      "explanation": "Rules applied to columns to control validity and correctness of stored data is the correct answer.\nConstraints keep database values valid, complete and consistent.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q091",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q092",
+      "question": "Which constraint prevents a column from having empty values?",
+      "options": [
+        "NOT NULL",
+        "DEFAULT only",
+        "LIKE",
+        "GROUP BY"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "NOT NULL",
+      "correctAnswer": "NOT NULL",
+      "explanation": "NOT NULL is the correct answer.\nNOT NULL stops a column from being empty.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q092",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q093",
+      "question": "Which constraint makes all values in a column different?",
+      "options": [
+        "UNIQUE",
+        "TEXT",
+        "FLOAT",
+        "SELECT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "UNIQUE",
+      "correctAnswer": "UNIQUE",
+      "explanation": "UNIQUE is the correct answer.\nUNIQUE prevents duplicate values in a column.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q093",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q094",
+      "question": "Which constraint automatically assigns a value when no value is given?",
+      "options": [
+        "DEFAULT",
+        "PRIMARY KEY only",
+        "DROP",
+        "TRUNCATE"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DEFAULT",
+      "correctAnswer": "DEFAULT",
+      "explanation": "DEFAULT is the correct answer.\nDEFAULT automatically inserts a value when no value is given.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q094",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q095",
+      "question": "Which constraint checks a condition such as Age >= 5?",
+      "options": [
+        "CHECK",
+        "LIKE",
+        "RENAME",
+        "DML"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "CHECK",
+      "correctAnswer": "CHECK",
+      "explanation": "CHECK is the correct answer.\nCHECK allows only values that satisfy a condition.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q095",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q096",
+      "question": "Which definition correctly creates StudentID as primary key?",
+      "options": [
+        "StudentID INT PRIMARY KEY",
+        "StudentID TEXT DEFAULT PRIMARY",
+        "StudentID DATE UNIQUE NULL ONLY",
+        "StudentID CHECK SELECT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "StudentID INT PRIMARY KEY",
+      "correctAnswer": "StudentID INT PRIMARY KEY",
+      "explanation": "StudentID INT PRIMARY KEY is the correct answer.\nPRIMARY KEY uniquely identifies each row.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q096",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q097",
+      "question": "Which constraint is most important for linking two tables?",
+      "options": [
+        "FOREIGN KEY",
+        "NOT NULL only",
+        "DEFAULT only",
+        "CHECK only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "FOREIGN KEY",
+      "correctAnswer": "FOREIGN KEY",
+      "explanation": "FOREIGN KEY is the correct answer.\nFOREIGN KEY connects related tables and supports referential integrity.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q097",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q098",
+      "question": "If Email VARCHAR(100) UNIQUE is used, what does it mean?",
+      "options": [
+        "Two users cannot have the same email value",
+        "Email must be NULL",
+        "Email must store only numbers",
+        "Email cannot be searched"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Two users cannot have the same email value",
+      "correctAnswer": "Two users cannot have the same email value",
+      "explanation": "Two users cannot have the same email value is the correct answer.\nConstraints keep database values valid, complete and consistent.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q098",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q099",
+      "question": "If Status VARCHAR(20) DEFAULT 'Active' is used, what happens when no status is entered?",
+      "options": [
+        "Active is automatically used",
+        "The table is dropped",
+        "The column becomes a primary key",
+        "All records are deleted"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Active is automatically used",
+      "correctAnswer": "Active is automatically used",
+      "explanation": "Active is automatically used is the correct answer.\nConstraints keep database values valid, complete and consistent.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q099",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q100",
+      "question": "Which statement best explains constraints in exam language?",
+      "options": [
+        "Constraints maintain accuracy and consistency by preventing invalid, duplicate or missing data",
+        "Constraints create only reports",
+        "Constraints turn SQL into Python",
+        "Constraints remove the need for tables"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Constraints maintain accuracy and consistency by preventing invalid, duplicate or missing data",
+      "correctAnswer": "Constraints maintain accuracy and consistency by preventing invalid, duplicate or missing data",
+      "explanation": "Constraints maintain accuracy and consistency by preventing invalid, duplicate or missing data is the correct answer.\nConstraints keep database values valid, complete and consistent.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-6-mysql-and-constraints"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q100",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q101",
+      "question": "DDL is mainly used to:",
+      "options": [
+        "Define, create, modify and delete database structures",
+        "Insert only records inside tables",
+        "Display only selected columns",
+        "Search patterns in names"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Define, create, modify and delete database structures",
+      "correctAnswer": "Define, create, modify and delete database structures",
+      "explanation": "Define, create, modify and delete database structures is the correct answer.\nCREATE is a DDL command used to create database objects.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q101",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q102",
+      "question": "Which command creates a new database object?",
+      "options": [
+        "CREATE",
+        "UPDATE",
+        "DELETE",
+        "SELECT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "CREATE",
+      "correctAnswer": "CREATE",
+      "explanation": "CREATE is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q102",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q103",
+      "question": "Which SQL command creates a database named school?",
+      "options": [
+        "CREATE DATABASE school;",
+        "MAKE school DATABASE;",
+        "NEW DATABASE = school;",
+        "SELECT DATABASE school;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "CREATE DATABASE school;",
+      "correctAnswer": "CREATE DATABASE school;",
+      "explanation": "CREATE DATABASE school; is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q103",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q104",
+      "question": "Which command selects a database for work after creating it?",
+      "options": [
+        "USE school;",
+        "OPEN TABLE school;",
+        "SELECT school;",
+        "CONNECT FIELD school;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "USE school;",
+      "correctAnswer": "USE school;",
+      "explanation": "USE school; is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q104",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q105",
+      "question": "Which command creates a Students table with basic columns?",
+      "options": [
+        "CREATE TABLE students (ID INT, Name VARCHAR(50), Class INT, DOB DATE);",
+        "CREATE students TABLE ID, Name;",
+        "INSERT TABLE students STRUCTURE;",
+        "SELECT TABLE students;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "CREATE TABLE students (ID INT, Name VARCHAR(50), Class INT, DOB DATE);",
+      "correctAnswer": "CREATE TABLE students (ID INT, Name VARCHAR(50), Class INT, DOB DATE);",
+      "explanation": "CREATE TABLE students (ID INT, Name VARCHAR(50), Class INT, DOB DATE); is the correct answer.\nCREATE is a DDL command used to create database objects.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q105",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q106",
+      "question": "ALTER TABLE students ADD Email VARCHAR(100); does what?",
+      "options": [
+        "Adds an Email column to the students table",
+        "Deletes the students table",
+        "Shows all records",
+        "Deletes all rows only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Adds an Email column to the students table",
+      "correctAnswer": "Adds an Email column to the students table",
+      "explanation": "Adds an Email column to the students table is the correct answer.\nDDL is used to create and manage database structure.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q106",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q107",
+      "question": "Which ALTER syntax removes a column?",
+      "options": [
+        "ALTER TABLE table_name DROP COLUMN column_name;",
+        "ALTER TABLE table_name DELETE ALL;",
+        "DROP DATABASE column_name;",
+        "REMOVE FIELD FROM DBMS;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "ALTER TABLE table_name DROP COLUMN column_name;",
+      "correctAnswer": "ALTER TABLE table_name DROP COLUMN column_name;",
+      "explanation": "ALTER TABLE table_name DROP COLUMN column_name; is the correct answer.\nALTER changes the structure of an existing table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q107",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q108",
+      "question": "Which ALTER syntax changes a column data type or property?",
+      "options": [
+        "ALTER TABLE table_name MODIFY COLUMN column_name new_data_type;",
+        "ALTER TABLE table_name SELECT COLUMN column_name;",
+        "UPDATE TABLE table_name COLUMN;",
+        "INSERT COLUMN MODIFY;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "ALTER TABLE table_name MODIFY COLUMN column_name new_data_type;",
+      "correctAnswer": "ALTER TABLE table_name MODIFY COLUMN column_name new_data_type;",
+      "explanation": "ALTER TABLE table_name MODIFY COLUMN column_name new_data_type; is the correct answer.\nALTER changes the structure of an existing table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q108",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q109",
+      "question": "Which ALTER syntax can rename a column in MySQL-style notes?",
+      "options": [
+        "ALTER TABLE table_name CHANGE old_column_name new_column_name data_type;",
+        "CHANGE DATABASE old TO new;",
+        "SELECT old AS new FROM table;",
+        "RENAME DATA column only;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "ALTER TABLE table_name CHANGE old_column_name new_column_name data_type;",
+      "correctAnswer": "ALTER TABLE table_name CHANGE old_column_name new_column_name data_type;",
+      "explanation": "ALTER TABLE table_name CHANGE old_column_name new_column_name data_type; is the correct answer.\nALTER changes the structure of an existing table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q109",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q110",
+      "question": "DROP TABLE students; will:",
+      "options": [
+        "Permanently delete the students table structure and its data",
+        "Remove only selected rows but keep structure",
+        "Show only names",
+        "Add a new column"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Permanently delete the students table structure and its data",
+      "correctAnswer": "Permanently delete the students table structure and its data",
+      "explanation": "Permanently delete the students table structure and its data is the correct answer.\nDROP removes a database object, so it must be used carefully.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q110",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q111",
+      "question": "Which statement best distinguishes DROP and DELETE?",
+      "options": [
+        "DROP removes the database object; DELETE removes rows but keeps the table structure",
+        "DELETE removes table structure; DROP removes only selected rows",
+        "Both always do exactly the same thing",
+        "DROP is DML and DELETE is DDL"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DROP removes the database object; DELETE removes rows but keeps the table structure",
+      "correctAnswer": "DROP removes the database object; DELETE removes rows but keeps the table structure",
+      "explanation": "DROP removes the database object; DELETE removes rows but keeps the table structure is the correct answer.\nDROP removes a database object, so it must be used carefully.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q111",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q112",
+      "question": "TRUNCATE TABLE students; will:",
+      "options": [
+        "Remove all records but keep table structure",
+        "Delete the table object permanently",
+        "Add a primary key",
+        "Search names starting with A"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Remove all records but keep table structure",
+      "correctAnswer": "Remove all records but keep table structure",
+      "explanation": "Remove all records but keep table structure is the correct answer.\nDDL is used to create and manage database structure.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q112",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q113",
+      "question": "Which DDL command changes the name of a table or column?",
+      "options": [
+        "RENAME",
+        "INSERT",
+        "SELECT",
+        "WHERE"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "RENAME",
+      "correctAnswer": "RENAME",
+      "explanation": "RENAME is the correct answer.\nRENAME changes the name of a table or column.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q113",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q114",
+      "question": "Why should DROP be used carefully?",
+      "options": [
+        "It permanently deletes database objects and their data",
+        "It only changes font size",
+        "It cannot affect stored data",
+        "It only displays data"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It permanently deletes database objects and their data",
+      "correctAnswer": "It permanently deletes database objects and their data",
+      "explanation": "It permanently deletes database objects and their data is the correct answer.\nDROP removes a database object, so it must be used carefully.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q114",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q115",
+      "question": "Which set contains only DDL commands from the notes?",
+      "options": [
+        "CREATE, ALTER, DROP, TRUNCATE, RENAME",
+        "INSERT, SELECT, UPDATE, DELETE",
+        "WHERE, LIKE, GROUP BY, COUNT",
+        "INT, VARCHAR, DATE, BOOLEAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "CREATE, ALTER, DROP, TRUNCATE, RENAME",
+      "correctAnswer": "CREATE, ALTER, DROP, TRUNCATE, RENAME",
+      "explanation": "CREATE, ALTER, DROP, TRUNCATE, RENAME is the correct answer.\nCREATE is a DDL command used to create database objects.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-7-ddl-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q115",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q116",
+      "question": "DML is mainly used to:",
+      "options": [
+        "Work with data stored inside tables",
+        "Create only table structures",
+        "Install MySQL software",
+        "Define font colors"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Work with data stored inside tables",
+      "correctAnswer": "Work with data stored inside tables",
+      "explanation": "Work with data stored inside tables is the correct answer.\nDML commands work with records stored inside tables.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q116",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q117",
+      "question": "Which set contains only DML commands?",
+      "options": [
+        "INSERT, SELECT, UPDATE, DELETE",
+        "CREATE, ALTER, DROP, TRUNCATE",
+        "PRIMARY KEY, CHECK, DEFAULT, UNIQUE",
+        "INT, DATE, BOOLEAN, TEXT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "INSERT, SELECT, UPDATE, DELETE",
+      "correctAnswer": "INSERT, SELECT, UPDATE, DELETE",
+      "explanation": "INSERT, SELECT, UPDATE, DELETE is the correct answer.\nINSERT adds new records into a table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q117",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q118",
+      "question": "Which command adds a new row into a table?",
+      "options": [
+        "INSERT",
+        "ALTER",
+        "TRUNCATE",
+        "RENAME"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "INSERT",
+      "correctAnswer": "INSERT",
+      "explanation": "INSERT is the correct answer.\nINSERT adds new records into a table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q118",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q119",
+      "question": "Which command retrieves data from a table?",
+      "options": [
+        "SELECT",
+        "CREATE",
+        "DROP",
+        "USE only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SELECT",
+      "correctAnswer": "SELECT",
+      "explanation": "SELECT is the correct answer.\nSELECT retrieves data from one or more tables.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q119",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q120",
+      "question": "Which command modifies existing records?",
+      "options": [
+        "UPDATE",
+        "TRUNCATE",
+        "CREATE",
+        "RENAME"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "UPDATE",
+      "correctAnswer": "UPDATE",
+      "explanation": "UPDATE is the correct answer.\nUPDATE changes existing records in a table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q120",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q121",
+      "question": "Which command removes records while keeping table structure?",
+      "options": [
+        "DELETE",
+        "DROP",
+        "CREATE",
+        "ALTER"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DELETE",
+      "correctAnswer": "DELETE",
+      "explanation": "DELETE is the correct answer.\nDELETE removes rows while keeping the table structure.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q121",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q122",
+      "question": "Which INSERT command is correctly written?",
+      "options": [
+        "INSERT INTO students(ID, Name) VALUES (2, 'Binay Adhikari');",
+        "INSERT students ID, Name VALUES 2, Binay;",
+        "ADD INTO students (2, Binay);",
+        "SELECT INSERT students;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "INSERT INTO students(ID, Name) VALUES (2, 'Binay Adhikari');",
+      "correctAnswer": "INSERT INTO students(ID, Name) VALUES (2, 'Binay Adhikari');",
+      "explanation": "INSERT INTO students(ID, Name) VALUES (2, 'Binay Adhikari'); is the correct answer.\nINSERT adds new records into a table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q122",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q123",
+      "question": "Why are column names often listed in an INSERT statement?",
+      "options": [
+        "For clarity and to match values with correct columns",
+        "To delete the table",
+        "To force every field to become numeric",
+        "To create a cloud database automatically"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "For clarity and to match values with correct columns",
+      "correctAnswer": "For clarity and to match values with correct columns",
+      "explanation": "For clarity and to match values with correct columns is the correct answer.\nDML commands work with records stored inside tables.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q123",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q124",
+      "question": "Which SELECT command retrieves only the Name column from students?",
+      "options": [
+        "SELECT Name FROM students;",
+        "SELECT * Name students;",
+        "SHOW Name IN students ONLY;",
+        "GET Column Name students;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SELECT Name FROM students;",
+      "correctAnswer": "SELECT Name FROM students;",
+      "explanation": "SELECT Name FROM students; is the correct answer.\nSELECT retrieves data from one or more tables.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q124",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q125",
+      "question": "Which SELECT command retrieves all columns from students?",
+      "options": [
+        "SELECT * FROM students;",
+        "SELECT ALL COLUMNS students;",
+        "SHOW students ALL BY *;",
+        "PRINT students;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SELECT * FROM students;",
+      "correctAnswer": "SELECT * FROM students;",
+      "explanation": "SELECT * FROM students; is the correct answer.\nSELECT retrieves data from one or more tables.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q125",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q126",
+      "question": "Which UPDATE command safely changes Class to 11 only for ID 5?",
+      "options": [
+        "UPDATE students SET Class = 11 WHERE ID = 5;",
+        "UPDATE students SET Class = 11;",
+        "CHANGE ALL students Class 11;",
+        "SELECT Class = 11 FROM students;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "UPDATE students SET Class = 11 WHERE ID = 5;",
+      "correctAnswer": "UPDATE students SET Class = 11 WHERE ID = 5;",
+      "explanation": "UPDATE students SET Class = 11 WHERE ID = 5; is the correct answer.\nUPDATE changes existing records in a table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q126",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q127",
+      "question": "What is the danger of using UPDATE without WHERE?",
+      "options": [
+        "All rows may be updated accidentally",
+        "The table structure is always deleted",
+        "MySQL closes immediately",
+        "Only one selected row changes safely"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "All rows may be updated accidentally",
+      "correctAnswer": "All rows may be updated accidentally",
+      "explanation": "All rows may be updated accidentally is the correct answer.\nUPDATE changes existing records in a table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q127",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q128",
+      "question": "Which DELETE command removes only Muna's record?",
+      "options": [
+        "DELETE FROM students WHERE name = 'Muna';",
+        "DELETE students name Muna;",
+        "DROP FROM students WHERE name Muna;",
+        "REMOVE DATABASE students Muna;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DELETE FROM students WHERE name = 'Muna';",
+      "correctAnswer": "DELETE FROM students WHERE name = 'Muna';",
+      "explanation": "DELETE FROM students WHERE name = 'Muna'; is the correct answer.\nDELETE removes rows while keeping the table structure.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q128",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q129",
+      "question": "What does DELETE FROM students; do?",
+      "options": [
+        "Removes all rows from students but keeps the table structure",
+        "Deletes the students table structure permanently",
+        "Adds a new students table",
+        "Shows all records"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Removes all rows from students but keeps the table structure",
+      "correctAnswer": "Removes all rows from students but keeps the table structure",
+      "explanation": "Removes all rows from students but keeps the table structure is the correct answer.\nDML commands work with records stored inside tables.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q129",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q130",
+      "question": "Which clause filters records based on a condition?",
+      "options": [
+        "WHERE",
+        "CREATE",
+        "INT",
+        "DATABASE"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "WHERE",
+      "correctAnswer": "WHERE",
+      "explanation": "WHERE is the correct answer.\nWHERE filters records using a condition.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q130",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q131",
+      "question": "WHERE can be used with which commands according to the notes?",
+      "options": [
+        "SELECT, UPDATE and DELETE",
+        "CREATE, DROP and USE only",
+        "CHAR, VARCHAR and DATE",
+        "PRIMARY KEY and FOREIGN KEY only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SELECT, UPDATE and DELETE",
+      "correctAnswer": "SELECT, UPDATE and DELETE",
+      "explanation": "SELECT, UPDATE and DELETE is the correct answer.\nSELECT retrieves data from one or more tables.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q131",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q132",
+      "question": "Which query shows names and DOB of Class 10 students?",
+      "options": [
+        "SELECT Name, DOB FROM students WHERE Class = 10;",
+        "SELECT Class = 10 Name DOB students;",
+        "SHOW Class 10 IN DOB;",
+        "GET students IF Class 10 Name DOB;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SELECT Name, DOB FROM students WHERE Class = 10;",
+      "correctAnswer": "SELECT Name, DOB FROM students WHERE Class = 10;",
+      "explanation": "SELECT Name, DOB FROM students WHERE Class = 10; is the correct answer.\nSELECT retrieves data from one or more tables.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q132",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q133",
+      "question": "Which clause is used for pattern matching in SQL?",
+      "options": [
+        "LIKE",
+        "ALTER",
+        "BOOLEAN",
+        "DECIMAL"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "LIKE",
+      "correctAnswer": "LIKE",
+      "explanation": "LIKE is the correct answer.\nLIKE is used for pattern matching in SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q133",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q134",
+      "question": "In LIKE patterns, what does % represent?",
+      "options": [
+        "Zero, one or many characters",
+        "Exactly one character only",
+        "Only a number",
+        "Only a date value"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Zero, one or many characters",
+      "correctAnswer": "Zero, one or many characters",
+      "explanation": "Zero, one or many characters is the correct answer.\nLIKE is used for pattern matching in SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q134",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q135",
+      "question": "In LIKE patterns, what does _ represent?",
+      "options": [
+        "Exactly one character",
+        "Many characters",
+        "No character allowed",
+        "Only a space"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Exactly one character",
+      "correctAnswer": "Exactly one character",
+      "explanation": "Exactly one character is the correct answer.\nLIKE is used for pattern matching in SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q135",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q136",
+      "question": "Which condition finds names that start with A?",
+      "options": [
+        "Name LIKE 'A%'",
+        "Name LIKE '%A'",
+        "Name LIKE '_A%'",
+        "Name = '%A'"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Name LIKE 'A%'",
+      "correctAnswer": "Name LIKE 'A%'",
+      "explanation": "Name LIKE 'A%' is the correct answer.\nLIKE is used for pattern matching in SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q136",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q137",
+      "question": "Which condition finds names ending with esh?",
+      "options": [
+        "Name LIKE '%esh'",
+        "Name LIKE 'esh%'",
+        "Name LIKE '_esh_'",
+        "Name = 'esh%'"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Name LIKE '%esh'",
+      "correctAnswer": "Name LIKE '%esh'",
+      "explanation": "Name LIKE '%esh' is the correct answer.\nLIKE is used for pattern matching in SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q137",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q138",
+      "question": "Which condition can match exactly four-letter names ending with man such as Aman or Iman?",
+      "options": [
+        "Name LIKE '_man'",
+        "Name LIKE '%man'",
+        "Name LIKE 'man_'",
+        "Name LIKE '____man'"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Name LIKE '_man'",
+      "correctAnswer": "Name LIKE '_man'",
+      "explanation": "Name LIKE '_man' is the correct answer.\nLIKE is used for pattern matching in SQL.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q138",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q139",
+      "question": "Which command increases all salaries by 10% in Employees table?",
+      "options": [
+        "UPDATE Employees SET Salary = Salary * 1.10;",
+        "SELECT Salary * 1.10 FROM Employees DELETE;",
+        "ALTER Employees ADD Salary 10;",
+        "TRUNCATE Employees Salary;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "UPDATE Employees SET Salary = Salary * 1.10;",
+      "correctAnswer": "UPDATE Employees SET Salary = Salary * 1.10;",
+      "explanation": "UPDATE Employees SET Salary = Salary * 1.10; is the correct answer.\nUPDATE changes existing records in a table.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q139",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q140",
+      "question": "Which SQL command deletes employee 103 safely?",
+      "options": [
+        "DELETE FROM Employees WHERE EmployeeID = 103;",
+        "DELETE FROM Employees;",
+        "DROP TABLE Employees WHERE EmployeeID = 103;",
+        "TRUNCATE Employees WHERE EmployeeID = 103;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DELETE FROM Employees WHERE EmployeeID = 103;",
+      "correctAnswer": "DELETE FROM Employees WHERE EmployeeID = 103;",
+      "explanation": "DELETE FROM Employees WHERE EmployeeID = 103; is the correct answer.\nDELETE removes rows while keeping the table structure.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q140",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q141",
+      "question": "Which statement is the best exam warning for UPDATE and DELETE?",
+      "options": [
+        "Use WHERE when changing or removing only selected rows",
+        "Never use WHERE in SQL",
+        "WHERE is used only with CREATE",
+        "WHERE deletes table structure"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Use WHERE when changing or removing only selected rows",
+      "correctAnswer": "Use WHERE when changing or removing only selected rows",
+      "explanation": "Use WHERE when changing or removing only selected rows is the correct answer.\nSELECT retrieves data from one or more tables.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "2-8-dml-commands"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q141",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q142",
+      "question": "A report in MySQL is:",
+      "options": [
+        "An organized presentation of data retrieved using queries for understanding and decisions",
+        "A hardware device",
+        "A database password",
+        "A fixed data type"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "An organized presentation of data retrieved using queries for understanding and decisions",
+      "correctAnswer": "An organized presentation of data retrieved using queries for understanding and decisions",
+      "explanation": "An organized presentation of data retrieved using queries for understanding and decisions is the correct answer.\nA report presents database results clearly for understanding and decisions.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "reports-case-study-and-project-work"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q142",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q143",
+      "question": "Which report type shows total number of students in each class?",
+      "options": [
+        "Summary report",
+        "Detail report only",
+        "Unfiltered report only",
+        "Password report"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Summary report",
+      "correctAnswer": "Summary report",
+      "explanation": "Summary report is the correct answer.\nA report presents database results clearly for understanding and decisions.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "reports-case-study-and-project-work"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q143",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q144",
+      "question": "Which report type lists all students with marks?",
+      "options": [
+        "Detail report",
+        "Summary report only",
+        "Constraint report",
+        "Cloud-only report"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Detail report",
+      "correctAnswer": "Detail report",
+      "explanation": "Detail report is the correct answer.\nA report presents database results clearly for understanding and decisions.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "reports-case-study-and-project-work"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q144",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q145",
+      "question": "Which report type uses SUM, AVG or COUNT to summarize data?",
+      "options": [
+        "Aggregate report",
+        "Field report only",
+        "Data type report",
+        "Foreign key report only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Aggregate report",
+      "correctAnswer": "Aggregate report",
+      "explanation": "Aggregate report is the correct answer.\nA report presents database results clearly for understanding and decisions.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "reports-case-study-and-project-work"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q145",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q146",
+      "question": "Which SQL query can create a class-wise student count report?",
+      "options": [
+        "SELECT Class, COUNT(*) AS TotalStudents FROM students GROUP BY Class;",
+        "SELECT Class FROM students DELETE COUNT;",
+        "CREATE REPORT COUNT students BY Class;",
+        "INSERT COUNT INTO students GROUP Class;"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SELECT Class, COUNT(*) AS TotalStudents FROM students GROUP BY Class;",
+      "correctAnswer": "SELECT Class, COUNT(*) AS TotalStudents FROM students GROUP BY Class;",
+      "explanation": "SELECT Class, COUNT(*) AS TotalStudents FROM students GROUP BY Class; is the correct answer.\nA report presents database results clearly for understanding and decisions.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "reports-case-study-and-project-work"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q146",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q147",
+      "question": "The KrishiKranti case study is mainly about:",
+      "options": [
+        "Designing a database for a farming app",
+        "Writing a poem about farming",
+        "Installing a printer driver",
+        "Drawing a turtle square"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Designing a database for a farming app",
+      "correctAnswer": "Designing a database for a farming app",
+      "explanation": "Designing a database for a farming app is the correct answer.\nThe farming app needs related tables such as Farmer and Crop.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "reports-case-study-and-project-work"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q147",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q148",
+      "question": "Which entity is most suitable for the KrishiKranti farming app database?",
+      "options": [
+        "Farmer",
+        "KeyboardButton",
+        "ScreenPixel",
+        "AudioTrack"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Farmer",
+      "correctAnswer": "Farmer",
+      "explanation": "Farmer is the correct answer.\nA database is an organized collection of related data used for easy record management.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "reports-case-study-and-project-work"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q148",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q149",
+      "question": "Which field is a good primary key for Farmer table?",
+      "options": [
+        "FarmerID",
+        "District only",
+        "Name only",
+        "Phone model"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "FarmerID",
+      "correctAnswer": "FarmerID",
+      "explanation": "FarmerID is the correct answer.\nThe farming app needs related tables such as Farmer and Crop.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "reports-case-study-and-project-work"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q149",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-database-management-system-q150",
+      "question": "In the KrishiKranti design, FarmerID in Crop table would most likely be a:",
+      "options": [
+        "Foreign key linking Crop to Farmer",
+        "Chart label only",
+        "Data type name",
+        "SQL sublanguage"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Foreign key linking Crop to Farmer",
+      "correctAnswer": "Foreign key linking Crop to Farmer",
+      "explanation": "Foreign key linking Crop to Farmer is the correct answer.\nThe farming app needs related tables such as Farmer and Crop.",
+      "difficulty": "medium",
+      "tags": [
+        "database-management-system",
+        "reports-case-study-and-project-work"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "database-management-system",
+      "legacyId": "english-computer-database-management-system-q150",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
+}

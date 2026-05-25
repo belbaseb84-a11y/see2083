@@ -258,7 +258,7 @@
 
   upsertSubject({
     id: "computer",
-    name: "Computer",
+    name: "Computer Science",
     nameNp: "कम्प्युटर",
     icon: "💻",
     category: "optional",

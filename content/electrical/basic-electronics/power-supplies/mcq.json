@@ -1,0 +1,1518 @@
+{
+  "medium": "electrical",
+  "mediumId": "electrical",
+  "subject": "basic-electronics",
+  "subjectId": "basic-electronics",
+  "subjectTitle": "Basic Electronics",
+  "chapter": "power-supplies",
+  "unitSlug": "power-supplies",
+  "chapterTitle": "Power Supplies",
+  "unit": 4,
+  "unitTitle": "Power Supplies",
+  "mcqKey": "mcq:electrical/basic-electronics/power-supplies",
+  "status": "published",
+  "version": 1,
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "electrical-basic-electronics-power-supplies-q001",
+      "question": "For full wave rectifier, the minimum number of diodes required is ______.",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "2",
+      "correctAnswer": "2",
+      "explanation": "A centre-tapped full-wave rectifier uses two diodes.\nA bridge rectifier uses four diodes, but minimum is two.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q001",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q002",
+      "question": "Which of the following statement is correct?",
+      "options": [
+        "Rectification efficiency of a half wave rectifier is equal to that of a full wave rectifier",
+        "Rectification efficiency of a half wave rectifier is lower than that of a full wave rectifier",
+        "Rectification efficiency of a half wave rectifier is higher than that of a full wave rectifier",
+        "All of the given options"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Rectification efficiency of a half wave rectifier is lower than that of a full wave rectifier",
+      "correctAnswer": "Rectification efficiency of a half wave rectifier is lower than that of a full wave rectifier",
+      "explanation": "Full-wave rectifier has higher efficiency than half-wave rectifier.\nHalf-wave uses only one half cycle.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q002",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q003",
+      "question": "The maximum efficiency of rectification from half-wave rectifier is ______.",
+      "options": [
+        "40.6%",
+        "25%",
+        "50%",
+        "81.2%"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "40.6%",
+      "correctAnswer": "40.6%",
+      "explanation": "Half-wave rectifier maximum efficiency is 40.6%.\nThis value is given in this unit.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q003",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q004",
+      "question": "The maximum efficiency of rectification from full-wave rectifier is ______.",
+      "options": [
+        "25%",
+        "50%",
+        "40.6%",
+        "81.2%"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "81.2%",
+      "correctAnswer": "81.2%",
+      "explanation": "Full-wave rectifier maximum efficiency is 81.2%.\nIt uses both half cycles of AC.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q004",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q005",
+      "question": "Rectifier converts AC signal into ______.",
+      "options": [
+        "Pulsating DC",
+        "DC signal",
+        "Pulsating AC",
+        "Pure DC signal"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Pulsating DC",
+      "correctAnswer": "Pulsating DC",
+      "explanation": "A rectifier converts AC into pulsating DC.\nFiltering is needed for smoother DC.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q005",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q006",
+      "question": "Which type of rectifier uses only one diode?",
+      "options": [
+        "Full-wave rectifier",
+        "Half-wave rectifier",
+        "Center-tapped rectifier",
+        "None"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Half-wave rectifier",
+      "correctAnswer": "Half-wave rectifier",
+      "explanation": "Half-wave rectifier uses one diode.\nIt conducts during only one half cycle.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q006",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q007",
+      "question": "Which component is commonly used with a rectifier for smoothing the output DC voltage?",
+      "options": [
+        "Resistor",
+        "Inductor",
+        "Capacitor",
+        "Transformer"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Capacitor",
+      "correctAnswer": "Capacitor",
+      "explanation": "A capacitor is used as a filter.\nIt smooths the pulsating DC output.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q007",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q008",
+      "question": "In a half-wave rectifier, the output DC voltage is approximately ______ of the peak AC voltage.",
+      "options": [
+        "0.318",
+        "0.707",
+        "0.5",
+        "0.637"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "0.318",
+      "correctAnswer": "0.318",
+      "explanation": "Half-wave average DC output is about 0.318 of peak.\nThis is a rectifier characteristic.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q008",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q009",
+      "question": "What is the main function of a rectifier?",
+      "options": [
+        "Convert AC into DC",
+        "Convert DC into AC",
+        "Store magnetic energy",
+        "Make logic decisions"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Convert AC into DC",
+      "correctAnswer": "Convert AC into DC",
+      "explanation": "A rectifier changes AC into pulsating DC.\nIt is a main part of power supply.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q009",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q010",
+      "question": "Which rectifier uses one diode and one half cycle?",
+      "options": [
+        "Bridge rectifier",
+        "Half-wave rectifier",
+        "Full-wave centre-tapped rectifier",
+        "Voltage regulator"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Half-wave rectifier",
+      "correctAnswer": "Half-wave rectifier",
+      "explanation": "Half-wave rectifier uses only one diode.\nIt uses only one half cycle of AC.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q010",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q011",
+      "question": "Which rectifier uses both half cycles of AC?",
+      "options": [
+        "Half-wave rectifier",
+        "Clipper only",
+        "Full-wave rectifier",
+        "Capacitor filter only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Full-wave rectifier",
+      "correctAnswer": "Full-wave rectifier",
+      "explanation": "Full-wave rectifier uses both half cycles.\nIts efficiency is higher than half-wave rectifier.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q011",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q012",
+      "question": "Which full-wave rectifier uses four diodes?",
+      "options": [
+        "Half-wave rectifier",
+        "Centre-tapped rectifier with one diode",
+        "Zener regulator only",
+        "Bridge rectifier"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Bridge rectifier",
+      "correctAnswer": "Bridge rectifier",
+      "explanation": "Bridge rectifier uses four diodes.\nThe unit shows a full-wave bridge rectifier circuit.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q012",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q013",
+      "question": "Which rectifier circuit needs a centre-tapped transformer?",
+      "options": [
+        "Centre-tapped full-wave rectifier",
+        "Bridge rectifier",
+        "Half-wave rectifier",
+        "Filter only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Centre-tapped full-wave rectifier",
+      "correctAnswer": "Centre-tapped full-wave rectifier",
+      "explanation": "Centre-tapped full-wave rectifier uses a centre-tapped transformer.\nIt uses two diodes for rectification.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q014",
+      "question": "What is the output of a rectifier before filtering?",
+      "options": [
+        "Pure DC",
+        "Pulsating DC",
+        "Pure AC",
+        "Binary output"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Pulsating DC",
+      "correctAnswer": "Pulsating DC",
+      "explanation": "Rectifier output is pulsating DC.\nFilter circuit is needed to smooth it.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q015",
+      "question": "What is the function of a filter in power supply?",
+      "options": [
+        "Change DC into AC",
+        "Increase color code",
+        "Smooth pulsating DC",
+        "Make truth table"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Smooth pulsating DC",
+      "correctAnswer": "Smooth pulsating DC",
+      "explanation": "Filter smooths the rectifier output.\nCapacitor is commonly used for filtering.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q016",
+      "question": "Which block comes after rectifier in a simple power supply?",
+      "options": [
+        "Oscillator",
+        "Logic gate",
+        "Microphone",
+        "Filter"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Filter",
+      "correctAnswer": "Filter",
+      "explanation": "Filter comes after rectifier.\nIt reduces pulsations in DC output.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q017",
+      "question": "Which block keeps output voltage stable?",
+      "options": [
+        "Regulator",
+        "Transformer only",
+        "Rectifier only",
+        "Breadboard"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Regulator",
+      "correctAnswer": "Regulator",
+      "explanation": "Regulator stabilizes output voltage.\nIt is a block in power supply.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q018",
+      "question": "Which block steps AC voltage up or down in a power supply?",
+      "options": [
+        "Capacitor only",
+        "Transformer",
+        "Resistor only",
+        "Truth table"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Transformer",
+      "correctAnswer": "Transformer",
+      "explanation": "Transformer changes AC voltage level.\nIt is used before rectification.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q019",
+      "question": "What is the first major block in many DC power supplies?",
+      "options": [
+        "Logic gate",
+        "Phototransistor",
+        "Transformer",
+        "MOSFET gate"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Transformer",
+      "correctAnswer": "Transformer",
+      "explanation": "Transformer is placed at the input side.\nIt provides suitable AC voltage to the rectifier.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q020",
+      "question": "Which component conducts during positive half cycle in a half-wave rectifier?",
+      "options": [
+        "Capacitor only",
+        "Transformer core only",
+        "Inductor only",
+        "Diode"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Diode",
+      "correctAnswer": "Diode",
+      "explanation": "The diode conducts when forward biased.\nIt blocks the opposite half cycle.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q021",
+      "question": "During negative half cycle in half-wave rectifier, the diode is usually ______.",
+      "options": [
+        "Reverse biased",
+        "Forward biased",
+        "Shorted always",
+        "Removed"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Reverse biased",
+      "correctAnswer": "Reverse biased",
+      "explanation": "The diode blocks in reverse bias.\nSo no output appears for that half cycle.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q022",
+      "question": "Why is full-wave rectifier better than half-wave rectifier?",
+      "options": [
+        "It uses no diode",
+        "It uses both half cycles",
+        "It gives AC only",
+        "It removes transformer always"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It uses both half cycles",
+      "correctAnswer": "It uses both half cycles",
+      "explanation": "Full-wave rectifier uses both half cycles.\nThis gives higher efficiency and smoother output.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q023",
+      "question": "Which rectifier has maximum efficiency 81.2%?",
+      "options": [
+        "Half-wave rectifier",
+        "No rectifier",
+        "Full-wave rectifier",
+        "Clipper only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Full-wave rectifier",
+      "correctAnswer": "Full-wave rectifier",
+      "explanation": "Full-wave rectifier efficiency is 81.2%.\nThis is higher than half-wave rectifier.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q024",
+      "question": "Which rectifier has maximum efficiency 40.6%?",
+      "options": [
+        "Full-wave rectifier",
+        "Bridge only with filter",
+        "Regulator",
+        "Half-wave rectifier"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Half-wave rectifier",
+      "correctAnswer": "Half-wave rectifier",
+      "explanation": "Half-wave rectifier efficiency is 40.6%.\nIt uses only one half cycle.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q025",
+      "question": "What is ripple in rectifier output?",
+      "options": [
+        "AC variation in DC output",
+        "Pure DC level",
+        "Color band value",
+        "Logic input"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "AC variation in DC output",
+      "correctAnswer": "AC variation in DC output",
+      "explanation": "Ripple is unwanted variation in DC output.\nFilter circuit reduces ripple.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q026",
+      "question": "What does a capacitor filter do during rectifier operation?",
+      "options": [
+        "Changes diode into transistor",
+        "Charges and discharges to smooth output",
+        "Makes binary addition",
+        "Increases temperature only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Charges and discharges to smooth output",
+      "correctAnswer": "Charges and discharges to smooth output",
+      "explanation": "The capacitor stores charge and releases it.\nThis makes the output smoother.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q027",
+      "question": "What is the basic need of a power supply circuit?",
+      "options": [
+        "Create only sound",
+        "Make resistor colors",
+        "Provide DC output",
+        "Generate truth table only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Provide DC output",
+      "correctAnswer": "Provide DC output",
+      "explanation": "Power supplies provide DC output.\nThey use rectifier, filter and regulator blocks.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q028",
+      "question": "Which output is more continuous: half-wave or full-wave rectifier?",
+      "options": [
+        "Half-wave output",
+        "Both have no output",
+        "Only input AC",
+        "Full-wave output"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Full-wave output",
+      "correctAnswer": "Full-wave output",
+      "explanation": "Full-wave output uses both half cycles.\nSo it has less gap between pulses.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q029",
+      "question": "Which rectifier output has larger gaps between pulses?",
+      "options": [
+        "Half-wave rectifier",
+        "Full-wave rectifier",
+        "Bridge rectifier",
+        "Regulated supply"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Half-wave rectifier",
+      "correctAnswer": "Half-wave rectifier",
+      "explanation": "Half-wave rectifier uses only one half cycle.\nSo the output pulses are farther apart.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q030",
+      "question": "In bridge rectifier positive half cycle, how many diodes conduct?",
+      "options": [
+        "One diode",
+        "Two diodes",
+        "Three diodes",
+        "Four diodes"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Two diodes",
+      "correctAnswer": "Two diodes",
+      "explanation": "A bridge rectifier conducts through two diodes at a time.\nThe source explains D1 and D2 conduction in positive half cycle.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q031",
+      "question": "In bridge rectifier negative half cycle, the other pair of diodes is ______.",
+      "options": [
+        "Always open",
+        "Removed",
+        "Forward biased",
+        "Color coded"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Forward biased",
+      "correctAnswer": "Forward biased",
+      "explanation": "During the other half cycle, another pair conducts.\nThis keeps load current in the same direction.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q032",
+      "question": "What is the direction of load current in a full-wave bridge rectifier?",
+      "options": [
+        "Opposite direction each half cycle",
+        "No direction",
+        "Only through transformer core",
+        "Same direction for both half cycles"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Same direction for both half cycles",
+      "correctAnswer": "Same direction for both half cycles",
+      "explanation": "Bridge rectifier keeps load current in one direction.\nThis gives pulsating DC output.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q033",
+      "question": "Which circuit converts both positive and negative half cycles into same polarity output?",
+      "options": [
+        "Full-wave rectifier",
+        "Half-wave rectifier",
+        "Voltage divider only",
+        "Truth table"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Full-wave rectifier",
+      "correctAnswer": "Full-wave rectifier",
+      "explanation": "Full-wave rectifier uses both half cycles.\nBoth appear as same polarity across load.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q034",
+      "question": "Which part of power supply reduces high ripple?",
+      "options": [
+        "Input switch only",
+        "Filter circuit",
+        "Resistor color band",
+        "Logic gate"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Filter circuit",
+      "correctAnswer": "Filter circuit",
+      "explanation": "Filter reduces ripple.\nCapacitor filter is common in rectifier circuits.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q035",
+      "question": "Which part of power supply gives constant output voltage?",
+      "options": [
+        "Transformer only",
+        "Rectifier only",
+        "Regulator circuit",
+        "Lamp"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Regulator circuit",
+      "correctAnswer": "Regulator circuit",
+      "explanation": "Regulator maintains constant voltage.\nIt improves DC power supply output.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q036",
+      "question": "Which diode is often used in voltage regulation section?",
+      "options": [
+        "LED only",
+        "Photodiode only",
+        "Inductor",
+        "Zener diode"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Zener diode",
+      "correctAnswer": "Zener diode",
+      "explanation": "Zener diode is used for voltage regulation.\nIt provides stable voltage reference.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q037",
+      "question": "Which rectifier needs only one diode and no centre tap?",
+      "options": [
+        "Half-wave rectifier",
+        "Centre-tapped full-wave rectifier",
+        "Bridge rectifier",
+        "Regulated full-wave only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Half-wave rectifier",
+      "correctAnswer": "Half-wave rectifier",
+      "explanation": "Half-wave rectifier is simplest.\nIt requires only one diode.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q038",
+      "question": "Which output is obtained across load resistor in rectifier?",
+      "options": [
+        "Pure sine AC",
+        "Pulsating DC voltage",
+        "No voltage",
+        "Binary code"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Pulsating DC voltage",
+      "correctAnswer": "Pulsating DC voltage",
+      "explanation": "Rectifier output appears across load.\nThe output is pulsating DC.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q039",
+      "question": "Which device blocks reverse half cycle in half-wave rectifier?",
+      "options": [
+        "Transformer",
+        "Filter capacitor",
+        "Diode",
+        "Regulator resistor"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Diode",
+      "correctAnswer": "Diode",
+      "explanation": "Diode blocks reverse half cycle.\nThis creates half-wave rectified output.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q040",
+      "question": "Why is transformer used before rectifier?",
+      "options": [
+        "To store logic data",
+        "To add binary numbers",
+        "To form holes",
+        "To get required AC voltage"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "To get required AC voltage",
+      "correctAnswer": "To get required AC voltage",
+      "explanation": "Transformer adjusts AC voltage.\nThen rectifier changes it into DC.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q041",
+      "question": "Which term means changing AC into DC?",
+      "options": [
+        "Rectification",
+        "Doping",
+        "Amplification",
+        "Inductance"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Rectification",
+      "correctAnswer": "Rectification",
+      "explanation": "Rectification means converting AC into DC.\nRectifier circuits perform rectification.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q042",
+      "question": "What is the load in rectifier circuit usually represented by?",
+      "options": [
+        "Truth table",
+        "Resistor",
+        "MOSFET gate only",
+        "Capacitor code"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Resistor",
+      "correctAnswer": "Resistor",
+      "explanation": "The load is often shown as a resistor.\nOutput voltage appears across the load.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q043",
+      "question": "Which rectifier has better rectification efficiency?",
+      "options": [
+        "Half-wave rectifier",
+        "No rectifier",
+        "Full-wave rectifier",
+        "One diode filter only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Full-wave rectifier",
+      "correctAnswer": "Full-wave rectifier",
+      "explanation": "Full-wave rectifier has higher efficiency.\nIt uses both halves of AC input.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q044",
+      "question": "Which block diagram order is correct for basic DC supply?",
+      "options": [
+        "Regulator, filter, transformer, rectifier",
+        "Logic gate, resistor, capacitor, diode",
+        "Filter, transformer, regulator, rectifier",
+        "Transformer, rectifier, filter, regulator"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Transformer, rectifier, filter, regulator",
+      "correctAnswer": "Transformer, rectifier, filter, regulator",
+      "explanation": "Power supply uses transformer first and regulator last.\nRectifier and filter are middle blocks.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q045",
+      "question": "What type of current is input to a rectifier?",
+      "options": [
+        "AC",
+        "Pure DC",
+        "No current",
+        "Binary current"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "AC",
+      "correctAnswer": "AC",
+      "explanation": "Rectifier input is AC.\nIts output is pulsating DC.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q046",
+      "question": "What type of current is desired at power supply output?",
+      "options": [
+        "AC only",
+        "DC",
+        "No output",
+        "Random pulses only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "DC",
+      "correctAnswer": "DC",
+      "explanation": "Power supply gives DC output.\nFilter and regulator improve the DC.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q047",
+      "question": "Which section helps remove pulsations after rectification?",
+      "options": [
+        "Input plug only",
+        "Diode symbol only",
+        "Filter section",
+        "Resistor tolerance section"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Filter section",
+      "correctAnswer": "Filter section",
+      "explanation": "Filter removes pulsations.\nIt smooths the rectified output.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q048",
+      "question": "Which section changes unregulated DC into regulated DC?",
+      "options": [
+        "Transformer section",
+        "Rectifier section only",
+        "Load section only",
+        "Regulator section"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Regulator section",
+      "correctAnswer": "Regulator section",
+      "explanation": "Regulator gives regulated DC.\nIt keeps voltage stable.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q049",
+      "question": "Which rectifier circuit has two diodes and centre tap?",
+      "options": [
+        "Full-wave centre-tapped rectifier",
+        "Half-wave rectifier",
+        "Bridge rectifier",
+        "Zener regulator only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Full-wave centre-tapped rectifier",
+      "correctAnswer": "Full-wave centre-tapped rectifier",
+      "explanation": "Centre-tapped rectifier uses two diodes.\nThe transformer secondary has a centre tap.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-power-supplies-q050",
+      "question": "Which rectifier circuit has four diodes in bridge form?",
+      "options": [
+        "Half-wave rectifier",
+        "Full-wave bridge rectifier",
+        "Centre-tapped with two diodes",
+        "Simple filter"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Full-wave bridge rectifier",
+      "correctAnswer": "Full-wave bridge rectifier",
+      "explanation": "Bridge rectifier uses four diodes.\nIt does not need a centre-tapped transformer in the same way.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "power-supplies"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "power-supplies",
+      "legacyId": "electrical-basic-electronics-power-supplies-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
+}

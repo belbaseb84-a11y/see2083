@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:computer:programming-in-python",
+  "legacyId": "chapter-english-computer-programming-in-python",
+  "medium": "english",
+  "subject": "computer",
+  "chapter": "programming-in-python",
+  "slug": "programming-in-python",
+  "unit": 4,
+  "title": "Programming in Python",
+  "titleNp": "",
+  "summary": "Computer Science chapter resources and practice are organized here.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-25",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "medium": "electrical",
+  "subject": "electrical-machine",
+  "chapter": "single-phase-fractional-horse-power-motors",
+  "chapterTitle": "Single Phase Fractional Horse Power Motors",
+  "unit": 6,
+  "status": "draft",
+  "questionCount": 50,
+  "schemaVersion": "1.0.0",
+  "source": {
+    "type": "docx_import",
+    "file": "Electrical_Machine_Grade_10_All_Units_50_MCQs (1).docx",
+    "note": "Converted from uploaded DOCX. One JSON file per unit."
+  },
+  "questions": [],
+  "sourceQuestionCount": 50,
+  "needsReviewCount": 1,
+  "importNote": "Questions are withheld until the unclear source answer is verified."
+}

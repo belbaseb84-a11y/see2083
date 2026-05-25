@@ -1,0 +1,26 @@
+{
+  "id": "chapter:english:computer:computer-network-and-communication",
+  "legacyId": "chapter-english-computer-computer-network-and-communication",
+  "medium": "english",
+  "subject": "computer",
+  "chapter": "computer-network-and-communication",
+  "slug": "computer-network-and-communication",
+  "unit": 1,
+  "title": "Computer Network and Communication",
+  "titleNp": "",
+  "summary": "Computer Science chapter resources and practice are organized here.",
+  "summaryNp": "",
+  "status": "published",
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-25",
+  "resources": {
+    "mcq": "mcq.json",
+    "notes": "notes.html",
+    "easyNote": "easy-note.html",
+    "importantQuestions": "important-questions.json",
+    "mockTest": "mock-test.json",
+    "slides": "slides.json",
+    "infographics": "infographics.json",
+    "downloads": "downloads.json"
+  }
+}

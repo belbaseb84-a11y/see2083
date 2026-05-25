@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-05-25",
   "mediums": {
     "english": {
       "subjects": {
@@ -548,6 +548,110 @@
                 "slides": "content/english/optional-math/statistics/slides.json",
                 "infographics": "content/english/optional-math/statistics/infographics.json",
                 "downloads": "content/english/optional-math/statistics/downloads.json"
+              }
+            }
+          }
+        },
+        "computer": {
+          "chapters": {
+            "computer-network-and-communication": {
+              "id": "chapter:english:computer:computer-network-and-communication",
+              "legacyId": "chapter-english-computer-computer-network-and-communication",
+              "unit": 1,
+              "title": "Computer Network and Communication",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/computer/computer-network-and-communication/",
+              "resources": {
+                "chapter": "content/english/computer/computer-network-and-communication/chapter.json",
+                "mcq": "content/english/computer/computer-network-and-communication/mcq.json",
+                "notes": "content/english/computer/computer-network-and-communication/notes.html",
+                "easyNote": "content/english/computer/computer-network-and-communication/easy-note.html",
+                "importantQuestions": "content/english/computer/computer-network-and-communication/important-questions.json",
+                "mockTest": "content/english/computer/computer-network-and-communication/mock-test.json",
+                "slides": "content/english/computer/computer-network-and-communication/slides.json",
+                "infographics": "content/english/computer/computer-network-and-communication/infographics.json",
+                "downloads": "content/english/computer/computer-network-and-communication/downloads.json"
+              }
+            },
+            "database-management-system": {
+              "id": "chapter:english:computer:database-management-system",
+              "legacyId": "chapter-english-computer-database-management-system",
+              "unit": 2,
+              "title": "Database Management System",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/computer/database-management-system/",
+              "resources": {
+                "chapter": "content/english/computer/database-management-system/chapter.json",
+                "mcq": "content/english/computer/database-management-system/mcq.json",
+                "notes": "content/english/computer/database-management-system/notes.html",
+                "easyNote": "content/english/computer/database-management-system/easy-note.html",
+                "importantQuestions": "content/english/computer/database-management-system/important-questions.json",
+                "mockTest": "content/english/computer/database-management-system/mock-test.json",
+                "slides": "content/english/computer/database-management-system/slides.json",
+                "infographics": "content/english/computer/database-management-system/infographics.json",
+                "downloads": "content/english/computer/database-management-system/downloads.json"
+              }
+            },
+            "multimedia": {
+              "id": "chapter:english:computer:multimedia",
+              "legacyId": "chapter-english-computer-multimedia",
+              "unit": 3,
+              "title": "Multimedia",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/computer/multimedia/",
+              "resources": {
+                "chapter": "content/english/computer/multimedia/chapter.json",
+                "mcq": "content/english/computer/multimedia/mcq.json",
+                "notes": "content/english/computer/multimedia/notes.html",
+                "easyNote": "content/english/computer/multimedia/easy-note.html",
+                "importantQuestions": "content/english/computer/multimedia/important-questions.json",
+                "mockTest": "content/english/computer/multimedia/mock-test.json",
+                "slides": "content/english/computer/multimedia/slides.json",
+                "infographics": "content/english/computer/multimedia/infographics.json",
+                "downloads": "content/english/computer/multimedia/downloads.json"
+              }
+            },
+            "programming-in-python": {
+              "id": "chapter:english:computer:programming-in-python",
+              "legacyId": "chapter-english-computer-programming-in-python",
+              "unit": 4,
+              "title": "Programming in Python",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/computer/programming-in-python/",
+              "resources": {
+                "chapter": "content/english/computer/programming-in-python/chapter.json",
+                "mcq": "content/english/computer/programming-in-python/mcq.json",
+                "notes": "content/english/computer/programming-in-python/notes.html",
+                "easyNote": "content/english/computer/programming-in-python/easy-note.html",
+                "importantQuestions": "content/english/computer/programming-in-python/important-questions.json",
+                "mockTest": "content/english/computer/programming-in-python/mock-test.json",
+                "slides": "content/english/computer/programming-in-python/slides.json",
+                "infographics": "content/english/computer/programming-in-python/infographics.json",
+                "downloads": "content/english/computer/programming-in-python/downloads.json"
+              }
+            },
+            "ai-and-contemporary-technologies": {
+              "id": "chapter:english:computer:ai-and-contemporary-technologies",
+              "legacyId": "chapter-english-computer-ai-and-contemporary-technologies",
+              "unit": 5,
+              "title": "AI and Contemporary Technologies",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/english/computer/ai-and-contemporary-technologies/",
+              "resources": {
+                "chapter": "content/english/computer/ai-and-contemporary-technologies/chapter.json",
+                "mcq": "content/english/computer/ai-and-contemporary-technologies/mcq.json",
+                "notes": "content/english/computer/ai-and-contemporary-technologies/notes.html",
+                "easyNote": "content/english/computer/ai-and-contemporary-technologies/easy-note.html",
+                "importantQuestions": "content/english/computer/ai-and-contemporary-technologies/important-questions.json",
+                "mockTest": "content/english/computer/ai-and-contemporary-technologies/mock-test.json",
+                "slides": "content/english/computer/ai-and-contemporary-technologies/slides.json",
+                "infographics": "content/english/computer/ai-and-contemporary-technologies/infographics.json",
+                "downloads": "content/english/computer/ai-and-contemporary-technologies/downloads.json"
               }
             }
           }
@@ -1188,6 +1292,274 @@
                 "slides": "content/electrical/utilization-of-electrical-energy/tariff/slides.json",
                 "infographics": "content/electrical/utilization-of-electrical-energy/tariff/infographics.json",
                 "downloads": "content/electrical/utilization-of-electrical-energy/tariff/downloads.json"
+              }
+            }
+          }
+        },
+        "basic-electronics": {
+          "chapters": {
+            "passive-components": {
+              "id": "chapter:electrical:basic-electronics:passive-components",
+              "legacyId": "chapter-electrical-basic-electronics-passive-components",
+              "unit": 1,
+              "title": "Passive Components",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/basic-electronics/passive-components/",
+              "resources": {
+                "chapter": "content/electrical/basic-electronics/passive-components/chapter.json",
+                "mcq": "content/electrical/basic-electronics/passive-components/mcq.json",
+                "notes": "content/electrical/basic-electronics/passive-components/notes.html",
+                "easyNote": "content/electrical/basic-electronics/passive-components/easy-note.html",
+                "importantQuestions": "content/electrical/basic-electronics/passive-components/important-questions.json",
+                "mockTest": "content/electrical/basic-electronics/passive-components/mock-test.json",
+                "slides": "content/electrical/basic-electronics/passive-components/slides.json",
+                "infographics": "content/electrical/basic-electronics/passive-components/infographics.json",
+                "downloads": "content/electrical/basic-electronics/passive-components/downloads.json"
+              }
+            },
+            "basic-of-semiconductors": {
+              "id": "chapter:electrical:basic-electronics:basic-of-semiconductors",
+              "legacyId": "chapter-electrical-basic-electronics-basic-of-semiconductors",
+              "unit": 2,
+              "title": "Basic of Semiconductors",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/basic-electronics/basic-of-semiconductors/",
+              "resources": {
+                "chapter": "content/electrical/basic-electronics/basic-of-semiconductors/chapter.json",
+                "mcq": "content/electrical/basic-electronics/basic-of-semiconductors/mcq.json",
+                "notes": "content/electrical/basic-electronics/basic-of-semiconductors/notes.html",
+                "easyNote": "content/electrical/basic-electronics/basic-of-semiconductors/easy-note.html",
+                "importantQuestions": "content/electrical/basic-electronics/basic-of-semiconductors/important-questions.json",
+                "mockTest": "content/electrical/basic-electronics/basic-of-semiconductors/mock-test.json",
+                "slides": "content/electrical/basic-electronics/basic-of-semiconductors/slides.json",
+                "infographics": "content/electrical/basic-electronics/basic-of-semiconductors/infographics.json",
+                "downloads": "content/electrical/basic-electronics/basic-of-semiconductors/downloads.json"
+              }
+            },
+            "semiconductor-diode": {
+              "id": "chapter:electrical:basic-electronics:semiconductor-diode",
+              "legacyId": "chapter-electrical-basic-electronics-semiconductor-diode",
+              "unit": 3,
+              "title": "Semiconductor Diode",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/basic-electronics/semiconductor-diode/",
+              "resources": {
+                "chapter": "content/electrical/basic-electronics/semiconductor-diode/chapter.json",
+                "mcq": "content/electrical/basic-electronics/semiconductor-diode/mcq.json",
+                "notes": "content/electrical/basic-electronics/semiconductor-diode/notes.html",
+                "easyNote": "content/electrical/basic-electronics/semiconductor-diode/easy-note.html",
+                "importantQuestions": "content/electrical/basic-electronics/semiconductor-diode/important-questions.json",
+                "mockTest": "content/electrical/basic-electronics/semiconductor-diode/mock-test.json",
+                "slides": "content/electrical/basic-electronics/semiconductor-diode/slides.json",
+                "infographics": "content/electrical/basic-electronics/semiconductor-diode/infographics.json",
+                "downloads": "content/electrical/basic-electronics/semiconductor-diode/downloads.json"
+              }
+            },
+            "power-supplies": {
+              "id": "chapter:electrical:basic-electronics:power-supplies",
+              "legacyId": "chapter-electrical-basic-electronics-power-supplies",
+              "unit": 4,
+              "title": "Power Supplies",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/basic-electronics/power-supplies/",
+              "resources": {
+                "chapter": "content/electrical/basic-electronics/power-supplies/chapter.json",
+                "mcq": "content/electrical/basic-electronics/power-supplies/mcq.json",
+                "notes": "content/electrical/basic-electronics/power-supplies/notes.html",
+                "easyNote": "content/electrical/basic-electronics/power-supplies/easy-note.html",
+                "importantQuestions": "content/electrical/basic-electronics/power-supplies/important-questions.json",
+                "mockTest": "content/electrical/basic-electronics/power-supplies/mock-test.json",
+                "slides": "content/electrical/basic-electronics/power-supplies/slides.json",
+                "infographics": "content/electrical/basic-electronics/power-supplies/infographics.json",
+                "downloads": "content/electrical/basic-electronics/power-supplies/downloads.json"
+              }
+            },
+            "transistors": {
+              "id": "chapter:electrical:basic-electronics:transistors",
+              "legacyId": "chapter-electrical-basic-electronics-transistors",
+              "unit": 5,
+              "title": "Transistors",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/basic-electronics/transistors/",
+              "resources": {
+                "chapter": "content/electrical/basic-electronics/transistors/chapter.json",
+                "mcq": "content/electrical/basic-electronics/transistors/mcq.json",
+                "notes": "content/electrical/basic-electronics/transistors/notes.html",
+                "easyNote": "content/electrical/basic-electronics/transistors/easy-note.html",
+                "importantQuestions": "content/electrical/basic-electronics/transistors/important-questions.json",
+                "mockTest": "content/electrical/basic-electronics/transistors/mock-test.json",
+                "slides": "content/electrical/basic-electronics/transistors/slides.json",
+                "infographics": "content/electrical/basic-electronics/transistors/infographics.json",
+                "downloads": "content/electrical/basic-electronics/transistors/downloads.json"
+              }
+            },
+            "field-effect-transistors": {
+              "id": "chapter:electrical:basic-electronics:field-effect-transistors",
+              "legacyId": "chapter-electrical-basic-electronics-field-effect-transistors",
+              "unit": 6,
+              "title": "Field Effect Transistors",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/basic-electronics/field-effect-transistors/",
+              "resources": {
+                "chapter": "content/electrical/basic-electronics/field-effect-transistors/chapter.json",
+                "mcq": "content/electrical/basic-electronics/field-effect-transistors/mcq.json",
+                "notes": "content/electrical/basic-electronics/field-effect-transistors/notes.html",
+                "easyNote": "content/electrical/basic-electronics/field-effect-transistors/easy-note.html",
+                "importantQuestions": "content/electrical/basic-electronics/field-effect-transistors/important-questions.json",
+                "mockTest": "content/electrical/basic-electronics/field-effect-transistors/mock-test.json",
+                "slides": "content/electrical/basic-electronics/field-effect-transistors/slides.json",
+                "infographics": "content/electrical/basic-electronics/field-effect-transistors/infographics.json",
+                "downloads": "content/electrical/basic-electronics/field-effect-transistors/downloads.json"
+              }
+            },
+            "logic-gates": {
+              "id": "chapter:electrical:basic-electronics:logic-gates",
+              "legacyId": "chapter-electrical-basic-electronics-logic-gates",
+              "unit": 7,
+              "title": "Logic Gates",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/basic-electronics/logic-gates/",
+              "resources": {
+                "chapter": "content/electrical/basic-electronics/logic-gates/chapter.json",
+                "mcq": "content/electrical/basic-electronics/logic-gates/mcq.json",
+                "notes": "content/electrical/basic-electronics/logic-gates/notes.html",
+                "easyNote": "content/electrical/basic-electronics/logic-gates/easy-note.html",
+                "importantQuestions": "content/electrical/basic-electronics/logic-gates/important-questions.json",
+                "mockTest": "content/electrical/basic-electronics/logic-gates/mock-test.json",
+                "slides": "content/electrical/basic-electronics/logic-gates/slides.json",
+                "infographics": "content/electrical/basic-electronics/logic-gates/infographics.json",
+                "downloads": "content/electrical/basic-electronics/logic-gates/downloads.json"
+              }
+            }
+          }
+        },
+        "electrical-machine": {
+          "chapters": {
+            "electromagnetism": {
+              "id": "chapter:electrical:electrical-machine:electromagnetism",
+              "legacyId": "chapter-electrical-electrical-machine-electromagnetism",
+              "unit": 1,
+              "title": "Electromagnetism",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/electrical-machine/electromagnetism/",
+              "resources": {
+                "chapter": "content/electrical/electrical-machine/electromagnetism/chapter.json",
+                "mcq": "content/electrical/electrical-machine/electromagnetism/mcq.json",
+                "notes": "content/electrical/electrical-machine/electromagnetism/notes.html",
+                "easyNote": "content/electrical/electrical-machine/electromagnetism/easy-note.html",
+                "importantQuestions": "content/electrical/electrical-machine/electromagnetism/important-questions.json",
+                "mockTest": "content/electrical/electrical-machine/electromagnetism/mock-test.json",
+                "slides": "content/electrical/electrical-machine/electromagnetism/slides.json",
+                "infographics": "content/electrical/electrical-machine/electromagnetism/infographics.json",
+                "downloads": "content/electrical/electrical-machine/electromagnetism/downloads.json"
+              }
+            },
+            "transformers": {
+              "id": "chapter:electrical:electrical-machine:transformers",
+              "legacyId": "chapter-electrical-electrical-machine-transformers",
+              "unit": 2,
+              "title": "Transformers",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/electrical-machine/transformers/",
+              "resources": {
+                "chapter": "content/electrical/electrical-machine/transformers/chapter.json",
+                "mcq": "content/electrical/electrical-machine/transformers/mcq.json",
+                "notes": "content/electrical/electrical-machine/transformers/notes.html",
+                "easyNote": "content/electrical/electrical-machine/transformers/easy-note.html",
+                "importantQuestions": "content/electrical/electrical-machine/transformers/important-questions.json",
+                "mockTest": "content/electrical/electrical-machine/transformers/mock-test.json",
+                "slides": "content/electrical/electrical-machine/transformers/slides.json",
+                "infographics": "content/electrical/electrical-machine/transformers/infographics.json",
+                "downloads": "content/electrical/electrical-machine/transformers/downloads.json"
+              }
+            },
+            "dc-machines": {
+              "id": "chapter:electrical:electrical-machine:dc-machines",
+              "legacyId": "chapter-electrical-electrical-machine-dc-machines",
+              "unit": 3,
+              "title": "DC Machines",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/electrical-machine/dc-machines/",
+              "resources": {
+                "chapter": "content/electrical/electrical-machine/dc-machines/chapter.json",
+                "mcq": "content/electrical/electrical-machine/dc-machines/mcq.json",
+                "notes": "content/electrical/electrical-machine/dc-machines/notes.html",
+                "easyNote": "content/electrical/electrical-machine/dc-machines/easy-note.html",
+                "importantQuestions": "content/electrical/electrical-machine/dc-machines/important-questions.json",
+                "mockTest": "content/electrical/electrical-machine/dc-machines/mock-test.json",
+                "slides": "content/electrical/electrical-machine/dc-machines/slides.json",
+                "infographics": "content/electrical/electrical-machine/dc-machines/infographics.json",
+                "downloads": "content/electrical/electrical-machine/dc-machines/downloads.json"
+              }
+            },
+            "three-phase-induction-machine": {
+              "id": "chapter:electrical:electrical-machine:three-phase-induction-machine",
+              "legacyId": "chapter-electrical-electrical-machine-three-phase-induction-machine",
+              "unit": 4,
+              "title": "Three Phase Induction Machine",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/electrical-machine/three-phase-induction-machine/",
+              "resources": {
+                "chapter": "content/electrical/electrical-machine/three-phase-induction-machine/chapter.json",
+                "mcq": "content/electrical/electrical-machine/three-phase-induction-machine/mcq.json",
+                "notes": "content/electrical/electrical-machine/three-phase-induction-machine/notes.html",
+                "easyNote": "content/electrical/electrical-machine/three-phase-induction-machine/easy-note.html",
+                "importantQuestions": "content/electrical/electrical-machine/three-phase-induction-machine/important-questions.json",
+                "mockTest": "content/electrical/electrical-machine/three-phase-induction-machine/mock-test.json",
+                "slides": "content/electrical/electrical-machine/three-phase-induction-machine/slides.json",
+                "infographics": "content/electrical/electrical-machine/three-phase-induction-machine/infographics.json",
+                "downloads": "content/electrical/electrical-machine/three-phase-induction-machine/downloads.json"
+              }
+            },
+            "synchronous-machines": {
+              "id": "chapter:electrical:electrical-machine:synchronous-machines",
+              "legacyId": "chapter-electrical-electrical-machine-synchronous-machines",
+              "unit": 5,
+              "title": "Synchronous Machines",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/electrical-machine/synchronous-machines/",
+              "resources": {
+                "chapter": "content/electrical/electrical-machine/synchronous-machines/chapter.json",
+                "mcq": "content/electrical/electrical-machine/synchronous-machines/mcq.json",
+                "notes": "content/electrical/electrical-machine/synchronous-machines/notes.html",
+                "easyNote": "content/electrical/electrical-machine/synchronous-machines/easy-note.html",
+                "importantQuestions": "content/electrical/electrical-machine/synchronous-machines/important-questions.json",
+                "mockTest": "content/electrical/electrical-machine/synchronous-machines/mock-test.json",
+                "slides": "content/electrical/electrical-machine/synchronous-machines/slides.json",
+                "infographics": "content/electrical/electrical-machine/synchronous-machines/infographics.json",
+                "downloads": "content/electrical/electrical-machine/synchronous-machines/downloads.json"
+              }
+            },
+            "single-phase-fractional-horse-power-motors": {
+              "id": "chapter:electrical:electrical-machine:single-phase-fractional-horse-power-motors",
+              "legacyId": "chapter-electrical-electrical-machine-single-phase-fractional-horse-power-motors",
+              "unit": 6,
+              "title": "Single Phase Fractional Horse Power Motors",
+              "titleNp": "",
+              "status": "published",
+              "basePath": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/",
+              "resources": {
+                "chapter": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/chapter.json",
+                "mcq": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/mcq.json",
+                "notes": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/notes.html",
+                "easyNote": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/easy-note.html",
+                "importantQuestions": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/important-questions.json",
+                "mockTest": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/mock-test.json",
+                "slides": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/slides.json",
+                "infographics": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/infographics.json",
+                "downloads": "content/electrical/electrical-machine/single-phase-fractional-horse-power-motors/downloads.json"
               }
             }
           }

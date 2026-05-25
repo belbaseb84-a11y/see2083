@@ -3,6 +3,1515 @@
   "subject": "industrial-installation-and-maintenance",
   "chapter": "fire-and-safety-standards",
   "chapterTitle": "Fire and Safety Standards",
-  "status": "draft",
-  "questions": []
+  "unit": 1,
+  "status": "published",
+  "questionCount": 50,
+  "schemaVersion": "1.0.0",
+  "source": {
+    "type": "docx_import",
+    "file": "Industrial_Installation_Maintenance_All_Units_300_MCQs.docx",
+    "note": "Converted from uploaded DOCX. One JSON file per unit."
+  },
+  "questions": [
+    {
+      "id": "iim-u1-q001",
+      "question": "Which of the following should you NOT use to extinguish an electrical fire?",
+      "options": [
+        "Water",
+        "CO2 extinguisher",
+        "Fire blanket",
+        "Dry chemical extinguisher"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Water",
+      "correctOptionIndex": 0,
+      "explanation": "Water can be dangerous on electrical fire. The unit lists CO2 and dry chemical agents for electrical fires.",
+      "explanationLines": [
+        "Water can be dangerous on electrical fire.",
+        "The unit lists CO2 and dry chemical agents for electrical fires."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q001",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q002",
+      "question": "Which of the following is NOT a common electrical hazard?",
+      "options": [
+        "Electrical shock",
+        "Power outage",
+        "Arc flash",
+        "Electrical fire"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Power outage",
+      "correctOptionIndex": 1,
+      "explanation": "Electrical shock, arc flash and electrical fire are hazards. Power outage is not listed as a common electrical hazard here.",
+      "explanationLines": [
+        "Electrical shock, arc flash and electrical fire are hazards.",
+        "Power outage is not listed as a common electrical hazard here."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q002",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q003",
+      "question": "Which safety color is commonly used to mark physical hazards or dangerous machinery?",
+      "options": [
+        "Red",
+        "Orange",
+        "Yellow",
+        "Blue"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Orange",
+      "correctOptionIndex": 1,
+      "explanation": "Orange is used for warnings and potential hazards. It tells people to proceed carefully near danger.",
+      "explanationLines": [
+        "Orange is used for warnings and potential hazards.",
+        "It tells people to proceed carefully near danger."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q003",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q004",
+      "question": "In the classification of fires, which class involves electrical equipment as the source of fire?",
+      "options": [
+        "Class A",
+        "Class B",
+        "Class C",
+        "Class D"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Class C",
+      "correctOptionIndex": 2,
+      "explanation": "Class C fires involve electrical equipment. Examples include appliances, wiring and circuit breakers.",
+      "explanationLines": [
+        "Class C fires involve electrical equipment.",
+        "Examples include appliances, wiring and circuit breakers."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q004",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q005",
+      "question": "When is Lock Out-Tag Out typically applied to machinery and equipment?",
+      "options": [
+        "During routine maintenance",
+        "Only during emergency situations",
+        "After a machine breakdown",
+        "When equipment is running at full capacity"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "During routine maintenance",
+      "correctOptionIndex": 0,
+      "explanation": "LOTO is used before maintenance or servicing work. It prevents accidental or unauthorized startup.",
+      "explanationLines": [
+        "LOTO is used before maintenance or servicing work.",
+        "It prevents accidental or unauthorized startup."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q005",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q006",
+      "question": "Overcurrent protection is essential for preventing............",
+      "options": [
+        "Electric shocks",
+        "Thermal effects",
+        "Fires due to excessive current",
+        "Fault currents"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Fires due to excessive current",
+      "correctOptionIndex": 2,
+      "explanation": "Overcurrent means excessive current flow. It can damage equipment and cause fire hazards.",
+      "explanationLines": [
+        "Overcurrent means excessive current flow.",
+        "It can damage equipment and cause fire hazards."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q006",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q007",
+      "question": "Classification of fires is based on.................",
+      "options": [
+        "The color of the flames",
+        "The type of fuel involved",
+        "The size of the fire",
+        "The temperature of the fire"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "The type of fuel involved",
+      "correctOptionIndex": 1,
+      "explanation": "The unit classifies fires by fuel type. Examples are ordinary combustibles, liquids and electrical equipment.",
+      "explanationLines": [
+        "The unit classifies fires by fuel type.",
+        "Examples are ordinary combustibles, liquids and electrical equipment."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q007",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q008",
+      "question": "PTW is used to.....................",
+      "options": [
+        "Control access to buildings",
+        "Authorize and control hazardous work",
+        "Conduct fire drills",
+        "Prevent unauthorized access"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Authorize and control hazardous work",
+      "correctOptionIndex": 1,
+      "explanation": "PTW is a formal permit system. It controls high-risk work through authorization.",
+      "explanationLines": [
+        "PTW is a formal permit system.",
+        "It controls high-risk work through authorization."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q008",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q009",
+      "question": "Warning signs are used to..................",
+      "options": [
+        "Indicate safe conditions",
+        "Require specific actions",
+        "Alert to potential dangers",
+        "Prohibit actions"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Alert to potential dangers",
+      "correctOptionIndex": 2,
+      "explanation": "Warning signs make people aware of danger. The source gives Danger: High Voltage as an example.",
+      "explanationLines": [
+        "Warning signs make people aware of danger.",
+        "The source gives Danger: High Voltage as an example."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q009",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q010",
+      "question": "What color is frequently used for informational signs or notices?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Orange"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Blue",
+      "correctOptionIndex": 2,
+      "explanation": "Blue is used for informational or mandatory signs. It can show an action to be taken or information.",
+      "explanationLines": [
+        "Blue is used for informational or mandatory signs.",
+        "It can show an action to be taken or information."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q010",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q011",
+      "question": "Which color denotes danger sign?",
+      "options": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "red",
+      "correctOptionIndex": 0,
+      "explanation": "Red is used to indicate danger or prohibition. It grabs attention for immediate hazards.",
+      "explanationLines": [
+        "Red is used to indicate danger or prohibition.",
+        "It grabs attention for immediate hazards."
+      ],
+      "sourceType": "Existing source MCQ (previous paper)",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q011",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q012",
+      "question": "Which option best matches this source description: rules established to ensure safety, reliability and efficiency in electrical installations?",
+      "options": [
+        "Codes of practice",
+        "Clean surroundings",
+        "Prohibition sign",
+        "Orange safety color"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Codes of practice",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Codes of practice. They give protective measures against electrical hazards.",
+      "explanationLines": [
+        "The correct answer is Codes of practice.",
+        "They give protective measures against electrical hazards."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q012",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q013",
+      "question": "In this unit, which item is described as: current passes through the body and may cause injury or death?",
+      "options": [
+        "Overcurrent",
+        "Electric shock",
+        "Mandatory sign",
+        "Yellow or amber safety color"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Electric shock",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Electric shock. Its severity depends on current, exposure time and current path.",
+      "explanationLines": [
+        "The correct answer is Electric shock.",
+        "Its severity depends on current, exposure time and current path."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q013",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q014",
+      "question": "Which source term is correctly linked with this point: rubber, plastic or non-conducting materials cover live parts?",
+      "options": [
+        "Circuit breaker",
+        "Warning sign",
+        "Insulation of live parts",
+        "Green safety color"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Insulation of live parts",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Insulation of live parts. It helps protect people from direct electric contact.",
+      "explanationLines": [
+        "The correct answer is Insulation of live parts.",
+        "It helps protect people from direct electric contact."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q014",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q015",
+      "question": "Choose the correct match for this source idea: metal parts of equipment are connected to ground by an earth conductor.",
+      "options": [
+        "Overload relay",
+        "Safe condition sign",
+        "Blue safety color",
+        "Equipment grounding"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Equipment grounding",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Equipment grounding. It helps prevent electric shock from faulty equipment.",
+      "explanationLines": [
+        "The correct answer is Equipment grounding.",
+        "It helps prevent electric shock from faulty equipment."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q015",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q016",
+      "question": "Which answer fits this unit statement: equipment is de-energized before maintenance or repair work?",
+      "options": [
+        "Safe work practice",
+        "GFCI",
+        "Supplementary sign",
+        "White safety color"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Safe work practice",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Safe work practice. It reduces risk while working on electrical equipment.",
+      "explanationLines": [
+        "The correct answer is Safe work practice.",
+        "It reduces risk while working on electrical equipment."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q016",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q017",
+      "question": "Which option best matches this source description: measures used to prevent overheating and fire hazards?",
+      "options": [
+        "Fault current",
+        "Thermal effect protection",
+        "Safety symbol",
+        "Black safety color"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Thermal effect protection",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Thermal effect protection. It protects equipment from temperature-related risk.",
+      "explanationLines": [
+        "The correct answer is Thermal effect protection.",
+        "It protects equipment from temperature-related risk."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q017",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q018",
+      "question": "In this unit, which item is described as: transformers, motors and switchgear are cooled to prevent overheating?",
+      "options": [
+        "AFCI",
+        "Red safety color",
+        "Ventilation and cooling",
+        "Purple safety color"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Ventilation and cooling",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Ventilation and cooling. Good cooling keeps equipment within safe temperature limits.",
+      "explanationLines": [
+        "The correct answer is Ventilation and cooling.",
+        "Good cooling keeps equipment within safe temperature limits."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q018",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q019",
+      "question": "Which source term is correctly linked with this point: dust and debris are removed for efficient heat dissipation?",
+      "options": [
+        "Prohibition sign",
+        "Orange safety color",
+        "Brown safety color",
+        "Clean surroundings"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Clean surroundings",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Clean surroundings. Clean equipment loses heat more safely.",
+      "explanationLines": [
+        "The correct answer is Clean surroundings.",
+        "Clean equipment loses heat more safely."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q019",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q020",
+      "question": "Choose the correct match for this source idea: excessive current caused by short circuit, overload or system fault.",
+      "options": [
+        "Overcurrent",
+        "Mandatory sign",
+        "Yellow or amber safety color",
+        "Personal Protective Equipment"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Overcurrent",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Overcurrent. It can damage equipment and create fire hazards.",
+      "explanationLines": [
+        "The correct answer is Overcurrent.",
+        "It can damage equipment and create fire hazards."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q020",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q021",
+      "question": "Which answer fits this unit statement: device that automatically interrupts electricity during a fault or overcurrent?",
+      "options": [
+        "Warning sign",
+        "Circuit breaker",
+        "Green safety color",
+        "Helmet"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Circuit breaker",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Circuit breaker. It isolates the circuit to prevent damage.",
+      "explanationLines": [
+        "The correct answer is Circuit breaker.",
+        "It isolates the circuit to prevent damage."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q021",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q022",
+      "question": "Which option best matches this source description: device used to protect motors from overheating due to excessive current?",
+      "options": [
+        "Safe condition sign",
+        "Blue safety color",
+        "Overload relay",
+        "Safety footwear"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Overload relay",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Overload relay. It works during prolonged over-current operation.",
+      "explanationLines": [
+        "The correct answer is Overload relay.",
+        "It works during prolonged over-current operation."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q022",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q023",
+      "question": "In this unit, which item is described as: device that detects overcurrent situations from ground faults?",
+      "options": [
+        "Supplementary sign",
+        "White safety color",
+        "Respiratory protective equipment",
+        "GFCI"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "GFCI",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is GFCI. It interrupts the circuit quickly to prevent hazards.",
+      "explanationLines": [
+        "The correct answer is GFCI.",
+        "It interrupts the circuit quickly to prevent hazards."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q023",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q024",
+      "question": "Which source term is correctly linked with this point: sudden excessive current due to short circuit or ground fault?",
+      "options": [
+        "Fault current",
+        "Safety symbol",
+        "Black safety color",
+        "Arm and hand protection"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Fault current",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Fault current. It must be cleared quickly for safety.",
+      "explanationLines": [
+        "The correct answer is Fault current.",
+        "It must be cleared quickly for safety."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q024",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q025",
+      "question": "Choose the correct match for this source idea: device that detects dangerous arcing in electrical circuits.",
+      "options": [
+        "Red safety color",
+        "AFCI",
+        "Purple safety color",
+        "Eye and face protection"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "AFCI",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is AFCI. It disconnects power to reduce fire risk.",
+      "explanationLines": [
+        "The correct answer is AFCI.",
+        "It disconnects power to reduce fire risk."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q025",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q026",
+      "question": "Which answer fits this unit statement: circular red band with a diagonal cross line on white background?",
+      "options": [
+        "Orange safety color",
+        "Brown safety color",
+        "Prohibition sign",
+        "Protective clothing and coverall"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Prohibition sign",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Prohibition sign. It is used for Do Not commands.",
+      "explanationLines": [
+        "The correct answer is Prohibition sign.",
+        "It is used for Do Not commands."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q026",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q027",
+      "question": "Which option best matches this source description: blue circular background with white symbol or text?",
+      "options": [
+        "Yellow or amber safety color",
+        "Personal Protective Equipment",
+        "Ear protection",
+        "Mandatory sign"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Mandatory sign",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Mandatory sign. It shows actions that must be followed.",
+      "explanationLines": [
+        "The correct answer is Mandatory sign.",
+        "It shows actions that must be followed."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q027",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q028",
+      "question": "In this unit, which item is described as: black triangular band with yellow background and black imagery?",
+      "options": [
+        "Warning sign",
+        "Green safety color",
+        "Helmet",
+        "Safety belts and harnesses"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Warning sign",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Warning sign. It warns people about nearby hazards.",
+      "explanationLines": [
+        "The correct answer is Warning sign.",
+        "It warns people about nearby hazards."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q028",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q029",
+      "question": "Which source term is correctly linked with this point: green rectangular or square sign with white symbols or text?",
+      "options": [
+        "Blue safety color",
+        "Safe condition sign",
+        "Safety footwear",
+        "PTW system"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Safe condition sign",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Safe condition sign. It shows exits, first aid or other safe conditions.",
+      "explanationLines": [
+        "The correct answer is Safe condition sign.",
+        "It shows exits, first aid or other safe conditions."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q029",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q030",
+      "question": "Choose the correct match for this source idea: white background with black symbols or text for extra information.",
+      "options": [
+        "White safety color",
+        "Respiratory protective equipment",
+        "Supplementary sign",
+        "Codes of practice"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Supplementary sign",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Supplementary sign. It adds detail to other safety signs.",
+      "explanationLines": [
+        "The correct answer is Supplementary sign.",
+        "It adds detail to other safety signs."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q030",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q031",
+      "question": "Which answer fits this unit statement: graphical representation used to communicate hazards without language barriers?",
+      "options": [
+        "Black safety color",
+        "Arm and hand protection",
+        "Electric shock",
+        "Safety symbol"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Safety symbol",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Safety symbol. It quickly gives safety information.",
+      "explanationLines": [
+        "The correct answer is Safety symbol.",
+        "It quickly gives safety information."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q031",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q032",
+      "question": "Which option best matches this source description: color used for immediate hazards, danger or prohibition?",
+      "options": [
+        "Red safety color",
+        "Purple safety color",
+        "Eye and face protection",
+        "Insulation of live parts"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Red safety color",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Red safety color. It attracts attention to stop or danger situations.",
+      "explanationLines": [
+        "The correct answer is Red safety color.",
+        "It attracts attention to stop or danger situations."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q032",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q033",
+      "question": "In this unit, which item is described as: color used for warnings and potential hazards?",
+      "options": [
+        "Brown safety color",
+        "Orange safety color",
+        "Protective clothing and coverall",
+        "Equipment grounding"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Orange safety color",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Orange safety color. It tells people to use caution.",
+      "explanationLines": [
+        "The correct answer is Orange safety color.",
+        "It tells people to use caution."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q033",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q034",
+      "question": "Which source term is correctly linked with this point: color used for caution, alertness or warning?",
+      "options": [
+        "Personal Protective Equipment",
+        "Ear protection",
+        "Yellow or amber safety color",
+        "Safe work practice"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Yellow or amber safety color",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Yellow or amber safety color. It marks risks needing attention.",
+      "explanationLines": [
+        "The correct answer is Yellow or amber safety color.",
+        "It marks risks needing attention."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q034",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q035",
+      "question": "Choose the correct match for this source idea: color used for safe conditions, emergency exits and first aid.",
+      "options": [
+        "Helmet",
+        "Safety belts and harnesses",
+        "Thermal effect protection",
+        "Green safety color"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Green safety color",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Green safety color. It shows that no immediate danger is present.",
+      "explanationLines": [
+        "The correct answer is Green safety color.",
+        "It shows that no immediate danger is present."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q035",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q036",
+      "question": "Which answer fits this unit statement: color used for informational or mandatory signs?",
+      "options": [
+        "Blue safety color",
+        "Safety footwear",
+        "PTW system",
+        "Ventilation and cooling"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Blue safety color",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Blue safety color. It tells required actions or gives information.",
+      "explanationLines": [
+        "The correct answer is Blue safety color.",
+        "It tells required actions or gives information."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q036",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q037",
+      "question": "Which option best matches this source description: color used for additional information or safety instructions?",
+      "options": [
+        "Respiratory protective equipment",
+        "White safety color",
+        "Codes of practice",
+        "Clean surroundings"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "White safety color",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is White safety color. It often works as a background color.",
+      "explanationLines": [
+        "The correct answer is White safety color.",
+        "It often works as a background color."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q037",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q038",
+      "question": "In this unit, which item is described as: color used for lettering or borders to improve visibility?",
+      "options": [
+        "Arm and hand protection",
+        "Electric shock",
+        "Black safety color",
+        "Overcurrent"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Black safety color",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Black safety color. It improves contrast on signs or labels.",
+      "explanationLines": [
+        "The correct answer is Black safety color.",
+        "It improves contrast on signs or labels."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q038",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q039",
+      "question": "Which source term is correctly linked with this point: color used to show radiation hazards or dangerous materials?",
+      "options": [
+        "Eye and face protection",
+        "Insulation of live parts",
+        "Circuit breaker",
+        "Purple safety color"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Purple safety color",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Purple safety color. It marks special hazard conditions.",
+      "explanationLines": [
+        "The correct answer is Purple safety color.",
+        "It marks special hazard conditions."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q039",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q040",
+      "question": "Choose the correct match for this source idea: color used for combustible material hazards in some contexts.",
+      "options": [
+        "Brown safety color",
+        "Protective clothing and coverall",
+        "Equipment grounding",
+        "Overload relay"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Brown safety color",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Brown safety color. It is less common than other safety colors.",
+      "explanationLines": [
+        "The correct answer is Brown safety color.",
+        "It is less common than other safety colors."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q040",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q041",
+      "question": "Which answer fits this unit statement: special gear or clothing worn to protect workers from hazards?",
+      "options": [
+        "Ear protection",
+        "Personal Protective Equipment",
+        "Safe work practice",
+        "GFCI"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Personal Protective Equipment",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Personal Protective Equipment. It is a line of defense for workplace safety.",
+      "explanationLines": [
+        "The correct answer is Personal Protective Equipment.",
+        "It is a line of defense for workplace safety."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q041",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q042",
+      "question": "Which option best matches this source description: PPE used for head protection against falling objects and impact?",
+      "options": [
+        "Safety belts and harnesses",
+        "Thermal effect protection",
+        "Helmet",
+        "Fault current"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Helmet",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Helmet. It also protects against some electrical hazards.",
+      "explanationLines": [
+        "The correct answer is Helmet.",
+        "It also protects against some electrical hazards."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q042",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q043",
+      "question": "In this unit, which item is described as: PPE that protects feet from crushing, punctures, slips and electrical dangers?",
+      "options": [
+        "PTW system",
+        "Ventilation and cooling",
+        "AFCI",
+        "Safety footwear"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Safety footwear",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Safety footwear. Steel-toed boots are one source example.",
+      "explanationLines": [
+        "The correct answer is Safety footwear.",
+        "Steel-toed boots are one source example."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q043",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q044",
+      "question": "Which source term is correctly linked with this point: PPE that protects against inhaling dust, fumes, gases or vapors?",
+      "options": [
+        "Respiratory protective equipment",
+        "Codes of practice",
+        "Clean surroundings",
+        "Prohibition sign"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Respiratory protective equipment",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Respiratory protective equipment. N95 masks and respirators are source examples.",
+      "explanationLines": [
+        "The correct answer is Respiratory protective equipment.",
+        "N95 masks and respirators are source examples."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q044",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q045",
+      "question": "Choose the correct match for this source idea: PPE that guards against cuts, burns, chemicals and abrasions.",
+      "options": [
+        "Electric shock",
+        "Arm and hand protection",
+        "Overcurrent",
+        "Mandatory sign"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Arm and hand protection",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Arm and hand protection. Gloves are the main example in the unit.",
+      "explanationLines": [
+        "The correct answer is Arm and hand protection.",
+        "Gloves are the main example in the unit."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q045",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q046",
+      "question": "Which answer fits this unit statement: PPE that shields from impact, splashes, dust or harmful light?",
+      "options": [
+        "Insulation of live parts",
+        "Circuit breaker",
+        "Eye and face protection",
+        "Warning sign"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Eye and face protection",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Eye and face protection. Safety glasses, goggles and face shields are examples.",
+      "explanationLines": [
+        "The correct answer is Eye and face protection.",
+        "Safety glasses, goggles and face shields are examples."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q046",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q047",
+      "question": "Which option best matches this source description: PPE giving full body protection from chemicals and hazardous particles?",
+      "options": [
+        "Equipment grounding",
+        "Overload relay",
+        "Safe condition sign",
+        "Protective clothing and coverall"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Protective clothing and coverall",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Protective clothing and coverall. Coveralls and aprons are source examples.",
+      "explanationLines": [
+        "The correct answer is Protective clothing and coverall.",
+        "Coveralls and aprons are source examples."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q047",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q048",
+      "question": "In this unit, which item is described as: PPE that reduces hearing damage from loud noise or machinery?",
+      "options": [
+        "Ear protection",
+        "Safe work practice",
+        "GFCI",
+        "Supplementary sign"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Ear protection",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Ear protection. Earplugs and earmuffs are source examples.",
+      "explanationLines": [
+        "The correct answer is Ear protection.",
+        "Earplugs and earmuffs are source examples."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q048",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q049",
+      "question": "Which source term is correctly linked with this point: PPE that prevents falls from heights?",
+      "options": [
+        "Thermal effect protection",
+        "Safety belts and harnesses",
+        "Fault current",
+        "Safety symbol"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Safety belts and harnesses",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Safety belts and harnesses. They support workers at elevated sites.",
+      "explanationLines": [
+        "The correct answer is Safety belts and harnesses.",
+        "They support workers at elevated sites."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q049",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u1-q050",
+      "question": "Choose the correct match for this source idea: formal system that authorizes and controls hazardous work.",
+      "options": [
+        "Ventilation and cooling",
+        "AFCI",
+        "PTW system",
+        "Red safety color"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "PTW system",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is PTW system. It manages high-risk activities through assessment and permission.",
+      "explanationLines": [
+        "The correct answer is PTW system.",
+        "It manages high-risk activities through assessment and permission."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "fire-and-safety-standards",
+      "legacyId": "iim-u1-q050",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
 }

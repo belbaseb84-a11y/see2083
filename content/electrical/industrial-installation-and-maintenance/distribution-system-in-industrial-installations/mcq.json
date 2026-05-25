@@ -3,6 +3,1515 @@
   "subject": "industrial-installation-and-maintenance",
   "chapter": "distribution-system-in-industrial-installations",
   "chapterTitle": "Distribution System in Industrial Installations",
-  "status": "draft",
-  "questions": []
+  "unit": 2,
+  "status": "published",
+  "questionCount": 50,
+  "schemaVersion": "1.0.0",
+  "source": {
+    "type": "docx_import",
+    "file": "Industrial_Installation_Maintenance_All_Units_300_MCQs.docx",
+    "note": "Converted from uploaded DOCX. One JSON file per unit."
+  },
+  "questions": [
+    {
+      "id": "iim-u2-q001",
+      "question": "Which type of the power transmission is more efficient for long-distance transmission?",
+      "options": [
+        "Single-phase",
+        "Three-phase",
+        "Both have similar efficiency",
+        "None of the above"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Three-phase",
+      "correctOptionIndex": 1,
+      "explanation": "Three-phase power is used for generation, transmission and distribution. It is used by grids to transfer power and supply heavy loads.",
+      "explanationLines": [
+        "Three-phase power is used for generation, transmission and distribution.",
+        "It is used by grids to transfer power and supply heavy loads."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q001",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q002",
+      "question": "In a single-phase distribution system, how many conductors are typically used to transmitpower to load?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Two",
+      "correctOptionIndex": 1,
+      "explanation": "The unit mentions single-phase two wire systems. Two conductors are used for this typical supply.",
+      "explanationLines": [
+        "The unit mentions single-phase two wire systems.",
+        "Two conductors are used for this typical supply."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q002",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q003",
+      "question": "The full form of VCB is.............",
+      "options": [
+        "Volume Circuit Breaker",
+        "Vacuum Circuit Breaker",
+        "Volatile Circuit Breaker",
+        "Versatile Circuit Breaker"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Vacuum Circuit Breaker",
+      "correctOptionIndex": 1,
+      "explanation": "VCB uses vacuum to extinguish the arc. So VCB stands for Vacuum Circuit Breaker.",
+      "explanationLines": [
+        "VCB uses vacuum to extinguish the arc.",
+        "So VCB stands for Vacuum Circuit Breaker."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q003",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q004",
+      "question": "Isolator operates on ……… conditions.",
+      "options": [
+        "Sometimes ON load and sometimes NO load",
+        "ON load",
+        "NO load",
+        "Full load"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "NO load",
+      "correctOptionIndex": 2,
+      "explanation": "An isolator is also called a no-load breaking switch. It is used to disconnect equipment for maintenance.",
+      "explanationLines": [
+        "An isolator is also called a no-load breaking switch.",
+        "It is used to disconnect equipment for maintenance."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q004",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q005",
+      "question": "The primary purpose of a pole-mounted substation is.............",
+      "options": [
+        "To generate electricity",
+        "To transmit electricity over long distance",
+        "To distribute and control electrical power in local area",
+        "To protect against lightning strikes"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "To distribute and control electrical power in local area",
+      "correctOptionIndex": 2,
+      "explanation": "A pole-mounted substation transforms and distributes power. It supplies a lower voltage suitable for local use.",
+      "explanationLines": [
+        "A pole-mounted substation transforms and distributes power.",
+        "It supplies a lower voltage suitable for local use."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q005",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q006",
+      "question": "Which type of load is most suitable for a three-phase distribution system?",
+      "options": [
+        "Residential lighting",
+        "Industrial motors",
+        "Single-phase heaters",
+        "Small appliances"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Industrial motors",
+      "correctOptionIndex": 1,
+      "explanation": "Three-phase supply is used for large motors and heavy loads. Industrial motors match that use in the unit.",
+      "explanationLines": [
+        "Three-phase supply is used for large motors and heavy loads.",
+        "Industrial motors match that use in the unit."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q006",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q007",
+      "question": "In a three-phase distribution system, the standard voltage in Nepal is...........",
+      "options": [
+        "120 Volt",
+        "330 Volt",
+        "400 Volt",
+        "220 Volt"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "400 Volt",
+      "correctOptionIndex": 2,
+      "explanation": "The source gives 400 V between phases. It also gives 230 V between phase and neutral.",
+      "explanationLines": [
+        "The source gives 400 V between phases.",
+        "It also gives 230 V between phase and neutral."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q007",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q008",
+      "question": "ACSR stands for.................",
+      "options": [
+        "Aluminum Conductor Solid Rod",
+        "Aluminum Conductor Steel Reinforced",
+        "Alternating Current System Relay",
+        "Automatic Circuit Switch Regulator"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Aluminum Conductor Steel Reinforced",
+      "correctOptionIndex": 1,
+      "explanation": "ACSR is named in the unit as Aluminum Conductor Steel Reinforced. It is used in overhead line construction.",
+      "explanationLines": [
+        "ACSR is named in the unit as Aluminum Conductor Steel Reinforced.",
+        "It is used in overhead line construction."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q008",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q009",
+      "question": "Terminations are used for..........",
+      "options": [
+        "Connecting cables to equipment",
+        "Measuring voltage",
+        "Protecting against lightning",
+        "Disconnecting the substation manually"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Connecting cables to equipment",
+      "correctOptionIndex": 0,
+      "explanation": "Cable termination connects a cable end to a device or point. It gives safe and reliable electrical connections.",
+      "explanationLines": [
+        "Cable termination connects a cable end to a device or point.",
+        "It gives safe and reliable electrical connections."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q009",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q010",
+      "question": "In a star connection, the line voltage is............",
+      "options": [
+        "Equal to the phase voltage",
+        "√3 times the phase voltage",
+        "1/√3 times the phase voltage",
+        "None of the above"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "√3 times the phase voltage",
+      "correctOptionIndex": 1,
+      "explanation": "The unit compares star line and phase voltage. In star, line voltage is greater than phase voltage.",
+      "explanationLines": [
+        "The unit compares star line and phase voltage.",
+        "In star, line voltage is greater than phase voltage."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q010",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q011",
+      "question": "Secondary distribution system has a utilization ........ voltage.",
+      "options": [
+        ".6 kV",
+        "11 kV",
+        "3.3 kV",
+        "0.4 kV"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "0.4 kV",
+      "correctOptionIndex": 3,
+      "explanation": "Secondary distribution uses low voltage for consumers. The source gives 400/230 V for low-voltage distribution.",
+      "explanationLines": [
+        "Secondary distribution uses low voltage for consumers.",
+        "The source gives 400/230 V for low-voltage distribution."
+      ],
+      "sourceType": "Existing source MCQ (previous paper)",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q011",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q012",
+      "question": "In a delta connection, line voltage is equal to",
+      "options": [
+        "√3 phase voltage",
+        "phase voltage",
+        "3 phase voltage",
+        "1/√3 phase voltage"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "phase voltage",
+      "correctOptionIndex": 1,
+      "explanation": "The source gives delta line voltage equal to phase voltage. Delta connection is also called mesh connection.",
+      "explanationLines": [
+        "The source gives delta line voltage equal to phase voltage.",
+        "Delta connection is also called mesh connection."
+      ],
+      "sourceType": "Existing source MCQ (previous paper)",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q012",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q013",
+      "question": "Which option best matches this source description: final network that supplies electricity to many small and big consumers?",
+      "options": [
+        "Distribution network",
+        "240 V residential supply",
+        "Three-line connection",
+        "Delta copper advantage"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Distribution network",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Distribution network. It delivers transmitted power to users.",
+      "explanationLines": [
+        "The correct answer is Distribution network.",
+        "It delivers transmitted power to users."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q014",
+      "question": "In this unit, which item is described as: initial stage that delivers power from substation to lower voltage levels?",
+      "options": [
+        "415 V commercial and industrial supply",
+        "Primary distribution system",
+        "Neutral current",
+        "NEA safety standards"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Primary distribution system",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Primary distribution system. It starts after high-voltage transmission.",
+      "explanationLines": [
+        "The correct answer is Primary distribution system.",
+        "It starts after high-voltage transmission."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q015",
+      "question": "Which source term is correctly linked with this point: place where high-voltage electricity is stepped down for distribution?",
+      "options": [
+        "Interconnected network",
+        "Star point",
+        "Substation",
+        "NEA technical specifications"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Substation",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Substation. It contains equipment like transformers and switchgear.",
+      "explanationLines": [
+        "The correct answer is Substation.",
+        "It contains equipment like transformers and switchgear."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q016",
+      "question": "Choose the correct match for this source idea: power line that carries electricity from substation to different areas.",
+      "options": [
+        "Single-phase supply",
+        "Star connection line current",
+        "Single Line Diagram",
+        "Feeder"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Feeder",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Feeder. Feeders may be overhead or underground.",
+      "explanationLines": [
+        "The correct answer is Feeder.",
+        "Feeders may be overhead or underground."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q017",
+      "question": "Which answer fits this unit statement: equipment that further steps down medium voltage to consumption level?",
+      "options": [
+        "Distribution transformer",
+        "Three-phase power",
+        "Star connection neutral advantage",
+        "Isolator"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Distribution transformer",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Distribution transformer. It is installed along feeders.",
+      "explanationLines": [
+        "The correct answer is Distribution transformer.",
+        "It is installed along feeders."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q018",
+      "question": "Which option best matches this source description: use of electric meters at consumer premises to measure consumption?",
+      "options": [
+        "Three-phase four wire system",
+        "Metering",
+        "Delta connection",
+        "Lightning arrester"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Metering",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Metering. It helps billing and load management.",
+      "explanationLines": [
+        "The correct answer is Metering.",
+        "It helps billing and load management."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q019",
+      "question": "In this unit, which item is described as: network of lines, cables, transformers and switchgear delivering electricity to users?",
+      "options": [
+        "Line-neutral connection",
+        "Delta line voltage relation",
+        "Secondary distribution system",
+        "Gang Operated switch"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Secondary distribution system",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Secondary distribution system. It supplies residential, commercial and industrial customers.",
+      "explanationLines": [
+        "The correct answer is Secondary distribution system.",
+        "It supplies residential, commercial and industrial customers."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q020",
+      "question": "Which source term is correctly linked with this point: typical secondary voltage mentioned for residential customers?",
+      "options": [
+        "Three-line connection",
+        "Delta copper advantage",
+        "Dropout fuse",
+        "240 V residential supply"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "240 V residential supply",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is 240 V residential supply. It is part of the secondary distribution level.",
+      "explanationLines": [
+        "The correct answer is 240 V residential supply.",
+        "It is part of the secondary distribution level."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q021",
+      "question": "Choose the correct match for this source idea: typical secondary voltage for commercial and industrial customers.",
+      "options": [
+        "415 V commercial and industrial supply",
+        "Neutral current",
+        "NEA safety standards",
+        "Distribution switchgear"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "415 V commercial and industrial supply",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is 415 V commercial and industrial supply. It is used for larger low-voltage users.",
+      "explanationLines": [
+        "The correct answer is 415 V commercial and industrial supply.",
+        "It is used for larger low-voltage users."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q022",
+      "question": "Which answer fits this unit statement: grid-like arrangement that can reroute power during failure or maintenance?",
+      "options": [
+        "Star point",
+        "Interconnected network",
+        "NEA technical specifications",
+        "Knife switch"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Interconnected network",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Interconnected network. It improves redundancy and reliability.",
+      "explanationLines": [
+        "The correct answer is Interconnected network.",
+        "It improves redundancy and reliability."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q023",
+      "question": "Which option best matches this source description: supply used mostly for lighting and heating with few large motors?",
+      "options": [
+        "Star connection line current",
+        "Single Line Diagram",
+        "Single-phase supply",
+        "Load Break Switch with Fuse"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Single-phase supply",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Single-phase supply. It may be two-wire or three-wire.",
+      "explanationLines": [
+        "The correct answer is Single-phase supply.",
+        "It may be two-wire or three-wire."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q024",
+      "question": "In this unit, which item is described as: common AC method used for generation, transmission and heavy loads?",
+      "options": [
+        "Star connection neutral advantage",
+        "Isolator",
+        "Load Break Switch without Fuse",
+        "Three-phase power"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Three-phase power",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Three-phase power. It powers large motors and other heavy loads.",
+      "explanationLines": [
+        "The correct answer is Three-phase power.",
+        "It powers large motors and other heavy loads."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q025",
+      "question": "Which source term is correctly linked with this point: system widely used in commercial and industrial buildings?",
+      "options": [
+        "Three-phase four wire system",
+        "Delta connection",
+        "Lightning arrester",
+        "Earthing switch"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Three-phase four wire system",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Three-phase four wire system. It has three lines and a neutral wire.",
+      "explanationLines": [
+        "The correct answer is Three-phase four wire system.",
+        "It has three lines and a neutral wire."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q026",
+      "question": "Choose the correct match for this source idea: connection used for single-phase load in a three-phase four wire system.",
+      "options": [
+        "Delta line voltage relation",
+        "Line-neutral connection",
+        "Gang Operated switch",
+        "Oil Circuit Breaker"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Line-neutral connection",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Line-neutral connection. A single-phase load is connected between any line and neutral.",
+      "explanationLines": [
+        "The correct answer is Line-neutral connection.",
+        "A single-phase load is connected between any line and neutral."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q027",
+      "question": "Which answer fits this unit statement: connection used for a three-phase load?",
+      "options": [
+        "Delta copper advantage",
+        "Dropout fuse",
+        "Three-line connection",
+        "Air Circuit Breaker"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Three-line connection",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Three-line connection. The three-phase load is connected across all three lines.",
+      "explanationLines": [
+        "The correct answer is Three-line connection.",
+        "The three-phase load is connected across all three lines."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q028",
+      "question": "Which option best matches this source description: phasor sum of the three line currents in a four-wire system?",
+      "options": [
+        "NEA safety standards",
+        "Distribution switchgear",
+        "Vacuum Circuit Breaker",
+        "Neutral current"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Neutral current",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Neutral current. It depends on the balance of phase currents.",
+      "explanationLines": [
+        "The correct answer is Neutral current.",
+        "It depends on the balance of phase currents."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q029",
+      "question": "In this unit, which item is described as: common point where coil ends are connected in star connection?",
+      "options": [
+        "Star point",
+        "NEA technical specifications",
+        "Knife switch",
+        "Cable termination"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Star point",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Star point. It is also called the neutral point.",
+      "explanationLines": [
+        "The correct answer is Star point.",
+        "It is also called the neutral point."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q030",
+      "question": "Which source term is correctly linked with this point: line current equal to phase current?",
+      "options": [
+        "Single Line Diagram",
+        "Star connection line current",
+        "Load Break Switch with Fuse",
+        "Distribution network"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Star connection line current",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Star connection line current. The unit gives this relation for star connection.",
+      "explanationLines": [
+        "The correct answer is Star connection line current.",
+        "The unit gives this relation for star connection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q031",
+      "question": "Choose the correct match for this source idea: connection that provides neutral for single-phase loads.",
+      "options": [
+        "Isolator",
+        "Load Break Switch without Fuse",
+        "Star connection neutral advantage",
+        "Primary distribution system"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Star connection neutral advantage",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Star connection neutral advantage. It can feed both single-phase and three-phase loads.",
+      "explanationLines": [
+        "The correct answer is Star connection neutral advantage.",
+        "It can feed both single-phase and three-phase loads."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q032",
+      "question": "Which answer fits this unit statement: three windings connected in a closed triangular mesh?",
+      "options": [
+        "Lightning arrester",
+        "Earthing switch",
+        "Substation",
+        "Delta connection"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Delta connection",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Delta connection. It is also known as mesh connection.",
+      "explanationLines": [
+        "The correct answer is Delta connection.",
+        "It is also known as mesh connection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q033",
+      "question": "Which option best matches this source description: line voltage equal to phase voltage?",
+      "options": [
+        "Delta line voltage relation",
+        "Gang Operated switch",
+        "Oil Circuit Breaker",
+        "Feeder"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Delta line voltage relation",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Delta line voltage relation. The unit gives this relation for delta connection.",
+      "explanationLines": [
+        "The correct answer is Delta line voltage relation.",
+        "The unit gives this relation for delta connection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q034",
+      "question": "In this unit, which item is described as: connection requiring fewer turns in each winding?",
+      "options": [
+        "Dropout fuse",
+        "Delta copper advantage",
+        "Air Circuit Breaker",
+        "Distribution transformer"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Delta copper advantage",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Delta copper advantage. This reduces copper required for windings.",
+      "explanationLines": [
+        "The correct answer is Delta copper advantage.",
+        "This reduces copper required for windings."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q035",
+      "question": "Which source term is correctly linked with this point: rules that prioritize safe installation, maintenance and operation?",
+      "options": [
+        "Distribution switchgear",
+        "Vacuum Circuit Breaker",
+        "NEA safety standards",
+        "Metering"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "NEA safety standards",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is NEA safety standards. They protect public and utility personnel.",
+      "explanationLines": [
+        "The correct answer is NEA safety standards.",
+        "They protect public and utility personnel."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q036",
+      "question": "Choose the correct match for this source idea: requirements for voltage, insulation, protection and metering.",
+      "options": [
+        "Knife switch",
+        "Cable termination",
+        "Secondary distribution system",
+        "NEA technical specifications"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "NEA technical specifications",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is NEA technical specifications. They define technical parts of distribution systems.",
+      "explanationLines": [
+        "The correct answer is NEA technical specifications.",
+        "They define technical parts of distribution systems."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q037",
+      "question": "Which answer fits this unit statement: simple diagram using one line to represent a three-phase distribution system?",
+      "options": [
+        "Single Line Diagram",
+        "Load Break Switch with Fuse",
+        "Distribution network",
+        "240 V residential supply"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Single Line Diagram",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Single Line Diagram. It helps show the flow from 11 kV to end users.",
+      "explanationLines": [
+        "The correct answer is Single Line Diagram.",
+        "It helps show the flow from 11 kV to end users."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q038",
+      "question": "Which option best matches this source description: device used to connect or disconnect a circuit under no-load condition?",
+      "options": [
+        "Load Break Switch without Fuse",
+        "Isolator",
+        "Primary distribution system",
+        "415 V commercial and industrial supply"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Isolator",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Isolator. It is used for safe maintenance isolation.",
+      "explanationLines": [
+        "The correct answer is Isolator.",
+        "It is used for safe maintenance isolation."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q039",
+      "question": "In this unit, which item is described as: device that diverts lightning surges safely to ground?",
+      "options": [
+        "Earthing switch",
+        "Substation",
+        "Lightning arrester",
+        "Interconnected network"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Lightning arrester",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Lightning arrester. It protects equipment from high voltage surges.",
+      "explanationLines": [
+        "The correct answer is Lightning arrester.",
+        "It protects equipment from high voltage surges."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q040",
+      "question": "Which source term is correctly linked with this point: manual switching device used to isolate and connect a pole substation?",
+      "options": [
+        "Oil Circuit Breaker",
+        "Feeder",
+        "Single-phase supply",
+        "Gang Operated switch"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Gang Operated switch",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Gang Operated switch. It lets maintenance work be done safely.",
+      "explanationLines": [
+        "The correct answer is Gang Operated switch.",
+        "It lets maintenance work be done safely."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q041",
+      "question": "Choose the correct match for this source idea: device that disconnects the substation during overloads or faults.",
+      "options": [
+        "Dropout fuse",
+        "Air Circuit Breaker",
+        "Distribution transformer",
+        "Three-phase power"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Dropout fuse",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Dropout fuse. It interrupts current above a set level.",
+      "explanationLines": [
+        "The correct answer is Dropout fuse.",
+        "It interrupts current above a set level."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q042",
+      "question": "Which answer fits this unit statement: equipment group used to control, protect and isolate distribution systems?",
+      "options": [
+        "Vacuum Circuit Breaker",
+        "Distribution switchgear",
+        "Metering",
+        "Three-phase four wire system"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Distribution switchgear",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Distribution switchgear. It includes breakers, switches, fuses, relays and meters.",
+      "explanationLines": [
+        "The correct answer is Distribution switchgear.",
+        "It includes breakers, switches, fuses, relays and meters."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q043",
+      "question": "Which option best matches this source description: manual switch using a metal lever or knife to make or break contact?",
+      "options": [
+        "Cable termination",
+        "Secondary distribution system",
+        "Knife switch",
+        "Line-neutral connection"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Knife switch",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Knife switch. It controls current flow in a circuit.",
+      "explanationLines": [
+        "The correct answer is Knife switch.",
+        "It controls current flow in a circuit."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q044",
+      "question": "In this unit, which item is described as: switching device that also gives overcurrent protection?",
+      "options": [
+        "Distribution network",
+        "240 V residential supply",
+        "Three-line connection",
+        "Load Break Switch with Fuse"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Load Break Switch with Fuse",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Load Break Switch with Fuse. The fuse melts during a fault.",
+      "explanationLines": [
+        "The correct answer is Load Break Switch with Fuse.",
+        "The fuse melts during a fault."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q045",
+      "question": "Which source term is correctly linked with this point: device mainly used for switching, not for overcurrent protection?",
+      "options": [
+        "Load Break Switch without Fuse",
+        "Primary distribution system",
+        "415 V commercial and industrial supply",
+        "Neutral current"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Load Break Switch without Fuse",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Load Break Switch without Fuse. It depends on external protective devices.",
+      "explanationLines": [
+        "The correct answer is Load Break Switch without Fuse.",
+        "It depends on external protective devices."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q046",
+      "question": "Choose the correct match for this source idea: mechanical switch that grounds circuit parts during maintenance or fault.",
+      "options": [
+        "Substation",
+        "Earthing switch",
+        "Interconnected network",
+        "Star point"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Earthing switch",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Earthing switch. It protects equipment and personnel.",
+      "explanationLines": [
+        "The correct answer is Earthing switch.",
+        "It protects equipment and personnel."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q047",
+      "question": "Which answer fits this unit statement: circuit breaker using oil as arc quenching medium?",
+      "options": [
+        "Feeder",
+        "Single-phase supply",
+        "Oil Circuit Breaker",
+        "Star connection line current"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Oil Circuit Breaker",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Oil Circuit Breaker. It is generally used up to 66 kV.",
+      "explanationLines": [
+        "The correct answer is Oil Circuit Breaker.",
+        "It is generally used up to 66 kV."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q048",
+      "question": "Which option best matches this source description: circuit breaker using atmospheric air as arc quenching medium?",
+      "options": [
+        "Distribution transformer",
+        "Three-phase power",
+        "Star connection neutral advantage",
+        "Air Circuit Breaker"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Air Circuit Breaker",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Air Circuit Breaker. It is used for low voltage application up to 11 kV.",
+      "explanationLines": [
+        "The correct answer is Air Circuit Breaker.",
+        "It is used for low voltage application up to 11 kV."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q049",
+      "question": "In this unit, which item is described as: circuit breaker using vacuum to extinguish the arc?",
+      "options": [
+        "Vacuum Circuit Breaker",
+        "Metering",
+        "Three-phase four wire system",
+        "Delta connection"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Vacuum Circuit Breaker",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Vacuum Circuit Breaker. The source says it is used from 11 kV to 66 kV.",
+      "explanationLines": [
+        "The correct answer is Vacuum Circuit Breaker.",
+        "The source says it is used from 11 kV to 66 kV."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u2-q050",
+      "question": "Which source term is correctly linked with this point: connecting a cable end to a device or termination point?",
+      "options": [
+        "Secondary distribution system",
+        "Cable termination",
+        "Line-neutral connection",
+        "Delta line voltage relation"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Cable termination",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Cable termination. It prevents unsafe connection problems.",
+      "explanationLines": [
+        "The correct answer is Cable termination.",
+        "It prevents unsafe connection problems."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "distribution-system-in-industrial-installations",
+      "legacyId": "iim-u2-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
 }

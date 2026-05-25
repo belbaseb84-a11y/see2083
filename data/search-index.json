@@ -2108,7 +2108,7 @@
       "technical"
     ],
     "url": "quiz.html?subject=industrial-installation-and-maintenance&chapter=fire-and-safety-standards&medium=electrical",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:electrical:industrial-installation-and-maintenance:distribution-system-in-industrial-installations",
@@ -2158,7 +2158,7 @@
       "technical"
     ],
     "url": "quiz.html?subject=industrial-installation-and-maintenance&chapter=distribution-system-in-industrial-installations&medium=electrical",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:electrical:industrial-installation-and-maintenance:industrial-wiring",
@@ -2202,7 +2202,7 @@
       "technical"
     ],
     "url": "quiz.html?subject=industrial-installation-and-maintenance&chapter=industrial-wiring&medium=electrical",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:electrical:industrial-installation-and-maintenance:earthing-arrangements",
@@ -2248,7 +2248,7 @@
       "technical"
     ],
     "url": "quiz.html?subject=industrial-installation-and-maintenance&chapter=earthing-arrangements&medium=electrical",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:electrical:industrial-installation-and-maintenance:inspection-testing-and-maintenance-of-industrial-installations",
@@ -2298,7 +2298,7 @@
       "technical"
     ],
     "url": "quiz.html?subject=industrial-installation-and-maintenance&chapter=inspection-testing-and-maintenance-of-industrial-installations&medium=electrical",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:electrical:industrial-installation-and-maintenance:three-phase-induction-motor-controls",
@@ -2350,7 +2350,7 @@
       "technical"
     ],
     "url": "quiz.html?subject=industrial-installation-and-maintenance&chapter=three-phase-induction-motor-controls&medium=electrical",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:electrical:utilization-of-electrical-energy:introduction-to-electrical-energy",
@@ -2568,7 +2568,7 @@
       "technical"
     ],
     "url": "quiz.html?subject=utilization-of-electrical-energy&chapter=power-factor&medium=electrical",
-    "status": "draft"
+    "status": "published"
   },
   {
     "id": "chapter:electrical:utilization-of-electrical-energy:tariff",
@@ -3181,5 +3181,755 @@
     "actionLabel": "View infographic",
     "status": "published",
     "resourceType": "infographic"
+  },
+  {
+    "id": "chapter:english:computer:computer-network-and-communication",
+    "legacyId": "chapter-english-computer-computer-network-and-communication",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "computer-network-and-communication",
+    "title": "Computer Network and Communication",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "network",
+      "and",
+      "communication",
+      "english"
+    ],
+    "url": "chapter.html?subject=computer&chapter=computer-network-and-communication&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:computer:computer-network-and-communication",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "computer-network-and-communication",
+    "title": "Computer Network and Communication MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "network",
+      "and",
+      "communication",
+      "english",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=computer&chapter=computer-network-and-communication&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "chapter:english:computer:database-management-system",
+    "legacyId": "chapter-english-computer-database-management-system",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "database-management-system",
+    "title": "Database Management System",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "database",
+      "management",
+      "system",
+      "english"
+    ],
+    "url": "chapter.html?subject=computer&chapter=database-management-system&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:computer:database-management-system",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "database-management-system",
+    "title": "Database Management System MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "database",
+      "management",
+      "system",
+      "english",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=computer&chapter=database-management-system&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "chapter:english:computer:multimedia",
+    "legacyId": "chapter-english-computer-multimedia",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "multimedia",
+    "title": "Multimedia",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "multimedia",
+      "english"
+    ],
+    "url": "chapter.html?subject=computer&chapter=multimedia&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:computer:multimedia",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "multimedia",
+    "title": "Multimedia MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "multimedia",
+      "english",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=computer&chapter=multimedia&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "chapter:english:computer:programming-in-python",
+    "legacyId": "chapter-english-computer-programming-in-python",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "programming-in-python",
+    "title": "Programming in Python",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "programming",
+      "in",
+      "python",
+      "english"
+    ],
+    "url": "chapter.html?subject=computer&chapter=programming-in-python&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:computer:programming-in-python",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "programming-in-python",
+    "title": "Programming in Python MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "programming",
+      "in",
+      "python",
+      "english",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=computer&chapter=programming-in-python&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "chapter:english:computer:ai-and-contemporary-technologies",
+    "legacyId": "chapter-english-computer-ai-and-contemporary-technologies",
+    "type": "chapter",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "ai-and-contemporary-technologies",
+    "title": "AI and Contemporary Technologies",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "ai",
+      "and",
+      "contemporary",
+      "technologies",
+      "english"
+    ],
+    "url": "chapter.html?subject=computer&chapter=ai-and-contemporary-technologies&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "mcq:english:computer:ai-and-contemporary-technologies",
+    "type": "mcq",
+    "medium": "english",
+    "subject": "computer",
+    "chapter": "ai-and-contemporary-technologies",
+    "title": "AI and Contemporary Technologies MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "computer",
+      "science",
+      "ai",
+      "and",
+      "contemporary",
+      "technologies",
+      "english",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=computer&chapter=ai-and-contemporary-technologies&medium=english",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:basic-electronics:passive-components",
+    "legacyId": "chapter-electrical-basic-electronics-passive-components",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "passive-components",
+    "title": "Passive Components",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "passive",
+      "components",
+      "technical",
+      "electrical"
+    ],
+    "url": "chapter.html?subject=basic-electronics&chapter=passive-components&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:basic-electronics:passive-components",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "passive-components",
+    "title": "Passive Components MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "passive",
+      "components",
+      "technical",
+      "electrical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=basic-electronics&chapter=passive-components&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:basic-electronics:basic-of-semiconductors",
+    "legacyId": "chapter-electrical-basic-electronics-basic-of-semiconductors",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "basic-of-semiconductors",
+    "title": "Basic of Semiconductors",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "of",
+      "semiconductors",
+      "technical",
+      "electrical",
+      "basics"
+    ],
+    "url": "chapter.html?subject=basic-electronics&chapter=basic-of-semiconductors&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:basic-electronics:basic-of-semiconductors",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "basic-of-semiconductors",
+    "title": "Basic of Semiconductors MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "of",
+      "semiconductors",
+      "technical",
+      "electrical",
+      "mcq",
+      "practice",
+      "quiz",
+      "basics"
+    ],
+    "url": "quiz.html?subject=basic-electronics&chapter=basic-of-semiconductors&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:basic-electronics:semiconductor-diode",
+    "legacyId": "chapter-electrical-basic-electronics-semiconductor-diode",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "semiconductor-diode",
+    "title": "Semiconductor Diode",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "semiconductor",
+      "diode",
+      "technical",
+      "electrical"
+    ],
+    "url": "chapter.html?subject=basic-electronics&chapter=semiconductor-diode&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:basic-electronics:semiconductor-diode",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "semiconductor-diode",
+    "title": "Semiconductor Diode MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "semiconductor",
+      "diode",
+      "technical",
+      "electrical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=basic-electronics&chapter=semiconductor-diode&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:basic-electronics:power-supplies",
+    "legacyId": "chapter-electrical-basic-electronics-power-supplies",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "power-supplies",
+    "title": "Power Supplies",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "power",
+      "supplies",
+      "technical",
+      "electrical"
+    ],
+    "url": "chapter.html?subject=basic-electronics&chapter=power-supplies&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:basic-electronics:power-supplies",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "power-supplies",
+    "title": "Power Supplies MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "power",
+      "supplies",
+      "technical",
+      "electrical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=basic-electronics&chapter=power-supplies&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:basic-electronics:transistors",
+    "legacyId": "chapter-electrical-basic-electronics-transistors",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "transistors",
+    "title": "Transistors",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "transistors",
+      "technical",
+      "electrical"
+    ],
+    "url": "chapter.html?subject=basic-electronics&chapter=transistors&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:basic-electronics:transistors",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "transistors",
+    "title": "Transistors MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "transistors",
+      "technical",
+      "electrical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=basic-electronics&chapter=transistors&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:basic-electronics:field-effect-transistors",
+    "legacyId": "chapter-electrical-basic-electronics-field-effect-transistors",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "field-effect-transistors",
+    "title": "Field Effect Transistors",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "field",
+      "effect",
+      "transistors",
+      "technical",
+      "electrical"
+    ],
+    "url": "chapter.html?subject=basic-electronics&chapter=field-effect-transistors&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:basic-electronics:field-effect-transistors",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "field-effect-transistors",
+    "title": "Field Effect Transistors MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "field",
+      "effect",
+      "transistors",
+      "technical",
+      "electrical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=basic-electronics&chapter=field-effect-transistors&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:basic-electronics:logic-gates",
+    "legacyId": "chapter-electrical-basic-electronics-logic-gates",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "logic-gates",
+    "title": "Logic Gates",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "logic",
+      "gates",
+      "technical",
+      "electrical"
+    ],
+    "url": "chapter.html?subject=basic-electronics&chapter=logic-gates&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:basic-electronics:logic-gates",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "basic-electronics",
+    "chapter": "logic-gates",
+    "title": "Logic Gates MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "basic",
+      "electronics",
+      "logic",
+      "gates",
+      "technical",
+      "electrical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=basic-electronics&chapter=logic-gates&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:electrical-machine:electromagnetism",
+    "legacyId": "chapter-electrical-electrical-machine-electromagnetism",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "electromagnetism",
+    "title": "Electromagnetism",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "electromagnetism",
+      "technical"
+    ],
+    "url": "chapter.html?subject=electrical-machine&chapter=electromagnetism&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:electrical-machine:electromagnetism",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "electromagnetism",
+    "title": "Electromagnetism MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "electromagnetism",
+      "technical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=electrical-machine&chapter=electromagnetism&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:electrical-machine:transformers",
+    "legacyId": "chapter-electrical-electrical-machine-transformers",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "transformers",
+    "title": "Transformers",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "transformers",
+      "technical"
+    ],
+    "url": "chapter.html?subject=electrical-machine&chapter=transformers&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:electrical-machine:transformers",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "transformers",
+    "title": "Transformers MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "transformers",
+      "technical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=electrical-machine&chapter=transformers&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:electrical-machine:dc-machines",
+    "legacyId": "chapter-electrical-electrical-machine-dc-machines",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "dc-machines",
+    "title": "DC Machines",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "dc",
+      "machines",
+      "technical"
+    ],
+    "url": "chapter.html?subject=electrical-machine&chapter=dc-machines&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:electrical-machine:dc-machines",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "dc-machines",
+    "title": "DC Machines MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "dc",
+      "machines",
+      "technical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=electrical-machine&chapter=dc-machines&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:electrical-machine:three-phase-induction-machine",
+    "legacyId": "chapter-electrical-electrical-machine-three-phase-induction-machine",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "three-phase-induction-machine",
+    "title": "Three Phase Induction Machine",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "three",
+      "phase",
+      "induction",
+      "technical"
+    ],
+    "url": "chapter.html?subject=electrical-machine&chapter=three-phase-induction-machine&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:electrical-machine:three-phase-induction-machine",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "three-phase-induction-machine",
+    "title": "Three Phase Induction Machine MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "three",
+      "phase",
+      "induction",
+      "technical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=electrical-machine&chapter=three-phase-induction-machine&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:electrical-machine:synchronous-machines",
+    "legacyId": "chapter-electrical-electrical-machine-synchronous-machines",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "synchronous-machines",
+    "title": "Synchronous Machines",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "synchronous",
+      "machines",
+      "technical"
+    ],
+    "url": "chapter.html?subject=electrical-machine&chapter=synchronous-machines&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:electrical-machine:synchronous-machines",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "synchronous-machines",
+    "title": "Synchronous Machines MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "synchronous",
+      "machines",
+      "technical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=electrical-machine&chapter=synchronous-machines&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "chapter:electrical:electrical-machine:single-phase-fractional-horse-power-motors",
+    "legacyId": "chapter-electrical-electrical-machine-single-phase-fractional-horse-power-motors",
+    "type": "chapter",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "single-phase-fractional-horse-power-motors",
+    "title": "Single Phase Fractional Horse Power Motors",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "single",
+      "phase",
+      "fractional",
+      "horse",
+      "power",
+      "motors",
+      "technical"
+    ],
+    "url": "chapter.html?subject=electrical-machine&chapter=single-phase-fractional-horse-power-motors&medium=electrical",
+    "status": "published"
+  },
+  {
+    "id": "mcq:electrical:electrical-machine:single-phase-fractional-horse-power-motors",
+    "type": "mcq",
+    "medium": "electrical",
+    "subject": "electrical-machine",
+    "chapter": "single-phase-fractional-horse-power-motors",
+    "title": "Single Phase Fractional Horse Power Motors MCQ Practice",
+    "titleNp": "",
+    "keywords": [
+      "electrical",
+      "machine",
+      "single",
+      "phase",
+      "fractional",
+      "horse",
+      "power",
+      "motors",
+      "technical",
+      "mcq",
+      "practice",
+      "quiz"
+    ],
+    "url": "quiz.html?subject=electrical-machine&chapter=single-phase-fractional-horse-power-motors&medium=electrical",
+    "status": "draft"
   }
 ]

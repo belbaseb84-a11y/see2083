@@ -1,0 +1,1519 @@
+{
+  "medium": "electrical",
+  "mediumId": "electrical",
+  "subject": "basic-electronics",
+  "subjectId": "basic-electronics",
+  "subjectTitle": "Basic Electronics",
+  "chapter": "basic-of-semiconductors",
+  "unitSlug": "basics-of-semiconductors",
+  "chapterTitle": "Basics of Semiconductors",
+  "unit": 2,
+  "unitTitle": "Basics of Semiconductors",
+  "mcqKey": "mcq:electrical/basic-electronics/basics-of-semiconductors",
+  "status": "published",
+  "version": 1,
+  "questionCount": 50,
+  "questions": [
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q001",
+      "question": "The number of valence electrons of P and Si are ______ respectively.",
+      "options": [
+        "3 and 4",
+        "5 and 4",
+        "4 and 4",
+        "4 and 5"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "5 and 4",
+      "correctAnswer": "5 and 4",
+      "explanation": "Phosphorus has five valence electrons.\nSilicon has four valence electrons.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q001",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q002",
+      "question": "Semiconductors have ______ conduction band and ______ valence band.",
+      "options": [
+        "A lightly filled, a moderately filled",
+        "An almost filled, a moderately filled",
+        "An almost empty, an almost filled",
+        "An almost filled, an almost empty"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "An almost empty, an almost filled",
+      "correctAnswer": "An almost empty, an almost filled",
+      "explanation": "A semiconductor has an almost empty conduction band.\nIts valence band is almost filled.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q002",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q003",
+      "question": "The temperature coefficient of resistance in a pure semiconductor is ______.",
+      "options": [
+        "Zero",
+        "Positive",
+        "Negative",
+        "Dependent on size of specimen"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Negative",
+      "correctAnswer": "Negative",
+      "explanation": "Pure semiconductors have negative temperature coefficient.\nTheir resistance decreases when temperature increases.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q003",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q004",
+      "question": "Valence electrons are the ______.",
+      "options": [
+        "Loosely packed electrons",
+        "Mobile electrons",
+        "Electrons present in the outermost orbit",
+        "Electrons that do not carry any charge"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Electrons present in the outermost orbit",
+      "correctAnswer": "Electrons present in the outermost orbit",
+      "explanation": "Valence electrons are in the outermost orbit.\nThey take part in bonding and conduction.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q004",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q005",
+      "question": "The forbidden energy gap for germanium is ______.",
+      "options": [
+        "0.12 eV",
+        "0.72 eV",
+        "1.11 eV",
+        "1.52 eV"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "0.72 eV",
+      "correctAnswer": "0.72 eV",
+      "explanation": "Germanium has a smaller forbidden energy gap.\nThe source gives it as 0.72 eV.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q005",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q006",
+      "question": "At room temperature intrinsic carrier concentration is higher in germanium than silicon because ______.",
+      "options": [
+        "Carrier mobilities are higher in Ge than Si",
+        "Energy gap in Ge is smaller than that in Si",
+        "Atomic number of Ge is larger than Si",
+        "Atomic weight of Ge is larger than Si"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Energy gap in Ge is smaller than that in Si",
+      "correctAnswer": "Energy gap in Ge is smaller than that in Si",
+      "explanation": "Germanium has smaller energy gap than silicon.\nSmaller energy gap gives more carriers at room temperature.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q006",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q007",
+      "question": "What will be the resistance of a semiconductor at a low temperature?",
+      "options": [
+        "Low",
+        "One",
+        "Zero",
+        "High"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "High",
+      "correctAnswer": "High",
+      "explanation": "At low temperature, few charge carriers are available.\nSo semiconductor resistance becomes high.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q007",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q008",
+      "question": "A pure Ge crystal can be converted to an n-type crystal by doping with ______.",
+      "options": [
+        "Boron",
+        "Gallium",
+        "Arsenic",
+        "Silicon"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Arsenic",
+      "correctAnswer": "Arsenic",
+      "explanation": "Arsenic is a pentavalent donor impurity.\nDonor impurity makes n-type semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q008",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q009",
+      "question": "Which material has conductivity between conductor and insulator?",
+      "options": [
+        "Semiconductor",
+        "Conductor",
+        "Insulator",
+        "Dielectric only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Semiconductor",
+      "correctAnswer": "Semiconductor",
+      "explanation": "A semiconductor has conductivity between conductor and insulator.\nIts conductivity can be changed by temperature and doping.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q009",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q010",
+      "question": "Which semiconductor is in pure form without impurity?",
+      "options": [
+        "Extrinsic semiconductor",
+        "Intrinsic semiconductor",
+        "N-type semiconductor",
+        "P-type semiconductor"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Intrinsic semiconductor",
+      "correctAnswer": "Intrinsic semiconductor",
+      "explanation": "Intrinsic semiconductor is pure semiconductor.\nIt has no intentional impurity added.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q010",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q011",
+      "question": "Which semiconductor is formed by adding impurity?",
+      "options": [
+        "Intrinsic semiconductor",
+        "Pure conductor",
+        "Extrinsic semiconductor",
+        "Perfect insulator"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Extrinsic semiconductor",
+      "correctAnswer": "Extrinsic semiconductor",
+      "explanation": "Extrinsic semiconductor is made by doping.\nDoping means adding impurity to pure semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q011",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q012",
+      "question": "What is the process of adding impurity to a pure semiconductor called?",
+      "options": [
+        "Rectification",
+        "Amplification",
+        "Biasing",
+        "Doping"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Doping",
+      "correctAnswer": "Doping",
+      "explanation": "Doping means adding impurity.\nIt increases holes or free electrons.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q012",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q013",
+      "question": "What is the impurity material added during doping called?",
+      "options": [
+        "Dopant",
+        "Depletion layer",
+        "Dielectric",
+        "Gate"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Dopant",
+      "correctAnswer": "Dopant",
+      "explanation": "The material used as impurity is dopant.\nDopant changes the conductivity of semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q014",
+      "question": "Which impurity is also called donor impurity?",
+      "options": [
+        "Trivalent impurity",
+        "Pentavalent impurity",
+        "Intrinsic impurity",
+        "Neutral impurity"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Pentavalent impurity",
+      "correctAnswer": "Pentavalent impurity",
+      "explanation": "Pentavalent impurity donates electrons.\nIt forms n-type semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q015",
+      "question": "Which impurity is also called acceptor impurity?",
+      "options": [
+        "Pentavalent impurity",
+        "Neutral atom",
+        "Trivalent impurity",
+        "Metal oxide"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Trivalent impurity",
+      "correctAnswer": "Trivalent impurity",
+      "explanation": "Trivalent impurity accepts electrons.\nIt forms p-type semiconductor with holes as majority carriers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q016",
+      "question": "Which type of semiconductor has electrons as majority carriers?",
+      "options": [
+        "P-type semiconductor",
+        "Intrinsic semiconductor only",
+        "Insulator",
+        "N-type semiconductor"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "N-type semiconductor",
+      "correctAnswer": "N-type semiconductor",
+      "explanation": "N-type semiconductor has more free electrons.\nIt is made by donor impurity.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q017",
+      "question": "Which type of semiconductor has holes as majority carriers?",
+      "options": [
+        "P-type semiconductor",
+        "N-type semiconductor",
+        "Metal conductor",
+        "Dielectric"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "P-type semiconductor",
+      "correctAnswer": "P-type semiconductor",
+      "explanation": "P-type semiconductor has more holes.\nIt is made by acceptor impurity.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q018",
+      "question": "In n-type semiconductor, which carriers are minority carriers?",
+      "options": [
+        "Electrons",
+        "Holes",
+        "Donor atoms only",
+        "Protons"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Holes",
+      "correctAnswer": "Holes",
+      "explanation": "Electrons are majority carriers in n-type.\nSo holes are minority carriers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q019",
+      "question": "In p-type semiconductor, which carriers are minority carriers?",
+      "options": [
+        "Holes",
+        "Acceptor atoms only",
+        "Electrons",
+        "Neutrons"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Electrons",
+      "correctAnswer": "Electrons",
+      "explanation": "Holes are majority carriers in p-type.\nSo electrons are minority carriers.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q020",
+      "question": "Which current is due to movement of positively charged holes?",
+      "options": [
+        "Electron current",
+        "Magnetic current",
+        "Gate current",
+        "Hole current"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Hole current",
+      "correctAnswer": "Hole current",
+      "explanation": "Hole current is caused by movement of holes.\nHoles move opposite to electron motion.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q021",
+      "question": "Which current is due to movement of free electrons?",
+      "options": [
+        "Electron current",
+        "Hole current",
+        "Ionic current",
+        "Leakage only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Electron current",
+      "correctAnswer": "Electron current",
+      "explanation": "Electron current is caused by free electrons.\nElectrons are negatively charged particles.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q022",
+      "question": "What is created when an electron leaves its position in the atomic lattice?",
+      "options": [
+        "Gate",
+        "Hole",
+        "Emitter",
+        "Collector"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Hole",
+      "correctAnswer": "Hole",
+      "explanation": "A hole is a vacancy left by an electron.\nIt behaves like a positive charge carrier.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q023",
+      "question": "Which factor affects hole current according to the unit?",
+      "options": [
+        "Logic truth table",
+        "Transformer turns",
+        "Doping",
+        "Resistor color only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Doping",
+      "correctAnswer": "Doping",
+      "explanation": "Hole current is influenced by doping.\nTemperature and electric field also affect it.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q024",
+      "question": "Which factor affects electron current according to the unit?",
+      "options": [
+        "Truth table",
+        "Binary subtraction",
+        "Tolerance color",
+        "Electric field"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Electric field",
+      "correctAnswer": "Electric field",
+      "explanation": "Electron current is influenced by electric field.\nFree electrons move through the semiconductor material.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q025",
+      "question": "What is the energy band where free electrons can move called?",
+      "options": [
+        "Conduction band",
+        "Valence band",
+        "Forbidden band",
+        "Base region"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Conduction band",
+      "correctAnswer": "Conduction band",
+      "explanation": "The conduction band is related to free electrons.\nElectrons in this band can help conduction.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q026",
+      "question": "What is the band containing valence electrons called?",
+      "options": [
+        "Conduction band",
+        "Valence band",
+        "Forbidden gap",
+        "Drain region"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Valence band",
+      "correctAnswer": "Valence band",
+      "explanation": "Valence band contains valence electrons.\nIt is almost filled in semiconductors.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q027",
+      "question": "What separates conduction band and valence band?",
+      "options": [
+        "Heat sink",
+        "Base width",
+        "Forbidden energy gap",
+        "Truth table"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Forbidden energy gap",
+      "correctAnswer": "Forbidden energy gap",
+      "explanation": "The forbidden energy gap lies between bands.\nIts value affects conductivity.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q028",
+      "question": "Which semiconductor has smaller energy gap in the source comparison?",
+      "options": [
+        "Silicon",
+        "Copper",
+        "Mica",
+        "Germanium"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Germanium",
+      "correctAnswer": "Germanium",
+      "explanation": "Germanium has smaller energy gap than silicon.\nThat is why Ge has higher intrinsic carrier concentration at room temperature.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q029",
+      "question": "What happens to semiconductor conductivity when temperature increases?",
+      "options": [
+        "Conductivity increases",
+        "Conductivity decreases always",
+        "Conductivity becomes zero",
+        "It becomes an inductor"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Conductivity increases",
+      "correctAnswer": "Conductivity increases",
+      "explanation": "Semiconductor conductivity increases with temperature.\nIts resistance has negative temperature coefficient.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q030",
+      "question": "What happens to semiconductor resistance when temperature increases?",
+      "options": [
+        "Resistance increases",
+        "Resistance decreases",
+        "Resistance stays infinite",
+        "Resistance becomes tolerance"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Resistance decreases",
+      "correctAnswer": "Resistance decreases",
+      "explanation": "Resistance decreases as temperature increases.\nThis is negative temperature coefficient.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q031",
+      "question": "Which element is a common semiconductor material in the unit?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Silicon",
+        "Wood"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Silicon",
+      "correctAnswer": "Silicon",
+      "explanation": "Silicon is a semiconductor material.\nIt has four valence electrons.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q032",
+      "question": "Which element is another semiconductor material in the unit?",
+      "options": [
+        "Copper",
+        "Iron",
+        "Plastic",
+        "Germanium"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Germanium",
+      "correctAnswer": "Germanium",
+      "explanation": "Germanium is a semiconductor material.\nThe unit gives its forbidden energy gap.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q033",
+      "question": "Which element is used as pentavalent impurity in the source MCQ?",
+      "options": [
+        "Arsenic",
+        "Boron",
+        "Gallium",
+        "Silicon"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Arsenic",
+      "correctAnswer": "Arsenic",
+      "explanation": "Arsenic is a donor impurity.\nIt converts pure Ge into n-type crystal.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q034",
+      "question": "Which of these is a trivalent impurity example from the MCQ options?",
+      "options": [
+        "Arsenic",
+        "Boron",
+        "Silicon",
+        "Phosphorus"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Boron",
+      "correctAnswer": "Boron",
+      "explanation": "Boron is a trivalent impurity.\nTrivalent impurity helps make p-type semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q035",
+      "question": "Which of these is another trivalent impurity example from the MCQ options?",
+      "options": [
+        "Arsenic",
+        "Silicon",
+        "Gallium",
+        "Phosphorus"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Gallium",
+      "correctAnswer": "Gallium",
+      "explanation": "Gallium is a trivalent impurity.\nIt can act as acceptor impurity.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q036",
+      "question": "Which carrier is positively charged in semiconductor explanation?",
+      "options": [
+        "Electron",
+        "Neutron",
+        "Metal oxide",
+        "Hole"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Hole",
+      "correctAnswer": "Hole",
+      "explanation": "Hole is treated as positively charged.\nIt is a vacancy created by an electron leaving its place.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q037",
+      "question": "Which carrier is negatively charged?",
+      "options": [
+        "Electron",
+        "Hole",
+        "Donor atom always",
+        "Acceptor atom always"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Electron",
+      "correctAnswer": "Electron",
+      "explanation": "Electron is negatively charged.\nElectron current is the movement of free electrons.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q038",
+      "question": "What type of impurity increases number of free electrons?",
+      "options": [
+        "Acceptor impurity",
+        "Donor impurity",
+        "Dielectric impurity",
+        "Insulating paint"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Donor impurity",
+      "correctAnswer": "Donor impurity",
+      "explanation": "Donor impurity adds extra electrons.\nThis forms n-type semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q039",
+      "question": "What type of impurity increases number of holes?",
+      "options": [
+        "Donor impurity",
+        "Pentavalent impurity",
+        "Acceptor impurity",
+        "Metal oxide only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Acceptor impurity",
+      "correctAnswer": "Acceptor impurity",
+      "explanation": "Acceptor impurity increases holes.\nThis forms p-type semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q040",
+      "question": "What kind of charge carrier is majority in intrinsic semiconductor?",
+      "options": [
+        "Only electrons",
+        "Only holes",
+        "No carriers",
+        "Electrons and holes are equal"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Electrons and holes are equal",
+      "correctAnswer": "Electrons and holes are equal",
+      "explanation": "Intrinsic semiconductor is pure.\nElectron and hole concentrations are equal.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q041",
+      "question": "Why is doping done in semiconductor?",
+      "options": [
+        "To enhance conductivity",
+        "To remove all atoms",
+        "To make it a resistor color band",
+        "To stop all current forever"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "To enhance conductivity",
+      "correctAnswer": "To enhance conductivity",
+      "explanation": "Doping enhances conductivity.\nIt increases either holes or free electrons.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q042",
+      "question": "Which term means the outermost electrons of an atom?",
+      "options": [
+        "Minority carriers",
+        "Valence electrons",
+        "Forbidden electrons",
+        "Drain electrons"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Valence electrons",
+      "correctAnswer": "Valence electrons",
+      "explanation": "Valence electrons are in the outermost orbit.\nThey are important in semiconductor bonding.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q043",
+      "question": "Which carrier movement appears opposite to electron motion?",
+      "options": [
+        "Electron movement",
+        "Proton movement",
+        "Hole movement",
+        "Core movement"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Hole movement",
+      "correctAnswer": "Hole movement",
+      "explanation": "A hole appears to move opposite to electron motion.\nThis creates hole current.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q044",
+      "question": "Which of these devices uses semiconductor operation according to the unit?",
+      "options": [
+        "Breadboard",
+        "Mica sheet",
+        "Resistor color chart",
+        "Diode"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Diode",
+      "correctAnswer": "Diode",
+      "explanation": "The unit says hole current is important in devices such as diodes.\nTransistors and photovoltaic cells are also mentioned.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q045",
+      "question": "Which type of material has almost empty conduction band and almost filled valence band?",
+      "options": [
+        "Semiconductor",
+        "Conductor",
+        "Perfect insulator",
+        "Battery"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Semiconductor",
+      "correctAnswer": "Semiconductor",
+      "explanation": "This band condition describes semiconductor.\nIt allows controlled conductivity.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q046",
+      "question": "At low temperature, why is semiconductor resistance high?",
+      "options": [
+        "Too many holes are added",
+        "Very few carriers are available",
+        "All atoms become gates",
+        "It becomes a metal"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Very few carriers are available",
+      "correctAnswer": "Very few carriers are available",
+      "explanation": "Low temperature gives fewer charge carriers.\nSo current flow becomes difficult.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q047",
+      "question": "Which term describes charge carriers present in greater number?",
+      "options": [
+        "Minority carriers",
+        "Depletion carriers",
+        "Majority carriers",
+        "Tolerance carriers"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Majority carriers",
+      "correctAnswer": "Majority carriers",
+      "explanation": "Majority carriers are present in greater number.\nElectrons in n-type and holes in p-type are examples.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q048",
+      "question": "Which term describes charge carriers present in smaller number?",
+      "options": [
+        "Majority carriers",
+        "Donor atoms",
+        "Energy bands",
+        "Minority carriers"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Minority carriers",
+      "correctAnswer": "Minority carriers",
+      "explanation": "Minority carriers are present in smaller number.\nHoles in n-type and electrons in p-type are examples.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q049",
+      "question": "What type of semiconductor is made by adding pentavalent impurity?",
+      "options": [
+        "N-type semiconductor",
+        "P-type semiconductor",
+        "Intrinsic semiconductor",
+        "Insulator"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "N-type semiconductor",
+      "correctAnswer": "N-type semiconductor",
+      "explanation": "Pentavalent impurity donates electrons.\nExtra electrons make n-type semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "electrical-basic-electronics-basics-of-semiconductors-q050",
+      "question": "What type of semiconductor is made by adding trivalent impurity?",
+      "options": [
+        "N-type semiconductor",
+        "P-type semiconductor",
+        "Intrinsic semiconductor",
+        "Conductor only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "P-type semiconductor",
+      "correctAnswer": "P-type semiconductor",
+      "explanation": "Trivalent impurity creates holes.\nMore holes make p-type semiconductor.",
+      "difficulty": "medium",
+      "sourceType": "uploaded_source_mcq_bank",
+      "tags": [
+        "basic-electronics",
+        "basics-of-semiconductors"
+      ],
+      "subject": "basic-electronics",
+      "chapter": "basic-of-semiconductors",
+      "legacyId": "electrical-basic-electronics-basics-of-semiconductors-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ],
+  "importSourceSlug": "basics-of-semiconductors"
+}

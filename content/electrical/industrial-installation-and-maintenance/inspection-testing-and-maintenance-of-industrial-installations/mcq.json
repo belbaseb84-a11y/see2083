@@ -3,6 +3,1515 @@
   "subject": "industrial-installation-and-maintenance",
   "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
   "chapterTitle": "Inspection, Testing and Maintenance of Industrial Installations",
-  "status": "draft",
-  "questions": []
+  "unit": 5,
+  "status": "published",
+  "questionCount": 50,
+  "schemaVersion": "1.0.0",
+  "source": {
+    "type": "docx_import",
+    "file": "Industrial_Installation_Maintenance_All_Units_300_MCQs.docx",
+    "note": "Converted from uploaded DOCX. One JSON file per unit."
+  },
+  "questions": [
+    {
+      "id": "iim-u5-q001",
+      "question": "What is the primary purpose of an insulation test?",
+      "options": [
+        "To measure power consumption",
+        "To check the integrity of insulation in a system",
+        "To identify the phase sequence",
+        "To test earth resistance"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "To check the integrity of insulation in a system",
+      "correctOptionIndex": 1,
+      "explanation": "Insulation test checks insulation condition. It detects leakage between conductors or earth.",
+      "explanationLines": [
+        "Insulation test checks insulation condition.",
+        "It detects leakage between conductors or earth."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q001",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q002",
+      "question": "Which test instrument is used to measure the resistance of the earth connection?",
+      "options": [
+        "Phase Sequence Test Instrument",
+        "Continuity Test Instrument",
+        "Earth Resistance Test Instrument",
+        "Insulation Test Instrument"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Earth Resistance Test Instrument",
+      "correctOptionIndex": 2,
+      "explanation": "Earth resistance is measured by an earth resistance tester. The unit names it as a special type of ohmmeter.",
+      "explanationLines": [
+        "Earth resistance is measured by an earth resistance tester.",
+        "The unit names it as a special type of ohmmeter."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q002",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q003",
+      "question": "What is inspected during the inspection of industrial installations?",
+      "options": [
+        "Wiring systems and industrial equipment",
+        "Transformer connections only",
+        "Switchgear alignment only",
+        "Load distribution"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Wiring systems and industrial equipment",
+      "correctOptionIndex": 0,
+      "explanation": "The unit covers wiring system and industrial equipment inspection. Both are part of industrial installation inspection.",
+      "explanationLines": [
+        "The unit covers wiring system and industrial equipment inspection.",
+        "Both are part of industrial installation inspection."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q003",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q004",
+      "question": "Which of the following tests ensures proper connections in electrical circuits?",
+      "options": [
+        "Insulation Test",
+        "Continuity Test",
+        "Earth Resistance Test",
+        "Phase Sequence Test"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Continuity Test",
+      "correctOptionIndex": 1,
+      "explanation": "Continuity test checks whether the circuit path is complete. It confirms proper electrical connection.",
+      "explanationLines": [
+        "Continuity test checks whether the circuit path is complete.",
+        "It confirms proper electrical connection."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q004",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q005",
+      "question": "Phase sequence test instruments are used to:",
+      "options": [
+        "Check insulation resistance",
+        "Verify the order of phases in a three-phase system",
+        "Measure the continuity of circuits",
+        "Determine earth continuity"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Verify the order of phases in a three-phase system",
+      "correctOptionIndex": 1,
+      "explanation": "Phase sequence instruments check phase order. Correct sequence is important in three-phase systems.",
+      "explanationLines": [
+        "Phase sequence instruments check phase order.",
+        "Correct sequence is important in three-phase systems."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q005",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q006",
+      "question": "The permissible earth resistance of domestic purpose is…",
+      "options": [
+        "5 Ω",
+        "1 MΩ",
+        "0.5 Ω",
+        "1 Ω"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "5 Ω",
+      "correctOptionIndex": 0,
+      "explanation": "The source states domestic earth resistance is 5 Ω. It must stay within permissible limits.",
+      "explanationLines": [
+        "The source states domestic earth resistance is 5 Ω.",
+        "It must stay within permissible limits."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q006",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q007",
+      "question": "The insulation resistance test is performed using a/an ………",
+      "options": [
+        "Ammeter",
+        "Megger",
+        "Galvanometer",
+        "Voltmeter"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Megger",
+      "correctOptionIndex": 1,
+      "explanation": "The insulation resistance tester is also called Megger. It measures insulation resistance.",
+      "explanationLines": [
+        "The insulation resistance tester is also called Megger.",
+        "It measures insulation resistance."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q007",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q008",
+      "question": "In an earth continuity test, which of the following values is typically considered an acceptable range for the earth continuity resistance of a grounding conductor in a standardhousehold electrical system?",
+      "options": [
+        "10–20-ohm",
+        "Greater than 100 ohms",
+        "Exactly 50 ohms",
+        "Less than 1 ohm"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Less than 1 ohm",
+      "correctOptionIndex": 3,
+      "explanation": "Earth continuity resistance must not be greater than 1 ohm. Less than 1 ohm is the acceptable option.",
+      "explanationLines": [
+        "Earth continuity resistance must not be greater than 1 ohm.",
+        "Less than 1 ohm is the acceptable option."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q008",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q009",
+      "question": "What is the purpose of a visual inspection?",
+      "options": [
+        "To measure voltage",
+        "To identify visible defects and damages",
+        "To test insulation resistance",
+        "To check phase sequence"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "To identify visible defects and damages",
+      "correctOptionIndex": 1,
+      "explanation": "Visual inspection finds visible defects. It is done before deeper testing.",
+      "explanationLines": [
+        "Visual inspection finds visible defects.",
+        "It is done before deeper testing."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q009",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q010",
+      "question": "What is the function of a clamp meter?",
+      "options": [
+        "To measure voltage",
+        "To measure current without interrupting the circuit",
+        "To measure resistance",
+        "To measure insulation resistance"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "To measure current without interrupting the circuit",
+      "correctOptionIndex": 1,
+      "explanation": "A clamp meter measures current using a clamp. The circuit does not need to be opened.",
+      "explanationLines": [
+        "A clamp meter measures current using a clamp.",
+        "The circuit does not need to be opened."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q010",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q011",
+      "question": "Megger is used to measure",
+      "options": [
+        "continuity",
+        "phase sequence",
+        "insulation",
+        "earth resistance"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "insulation",
+      "correctOptionIndex": 2,
+      "explanation": "Megger is the insulation resistance tester. It checks leakage and insulation condition.",
+      "explanationLines": [
+        "Megger is the insulation resistance tester.",
+        "It checks leakage and insulation condition."
+      ],
+      "sourceType": "Existing source MCQ (previous paper)",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q011",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q012",
+      "question": "Which option best matches this source description: internal wiring installations checked every year for safe operation?",
+      "options": [
+        "Periodic inspection",
+        "Insulation test instrument",
+        "Minimum insulation resistance rule",
+        "Domestic earth resistance limit"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Periodic inspection",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Periodic inspection. It supports safe industrial operation.",
+      "explanationLines": [
+        "The correct answer is Periodic inspection.",
+        "It supports safe industrial operation."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q012",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q013",
+      "question": "In this unit, which item is described as: service line is properly terminated and brought in?",
+      "options": [
+        "Test voltage selection",
+        "Incoming service line check",
+        "Between conductors test",
+        "Earth tester common point"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Incoming service line check",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Incoming service line check. It is one inspection point.",
+      "explanationLines": [
+        "The correct answer is Incoming service line check.",
+        "It is one inspection point."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q013",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q014",
+      "question": "Which source term is correctly linked with this point: checking phase fuse wire ratings for correct value?",
+      "options": [
+        "Continuity test instrument",
+        "Continuity test",
+        "Fuse wire rating check",
+        "Earth continuity test"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Fuse wire rating check",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Fuse wire rating check. It avoids unsafe protection sizing.",
+      "explanationLines": [
+        "The correct answer is Fuse wire rating check.",
+        "It avoids unsafe protection sizing."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q014",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q015",
+      "question": "Choose the correct match for this source idea: checking switch board condition, connections and protection.",
+      "options": [
+        "Phase sequence tester",
+        "Continuity mode",
+        "One ohm earth continuity limit",
+        "Main switch board inspection"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Main switch board inspection",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Main switch board inspection. It is part of wiring inspection.",
+      "explanationLines": [
+        "The correct answer is Main switch board inspection.",
+        "It is part of wiring inspection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q015",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q016",
+      "question": "Which answer fits this unit statement: checking wiring circuits for safety and correct condition?",
+      "options": [
+        "Internal wiring circuit inspection",
+        "Earth resistance tester",
+        "OL reading",
+        "Main switch opened"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Internal wiring circuit inspection",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Internal wiring circuit inspection. It finds faults before operation.",
+      "explanationLines": [
+        "The correct answer is Internal wiring circuit inspection.",
+        "It finds faults before operation."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q016",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q017",
+      "question": "Which option best matches this source description: checking equipment for safe and proper condition?",
+      "options": [
+        "Insulation resistance test",
+        "Industrial equipment inspection",
+        "Ohmmeter continuity method",
+        "Visual defects"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Industrial equipment inspection",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Industrial equipment inspection. It is included in installation inspection.",
+      "explanationLines": [
+        "The correct answer is Industrial equipment inspection.",
+        "It is included in installation inspection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q017",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q018",
+      "question": "In this unit, which item is described as: checking insulation around wires and cables?",
+      "options": [
+        "Main switch off condition",
+        "Earth resistance test",
+        "Insulation integrity",
+        "Clamp meter"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Insulation integrity",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Insulation integrity. It helps detect leakage risk.",
+      "explanationLines": [
+        "The correct answer is Insulation integrity.",
+        "It helps detect leakage risk."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q018",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q019",
+      "question": "Which source term is correctly linked with this point: instrument that detects insulation leakage between conductor and earth?",
+      "options": [
+        "Minimum insulation resistance rule",
+        "Domestic earth resistance limit",
+        "Phase difference",
+        "Insulation test instrument"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Insulation test instrument",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Insulation test instrument. The source also names it Megger.",
+      "explanationLines": [
+        "The correct answer is Insulation test instrument.",
+        "The source also names it Megger."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q019",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q020",
+      "question": "Choose the correct match for this source idea: insulation tester uses voltages such as 500 V, 1000 V and 2000 V.",
+      "options": [
+        "Test voltage selection",
+        "Between conductors test",
+        "Earth tester common point",
+        "Probe connection"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Test voltage selection",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Test voltage selection. It measures insulation resistance.",
+      "explanationLines": [
+        "The correct answer is Test voltage selection.",
+        "It measures insulation resistance."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q020",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q021",
+      "question": "Which answer fits this unit statement: instrument used to know open circuit or short circuit?",
+      "options": [
+        "Continuity test",
+        "Continuity test instrument",
+        "Earth continuity test",
+        "De-energized circuit"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Continuity test instrument",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Continuity test instrument. AVO meter or multimeter is used.",
+      "explanationLines": [
+        "The correct answer is Continuity test instrument.",
+        "AVO meter or multimeter is used."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q021",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q022",
+      "question": "Which option best matches this source description: instrument used to verify the sequence of three phases?",
+      "options": [
+        "Continuity mode",
+        "One ohm earth continuity limit",
+        "Phase sequence tester",
+        "Complete path"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Phase sequence tester",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Phase sequence tester. It indicates whether the phase order is correct.",
+      "explanationLines": [
+        "The correct answer is Phase sequence tester.",
+        "It indicates whether the phase order is correct."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q022",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q023",
+      "question": "In this unit, which item is described as: instrument used to test earth resistance?",
+      "options": [
+        "OL reading",
+        "Main switch opened",
+        "Broken path",
+        "Earth resistance tester"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Earth resistance tester",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Earth resistance tester. It has terminals P1, C1, P2 and C2.",
+      "explanationLines": [
+        "The correct answer is Earth resistance tester.",
+        "It has terminals P1, C1, P2 and C2."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q023",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q024",
+      "question": "Which source term is correctly linked with this point: test measuring resistance of insulation against current leakage?",
+      "options": [
+        "Insulation resistance test",
+        "Ohmmeter continuity method",
+        "Visual defects",
+        "Earth point"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Insulation resistance test",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Insulation resistance test. It is performed using a Megger.",
+      "explanationLines": [
+        "The correct answer is Insulation resistance test.",
+        "It is performed using a Megger."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q024",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q025",
+      "question": "Choose the correct match for this source idea: condition required before insulation resistance testing.",
+      "options": [
+        "Earth resistance test",
+        "Main switch off condition",
+        "Clamp meter",
+        "Physical rechecking"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Main switch off condition",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Main switch off condition. Switches should be off and fuses removed as needed.",
+      "explanationLines": [
+        "The correct answer is Main switch off condition.",
+        "Switches should be off and fuses removed as needed."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q025",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q026",
+      "question": "Which answer fits this unit statement: measured value should not be less than 50 megaohms divided by number of outlets?",
+      "options": [
+        "Domestic earth resistance limit",
+        "Phase difference",
+        "Minimum insulation resistance rule",
+        "Testing of industrial installations"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Minimum insulation resistance rule",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Minimum insulation resistance rule. The source also says not less than 1 megaohm when ratio is considered.",
+      "explanationLines": [
+        "The correct answer is Minimum insulation resistance rule.",
+        "The source also says not less than 1 megaohm when ratio is considered."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q026",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q027",
+      "question": "Which option best matches this source description: insulation test between phase and neutral conductors?",
+      "options": [
+        "Earth tester common point",
+        "Probe connection",
+        "Inspection checklist",
+        "Between conductors test"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Between conductors test",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Between conductors test. The measured value should not be less than 0.5 megaohm.",
+      "explanationLines": [
+        "The correct answer is Between conductors test.",
+        "The measured value should not be less than 0.5 megaohm."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q027",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q028",
+      "question": "In this unit, which item is described as: test to ensure each conductor in a circuit has continuity?",
+      "options": [
+        "Continuity test",
+        "Earth continuity test",
+        "De-energized circuit",
+        "Maintenance records"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Continuity test",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Continuity test. It proves the circuit path is complete.",
+      "explanationLines": [
+        "The correct answer is Continuity test.",
+        "It proves the circuit path is complete."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q028",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q029",
+      "question": "Which source term is correctly linked with this point: multimeter mode shown by sound symbol?",
+      "options": [
+        "One ohm earth continuity limit",
+        "Continuity mode",
+        "Complete path",
+        "Safe testing sequence"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Continuity mode",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Continuity mode. A beep or zero reading means the path is complete.",
+      "explanationLines": [
+        "The correct answer is Continuity mode.",
+        "A beep or zero reading means the path is complete."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q029",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q030",
+      "question": "Choose the correct match for this source idea: multimeter indication of open or broken path.",
+      "options": [
+        "Main switch opened",
+        "Broken path",
+        "OL reading",
+        "Periodic inspection"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "OL reading",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is OL reading. No beep with 1 or OL means open path.",
+      "explanationLines": [
+        "The correct answer is OL reading.",
+        "No beep with 1 or OL means open path."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q030",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q031",
+      "question": "Which answer fits this unit statement: resistance mode used to check if path is closed or open?",
+      "options": [
+        "Visual defects",
+        "Earth point",
+        "Incoming service line check",
+        "Ohmmeter continuity method"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Ohmmeter continuity method",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Ohmmeter continuity method. Zero or near zero means closed path.",
+      "explanationLines": [
+        "The correct answer is Ohmmeter continuity method.",
+        "Zero or near zero means closed path."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q031",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q032",
+      "question": "Which option best matches this source description: test checking whether earth resistance is within permissible limits?",
+      "options": [
+        "Earth resistance test",
+        "Clamp meter",
+        "Physical rechecking",
+        "Fuse wire rating check"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Earth resistance test",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Earth resistance test. The instrument indicates earth resistance directly.",
+      "explanationLines": [
+        "The correct answer is Earth resistance test.",
+        "The instrument indicates earth resistance directly."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q032",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q033",
+      "question": "In this unit, which item is described as: 5 ohms permissible earth resistance for domestic purpose?",
+      "options": [
+        "Phase difference",
+        "Domestic earth resistance limit",
+        "Testing of industrial installations",
+        "Main switch board inspection"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Domestic earth resistance limit",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Domestic earth resistance limit. It is stated in the source.",
+      "explanationLines": [
+        "The correct answer is Domestic earth resistance limit.",
+        "It is stated in the source."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q033",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q034",
+      "question": "Which source term is correctly linked with this point: P1 and C1 shorted and connected to the earth electrode under test?",
+      "options": [
+        "Probe connection",
+        "Inspection checklist",
+        "Earth tester common point",
+        "Internal wiring circuit inspection"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Earth tester common point",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Earth tester common point. P2 and C2 connect to auxiliary electrodes.",
+      "explanationLines": [
+        "The correct answer is Earth tester common point.",
+        "P2 and C2 connect to auxiliary electrodes."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q034",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q035",
+      "question": "Choose the correct match for this source idea: test checking resistance between earth electrode connection and metal parts.",
+      "options": [
+        "De-energized circuit",
+        "Maintenance records",
+        "Industrial equipment inspection",
+        "Earth continuity test"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Earth continuity test",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Earth continuity test. It ensures continuity to actual earth.",
+      "explanationLines": [
+        "The correct answer is Earth continuity test.",
+        "It ensures continuity to actual earth."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q035",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q036",
+      "question": "Which answer fits this unit statement: earth continuity resistance must not exceed 1 ohm?",
+      "options": [
+        "One ohm earth continuity limit",
+        "Complete path",
+        "Safe testing sequence",
+        "Insulation integrity"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "One ohm earth continuity limit",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is One ohm earth continuity limit. If it exceeds, earthing should be rectified.",
+      "explanationLines": [
+        "The correct answer is One ohm earth continuity limit.",
+        "If it exceeds, earthing should be rectified."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q036",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q037",
+      "question": "Which option best matches this source description: condition during earth continuity test?",
+      "options": [
+        "Broken path",
+        "Main switch opened",
+        "Periodic inspection",
+        "Insulation test instrument"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Main switch opened",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Main switch opened. Main fuse is withdrawn and other switches are ON.",
+      "explanationLines": [
+        "The correct answer is Main switch opened.",
+        "Main fuse is withdrawn and other switches are ON."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q037",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q038",
+      "question": "In this unit, which item is described as: visible damages found during inspection?",
+      "options": [
+        "Earth point",
+        "Incoming service line check",
+        "Visual defects",
+        "Test voltage selection"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Visual defects",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Visual defects. Visual inspection identifies them before testing.",
+      "explanationLines": [
+        "The correct answer is Visual defects.",
+        "Visual inspection identifies them before testing."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q038",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q039",
+      "question": "Which source term is correctly linked with this point: instrument measuring current without interrupting the circuit?",
+      "options": [
+        "Physical rechecking",
+        "Fuse wire rating check",
+        "Continuity test instrument",
+        "Clamp meter"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Clamp meter",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Clamp meter. It clamps around the conductor.",
+      "explanationLines": [
+        "The correct answer is Clamp meter.",
+        "It clamps around the conductor."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q039",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q040",
+      "question": "Choose the correct match for this source idea: 120 degree phase difference in three-phase currents.",
+      "options": [
+        "Phase difference",
+        "Testing of industrial installations",
+        "Main switch board inspection",
+        "Phase sequence tester"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Phase difference",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Phase difference. Phase sequence tester checks this order.",
+      "explanationLines": [
+        "The correct answer is Phase difference.",
+        "Phase sequence tester checks this order."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q040",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q041",
+      "question": "Which answer fits this unit statement: black probe in COM and red probe in V-ohm port during continuity test?",
+      "options": [
+        "Inspection checklist",
+        "Probe connection",
+        "Internal wiring circuit inspection",
+        "Earth resistance tester"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Probe connection",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Probe connection. It is part of continuity procedure.",
+      "explanationLines": [
+        "The correct answer is Probe connection.",
+        "It is part of continuity procedure."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q041",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q042",
+      "question": "Which option best matches this source description: condition required before continuity testing?",
+      "options": [
+        "Maintenance records",
+        "Industrial equipment inspection",
+        "De-energized circuit",
+        "Insulation resistance test"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "De-energized circuit",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is De-energized circuit. Power input must be removed for safety.",
+      "explanationLines": [
+        "The correct answer is De-energized circuit.",
+        "Power input must be removed for safety."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q042",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q043",
+      "question": "In this unit, which item is described as: path that gives zero reading or beep in continuity test?",
+      "options": [
+        "Safe testing sequence",
+        "Insulation integrity",
+        "Main switch off condition",
+        "Complete path"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Complete path",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Complete path. It means the conductor allows current flow.",
+      "explanationLines": [
+        "The correct answer is Complete path.",
+        "It means the conductor allows current flow."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q043",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q044",
+      "question": "Which source term is correctly linked with this point: path that gives 1 or OL in continuity test?",
+      "options": [
+        "Broken path",
+        "Periodic inspection",
+        "Insulation test instrument",
+        "Minimum insulation resistance rule"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Broken path",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Broken path. It means open circuit or no current path.",
+      "explanationLines": [
+        "The correct answer is Broken path.",
+        "It means open circuit or no current path."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q044",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q045",
+      "question": "Choose the correct match for this source idea: point whose continuity is checked to actual earth.",
+      "options": [
+        "Incoming service line check",
+        "Earth point",
+        "Test voltage selection",
+        "Between conductors test"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Earth point",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Earth point. It may be at plug sockets or metal appliance bodies.",
+      "explanationLines": [
+        "The correct answer is Earth point.",
+        "It may be at plug sockets or metal appliance bodies."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q045",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q046",
+      "question": "Which answer fits this unit statement: action needed if earth continuity resistance is greater than 1 ohm?",
+      "options": [
+        "Fuse wire rating check",
+        "Continuity test instrument",
+        "Physical rechecking",
+        "Continuity test"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Physical rechecking",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Physical rechecking. The earthing connection must be rectified.",
+      "explanationLines": [
+        "The correct answer is Physical rechecking.",
+        "The earthing connection must be rectified."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q046",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q047",
+      "question": "Which option best matches this source description: use of tests such as insulation, continuity and earth tests?",
+      "options": [
+        "Main switch board inspection",
+        "Phase sequence tester",
+        "Continuity mode",
+        "Testing of industrial installations"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Testing of industrial installations",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Testing of industrial installations. These tests confirm safe installation condition.",
+      "explanationLines": [
+        "The correct answer is Testing of industrial installations.",
+        "These tests confirm safe installation condition."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q047",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q048",
+      "question": "In this unit, which item is described as: planned list covering visual checks, continuity, insulation and safety?",
+      "options": [
+        "Inspection checklist",
+        "Internal wiring circuit inspection",
+        "Earth resistance tester",
+        "OL reading"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Inspection checklist",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Inspection checklist. The project work suggests preparing it.",
+      "explanationLines": [
+        "The correct answer is Inspection checklist.",
+        "The project work suggests preparing it."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q048",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q049",
+      "question": "Which source term is correctly linked with this point: records of inspection and test results?",
+      "options": [
+        "Industrial equipment inspection",
+        "Maintenance records",
+        "Insulation resistance test",
+        "Ohmmeter continuity method"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Maintenance records",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Maintenance records. They support safe future maintenance.",
+      "explanationLines": [
+        "The correct answer is Maintenance records.",
+        "They support safe future maintenance."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q049",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u5-q050",
+      "question": "Choose the correct match for this source idea: inspection before testing and correction after abnormal reading.",
+      "options": [
+        "Insulation integrity",
+        "Main switch off condition",
+        "Safe testing sequence",
+        "Earth resistance test"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Safe testing sequence",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Safe testing sequence. It prevents unsafe energizing of installations.",
+      "explanationLines": [
+        "The correct answer is Safe testing sequence.",
+        "It prevents unsafe energizing of installations."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "inspection-testing-and-maintenance-of-industrial-installations",
+      "legacyId": "iim-u5-q050",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
 }

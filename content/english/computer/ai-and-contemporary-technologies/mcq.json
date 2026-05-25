@@ -1,0 +1,4369 @@
+{
+  "medium": "english",
+  "mediumId": "english",
+  "subject": "computer",
+  "subjectId": "computer",
+  "chapter": "ai-and-contemporary-technologies",
+  "unitSlug": "artificial-intelligence",
+  "chapterTitle": "AI and Contemporary Technologies",
+  "mcqKey": "mcq:english/computer/artificial-intelligence",
+  "status": "published",
+  "version": 1,
+  "totalQuestions": 150,
+  "websiteQuizReady": true,
+  "sourceFile": "d6eab026-d752-4909-8bd7-1468c32af6c3.docx",
+  "notes": "",
+  "questions": [
+    {
+      "id": "english-computer-artificial-intelligence-q001",
+      "question": "A system can learn, reason, solve problems, plan, and understand language. According to the notes, this system is best described as:",
+      "options": [
+        "E-commerce",
+        "E-education",
+        "Cloud storage",
+        "Artificial Intelligence"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Artificial Intelligence",
+      "correctAnswer": "Artificial Intelligence",
+      "explanation": "AI creates machines or programs that think and act like humans.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q001",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q002",
+      "question": "Which example shows Artificial Intelligence most clearly?",
+      "options": [
+        "A pen drive storing photos",
+        "A printed textbook kept in a library",
+        "A mobile face lock recognizing the owner",
+        "A normal calculator adding two numbers only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "A mobile face lock recognizing the owner",
+      "correctAnswer": "A mobile face lock recognizing the owner",
+      "explanation": "Face recognition is listed as an AI example.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q002",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q003",
+      "question": "Which ability is included in the definition of AI in the notes?",
+      "options": [
+        "Melting hardware parts",
+        "Printing paper automatically",
+        "Understanding language",
+        "Reducing screen brightness only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Understanding language",
+      "correctAnswer": "Understanding language",
+      "explanation": "The notes mention learning, reasoning, problem-solving, planning, and understanding language.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q003",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q004",
+      "question": "Which pair contains only AI-based examples from the notes?",
+      "options": [
+        "Electric bulb and switch",
+        "Pen drive and paper file",
+        "Siri and face recognition",
+        "Manual attendance register and chalkboard"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Siri and face recognition",
+      "correctAnswer": "Siri and face recognition",
+      "explanation": "Siri and face recognition are AI examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q004",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q005",
+      "question": "A program suggests treatment by using stored medical knowledge and rules. Which AI application is this?",
+      "options": [
+        "Spreadsheet",
+        "Smart city",
+        "E-commerce",
+        "Expert system"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Expert system",
+      "correctAnswer": "Expert system",
+      "explanation": "Expert systems act like human experts using stored knowledge and rules.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q005",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q006",
+      "question": "In a chess game, the computer thinks about many possible moves before choosing one. Which AI application area is shown?",
+      "options": [
+        "E-governance",
+        "E-education",
+        "Cloud computing",
+        "Gaming"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Gaming",
+      "correctAnswer": "Gaming",
+      "explanation": "AI in games makes smart decisions to win.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q006",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q007",
+      "question": "A computer converts handwritten notes from paper into editable digital text. Which AI application is used?",
+      "options": [
+        "E-commerce",
+        "Handwriting recognition",
+        "Voice typing",
+        "IaaS"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Handwriting recognition",
+      "correctAnswer": "Handwriting recognition",
+      "explanation": "Handwriting recognition reads handwritten text and converts it into digital text.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q007",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q008",
+      "question": "Which statement best describes Natural Language Processing (NLP)?",
+      "options": [
+        "It helps computers understand and respond in human language.",
+        "It checks only computer hardware damage.",
+        "It sells products online.",
+        "It stores files only on a local hard disk."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It helps computers understand and respond in human language.",
+      "correctAnswer": "It helps computers understand and respond in human language.",
+      "explanation": "NLP helps computers understand and respond to human language.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q008",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q009",
+      "question": "Which case is an example of a vision system?",
+      "options": [
+        "Facial recognition software identifying criminals",
+        "A paper notebook recording marks",
+        "A printed calendar showing dates",
+        "A manual fan rotating by switch"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Facial recognition software identifying criminals",
+      "correctAnswer": "Facial recognition software identifying criminals",
+      "explanation": "Vision systems analyze pictures or videos using cameras and algorithms.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q009",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q010",
+      "question": "Automated grading is useful mainly because it:",
+      "options": [
+        "Repairs broken screens",
+        "Creates physical textbooks",
+        "Checks and marks answers automatically",
+        "Stops all internet use"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Checks and marks answers automatically",
+      "correctAnswer": "Checks and marks answers automatically",
+      "explanation": "Automated grading uses AI to mark tests and assignments automatically.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q010",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q011",
+      "question": "Which field uses AI sensors in a Roomba to clean rooms automatically?",
+      "options": [
+        "E-governance",
+        "Cloud storage",
+        "Robotics",
+        "Online shopping"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Robotics",
+      "correctAnswer": "Robotics",
+      "explanation": "Robots with AI use sensors and can perform tasks automatically.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q011",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q012",
+      "question": "Which option is NOT listed as an application area of AI in the notes?",
+      "options": [
+        "Expert system",
+        "Transportation",
+        "Entertainment",
+        "Cooking rice without any device or program"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Cooking rice without any device or program",
+      "correctAnswer": "Cooking rice without any device or program",
+      "explanation": "The notes list entertainment, transportation, expert systems, robotics, NLP, and more.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q012",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q013",
+      "question": "A streaming app recommends movies and music based on user behavior. Which AI application area does this match?",
+      "options": [
+        "Entertainment",
+        "Office 365 meetings only",
+        "Military simulation",
+        "Smart agriculture"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Entertainment",
+      "correctAnswer": "Entertainment",
+      "explanation": "AI is used in movie recommendations, music apps, and video streaming platforms.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q014",
+      "question": "Which AI application helps a user control devices using voice in their own language?",
+      "options": [
+        "Natural Language Processing",
+        "Local calculator",
+        "Traditional file cabinet",
+        "Manual typing only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Natural Language Processing",
+      "correctAnswer": "Natural Language Processing",
+      "explanation": "NLP allows smart assistants to understand and reply in human language.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q014",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q015",
+      "question": "Why are robots useful in dangerous work according to the notes?",
+      "options": [
+        "They always need no power at all.",
+        "They can work in risky places like bomb disposal and space research.",
+        "They cannot adapt to environments.",
+        "They replace the need for sensors completely."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "They can work in risky places like bomb disposal and space research.",
+      "correctAnswer": "They can work in risky places like bomb disposal and space research.",
+      "explanation": "Robots are useful for dangerous, difficult, boring, or risky tasks.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q015",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q016",
+      "question": "Machine Learning is best described as a branch of AI that:",
+      "options": [
+        "Learns from data and improves performance",
+        "Only stores files online",
+        "Only creates virtual 3D worlds",
+        "Only sells goods through websites"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Learns from data and improves performance",
+      "correctAnswer": "Learns from data and improves performance",
+      "explanation": "ML enables computers to learn from data and improve performance.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q016",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q017",
+      "question": "Which situation shows ML learning from experience?",
+      "options": [
+        "YouTube recommending videos based on previous choices",
+        "A bulb glowing when switched on",
+        "A chair kept in a room",
+        "A paper book remaining unchanged"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "YouTube recommending videos based on previous choices",
+      "correctAnswer": "YouTube recommending videos based on previous choices",
+      "explanation": "Recommendation systems learn from previous choices.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q018",
+      "question": "In spam detection, what does the ML system study from old emails?",
+      "options": [
+        "Words, links, sender address, and message pattern",
+        "Only the size of the keyboard",
+        "Only the price of the computer",
+        "Only the color of the monitor"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Words, links, sender address, and message pattern",
+      "correctAnswer": "Words, links, sender address, and message pattern",
+      "explanation": "The notes list those email features for spam prediction.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q018",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q019",
+      "question": "An email is automatically moved away from the inbox because it looks dangerous. Which ML application is shown?",
+      "options": [
+        "Spam email detection",
+        "E-governance",
+        "Virtual lab",
+        "Augmented reality"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Spam email detection",
+      "correctAnswer": "Spam email detection",
+      "explanation": "ML can detect unwanted or dangerous emails and send them to spam.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q019",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q020",
+      "question": "A self-driving car sees a red traffic light. According to the learning table, the correct action is:",
+      "options": [
+        "Keep no distance",
+        "Ignore the light",
+        "Stop",
+        "Move faster"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Stop",
+      "correctAnswer": "Stop",
+      "explanation": "The notes table maps red traffic light to stop.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q020",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q021",
+      "question": "A self-driving car sees a green traffic light. The correct learning output is:",
+      "options": [
+        "Brake hard every time",
+        "Move",
+        "Stop permanently",
+        "Turn off the engine"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Move",
+      "correctAnswer": "Move",
+      "explanation": "The notes table maps green traffic light to move.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q021",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q022",
+      "question": "A self-driving car sees a person crossing the road. The expected learned action is:",
+      "options": [
+        "Brake",
+        "Speed up",
+        "Recommend a movie",
+        "Open email"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Brake",
+      "correctAnswer": "Brake",
+      "explanation": "The notes table maps person crossing road to brake.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q022",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q023",
+      "question": "A self-driving car sees another car ahead. Which output is correct?",
+      "options": [
+        "Increase speed suddenly",
+        "Keep distance",
+        "Open shopping site",
+        "Start email summary"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Keep distance",
+      "correctAnswer": "Keep distance",
+      "explanation": "The notes table maps another car ahead to keep distance.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q023",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q024",
+      "question": "A social media app chooses posts and ads based on a user’s interest. Which ML application is this?",
+      "options": [
+        "PaaS",
+        "Virtual Reality",
+        "E-governance",
+        "Social media feeds"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Social media feeds",
+      "correctAnswer": "Social media feeds",
+      "explanation": "ML controls posts, videos, and ads shown on social media feeds.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q025",
+      "question": "Which application suggests products, movies, or music based on previous choices?",
+      "options": [
+        "Handwriting recognition only",
+        "Recommendation system",
+        "Digital divide",
+        "Mixed reality"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Recommendation system",
+      "correctAnswer": "Recommendation system",
+      "explanation": "Recommendation systems personalize suggestions based on past choices.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q025",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q026",
+      "question": "Banks mark a sudden Rs. 1,00,000 withdrawal from another country as suspicious. Which ML use is shown?",
+      "options": [
+        "Digital classroom",
+        "Online tax payment",
+        "VR gaming",
+        "Fraud detection"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Fraud detection",
+      "correctAnswer": "Fraud detection",
+      "explanation": "Fraud detection finds fake or strange account activity.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q026",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q027",
+      "question": "Which ML application protects systems by finding and stopping hacking or phishing?",
+      "options": [
+        "Virtual furniture",
+        "E-commerce delivery",
+        "Cybersecurity",
+        "Office presentation"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Cybersecurity",
+      "correctAnswer": "Cybersecurity",
+      "explanation": "The notes mention ML for stopping cyber-attacks like hacking or phishing.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q028",
+      "question": "An app changes lessons according to a student’s speed and progress. Which ML application is this?",
+      "options": [
+        "Personalized learning",
+        "E-commerce payment",
+        "Virtual meeting",
+        "Smart traffic light"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Personalized learning",
+      "correctAnswer": "Personalized learning",
+      "explanation": "Personalized learning adapts lessons to the student’s pace and progress.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q028",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q029",
+      "question": "Which platform is given as an example of personalized learning in the notes?",
+      "options": [
+        "Duolingo or Khan Academy",
+        "Printed newspaper",
+        "Manual traffic police whistle",
+        "Physical attendance register"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Duolingo or Khan Academy",
+      "correctAnswer": "Duolingo or Khan Academy",
+      "explanation": "The notes mention Duolingo and Khan Academy.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q030",
+      "question": "The dark web is described in the notes as:",
+      "options": [
+        "A digital object added to real world",
+        "A hidden part of the internet",
+        "A cloud service provider",
+        "A VR headset"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "A hidden part of the internet",
+      "correctAnswer": "A hidden part of the internet",
+      "explanation": "The notes define the dark web as a hidden part of the internet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q031",
+      "question": "Which statement correctly compares AI and ML?",
+      "options": [
+        "ML means only online shopping.",
+        "ML is a subset of AI.",
+        "AI and ML are unrelated.",
+        "AI is a subset of ML only."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "ML is a subset of AI.",
+      "correctAnswer": "ML is a subset of AI.",
+      "explanation": "The notes state that ML is a subset or branch of AI.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q031",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q032",
+      "question": "Which option describes AI more broadly than ML?",
+      "options": [
+        "AI includes ML, NLP, expert systems, and more.",
+        "AI only means online tax payment.",
+        "AI only means spam detection.",
+        "AI only means stored files."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "AI includes ML, NLP, expert systems, and more.",
+      "correctAnswer": "AI includes ML, NLP, expert systems, and more.",
+      "explanation": "AI is broader and includes ML, NLP, expert systems, etc.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q032",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q033",
+      "question": "Which statement about data requirement is closest to the notes?",
+      "options": [
+        "AI and ML are both only paper-based methods.",
+        "AI may or may not require large data, but ML requires large data for training.",
+        "AI always needs no data and ML never needs data.",
+        "ML works only without examples."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "AI may or may not require large data, but ML requires large data for training.",
+      "correctAnswer": "AI may or may not require large data, but ML requires large data for training.",
+      "explanation": "The notes compare AI and ML data needs in this way.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q033",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q034",
+      "question": "Which action is more specially connected to ML than general AI?",
+      "options": [
+        "Only expressing emotions",
+        "Only having moral values",
+        "Only making humans lazy",
+        "Analyzing data, finding patterns, and improving over time"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Analyzing data, finding patterns, and improving over time",
+      "correctAnswer": "Analyzing data, finding patterns, and improving over time",
+      "explanation": "ML analyzes data and improves performance over time.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q034",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q035",
+      "question": "Which task is listed under AI capabilities in the comparison table?",
+      "options": [
+        "Needing a mobile phone for online class",
+        "Reasoning, planning, and problem-solving",
+        "Delivering items to doorstep",
+        "Buying goods through Daraz only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Reasoning, planning, and problem-solving",
+      "correctAnswer": "Reasoning, planning, and problem-solving",
+      "explanation": "The notes list reasoning, planning, problem-solving, and language understanding for AI.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q035",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q036",
+      "question": "Which is an example of AI from the comparison table?",
+      "options": [
+        "Only a manual cash receipt",
+        "Expert system",
+        "Only a blackboard",
+        "Only physical newspaper delivery"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Expert system",
+      "correctAnswer": "Expert system",
+      "explanation": "Expert systems are listed as AI examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q036",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q037",
+      "question": "Which is an example of ML from the comparison table?",
+      "options": [
+        "Government office counter only",
+        "Email spam detection",
+        "VR goggles only",
+        "Manual attendance sheet"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Email spam detection",
+      "correctAnswer": "Email spam detection",
+      "explanation": "Email spam detection is listed as an ML example.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q037",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q038",
+      "question": "Which limitation means AI systems can be expensive to develop, install, and maintain?",
+      "options": [
+        "No ethics",
+        "No creativity",
+        "High costs",
+        "Emotionless"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "High costs",
+      "correctAnswer": "High costs",
+      "explanation": "High cost is listed as an AI limitation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q038",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q039",
+      "question": "Which limitation is shown when automation reduces job opportunities in some sectors?",
+      "options": [
+        "Strong security",
+        "Unemployment",
+        "Resource pooling",
+        "Access anytime"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Unemployment",
+      "correctAnswer": "Unemployment",
+      "explanation": "The notes list unemployment as a limitation of AI.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q039",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q040",
+      "question": "Why can overdependence on AI be harmful according to the notes?",
+      "options": [
+        "It makes internet unnecessary.",
+        "It may reduce human effort and thinking ability.",
+        "It removes every security risk.",
+        "It always increases physical exercise."
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It may reduce human effort and thinking ability.",
+      "correctAnswer": "It may reduce human effort and thinking ability.",
+      "explanation": "The notes say AI may make humans lazy.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q040",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q041",
+      "question": "Which AI limitation is related to the absence of moral values?",
+      "options": [
+        "On-demand service",
+        "No ethics",
+        "Scalable resources",
+        "High setup cost"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "No ethics",
+      "correctAnswer": "No ethics",
+      "explanation": "AI does not have moral values and depends on human instructions.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q041",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q042",
+      "question": "Which limitation explains why AI cannot understand or express human feelings like people?",
+      "options": [
+        "SaaS",
+        "Emotionless",
+        "Smart city",
+        "Resource pooling"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Emotionless",
+      "correctAnswer": "Emotionless",
+      "explanation": "Emotionless is listed as an AI limitation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q043",
+      "question": "Supervised learning uses data that:",
+      "options": [
+        "Already has correct answers or labels",
+        "Cannot be used by computers",
+        "Only exists in paper form",
+        "Has no labels at all"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Already has correct answers or labels",
+      "correctAnswer": "Already has correct answers or labels",
+      "explanation": "Labelled data already contains correct answers.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q043",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q044",
+      "question": "In supervised learning, pictures of cats and dogs are useful because:",
+      "options": [
+        "It only groups by color without labels.",
+        "The computer is forbidden to see examples.",
+        "There are no correct answers.",
+        "Each picture is labelled with the correct animal name."
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Each picture is labelled with the correct animal name.",
+      "correctAnswer": "Each picture is labelled with the correct animal name.",
+      "explanation": "Supervised learning learns from labelled examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q045",
+      "question": "A disease prediction system learns from patient records with symptoms and disease names. Which learning type is this?",
+      "options": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "E-commerce",
+        "No learning"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Supervised learning",
+      "correctAnswer": "Supervised learning",
+      "explanation": "The training data has correct disease labels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q046",
+      "question": "A weather prediction system learns from past temperature, humidity, wind speed, rainfall, and pressure records. This is an example of:",
+      "options": [
+        "Augmented reality",
+        "Supervised learning",
+        "Cloud SaaS",
+        "E-governance"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Supervised learning",
+      "correctAnswer": "Supervised learning",
+      "explanation": "The notes give weather prediction as supervised learning.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q047",
+      "question": "Unsupervised learning uses data where:",
+      "options": [
+        "Only cloud storage is used",
+        "Correct answers are not already given",
+        "Every item is labelled by a teacher",
+        "Only e-mails are used"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Correct answers are not already given",
+      "correctAnswer": "Correct answers are not already given",
+      "explanation": "Unlabelled data has no correct answers already given.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q047",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q048",
+      "question": "A machine groups mixed apples, bananas, and oranges by color, shape, and size without names. Which learning type is this?",
+      "options": [
+        "SaaS",
+        "E-governance",
+        "Supervised learning",
+        "Unsupervised learning"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Unsupervised learning",
+      "correctAnswer": "Unsupervised learning",
+      "explanation": "The machine finds groups without given labels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q049",
+      "question": "Daraz grouping users who often buy mobile accessories is mainly an example of:",
+      "options": [
+        "Unsupervised learning",
+        "E-governance transparency",
+        "Manual grading",
+        "Virtual surgery"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Unsupervised learning",
+      "correctAnswer": "Unsupervised learning",
+      "explanation": "The notes give Daraz grouping users as unsupervised learning.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q050",
+      "question": "YouTube recommending more football videos after you watch many football videos is connected with:",
+      "options": [
+        "Finding patterns in user behavior",
+        "No data use",
+        "Physical classroom only",
+        "Printed notes only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Finding patterns in user behavior",
+      "correctAnswer": "Finding patterns in user behavior",
+      "explanation": "The system detects user interest patterns.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q050",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q051",
+      "question": "Which clue best identifies supervised learning?",
+      "options": [
+        "Only devices connect to internet",
+        "Only government services are online",
+        "Correct answer is given during training",
+        "No labels are given during training"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Correct answer is given during training",
+      "correctAnswer": "Correct answer is given during training",
+      "explanation": "Supervised learning requires labelled data.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q051",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q052",
+      "question": "Which clue best identifies unsupervised learning?",
+      "options": [
+        "A teacher gives every correct answer first",
+        "The system itself finds groups or similarities",
+        "A cloud provider maintains servers",
+        "A website sells goods online"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "The system itself finds groups or similarities",
+      "correctAnswer": "The system itself finds groups or similarities",
+      "explanation": "Unsupervised learning finds patterns, groups, or similarities by itself.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q052",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q053",
+      "question": "If a model is trained on old emails already marked spam or inbox, which learning type is most suitable?",
+      "options": [
+        "Mixed reality",
+        "Unsupervised learning",
+        "E-education",
+        "Supervised learning"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Supervised learning",
+      "correctAnswer": "Supervised learning",
+      "explanation": "Marked emails are labelled data.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q053",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q054",
+      "question": "If a system receives customer data with no labels and groups similar buyers, the learning type is:",
+      "options": [
+        "Supervised learning",
+        "Virtual reality",
+        "Unsupervised learning",
+        "Cloud IaaS"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Unsupervised learning",
+      "correctAnswer": "Unsupervised learning",
+      "explanation": "There are no correct labels; the system groups similar data itself.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q054",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q055",
+      "question": "AI in robotics means using AI to:",
+      "options": [
+        "Design and operate robots",
+        "Submit government forms only",
+        "Sell goods online only",
+        "Store documents in cloud only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Design and operate robots",
+      "correctAnswer": "Design and operate robots",
+      "explanation": "The notes define AI in robotics this way.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q055",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q056",
+      "question": "Which devices help robots understand surroundings according to the notes?",
+      "options": [
+        "Sensors like cameras and microphones",
+        "Only manual locks",
+        "Only printed books",
+        "Only chalk and duster"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Sensors like cameras and microphones",
+      "correctAnswer": "Sensors like cameras and microphones",
+      "explanation": "Robots use sensors such as cameras and microphones.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q056",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q057",
+      "question": "A sensor is best described as a device that:",
+      "options": [
+        "Detects input from the physical environment",
+        "Only creates government websites",
+        "Only buys products online",
+        "Only stores videos in cloud"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Detects input from the physical environment",
+      "correctAnswer": "Detects input from the physical environment",
+      "explanation": "A sensor detects and responds to physical input.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q057",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q058",
+      "question": "Which physical quantity can a sensor detect according to the notes?",
+      "options": [
+        "Only exam marks",
+        "Light, heat, motion, moisture, pressure, or sound",
+        "Only website names",
+        "Only online prices"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Light, heat, motion, moisture, pressure, or sound",
+      "correctAnswer": "Light, heat, motion, moisture, pressure, or sound",
+      "explanation": "The notes list these types of physical quantities.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q058",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q059",
+      "question": "Which task is most suitable for robots because it may be dangerous for humans?",
+      "options": [
+        "Carrying a paper notebook in class",
+        "Choosing a school tie",
+        "Bomb disposal",
+        "Writing a poem by hand only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Bomb disposal",
+      "correctAnswer": "Bomb disposal",
+      "explanation": "Robots are useful in dangerous work such as bomb disposal.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q059",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q060",
+      "question": "Robots are becoming more helpful mainly because:",
+      "options": [
+        "Technology improves and they can become smarter.",
+        "They cannot work automatically.",
+        "They never use sensors.",
+        "They only work with paper labels."
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Technology improves and they can become smarter.",
+      "correctAnswer": "Technology improves and they can become smarter.",
+      "explanation": "The notes say robots become smarter and more helpful as technology improves.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q060",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q061",
+      "question": "Generative AI mainly creates:",
+      "options": [
+        "Only internet cables",
+        "Only printed stamps",
+        "Only physical chairs",
+        "New content such as text, images, audio, video, and code"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "New content such as text, images, audio, video, and code",
+      "correctAnswer": "New content such as text, images, audio, video, and code",
+      "explanation": "Generative AI generates new content after learning from data.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q061",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q062",
+      "question": "Which tool is described as Microsoft’s generative AI that helps write code and text?",
+      "options": [
+        "Daraz",
+        "Copilot",
+        "Gemini",
+        "Roomba"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Copilot",
+      "correctAnswer": "Copilot",
+      "explanation": "The notes describe Copilot as Microsoft’s generative AI.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q062",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q063",
+      "question": "Which generative AI works inside Microsoft apps such as Word, Excel, and coding tools?",
+      "options": [
+        "Google Drive",
+        "IoT sensor",
+        "Copilot",
+        "VR goggles"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Copilot",
+      "correctAnswer": "Copilot",
+      "explanation": "Copilot is integrated with Microsoft apps and coding tools.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q063",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q064",
+      "question": "ChatGPT is described as a conversational generative AI developed by:",
+      "options": [
+        "IBM Cloud only",
+        "Microsoft only",
+        "Daraz",
+        "OpenAI"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "OpenAI",
+      "correctAnswer": "OpenAI",
+      "explanation": "The notes state ChatGPT was developed by OpenAI.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q064",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q065",
+      "question": "Which task is ChatGPT shown as useful for in the notes?",
+      "options": [
+        "Only cleaning rooms physically",
+        "Only controlling traffic lights",
+        "Only measuring soil moisture",
+        "Explaining, summarizing, translating, and solving questions"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Explaining, summarizing, translating, and solving questions",
+      "correctAnswer": "Explaining, summarizing, translating, and solving questions",
+      "explanation": "The notes list these uses of ChatGPT.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q065",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q066",
+      "question": "Gemini is described as an AI chatbot developed by:",
+      "options": [
+        "OpenAI",
+        "Daraz",
+        "Google",
+        "NASA only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Google",
+      "correctAnswer": "Google",
+      "explanation": "The notes state Gemini is developed by Google.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q066",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q067",
+      "question": "Integrated AI tools are found in apps such as:",
+      "options": [
+        "Google Docs, email, and Office 365",
+        "Only paper calendars",
+        "Only physical registers",
+        "Only school benches"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Google Docs, email, and Office 365",
+      "correctAnswer": "Google Docs, email, and Office 365",
+      "explanation": "The notes mention AI integration with Google Docs, email, and Office 365.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q067",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q068",
+      "question": "Which feature is listed as a common AI feature in integrated tools?",
+      "options": [
+        "Fan wiring",
+        "Ink refilling",
+        "Grammar correction",
+        "Hammer repair"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Grammar correction",
+      "correctAnswer": "Grammar correction",
+      "explanation": "Grammar corrections, voice typing, and smart compose are listed.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q068",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q069",
+      "question": "Which feature is an integrated AI tool in Google Docs?",
+      "options": [
+        "Online delivery delay",
+        "Smart compose with auto correction",
+        "Flight simulator",
+        "Smart street parking"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Smart compose with auto correction",
+      "correctAnswer": "Smart compose with auto correction",
+      "explanation": "Smart compose with auto correction is listed under Google Docs.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q069",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q070",
+      "question": "Which Google Docs AI feature helps users speak instead of type?",
+      "options": [
+        "Smart parking",
+        "Voice typing",
+        "Face lock",
+        "IaaS"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Voice typing",
+      "correctAnswer": "Voice typing",
+      "explanation": "Voice typing is listed as a Google Docs integrated AI tool.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q070",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q071",
+      "question": "Which AI feature in email helps write faster responses?",
+      "options": [
+        "Soil moisture sensing",
+        "Virtual surgery",
+        "Resource pooling",
+        "Smart compose and quick reply"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Smart compose and quick reply",
+      "correctAnswer": "Smart compose and quick reply",
+      "explanation": "Email tools include smart compose and quick reply.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q071",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q072",
+      "question": "Which integrated AI email feature protects users from unwanted messages?",
+      "options": [
+        "Architecture visualization",
+        "Spam filtering",
+        "Mixed reality",
+        "Cloud virtual OS"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Spam filtering",
+      "correctAnswer": "Spam filtering",
+      "explanation": "Spam filtering is listed for email.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q072",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q073",
+      "question": "Which Office 365 AI feature helps mainly in Excel?",
+      "options": [
+        "VR game",
+        "Online citizenship form",
+        "Smart irrigation",
+        "AI driven data analysis"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "AI driven data analysis",
+      "correctAnswer": "AI driven data analysis",
+      "explanation": "AI driven data analysis in Excel is listed.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q073",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q074",
+      "question": "Which Office 365 AI feature is most related to PowerPoint-like work?",
+      "options": [
+        "AI enhanced presentation",
+        "Smart door lock",
+        "Spam folder only",
+        "Speed limit sign"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "AI enhanced presentation",
+      "correctAnswer": "AI enhanced presentation",
+      "explanation": "AI enhanced presentation is listed under Office 365.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q074",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q075",
+      "question": "Bias in AI means AI may:",
+      "options": [
+        "Make unfair decisions or treat people differently",
+        "Always remove internet need",
+        "Always understand emotions",
+        "Always protect privacy perfectly"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Make unfair decisions or treat people differently",
+      "correctAnswer": "Make unfair decisions or treat people differently",
+      "explanation": "Bias means unfair decisions or unequal treatment.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q075",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q076",
+      "question": "A hiring AI trained mostly on resumes from men may ignore women’s applications. This is an example of:",
+      "options": [
+        "E-education merit",
+        "Bias in AI",
+        "Virtual reality",
+        "Cloud resource pooling"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Bias in AI",
+      "correctAnswer": "Bias in AI",
+      "explanation": "The notes use this example to explain bias.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q076",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q077",
+      "question": "Privacy in AI mainly means:",
+      "options": [
+        "Making AI more expensive",
+        "Connecting traffic lights to internet",
+        "Keeping personal information secret and safe from unauthorized access",
+        "Generating more images"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Keeping personal information secret and safe from unauthorized access",
+      "correctAnswer": "Keeping personal information secret and safe from unauthorized access",
+      "explanation": "Privacy protects personal details from unauthorized access.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q077",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q078",
+      "question": "If collected AI data is misused, which problem can happen according to the notes?",
+      "options": [
+        "Perfect face-to-face class",
+        "Automatic offline service",
+        "Guaranteed better sleep",
+        "Identity theft, spying, or unfair treatment"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Identity theft, spying, or unfair treatment",
+      "correctAnswer": "Identity theft, spying, or unfair treatment",
+      "explanation": "The notes mention identity theft, spying, and unfair treatment.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q078",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q079",
+      "question": "Internet of Things (IoT) means connecting physical devices to the internet so they can:",
+      "options": [
+        "Only sell clothes online",
+        "Only print paper documents",
+        "Only create 3D games",
+        "Collect data through sensors, share data, and work automatically"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Collect data through sensors, share data, and work automatically",
+      "correctAnswer": "Collect data through sensors, share data, and work automatically",
+      "explanation": "The notes define IoT this way.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q079",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q080",
+      "question": "Which item is an example of IoT from the notes?",
+      "options": [
+        "Wooden chair",
+        "Smart watch",
+        "Paper notebook",
+        "Chalk piece"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Smart watch",
+      "correctAnswer": "Smart watch",
+      "explanation": "Smart watch is listed as an IoT example.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q080",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q081",
+      "question": "IoT in education is called smart education because it supports:",
+      "options": [
+        "Only manual bell ringing",
+        "Only paper registers",
+        "Only physical chalk writing",
+        "Smart boards, online attendance, digital classrooms, and e-learning devices"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Smart boards, online attendance, digital classrooms, and e-learning devices",
+      "correctAnswer": "Smart boards, online attendance, digital classrooms, and e-learning devices",
+      "explanation": "These examples are listed under smart education.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q081",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q082",
+      "question": "Which option best shows a smart home application of IoT?",
+      "options": [
+        "Writing notes with a pencil",
+        "Controlling smart lights and smart fans using mobile phones or sensors",
+        "Reading a printed book",
+        "Opening a wooden door manually only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Controlling smart lights and smart fans using mobile phones or sensors",
+      "correctAnswer": "Controlling smart lights and smart fans using mobile phones or sensors",
+      "explanation": "IoT helps control home appliances automatically.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q082",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q083",
+      "question": "Which group contains only smart home examples from the notes?",
+      "options": [
+        "Smart lights, smart fans, smart door locks, CCTV cameras",
+        "Gmail, Docs, Office 365, Excel",
+        "Flight simulator, VR games, 3D movies",
+        "Online tax payment, passport information, result system"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Smart lights, smart fans, smart door locks, CCTV cameras",
+      "correctAnswer": "Smart lights, smart fans, smart door locks, CCTV cameras",
+      "explanation": "All four are listed as smart home examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q083",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q084",
+      "question": "A city uses smart traffic lights, smart parking, smart street lights, and smart waste management. This is:",
+      "options": [
+        "Smart city",
+        "Smart healthcare",
+        "Cloud IaaS",
+        "Mixed reality"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Smart city",
+      "correctAnswer": "Smart city",
+      "explanation": "These are listed under smart city applications.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q084",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q085",
+      "question": "Which IoT application helps in vehicle tracking and traffic control?",
+      "options": [
+        "E-commerce",
+        "Smart agriculture",
+        "AI ethics",
+        "Smart transportation"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Smart transportation",
+      "correctAnswer": "Smart transportation",
+      "explanation": "Smart transportation includes GPS tracking, signals, bus tracking, and accident alerts.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q085",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q086",
+      "question": "GPS tracking, smart traffic signals, bus tracking, and accident alert systems are examples of:",
+      "options": [
+        "SaaS",
+        "Smart transportation",
+        "E-governance limitation",
+        "Smart education"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Smart transportation",
+      "correctAnswer": "Smart transportation",
+      "explanation": "The notes list these under smart transportation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q086",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q087",
+      "question": "Smart healthcare in IoT helps doctors mainly to:",
+      "options": [
+        "Visualize buildings before construction",
+        "Monitor patients’ health remotely",
+        "Deliver shopping items",
+        "Group customers on Daraz"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Monitor patients’ health remotely",
+      "correctAnswer": "Monitor patients’ health remotely",
+      "explanation": "IoT helps remote patient monitoring.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q087",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q088",
+      "question": "Which set contains only smart healthcare examples?",
+      "options": [
+        "Smart watches, aura ring, heart rate monitors, blood pressure monitors",
+        "Smart fans, smart locks, CCTV cameras only",
+        "Online tax, online passport, online result",
+        "Smart traffic lights, smart parking, smart waste management"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Smart watches, aura ring, heart rate monitors, blood pressure monitors",
+      "correctAnswer": "Smart watches, aura ring, heart rate monitors, blood pressure monitors",
+      "explanation": "These examples are listed under smart healthcare.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q088",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q089",
+      "question": "In smart agriculture, IoT helps farmers mainly by:",
+      "options": [
+        "Selling only digital products",
+        "Writing email summaries",
+        "Creating VR games",
+        "Increasing production and saving resources"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Increasing production and saving resources",
+      "correctAnswer": "Increasing production and saving resources",
+      "explanation": "The notes say IoT helps farmers increase production and save resources.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q089",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q090",
+      "question": "Which is a smart agriculture example from the notes?",
+      "options": [
+        "Virtual furniture",
+        "Smart compose",
+        "Online passport information",
+        "Soil moisture sensor"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Soil moisture sensor",
+      "correctAnswer": "Soil moisture sensor",
+      "explanation": "Soil moisture sensors are listed under smart agriculture.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q090",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q091",
+      "question": "Which IoT application is most connected with smart irrigation?",
+      "options": [
+        "Smart healthcare",
+        "E-commerce",
+        "Smart agriculture",
+        "Mixed reality"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Smart agriculture",
+      "correctAnswer": "Smart agriculture",
+      "explanation": "Smart irrigation is listed in smart agriculture.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q091",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q092",
+      "question": "Communication in IoT means devices can:",
+      "options": [
+        "Share data through the internet automatically",
+        "Only perform manual checking",
+        "Only print answer sheets",
+        "Only remain offline"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Share data through the internet automatically",
+      "correctAnswer": "Share data through the internet automatically",
+      "explanation": "IoT allows devices to communicate and share data through the internet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q092",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q093",
+      "question": "A smartwatch sends data to a mobile phone. This is an example of:",
+      "options": [
+        "VR training",
+        "Bias in AI",
+        "E-commerce demerit",
+        "IoT communication"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "IoT communication",
+      "correctAnswer": "IoT communication",
+      "explanation": "The notes mention mobile phones receiving data from smart watches.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q093",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q094",
+      "question": "Extended Reality (XR) is a general term that includes:",
+      "options": [
+        "E-commerce, e-governance, and e-education only",
+        "SaaS, PaaS, and IaaS only",
+        "Bias, privacy, and security only",
+        "VR, AR, and MR"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "VR, AR, and MR",
+      "correctAnswer": "VR, AR, and MR",
+      "explanation": "The notes define XR as including VR, AR, and MR.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q094",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q095",
+      "question": "Virtual Reality (VR) creates an environment that:",
+      "options": [
+        "Looks real using computer hardware and software",
+        "Only stores photos",
+        "Only checks emails",
+        "Only sells products online"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Looks real using computer hardware and software",
+      "correctAnswer": "Looks real using computer hardware and software",
+      "explanation": "VR is an artificial environment presented so it looks real.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q095",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q096",
+      "question": "Which example best fits Virtual Reality?",
+      "options": [
+        "A mobile receiving smartwatch data",
+        "A pilot practicing in a flight simulator",
+        "A bank detecting fraud",
+        "A website selling products"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "A pilot practicing in a flight simulator",
+      "correctAnswer": "A pilot practicing in a flight simulator",
+      "explanation": "A flight simulator is listed as a VR example.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q096",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q097",
+      "question": "Medical students practicing surgery in a virtual environment is an example of:",
+      "options": [
+        "Spam filtering",
+        "Virtual Reality",
+        "E-commerce",
+        "Smart city"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Virtual Reality",
+      "correctAnswer": "Virtual Reality",
+      "explanation": "The notes give this as a VR example.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q097",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q098",
+      "question": "Wearing VR goggles to play in a 3D world is connected with:",
+      "options": [
+        "Virtual Reality",
+        "E-governance",
+        "Cloud storage",
+        "Unsupervised learning"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Virtual Reality",
+      "correctAnswer": "Virtual Reality",
+      "explanation": "The notes list VR goggles and 3D games as examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q098",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q099",
+      "question": "Augmented Reality (AR) adds digital objects, images, sound, or information to:",
+      "options": [
+        "A completely printed notebook only",
+        "The real world",
+        "A government website only",
+        "A hidden internet space only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "The real world",
+      "correctAnswer": "The real world",
+      "explanation": "AR adds digital information to the real world.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q099",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q100",
+      "question": "Which device can be used for AR according to the notes?",
+      "options": [
+        "Only a paper file",
+        "Only a wooden chair",
+        "Camera, mobile phone, or special glasses",
+        "Only an offline calendar"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Camera, mobile phone, or special glasses",
+      "correctAnswer": "Camera, mobile phone, or special glasses",
+      "explanation": "The notes mention cameras, mobile phones, and special glasses.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q100",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q101",
+      "question": "TikTok and Snapchat filters are examples of:",
+      "options": [
+        "Augmented Reality",
+        "Dark web monitoring",
+        "E-governance",
+        "Cloud IaaS"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Augmented Reality",
+      "correctAnswer": "Augmented Reality",
+      "explanation": "The notes mention TikTok and Snapchat filters as AR examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q101",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q102",
+      "question": "An app shows how a sofa will look inside your real room before buying it. This is:",
+      "options": [
+        "E-education limitation",
+        "Augmented Reality",
+        "Supervised learning",
+        "PaaS"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Augmented Reality",
+      "correctAnswer": "Augmented Reality",
+      "explanation": "Virtual furniture apps are listed as AR examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q102",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q103",
+      "question": "Mixed Reality (MR) combines:",
+      "options": [
+        "Only offline textbooks and chalk",
+        "Real and digital objects so they can interact in real time",
+        "Only spam and inbox labels",
+        "Only online tax and passport information"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Real and digital objects so they can interact in real time",
+      "correctAnswer": "Real and digital objects so they can interact in real time",
+      "explanation": "MR allows real and digital objects to interact in real time.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q103",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q104",
+      "question": "Wearing special glasses to see and move virtual furniture in a real living room is an example of:",
+      "options": [
+        "E-commerce demerit",
+        "AI bias",
+        "Cloud SaaS",
+        "Mixed Reality"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Mixed Reality",
+      "correctAnswer": "Mixed Reality",
+      "explanation": "The notes give this as an MR example.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q104",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q105",
+      "question": "Cloud computing allows people to use storage, servers, software, and databases through:",
+      "options": [
+        "Only physical cash",
+        "Only paper files",
+        "The internet",
+        "Only local chalkboard"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "The internet",
+      "correctAnswer": "The internet",
+      "explanation": "Cloud computing provides services through the internet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q105",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q106",
+      "question": "Instead of installing everything on a local computer, cloud computing lets users:",
+      "options": [
+        "Only use pen drives",
+        "Only use printed documents",
+        "Only work offline",
+        "Access services online from anywhere"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Access services online from anywhere",
+      "correctAnswer": "Access services online from anywhere",
+      "explanation": "The notes emphasize online access from anywhere.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q106",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q107",
+      "question": "Which company is listed as a cloud service provider?",
+      "options": [
+        "Amazon Web Services (AWS)",
+        "Roomba only",
+        "TikTok filter only",
+        "Hamrobazar only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Amazon Web Services (AWS)",
+      "correctAnswer": "Amazon Web Services (AWS)",
+      "explanation": "AWS is listed along with Azure, Google Cloud, and IBM Cloud.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q107",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q108",
+      "question": "Which app is given as a cloud-based storage example?",
+      "options": [
+        "Physical notebook",
+        "Local chalkboard",
+        "Google Drive",
+        "Manual register"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Google Drive",
+      "correctAnswer": "Google Drive",
+      "explanation": "Google Drive, Dropbox, OneDrive, and iCloud are listed.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q108",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q109",
+      "question": "Which benefit of cloud computing reduces the need to buy and maintain physical hardware?",
+      "options": [
+        "Increases manual paperwork",
+        "Reduces hardware costs",
+        "Creates physical goods",
+        "Blocks teamwork"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Reduces hardware costs",
+      "correctAnswer": "Reduces hardware costs",
+      "explanation": "One benefit listed is reduced hardware cost.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q109",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q110",
+      "question": "Which is a benefit of cloud computing from the notes?",
+      "options": [
+        "Prevents all online fraud forever",
+        "Improves teamwork and productivity",
+        "Removes need for internet",
+        "Makes all devices offline"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Improves teamwork and productivity",
+      "correctAnswer": "Improves teamwork and productivity",
+      "explanation": "Improved teamwork and productivity is listed.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q110",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q111",
+      "question": "On-demand service in cloud computing means users can:",
+      "options": [
+        "Only attend physical class",
+        "Only use labelled data",
+        "Instantly set up and use computing power or storage when needed",
+        "Only buy vegetables online"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Instantly set up and use computing power or storage when needed",
+      "correctAnswer": "Instantly set up and use computing power or storage when needed",
+      "explanation": "On-demand service gives resources whenever needed.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q111",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q112",
+      "question": "Which cloud feature means data and apps can be used from any device if internet is available?",
+      "options": [
+        "Digital divide",
+        "No creativity",
+        "Access anytime, anywhere",
+        "Mixed reality"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Access anytime, anywhere",
+      "correctAnswer": "Access anytime, anywhere",
+      "explanation": "The notes list access anytime, anywhere as a cloud feature.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q112",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q113",
+      "question": "Scalable resources in cloud computing means resources can:",
+      "options": [
+        "Grow or reduce as needed",
+        "Only be physical notebooks",
+        "Never change",
+        "Only work without internet"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Grow or reduce as needed",
+      "correctAnswer": "Grow or reduce as needed",
+      "explanation": "Scalable resources can expand or reduce with demand.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q113",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q114",
+      "question": "Shared resources in cloud computing are also called:",
+      "options": [
+        "Digital divide",
+        "Resource pooling",
+        "Spam filtering",
+        "Bias"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Resource pooling",
+      "correctAnswer": "Resource pooling",
+      "explanation": "The notes list shared resources as resource pooling.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q114",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q115",
+      "question": "Which cloud feature means the provider handles hardware updates, software patches, and system maintenance?",
+      "options": [
+        "No ethics",
+        "Dark web monitoring",
+        "Easy to maintain",
+        "Virtual furniture"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Easy to maintain",
+      "correctAnswer": "Easy to maintain",
+      "explanation": "Easy maintenance reduces the burden on users.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q115",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q116",
+      "question": "The pay-as-you-go model is linked with which cloud feature?",
+      "options": [
+        "Emotionless",
+        "Low cost",
+        "Online delivery delay",
+        "Less face-to-face interaction"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Low cost",
+      "correctAnswer": "Low cost",
+      "explanation": "Users pay only for the exact resources they consume.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q116",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q117",
+      "question": "Which cloud service lets users use software without installing it locally?",
+      "options": [
+        "IaaS",
+        "XR",
+        "SaaS",
+        "PaaS"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "SaaS",
+      "correctAnswer": "SaaS",
+      "explanation": "Software as a Service provides apps through the internet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q117",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q118",
+      "question": "Gmail, Google Docs, and Office 365 are examples of:",
+      "options": [
+        "Dark web",
+        "SaaS",
+        "MR",
+        "IaaS only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "SaaS",
+      "correctAnswer": "SaaS",
+      "explanation": "These are listed as SaaS examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q118",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q119",
+      "question": "Which cloud service provides an environment to develop, build, test, and run software?",
+      "options": [
+        "IoT communication",
+        "PaaS",
+        "AR",
+        "SaaS"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "PaaS",
+      "correctAnswer": "PaaS",
+      "explanation": "Platform as a Service gives a development platform.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q119",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q120",
+      "question": "Google App Engine and Microsoft Azure App Services are examples of:",
+      "options": [
+        "Automated grading",
+        "PaaS",
+        "E-commerce",
+        "MR"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "PaaS",
+      "correctAnswer": "PaaS",
+      "explanation": "The notes list these as PaaS examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q120",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q121",
+      "question": "E-commerce means:",
+      "options": [
+        "Buying and selling goods or services through the internet",
+        "Submitting only government forms online",
+        "Using VR goggles to play games",
+        "Connecting sensors to smart devices only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Buying and selling goods or services through the internet",
+      "correctAnswer": "Buying and selling goods or services through the internet",
+      "explanation": "The notes define e-commerce as buying and selling through the internet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q121",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q122",
+      "question": "Which site is listed as an online shopping site of Nepal?",
+      "options": [
+        "IBM Cloud",
+        "Office 365",
+        "daraz.com.np",
+        "Google Drive"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "daraz.com.np",
+      "correctAnswer": "daraz.com.np",
+      "explanation": "The notes list daraz.com.np and others.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q122",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q123",
+      "question": "Which is a merit of e-commerce?",
+      "options": [
+        "Goods and services are available 24/7",
+        "Customers can always touch products first",
+        "Delivery is never delayed",
+        "Online fraud never happens"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Goods and services are available 24/7",
+      "correctAnswer": "Goods and services are available 24/7",
+      "explanation": "Availability 24/7 is listed as a merit.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q123",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q124",
+      "question": "Which e-commerce merit is most related to comparing prices of different products quickly?",
+      "options": [
+        "Easy price comparison",
+        "Digital divide",
+        "Less face-to-face interaction",
+        "Technical failure"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Easy price comparison",
+      "correctAnswer": "Easy price comparison",
+      "explanation": "Easy price comparison is listed as a merit.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q124",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q125",
+      "question": "Which is a demerit of e-commerce?",
+      "options": [
+        "Goods are always free",
+        "Customers cannot touch, check, or try products before buying",
+        "All delivery is instant",
+        "No internet is ever needed"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Customers cannot touch, check, or try products before buying",
+      "correctAnswer": "Customers cannot touch, check, or try products before buying",
+      "explanation": "The notes list inability to physically check products as a demerit.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q125",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q126",
+      "question": "Hacking, online fraud, and data theft are listed under:",
+      "options": [
+        "Applications of VR",
+        "Merits of e-education",
+        "Demerits of e-commerce",
+        "Benefits of cloud computing"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Demerits of e-commerce",
+      "correctAnswer": "Demerits of e-commerce",
+      "explanation": "Security problems are e-commerce demerits.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q126",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q127",
+      "question": "Which problem is possible when buying clothes online?",
+      "options": [
+        "No payment needed",
+        "Difficulty getting the perfect size",
+        "No delivery needed",
+        "Guaranteed perfect fitting every time"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Difficulty getting the perfect size",
+      "correctAnswer": "Difficulty getting the perfect size",
+      "explanation": "The notes mention some products like clothes of perfect size are difficult online.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q127",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q128",
+      "question": "The product delivered may be different from what was shown. This is a:",
+      "options": [
+        "Feature of cloud computing",
+        "Benefit of e-governance",
+        "Example of NLP",
+        "Demerit of e-commerce"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Demerit of e-commerce",
+      "correctAnswer": "Demerit of e-commerce",
+      "explanation": "The notes list this as an e-commerce demerit.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q128",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q129",
+      "question": "Which statement best compares a merit and a demerit of e-commerce?",
+      "options": [
+        "It works without internet and without devices.",
+        "It always allows touching products, and fraud is impossible.",
+        "It is only for government services.",
+        "It saves time, but delivery may be delayed."
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "It saves time, but delivery may be delayed.",
+      "correctAnswer": "It saves time, but delivery may be delayed.",
+      "explanation": "Saving time is a merit; delayed delivery is a demerit.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q129",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q130",
+      "question": "Which group contains only e-commerce merits from the notes?",
+      "options": [
+        "Digital divide, technical failure, high setup cost",
+        "Hacking, delayed delivery, wrong product",
+        "Shop from home, saves time, doorstep delivery",
+        "No creativity, emotionless, no ethics"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Shop from home, saves time, doorstep delivery",
+      "correctAnswer": "Shop from home, saves time, doorstep delivery",
+      "explanation": "All three are listed as e-commerce merits.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q130",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q131",
+      "question": "E-governance means the government uses ICT and internet to:",
+      "options": [
+        "Generate VR games only",
+        "Recommend movies only",
+        "Provide services and information to citizens",
+        "Control only home fans"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Provide services and information to citizens",
+      "correctAnswer": "Provide services and information to citizens",
+      "explanation": "The notes define e-governance as using ICT and internet for public services.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q131",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q132",
+      "question": "Which is an example of e-governance?",
+      "options": [
+        "Online tax payment",
+        "TikTok filter",
+        "VR goggles",
+        "Smart fan"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Online tax payment",
+      "correctAnswer": "Online tax payment",
+      "explanation": "Online tax payment is listed as an e-governance example.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q132",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q133",
+      "question": "Which main service of e-governance allows citizens to track services more openly?",
+      "options": [
+        "Groups fruits",
+        "Makes humans lazy",
+        "Improves transparency",
+        "Creates VR games"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Improves transparency",
+      "correctAnswer": "Improves transparency",
+      "explanation": "Transparency means citizens can track processes openly.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q133",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q134",
+      "question": "Ensuring accountability in e-governance means officials become:",
+      "options": [
+        "Unable to use websites",
+        "More responsible for their duties",
+        "Less connected to services",
+        "Completely offline"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "More responsible for their duties",
+      "correctAnswer": "More responsible for their duties",
+      "explanation": "The notes define accountability this way.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q134",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q135",
+      "question": "Which e-governance service reduces time and paperwork?",
+      "options": [
+        "AI emotionlessness",
+        "E-commerce delivery",
+        "Faster service delivery",
+        "VR entertainment"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Faster service delivery",
+      "correctAnswer": "Faster service delivery",
+      "explanation": "Faster service delivery reduces time and paperwork.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q135",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q136",
+      "question": "Equal accessibility in e-governance means services should be available to:",
+      "options": [
+        "Only people living near one office",
+        "Only people without internet",
+        "People in all regions",
+        "Only cloud providers"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "People in all regions",
+      "correctAnswer": "People in all regions",
+      "explanation": "Equal accessibility makes services available to all regions.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q136",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q137",
+      "question": "Reducing in-person interactions can reduce bribery. Which e-governance service is this?",
+      "options": [
+        "Increases delivery delay",
+        "Reduces corruption",
+        "Creates virtual furniture",
+        "Improves screen time"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Reduces corruption",
+      "correctAnswer": "Reduces corruption",
+      "explanation": "The notes say fewer in-person interactions can reduce bribery.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q137",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q138",
+      "question": "Digital divide as a limitation of e-governance means:",
+      "options": [
+        "No one needs devices",
+        "All government sites are always fast",
+        "Every citizen has perfect internet",
+        "Not everyone has equal access to technology and internet"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Not everyone has equal access to technology and internet",
+      "correctAnswer": "Not everyone has equal access to technology and internet",
+      "explanation": "Digital divide is unequal access to technology and internet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q138",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q139",
+      "question": "Which e-governance limitation happens when websites crash or have server errors?",
+      "options": [
+        "Technical failures or technical problems",
+        "Smart agriculture",
+        "Easy price comparison",
+        "AI creativity"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Technical failures or technical problems",
+      "correctAnswer": "Technical failures or technical problems",
+      "explanation": "The notes list technical failures and server errors.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q139",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q140",
+      "question": "Many people lack skills to use e-services properly. This limitation is:",
+      "options": [
+        "Resource pooling",
+        "Online shopping merit",
+        "Virtual science lab",
+        "Lack of digital literacy"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Lack of digital literacy",
+      "correctAnswer": "Lack of digital literacy",
+      "explanation": "Lack of digital literacy means people cannot use e-services effectively.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q140",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q141",
+      "question": "Which is required by e-governance to provide services to people according to the notes?",
+      "options": [
+        "VR headset only",
+        "Internet connection",
+        "Only handwriting recognition",
+        "Only local paper files"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Internet connection",
+      "correctAnswer": "Internet connection",
+      "explanation": "The notes state e-governance needs internet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q141",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q142",
+      "question": "Computers, software, internet, servers, and trained manpower make e-governance expensive at first. This limitation is:",
+      "options": [
+        "No ethics",
+        "Doorstep delivery",
+        "Unsupervised learning",
+        "High setup cost"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "High setup cost",
+      "correctAnswer": "High setup cost",
+      "explanation": "High setup cost is listed as a limitation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q142",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q143",
+      "question": "E-education means teaching and learning using:",
+      "options": [
+        "Only traffic sensors",
+        "Only chalk and blackboard",
+        "Only physical paper forms",
+        "Electronic devices and the internet"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Electronic devices and the internet",
+      "correctAnswer": "Electronic devices and the internet",
+      "explanation": "The notes define e-education as learning through devices and internet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q143",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q144",
+      "question": "Which is an example of e-education from the notes?",
+      "options": [
+        "Google Classroom or Zoom class",
+        "Online shopping cart",
+        "Flight simulator only",
+        "Smart door lock"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Google Classroom or Zoom class",
+      "correctAnswer": "Google Classroom or Zoom class",
+      "explanation": "Google Classroom and Zoom class are listed as examples.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q144",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q145",
+      "question": "Which merit of e-education allows students to watch recorded videos again and again?",
+      "options": [
+        "Resource pooling",
+        "Learn anytime",
+        "Easy price comparison",
+        "Strong security"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Learn anytime",
+      "correctAnswer": "Learn anytime",
+      "explanation": "Learn anytime lets students revisit recorded videos.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q145",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q146",
+      "question": "Which merit of e-education is useful when schools are closed due to lockdowns, strikes, or disasters?",
+      "options": [
+        "Useful during emergency",
+        "Complexity",
+        "Delivery to doorstep",
+        "No creativity"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Useful during emergency",
+      "correctAnswer": "Useful during emergency",
+      "explanation": "The notes list emergency usefulness as a merit.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q146",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q147",
+      "question": "Which limitation of e-education is caused by long screen use?",
+      "options": [
+        "Improved transparency",
+        "Better price comparison",
+        "Eye strain, headache, and tiredness",
+        "Resource pooling"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Eye strain, headache, and tiredness",
+      "correctAnswer": "Eye strain, headache, and tiredness",
+      "explanation": "Health problems from screen use are listed.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q147",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q148",
+      "question": "Which limitation explains why online learning may not fully replace physical classrooms?",
+      "options": [
+        "Less face-to-face interaction",
+        "AI enhanced presentation",
+        "Doorstep delivery",
+        "Access to international products"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Less face-to-face interaction",
+      "correctAnswer": "Less face-to-face interaction",
+      "explanation": "Students may not get direct communication with teachers and friends.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q148",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q149",
+      "question": "Which limitation is especially important for experiment-based subjects?",
+      "options": [
+        "Learn from anywhere",
+        "Not suitable for practical work",
+        "Saves time and money",
+        "Easy access to learning materials"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Not suitable for practical work",
+      "correctAnswer": "Not suitable for practical work",
+      "explanation": "Some practical subjects and experiments are difficult online only.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q149",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-artificial-intelligence-q150",
+      "question": "Which set contains only e-education merits from the notes?",
+      "options": [
+        "Technical failure, digital divide, high setup cost",
+        "Learn from anywhere, saves time and money, supports self-learning",
+        "High cost, emotionless, no ethics",
+        "Distraction, eye strain, lack of devices"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Learn from anywhere, saves time and money, supports self-learning",
+      "correctAnswer": "Learn from anywhere, saves time and money, supports self-learning",
+      "explanation": "All three are listed as merits of e-education.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "section-a-artificial-intelligence-basics-and-applications"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "ai-and-contemporary-technologies",
+      "legacyId": "english-computer-artificial-intelligence-q150",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ],
+  "importSourceSlug": "artificial-intelligence"
+}

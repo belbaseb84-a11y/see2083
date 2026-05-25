@@ -42,6 +42,19 @@
         "transformation",
         "statistics"
       ]
+    },
+    "computer": {
+      "id": "computer",
+      "name": "Computer Science",
+      "nameNp": "",
+      "status": "published",
+      "chapters": [
+        "computer-network-and-communication",
+        "database-management-system",
+        "multimedia",
+        "programming-in-python",
+        "ai-and-contemporary-technologies"
+      ]
     }
   },
   "nepali": {

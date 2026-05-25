@@ -1,8 +1,1916 @@
 {
   "medium": "electrical",
   "subject": "utilization-of-electrical-energy",
+  "subjectTitle": "Utilization of Electrical Energy",
   "chapter": "power-factor",
   "chapterTitle": "Power Factor",
-  "status": "draft",
-  "questions": []
+  "unit": 5,
+  "status": "published",
+  "questionCount": 50,
+  "pageRangeUsed": "75-80",
+  "existingSourceMCQsUsed": 13,
+  "newMCQsGenerated": 37,
+  "sourceNote": "Created from the uploaded DOCX content. Questions with unclear source answer are marked needsReview.",
+  "questions": [
+    {
+      "id": "uee-u05-q001",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Power factor is defined as the ratio of:",
+      "options": [
+        "Apparent power to real power",
+        "Real power to apparent power",
+        "Real power to reactive power",
+        "Reactive power to apparent power"
+      ],
+      "optionMap": {
+        "A": "Apparent power to real power",
+        "B": "Real power to apparent power",
+        "C": "Real power to reactive power",
+        "D": "Reactive power to apparent power"
+      },
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOptionText": "Real power to apparent power",
+      "sourceCorrectAnswerRaw": "B",
+      "explanation": "Power factor is the ratio of true power to apparent power. The source also defines it as cosine of phase angle.",
+      "explanationLines": [
+        "Power factor is the ratio of true power to apparent power.",
+        "The source also defines it as cosine of phase angle."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q001",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q002",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "The ideal power factor of a purely resistive circuit is:",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "-1"
+      ],
+      "optionMap": {
+        "A": "0",
+        "B": "0.5",
+        "C": "1",
+        "D": "-1"
+      },
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOptionText": "1",
+      "sourceCorrectAnswerRaw": "C",
+      "explanation": "In a resistive circuit, voltage and current are in phase. So the power factor is unity.",
+      "explanationLines": [
+        "In a resistive circuit, voltage and current are in phase.",
+        "So the power factor is unity."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q002",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q003",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "A low power factor indicates that the circuit is:",
+      "options": [
+        "Highly efficient",
+        "Consuming more real power",
+        "Drawing more reactive power",
+        "Free of reactive power"
+      ],
+      "optionMap": {
+        "A": "Highly efficient",
+        "B": "Consuming more real power",
+        "C": "Drawing more reactive power",
+        "D": "Free of reactive power"
+      },
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOptionText": "Drawing more reactive power",
+      "sourceCorrectAnswerRaw": "C",
+      "explanation": "Low power factor means more current for same useful power. Reactive current becomes high in such circuits.",
+      "explanationLines": [
+        "Low power factor means more current for same useful power.",
+        "Reactive current becomes high in such circuits."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q003",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q004",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which of the following devices is commonly used to improve power factor?",
+      "options": [
+        "Inductor",
+        "Resistor",
+        "Capacitor",
+        "Transformer"
+      ],
+      "optionMap": {
+        "A": "Inductor",
+        "B": "Resistor",
+        "C": "Capacitor",
+        "D": "Transformer"
+      },
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOptionText": "Capacitor",
+      "sourceCorrectAnswerRaw": "C",
+      "explanation": "The unit gives static capacitor for power factor correction. It supplies leading current to neutralize lagging effect.",
+      "explanationLines": [
+        "The unit gives static capacitor for power factor correction.",
+        "It supplies leading current to neutralize lagging effect."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q004",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q005",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Power factor in an AC circuit can be improved by:",
+      "options": [
+        "Adding inductance",
+        "Adding capacitance",
+        "Increasing frequency",
+        "Reducing resistance"
+      ],
+      "optionMap": {
+        "A": "Adding inductance",
+        "B": "Adding capacitance",
+        "C": "Increasing frequency",
+        "D": "Reducing resistance"
+      },
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOptionText": "Adding capacitance",
+      "sourceCorrectAnswerRaw": "B",
+      "explanation": "The source says capacitor improves low power factor. It draws current leading the voltage.",
+      "explanationLines": [
+        "The source says capacitor improves low power factor.",
+        "It draws current leading the voltage."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q005",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q006",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "In a purely inductive or capacitive circuit, the power factor is:",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "Infinity"
+      ],
+      "optionMap": {
+        "A": "1",
+        "B": "0",
+        "C": "-1",
+        "D": "Infinity"
+      },
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOptionText": "0",
+      "sourceCorrectAnswerRaw": "B",
+      "explanation": "In pure reactive circuits, true power is zero. So power factor becomes zero.",
+      "explanationLines": [
+        "In pure reactive circuits, true power is zero.",
+        "So power factor becomes zero."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q006",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q007",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "The power factor of a circuit with a leading power factor indicates the presence of:",
+      "options": [
+        "Excessive resistance",
+        "Inductive load",
+        "Capacitive load",
+        "High apparent power"
+      ],
+      "optionMap": {
+        "A": "Excessive resistance",
+        "B": "Inductive load",
+        "C": "Capacitive load",
+        "D": "High apparent power"
+      },
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOptionText": "Capacitive load",
+      "sourceCorrectAnswerRaw": "C",
+      "explanation": "The source says p.f. is leading in capacitive circuit. Capacitor current leads voltage.",
+      "explanationLines": [
+        "The source says p.f. is leading in capacitive circuit.",
+        "Capacitor current leads voltage."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q007",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q008",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "What happens when the power factor of a system is unity?",
+      "options": [
+        "Only reactive power flows",
+        "Only real power flows",
+        "Both reactive and real power flow equally",
+        "Apparent power becomes zero"
+      ],
+      "optionMap": {
+        "A": "Only reactive power flows",
+        "B": "Only real power flows",
+        "C": "Both reactive and real power flow equally",
+        "D": "Apparent power becomes zero"
+      },
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOptionText": "Only real power flows",
+      "sourceCorrectAnswerRaw": "B",
+      "explanation": "Unity p.f. means true power equals apparent power. Reactive power is not dominant.",
+      "explanationLines": [
+        "Unity p.f. means true power equals apparent power.",
+        "Reactive power is not dominant."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q008",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q009",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "In a practical power system, a lagging power factor is usually caused by:",
+      "options": [
+        "Resistive loads",
+        "Inductive loads",
+        "Capacitive loads",
+        "Balanced loads"
+      ],
+      "optionMap": {
+        "A": "Resistive loads",
+        "B": "Inductive loads",
+        "C": "Capacitive loads",
+        "D": "Balanced loads"
+      },
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOptionText": "Inductive loads",
+      "sourceCorrectAnswerRaw": "B",
+      "explanation": "The source says p.f. is lagging in an inductive circuit. AC motors and transformers cause lagging power factor.",
+      "explanationLines": [
+        "The source says p.f. is lagging in an inductive circuit.",
+        "AC motors and transformers cause lagging power factor."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q009",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q010",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "The disadvantages of a low power factor include:",
+      "options": [
+        "Increased efficiency",
+        "Increased current and losses",
+        "Reduced voltage drop",
+        "Reduced size of the equipment"
+      ],
+      "optionMap": {
+        "A": "Increased efficiency",
+        "B": "Increased current and losses",
+        "C": "Reduced voltage drop",
+        "D": "Reduced size of the equipment"
+      },
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOptionText": "Increased current and losses",
+      "sourceCorrectAnswerRaw": "B",
+      "explanation": "Low p.f. causes high current. High current increases losses and voltage drop.",
+      "explanationLines": [
+        "Low p.f. causes high current.",
+        "High current increases losses and voltage drop."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q010",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q011",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Power factor correction is typically done by:",
+      "options": [
+        "Synchronous condensers",
+        "Series reactors",
+        "Induction generators",
+        "Rectifiers"
+      ],
+      "optionMap": {
+        "A": "Synchronous condensers",
+        "B": "Series reactors",
+        "C": "Induction generators",
+        "D": "Rectifiers"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Synchronous condensers",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source lists synchronous condensers for p.f. correction. It also lists static capacitors.",
+      "explanationLines": [
+        "The source lists synchronous condensers for p.f. correction.",
+        "It also lists static capacitors."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q011",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q012",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "The device used to measure power factor is called:",
+      "options": [
+        "Wattmeter",
+        "Power factor meter",
+        "Ammeter",
+        "Voltmeter"
+      ],
+      "optionMap": {
+        "A": "Wattmeter",
+        "B": "Power factor meter",
+        "C": "Ammeter",
+        "D": "Voltmeter"
+      },
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOptionText": "Power factor meter",
+      "sourceCorrectAnswerRaw": "B",
+      "explanation": "The measurement device is power factor meter. It directly indicates the power factor.",
+      "explanationLines": [
+        "The measurement device is power factor meter.",
+        "It directly indicates the power factor."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q012",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q013",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "The power factor is lagging in:",
+      "options": [
+        "Resistive load",
+        "Capacitive load",
+        "Inductive Load",
+        "Combination of R-L-C load"
+      ],
+      "optionMap": {
+        "A": "Resistive load",
+        "B": "Capacitive load",
+        "C": "Inductive Load",
+        "D": "Combination of R-L-C load"
+      },
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOptionText": "Inductive Load",
+      "sourceCorrectAnswerRaw": "C",
+      "explanation": "The source states p.f. lags in inductive circuit. Inductive loads are common cause of lagging p.f.",
+      "explanationLines": [
+        "The source states p.f. lags in inductive circuit.",
+        "Inductive loads are common cause of lagging p.f."
+      ],
+      "sourceType": "Existing source MCQ",
+      "needsReview": false,
+      "legacyId": "uee-u05-q013",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q014",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which formula meaning best matches power factor in the source?",
+      "options": [
+        "Cosine of angle between current and voltage",
+        "Ratio of lux to lumen",
+        "Rate of tariff per unit",
+        "Ratio of lamp spacing to height"
+      ],
+      "optionMap": {
+        "A": "Cosine of angle between current and voltage",
+        "B": "Ratio of lux to lumen",
+        "C": "Rate of tariff per unit",
+        "D": "Ratio of lamp spacing to height"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Cosine of angle between current and voltage",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "Power factor is cosine of lead or lag angle. The angle is between current and voltage.",
+      "explanationLines": [
+        "Power factor is cosine of lead or lag angle.",
+        "The angle is between current and voltage."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q014",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q015",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which other definition of power factor is given?",
+      "options": [
+        "Ratio of resistance to impedance",
+        "Ratio of lumen to watt only",
+        "Ratio of service charge to unit",
+        "Ratio of distance to height"
+      ],
+      "optionMap": {
+        "A": "Ratio of resistance to impedance",
+        "B": "Ratio of lumen to watt only",
+        "C": "Ratio of service charge to unit",
+        "D": "Ratio of distance to height"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Ratio of resistance to impedance",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source gives p.f. as resistance/impedance. It also gives true power/apparent power ratio.",
+      "explanationLines": [
+        "The source gives p.f. as resistance/impedance.",
+        "It also gives true power/apparent power ratio."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q015",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q016",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "What is quality factor according to the unit?",
+      "options": [
+        "Reciprocal of power factor",
+        "Same as illumination",
+        "Same as service charge",
+        "Square of distance"
+      ],
+      "optionMap": {
+        "A": "Reciprocal of power factor",
+        "B": "Same as illumination",
+        "C": "Same as service charge",
+        "D": "Square of distance"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Reciprocal of power factor",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source defines quality factor as reciprocal of power factor. So it increases when p.f. decreases.",
+      "explanationLines": [
+        "The source defines quality factor as reciprocal of power factor.",
+        "So it increases when p.f. decreases."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q016",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q017",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which load gives leading power factor?",
+      "options": [
+        "Capacitive circuit",
+        "Inductive circuit",
+        "Purely mechanical load",
+        "Lighting diffuser"
+      ],
+      "optionMap": {
+        "A": "Capacitive circuit",
+        "B": "Inductive circuit",
+        "C": "Purely mechanical load",
+        "D": "Lighting diffuser"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Capacitive circuit",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source says p.f. is leading in capacitive circuit. Capacitor current leads voltage.",
+      "explanationLines": [
+        "The source says p.f. is leading in capacitive circuit.",
+        "Capacitor current leads voltage."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q018",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which load gives lagging power factor?",
+      "options": [
+        "Inductive circuit",
+        "Capacitive circuit",
+        "Purely resistive circuit",
+        "Tariff block"
+      ],
+      "optionMap": {
+        "A": "Inductive circuit",
+        "B": "Capacitive circuit",
+        "C": "Purely resistive circuit",
+        "D": "Tariff block"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Inductive circuit",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source says p.f. lags in an inductive circuit. Transformers and AC motors are examples.",
+      "explanationLines": [
+        "The source says p.f. lags in an inductive circuit.",
+        "Transformers and AC motors are examples."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q018",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q019",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which equipment is listed as a cause of low power factor?",
+      "options": [
+        "Transformers and AC motors",
+        "Energy meter only",
+        "Diffusers only",
+        "Penstock only"
+      ],
+      "optionMap": {
+        "A": "Transformers and AC motors",
+        "B": "Energy meter only",
+        "C": "Diffusers only",
+        "D": "Penstock only"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Transformers and AC motors",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "Transformers and AC motors operate at lagging p.f. They are listed as causes of low p.f.",
+      "explanationLines": [
+        "Transformers and AC motors operate at lagging p.f.",
+        "They are listed as causes of low p.f."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q019",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q020",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which lamp type is listed as operating at low power factor?",
+      "options": [
+        "Arc lamp and discharge lamp",
+        "Only tungsten filament lamp",
+        "Only LED lamp",
+        "Only solar panel"
+      ],
+      "optionMap": {
+        "A": "Arc lamp and discharge lamp",
+        "B": "Only tungsten filament lamp",
+        "C": "Only LED lamp",
+        "D": "Only solar panel"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Arc lamp and discharge lamp",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source lists arc lamp and discharge lamps. They operate at low power factor.",
+      "explanationLines": [
+        "The source lists arc lamp and discharge lamps.",
+        "They operate at low power factor."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q020",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q021",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which industrial furnace is listed as very lagging p.f. load?",
+      "options": [
+        "Arc and induction furnace",
+        "Microwave oven only",
+        "Room heater only",
+        "Neon indicator only"
+      ],
+      "optionMap": {
+        "A": "Arc and induction furnace",
+        "B": "Microwave oven only",
+        "C": "Room heater only",
+        "D": "Neon indicator only"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Arc and induction furnace",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source lists arc and induction furnaces. They operate at very lagging power factor.",
+      "explanationLines": [
+        "The source lists arc and induction furnaces.",
+        "They operate at very lagging power factor."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q022",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "What happens to current when power factor is low for the same power and voltage?",
+      "options": [
+        "Current increases",
+        "Current becomes zero",
+        "Current becomes light",
+        "Current is independent"
+      ],
+      "optionMap": {
+        "A": "Current increases",
+        "B": "Current becomes zero",
+        "C": "Current becomes light",
+        "D": "Current is independent"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Current increases",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "For same load and voltage, low p.f. causes high current. The source explains high current affects the system.",
+      "explanationLines": [
+        "For same load and voltage, low p.f. causes high current.",
+        "The source explains high current affects the system."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q022",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q023",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which equipment rating increases due to low power factor?",
+      "options": [
+        "Transformer and generator rating",
+        "Diffuser size only",
+        "Room length only",
+        "Tariff table only"
+      ],
+      "optionMap": {
+        "A": "Transformer and generator rating",
+        "B": "Diffuser size only",
+        "C": "Room length only",
+        "D": "Tariff table only"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Transformer and generator rating",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source says transformer and generator rating is affected. More kVA is needed for same output.",
+      "explanationLines": [
+        "The source says transformer and generator rating is affected.",
+        "More kVA is needed for same output."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q023",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q024",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Why does conductor size increase at low power factor?",
+      "options": [
+        "Cables carry more current",
+        "Illumination becomes high",
+        "Voltage becomes zero",
+        "Tariff becomes fixed"
+      ],
+      "optionMap": {
+        "A": "Cables carry more current",
+        "B": "Illumination becomes high",
+        "C": "Voltage becomes zero",
+        "D": "Tariff becomes fixed"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Cables carry more current",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "Low p.f. makes cables carry more current. The source says wire size must increase to maintain current density.",
+      "explanationLines": [
+        "Low p.f. makes cables carry more current.",
+        "The source says wire size must increase to maintain current density."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q024",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q025",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which effect of low power factor reduces system efficiency?",
+      "options": [
+        "More energy loss",
+        "No energy loss",
+        "Lower current",
+        "Smaller conductors"
+      ],
+      "optionMap": {
+        "A": "More energy loss",
+        "B": "No energy loss",
+        "C": "Lower current",
+        "D": "Smaller conductors"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "More energy loss",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "Low p.f. causes more energy loss. This results in poor efficiency.",
+      "explanationLines": [
+        "Low p.f. causes more energy loss.",
+        "This results in poor efficiency."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q026",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which voltage effect is caused by low power factor?",
+      "options": [
+        "Large voltage drops",
+        "No voltage drop",
+        "Voltage always increases",
+        "Voltage becomes unrelated"
+      ],
+      "optionMap": {
+        "A": "Large voltage drops",
+        "B": "No voltage drop",
+        "C": "Voltage always increases",
+        "D": "Voltage becomes unrelated"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Large voltage drops",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source says low p.f. causes large voltage drops. These occur in generators, transformers and lines.",
+      "explanationLines": [
+        "The source says low p.f. causes large voltage drops.",
+        "These occur in generators, transformers and lines."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q026",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q027",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which is an advantage of power factor correction?",
+      "options": [
+        "Reduction in current through the device",
+        "Increase in energy loss",
+        "Increase in conductor size",
+        "Decrease in voltage level"
+      ],
+      "optionMap": {
+        "A": "Reduction in current through the device",
+        "B": "Increase in energy loss",
+        "C": "Increase in conductor size",
+        "D": "Decrease in voltage level"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Reduction in current through the device",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source lists reduction in current as an advantage. This reduces losses and equipment loading.",
+      "explanationLines": [
+        "The source lists reduction in current as an advantage.",
+        "This reduces losses and equipment loading."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q027",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q028",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which advantage reduces line losses after power factor correction?",
+      "options": [
+        "Reduction in energy loss in the system",
+        "Increase in material cost",
+        "Increase in current",
+        "Lower voltage level"
+      ],
+      "optionMap": {
+        "A": "Reduction in energy loss in the system",
+        "B": "Increase in material cost",
+        "C": "Increase in current",
+        "D": "Lower voltage level"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Reduction in energy loss in the system",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "Power factor correction reduces energy loss. Lower current gives lower loss.",
+      "explanationLines": [
+        "Power factor correction reduces energy loss.",
+        "Lower current gives lower loss."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q028",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q029",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which advantage reduces conductor requirement?",
+      "options": [
+        "Reduction in size of conductor",
+        "Increase in bus-bar size",
+        "Increase in cable current",
+        "More voltage drop"
+      ],
+      "optionMap": {
+        "A": "Reduction in size of conductor",
+        "B": "Increase in bus-bar size",
+        "C": "Increase in cable current",
+        "D": "More voltage drop"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Reduction in size of conductor",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source lists reduced conductor size. Better p.f. reduces current for same power.",
+      "explanationLines": [
+        "The source lists reduced conductor size.",
+        "Better p.f. reduces current for same power."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q030",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which advantage reduces generator and transformer loading?",
+      "options": [
+        "Reduction in kVA loading",
+        "Increase in kVA loading",
+        "More reactive current",
+        "More voltage drop"
+      ],
+      "optionMap": {
+        "A": "Reduction in kVA loading",
+        "B": "Increase in kVA loading",
+        "C": "More reactive current",
+        "D": "More voltage drop"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Reduction in kVA loading",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source lists reduction in kVA loading. This helps generators and transformers.",
+      "explanationLines": [
+        "The source lists reduction in kVA loading.",
+        "This helps generators and transformers."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q030",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q031",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which method is first listed for power factor correction?",
+      "options": [
+        "Using static capacitor",
+        "Using diffuser",
+        "Using tariff block",
+        "Using carbon filament"
+      ],
+      "optionMap": {
+        "A": "Using static capacitor",
+        "B": "Using diffuser",
+        "C": "Using tariff block",
+        "D": "Using carbon filament"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Using static capacitor",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The unit lists static capacitor first. It is a common p.f. correction method in the source.",
+      "explanationLines": [
+        "The unit lists static capacitor first.",
+        "It is a common p.f. correction method in the source."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q031",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q032",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which advantage of static capacitor is given?",
+      "options": [
+        "Low initial cost",
+        "Very high maintenance cost",
+        "Difficult installation",
+        "Large losses"
+      ],
+      "optionMap": {
+        "A": "Low initial cost",
+        "B": "Very high maintenance cost",
+        "C": "Difficult installation",
+        "D": "Large losses"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Low initial cost",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source lists low initial cost. It also lists low maintenance and easy installation.",
+      "explanationLines": [
+        "The source lists low initial cost.",
+        "It also lists low maintenance and easy installation."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q032",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q033",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which disadvantage of static capacitor is given?",
+      "options": [
+        "Short life of about 8-10 years",
+        "Cannot be installed",
+        "Consumes all real power",
+        "Works only as motor"
+      ],
+      "optionMap": {
+        "A": "Short life of about 8-10 years",
+        "B": "Cannot be installed",
+        "C": "Consumes all real power",
+        "D": "Works only as motor"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Short life of about 8-10 years",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source gives short life of 8-10 years. It may also get damaged under high voltage.",
+      "explanationLines": [
+        "The source gives short life of 8-10 years.",
+        "It may also get damaged under high voltage."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q034",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "How does a capacitor current behave?",
+      "options": [
+        "It leads voltage by approximately 90 degrees",
+        "It lags voltage by 90 degrees",
+        "It is always zero",
+        "It becomes light energy"
+      ],
+      "optionMap": {
+        "A": "It leads voltage by approximately 90 degrees",
+        "B": "It lags voltage by 90 degrees",
+        "C": "It is always zero",
+        "D": "It becomes light energy"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "It leads voltage by approximately 90 degrees",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source says capacitor current leads voltage by about 90 degrees. This helps neutralize lagging current.",
+      "explanationLines": [
+        "The source says capacitor current leads voltage by about 90 degrees.",
+        "This helps neutralize lagging current."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q034",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q035",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Where are static capacitors applied according to the source?",
+      "options": [
+        "Factories, plants and transmission lines",
+        "Only bathrooms",
+        "Only arc lamps",
+        "Only tariff offices"
+      ],
+      "optionMap": {
+        "A": "Factories, plants and transmission lines",
+        "B": "Only bathrooms",
+        "C": "Only arc lamps",
+        "D": "Only tariff offices"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Factories, plants and transmission lines",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source lists factories, plants and transmission lines. These are places for p.f. improvement.",
+      "explanationLines": [
+        "The source lists factories, plants and transmission lines.",
+        "These are places for p.f. improvement."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q035",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q036",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which machine is listed for p.f. correction besides static capacitor?",
+      "options": [
+        "Synchronous or high power factor machine",
+        "Diffuser machine",
+        "Incandescent machine",
+        "Energy meter machine"
+      ],
+      "optionMap": {
+        "A": "Synchronous or high power factor machine",
+        "B": "Diffuser machine",
+        "C": "Incandescent machine",
+        "D": "Energy meter machine"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Synchronous or high power factor machine",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source lists synchronous or high p.f. machines. They are another correction method.",
+      "explanationLines": [
+        "The source lists synchronous or high p.f. machines.",
+        "They are another correction method."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q036",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q037",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "What is a synchronous condenser?",
+      "options": [
+        "Overexcited synchronous motor at no load",
+        "Tungsten filament lamp",
+        "Service charge meter",
+        "Carbon arc electrode"
+      ],
+      "optionMap": {
+        "A": "Overexcited synchronous motor at no load",
+        "B": "Tungsten filament lamp",
+        "C": "Service charge meter",
+        "D": "Carbon arc electrode"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Overexcited synchronous motor at no load",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source defines it as overexcited synchronous motor at no load. It acts as a capacitor.",
+      "explanationLines": [
+        "The source defines it as overexcited synchronous motor at no load.",
+        "It acts as a capacitor."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q038",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "What is another name for synchronous condenser?",
+      "options": [
+        "Synchronous phase condenser",
+        "Luminous condenser",
+        "Tariff condenser",
+        "Diffuser condenser"
+      ],
+      "optionMap": {
+        "A": "Synchronous phase condenser",
+        "B": "Luminous condenser",
+        "C": "Tariff condenser",
+        "D": "Diffuser condenser"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Synchronous phase condenser",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source says it is also called synchronous phase condenser. It acts like a capacitor for correction.",
+      "explanationLines": [
+        "The source says it is also called synchronous phase condenser.",
+        "It acts like a capacitor for correction."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q038",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q039",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which statement best explains p.f. improvement by parallel capacitor?",
+      "options": [
+        "Capacitor supplies leading current to reduce lagging reactive effect",
+        "Capacitor increases all line current",
+        "Capacitor changes lux into lumen",
+        "Capacitor acts as service charge"
+      ],
+      "optionMap": {
+        "A": "Capacitor supplies leading current to reduce lagging reactive effect",
+        "B": "Capacitor increases all line current",
+        "C": "Capacitor changes lux into lumen",
+        "D": "Capacitor acts as service charge"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Capacitor supplies leading current to reduce lagging reactive effect",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The capacitor draws leading current. It neutralizes lagging component and improves p.f.",
+      "explanationLines": [
+        "The capacitor draws leading current.",
+        "It neutralizes lagging component and improves p.f."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q039",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q040",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which power is called active power in the source?",
+      "options": [
+        "Power dissipated in the circuit resistor",
+        "Only reactive power",
+        "Only apparent power",
+        "Only tariff power"
+      ],
+      "optionMap": {
+        "A": "Power dissipated in the circuit resistor",
+        "B": "Only reactive power",
+        "C": "Only apparent power",
+        "D": "Only tariff power"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Power dissipated in the circuit resistor",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source writes P as active power. It is power dissipated in the circuit resistor.",
+      "explanationLines": [
+        "The source writes P as active power.",
+        "It is power dissipated in the circuit resistor."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q040",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q041",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "What does a low p.f. system require for same useful output?",
+      "options": [
+        "Higher current and larger equipment",
+        "Lower current and smaller equipment always",
+        "No transformer",
+        "No conductor"
+      ],
+      "optionMap": {
+        "A": "Higher current and larger equipment",
+        "B": "Lower current and smaller equipment always",
+        "C": "No transformer",
+        "D": "No conductor"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Higher current and larger equipment",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "Low p.f. draws more current for same load. That increases equipment size and rating.",
+      "explanationLines": [
+        "Low p.f. draws more current for same load.",
+        "That increases equipment size and rating."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q042",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which is NOT an effect of low power factor?",
+      "options": [
+        "Reduction in material cost",
+        "More current",
+        "More energy loss",
+        "Large voltage drop"
+      ],
+      "optionMap": {
+        "A": "Reduction in material cost",
+        "B": "More current",
+        "C": "More energy loss",
+        "D": "Large voltage drop"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Reduction in material cost",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "Low p.f. increases cost and conductor size. Reduction in material cost is an advantage of correction, not low p.f.",
+      "explanationLines": [
+        "Low p.f. increases cost and conductor size.",
+        "Reduction in material cost is an advantage of correction, not low p.f."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q042",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q043",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which is NOT an advantage of power factor correction?",
+      "options": [
+        "Increase in current through device",
+        "Reduction in energy loss",
+        "Reduction in material cost",
+        "Increase in voltage level"
+      ],
+      "optionMap": {
+        "A": "Increase in current through device",
+        "B": "Reduction in energy loss",
+        "C": "Reduction in material cost",
+        "D": "Increase in voltage level"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Increase in current through device",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "Power factor correction reduces current. It also reduces losses and material cost.",
+      "explanationLines": [
+        "Power factor correction reduces current.",
+        "It also reduces losses and material cost."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q043",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q044",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Why do transformers and AC motors usually lower power factor?",
+      "options": [
+        "They are inductive and operate at lagging p.f.",
+        "They are pure resistors only",
+        "They are lighting diffusers",
+        "They are tariff tables"
+      ],
+      "optionMap": {
+        "A": "They are inductive and operate at lagging p.f.",
+        "B": "They are pure resistors only",
+        "C": "They are lighting diffusers",
+        "D": "They are tariff tables"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "They are inductive and operate at lagging p.f.",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source says transformers and AC motors lag. Inductive loads cause lagging power factor.",
+      "explanationLines": [
+        "The source says transformers and AC motors lag.",
+        "Inductive loads cause lagging power factor."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q044",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q045",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which time is mentioned for supply voltage increase causing low p.f.?",
+      "options": [
+        "Low-load periods like lunch time and night hours",
+        "Only exam time",
+        "Only sunrise",
+        "Only peak evening always"
+      ],
+      "optionMap": {
+        "A": "Low-load periods like lunch time and night hours",
+        "B": "Only exam time",
+        "C": "Only sunrise",
+        "D": "Only peak evening always"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Low-load periods like lunch time and night hours",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source mentions lunch time and night hours. These are low-load periods when voltage may rise.",
+      "explanationLines": [
+        "The source mentions lunch time and night hours.",
+        "These are low-load periods when voltage may rise."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q046",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which motor condition can reduce power factor?",
+      "options": [
+        "Improper repair and maintenance",
+        "Perfect maintenance only",
+        "No bearing wear",
+        "No stator contact"
+      ],
+      "optionMap": {
+        "A": "Improper repair and maintenance",
+        "B": "Perfect maintenance only",
+        "C": "No bearing wear",
+        "D": "No stator contact"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Improper repair and maintenance",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source says improper repair and maintenance lowers motor p.f. Worn bearings may also cause rotor-stator problems.",
+      "explanationLines": [
+        "The source says improper repair and maintenance lowers motor p.f.",
+        "Worn bearings may also cause rotor-stator problems."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q046",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q047",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which statement about overexcited synchronous motor is correct in this unit?",
+      "options": [
+        "At no load it can act as a capacitor",
+        "It works as a diffuser",
+        "It produces only lux",
+        "It is a tariff type"
+      ],
+      "optionMap": {
+        "A": "At no load it can act as a capacitor",
+        "B": "It works as a diffuser",
+        "C": "It produces only lux",
+        "D": "It is a tariff type"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "At no load it can act as a capacitor",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The source says overexcited synchronous motor at no load is a synchronous condenser. It acts as a capacitor.",
+      "explanationLines": [
+        "The source says overexcited synchronous motor at no load is a synchronous condenser.",
+        "It acts as a capacitor."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q047",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q048",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which p.f. type is associated with capacitors?",
+      "options": [
+        "Leading power factor",
+        "Lagging power factor",
+        "Zero tariff factor",
+        "Lighting factor"
+      ],
+      "optionMap": {
+        "A": "Leading power factor",
+        "B": "Lagging power factor",
+        "C": "Zero tariff factor",
+        "D": "Lighting factor"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Leading power factor",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "Capacitors draw leading current. Therefore capacitive circuits have leading p.f.",
+      "explanationLines": [
+        "Capacitors draw leading current.",
+        "Therefore capacitive circuits have leading p.f."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q048",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q049",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which p.f. type is associated with induction furnaces in the source?",
+      "options": [
+        "Very lagging power factor",
+        "Unity power factor always",
+        "Leading power factor",
+        "No power factor"
+      ],
+      "optionMap": {
+        "A": "Very lagging power factor",
+        "B": "Unity power factor always",
+        "C": "Leading power factor",
+        "D": "No power factor"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Very lagging power factor",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The unit says arc and induction furnaces operate at very lagging p.f. They are listed as causes of low p.f.",
+      "explanationLines": [
+        "The unit says arc and induction furnaces operate at very lagging p.f.",
+        "They are listed as causes of low p.f."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "uee-u05-q050",
+      "unit": 5,
+      "subject": "utilization-of-electrical-energy",
+      "chapter": "power-factor",
+      "question": "Which source-based answer best fits \"methods of improving low p.f.\"?",
+      "options": [
+        "Static capacitor and synchronous condenser",
+        "Diffuser and reflector",
+        "Tariff and discount",
+        "Penstock and turbine"
+      ],
+      "optionMap": {
+        "A": "Static capacitor and synchronous condenser",
+        "B": "Diffuser and reflector",
+        "C": "Tariff and discount",
+        "D": "Penstock and turbine"
+      },
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOptionText": "Static capacitor and synchronous condenser",
+      "sourceCorrectAnswerRaw": "A",
+      "explanation": "The unit lists static capacitor and synchronous machines. Synchronous condenser is one such machine method.",
+      "explanationLines": [
+        "The unit lists static capacitor and synchronous machines.",
+        "Synchronous condenser is one such machine method."
+      ],
+      "sourceType": "Generated from unit content",
+      "needsReview": false,
+      "legacyId": "uee-u05-q050",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
 }

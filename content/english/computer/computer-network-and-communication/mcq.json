@@ -1,0 +1,4218 @@
+{
+  "medium": "english",
+  "mediumId": "english",
+  "subject": "computer",
+  "subjectId": "computer",
+  "chapter": "computer-network-and-communication",
+  "unitSlug": "computer-network-and-communication",
+  "chapterTitle": "Computer Network and Communication",
+  "mcqKey": "mcq:english/computer/computer-network-and-communication",
+  "status": "published",
+  "version": 1,
+  "totalQuestions": 150,
+  "websiteQuizReady": true,
+  "sourceFile": "596c3d49-2766-438a-b634-635ea176ce18.docx",
+  "notes": "",
+  "questions": [
+    {
+      "id": "english-computer-computer-network-and-communication-q001",
+      "question": "Which statement best describes communication in a computer networking context?",
+      "options": [
+        "Only sending voice messages between people",
+        "Exchange of information, ideas, or data between sender and receiver using a method or medium",
+        "Storage of data permanently in a hard disk",
+        "Conversion of analog signal into digital signal only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Exchange of information, ideas, or data between sender and receiver using a method or medium",
+      "correctAnswer": "Exchange of information, ideas, or data between sender and receiver using a method or medium",
+      "explanation": "Communication is the exchange of information between parties.\nIn networking, it normally happens through a channel and follows rules.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q001",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q002",
+      "question": "In data communication, which element decides the rules for successful transmission?",
+      "options": [
+        "Sender",
+        "Medium",
+        "Protocol",
+        "Payload"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Protocol",
+      "correctAnswer": "Protocol",
+      "explanation": "A protocol is the set of rules used during communication.\nTCP/IP is an example used on the Internet.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q002",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q003",
+      "question": "A phone sends a photo to another phone using Wi-Fi. In this example, the photo is the:",
+      "options": [
+        "Sender",
+        "Medium",
+        "Message",
+        "Protocol"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Message",
+      "correctAnswer": "Message",
+      "explanation": "The message is the actual data being transmitted.\nIt can be text, image, audio, or video.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q003",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q004",
+      "question": "Which option correctly matches data communication and telecommunication?",
+      "options": [
+        "Data communication is only human speech; telecommunication is only file transfer",
+        "Data communication transfers data between devices; telecommunication covers distance communication using technology",
+        "Both are exactly same and have no difference",
+        "Telecommunication never includes data communication"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Data communication transfers data between devices; telecommunication covers distance communication using technology",
+      "correctAnswer": "Data communication transfers data between devices; telecommunication covers distance communication using technology",
+      "explanation": "Data communication focuses on device-to-device data transfer.\nTelecommunication is broader communication over distance.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q004",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q005",
+      "question": "Which transmission mode is most suitable for ordinary telephone calls?",
+      "options": [
+        "Simplex",
+        "Half-duplex",
+        "Full-duplex",
+        "Broadcast-only mode"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Full-duplex",
+      "correctAnswer": "Full-duplex",
+      "explanation": "In full-duplex mode, both sides can send and receive at the same time.\nTelephone and video calls use this idea.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q005",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q006",
+      "question": "A walkie-talkie allows both users to talk, but not at the same time. Which mode is this?",
+      "options": [
+        "Simplex",
+        "Half-duplex",
+        "Full-duplex",
+        "Multiplex"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Half-duplex",
+      "correctAnswer": "Half-duplex",
+      "explanation": "Half-duplex allows communication in both directions but only one direction at a time.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q006",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q007",
+      "question": "Which example best represents simplex communication?",
+      "options": [
+        "Video call",
+        "Walkie-talkie",
+        "Television broadcast",
+        "Mobile phone call"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Television broadcast",
+      "correctAnswer": "Television broadcast",
+      "explanation": "Simplex communication is one-way only.\nA TV broadcast sends signals to viewers without receiving a reply through the same channel.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q007",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q008",
+      "question": "What is the main advantage of broadband over dial-up Internet?",
+      "options": [
+        "It only works with radio waves",
+        "It provides high-speed data transfer and allows large data to be sent/received quickly",
+        "It does not need any device",
+        "It prevents all network errors automatically"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It provides high-speed data transfer and allows large data to be sent/received quickly",
+      "correctAnswer": "It provides high-speed data transfer and allows large data to be sent/received quickly",
+      "explanation": "Broadband is much faster than dial-up and supports large data transfer.\nIt is useful for videos, online classes, and downloads.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q008",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q009",
+      "question": "Which broadband type uses light signals through glass or plastic strands?",
+      "options": [
+        "DSL",
+        "Cable broadband",
+        "Fiber-optic broadband",
+        "Satellite broadband"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Fiber-optic broadband",
+      "correctAnswer": "Fiber-optic broadband",
+      "explanation": "Fiber-optic broadband transmits data as light signals.\nIt provides high speed and reliable long-distance transmission.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q009",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q010",
+      "question": "Why does satellite broadband usually have higher latency than fiber broadband?",
+      "options": [
+        "It uses very short copper wires",
+        "The signal travels a long distance to and from satellites",
+        "It does not use electromagnetic signals",
+        "It uses only one-way communication"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "The signal travels a long distance to and from satellites",
+      "correctAnswer": "The signal travels a long distance to and from satellites",
+      "explanation": "Satellite signals travel to space and back.\nThis long path creates more delay compared to fiber or cable systems.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q010",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q011",
+      "question": "If an internet plan offers 100 Mbps but actual download speed is 60 Mbps, 60 Mbps is called:",
+      "options": [
+        "Bandwidth",
+        "Throughput",
+        "Frequency",
+        "Protocol"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Throughput",
+      "correctAnswer": "Throughput",
+      "explanation": "Throughput is the actual amount of data successfully transferred per second.\nBandwidth is the maximum capacity.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q011",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q012",
+      "question": "Which statement best compares bandwidth and throughput?",
+      "options": [
+        "Bandwidth is actual speed; throughput is cable length",
+        "Bandwidth is maximum capacity; throughput is actual successful data transfer rate",
+        "Both always have the same value",
+        "Throughput is measured in hertz only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Bandwidth is maximum capacity; throughput is actual successful data transfer rate",
+      "correctAnswer": "Bandwidth is maximum capacity; throughput is actual successful data transfer rate",
+      "explanation": "Bandwidth is the theoretical capacity of the channel.\nThroughput is real-world performance.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q012",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q013",
+      "question": "Which unit is commonly used to measure bandwidth?",
+      "options": [
+        "Pixels per second",
+        "Bits per second",
+        "Meters per second",
+        "Volts per second"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Bits per second",
+      "correctAnswer": "Bits per second",
+      "explanation": "Bandwidth is measured in bps, Kbps, Mbps, or Gbps.\nThese units show data transfer capacity.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q013",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q014",
+      "question": "A large video is divided into many small parts before being sent over the Internet. These small parts are called:",
+      "options": [
+        "Data packets",
+        "Connectors",
+        "Topologies",
+        "Protocols"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Data packets",
+      "correctAnswer": "Data packets",
+      "explanation": "Data packets are small units of data sent individually across a network.\nThey are reassembled at the destination.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q014",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q015",
+      "question": "Which part of a data packet contains the actual content being transmitted?",
+      "options": [
+        "Header",
+        "Payload",
+        "Footer",
+        "Protocol name"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Payload",
+      "correctAnswer": "Payload",
+      "explanation": "Payload is the actual data.\nHeader contains addressing information and footer helps with checking errors.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q015",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q016",
+      "question": "Why is a packet header important?",
+      "options": [
+        "It stores only the cable color",
+        "It contains source, destination, and packet information",
+        "It converts digital signals to analog",
+        "It draws a topology diagram"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It contains source, destination, and packet information",
+      "correctAnswer": "It contains source, destination, and packet information",
+      "explanation": "The header helps the network know where the packet comes from and where it should go.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q016",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q017",
+      "question": "Frequency in telecommunication means:",
+      "options": [
+        "Number of devices in a LAN",
+        "How often a signal repeats or is sent per second",
+        "Total cost of Internet service",
+        "Length of a cable"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "How often a signal repeats or is sent per second",
+      "correctAnswer": "How often a signal repeats or is sent per second",
+      "explanation": "Frequency shows how many cycles or signal repetitions occur per second.\nIt is measured in Hz, kHz, MHz, or GHz.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q017",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q018",
+      "question": "Which frequency range is commonly associated with Wi-Fi mentioned in the notes?",
+      "options": [
+        "2.4 GHz and 5 GHz",
+        "530-1710 kHz only",
+        "24-100 GHz only",
+        "88-108 MHz only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "2.4 GHz and 5 GHz",
+      "correctAnswer": "2.4 GHz and 5 GHz",
+      "explanation": "Wi-Fi commonly works on 2.4 GHz and 5 GHz frequency bands.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q018",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q019",
+      "question": "Which mobile generation best supports smart devices, IoT, VR, and very high speed?",
+      "options": [
+        "2G",
+        "3G",
+        "4G",
+        "5G"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "5G",
+      "correctAnswer": "5G",
+      "explanation": "5G is faster than 4G and is designed to support many modern smart devices and applications.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 3,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q019",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q020",
+      "question": "Which generation is correctly matched with typical use from the notes?",
+      "options": [
+        "3G - smart cities and VR as main use",
+        "4G - HD video streaming and online gaming with low lag",
+        "5G - only text messaging",
+        "2G - gigabit Internet"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "4G - HD video streaming and online gaming with low lag",
+      "correctAnswer": "4G - HD video streaming and online gaming with low lag",
+      "explanation": "4G LTE is suitable for HD video streaming and online gaming with lower lag compared to 3G.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-basics"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q020",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q021",
+      "question": "Communication media is also called:",
+      "options": [
+        "Operating system",
+        "Transmission media",
+        "Application software",
+        "Database schema"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Transmission media",
+      "correctAnswer": "Transmission media",
+      "explanation": "Communication media is the path or channel through which information travels.\nIt is also called transmission media.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q021",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q022",
+      "question": "Which option contains only guided media?",
+      "options": [
+        "Wi-Fi, Bluetooth, satellite",
+        "Radio waves, microwave, infrared",
+        "Twisted pair cable, coaxial cable, fiber optic cable",
+        "RFID, Wi-Fi, CAT6"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Twisted pair cable, coaxial cable, fiber optic cable",
+      "correctAnswer": "Twisted pair cable, coaxial cable, fiber optic cable",
+      "explanation": "Guided media uses physical wires or cables.\nTwisted pair, coaxial, and fiber optic cables are examples.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q022",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q023",
+      "question": "Unguided media sends data mainly through:",
+      "options": [
+        "Copper wires only",
+        "Glass fibers only",
+        "Air, vacuum, or space as electromagnetic waves",
+        "Paper documents"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Air, vacuum, or space as electromagnetic waves",
+      "correctAnswer": "Air, vacuum, or space as electromagnetic waves",
+      "explanation": "Unguided media is wireless.\nIt transmits data using electromagnetic waves through air or space.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q023",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q024",
+      "question": "Which statement is true about CAT6 cable?",
+      "options": [
+        "It is a wireless satellite system",
+        "It uses RJ-45 connector and can support high Ethernet speed",
+        "It is used only for television broadcasting",
+        "It transmits only infrared light"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It uses RJ-45 connector and can support high Ethernet speed",
+      "correctAnswer": "It uses RJ-45 connector and can support high Ethernet speed",
+      "explanation": "CAT6 is a network cable used with RJ-45 connectors.\nIt can support 1 Gbps over 100 meters and higher speed over shorter distances.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q024",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q025",
+      "question": "Why is CAT6 more reliable than older Ethernet cables like CAT5e?",
+      "options": [
+        "It has better insulation and tighter twisted wires to reduce interference",
+        "It uses satellites instead of wires",
+        "It has no physical connector",
+        "It works without electrical signals"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It has better insulation and tighter twisted wires to reduce interference",
+      "correctAnswer": "It has better insulation and tighter twisted wires to reduce interference",
+      "explanation": "CAT6 has improved construction that reduces signal interference.\nThis helps stable communication.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q025",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q026",
+      "question": "Which connector is commonly used with CAT6 Ethernet cable?",
+      "options": [
+        "SC",
+        "ST",
+        "RJ-45",
+        "SMA"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "RJ-45",
+      "correctAnswer": "RJ-45",
+      "explanation": "RJ-45 is the common 8-pin connector used with Ethernet cables like CAT5 and CAT6.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q026",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q027",
+      "question": "Fiber optic cable transmits data using:",
+      "options": [
+        "Sound waves",
+        "Light signals",
+        "Printed symbols",
+        "Mechanical gears"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Light signals",
+      "correctAnswer": "Light signals",
+      "explanation": "Fiber optic cable uses light signals through glass or plastic fibers.\nThis gives very high speed and long-distance support.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q027",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q028",
+      "question": "Which pair contains common optical fiber connectors mentioned in the notes?",
+      "options": [
+        "RJ-45 and VGA",
+        "ST and SC",
+        "HDMI and USB",
+        "PS/2 and RJ-11"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "ST and SC",
+      "correctAnswer": "ST and SC",
+      "explanation": "ST and SC are common optical fiber connectors.\nSMA is also mentioned.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q028",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q029",
+      "question": "Which medium is least affected by electromagnetic interference?",
+      "options": [
+        "Twisted pair only",
+        "Coaxial cable only",
+        "Fiber optic cable",
+        "Unshielded copper wire"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Fiber optic cable",
+      "correctAnswer": "Fiber optic cable",
+      "explanation": "Fiber optic uses light rather than electrical signals.\nIt is highly resistant to electromagnetic interference.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q029",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q030",
+      "question": "Which is the best definition of Wi-Fi?",
+      "options": [
+        "A wired cable for Ethernet only",
+        "A wireless technology that connects devices to Internet/network using radio signals",
+        "A file compression method",
+        "A full-duplex cable connector"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "A wireless technology that connects devices to Internet/network using radio signals",
+      "correctAnswer": "A wireless technology that connects devices to Internet/network using radio signals",
+      "explanation": "Wi-Fi connects devices wirelessly using radio signals.\nIt commonly works through access points or routers.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q030",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q031",
+      "question": "Bluetooth is most suitable for:",
+      "options": [
+        "Long-distance continental Internet backbone",
+        "Short-distance wireless data sharing between nearby devices",
+        "Connecting cities using optical fiber",
+        "Assigning IP addresses automatically"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Short-distance wireless data sharing between nearby devices",
+      "correctAnswer": "Short-distance wireless data sharing between nearby devices",
+      "explanation": "Bluetooth is a short-range wireless technology.\nIt is common in headphones, keyboards, speakers, and smartphones.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q031",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q032",
+      "question": "Which technique helps Bluetooth reduce signal problems?",
+      "options": [
+        "Frequency Hopping Spread Spectrum",
+        "Optical refraction",
+        "Packet switching only",
+        "Manual routing"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Frequency Hopping Spread Spectrum",
+      "correctAnswer": "Frequency Hopping Spread Spectrum",
+      "explanation": "The notes mention FHSS as a smart method used by Bluetooth to avoid signal problems.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q032",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q033",
+      "question": "RFID mainly uses:",
+      "options": [
+        "Radio waves between tags and readers",
+        "Fiber strands between routers",
+        "Only printed barcodes without signals",
+        "Telephone dial-up lines"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Radio waves between tags and readers",
+      "correctAnswer": "Radio waves between tags and readers",
+      "explanation": "RFID uses radio waves to transfer data between RFID tags and readers.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q033",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q034",
+      "question": "Which is the correct sequence in satellite communication?",
+      "options": [
+        "Downlink -> uplink -> no satellite",
+        "Ground station uplink -> satellite receives/amplifies -> downlink to Earth",
+        "Receiver sends directly to printer",
+        "Router converts files into paper"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Ground station uplink -> satellite receives/amplifies -> downlink to Earth",
+      "correctAnswer": "Ground station uplink -> satellite receives/amplifies -> downlink to Earth",
+      "explanation": "A ground station sends uplink to satellite.\nThe satellite amplifies and sends downlink back to Earth.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q034",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q035",
+      "question": "Which use is NOT normally listed for satellite communication in the notes?",
+      "options": [
+        "TV broadcasting",
+        "Weather forecasting",
+        "GPS navigation",
+        "Connecting RJ-45 to CAT6 cable only"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Connecting RJ-45 to CAT6 cable only",
+      "correctAnswer": "Connecting RJ-45 to CAT6 cable only",
+      "explanation": "RJ-45/CAT6 connection is a wired networking issue, not a satellite communication use.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 3,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q035",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q036",
+      "question": "Which statement best differentiates guided and unguided media?",
+      "options": [
+        "Guided uses air; unguided uses wires",
+        "Guided uses physical cables; unguided uses wireless waves",
+        "Both require the same cable",
+        "Unguided is always unaffected by weather"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Guided uses physical cables; unguided uses wireless waves",
+      "correctAnswer": "Guided uses physical cables; unguided uses wireless waves",
+      "explanation": "Guided media has a fixed physical path.\nUnguided media transmits through air or space.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q036",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q037",
+      "question": "Which guided medium is usually best for very long distance and high bandwidth?",
+      "options": [
+        "Fiber optic cable",
+        "CAT5 only",
+        "Short Bluetooth link",
+        "Infrared remote"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Fiber optic cable",
+      "correctAnswer": "Fiber optic cable",
+      "explanation": "Fiber optic supports long distances and very high bandwidth.\nISPs widely use it for fast Internet.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q037",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q038",
+      "question": "Which unguided medium can be affected by weather more than guided cables?",
+      "options": [
+        "Fiber optic inside a building",
+        "Wireless/satellite signals",
+        "CAT6 inside walls",
+        "Coaxial cable inside a LAN"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Wireless/satellite signals",
+      "correctAnswer": "Wireless/satellite signals",
+      "explanation": "Wireless signals travel through air or space.\nWeather conditions can affect some unguided transmissions.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q038",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q039",
+      "question": "A school wants stable wired connections between computer lab PCs and a switch. Which medium is most suitable?",
+      "options": [
+        "Bluetooth",
+        "CAT6 Ethernet cable",
+        "Satellite link",
+        "FM radio"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "CAT6 Ethernet cable",
+      "correctAnswer": "CAT6 Ethernet cable",
+      "explanation": "CAT6 Ethernet cable is appropriate for wired LAN connections to switches/routers.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q039",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q040",
+      "question": "Which media type provides a fixed path for data transmission?",
+      "options": [
+        "Guided media",
+        "Unguided media",
+        "Bluetooth only",
+        "Satellite only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Guided media",
+      "correctAnswer": "Guided media",
+      "explanation": "Guided media uses physical cables and provides a fixed route/path for signals.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "communication-media"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q040",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q041",
+      "question": "A connector in networking is used mainly to:",
+      "options": [
+        "Create operating systems",
+        "Connect cables/media to network devices",
+        "Assign IP addresses automatically",
+        "Encrypt websites"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Connect cables/media to network devices",
+      "correctAnswer": "Connect cables/media to network devices",
+      "explanation": "Connectors are small hardware parts used to connect communication media to devices like computers, switches, and routers.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q041",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q042",
+      "question": "RJ-45 is best described as:",
+      "options": [
+        "A 128-bit IP address type",
+        "An 8-pin Ethernet connector used in LANs",
+        "A satellite frequency band",
+        "A charting software"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "An 8-pin Ethernet connector used in LANs",
+      "correctAnswer": "An 8-pin Ethernet connector used in LANs",
+      "explanation": "RJ-45 is an 8-pin connector used with Ethernet cables such as CAT5 and CAT6.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q042",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q043",
+      "question": "A media converter is needed when:",
+      "options": [
+        "A network must convert signals between copper cable and fiber optic cable",
+        "A user wants to type faster",
+        "A printer needs more paper",
+        "A website needs a password"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A network must convert signals between copper cable and fiber optic cable",
+      "correctAnswer": "A network must convert signals between copper cable and fiber optic cable",
+      "explanation": "A media converter changes data signals from one transmission medium to another, such as copper to fiber.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q043",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q044",
+      "question": "Which advantage correctly explains the need for a media converter?",
+      "options": [
+        "It reduces all network security needs",
+        "It extends network distance by using fiber optic support",
+        "It replaces all protocols",
+        "It changes IPv4 into IPv6 automatically"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It extends network distance by using fiber optic support",
+      "correctAnswer": "It extends network distance by using fiber optic support",
+      "explanation": "Fiber optic supports longer distances than copper.\nA media converter helps extend the network.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q044",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q045",
+      "question": "A networking device is hardware used to:",
+      "options": [
+        "Connect devices so they can communicate and share data",
+        "Write Python code",
+        "Create a spreadsheet only",
+        "Measure temperature"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Connect devices so they can communicate and share data",
+      "correctAnswer": "Connect devices so they can communicate and share data",
+      "explanation": "Networking devices connect computers and other devices in a network for communication and resource sharing.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q045",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q046",
+      "question": "Which device broadcasts received data to all ports and is now mostly replaced by switches?",
+      "options": [
+        "Hub",
+        "Router",
+        "Modem",
+        "Media converter"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Hub",
+      "correctAnswer": "Hub",
+      "explanation": "A hub broadcasts data to the entire network.\nSwitches are more efficient and have replaced hubs in many networks.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q046",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q047",
+      "question": "Why is a switch generally better than a hub?",
+      "options": [
+        "It sends data to the correct device instead of broadcasting to all devices",
+        "It never uses electricity",
+        "It replaces all cables",
+        "It is only used in satellite networks"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It sends data to the correct device instead of broadcasting to all devices",
+      "correctAnswer": "It sends data to the correct device instead of broadcasting to all devices",
+      "explanation": "A switch forwards data more intelligently to the intended device.\nThis improves performance and reduces unnecessary traffic.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q047",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q048",
+      "question": "Which device interconnects two similar networks and decides whether to forward or discard signals?",
+      "options": [
+        "Bridge",
+        "Repeater",
+        "Modem",
+        "RFID tag"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Bridge",
+      "correctAnswer": "Bridge",
+      "explanation": "A bridge connects similar networks and inspects incoming frames/signals to decide forwarding.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q048",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q049",
+      "question": "Which device determines the best path for data transmission using IP address?",
+      "options": [
+        "Router",
+        "Hub",
+        "Repeater",
+        "RJ-45"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Router",
+      "correctAnswer": "Router",
+      "explanation": "A router joins multiple networks and uses IP addressing to choose paths for data transmission.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q049",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q050",
+      "question": "A repeater is mainly used to:",
+      "options": [
+        "Assign IP address",
+        "Receive, amplify, and retransmit signals",
+        "Store user accounts",
+        "Convert CSV into DataFrame"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Receive, amplify, and retransmit signals",
+      "correctAnswer": "Receive, amplify, and retransmit signals",
+      "explanation": "A repeater extends transmission distance by regenerating or amplifying weak signals.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q050",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q051",
+      "question": "MODEM stands for:",
+      "options": [
+        "Module-Demonstrator",
+        "Modulator-Demodulator",
+        "Memory-Demodulator",
+        "Mobile-Demonstrator"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Modulator-Demodulator",
+      "correctAnswer": "Modulator-Demodulator",
+      "explanation": "A modem converts digital signals to analog and analog signals to digital.\nIts full form is Modulator-Demodulator.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q051",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q052",
+      "question": "Which device converts digital signal into analog and analog signal back into digital?",
+      "options": [
+        "Modem",
+        "Switch",
+        "Bridge",
+        "RJ-45 connector"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Modem",
+      "correctAnswer": "Modem",
+      "explanation": "A modem performs modulation and demodulation.\nIt helps devices communicate over certain communication lines.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q052",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q053",
+      "question": "Which device is most suitable for connecting a LAN to the Internet?",
+      "options": [
+        "Router",
+        "Hub only",
+        "Keyboard",
+        "Monitor"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Router",
+      "correctAnswer": "Router",
+      "explanation": "A router connects different networks and commonly connects a LAN to Internet/WAN.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q053",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q054",
+      "question": "Which device is simplest and low-cost but inefficient because it broadcasts?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Router",
+        "Firewall"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Hub",
+      "correctAnswer": "Hub",
+      "explanation": "A hub is simple and cheaper but sends data to all connected devices, increasing traffic.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q054",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q055",
+      "question": "Which device uses multiple ports and joins computers in a star topology more efficiently than a hub?",
+      "options": [
+        "Switch",
+        "Repeater",
+        "Modem",
+        "Satellite"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Switch",
+      "correctAnswer": "Switch",
+      "explanation": "A switch connects multiple devices in a LAN, often forming a star topology around it.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q055",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q056",
+      "question": "A company has two LAN segments using similar protocols and wants to interconnect them. Which device fits best?",
+      "options": [
+        "Bridge",
+        "Mouse",
+        "Printer cartridge",
+        "Seaborn"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Bridge",
+      "correctAnswer": "Bridge",
+      "explanation": "A bridge is designed to connect similar network segments and filter/forward traffic.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q056",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q057",
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "Router - chooses best path using IP",
+        "Hub - sends data only to one selected port always",
+        "Repeater - assigns IP addresses",
+        "RJ-45 - wireless satellite antenna"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Router - chooses best path using IP",
+      "correctAnswer": "Router - chooses best path using IP",
+      "explanation": "Routers use IP addresses and route data through appropriate paths between networks.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q057",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q058",
+      "question": "What is a key performance benefit of using fiber with media converters?",
+      "options": [
+        "Lower distance and more interference",
+        "Higher speed and less interference",
+        "No need for communication rules",
+        "Automatic deletion of packets"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Higher speed and less interference",
+      "correctAnswer": "Higher speed and less interference",
+      "explanation": "Fiber provides higher speed and less interference.\nConverters help copper networks connect to fiber links.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q058",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q059",
+      "question": "A device receives a weak signal and sends it again stronger. Which device is described?",
+      "options": [
+        "Repeater",
+        "Switch",
+        "RJ-45",
+        "Bluetooth speaker"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Repeater",
+      "correctAnswer": "Repeater",
+      "explanation": "Repeaters regenerate or amplify signals to extend communication range.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q059",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q060",
+      "question": "Which device is most intelligent among hub, switch, and router in choosing paths between networks?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Router",
+        "RJ-45"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Router",
+      "correctAnswer": "Router",
+      "explanation": "Routers work across networks using IP addresses.\nThey can determine suitable routes for packets.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "connectors-and-networking-devices"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 2,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q060",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q061",
+      "question": "Network topology means:",
+      "options": [
+        "The speed of mobile Internet only",
+        "Physical or logical arrangement of devices and links in a network",
+        "A type of file extension",
+        "A programming language"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Physical or logical arrangement of devices and links in a network",
+      "correctAnswer": "Physical or logical arrangement of devices and links in a network",
+      "explanation": "Network topology describes how nodes, cables, and links are arranged.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 1,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q061",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q062",
+      "question": "Which list contains topology types from the notes?",
+      "options": [
+        "Bus, Star, Ring, Hybrid",
+        "IPv4, IPv6, TCP, UDP",
+        "DSL, Cable, Fiber, Satellite",
+        "Hub, Switch, Router, Modem"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Bus, Star, Ring, Hybrid",
+      "correctAnswer": "Bus, Star, Ring, Hybrid",
+      "explanation": "The notes include bus, star, ring, and hybrid topology.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q062",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q063",
+      "question": "In bus topology, all nodes are connected to:",
+      "options": [
+        "A single backbone cable",
+        "A central server only",
+        "A circular loop only",
+        "A satellite only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A single backbone cable",
+      "correctAnswer": "A single backbone cable",
+      "explanation": "Bus topology uses one main cable/backbone to which all nodes connect.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q063",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q064",
+      "question": "Which component is necessary at both ends of a bus topology cable?",
+      "options": [
+        "Terminator",
+        "Router",
+        "Extranet",
+        "RFID reader"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Terminator",
+      "correctAnswer": "Terminator",
+      "explanation": "Terminators are needed at both ends of the bus cable to prevent signal reflection.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q064",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q065",
+      "question": "Which is a major disadvantage of bus topology?",
+      "options": [
+        "A single backbone cable failure can stop the whole network",
+        "It always needs no cable",
+        "It is impossible to expand",
+        "It cannot connect small networks"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A single backbone cable failure can stop the whole network",
+      "correctAnswer": "A single backbone cable failure can stop the whole network",
+      "explanation": "In bus topology, the main cable is a critical point.\nIf it fails, the entire network may stop.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q065",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q066",
+      "question": "Why does bus topology become slower as more devices are added?",
+      "options": [
+        "More devices increase traffic on the shared main cable",
+        "The cable becomes wireless",
+        "Terminator changes into a router",
+        "IP address becomes 128-bit"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "More devices increase traffic on the shared main cable",
+      "correctAnswer": "More devices increase traffic on the shared main cable",
+      "explanation": "All devices share the same backbone.\nMore devices create more traffic and reduce performance.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q066",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q067",
+      "question": "Star topology connects all nodes to:",
+      "options": [
+        "A central hub or switch",
+        "A single open-ended cable only",
+        "A circular token only",
+        "A satellite dish"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A central hub or switch",
+      "correctAnswer": "A central hub or switch",
+      "explanation": "In star topology, each node connects separately to a central hub or switch.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q067",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q068",
+      "question": "Which is the most serious weakness of star topology?",
+      "options": [
+        "Failure of central hub/switch can stop the whole network",
+        "One computer failure always stops all others",
+        "It cannot be modified",
+        "It uses no central device"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Failure of central hub/switch can stop the whole network",
+      "correctAnswer": "Failure of central hub/switch can stop the whole network",
+      "explanation": "The central device is the main dependency.\nIf it fails, the star network may stop working.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q068",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q069",
+      "question": "Which advantage belongs to star topology?",
+      "options": [
+        "Easy troubleshooting and one node failure does not affect others",
+        "No cable is needed",
+        "Main cable failure is always hidden",
+        "Data must pass every node"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Easy troubleshooting and one node failure does not affect others",
+      "correctAnswer": "Easy troubleshooting and one node failure does not affect others",
+      "explanation": "Star topology is easy to set up and troubleshoot.\nFailure of one computer does not normally affect the rest.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q069",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q070",
+      "question": "Ring topology connects devices:",
+      "options": [
+        "In a circular loop where each device connects to two other devices",
+        "Only to one central switch",
+        "To a single bus cable with terminators",
+        "Directly to the Internet only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "In a circular loop where each device connects to two other devices",
+      "correctAnswer": "In a circular loop where each device connects to two other devices",
+      "explanation": "Ring topology forms a closed loop.\nEach node links with two neighboring nodes.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q070",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q071",
+      "question": "In ring topology, data generally travels:",
+      "options": [
+        "From one node to another in sequence",
+        "Only from server to TV",
+        "Through no path",
+        "Only through a hub"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "From one node to another in sequence",
+      "correctAnswer": "From one node to another in sequence",
+      "explanation": "Data passes from one node to the next in order around the loop.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q071",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q072",
+      "question": "Which is a feature of ring topology from the notes?",
+      "options": [
+        "Each node can act as a repeater to forward data",
+        "It has no closed loop",
+        "It uses one central hub only",
+        "It cannot transfer information"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Each node can act as a repeater to forward data",
+      "correctAnswer": "Each node can act as a repeater to forward data",
+      "explanation": "Each node in a ring can forward data to the next node, acting like a repeater.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q072",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q073",
+      "question": "Which is a disadvantage of ring topology?",
+      "options": [
+        "Adding/removing a device can disturb the network",
+        "It never has cables",
+        "It needs no nodes",
+        "It is always faster than all topologies"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Adding/removing a device can disturb the network",
+      "correctAnswer": "Adding/removing a device can disturb the network",
+      "explanation": "Changing a ring can disturb the loop.\nA failure may affect the whole network.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q073",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q074",
+      "question": "Hybrid topology is:",
+      "options": [
+        "Combination of two or more different topologies",
+        "Only a single straight cable",
+        "Only wireless communication",
+        "A type of IP address"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Combination of two or more different topologies",
+      "correctAnswer": "Combination of two or more different topologies",
+      "explanation": "Hybrid topology combines topologies such as star, bus, and ring into one network.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q074",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q075",
+      "question": "Which organization is most likely to use hybrid topology?",
+      "options": [
+        "Large institution/company with different network sections",
+        "One pair of Bluetooth headphones",
+        "A single computer without network",
+        "A calculator"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Large institution/company with different network sections",
+      "correctAnswer": "Large institution/company with different network sections",
+      "explanation": "Hybrid topology is useful for large organizations because different sections may require different designs.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q075",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q076",
+      "question": "Which is an advantage of hybrid topology?",
+      "options": [
+        "It can be customized and expanded according to organization needs",
+        "It is always cheapest",
+        "It needs no skilled staff",
+        "It uses no hardware"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It can be customized and expanded according to organization needs",
+      "correctAnswer": "It can be customized and expanded according to organization needs",
+      "explanation": "Hybrid topology is flexible and scalable.\nIt can combine best features of different designs.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q076",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q077",
+      "question": "Which is a disadvantage of hybrid topology?",
+      "options": [
+        "Complex design and higher cost",
+        "Only one device can connect",
+        "It never uses cables",
+        "It cannot combine topologies"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Complex design and higher cost",
+      "correctAnswer": "Complex design and higher cost",
+      "explanation": "Hybrid networks need more planning, devices, cables, and skilled maintenance.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q077",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q078",
+      "question": "A network is cheap and easy for a small setup but difficult to troubleshoot and dependent on one backbone. Which topology is it?",
+      "options": [
+        "Bus",
+        "Star",
+        "Hybrid",
+        "Mesh"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Bus",
+      "correctAnswer": "Bus",
+      "explanation": "Bus topology is cheap and simple but has backbone dependency and fault detection problems.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q078",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q079",
+      "question": "A network has a switch at the center and each computer has a separate cable. Which topology?",
+      "options": [
+        "Star",
+        "Ring",
+        "Bus",
+        "Satellite"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Star",
+      "correctAnswer": "Star",
+      "explanation": "Star topology uses a central device with separate links to each node.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q079",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q080",
+      "question": "Which topology has the best description: 'ring section plus star section connected together'?",
+      "options": [
+        "Hybrid topology",
+        "Simplex mode",
+        "IPv4",
+        "PAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Hybrid topology",
+      "correctAnswer": "Hybrid topology",
+      "explanation": "Combining ring and star sections creates a hybrid topology.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-topology"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q080",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q081",
+      "question": "A computer network is:",
+      "options": [
+        "A group of connected computers/devices that exchange data and share resources",
+        "A single computer's keyboard layout",
+        "A file saved on disk",
+        "A type of chart"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A group of connected computers/devices that exchange data and share resources",
+      "correctAnswer": "A group of connected computers/devices that exchange data and share resources",
+      "explanation": "A computer network connects two or more devices through wired or wireless media for data sharing and resource sharing.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q081",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q082",
+      "question": "Which resource can be shared in a computer network?",
+      "options": [
+        "Files, Internet, storage, hardware and software",
+        "Only wall clock time",
+        "Only chairs and tables",
+        "Only sunlight"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Files, Internet, storage, hardware and software",
+      "correctAnswer": "Files, Internet, storage, hardware and software",
+      "explanation": "Networks allow sharing of data and resources such as files, printers, Internet, storage, and software.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q082",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q083",
+      "question": "PAN usually covers:",
+      "options": [
+        "Very small range around a person",
+        "An entire country",
+        "A whole continent",
+        "Only satellites in space"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Very small range around a person",
+      "correctAnswer": "Very small range around a person",
+      "explanation": "Personal Area Network connects personal devices within a very small range, often around 10 meters.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q083",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q084",
+      "question": "Which is the best example of PAN?",
+      "options": [
+        "Smartphone connected to Bluetooth earbuds",
+        "Two cities connected by fiber",
+        "World Wide Internet",
+        "A country-wide banking system"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Smartphone connected to Bluetooth earbuds",
+      "correctAnswer": "Smartphone connected to Bluetooth earbuds",
+      "explanation": "PAN connects nearby personal devices such as phones, smartwatches, laptops, keyboards, and earbuds.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q084",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q085",
+      "question": "LAN is best described as a network covering:",
+      "options": [
+        "A room, building, school, or office",
+        "Multiple continents",
+        "Only satellites",
+        "No physical area"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A room, building, school, or office",
+      "correctAnswer": "A room, building, school, or office",
+      "explanation": "Local Area Network connects devices in a small geographical area such as a school or office.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q085",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q086",
+      "question": "Which feature best belongs to LAN?",
+      "options": [
+        "High-speed data transfer in a small area",
+        "Lowest speed due to global distance",
+        "Only uses satellite",
+        "Cannot share resources"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "High-speed data transfer in a small area",
+      "correctAnswer": "High-speed data transfer in a small area",
+      "explanation": "LANs usually provide high speed over small areas and are easy to install/maintain.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q086",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q087",
+      "question": "MAN covers an area such as:",
+      "options": [
+        "A city, valley, or metropolitan area",
+        "Only one person",
+        "Only one desk",
+        "The whole world"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A city, valley, or metropolitan area",
+      "correctAnswer": "A city, valley, or metropolitan area",
+      "explanation": "Metropolitan Area Network covers a larger area than LAN but smaller than WAN.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q087",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q088",
+      "question": "Which statement about MAN is most accurate?",
+      "options": [
+        "It connects multiple LANs and can cover a city",
+        "It is smaller than PAN",
+        "It never needs wire or wireless media",
+        "It cannot be owned by organizations"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It connects multiple LANs and can cover a city",
+      "correctAnswer": "It connects multiple LANs and can cover a city",
+      "explanation": "MAN connects multiple LANs across a city or campus-like area.\nIt may be owned by one or more organizations.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q088",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q089",
+      "question": "WAN is mainly used to connect:",
+      "options": [
+        "Large geographical areas such as countries or continents",
+        "Only Bluetooth devices within 10 meters",
+        "Only a single classroom",
+        "Only one computer"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Large geographical areas such as countries or continents",
+      "correctAnswer": "Large geographical areas such as countries or continents",
+      "explanation": "Wide Area Network covers very large geographical areas and can connect LANs and MANs.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q089",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q090",
+      "question": "Which is the best example of WAN from the notes?",
+      "options": [
+        "Internet",
+        "A classroom LAN only",
+        "Bluetooth PAN",
+        "Single keyboard connection"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Internet",
+      "correctAnswer": "Internet",
+      "explanation": "The Internet is the best-known WAN because it connects networks across the world.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q090",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q091",
+      "question": "Which network type generally has the largest coverage?",
+      "options": [
+        "WAN",
+        "MAN",
+        "LAN",
+        "PAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "WAN",
+      "correctAnswer": "WAN",
+      "explanation": "WAN has the widest geographical coverage among PAN, LAN, MAN, and WAN.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q091",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q092",
+      "question": "Which order is correct from smallest to largest coverage?",
+      "options": [
+        "PAN, LAN, MAN, WAN",
+        "WAN, MAN, LAN, PAN",
+        "LAN, PAN, WAN, MAN",
+        "MAN, PAN, LAN, WAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "PAN, LAN, MAN, WAN",
+      "correctAnswer": "PAN, LAN, MAN, WAN",
+      "explanation": "PAN is personal range, LAN is local, MAN is city/metropolitan, and WAN is country/worldwide.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q092",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q093",
+      "question": "Why is WAN more complex to manage and secure than LAN?",
+      "options": [
+        "It covers large areas and may use many service providers and public networks",
+        "It connects only one mouse",
+        "It has no devices",
+        "It always uses a single cable in one room"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It covers large areas and may use many service providers and public networks",
+      "correctAnswer": "It covers large areas and may use many service providers and public networks",
+      "explanation": "WAN connects distant networks and often uses public communication systems, making management and security harder.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q093",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q094",
+      "question": "A school computer lab with computers connected through a switch is most likely a:",
+      "options": [
+        "LAN",
+        "MAN",
+        "WAN",
+        "Extranet"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "LAN",
+      "correctAnswer": "LAN",
+      "explanation": "A school lab network is within a small local area, so it is a LAN.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q094",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q095",
+      "question": "A smartwatch, mobile phone, and Bluetooth earbuds connected around one person form a:",
+      "options": [
+        "PAN",
+        "WAN",
+        "MAN",
+        "Hybrid topology"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "PAN",
+      "correctAnswer": "PAN",
+      "explanation": "These devices are personal and close range, so they form a PAN.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "computer-networks"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q095",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q096",
+      "question": "Network architecture refers to:",
+      "options": [
+        "Design and structure defining how network devices communicate and interact",
+        "Only the color of network cables",
+        "Only the price of Internet",
+        "Only a Python function"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Design and structure defining how network devices communicate and interact",
+      "correctAnswer": "Design and structure defining how network devices communicate and interact",
+      "explanation": "Network architecture defines the arrangement, roles, and interaction of devices in a network.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q096",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q097",
+      "question": "Client-server architecture has:",
+      "options": [
+        "Clients requesting services from one or more servers",
+        "All computers completely equal with no server",
+        "No resource sharing",
+        "Only one-way TV broadcasting"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Clients requesting services from one or more servers",
+      "correctAnswer": "Clients requesting services from one or more servers",
+      "explanation": "In client-server architecture, clients request services/resources and servers provide them.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q097",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q098",
+      "question": "Which is a feature of client-server architecture?",
+      "options": [
+        "Better centralized security and organized backup",
+        "No central server",
+        "All devices are always equal",
+        "Only small home network use"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Better centralized security and organized backup",
+      "correctAnswer": "Better centralized security and organized backup",
+      "explanation": "Client-server networks store/control data centrally, supporting better security and backup.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q098",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q099",
+      "question": "Which is a disadvantage of client-server architecture?",
+      "options": [
+        "If the main server fails, clients may lose access to services",
+        "No server is needed",
+        "It is always free and maintenance-free",
+        "It cannot support multiple clients"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "If the main server fails, clients may lose access to services",
+      "correctAnswer": "If the main server fails, clients may lose access to services",
+      "explanation": "Clients depend on the server.\nServer failure can stop access to files, login, printing, or applications.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q099",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q100",
+      "question": "Why can client-server architecture be expensive?",
+      "options": [
+        "It may require a powerful server, devices, licensed software, and trained staff",
+        "It uses no hardware",
+        "It works only without electricity",
+        "It always avoids maintenance"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It may require a powerful server, devices, licensed software, and trained staff",
+      "correctAnswer": "It may require a powerful server, devices, licensed software, and trained staff",
+      "explanation": "A server-based network needs more powerful hardware/software and skilled administration.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q100",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q101",
+      "question": "Peer-to-peer architecture means:",
+      "options": [
+        "All computers are equal and can act as both client and server",
+        "Only one server controls all clients",
+        "Only satellite broadcasts are allowed",
+        "Only routers can share files"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "All computers are equal and can act as both client and server",
+      "correctAnswer": "All computers are equal and can act as both client and server",
+      "explanation": "In P2P, each node can share resources directly and act as both client and server.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q101",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q102",
+      "question": "Which feature belongs to peer-to-peer architecture?",
+      "options": [
+        "No central server is required",
+        "Data is stored only in one central server",
+        "It needs a powerful dedicated server",
+        "It is always best for large organizations"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "No central server is required",
+      "correctAnswer": "No central server is required",
+      "explanation": "P2P networks do not require a central server and are low cost for small networks.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q102",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q103",
+      "question": "Which is a major disadvantage of P2P architecture?",
+      "options": [
+        "Security and backup are difficult because there is no central control",
+        "It always has perfect security",
+        "It requires only professional server admins",
+        "One server controls everything"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Security and backup are difficult because there is no central control",
+      "correctAnswer": "Security and backup are difficult because there is no central control",
+      "explanation": "In P2P, each computer is managed separately, so security, backup, and control are weaker.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q103",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q104",
+      "question": "Which network model is more suitable for a small low-cost network?",
+      "options": [
+        "Peer-to-peer",
+        "Large client-server only",
+        "WAN only",
+        "Satellite-only topology"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Peer-to-peer",
+      "correctAnswer": "Peer-to-peer",
+      "explanation": "P2P is easy and low-cost for small networks.\nIt becomes difficult in larger organizations.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q104",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q105",
+      "question": "Which network model is more suitable when centralized login, backup, and security are needed?",
+      "options": [
+        "Client-server",
+        "Simplex broadcast",
+        "P2P only",
+        "Bluetooth PAN only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Client-server",
+      "correctAnswer": "Client-server",
+      "explanation": "Client-server architecture supports centralized control, user management, security, and backups.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q105",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q106",
+      "question": "A network protocol is:",
+      "options": [
+        "A set of rules followed for communication between computers",
+        "A cable termination device",
+        "A keyboard shortcut",
+        "A chart type"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A set of rules followed for communication between computers",
+      "correctAnswer": "A set of rules followed for communication between computers",
+      "explanation": "Protocols define rules for sending and receiving data in a network.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q106",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q107",
+      "question": "Which protocol suite is used on the Internet?",
+      "options": [
+        "TCP/IP",
+        "RJ-45",
+        "CAT6",
+        "PNG"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "TCP/IP",
+      "correctAnswer": "TCP/IP",
+      "explanation": "TCP/IP is the main protocol suite used for communication on the Internet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q107",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q108",
+      "question": "HTTP is mainly used to:",
+      "options": [
+        "Transfer HTML documents in the World Wide Web",
+        "Send only e-mail",
+        "Assign IP addresses",
+        "Connect Ethernet cables"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Transfer HTML documents in the World Wide Web",
+      "correctAnswer": "Transfer HTML documents in the World Wide Web",
+      "explanation": "HTTP transfers web pages/documents over the web.\nHTTPS is the secure form.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q108",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q109",
+      "question": "HTTPS is different from HTTP because HTTPS:",
+      "options": [
+        "Provides secure communication for websites",
+        "Is used only for local printing",
+        "Works without protocols",
+        "Means Hyper Text Transfer Printer Service"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Provides secure communication for websites",
+      "correctAnswer": "Provides secure communication for websites",
+      "explanation": "HTTPS secures data communication between browser and website, helping protect users from interception.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q109",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q110",
+      "question": "DHCP is used to:",
+      "options": [
+        "Automatically provide IP addresses to devices on a network",
+        "Transfer only e-mail",
+        "Draw topology diagrams",
+        "Convert analog TV signals"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Automatically provide IP addresses to devices on a network",
+      "correctAnswer": "Automatically provide IP addresses to devices on a network",
+      "explanation": "Dynamic Host Configuration Protocol automatically assigns IP configuration to devices.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q110",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q111",
+      "question": "SMTP is mainly used for:",
+      "options": [
+        "Sending e-mail",
+        "Reading CSV files",
+        "Converting copper to fiber",
+        "Generating random numbers"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Sending e-mail",
+      "correctAnswer": "Sending e-mail",
+      "explanation": "Simple Mail Transfer Protocol is used for sending e-mail.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q111",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q112",
+      "question": "FTP is used to:",
+      "options": [
+        "Transmit files between computers",
+        "Broadcast FM radio",
+        "Create ring topology",
+        "Measure bandwidth only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Transmit files between computers",
+      "correctAnswer": "Transmit files between computers",
+      "explanation": "File Transfer Protocol is used to transfer files across a network.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q112",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q113",
+      "question": "NCP is mentioned in the notes as:",
+      "options": [
+        "The first protocol",
+        "A fiber connector",
+        "A topology",
+        "A broadband type"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "The first protocol",
+      "correctAnswer": "The first protocol",
+      "explanation": "The notes state that Network Control Protocol was the first protocol.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q113",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q114",
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "DHCP - automatic IP address assignment",
+        "SMTP - Web page security",
+        "FTP - mobile generation",
+        "HTTPS - CAT6 connector"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DHCP - automatic IP address assignment",
+      "correctAnswer": "DHCP - automatic IP address assignment",
+      "explanation": "DHCP assigns IP addresses automatically.\nSMTP sends e-mail, FTP transfers files, and HTTPS secures web communication.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q114",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q115",
+      "question": "A file must be uploaded from one computer to another server. Which protocol is most directly related?",
+      "options": [
+        "FTP",
+        "HTTP only",
+        "DHCP",
+        "NCP as connector"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "FTP",
+      "correctAnswer": "FTP",
+      "explanation": "FTP is specifically used to transmit files between computers.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "network-architecture-and-protocols"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q115",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q116",
+      "question": "IP addressing is the method of:",
+      "options": [
+        "Assigning a unique numerical address to each device in a network",
+        "Choosing cable color",
+        "Drawing charts",
+        "Increasing monitor brightness"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Assigning a unique numerical address to each device in a network",
+      "correctAnswer": "Assigning a unique numerical address to each device in a network",
+      "explanation": "IP addressing identifies devices so they can communicate in a network.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q116",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q117",
+      "question": "Why does each network device need an IP address?",
+      "options": [
+        "To be identified and communicate with other devices",
+        "To make its keyboard larger",
+        "To turn off protocols",
+        "To avoid all cables"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "To be identified and communicate with other devices",
+      "correctAnswer": "To be identified and communicate with other devices",
+      "explanation": "An IP address works like a device identity/location on a network, allowing data delivery.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q117",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q118",
+      "question": "IPv4 uses:",
+      "options": [
+        "32-bit addresses",
+        "128-bit addresses",
+        "Only hexadecimal groups",
+        "No numerical address"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "32-bit addresses",
+      "correctAnswer": "32-bit addresses",
+      "explanation": "IPv4 uses 32-bit addresses, commonly written in dotted decimal format.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q118",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q119",
+      "question": "IPv6 uses:",
+      "options": [
+        "128-bit addresses",
+        "32-bit addresses",
+        "Only four decimal numbers",
+        "No address space"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "128-bit addresses",
+      "correctAnswer": "128-bit addresses",
+      "explanation": "IPv6 uses 128-bit addresses, giving a much larger address space than IPv4.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q119",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q120",
+      "question": "Which is an example of IPv4 notation?",
+      "options": [
+        "192.168.1.1",
+        "2001:0db8:85a3::7334",
+        "www.example.com only",
+        "Name,Class,Marks"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "192.168.1.1",
+      "correctAnswer": "192.168.1.1",
+      "explanation": "IPv4 uses dotted-decimal notation with four numbers separated by periods.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q120",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q121",
+      "question": "Which is an example of IPv6 notation style?",
+      "options": [
+        "Eight groups of hexadecimal digits separated by colons",
+        "Four decimal numbers separated by periods only",
+        "Plain English words only",
+        "RJ-45 pins only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Eight groups of hexadecimal digits separated by colons",
+      "correctAnswer": "Eight groups of hexadecimal digits separated by colons",
+      "explanation": "IPv6 uses hexadecimal notation with groups separated by colons.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q121",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q122",
+      "question": "IPv6 was developed mainly because:",
+      "options": [
+        "IPv4 address space was becoming exhausted",
+        "RJ-45 connectors were too small",
+        "LAN was too fast",
+        "Bluetooth needed cables"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "IPv4 address space was becoming exhausted",
+      "correctAnswer": "IPv4 address space was becoming exhausted",
+      "explanation": "IPv6 solves IPv4 address exhaustion by using a much larger 128-bit address space.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q122",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q123",
+      "question": "Which comparison is correct?",
+      "options": [
+        "IPv4 = 32-bit, IPv6 = 128-bit",
+        "IPv4 = 128-bit, IPv6 = 32-bit",
+        "Both are 8-bit only",
+        "IPv6 has no address length"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "IPv4 = 32-bit, IPv6 = 128-bit",
+      "correctAnswer": "IPv4 = 32-bit, IPv6 = 128-bit",
+      "explanation": "The notes clearly compare IPv4 as 32-bit and IPv6 as 128-bit.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q123",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q124",
+      "question": "Which address type can generate a vastly larger number of addresses?",
+      "options": [
+        "IPv6",
+        "IPv4",
+        "RJ-45",
+        "PAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "IPv6",
+      "correctAnswer": "IPv6",
+      "explanation": "IPv6 has a much larger address space than IPv4 due to its 128-bit length.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q124",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q125",
+      "question": "Which is true about IPv4 representation in the notes?",
+      "options": [
+        "It is in decimal dotted format",
+        "It is only in binary without dots",
+        "It uses eight hexadecimal groups",
+        "It is printed as a topology"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It is in decimal dotted format",
+      "correctAnswer": "It is in decimal dotted format",
+      "explanation": "IPv4 addresses are expressed in dotted-decimal notation, such as 192.168.1.1.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q125",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q126",
+      "question": "Which is true about IPv6 representation in the notes?",
+      "options": [
+        "It is hexadecimal",
+        "It is always a single decimal number",
+        "It is written as CAT6",
+        "It is a frequency unit"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It is hexadecimal",
+      "correctAnswer": "It is hexadecimal",
+      "explanation": "IPv6 is expressed in hexadecimal notation with colon-separated groups.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q126",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q127",
+      "question": "Which IP version supports fixed 40-byte header according to the comparison table?",
+      "options": [
+        "IPv6",
+        "IPv4",
+        "Both always",
+        "Neither"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "IPv6",
+      "correctAnswer": "IPv6",
+      "explanation": "The notes' comparison table says IPv6 has a fixed 40-byte header.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q127",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q128",
+      "question": "Which IP version has a 20-60 byte header according to the comparison table?",
+      "options": [
+        "IPv4",
+        "IPv6",
+        "RJ-45",
+        "DHCP"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "IPv4",
+      "correctAnswer": "IPv4",
+      "explanation": "The IPv4 header is shown as 20-60 bytes in the comparison table.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q128",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q129",
+      "question": "Which is a stronger reason to migrate from IPv4 to IPv6?",
+      "options": [
+        "More available addresses for the growing number of Internet devices",
+        "It removes the need for networks",
+        "It changes all cables into wireless",
+        "It prevents users from typing"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "More available addresses for the growing number of Internet devices",
+      "correctAnswer": "More available addresses for the growing number of Internet devices",
+      "explanation": "The growth of devices requires more unique addresses, which IPv6 can provide.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q129",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q130",
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "IPv4 - dotted decimal, IPv6 - hexadecimal with colons",
+        "IPv4 - hexadecimal colons, IPv6 - dotted decimal",
+        "IPv4 - no address, IPv6 - no address",
+        "IPv4 - cable connector, IPv6 - topology"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "IPv4 - dotted decimal, IPv6 - hexadecimal with colons",
+      "correctAnswer": "IPv4 - dotted decimal, IPv6 - hexadecimal with colons",
+      "explanation": "IPv4 and IPv6 use different address formats: dotted decimal versus hexadecimal colon notation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "ip-addressing"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q130",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q131",
+      "question": "The Internet is best defined as:",
+      "options": [
+        "A global public network of networks connecting millions of computers",
+        "A private network only for one school",
+        "A cable connector",
+        "A topology with one bus"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A global public network of networks connecting millions of computers",
+      "correctAnswer": "A global public network of networks connecting millions of computers",
+      "explanation": "The Internet is a worldwide public network accessible to users with an Internet connection.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q131",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q132",
+      "question": "Which service is commonly provided through the Internet?",
+      "options": [
+        "Websites and email",
+        "Only internal staff portal",
+        "Only copper-to-fiber conversion",
+        "Only network termination"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Websites and email",
+      "correctAnswer": "Websites and email",
+      "explanation": "The Internet provides services such as websites, e-mail, streaming, and communication.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q132",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q133",
+      "question": "An intranet is:",
+      "options": [
+        "A private network used inside an organization",
+        "A public worldwide network",
+        "A wireless frequency band",
+        "A modem type"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A private network used inside an organization",
+      "correctAnswer": "A private network used inside an organization",
+      "explanation": "An intranet is restricted to authorized users inside an organization such as staff or students.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q133",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q134",
+      "question": "Which is a good example of an intranet?",
+      "options": [
+        "A school portal only accessible to teachers/staff",
+        "Google search open to all",
+        "YouTube public page",
+        "FM radio broadcast"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A school portal only accessible to teachers/staff",
+      "correctAnswer": "A school portal only accessible to teachers/staff",
+      "explanation": "An intranet is internal and private, such as a company or school portal.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q134",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q135",
+      "question": "An extranet is:",
+      "options": [
+        "An extension of an intranet that allows limited access to authorized external users",
+        "The same as a fully public Internet",
+        "A type of coaxial connector",
+        "Only a personal Bluetooth network"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "An extension of an intranet that allows limited access to authorized external users",
+      "correctAnswer": "An extension of an intranet that allows limited access to authorized external users",
+      "explanation": "An extranet gives controlled access to selected outsiders like clients, suppliers, or partners.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q135",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q136",
+      "question": "Which is a good example of an extranet?",
+      "options": [
+        "A company allows suppliers to access order details after login",
+        "A public website without login",
+        "A classroom projector",
+        "A mouse connected by wire"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A company allows suppliers to access order details after login",
+      "correctAnswer": "A company allows suppliers to access order details after login",
+      "explanation": "Extranet access is semi-private and controlled for authorized external users.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q136",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q137",
+      "question": "Which option correctly compares access level?",
+      "options": [
+        "Internet = public, Intranet = private internal, Extranet = controlled external access",
+        "Internet = private only, Intranet = public, Extranet = no login",
+        "All three are fully public",
+        "Only extranet can use TCP/IP"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Internet = public, Intranet = private internal, Extranet = controlled external access",
+      "correctAnswer": "Internet = public, Intranet = private internal, Extranet = controlled external access",
+      "explanation": "The notes compare Internet, intranet, and extranet mainly by public/private access levels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q137",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q138",
+      "question": "Which network type is usually most open to everyone?",
+      "options": [
+        "Internet",
+        "Intranet",
+        "Extranet",
+        "PAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Internet",
+      "correctAnswer": "Internet",
+      "explanation": "The Internet is public and globally accessible compared with intranet and extranet.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q138",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q139",
+      "question": "Which network type is most restricted to employees or organization members?",
+      "options": [
+        "Intranet",
+        "Internet",
+        "Public WAN only",
+        "FM radio"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Intranet",
+      "correctAnswer": "Intranet",
+      "explanation": "An intranet is meant for internal authorized members of an organization.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q139",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q140",
+      "question": "Which statement best describes extranet security?",
+      "options": [
+        "It is secure but must balance accessibility for outsiders",
+        "It is completely open like public Internet",
+        "It never requires login",
+        "It is only for devices within 10 meters"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It is secure but must balance accessibility for outsiders",
+      "correctAnswer": "It is secure but must balance accessibility for outsiders",
+      "explanation": "Extranet provides controlled outside access, so it requires security while allowing selected users.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "internet-intranet-and-extranet"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q140",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q141",
+      "question": "A company wants employees to share internal files securely, while outsiders cannot access them. Which is best?",
+      "options": [
+        "Intranet",
+        "Internet",
+        "Extranet for everyone",
+        "Simplex TV broadcast"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Intranet",
+      "correctAnswer": "Intranet",
+      "explanation": "An intranet is designed for secure internal communication and resource sharing within an organization.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q141",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q142",
+      "question": "A company wants suppliers to check limited order status using login. Which network concept is best?",
+      "options": [
+        "Extranet",
+        "Intranet only with no outsiders",
+        "Pure public Internet only",
+        "PAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Extranet",
+      "correctAnswer": "Extranet",
+      "explanation": "An extranet allows selected external users to access specific internal resources securely.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q142",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q143",
+      "question": "A network engineer wants to connect a copper Ethernet network to a long-distance fiber link. Which device is needed?",
+      "options": [
+        "Media converter",
+        "Hub only",
+        "RFID tag",
+        "Terminator only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Media converter",
+      "correctAnswer": "Media converter",
+      "explanation": "A media converter converts signal between copper and fiber transmission media.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q143",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q144",
+      "question": "A school network has many PCs connected to a central switch. If one PC fails, others continue working. Which topology?",
+      "options": [
+        "Star",
+        "Bus",
+        "Ring",
+        "Simplex"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Star",
+      "correctAnswer": "Star",
+      "explanation": "Star topology connects nodes to a central switch; one node failure normally does not affect others.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q144",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q145",
+      "question": "A backbone cable is damaged and all devices lose connection. Which topology most likely failed?",
+      "options": [
+        "Bus",
+        "Star",
+        "Hybrid only",
+        "PAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Bus",
+      "correctAnswer": "Bus",
+      "explanation": "Bus topology depends on one main backbone cable.\nIf it fails, the whole network can stop.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q145",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q146",
+      "question": "A network loop fails when a single cable in the loop breaks, and adding devices disturbs operation. Which topology?",
+      "options": [
+        "Ring",
+        "Star",
+        "Bus only",
+        "WAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Ring",
+      "correctAnswer": "Ring",
+      "explanation": "Ring topology forms a loop; failure or changes can disturb the entire ring.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q146",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q147",
+      "question": "A network combines a star section and ring section. What is the topology?",
+      "options": [
+        "Hybrid",
+        "Bus",
+        "Simplex",
+        "PAN"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Hybrid",
+      "correctAnswer": "Hybrid",
+      "explanation": "A hybrid topology is a combination of two or more topologies.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q147",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q148",
+      "question": "Which choice shows a correct medium and connector pair?",
+      "options": [
+        "CAT6 - RJ-45",
+        "Fiber optic - RJ-45 only",
+        "Bluetooth - ST connector",
+        "Satellite - CAT6 terminator"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "CAT6 - RJ-45",
+      "correctAnswer": "CAT6 - RJ-45",
+      "explanation": "CAT6 Ethernet cable commonly uses RJ-45 connectors.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q148",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q149",
+      "question": "Which is the best choice for a large global network connecting multiple LANs and MANs?",
+      "options": [
+        "WAN",
+        "PAN",
+        "One Bluetooth link",
+        "A single bus topology"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "WAN",
+      "correctAnswer": "WAN",
+      "explanation": "WAN connects large geographical areas and can link LANs and MANs across regions/countries.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q149",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    },
+    {
+      "id": "english-computer-computer-network-and-communication-q150",
+      "question": "A user sends an email. Which protocol is most related to sending it?",
+      "options": [
+        "SMTP",
+        "FTP",
+        "DHCP",
+        "RJ-45"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "SMTP",
+      "correctAnswer": "SMTP",
+      "explanation": "SMTP is used to send e-mail messages over networks.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "computer-network-and-communication",
+        "mixed-applied-and-higher-level-mcqs"
+      ],
+      "sourceType": "uploaded_file",
+      "correct": 0,
+      "reviewStatus": "published",
+      "legacyId": "english-computer-computer-network-and-communication-q150",
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq"
+    }
+  ]
+}

@@ -3,6 +3,1515 @@
   "subject": "industrial-installation-and-maintenance",
   "chapter": "industrial-wiring",
   "chapterTitle": "Industrial Wiring",
-  "status": "draft",
-  "questions": []
+  "unit": 3,
+  "status": "published",
+  "questionCount": 50,
+  "schemaVersion": "1.0.0",
+  "source": {
+    "type": "docx_import",
+    "file": "Industrial_Installation_Maintenance_All_Units_300_MCQs.docx",
+    "note": "Converted from uploaded DOCX. One JSON file per unit."
+  },
+  "questions": [
+    {
+      "id": "iim-u3-q001",
+      "question": "Which of the following device is commonly used to improve the power factor in anelectrical system?",
+      "options": [
+        "Inductor",
+        "Capacitor",
+        "Transformer",
+        "Generator"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Capacitor",
+      "correctOptionIndex": 1,
+      "explanation": "The unit says capacitors improve power factor. Static capacitors draw leading current.",
+      "explanationLines": [
+        "The unit says capacitors improve power factor.",
+        "Static capacitors draw leading current."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q001",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q002",
+      "question": "Which of the following is a consequence of a low power factor in an electrical system?",
+      "options": [
+        "Increased energy efficiency",
+        "Increased electrical losses",
+        "Increased voltage stability",
+        "Reduced electricity costs"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Increased electrical losses",
+      "correctOptionIndex": 1,
+      "explanation": "Low power factor causes more energy loss. It also reduces system efficiency.",
+      "explanationLines": [
+        "Low power factor causes more energy loss.",
+        "It also reduces system efficiency."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q002",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q003",
+      "question": "Which joint is used for tapping electrical energy for service connections in overhead distribution lines?",
+      "options": [
+        "Straight-through Joint",
+        "T-Joint",
+        "Conductor Joint",
+        "Married Joint"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "T-Joint",
+      "correctOptionIndex": 1,
+      "explanation": "A T-joint connects a main cable to a secondary branch. It is used where a branch is taken from a main cable.",
+      "explanationLines": [
+        "A T-joint connects a main cable to a secondary branch.",
+        "It is used where a branch is taken from a main cable."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q003",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q004",
+      "question": "Which component is typically found on a panel board to protect circuits from overcurrent?",
+      "options": [
+        "Capacitor",
+        "Transformer",
+        "MCCB",
+        "Motor"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "MCCB",
+      "correctOptionIndex": 2,
+      "explanation": "MCCB protects circuits from overload and faults. It is a circuit breaker used in industrial/commercial systems.",
+      "explanationLines": [
+        "MCCB protects circuits from overload and faults.",
+        "It is a circuit breaker used in industrial/commercial systems."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q004",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q005",
+      "question": "Which method is commonly used to organize cables in a data center?",
+      "options": [
+        "Cable trays",
+        "Conduit",
+        "Zip ties",
+        "All of the above"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "All of the above",
+      "correctOptionIndex": 3,
+      "explanation": "The unit includes cable management methods. Trays, conduit and ties can help organize cables.",
+      "explanationLines": [
+        "The unit includes cable management methods.",
+        "Trays, conduit and ties can help organize cables."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q005",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q006",
+      "question": "When capacitors are connected to the electrical system for power factor correction, theyare usually connected in",
+      "options": [
+        "Series with load",
+        "Parallel with load",
+        "Series with source",
+        "Parallel with source"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Parallel with load",
+      "correctOptionIndex": 1,
+      "explanation": "Static capacitors are connected in parallel with the load. They neutralize the lagging reactive component.",
+      "explanationLines": [
+        "Static capacitors are connected in parallel with the load.",
+        "They neutralize the lagging reactive component."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q006",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q007",
+      "question": "NBC stands for................",
+      "options": [
+        "National Building Code",
+        "National Bureau of Construction",
+        "New Building Construction",
+        "National Board of Contractors"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "National Building Code",
+      "correctOptionIndex": 0,
+      "explanation": "The source says Nepal National Building Code. NBC gives guidelines for industrial electrical installations.",
+      "explanationLines": [
+        "The source says Nepal National Building Code.",
+        "NBC gives guidelines for industrial electrical installations."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q007",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q008",
+      "question": "What is the full form of APFC?",
+      "options": [
+        "Automatic Power Flow Control",
+        "Automatic Power Factor Correction",
+        "Advanced Power Frequency Control",
+        "Applied Power Factor Calculation"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Automatic Power Factor Correction",
+      "correctOptionIndex": 1,
+      "explanation": "The unit names APFC as Automatic Power Factor Correction. It switches capacitor banks automatically.",
+      "explanationLines": [
+        "The unit names APFC as Automatic Power Factor Correction.",
+        "It switches capacitor banks automatically."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q008",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q009",
+      "question": "Proper motor installation ensures...............",
+      "options": [
+        "High power factor",
+        "Efficient and safe operation",
+        "Low voltage drop",
+        "High current flow"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Efficient and safe operation",
+      "correctOptionIndex": 1,
+      "explanation": "Proper installation is needed for efficient operation. It also supports safety and long life of the motor.",
+      "explanationLines": [
+        "Proper installation is needed for efficient operation.",
+        "It also supports safety and long life of the motor."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q009",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q010",
+      "question": "Which of the following equipment is found on the distribution board?",
+      "options": [
+        "Generators",
+        "Transformers",
+        "Circuit breakers and fuses",
+        "Motors"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Circuit breakers and fuses",
+      "correctOptionIndex": 2,
+      "explanation": "Distribution boards provide overcurrent protection. They include breakers or fuses for branch circuits.",
+      "explanationLines": [
+        "Distribution boards provide overcurrent protection.",
+        "They include breakers or fuses for branch circuits."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q010",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q011",
+      "question": "MCCB is usually placed in",
+      "options": [
+        "distribution board",
+        "switch board",
+        "panel board",
+        "breadboard"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "distribution board",
+      "correctOptionIndex": 0,
+      "explanation": "Distribution boards use circuit breakers for protection. MCCB is one such protective circuit breaker.",
+      "explanationLines": [
+        "Distribution boards use circuit breakers for protection.",
+        "MCCB is one such protective circuit breaker."
+      ],
+      "sourceType": "Existing source MCQ (previous paper)",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q011",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q012",
+      "question": "Which option best matches this source description: source of guidelines for electrical installations in industrial buildings?",
+      "options": [
+        "Nepal National Building Code",
+        "Dry type transformer",
+        "Metal enclosed switchgear",
+        "Protection of circuits"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Nepal National Building Code",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Nepal National Building Code. It is named as NBC in this unit.",
+      "explanationLines": [
+        "The correct answer is Nepal National Building Code.",
+        "It is named as NBC in this unit."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q012",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q013",
+      "question": "In this unit, which item is described as: needed when load demand is high or supply above 650 V is required?",
+      "options": [
+        "Distribution of power",
+        "Separate substation",
+        "Earth leakage trip",
+        "HRC fuse backup"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Separate substation",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Separate substation. The source links this with industrial loads.",
+      "explanationLines": [
+        "The correct answer is Separate substation.",
+        "The source links this with industrial loads."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q013",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q014",
+      "question": "Which source term is correctly linked with this point: room close to the main load centre for switchgear equipment?",
+      "options": [
+        "Discrimination in tripping",
+        "Heavy electrical equipment protection",
+        "Indoor switchgear accommodation",
+        "Rewireable fuse limit"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Indoor switchgear accommodation",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Indoor switchgear accommodation. It helps bring supply into the factory safely.",
+      "explanationLines": [
+        "The correct answer is Indoor switchgear accommodation.",
+        "It helps bring supply into the factory safely."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q014",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q015",
+      "question": "Choose the correct match for this source idea: preferred method to bring supply into the building.",
+      "options": [
+        "Clear access routes",
+        "Capacitor connection provision",
+        "Separate emergency services circuit",
+        "Underground supply conductors"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Underground supply conductors",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Underground supply conductors. It reduces possible interruption of power supply.",
+      "explanationLines": [
+        "The correct answer is Underground supply conductors.",
+        "It reduces possible interruption of power supply."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q015",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q016",
+      "question": "Which answer fits this unit statement: substation and panel accommodation must be chosen to prevent access?",
+      "options": [
+        "Unauthorized access control",
+        "Cable separation",
+        "Future extension space",
+        "Panel board"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Unauthorized access control",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Unauthorized access control. Restricted areas must be marked and locked.",
+      "explanationLines": [
+        "The correct answer is Unauthorized access control.",
+        "Restricted areas must be marked and locked."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q016",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q017",
+      "question": "Which option best matches this source description: desirable when load currents are 400 A and above near transformers?",
+      "options": [
+        "Fire resistant sealing",
+        "Busbar trunking system",
+        "Wiring system selection",
+        "Distribution board"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Busbar trunking system",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Busbar trunking system. The source says trunking should be straight and short.",
+      "explanationLines": [
+        "The correct answer is Busbar trunking system.",
+        "The source says trunking should be straight and short."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q017",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q018",
+      "question": "In this unit, which item is described as: preferably at load centre subject to hazards such as fire?",
+      "options": [
+        "Ingress protection",
+        "Lift equipment circuit",
+        "Transformer location",
+        "Feeder in distribution board"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Transformer location",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Transformer location. The source stresses oil-filled transformer provisions.",
+      "explanationLines": [
+        "The correct answer is Transformer location.",
+        "The source stresses oil-filled transformer provisions."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q018",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q019",
+      "question": "Which source term is correctly linked with this point: transformer used when small substations up to 1600 kVA are at load centre?",
+      "options": [
+        "Metal enclosed switchgear",
+        "Protection of circuits",
+        "Busbars in panel board",
+        "Dry type transformer"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Dry type transformer",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Dry type transformer. It avoids need for a separate room in that case.",
+      "explanationLines": [
+        "The correct answer is Dry type transformer.",
+        "It avoids need for a separate room in that case."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q019",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q020",
+      "question": "Choose the correct match for this source idea: power is distributed to loads in steps from the point of supply.",
+      "options": [
+        "Distribution of power",
+        "Earth leakage trip",
+        "HRC fuse backup",
+        "Load connections"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Distribution of power",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Distribution of power. It depends on load amount and expanse.",
+      "explanationLines": [
+        "The correct answer is Distribution of power.",
+        "It depends on load amount and expanse."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q020",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q021",
+      "question": "Which answer fits this unit statement: settings arranged to maintain sequence of protective operation?",
+      "options": [
+        "Heavy electrical equipment protection",
+        "Discrimination in tripping",
+        "Rewireable fuse limit",
+        "Cable tray"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Discrimination in tripping",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Discrimination in tripping. It supports local isolation during faults.",
+      "explanationLines": [
+        "The correct answer is Discrimination in tripping.",
+        "It supports local isolation during faults."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q021",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q022",
+      "question": "Which option best matches this source description: switch-board routes kept free without hindrance?",
+      "options": [
+        "Capacitor connection provision",
+        "Separate emergency services circuit",
+        "Clear access routes",
+        "Straight-through joint"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Clear access routes",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Clear access routes. They support safe operation and maintenance.",
+      "explanationLines": [
+        "The correct answer is Clear access routes.",
+        "They support safe operation and maintenance."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q022",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q023",
+      "question": "In this unit, which item is described as: cables at different voltage levels laid with at least 250 mm separation?",
+      "options": [
+        "Future extension space",
+        "Panel board",
+        "T-Joint",
+        "Cable separation"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Cable separation",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Cable separation. It also requires clear identification.",
+      "explanationLines": [
+        "The correct answer is Cable separation.",
+        "It also requires clear identification."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q023",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q024",
+      "question": "Which source term is correctly linked with this point: entry points sealed with fire resistant material?",
+      "options": [
+        "Fire resistant sealing",
+        "Wiring system selection",
+        "Distribution board",
+        "Terminal joint"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Fire resistant sealing",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Fire resistant sealing. It reduces fire spread through cable entries.",
+      "explanationLines": [
+        "The correct answer is Fire resistant sealing.",
+        "It reduces fire spread through cable entries."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q024",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q025",
+      "question": "Choose the correct match for this source idea: required feature for switchgear equipment in industrial installations.",
+      "options": [
+        "Lift equipment circuit",
+        "Ingress protection",
+        "Feeder in distribution board",
+        "Conductor joint"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Ingress protection",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Ingress protection. Selection considers overload and short-circuit protection.",
+      "explanationLines": [
+        "The correct answer is Ingress protection.",
+        "Selection considers overload and short-circuit protection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q025",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q026",
+      "question": "Which answer fits this unit statement: required type of switchgear enclosure in industrial installations?",
+      "options": [
+        "Protection of circuits",
+        "Busbars in panel board",
+        "Metal enclosed switchgear",
+        "Britannia joint"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Metal enclosed switchgear",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Metal enclosed switchgear. The source says switchgear shall not be mounted on woodwork.",
+      "explanationLines": [
+        "The correct answer is Metal enclosed switchgear.",
+        "The source says switchgear shall not be mounted on woodwork."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q026",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q027",
+      "question": "Which option best matches this source description: protection used for main circuits from remote transformer substations?",
+      "options": [
+        "HRC fuse backup",
+        "Load connections",
+        "Motor alignment",
+        "Earth leakage trip"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Earth leakage trip",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Earth leakage trip. It ensures effective earth fault protection.",
+      "explanationLines": [
+        "The correct answer is Earth leakage trip.",
+        "It ensures effective earth fault protection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q027",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q028",
+      "question": "In this unit, which item is described as: main circuits protected by circuit breakers or contactors with overcurrent devices?",
+      "options": [
+        "Heavy electrical equipment protection",
+        "Rewireable fuse limit",
+        "Cable tray",
+        "Low power factor"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Heavy electrical equipment protection",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Heavy electrical equipment protection. It is used for large motors, furnaces and heavy equipment.",
+      "explanationLines": [
+        "The correct answer is Heavy electrical equipment protection.",
+        "It is used for large motors, furnaces and heavy equipment."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q028",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q029",
+      "question": "Which source term is correctly linked with this point: needed for power-factor correction in some installations?",
+      "options": [
+        "Separate emergency services circuit",
+        "Capacitor connection provision",
+        "Straight-through joint",
+        "APFC panel"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Capacitor connection provision",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Capacitor connection provision. Manufacturers' advice is sought when capacitors are installed.",
+      "explanationLines": [
+        "The correct answer is Capacitor connection provision.",
+        "Manufacturers' advice is sought when capacitors are installed."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q029",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q030",
+      "question": "Choose the correct match for this source idea: additional space provided for modifications and future extensions.",
+      "options": [
+        "Panel board",
+        "T-Joint",
+        "Future extension space",
+        "Nepal National Building Code"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Future extension space",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Future extension space. The source requires enough space in industrial layouts.",
+      "explanationLines": [
+        "The correct answer is Future extension space.",
+        "The source requires enough space in industrial layouts."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q030",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q031",
+      "question": "Which answer fits this unit statement: done by considering location, external influences, hazard class and expansion?",
+      "options": [
+        "Distribution board",
+        "Terminal joint",
+        "Separate substation",
+        "Wiring system selection"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Wiring system selection",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Wiring system selection. It also considers operators, users and occupants.",
+      "explanationLines": [
+        "The correct answer is Wiring system selection.",
+        "It also considers operators, users and occupants."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q031",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q032",
+      "question": "Which option best matches this source description: circuit that must be distinct and separate?",
+      "options": [
+        "Lift equipment circuit",
+        "Feeder in distribution board",
+        "Conductor joint",
+        "Indoor switchgear accommodation"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Lift equipment circuit",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Lift equipment circuit. The source says it should be planned with the manufacturer.",
+      "explanationLines": [
+        "The correct answer is Lift equipment circuit.",
+        "The source says it should be planned with the manufacturer."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q032",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q033",
+      "question": "In this unit, which item is described as: protection against overcurrent and earth faults at boards?",
+      "options": [
+        "Busbars in panel board",
+        "Protection of circuits",
+        "Britannia joint",
+        "Underground supply conductors"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Protection of circuits",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Protection of circuits. Protective apparatus must interrupt short-circuit current safely.",
+      "explanationLines": [
+        "The correct answer is Protection of circuits.",
+        "Protective apparatus must interrupt short-circuit current safely."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q033",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q034",
+      "question": "Which source term is correctly linked with this point: fuse that operates before a circuit breaker for high short-circuit levels?",
+      "options": [
+        "Load connections",
+        "Motor alignment",
+        "HRC fuse backup",
+        "Unauthorized access control"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "HRC fuse backup",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is HRC fuse backup. It is used for backup protection.",
+      "explanationLines": [
+        "The correct answer is HRC fuse backup.",
+        "It is used for backup protection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q034",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q035",
+      "question": "Choose the correct match for this source idea: restricted to circuits with short-circuit level of 4 kA.",
+      "options": [
+        "Cable tray",
+        "Low power factor",
+        "Busbar trunking system",
+        "Rewireable fuse limit"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Rewireable fuse limit",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Rewireable fuse limit. Higher levels need cartridge, HRC fuses or circuit breakers.",
+      "explanationLines": [
+        "The correct answer is Rewireable fuse limit.",
+        "Higher levels need cartridge, HRC fuses or circuit breakers."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q035",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q036",
+      "question": "Which answer fits this unit statement: lighting and emergency services controlled through separate main circuits?",
+      "options": [
+        "Separate emergency services circuit",
+        "Straight-through joint",
+        "APFC panel",
+        "Transformer location"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Separate emergency services circuit",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Separate emergency services circuit. It separates emergency services from power circuits.",
+      "explanationLines": [
+        "The correct answer is Separate emergency services circuit.",
+        "It separates emergency services from power circuits."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q036",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q037",
+      "question": "Which option best matches this source description: main electrical enclosure also called load center or breaker panel?",
+      "options": [
+        "T-Joint",
+        "Panel board",
+        "Nepal National Building Code",
+        "Dry type transformer"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Panel board",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Panel board. It distributes power and houses protective devices.",
+      "explanationLines": [
+        "The correct answer is Panel board.",
+        "It distributes power and houses protective devices."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q037",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q038",
+      "question": "In this unit, which item is described as: secondary panel receiving power from the main panel board?",
+      "options": [
+        "Terminal joint",
+        "Separate substation",
+        "Distribution board",
+        "Distribution of power"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Distribution board",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Distribution board. It feeds branch circuits or local loads.",
+      "explanationLines": [
+        "The correct answer is Distribution board.",
+        "It feeds branch circuits or local loads."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q038",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q039",
+      "question": "Which source term is correctly linked with this point: incoming supply from the main panel board?",
+      "options": [
+        "Conductor joint",
+        "Indoor switchgear accommodation",
+        "Discrimination in tripping",
+        "Feeder in distribution board"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Feeder in distribution board",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Feeder in distribution board. It brings power to the distribution board.",
+      "explanationLines": [
+        "The correct answer is Feeder in distribution board.",
+        "It brings power to the distribution board."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q039",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q040",
+      "question": "Choose the correct match for this source idea: metal strips or bars that conduct electrical power inside the board.",
+      "options": [
+        "Busbars in panel board",
+        "Britannia joint",
+        "Underground supply conductors",
+        "Clear access routes"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Busbars in panel board",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Busbars in panel board. They distribute power to breakers or circuits.",
+      "explanationLines": [
+        "The correct answer is Busbars in panel board.",
+        "They distribute power to breakers or circuits."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q040",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q041",
+      "question": "Which answer fits this unit statement: terminals on distribution board for branch circuit distribution?",
+      "options": [
+        "Motor alignment",
+        "Load connections",
+        "Unauthorized access control",
+        "Cable separation"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Load connections",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Load connections. They supply individual load circuits.",
+      "explanationLines": [
+        "The correct answer is Load connections.",
+        "They supply individual load circuits."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q041",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q042",
+      "question": "Which option best matches this source description: support system used to carry and organize electrical cables?",
+      "options": [
+        "Low power factor",
+        "Busbar trunking system",
+        "Cable tray",
+        "Fire resistant sealing"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Cable tray",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Cable tray. It is part of cable management.",
+      "explanationLines": [
+        "The correct answer is Cable tray.",
+        "It is part of cable management."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q042",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q043",
+      "question": "In this unit, which item is described as: joint used to connect two cable ends directly?",
+      "options": [
+        "APFC panel",
+        "Transformer location",
+        "Ingress protection",
+        "Straight-through joint"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Straight-through joint",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Straight-through joint. It keeps electrical continuity through the cable.",
+      "explanationLines": [
+        "The correct answer is Straight-through joint.",
+        "It keeps electrical continuity through the cable."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q043",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q044",
+      "question": "Which source term is correctly linked with this point: joint that connects a main cable to a secondary branch?",
+      "options": [
+        "T-Joint",
+        "Nepal National Building Code",
+        "Dry type transformer",
+        "Metal enclosed switchgear"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "T-Joint",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is T-Joint. It forms a T shape for service branching.",
+      "explanationLines": [
+        "The correct answer is T-Joint.",
+        "It forms a T shape for service branching."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q044",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q045",
+      "question": "Choose the correct match for this source idea: joint that connects a cable to a terminal or device.",
+      "options": [
+        "Separate substation",
+        "Terminal joint",
+        "Distribution of power",
+        "Earth leakage trip"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Terminal joint",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Terminal joint. It safely terminates the cable end.",
+      "explanationLines": [
+        "The correct answer is Terminal joint.",
+        "It safely terminates the cable end."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q045",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q046",
+      "question": "Which answer fits this unit statement: joint used to join two or more conductors within a cable?",
+      "options": [
+        "Indoor switchgear accommodation",
+        "Discrimination in tripping",
+        "Conductor joint",
+        "Heavy electrical equipment protection"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Conductor joint",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Conductor joint. It maintains electrical continuity.",
+      "explanationLines": [
+        "The correct answer is Conductor joint.",
+        "It maintains electrical continuity."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q046",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q047",
+      "question": "Which option best matches this source description: compression joint for copper or aluminum conductors?",
+      "options": [
+        "Underground supply conductors",
+        "Clear access routes",
+        "Capacitor connection provision",
+        "Britannia joint"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Britannia joint",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Britannia joint. It gives a reliable low-resistance connection.",
+      "explanationLines": [
+        "The correct answer is Britannia joint.",
+        "It gives a reliable low-resistance connection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q047",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q048",
+      "question": "In this unit, which item is described as: alignment between motor and driven equipment to avoid wear or vibration?",
+      "options": [
+        "Motor alignment",
+        "Unauthorized access control",
+        "Cable separation",
+        "Future extension space"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Motor alignment",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Motor alignment. Correct alignment improves performance.",
+      "explanationLines": [
+        "The correct answer is Motor alignment.",
+        "Correct alignment improves performance."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q048",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q049",
+      "question": "Which source term is correctly linked with this point: condition causing higher current, larger conductor size and more losses?",
+      "options": [
+        "Busbar trunking system",
+        "Low power factor",
+        "Fire resistant sealing",
+        "Wiring system selection"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Low power factor",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Low power factor. It reduces efficiency and causes voltage drops.",
+      "explanationLines": [
+        "The correct answer is Low power factor.",
+        "It reduces efficiency and causes voltage drops."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q049",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u3-q050",
+      "question": "Choose the correct match for this source idea: automatic system that switches capacitor banks to maintain power factor.",
+      "options": [
+        "Transformer location",
+        "Ingress protection",
+        "APFC panel",
+        "Lift equipment circuit"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "APFC panel",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is APFC panel. It uses sensors, controller and switching devices.",
+      "explanationLines": [
+        "The correct answer is APFC panel.",
+        "It uses sensors, controller and switching devices."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "industrial-wiring",
+      "legacyId": "iim-u3-q050",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
 }

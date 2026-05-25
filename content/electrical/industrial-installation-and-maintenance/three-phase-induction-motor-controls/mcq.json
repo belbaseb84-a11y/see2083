@@ -3,6 +3,1515 @@
   "subject": "industrial-installation-and-maintenance",
   "chapter": "three-phase-induction-motor-controls",
   "chapterTitle": "Three-phase Induction Motor Controls",
-  "status": "draft",
-  "questions": []
+  "unit": 6,
+  "status": "published",
+  "questionCount": 50,
+  "schemaVersion": "1.0.0",
+  "source": {
+    "type": "docx_import",
+    "file": "Industrial_Installation_Maintenance_All_Units_300_MCQs.docx",
+    "note": "Converted from uploaded DOCX. One JSON file per unit."
+  },
+  "questions": [
+    {
+      "id": "iim-u6-q001",
+      "question": "Which type of drum switch is used for forward and reverse control of a three-phase induction motor?",
+      "options": [
+        "ON/OFF switch",
+        "Star/Delta switch",
+        "Forward/Reverse switch",
+        "Timer switch"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Forward/Reverse switch",
+      "correctOptionIndex": 2,
+      "explanation": "Forward/reverse drum switch controls motor direction. It is used for clockwise and anti-clockwise rotation.",
+      "explanationLines": [
+        "Forward/reverse drum switch controls motor direction.",
+        "It is used for clockwise and anti-clockwise rotation."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q001",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q002",
+      "question": "What is the purpose of a motor protection circuit breaker (MPCB)?",
+      "options": [
+        "To change the motor's speed",
+        "To protect the motor from overloads and faults",
+        "To reverse the motor's direction",
+        "To control the star/delta transition"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "To protect the motor from overloads and faults",
+      "correctOptionIndex": 1,
+      "explanation": "MPCB protects motors from overloads and faults. It combines protection functions for motor circuits.",
+      "explanationLines": [
+        "MPCB protects motors from overloads and faults.",
+        "It combines protection functions for motor circuits."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q002",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q003",
+      "question": "Which motor control accessory is used to prevent overloading in motors?",
+      "options": [
+        "Contactor",
+        "Overload Relay (OLR)",
+        "Push Button Switch",
+        "Timer"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Overload Relay (OLR)",
+      "correctOptionIndex": 1,
+      "explanation": "OLR senses overload in motors. It disconnects supply when current exceeds a preset level.",
+      "explanationLines": [
+        "OLR senses overload in motors.",
+        "It disconnects supply when current exceeds a preset level."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q003",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q004",
+      "question": "What does a star/delta switch control in a three-phase motor?",
+      "options": [
+        "Voltage regulation",
+        "Starting current and torque",
+        "Motor temperature",
+        "Direction of rotation"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Starting current and torque",
+      "correctOptionIndex": 1,
+      "explanation": "Star-delta starting reduces starting current. Delta running gives higher torque for normal operation.",
+      "explanationLines": [
+        "Star-delta starting reduces starting current.",
+        "Delta running gives higher torque for normal operation."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q004",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q005",
+      "question": "What is the function of an inching and holding system in motor control?",
+      "options": [
+        "To control the motor from two locations",
+        "To enable precise positioning and maintain operation",
+        "To protect the motor from short circuits",
+        "To reverse the motor's rotation"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "To enable precise positioning and maintain operation",
+      "correctOptionIndex": 1,
+      "explanation": "Inching runs only while the start button is pressed. Holding keeps the motor running until stop is pressed.",
+      "explanationLines": [
+        "Inching runs only while the start button is pressed.",
+        "Holding keeps the motor running until stop is pressed."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q005",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q006",
+      "question": "When a contactor is de-energized, it is in the……… position.",
+      "options": [
+        "Normally closed",
+        "Normally open",
+        "Latched",
+        "Semi-closed"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Normally open",
+      "correctOptionIndex": 1,
+      "explanation": "A normally open contact closes when the coil is energized. When de-energized, that contact remains open.",
+      "explanationLines": [
+        "A normally open contact closes when the coil is energized.",
+        "When de-energized, that contact remains open."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q006",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q007",
+      "question": "In a DOL starter, what happens when a start push button is pressed?",
+      "options": [
+        "The motor starts with a reduced voltage",
+        "The motor starts at full voltage",
+        "The motor stops",
+        "None of the above"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "The motor starts at full voltage",
+      "correctOptionIndex": 1,
+      "explanation": "The motor windings are directly connected to supply. Full line voltage is applied to the motor.",
+      "explanationLines": [
+        "The motor windings are directly connected to supply.",
+        "Full line voltage is applied to the motor."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q007",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q008",
+      "question": "Which type of the motors are typically started using the Star-Delta starter?",
+      "options": [
+        "DC motors",
+        "Synchronous motors",
+        "Single phase motor",
+        "Three phase induction motors"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Three phase induction motors",
+      "correctOptionIndex": 3,
+      "explanation": "The unit is about three phase induction motor controls. Star-delta starting is used for three phase motors.",
+      "explanationLines": [
+        "The unit is about three phase induction motor controls.",
+        "Star-delta starting is used for three phase motors."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q008",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q009",
+      "question": "What function is controlled using a simple drum-type forward/reverse switch?",
+      "options": [
+        "Speed control",
+        "Starting and stopping the motor",
+        "Direction of motor rotation",
+        "Star-delta starting"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Direction of motor rotation",
+      "correctOptionIndex": 2,
+      "explanation": "Forward/reverse switch changes motor direction. It runs the motor in clockwise or anti-clockwise direction.",
+      "explanationLines": [
+        "Forward/reverse switch changes motor direction.",
+        "It runs the motor in clockwise or anti-clockwise direction."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q009",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q010",
+      "question": "What is the full form of MPCB?",
+      "options": [
+        "Motor Protection Circuit Breaker",
+        "Main Power Control Board",
+        "Motor Protection Control Board",
+        "Main Power Circuit Breaker"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Motor Protection Circuit Breaker",
+      "correctOptionIndex": 0,
+      "explanation": "The textbook gives MPCB as Motor Protection Circuit Breaker. It protects electric motors from faults and overloads.",
+      "explanationLines": [
+        "The textbook gives MPCB as Motor Protection Circuit Breaker.",
+        "It protects electric motors from faults and overloads."
+      ],
+      "sourceType": "Existing source MCQ",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q010",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q011",
+      "question": "MPCB stands for",
+      "options": [
+        "Motor Protected Circuit Breaker",
+        "Motor Protective Circuit Breaker",
+        "Motor Protection Circuit Breaker",
+        "Motor Protect Circuit Breaker"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Motor Protection Circuit Breaker",
+      "correctOptionIndex": 2,
+      "explanation": "The source names MPCB as Motor Protection Circuit Breaker. It is a motor control accessory for protection.",
+      "explanationLines": [
+        "The source names MPCB as Motor Protection Circuit Breaker.",
+        "It is a motor control accessory for protection."
+      ],
+      "sourceType": "Existing source MCQ (previous paper)",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q011",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q012",
+      "question": "95 and 96 terminals are found in",
+      "options": [
+        "contactor",
+        "overload relay (OLR)",
+        "push button switch",
+        "timer"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "overload relay (OLR)",
+      "correctOptionIndex": 1,
+      "explanation": "The previous paper asks this as an OLR terminal question. OLR is the motor accessory linked with overload protection.",
+      "explanationLines": [
+        "The previous paper asks this as an OLR terminal question.",
+        "OLR is the motor accessory linked with overload protection."
+      ],
+      "sourceType": "Existing source MCQ (previous paper)",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q012",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q013",
+      "question": "Which option best matches this source description: switch used to control three phase induction motors?",
+      "options": [
+        "Drum type switch",
+        "Normally open contact",
+        "START push button",
+        "Inching stop mode"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Drum type switch",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Drum type switch. Types include ON/OFF, forward/reverse and star/delta.",
+      "explanationLines": [
+        "The correct answer is Drum type switch.",
+        "Types include ON/OFF, forward/reverse and star/delta."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q013",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q014",
+      "question": "In this unit, which item is described as: drum switch used to start and stop a motor?",
+      "options": [
+        "Normally closed contact",
+        "ON/OFF drum switch",
+        "STOP push button",
+        "Holding system"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "ON/OFF drum switch",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is ON/OFF drum switch. It controls supply connection to the motor.",
+      "explanationLines": [
+        "The correct answer is ON/OFF drum switch.",
+        "It controls supply connection to the motor."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q015",
+      "question": "Which source term is correctly linked with this point: drum switch used to run the motor in both directions?",
+      "options": [
+        "Motor Protection Circuit Breaker",
+        "Timer",
+        "Forward/Reverse drum switch",
+        "Holding stop phase"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Forward/Reverse drum switch",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Forward/Reverse drum switch. It changes connections for direction control.",
+      "explanationLines": [
+        "The correct answer is Forward/Reverse drum switch.",
+        "It changes connections for direction control."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q015",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q016",
+      "question": "Choose the correct match for this source idea: drum switch used for star and delta operation.",
+      "options": [
+        "MPCB combined function",
+        "Inching system",
+        "Two-place control",
+        "Star/Delta drum switch"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Star/Delta drum switch",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Star/Delta drum switch. It controls motor starting and running connection.",
+      "explanationLines": [
+        "The correct answer is Star/Delta drum switch.",
+        "It controls motor starting and running connection."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q016",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q017",
+      "question": "Which answer fits this unit statement: electromagnetic device for repeatedly making and breaking a circuit?",
+      "options": [
+        "Contactor",
+        "Over Load Relay",
+        "K1 contactor",
+        "Two-direction control"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Contactor",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Contactor. It has main and auxiliary contacts.",
+      "explanationLines": [
+        "The correct answer is Contactor.",
+        "It has main and auxiliary contacts."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q017",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q018",
+      "question": "Which option best matches this source description: contactor contact that carries the main motor power?",
+      "options": [
+        "OLR with contactor",
+        "Main contact",
+        "Full line voltage",
+        "K1 forward contactor"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Main contact",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Main contact. It closes when the coil is energized.",
+      "explanationLines": [
+        "The correct answer is Main contact.",
+        "It closes when the coil is energized."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q018",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q019",
+      "question": "In this unit, which item is described as: contactor contact used in control circuits?",
+      "options": [
+        "Push button switch",
+        "OLR monitoring",
+        "Auxiliary contact",
+        "K2 reverse contactor"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Auxiliary contact",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Auxiliary contact. It may be normally open or normally closed.",
+      "explanationLines": [
+        "The correct answer is Auxiliary contact.",
+        "It may be normally open or normally closed."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q019",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q020",
+      "question": "Which source term is correctly linked with this point: contact that closes when the contactor coil is energized?",
+      "options": [
+        "START push button",
+        "Inching stop mode",
+        "Relay direction control",
+        "Normally open contact"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Normally open contact",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Normally open contact. It is open when not energized.",
+      "explanationLines": [
+        "The correct answer is Normally open contact.",
+        "It is open when not energized."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q021",
+      "question": "Choose the correct match for this source idea: contact that opens when the contactor coil is energized.",
+      "options": [
+        "Normally closed contact",
+        "STOP push button",
+        "Holding system",
+        "Forward operation"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Normally closed contact",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Normally closed contact. It is used for control and interlocking.",
+      "explanationLines": [
+        "The correct answer is Normally closed contact.",
+        "It is used for control and interlocking."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q021",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q022",
+      "question": "Which answer fits this unit statement: device protecting electric motors from overloads and faults?",
+      "options": [
+        "Timer",
+        "Motor Protection Circuit Breaker",
+        "Holding stop phase",
+        "Reverse operation"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Motor Protection Circuit Breaker",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Motor Protection Circuit Breaker. It is abbreviated as MPCB.",
+      "explanationLines": [
+        "The correct answer is Motor Protection Circuit Breaker.",
+        "It is abbreviated as MPCB."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q022",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q023",
+      "question": "Which option best matches this source description: device doing the job of contactor and overload relay?",
+      "options": [
+        "Inching system",
+        "Two-place control",
+        "MPCB combined function",
+        "Star-delta starter"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "MPCB combined function",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is MPCB combined function. The source says it protects motors.",
+      "explanationLines": [
+        "The correct answer is MPCB combined function.",
+        "The source says it protects motors."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q023",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q024",
+      "question": "In this unit, which item is described as: device sensing overload current in motor circuits?",
+      "options": [
+        "K1 contactor",
+        "Two-direction control",
+        "Star start mode",
+        "Over Load Relay"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Over Load Relay",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Over Load Relay. It trips when current exceeds a preset level.",
+      "explanationLines": [
+        "The correct answer is Over Load Relay.",
+        "It trips when current exceeds a preset level."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q025",
+      "question": "Which source term is correctly linked with this point: overload relay typically used with contactors in motor starters?",
+      "options": [
+        "OLR with contactor",
+        "Full line voltage",
+        "K1 forward contactor",
+        "Delta running mode"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "OLR with contactor",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is OLR with contactor. It protects motors from overheating.",
+      "explanationLines": [
+        "The correct answer is OLR with contactor.",
+        "It protects motors from overheating."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q025",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q026",
+      "question": "Choose the correct match for this source idea: momentary switch used to switch ON or OFF.",
+      "options": [
+        "OLR monitoring",
+        "Push button switch",
+        "K2 reverse contactor",
+        "Star contactor K2"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Push button switch",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Push button switch. Types include START and STOP.",
+      "explanationLines": [
+        "The correct answer is Push button switch.",
+        "Types include START and STOP."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q026",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q027",
+      "question": "Which answer fits this unit statement: normally open switch that closes when pressure is applied?",
+      "options": [
+        "Inching stop mode",
+        "Relay direction control",
+        "START push button",
+        "Delta contactor K3"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "START push button",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is START push button. It starts the control circuit.",
+      "explanationLines": [
+        "The correct answer is START push button.",
+        "It starts the control circuit."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q028",
+      "question": "Which option best matches this source description: normally closed switch that opens when pressure is applied?",
+      "options": [
+        "Holding system",
+        "Forward operation",
+        "Star-delta stop mode",
+        "STOP push button"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "STOP push button",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is STOP push button. It stops the control circuit.",
+      "explanationLines": [
+        "The correct answer is STOP push button.",
+        "It stops the control circuit."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q028",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q029",
+      "question": "In this unit, which item is described as: device controlling circuit operations using time delay?",
+      "options": [
+        "Timer",
+        "Holding stop phase",
+        "Reverse operation",
+        "Motor control accessories"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Timer",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Timer. It gives on-delay or off-delay control.",
+      "explanationLines": [
+        "The correct answer is Timer.",
+        "It gives on-delay or off-delay control."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q030",
+      "question": "Which source term is correctly linked with this point: motor runs only while the start push button is pressed?",
+      "options": [
+        "Two-place control",
+        "Inching system",
+        "Star-delta starter",
+        "Drum type switch"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Inching system",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Inching system. Motor stops when the button is released.",
+      "explanationLines": [
+        "The correct answer is Inching system.",
+        "Motor stops when the button is released."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q031",
+      "question": "Choose the correct match for this source idea: main contactor energized when start button is pressed in inching system.",
+      "options": [
+        "Two-direction control",
+        "Star start mode",
+        "K1 contactor",
+        "ON/OFF drum switch"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "K1 contactor",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is K1 contactor. It connects motor windings to power supply.",
+      "explanationLines": [
+        "The correct answer is K1 contactor.",
+        "It connects motor windings to power supply."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q031",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q032",
+      "question": "Which answer fits this unit statement: voltage applied to the motor when contactor contacts close?",
+      "options": [
+        "K1 forward contactor",
+        "Delta running mode",
+        "Forward/Reverse drum switch",
+        "Full line voltage"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Full line voltage",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Full line voltage. This starts the motor directly.",
+      "explanationLines": [
+        "The correct answer is Full line voltage.",
+        "This starts the motor directly."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q032",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q033",
+      "question": "Which option best matches this source description: overload relay continuously monitors motor current?",
+      "options": [
+        "OLR monitoring",
+        "K2 reverse contactor",
+        "Star contactor K2",
+        "Star/Delta drum switch"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "OLR monitoring",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is OLR monitoring. It trips if current exceeds the set limit.",
+      "explanationLines": [
+        "The correct answer is OLR monitoring.",
+        "It trips if current exceeds the set limit."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q033",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q034",
+      "question": "In this unit, which item is described as: start button released and K1 coil de-energized?",
+      "options": [
+        "Relay direction control",
+        "Inching stop mode",
+        "Delta contactor K3",
+        "Contactor"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Inching stop mode",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Inching stop mode. The main contactor opens and motor stops.",
+      "explanationLines": [
+        "The correct answer is Inching stop mode.",
+        "The main contactor opens and motor stops."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q034",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q035",
+      "question": "Which source term is correctly linked with this point: motor keeps running after start button is pressed?",
+      "options": [
+        "Forward operation",
+        "Star-delta stop mode",
+        "Holding system",
+        "Main contact"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Holding system",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Holding system. It stops only after stop button is pressed.",
+      "explanationLines": [
+        "The correct answer is Holding system.",
+        "It stops only after stop button is pressed."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q035",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q036",
+      "question": "Choose the correct match for this source idea: stop button de-energizes K1 coil.",
+      "options": [
+        "Reverse operation",
+        "Motor control accessories",
+        "Auxiliary contact",
+        "Holding stop phase"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Holding stop phase",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Holding stop phase. The contactor opens and the motor stops.",
+      "explanationLines": [
+        "The correct answer is Holding stop phase.",
+        "The contactor opens and the motor stops."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q036",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q037",
+      "question": "Which answer fits this unit statement: motor controlled from two or more locations?",
+      "options": [
+        "Two-place control",
+        "Star-delta starter",
+        "Drum type switch",
+        "Normally open contact"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Two-place control",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Two-place control. ON or OFF button at any location can control it.",
+      "explanationLines": [
+        "The correct answer is Two-place control.",
+        "ON or OFF button at any location can control it."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q037",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q038",
+      "question": "Which option best matches this source description: forward and reverse direction using two contactors and relay?",
+      "options": [
+        "Star start mode",
+        "Two-direction control",
+        "ON/OFF drum switch",
+        "Normally closed contact"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Two-direction control",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Two-direction control. K1 and K2 run motor in opposite directions.",
+      "explanationLines": [
+        "The correct answer is Two-direction control.",
+        "K1 and K2 run motor in opposite directions."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q038",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q039",
+      "question": "In this unit, which item is described as: contactor that runs motor in clockwise direction?",
+      "options": [
+        "Delta running mode",
+        "Forward/Reverse drum switch",
+        "K1 forward contactor",
+        "Motor Protection Circuit Breaker"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "K1 forward contactor",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is K1 forward contactor. It applies L1, L2 and L3 to U, V and W.",
+      "explanationLines": [
+        "The correct answer is K1 forward contactor.",
+        "It applies L1, L2 and L3 to U, V and W."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q039",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q040",
+      "question": "Which source term is correctly linked with this point: contactor that runs motor in anti-clockwise direction?",
+      "options": [
+        "Star contactor K2",
+        "Star/Delta drum switch",
+        "MPCB combined function",
+        "K2 reverse contactor"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "K2 reverse contactor",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is K2 reverse contactor. It applies supply to U, W and V.",
+      "explanationLines": [
+        "The correct answer is K2 reverse contactor.",
+        "It applies supply to U, W and V."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q040",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q041",
+      "question": "Choose the correct match for this source idea: relay changes two lines out of three to change rotation.",
+      "options": [
+        "Relay direction control",
+        "Delta contactor K3",
+        "Contactor",
+        "Over Load Relay"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Relay direction control",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Relay direction control. This is required for reversing motor direction.",
+      "explanationLines": [
+        "The correct answer is Relay direction control.",
+        "This is required for reversing motor direction."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q041",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q042",
+      "question": "Which answer fits this unit statement: relay contacts close and K1 is activated?",
+      "options": [
+        "Star-delta stop mode",
+        "Forward operation",
+        "Main contact",
+        "OLR with contactor"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Forward operation",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Forward operation. The motor runs in the forward direction.",
+      "explanationLines": [
+        "The correct answer is Forward operation.",
+        "The motor runs in the forward direction."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q043",
+      "question": "Which option best matches this source description: reverse contacts energize K2 coil?",
+      "options": [
+        "Motor control accessories",
+        "Auxiliary contact",
+        "Reverse operation",
+        "Push button switch"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Reverse operation",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Reverse operation. The motor runs in counterclockwise direction.",
+      "explanationLines": [
+        "The correct answer is Reverse operation.",
+        "The motor runs in counterclockwise direction."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q043",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q044",
+      "question": "In this unit, which item is described as: starter where motor starts in star and later changes to delta?",
+      "options": [
+        "Drum type switch",
+        "Normally open contact",
+        "START push button",
+        "Star-delta starter"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Star-delta starter",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Star-delta starter. It reduces starting current then gives full running power.",
+      "explanationLines": [
+        "The correct answer is Star-delta starter.",
+        "It reduces starting current then gives full running power."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q045",
+      "question": "Which source term is correctly linked with this point: motor windings initially connected in star configuration?",
+      "options": [
+        "Star start mode",
+        "ON/OFF drum switch",
+        "Normally closed contact",
+        "STOP push button"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Star start mode",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Star start mode. It minimizes inrush current during starting.",
+      "explanationLines": [
+        "The correct answer is Star start mode.",
+        "It minimizes inrush current during starting."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q046",
+      "question": "Choose the correct match for this source idea: motor windings switch to delta after a time.",
+      "options": [
+        "Forward/Reverse drum switch",
+        "Delta running mode",
+        "Motor Protection Circuit Breaker",
+        "Timer"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Delta running mode",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Delta running mode. The motor reaches full speed and continues running.",
+      "explanationLines": [
+        "The correct answer is Delta running mode.",
+        "The motor reaches full speed and continues running."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q047",
+      "question": "Which answer fits this unit statement: contactor energized first in star-delta start mode?",
+      "options": [
+        "Star/Delta drum switch",
+        "MPCB combined function",
+        "Star contactor K2",
+        "Inching system"
+      ],
+      "answer": "C",
+      "correctAnswer": "C",
+      "correctOption": "Star contactor K2",
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is Star contactor K2. It connects windings in star configuration.",
+      "explanationLines": [
+        "The correct answer is Star contactor K2.",
+        "It connects windings in star configuration."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q047",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q048",
+      "question": "Which option best matches this source description: contactor used after delay to switch motor to delta?",
+      "options": [
+        "Contactor",
+        "Over Load Relay",
+        "K1 contactor",
+        "Delta contactor K3"
+      ],
+      "answer": "D",
+      "correctAnswer": "D",
+      "correctOption": "Delta contactor K3",
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is Delta contactor K3. It operates the motor at full voltage.",
+      "explanationLines": [
+        "The correct answer is Delta contactor K3.",
+        "It operates the motor at full voltage."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q049",
+      "question": "In this unit, which item is described as: OLR trip or stop button opens contactors?",
+      "options": [
+        "Star-delta stop mode",
+        "Main contact",
+        "OLR with contactor",
+        "Full line voltage"
+      ],
+      "answer": "A",
+      "correctAnswer": "A",
+      "correctOption": "Star-delta stop mode",
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is Star-delta stop mode. The motor disconnects from power supply.",
+      "explanationLines": [
+        "The correct answer is Star-delta stop mode.",
+        "The motor disconnects from power supply."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "iim-u6-q050",
+      "question": "Which source term is correctly linked with this point: devices such as contactor, MPCB, OLR, push buttons and timer?",
+      "options": [
+        "Auxiliary contact",
+        "Motor control accessories",
+        "Push button switch",
+        "OLR monitoring"
+      ],
+      "answer": "B",
+      "correctAnswer": "B",
+      "correctOption": "Motor control accessories",
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is Motor control accessories. They control and protect motor circuits.",
+      "explanationLines": [
+        "The correct answer is Motor control accessories.",
+        "They control and protect motor circuits."
+      ],
+      "sourceType": "Generated from unit content",
+      "subject": "industrial-installation-and-maintenance",
+      "chapter": "three-phase-induction-motor-controls",
+      "legacyId": "iim-u6-q050",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "difficulty": "medium",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
 }

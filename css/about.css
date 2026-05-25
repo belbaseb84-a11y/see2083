@@ -16,11 +16,15 @@
 .about-medium-grid article,
 .about-split-card,
 .about-info-panel,
+.about-developer-card,
 .about-contact-card,
 .about-app-section {
   border: 1px solid var(--border-color);
   background: var(--bg-card);
-  box-shadow: var(--shadow-sm);
+  box-shadow:
+    12px 12px 28px rgba(15, 23, 42, 0.07),
+    -8px -8px 22px rgba(255, 255, 255, 0.76),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.48);
 }
 
 .about-hero {
@@ -54,6 +58,7 @@
 
 .about-hero h1,
 .about-section h2,
+.about-developer-card h2,
 .about-contact-card h2,
 .about-app-section h2 {
   margin: 0;
@@ -68,6 +73,7 @@
 }
 
 .about-section h2,
+.about-developer-card h2,
 .about-contact-card h2,
 .about-app-section h2 {
   font-size: 38px;
@@ -77,6 +83,7 @@
 .about-section-head p,
 .about-split-card p,
 .about-info-panel p,
+.about-developer-card p,
 .about-contact-card p,
 .about-app-section p,
 .about-flow-list p,
@@ -176,6 +183,7 @@
 .about-section-head p,
 .about-split-card p,
 .about-info-panel p,
+.about-developer-card p,
 .about-contact-card p,
 .about-app-section p {
   max-width: 760px;
@@ -188,12 +196,12 @@
   gap: 16px;
 }
 
-.about-card-grid.four {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.about-card-grid.six {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .about-card {
-  min-height: 186px;
+  min-height: 174px;
   padding: 22px;
   border-radius: 24px;
 }
@@ -257,6 +265,59 @@
   background: var(--bg-card);
 }
 
+.about-developer-card {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+  padding: 30px;
+  border-radius: 28px;
+}
+
+.about-developer-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 82px;
+  height: 82px;
+  border-radius: 24px;
+  color: var(--color-primary);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  box-shadow:
+    inset 4px 4px 10px rgba(15, 23, 42, 0.06),
+    inset -4px -4px 10px rgba(255, 255, 255, 0.74);
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.about-email-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.about-email-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  color: var(--color-primary);
+  background: var(--bg-subtle);
+  font-size: 14px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.about-email-links a:hover,
+.about-email-links a:focus-visible {
+  border-color: rgba(37, 99, 235, 0.42);
+  background: rgba(37, 99, 235, 0.08);
+}
+
 .about-contact-card,
 .about-app-section {
   display: flex;
@@ -305,11 +366,15 @@
 [data-theme="dark"] .about-medium-grid article,
 [data-theme="dark"] .about-split-card,
 [data-theme="dark"] .about-info-panel,
+[data-theme="dark"] .about-developer-card,
 [data-theme="dark"] .about-contact-card,
 [data-theme="dark"] .about-app-section {
-  background:
-    rgba(17, 24, 39, 0.94);
+  background: rgba(17, 24, 39, 0.94);
   border-color: rgba(148, 163, 184, 0.18);
+  box-shadow:
+    14px 14px 28px rgba(0, 0, 0, 0.24),
+    -5px -5px 16px rgba(51, 65, 85, 0.14),
+    inset 1px 1px 0 rgba(148, 163, 184, 0.06);
 }
 
 [data-theme="dark"] .about-kicker,
@@ -326,6 +391,17 @@
   border-color: rgba(148, 163, 184, 0.16);
 }
 
+[data-theme="dark"] .about-developer-avatar,
+[data-theme="dark"] .about-email-links a {
+  background: rgba(15, 23, 42, 0.66);
+  border-color: rgba(148, 163, 184, 0.18);
+  box-shadow: inset 1px 1px 0 rgba(148, 163, 184, 0.08);
+}
+
+[data-theme="dark"] .about-email-links a {
+  color: #bfdbfe;
+}
+
 [data-theme="dark"] .about-coming-label {
   background: rgba(148, 163, 184, 0.18);
   color: #cbd5e1;
@@ -337,7 +413,7 @@
     grid-template-columns: 1fr;
   }
 
-  .about-card-grid.four {
+  .about-card-grid.six {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -357,6 +433,7 @@
   .about-medium-grid article,
   .about-split-card,
   .about-info-panel,
+  .about-developer-card,
   .about-contact-card,
   .about-app-section {
     border-radius: 22px;
@@ -365,6 +442,7 @@
   .about-hero,
   .about-split-card,
   .about-info-panel,
+  .about-developer-card,
   .about-contact-card,
   .about-app-section {
     padding: 22px;
@@ -375,6 +453,7 @@
   }
 
   .about-section h2,
+  .about-developer-card h2,
   .about-contact-card h2,
   .about-app-section h2 {
     font-size: 30px;
@@ -384,8 +463,22 @@
     font-size: 16px;
   }
 
-  .about-card-grid.four {
+  .about-card-grid.six {
     grid-template-columns: 1fr;
+  }
+
+  .about-developer-card {
+    grid-template-columns: 1fr;
+  }
+
+  .about-developer-avatar {
+    width: 68px;
+    height: 68px;
+    border-radius: 20px;
+  }
+
+  .about-email-links {
+    display: grid;
   }
 
   .about-actions,

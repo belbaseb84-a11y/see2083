@@ -1,0 +1,4368 @@
+{
+  "medium": "english",
+  "mediumId": "english",
+  "subject": "computer",
+  "subjectId": "computer",
+  "chapter": "multimedia",
+  "unitSlug": "multimedia",
+  "chapterTitle": "Multimedia",
+  "mcqKey": "mcq:english/computer/multimedia",
+  "status": "published",
+  "version": 1,
+  "totalQuestions": 150,
+  "websiteQuizReady": true,
+  "sourceFile": "6381eaeb-0185-4ed5-a93e-c8babec0715d.docx",
+  "notes": "",
+  "questions": [
+    {
+      "id": "english-computer-multimedia-q001",
+      "question": "Which statement best defines multimedia according to the notes?",
+      "options": [
+        "The use of multiple media forms such as text, images, audio, video and animation to present information",
+        "The use of only internet-based communication tools",
+        "The use of only pictures and diagrams in a lesson",
+        "The use of only printed text to communicate ideas"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "The use of multiple media forms such as text, images, audio, video and animation to present information",
+      "correctAnswer": "The use of multiple media forms such as text, images, audio, video and animation to present information",
+      "explanation": "The correct answer is The use of multiple media forms such as text, images, audio, video and animation to present information.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q001",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q002",
+      "question": "In the word multimedia, what does “multi” mean?",
+      "options": [
+        "Visual",
+        "Digital",
+        "Many",
+        "Single"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Many",
+      "correctAnswer": "Many",
+      "explanation": "The correct answer is Many.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q002",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q003",
+      "question": "In the word multimedia, what does “media” refer to?",
+      "options": [
+        "Different types of communication forms",
+        "Only images stored in a computer",
+        "A computer brand",
+        "Only newspaper and radio"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Different types of communication forms",
+      "correctAnswer": "Different types of communication forms",
+      "explanation": "The correct answer is Different types of communication forms.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q003",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q004",
+      "question": "Which set contains only the main multimedia components mentioned in the notes?",
+      "options": [
+        "Email, browser, modem, router, switch",
+        "Database, query, table, field, record",
+        "Text, graphics, audio, video, animation",
+        "CPU, RAM, ROM, keyboard, mouse"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Text, graphics, audio, video, animation",
+      "correctAnswer": "Text, graphics, audio, video, animation",
+      "explanation": "The correct answer is Text, graphics, audio, video, animation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q004",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q005",
+      "question": "Why is YouTube a good example of multimedia?",
+      "options": [
+        "It is used only for graphics editing",
+        "It combines video, sound, thumbnails and live chat",
+        "It works only without images",
+        "It stores only plain text notes"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It combines video, sound, thumbnails and live chat",
+      "correctAnswer": "It combines video, sound, thumbnails and live chat",
+      "explanation": "The correct answer is It combines video, sound, thumbnails and live chat.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q005",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q006",
+      "question": "Which example from the notes combines satellite images, text labels and 3D maps?",
+      "options": [
+        "Notepad",
+        "Audiomass",
+        "Google Earth",
+        "TikTok"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Google Earth",
+      "correctAnswer": "Google Earth",
+      "explanation": "The correct answer is Google Earth.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q006",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q007",
+      "question": "A TikTok video with music, filters and text is multimedia mainly because it:",
+      "options": [
+        "does not contain sound",
+        "uses several forms of media together",
+        "uses only typed words",
+        "cannot include animation"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "uses several forms of media together",
+      "correctAnswer": "uses several forms of media together",
+      "explanation": "The correct answer is uses several forms of media together.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q007",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q008",
+      "question": "Which of the following is NOT listed as a component of multimedia in the notes?",
+      "options": [
+        "Text",
+        "Database relationship",
+        "Audio",
+        "Graphics"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Database relationship",
+      "correctAnswer": "Database relationship",
+      "explanation": "The correct answer is Database relationship.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q008",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q009",
+      "question": "A presentation containing written points, charts, recorded voice and short clips is best classified as:",
+      "options": [
+        "single-media content",
+        "multimedia content",
+        "database content",
+        "text-only content"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "multimedia content",
+      "correctAnswer": "multimedia content",
+      "explanation": "The correct answer is multimedia content.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q009",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q010",
+      "question": "Which option shows the strongest reason multimedia can make information attractive?",
+      "options": [
+        "It uses only one communication form",
+        "It presents information through different media forms",
+        "It removes all visuals from information",
+        "It avoids sound and motion"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "It presents information through different media forms",
+      "correctAnswer": "It presents information through different media forms",
+      "explanation": "The correct answer is It presents information through different media forms.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q010",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q011",
+      "question": "Which pair is most directly linked with visual media in multimedia?",
+      "options": [
+        "TXT and RTF",
+        "MP3 and AAC",
+        "Graphics and video",
+        "WAV and FPS"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Graphics and video",
+      "correctAnswer": "Graphics and video",
+      "explanation": "The correct answer is Graphics and video.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q011",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q012",
+      "question": "Which pair is most directly linked with sound and motion in multimedia?",
+      "options": [
+        "SVG and PNG",
+        "Text and TXT",
+        "Audio and video",
+        "Notepad and WordPad"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Audio and video",
+      "correctAnswer": "Audio and video",
+      "explanation": "The correct answer is Audio and video.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q012",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q013",
+      "question": "If a learning app uses text explanation, diagrams, narration and animation, the most correct conclusion is that it:",
+      "options": [
+        "is not multimedia because it is educational",
+        "is only a text editor",
+        "is only an audio file",
+        "is multimedia because many media elements are combined"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "is multimedia because many media elements are combined",
+      "correctAnswer": "is multimedia because many media elements are combined",
+      "explanation": "The correct answer is is multimedia because many media elements are combined.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q013",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q014",
+      "question": "Which example is LEAST suitable as multimedia based on the notes?",
+      "options": [
+        "A YouTube lesson with video and sound",
+        "A plain TXT file containing only words",
+        "A Google Earth view with maps and labels",
+        "A TikTok clip with music and text"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "A plain TXT file containing only words",
+      "correctAnswer": "A plain TXT file containing only words",
+      "explanation": "The correct answer is A plain TXT file containing only words.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q014",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q015",
+      "question": "The main purpose of using multimedia is to:",
+      "options": [
+        "delete images from documents",
+        "present information using multiple forms of media",
+        "replace all text with code",
+        "convert all files into audio"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "present information using multiple forms of media",
+      "correctAnswer": "present information using multiple forms of media",
+      "explanation": "The correct answer is present information using multiple forms of media.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q015",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q016",
+      "question": "What is text in multimedia?",
+      "options": [
+        "Written words, letters or symbols used to convey information",
+        "Only pictures and drawings",
+        "Only moving frames",
+        "Only sound waves"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Written words, letters or symbols used to convey information",
+      "correctAnswer": "Written words, letters or symbols used to convey information",
+      "explanation": "The correct answer is Written words, letters or symbols used to convey information.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q016",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q017",
+      "question": "Which component is described as the most basic element of multimedia?",
+      "options": [
+        "Video",
+        "Text",
+        "Animation",
+        "Audio"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Text",
+      "correctAnswer": "Text",
+      "explanation": "The correct answer is Text.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q017",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q018",
+      "question": "Which group contains only text editors mentioned in the notes?",
+      "options": [
+        "Notepad, WordPad, Microsoft Word",
+        "Audiomass, CapCut, Google Earth",
+        "MP3, AAC, WAV",
+        "Pixlr X, Photoshop, Illustrator"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Notepad, WordPad, Microsoft Word",
+      "correctAnswer": "Notepad, WordPad, Microsoft Word",
+      "explanation": "The correct answer is Notepad, WordPad, Microsoft Word.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q018",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q019",
+      "question": "Which text file format stores only text contents?",
+      "options": [
+        "RTF",
+        "DOCX",
+        "PDF",
+        "TXT"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "TXT",
+      "correctAnswer": "TXT",
+      "explanation": "The correct answer is TXT.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q019",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q020",
+      "question": "What does RTF stand for?",
+      "options": [
+        "Readable Transfer Format",
+        "Rendered Type Format",
+        "Raster Text File",
+        "Rich Text Format"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Rich Text Format",
+      "correctAnswer": "Rich Text Format",
+      "explanation": "The correct answer is Rich Text Format.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q020",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q021",
+      "question": "Which format can store text content with styles such as colour, line spacing, size and indentation?",
+      "options": [
+        "MP3",
+        "TXT only",
+        "RTF",
+        "GIF"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "RTF",
+      "correctAnswer": "RTF",
+      "explanation": "The correct answer is RTF.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q021",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q022",
+      "question": "Which file format is the native document format of Microsoft Word?",
+      "options": [
+        "DOCX",
+        "AAC",
+        "AVI",
+        "SVG"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "DOCX",
+      "correctAnswer": "DOCX",
+      "explanation": "The correct answer is DOCX.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q022",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q023",
+      "question": "According to the notes, DOCX was introduced by Microsoft in:",
+      "options": [
+        "2003",
+        "1997",
+        "2017",
+        "2007"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "2007",
+      "correctAnswer": "2007",
+      "explanation": "The correct answer is 2007.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q023",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q024",
+      "question": "Which format is described as a widely used word processing format?",
+      "options": [
+        "WAV",
+        "MOV",
+        "PNG",
+        "DOCX"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "DOCX",
+      "correctAnswer": "DOCX",
+      "explanation": "The correct answer is DOCX.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q024",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q025",
+      "question": "A student wants to save simple notes without colour, size or spacing styles. Which format is most suitable from the notes?",
+      "options": [
+        "RTF",
+        "TXT",
+        "DOCX",
+        "PDF"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "TXT",
+      "correctAnswer": "TXT",
+      "explanation": "The correct answer is TXT.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q025",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q026",
+      "question": "A teacher wants to store a worksheet with styled text in Microsoft Word. Which format is the best match?",
+      "options": [
+        "MP4",
+        "AAC",
+        "DOCX",
+        "TXT"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "DOCX",
+      "correctAnswer": "DOCX",
+      "explanation": "The correct answer is DOCX.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q026",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q027",
+      "question": "Which comparison is correct?",
+      "options": [
+        "TXT stores animation, while RTF stores video",
+        "RTF stores only pixels, while TXT stores Bezier curves",
+        "TXT stores only text, while RTF can store text with styles",
+        "DOCX is an audio format, while RTF is a video format"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "TXT stores only text, while RTF can store text with styles",
+      "correctAnswer": "TXT stores only text, while RTF can store text with styles",
+      "explanation": "The correct answer is TXT stores only text, while RTF can store text with styles.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q027",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q028",
+      "question": "Which feature does NOT belong to RTF according to the notes?",
+      "options": [
+        "Colour",
+        "Indentation",
+        "Frame rate",
+        "Line spacing"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Frame rate",
+      "correctAnswer": "Frame rate",
+      "explanation": "The correct answer is Frame rate.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q028",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q029",
+      "question": "Which option best shows why text is important in multimedia?",
+      "options": [
+        "It provides written words and symbols to transfer information",
+        "It is made of frames per second",
+        "It is used only for 3D modelling",
+        "It always replaces audio"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It provides written words and symbols to transfer information",
+      "correctAnswer": "It provides written words and symbols to transfer information",
+      "explanation": "The correct answer is It provides written words and symbols to transfer information.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q029",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q030",
+      "question": "If a file must store text with font size and colour, choosing TXT would be weak because TXT:",
+      "options": [
+        "is used only for videos",
+        "stores only text content",
+        "is a vector graphics format",
+        "is an audio compression format"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "stores only text content",
+      "correctAnswer": "stores only text content",
+      "explanation": "The correct answer is stores only text content.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q030",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q031",
+      "question": "Which option is a text file format, not an image/audio/video format?",
+      "options": [
+        "MOV",
+        "RTF",
+        "MP3",
+        "JPG"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "RTF",
+      "correctAnswer": "RTF",
+      "explanation": "The correct answer is RTF.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q031",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q032",
+      "question": "Which application from the notes is most suitable for writing and editing a DOCX file?",
+      "options": [
+        "Microsoft Word",
+        "Google Earth",
+        "Audiomass",
+        "CapCut"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Microsoft Word",
+      "correctAnswer": "Microsoft Word",
+      "explanation": "The correct answer is Microsoft Word.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q032",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q033",
+      "question": "A user needs a lightweight file containing only plain written instructions. Which format should be preferred?",
+      "options": [
+        "SVG",
+        "TXT",
+        "AVI",
+        "GIF"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "TXT",
+      "correctAnswer": "TXT",
+      "explanation": "The correct answer is TXT.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q033",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q034",
+      "question": "Which one is NOT a text editor mentioned in the notes?",
+      "options": [
+        "Microsoft Word",
+        "WordPad",
+        "Adobe Illustrator",
+        "Notepad"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Adobe Illustrator",
+      "correctAnswer": "Adobe Illustrator",
+      "explanation": "The correct answer is Adobe Illustrator.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q034",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q035",
+      "question": "A document stores text plus styles similar to RTF and is opened in Microsoft Word. Which format is most likely?",
+      "options": [
+        "MP4",
+        "DOCX",
+        "PNG",
+        "WAV"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "DOCX",
+      "correctAnswer": "DOCX",
+      "explanation": "The correct answer is DOCX.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q035",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q036",
+      "question": "What are graphics in multimedia?",
+      "options": [
+        "Only sound effects",
+        "Visual elements such as pictures, drawings, charts, diagrams and symbols",
+        "Only written symbols without visuals",
+        "Only database records"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Visual elements such as pictures, drawings, charts, diagrams and symbols",
+      "correctAnswer": "Visual elements such as pictures, drawings, charts, diagrams and symbols",
+      "explanation": "The correct answer is Visual elements such as pictures, drawings, charts, diagrams and symbols.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q036",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q037",
+      "question": "Which group contains graphics editors mentioned in the notes?",
+      "options": [
+        "MP3, AAC, WAV",
+        "Pixlr X, Adobe Photoshop, Adobe Illustrator",
+        "Notepad, WordPad, Microsoft Word",
+        "CapCut, TikTok, YouTube"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Pixlr X, Adobe Photoshop, Adobe Illustrator",
+      "correctAnswer": "Pixlr X, Adobe Photoshop, Adobe Illustrator",
+      "explanation": "The correct answer is Pixlr X, Adobe Photoshop, Adobe Illustrator.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q037",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q038",
+      "question": "The two main types of graphics listed in the notes are:",
+      "options": [
+        "Text and document",
+        "2D and 3D only",
+        "Audio and video",
+        "Raster and vector"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Raster and vector",
+      "correctAnswer": "Raster and vector",
+      "explanation": "The correct answer is Raster and vector.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q038",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q039",
+      "question": "Raster graphics are also known as:",
+      "options": [
+        "Waveform graphics",
+        "Bitmap graphics",
+        "QuickTime graphics",
+        "Rich text graphics"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Bitmap graphics",
+      "correctAnswer": "Bitmap graphics",
+      "explanation": "The correct answer is Bitmap graphics.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q039",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q040",
+      "question": "Raster images are made up of many tiny dots called:",
+      "options": [
+        "curves",
+        "pixels",
+        "layers",
+        "frames"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "pixels",
+      "correctAnswer": "pixels",
+      "explanation": "The correct answer is pixels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q040",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q041",
+      "question": "Each pixel in a raster image has its own:",
+      "options": [
+        "wavelength",
+        "color",
+        "frame rate",
+        "sound"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "color",
+      "correctAnswer": "color",
+      "explanation": "The correct answer is color.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q041",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q042",
+      "question": "Which statement best explains pixels?",
+      "options": [
+        "A series of still images for motion",
+        "Tiny square dots that make up an image",
+        "Different types of communication media",
+        "Mathematical formulas used in sound"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Tiny square dots that make up an image",
+      "correctAnswer": "Tiny square dots that make up an image",
+      "explanation": "The correct answer is Tiny square dots that make up an image.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q042",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q043",
+      "question": "Which group contains common raster graphics file formats from the notes?",
+      "options": [
+        "PNG, GIF, JPG",
+        "MP3, AAC, WAV",
+        "MP4, MOV, AVI",
+        "SVG, DOCX, RTF"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "PNG, GIF, JPG",
+      "correctAnswer": "PNG, GIF, JPG",
+      "explanation": "The correct answer is PNG, GIF, JPG.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q043",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q044",
+      "question": "What does PNG stand for?",
+      "options": [
+        "Photo Network Grid",
+        "Pixel Number Graphics",
+        "Printable New Graphic",
+        "Portable Network Graphics"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Portable Network Graphics",
+      "correctAnswer": "Portable Network Graphics",
+      "explanation": "The correct answer is Portable Network Graphics.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q044",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q045",
+      "question": "Which raster format is commonly used because it supports transparency?",
+      "options": [
+        "PNG",
+        "MP3",
+        "AVI",
+        "DOCX"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "PNG",
+      "correctAnswer": "PNG",
+      "explanation": "The correct answer is PNG.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q045",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q046",
+      "question": "What does GIF stand for?",
+      "options": [
+        "General Image File",
+        "Graphics Interchange Format",
+        "Graphical Internet Frame",
+        "Generated Image Format"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Graphics Interchange Format",
+      "correctAnswer": "Graphics Interchange Format",
+      "explanation": "The correct answer is Graphics Interchange Format.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q046",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q047",
+      "question": "According to the notes, GIF is commonly used because it supports:",
+      "options": [
+        "3D rigging",
+        "animations",
+        "plain text only",
+        "audio compression"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "animations",
+      "correctAnswer": "animations",
+      "explanation": "The correct answer is animations.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q047",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q048",
+      "question": "What does JPG/JPEG stand for?",
+      "options": [
+        "Joint Pixel Generator",
+        "JPEG Picture Grid",
+        "Java Photo Graphics Engine",
+        "Joint Photographic Experts Group"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Joint Photographic Experts Group",
+      "correctAnswer": "Joint Photographic Experts Group",
+      "explanation": "The correct answer is Joint Photographic Experts Group.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q048",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q049",
+      "question": "Why is JPG commonly used according to the notes?",
+      "options": [
+        "It stores high quality images with very good compression and low file size",
+        "It is uncompressed and always extremely large",
+        "It is used only for audio files",
+        "It is used only for text styles"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It stores high quality images with very good compression and low file size",
+      "correctAnswer": "It stores high quality images with very good compression and low file size",
+      "explanation": "The correct answer is It stores high quality images with very good compression and low file size.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q049",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q050",
+      "question": "TIF/TIFF is described in the notes as:",
+      "options": [
+        "Tagged Image File Format",
+        "Transparent Image Filter Format",
+        "Text Image Frame Format",
+        "Temporary Internet File Format"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Tagged Image File Format",
+      "correctAnswer": "Tagged Image File Format",
+      "explanation": "The correct answer is Tagged Image File Format.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q050",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q051",
+      "question": "Which format is described as uncompressed and able to store a lot of detailed image data?",
+      "options": [
+        "MP3",
+        "MOV",
+        "TIF/TIFF",
+        "TXT"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "TIF/TIFF",
+      "correctAnswer": "TIF/TIFF",
+      "explanation": "The correct answer is TIF/TIFF.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q051",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q052",
+      "question": "Which image format would be most suitable for a transparent website icon according to the notes?",
+      "options": [
+        "TXT",
+        "PNG",
+        "AVI",
+        "AAC"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "PNG",
+      "correctAnswer": "PNG",
+      "explanation": "The correct answer is PNG.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q052",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q053",
+      "question": "Which image format would be most suitable for an animated image file according to the notes?",
+      "options": [
+        "DOCX",
+        "RTF",
+        "WAV",
+        "GIF"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "GIF",
+      "correctAnswer": "GIF",
+      "explanation": "The correct answer is GIF.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q053",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q054",
+      "question": "Which image format is most suitable for storing a high-quality photo with good compression and lower file size?",
+      "options": [
+        "SVG",
+        "WAV",
+        "JPG",
+        "TXT"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "JPG",
+      "correctAnswer": "JPG",
+      "explanation": "The correct answer is JPG.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q054",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q055",
+      "question": "Which image format is most suitable when very detailed uncompressed image data is needed?",
+      "options": [
+        "TIF/TIFF",
+        "MP4",
+        "MP3",
+        "RTF"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "TIF/TIFF",
+      "correctAnswer": "TIF/TIFF",
+      "explanation": "The correct answer is TIF/TIFF.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q055",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q056",
+      "question": "Vector graphics are made up of:",
+      "options": [
+        "Bezier curves stored as mathematical formulas",
+        "audio waves",
+        "pixels only",
+        "video frames"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Bezier curves stored as mathematical formulas",
+      "correctAnswer": "Bezier curves stored as mathematical formulas",
+      "explanation": "The correct answer is Bezier curves stored as mathematical formulas.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q056",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q057",
+      "question": "Why does vector graphics quality remain the same after resizing?",
+      "options": [
+        "It is based on mathematical formulas rather than fixed pixels",
+        "It has a low frame rate",
+        "It stores only sound",
+        "It is always saved as MP3"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It is based on mathematical formulas rather than fixed pixels",
+      "correctAnswer": "It is based on mathematical formulas rather than fixed pixels",
+      "explanation": "The correct answer is It is based on mathematical formulas rather than fixed pixels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q057",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q058",
+      "question": "Which vector graphics format is mentioned as commonly used?",
+      "options": [
+        "JPG",
+        "SVG",
+        "WAV",
+        "MOV"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "SVG",
+      "correctAnswer": "SVG",
+      "explanation": "The correct answer is SVG.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q058",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q059",
+      "question": "What does SVG stand for?",
+      "options": [
+        "Sound Vector Grid",
+        "Simple Visual Generator",
+        "Scalable Vector Graphics",
+        "Standard Video Graphics"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Scalable Vector Graphics",
+      "correctAnswer": "Scalable Vector Graphics",
+      "explanation": "The correct answer is Scalable Vector Graphics.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q059",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q060",
+      "question": "A logo must be resized for both a visiting card and a large banner without losing quality. Which graphics type is best?",
+      "options": [
+        "Vector graphics",
+        "Audio waveform",
+        "Raster graphics only",
+        "TXT document"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Vector graphics",
+      "correctAnswer": "Vector graphics",
+      "explanation": "The correct answer is Vector graphics.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q060",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q061",
+      "question": "A photograph made of many colored square dots is most likely:",
+      "options": [
+        "audio waveform",
+        "text format",
+        "vector graphics",
+        "raster graphics"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "raster graphics",
+      "correctAnswer": "raster graphics",
+      "explanation": "The correct answer is raster graphics.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q061",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q062",
+      "question": "Which comparison is correct?",
+      "options": [
+        "Raster graphics never lose quality; vector graphics always blur",
+        "Raster graphics use pixels; vector graphics use mathematical curves",
+        "Raster graphics use audio; vector graphics use video",
+        "Raster graphics use DOCX; vector graphics use WAV"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Raster graphics use pixels; vector graphics use mathematical curves",
+      "correctAnswer": "Raster graphics use pixels; vector graphics use mathematical curves",
+      "explanation": "The correct answer is Raster graphics use pixels; vector graphics use mathematical curves.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q062",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q063",
+      "question": "Which file format is NOT listed as a common raster graphics format in the notes?",
+      "options": [
+        "GIF",
+        "JPG",
+        "PNG",
+        "AAC"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "AAC",
+      "correctAnswer": "AAC",
+      "explanation": "The correct answer is AAC.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q063",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q064",
+      "question": "Which file format is NOT listed as a common vector graphics format in the notes?",
+      "options": [
+        "PDF",
+        "JPG",
+        "DOCX",
+        "SVG"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "JPG",
+      "correctAnswer": "JPG",
+      "explanation": "The correct answer is JPG.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q064",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q065",
+      "question": "A student zooms a bitmap image too much and notices square blocks. Which concept explains this?",
+      "options": [
+        "Vector images are made of formulas",
+        "WAV files are uncompressed",
+        "FPS affects smoothness",
+        "Raster images are made of pixels"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Raster images are made of pixels",
+      "correctAnswer": "Raster images are made of pixels",
+      "explanation": "The correct answer is Raster images are made of pixels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q065",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q066",
+      "question": "Which application is suggested in the notes to start graphics editing?",
+      "options": [
+        "Audiomass",
+        "Notepad",
+        "Pixlr X",
+        "CapCut"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Pixlr X",
+      "correctAnswer": "Pixlr X",
+      "explanation": "The correct answer is Pixlr X.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q066",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q067",
+      "question": "Pixlr X is described as:",
+      "options": [
+        "a free online tool for editing photos and graphics",
+        "a word processing file format",
+        "an uncompressed audio format",
+        "a video frame rate"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "a free online tool for editing photos and graphics",
+      "correctAnswer": "a free online tool for editing photos and graphics",
+      "explanation": "The correct answer is a free online tool for editing photos and graphics.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q067",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q068",
+      "question": "Which editing tasks are mentioned for Pixlr X?",
+      "options": [
+        "Create DOCX files only",
+        "Measure frame rate only",
+        "Crop, resize, rotate, adjust colors and add filters",
+        "Record voice and edit sound waves only"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Crop, resize, rotate, adjust colors and add filters",
+      "correctAnswer": "Crop, resize, rotate, adjust colors and add filters",
+      "explanation": "The correct answer is Crop, resize, rotate, adjust colors and add filters.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q068",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q069",
+      "question": "Which main area of Pixlr X is used as the working space for a project?",
+      "options": [
+        "Text document field",
+        "Canvas area",
+        "Frame rate panel",
+        "Audio waveform"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Canvas area",
+      "correctAnswer": "Canvas area",
+      "explanation": "The correct answer is Canvas area.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q069",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q070",
+      "question": "Which main area of Pixlr X helps choose editing tools?",
+      "options": [
+        "Wavelength panel",
+        "Tools panel",
+        "Audio file panel",
+        "FPS panel"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Tools panel",
+      "correctAnswer": "Tools panel",
+      "explanation": "The correct answer is Tools panel.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q070",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q071",
+      "question": "Which Pixlr X area is important when working with separate parts of a design?",
+      "options": [
+        "WordPad menu",
+        "Resolution list",
+        "Frame sequence",
+        "Layers panel"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Layers panel",
+      "correctAnswer": "Layers panel",
+      "explanation": "The correct answer is Layers panel.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q071",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q072",
+      "question": "Which Pixlr X area helps move or view the project while editing?",
+      "options": [
+        "Audio compression tools",
+        "Navigational tools",
+        "DOCX styles",
+        "Video codecs"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Navigational tools",
+      "correctAnswer": "Navigational tools",
+      "explanation": "The correct answer is Navigational tools.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q072",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q073",
+      "question": "What is PDF according to the notes?",
+      "options": [
+        "Photo Design Format",
+        "Printable Data Frame",
+        "Pixel Drawing File",
+        "Portable Document Format"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Portable Document Format",
+      "correctAnswer": "Portable Document Format",
+      "explanation": "The correct answer is Portable Document Format.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q073",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q074",
+      "question": "Why is PDF called versatile in the notes?",
+      "options": [
+        "It can contain both raster and vector graphics depending on how it was saved",
+        "It is always an audio format",
+        "It can store only plain text without images",
+        "It is used only for frame rate"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It can contain both raster and vector graphics depending on how it was saved",
+      "correctAnswer": "It can contain both raster and vector graphics depending on how it was saved",
+      "explanation": "The correct answer is It can contain both raster and vector graphics depending on how it was saved.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q074",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q075",
+      "question": "Which statement about PDF is correct according to the notes?",
+      "options": [
+        "It is commonly used to share documents online and can also store images and graphics",
+        "It cannot contain any graphics",
+        "It supports only 3D animation",
+        "It is used only for live audio recording"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "It is commonly used to share documents online and can also store images and graphics",
+      "correctAnswer": "It is commonly used to share documents online and can also store images and graphics",
+      "explanation": "The correct answer is It is commonly used to share documents online and can also store images and graphics.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q075",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q076",
+      "question": "What does audio refer to in multimedia?",
+      "options": [
+        "Only mathematical curves",
+        "Sound such as music, voice, instruments or effects",
+        "Only still images",
+        "Only written text"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Sound such as music, voice, instruments or effects",
+      "correctAnswer": "Sound such as music, voice, instruments or effects",
+      "explanation": "The correct answer is Sound such as music, voice, instruments or effects.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q076",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q077",
+      "question": "According to the notes, sounds are produced as a result of:",
+      "options": [
+        "pixels",
+        "text styles",
+        "vibrations",
+        "Bezier curves"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "vibrations",
+      "correctAnswer": "vibrations",
+      "explanation": "The correct answer is vibrations.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q077",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q078",
+      "question": "In a computer device, sound vibration data is stored as:",
+      "options": [
+        "a printed chart only",
+        "a physical string",
+        "a paper record",
+        "a digital file"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "a digital file",
+      "correctAnswer": "a digital file",
+      "explanation": "The correct answer is a digital file.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q078",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q079",
+      "question": "What is an audio waveform used to represent?",
+      "options": [
+        "Types of animation characters",
+        "Number of pixels in an image",
+        "Different text styles",
+        "Change in sound over time"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Change in sound over time",
+      "correctAnswer": "Change in sound over time",
+      "explanation": "The correct answer is Change in sound over time.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q079",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q080",
+      "question": "Which two parts of waveform are mentioned in the notes?",
+      "options": [
+        "TXT and RTF",
+        "Amplitude and wavelength",
+        "Pixel and frame",
+        "Width and depth only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Amplitude and wavelength",
+      "correctAnswer": "Amplitude and wavelength",
+      "explanation": "The correct answer is Amplitude and wavelength.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q080",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q081",
+      "question": "In an audio waveform, amplitude represents:",
+      "options": [
+        "image transparency",
+        "file extension",
+        "video smoothness",
+        "loudness of sound"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "loudness of sound",
+      "correctAnswer": "loudness of sound",
+      "explanation": "The correct answer is loudness of sound.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q081",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q082",
+      "question": "In the waveform graph, amplitude is represented by:",
+      "options": [
+        "width",
+        "height",
+        "file size",
+        "frame count"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "height",
+      "correctAnswer": "height",
+      "explanation": "The correct answer is height.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q082",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q083",
+      "question": "In an audio waveform, wavelength represents:",
+      "options": [
+        "the nature of vibration of sound over time",
+        "the depth of a 3D object",
+        "the number of words in a file",
+        "the compression of a video"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "the nature of vibration of sound over time",
+      "correctAnswer": "the nature of vibration of sound over time",
+      "explanation": "The correct answer is the nature of vibration of sound over time.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q083",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q084",
+      "question": "In the waveform graph, wavelength is represented by:",
+      "options": [
+        "width",
+        "height",
+        "color",
+        "layer count"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "width",
+      "correctAnswer": "width",
+      "explanation": "The correct answer is width.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q084",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q085",
+      "question": "Which group contains common audio file formats from the notes?",
+      "options": [
+        "TXT, RTF, DOCX",
+        "PNG, GIF, JPG",
+        "MP4, MOV, AVI",
+        "MP3, AAC, WAV"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "MP3, AAC, WAV",
+      "correctAnswer": "MP3, AAC, WAV",
+      "explanation": "The correct answer is MP3, AAC, WAV.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q085",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q086",
+      "question": "What does MP3 stand for?",
+      "options": [
+        "Media Pixel Type 3",
+        "MPEG Audio Layer 3",
+        "Music Portable Graph 3",
+        "Moving Picture Three"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "MPEG Audio Layer 3",
+      "correctAnswer": "MPEG Audio Layer 3",
+      "explanation": "The correct answer is MPEG Audio Layer 3.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q086",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q087",
+      "question": "Why is MP3 commonly used for sharing audio?",
+      "options": [
+        "Because it stores uncompressed video frames",
+        "Because of effective compression capabilities",
+        "Because it is a vector format",
+        "Because it is used for text styles"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Because of effective compression capabilities",
+      "correctAnswer": "Because of effective compression capabilities",
+      "explanation": "The correct answer is Because of effective compression capabilities.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q087",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q088",
+      "question": "What does AAC stand for?",
+      "options": [
+        "Advanced Audio Coding",
+        "Advanced AVI Codec",
+        "Audio Animation Clip",
+        "Automatic Animation Creator"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Advanced Audio Coding",
+      "correctAnswer": "Advanced Audio Coding",
+      "explanation": "The correct answer is Advanced Audio Coding.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q088",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q089",
+      "question": "According to the notes, AAC is an improvement over MP3 because it uses:",
+      "options": [
+        "more text indentation",
+        "more frames per second",
+        "more pixels",
+        "more advanced compression algorithms"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "more advanced compression algorithms",
+      "correctAnswer": "more advanced compression algorithms",
+      "explanation": "The correct answer is more advanced compression algorithms.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q089",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q090",
+      "question": "Which audio format has better compression capabilities compared to MP3 according to the notes?",
+      "options": [
+        "GIF",
+        "TXT",
+        "AVI",
+        "AAC"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "AAC",
+      "correctAnswer": "AAC",
+      "explanation": "The correct answer is AAC.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q090",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q091",
+      "question": "What does WAV stand for?",
+      "options": [
+        "Wide Animation Video",
+        "Windows Audio Vector",
+        "Waveform Audio File Format",
+        "Wave Animation Visual"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Waveform Audio File Format",
+      "correctAnswer": "Waveform Audio File Format",
+      "explanation": "The correct answer is Waveform Audio File Format.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q091",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q092",
+      "question": "Which audio format is uncompressed and therefore has a large file size?",
+      "options": [
+        "WAV",
+        "PNG",
+        "AAC",
+        "MP3"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "WAV",
+      "correctAnswer": "WAV",
+      "explanation": "The correct answer is WAV.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q092",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q093",
+      "question": "Why is WAV file size usually large according to the notes?",
+      "options": [
+        "It stores only text styles",
+        "It stores frames per second",
+        "It removes most sound data through compression",
+        "The audio is stored exactly as recorded"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "The audio is stored exactly as recorded",
+      "correctAnswer": "The audio is stored exactly as recorded",
+      "explanation": "The correct answer is The audio is stored exactly as recorded.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q093",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q094",
+      "question": "A student wants a small audio file for easy sharing. Which format from the notes is usually more suitable than WAV?",
+      "options": [
+        "SVG",
+        "TIF/TIFF",
+        "DOCX",
+        "MP3"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "MP3",
+      "correctAnswer": "MP3",
+      "explanation": "The correct answer is MP3.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q094",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q095",
+      "question": "A recording must keep sound exactly as recorded even if the file becomes large. Which format is best based on the notes?",
+      "options": [
+        "WAV",
+        "MOV",
+        "TXT",
+        "JPG"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "WAV",
+      "correctAnswer": "WAV",
+      "explanation": "The correct answer is WAV.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q095",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q096",
+      "question": "Which application is suggested in the notes for starting audio editing?",
+      "options": [
+        "Pixlr X",
+        "Audiomass",
+        "CapCut",
+        "Microsoft Word"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Audiomass",
+      "correctAnswer": "Audiomass",
+      "explanation": "The correct answer is Audiomass.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q096",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q097",
+      "question": "Audiomass is described as a tool that lets users:",
+      "options": [
+        "write DOCX documents only",
+        "record and edit audio easily",
+        "create vector logos only",
+        "measure video resolution only"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "record and edit audio easily",
+      "correctAnswer": "record and edit audio easily",
+      "explanation": "The correct answer is record and edit audio easily.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q097",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q098",
+      "question": "Which mobile app name is mentioned for audio editing?",
+      "options": [
+        "Audio Mass Audio Editor DAW",
+        "CapCut - Video Editor",
+        "Google Earth",
+        "Pixlr AI Photo Editor"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Audio Mass Audio Editor DAW",
+      "correctAnswer": "Audio Mass Audio Editor DAW",
+      "explanation": "The correct answer is Audio Mass Audio Editor DAW.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q098",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q099",
+      "question": "Which comparison is correct?",
+      "options": [
+        "WAV is a text format; MP3 is an image format",
+        "MP3 and AAC are compressed audio formats; WAV is uncompressed",
+        "MP3 stores only animation frames",
+        "AAC is a video format; WAV is a graphics editor"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "MP3 and AAC are compressed audio formats; WAV is uncompressed",
+      "correctAnswer": "MP3 and AAC are compressed audio formats; WAV is uncompressed",
+      "explanation": "The correct answer is MP3 and AAC are compressed audio formats; WAV is uncompressed.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q099",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q100",
+      "question": "If an audio waveform becomes taller, which property is most directly increasing according to the notes?",
+      "options": [
+        "Resolution",
+        "Transparency",
+        "Loudness",
+        "Text indentation"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Loudness",
+      "correctAnswer": "Loudness",
+      "explanation": "The correct answer is Loudness.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q100",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q101",
+      "question": "What is video in multimedia?",
+      "options": [
+        "A sequence of moving images or frames, usually combined with sound",
+        "Only a sound waveform",
+        "Only one still image",
+        "Only written words"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "A sequence of moving images or frames, usually combined with sound",
+      "correctAnswer": "A sequence of moving images or frames, usually combined with sound",
+      "explanation": "The correct answer is A sequence of moving images or frames, usually combined with sound.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q101",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q102",
+      "question": "Video creates the illusion of motion by showing:",
+      "options": [
+        "Bezier curves only",
+        "frames quickly one after another",
+        "text styles slowly",
+        "audio samples without images"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "frames quickly one after another",
+      "correctAnswer": "frames quickly one after another",
+      "explanation": "The correct answer is frames quickly one after another.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q102",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q103",
+      "question": "What are frames in a video?",
+      "options": [
+        "Audio waves only",
+        "Pictures that run over time to create motion",
+        "Editing buttons",
+        "Text file formats"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Pictures that run over time to create motion",
+      "correctAnswer": "Pictures that run over time to create motion",
+      "explanation": "The correct answer is Pictures that run over time to create motion.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q103",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q104",
+      "question": "A video often contains which element playing along with the frames?",
+      "options": [
+        "Only SVG curve",
+        "Only table record",
+        "Only TXT file",
+        "Audio file"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Audio file",
+      "correctAnswer": "Audio file",
+      "explanation": "The correct answer is Audio file.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q104",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q105",
+      "question": "What is frame rate?",
+      "options": [
+        "The depth of a 3D animation",
+        "The number of colors in a text file",
+        "The series of frames that runs or plays in a certain time interval",
+        "The loudness of sound"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "The series of frames that runs or plays in a certain time interval",
+      "correctAnswer": "The series of frames that runs or plays in a certain time interval",
+      "explanation": "The correct answer is The series of frames that runs or plays in a certain time interval.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q105",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q106",
+      "question": "Frame rate is measured in:",
+      "options": [
+        "pixels per document",
+        "sounds per image",
+        "bytes per paragraph",
+        "frames per second (FPS)"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "frames per second (FPS)",
+      "correctAnswer": "frames per second (FPS)",
+      "explanation": "The correct answer is frames per second (FPS).\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q106",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q107",
+      "question": "What does FPS stand for in the notes?",
+      "options": [
+        "Frames per second",
+        "Fast picture storage",
+        "File pixel size",
+        "Format per sound"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Frames per second",
+      "correctAnswer": "Frames per second",
+      "explanation": "The correct answer is Frames per second.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q107",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q108",
+      "question": "How does higher frame rate affect video?",
+      "options": [
+        "It always removes audio",
+        "It lowers all image details",
+        "It makes the video smoother",
+        "It changes text into graphics"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "It makes the video smoother",
+      "correctAnswer": "It makes the video smoother",
+      "explanation": "The correct answer is It makes the video smoother.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q108",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q109",
+      "question": "A video looks choppy or rough. Which factor is most likely low according to the notes?",
+      "options": [
+        "RTF style",
+        "Frame rate",
+        "Text size",
+        "Layer count"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Frame rate",
+      "correctAnswer": "Frame rate",
+      "explanation": "The correct answer is Frame rate.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q109",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q110",
+      "question": "Which set contains common frame rates mentioned in the notes?",
+      "options": [
+        "10fps, 11fps, 12fps, 13fps only",
+        "24fps, 25fps, 50fps, 60fps",
+        "720fps and 1080fps only",
+        "TXT, RTF, DOCX"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "24fps, 25fps, 50fps, 60fps",
+      "correctAnswer": "24fps, 25fps, 50fps, 60fps",
+      "explanation": "The correct answer is 24fps, 25fps, 50fps, 60fps.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q110",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q111",
+      "question": "What are pixels in video/image resolution?",
+      "options": [
+        "Text paragraphs",
+        "Animation bones",
+        "Tiny squares that make up a digital image",
+        "Sound vibrations"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Tiny squares that make up a digital image",
+      "correctAnswer": "Tiny squares that make up a digital image",
+      "explanation": "The correct answer is Tiny squares that make up a digital image.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q111",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q112",
+      "question": "What is resolution?",
+      "options": [
+        "The number of editors installed",
+        "The number of sounds in audio",
+        "The number of pixels in an image",
+        "The number of media examples"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "The number of pixels in an image",
+      "correctAnswer": "The number of pixels in an image",
+      "explanation": "The correct answer is The number of pixels in an image.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q112",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q113",
+      "question": "Resolution is usually expressed as:",
+      "options": [
+        "width and height in pixels",
+        "model and rigging",
+        "amplitude and wavelength",
+        "lines and indentation"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "width and height in pixels",
+      "correctAnswer": "width and height in pixels",
+      "explanation": "The correct answer is width and height in pixels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q113",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q114",
+      "question": "Which example correctly shows a resolution format?",
+      "options": [
+        "MP3 x AAC",
+        "1920 x 1080",
+        "RTF x DOCX",
+        "PNG x GIF"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "1920 x 1080",
+      "correctAnswer": "1920 x 1080",
+      "explanation": "The correct answer is 1920 x 1080.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q114",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q115",
+      "question": "What happens when resolution is higher according to the notes?",
+      "options": [
+        "The image always becomes smaller and blurry",
+        "The text loses formatting",
+        "The image becomes clearer and larger but file size also increases",
+        "The sound becomes louder"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "The image becomes clearer and larger but file size also increases",
+      "correctAnswer": "The image becomes clearer and larger but file size also increases",
+      "explanation": "The correct answer is The image becomes clearer and larger but file size also increases.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q115",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q116",
+      "question": "What does SD stand for?",
+      "options": [
+        "Sound Design",
+        "Standard Definition",
+        "Scalable Document",
+        "Simple Data"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Standard Definition",
+      "correctAnswer": "Standard Definition",
+      "explanation": "The correct answer is Standard Definition.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q116",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q117",
+      "question": "What is the SD resolution mentioned in the notes?",
+      "options": [
+        "1920 x 1080 pixels",
+        "3840 x 2160 pixels",
+        "720 x 480 pixels",
+        "1280 x 720 pixels"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "720 x 480 pixels",
+      "correctAnswer": "720 x 480 pixels",
+      "explanation": "The correct answer is 720 x 480 pixels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q117",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q118",
+      "question": "Where is SD resolution commonly used according to the notes?",
+      "options": [
+        "Only word processing",
+        "Older TVs and DVDs",
+        "Only audio recording",
+        "Only 3D animation software"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Older TVs and DVDs",
+      "correctAnswer": "Older TVs and DVDs",
+      "explanation": "The correct answer is Older TVs and DVDs.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q118",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q119",
+      "question": "What does HD stand for?",
+      "options": [
+        "Horizontal Design",
+        "High Definition",
+        "High Document",
+        "Hard Disk"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "High Definition",
+      "correctAnswer": "High Definition",
+      "explanation": "The correct answer is High Definition.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q119",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q120",
+      "question": "What is the HD resolution mentioned in the notes?",
+      "options": [
+        "1920 x 1080 pixels",
+        "1280 x 720 pixels",
+        "640 x 360 pixels",
+        "720 x 480 pixels"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "1280 x 720 pixels",
+      "correctAnswer": "1280 x 720 pixels",
+      "explanation": "The correct answer is 1280 x 720 pixels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q120",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q121",
+      "question": "What does FHD stand for?",
+      "options": [
+        "Full High Definition",
+        "Frame Height Depth",
+        "Fast High Design",
+        "File Header Data"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Full High Definition",
+      "correctAnswer": "Full High Definition",
+      "explanation": "The correct answer is Full High Definition.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q121",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q122",
+      "question": "What is the FHD resolution mentioned in the notes?",
+      "options": [
+        "800 x 600 pixels",
+        "720 x 480 pixels",
+        "1920 x 1080 pixels",
+        "1280 x 720 pixels"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "1920 x 1080 pixels",
+      "correctAnswer": "1920 x 1080 pixels",
+      "explanation": "The correct answer is 1920 x 1080 pixels.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q122",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q123",
+      "question": "Which resolution is described as the most common for HD videos and games in the notes?",
+      "options": [
+        "FHD",
+        "SD",
+        "TXT",
+        "WAV"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "FHD",
+      "correctAnswer": "FHD",
+      "explanation": "The correct answer is FHD.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q123",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q124",
+      "question": "Which group contains common video file formats from the notes?",
+      "options": [
+        "MP4, MOV, AVI",
+        "MP3, AAC, WAV",
+        "TXT, RTF, DOCX",
+        "PNG, GIF, JPG"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "MP4, MOV, AVI",
+      "correctAnswer": "MP4, MOV, AVI",
+      "explanation": "The correct answer is MP4, MOV, AVI.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q124",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q125",
+      "question": "What does MP4 stand for?",
+      "options": [
+        "Media Picture Four",
+        "MPEG-4 Part 14",
+        "Moving Portable Frame",
+        "Movie Pixel Format"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "MPEG-4 Part 14",
+      "correctAnswer": "MPEG-4 Part 14",
+      "explanation": "The correct answer is MPEG-4 Part 14.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q125",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q126",
+      "question": "Why is MP4 commonly used according to the notes?",
+      "options": [
+        "It is only an uncompressed image",
+        "It is a text editor",
+        "It has a high level of compression capabilities",
+        "It is a plain text file"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "It has a high level of compression capabilities",
+      "correctAnswer": "It has a high level of compression capabilities",
+      "explanation": "The correct answer is It has a high level of compression capabilities.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q126",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q127",
+      "question": "MOV is an extension of which file format?",
+      "options": [
+        "Scalable Vector Graphics",
+        "QuickTime Movie file format",
+        "Rich Text Format",
+        "Waveform Audio File Format"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "QuickTime Movie file format",
+      "correctAnswer": "QuickTime Movie file format",
+      "explanation": "The correct answer is QuickTime Movie file format.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q127",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q128",
+      "question": "What does AVI stand for?",
+      "options": [
+        "Animated Vector Image",
+        "Advanced Video Icon",
+        "Audio Visual Internet",
+        "Audio Video Interleave"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Audio Video Interleave",
+      "correctAnswer": "Audio Video Interleave",
+      "explanation": "The correct answer is Audio Video Interleave.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q128",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q129",
+      "question": "Which video formats may be compressed or uncompressed as per requirement according to the notes?",
+      "options": [
+        "MP3 and AAC",
+        "TXT and RTF",
+        "PNG and SVG",
+        "MOV and AVI"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "MOV and AVI",
+      "correctAnswer": "MOV and AVI",
+      "explanation": "The correct answer is MOV and AVI.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q129",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q130",
+      "question": "Which application is suggested in the notes for starting video editing?",
+      "options": [
+        "Pixlr X",
+        "Audiomass",
+        "CapCut",
+        "Notepad"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "CapCut",
+      "correctAnswer": "CapCut",
+      "explanation": "The correct answer is CapCut.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q130",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q131",
+      "question": "What is animation?",
+      "options": [
+        "Recording only sound as a digital file",
+        "Writing only plain text in a file",
+        "Creating the illusion of motion by showing a series of still images in rapid sequence",
+        "Saving only a single photograph"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Creating the illusion of motion by showing a series of still images in rapid sequence",
+      "correctAnswer": "Creating the illusion of motion by showing a series of still images in rapid sequence",
+      "explanation": "The correct answer is Creating the illusion of motion by showing a series of still images in rapid sequence.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q131",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q132",
+      "question": "Which two major types of animation are mentioned in the notes?",
+      "options": [
+        "2D and 3D animation",
+        "TXT and RTF animation",
+        "Raster and audio animation",
+        "MP3 and WAV animation"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "2D and 3D animation",
+      "correctAnswer": "2D and 3D animation",
+      "explanation": "The correct answer is 2D and 3D animation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q132",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q133",
+      "question": "2D animations are flat because they have:",
+      "options": [
+        "only file compression",
+        "only sound and no image",
+        "width and height only",
+        "width, height and depth"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "width and height only",
+      "correctAnswer": "width and height only",
+      "explanation": "The correct answer is width and height only.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q133",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q134",
+      "question": "3D animations have perspective because they have:",
+      "options": [
+        "only amplitude and wavelength",
+        "width, height and depth",
+        "only width and height",
+        "only text styles"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "width, height and depth",
+      "correctAnswer": "width, height and depth",
+      "explanation": "The correct answer is width, height and depth.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q134",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q135",
+      "question": "How is 2D animation usually made according to the notes?",
+      "options": [
+        "Recorded as uncompressed audio",
+        "Compressed using AAC",
+        "Drawn frame by frame in animation software",
+        "Stored only in TXT files"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Drawn frame by frame in animation software",
+      "correctAnswer": "Drawn frame by frame in animation software",
+      "explanation": "The correct answer is Drawn frame by frame in animation software.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q135",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q136",
+      "question": "Which examples are listed as 2D animations in the notes?",
+      "options": [
+        "Minecraft, PUBG, Kung Fu Panda only",
+        "MP3, AAC, WAV",
+        "Tom and Jerry, Micky Mouse, Naruto, Doraemon",
+        "Pixlr X, Photoshop, Illustrator"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Tom and Jerry, Micky Mouse, Naruto, Doraemon",
+      "correctAnswer": "Tom and Jerry, Micky Mouse, Naruto, Doraemon",
+      "explanation": "The correct answer is Tom and Jerry, Micky Mouse, Naruto, Doraemon.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q136",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q137",
+      "question": "Which examples are listed as 3D animations in the notes?",
+      "options": [
+        "PNG, GIF, JPG",
+        "Minecraft, PUBG, Kung Fu Panda",
+        "Tom and Jerry, Micky Mouse, Naruto",
+        "TXT, RTF, DOCX"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Minecraft, PUBG, Kung Fu Panda",
+      "correctAnswer": "Minecraft, PUBG, Kung Fu Panda",
+      "explanation": "The correct answer is Minecraft, PUBG, Kung Fu Panda.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q137",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q138",
+      "question": "In 3D animation, what does rigging mean according to the notes?",
+      "options": [
+        "Changing SD to HD",
+        "Making TXT files styled",
+        "Increasing audio amplitude",
+        "Adding a skeleton or bones inside a 3D model"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Adding a skeleton or bones inside a 3D model",
+      "correctAnswer": "Adding a skeleton or bones inside a 3D model",
+      "explanation": "The correct answer is Adding a skeleton or bones inside a 3D model.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q138",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q139",
+      "question": "Which process sequence best matches 3D animation in the notes?",
+      "options": [
+        "Modelled, rigged, then movements are added",
+        "Compressed, shared, then deleted",
+        "Typed, printed, then scanned",
+        "Cropped, rotated, then saved as TXT"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Modelled, rigged, then movements are added",
+      "correctAnswer": "Modelled, rigged, then movements are added",
+      "explanation": "The correct answer is Modelled, rigged, then movements are added.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q139",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q140",
+      "question": "Which feature best separates 3D animation from 2D animation?",
+      "options": [
+        "Plain text only",
+        "Only sound",
+        "No movement",
+        "Depth and perspective"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Depth and perspective",
+      "correctAnswer": "Depth and perspective",
+      "explanation": "The correct answer is Depth and perspective.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q140",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q141",
+      "question": "How is multimedia used in education according to the notes?",
+      "options": [
+        "Only to delete presentations",
+        "Through videos, animations and presentations to make lessons easier and interesting",
+        "Only to store uncompressed audio",
+        "Only to create database keys"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Through videos, animations and presentations to make lessons easier and interesting",
+      "correctAnswer": "Through videos, animations and presentations to make lessons easier and interesting",
+      "explanation": "The correct answer is Through videos, animations and presentations to make lessons easier and interesting.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q141",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q142",
+      "question": "Which application area includes movies, music, games and animations?",
+      "options": [
+        "Database management",
+        "Text formatting only",
+        "Earthing arrangement",
+        "Entertainment"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "Entertainment",
+      "correctAnswer": "Entertainment",
+      "explanation": "The correct answer is Entertainment.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q142",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q143",
+      "question": "How do companies use multimedia in business according to the notes?",
+      "options": [
+        "Only to calculate frame rate",
+        "Only to store handwritten records",
+        "Only to reduce all images",
+        "For presentations, advertisements, product demonstrations and employee training"
+      ],
+      "answerIndex": 3,
+      "answerLetter": "D",
+      "answer": "For presentations, advertisements, product demonstrations and employee training",
+      "correctAnswer": "For presentations, advertisements, product demonstrations and employee training",
+      "explanation": "The correct answer is For presentations, advertisements, product demonstrations and employee training.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q143",
+      "correct": 3,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q144",
+      "question": "Which application area includes video calls, social media and online messaging with images, audio and video?",
+      "options": [
+        "Communication",
+        "Text file formatting",
+        "Audio waveform only",
+        "Raster graphics only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Communication",
+      "correctAnswer": "Communication",
+      "explanation": "The correct answer is Communication.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q144",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q145",
+      "question": "Which application area includes YouTube videos, blogs, animations and graphic designs?",
+      "options": [
+        "Only file compression",
+        "Content creation",
+        "Only vector scaling",
+        "Only word processing"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Content creation",
+      "correctAnswer": "Content creation",
+      "explanation": "The correct answer is Content creation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q145",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q146",
+      "question": "A teacher uses an animation to explain a difficult science idea. Which application area is this?",
+      "options": [
+        "Education",
+        "Text compression",
+        "Entertainment only",
+        "Communication only"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Education",
+      "correctAnswer": "Education",
+      "explanation": "The correct answer is Education.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q146",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q147",
+      "question": "A company shows an animated product demo to customers. Which application area fits best?",
+      "options": [
+        "Audio waveform drawing",
+        "Plain text editing",
+        "Business",
+        "File naming"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Business",
+      "correctAnswer": "Business",
+      "explanation": "The correct answer is Business.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q147",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q148",
+      "question": "A person edits a video for a YouTube channel. Which application area fits best?",
+      "options": [
+        "Content creation",
+        "Vector formula storage",
+        "SD resolution",
+        "Text formatting"
+      ],
+      "answerIndex": 0,
+      "answerLetter": "A",
+      "answer": "Content creation",
+      "correctAnswer": "Content creation",
+      "explanation": "The correct answer is Content creation.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q148",
+      "correct": 0,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q149",
+      "question": "Which option is NOT an application area listed in the notes?",
+      "options": [
+        "Business",
+        "Education",
+        "Primary key management",
+        "Entertainment"
+      ],
+      "answerIndex": 2,
+      "answerLetter": "C",
+      "answer": "Primary key management",
+      "correctAnswer": "Primary key management",
+      "explanation": "The correct answer is Primary key management.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q149",
+      "correct": 2,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "english-computer-multimedia-q150",
+      "question": "Which statement best connects animation with multimedia?",
+      "options": [
+        "Animation is the same as plain text",
+        "Animation is a multimedia component that creates motion using still images or frames",
+        "Animation is used only for audio compression",
+        "Animation is only a DOCX file type"
+      ],
+      "answerIndex": 1,
+      "answerLetter": "B",
+      "answer": "Animation is a multimedia component that creates motion using still images or frames",
+      "correctAnswer": "Animation is a multimedia component that creates motion using still images or frames",
+      "explanation": "The correct answer is Animation is a multimedia component that creates motion using still images or frames.\nIt matches the key concept asked in this MCQ.",
+      "difficulty": "medium",
+      "tags": [
+        "a-multimedia-fundamentals-and-components"
+      ],
+      "sourceType": "uploaded_file",
+      "subject": "computer",
+      "chapter": "multimedia",
+      "legacyId": "english-computer-multimedia-q150",
+      "correct": 1,
+      "questionNp": "",
+      "optionsNp": [],
+      "explanationNp": "",
+      "type": "mcq",
+      "reviewStatus": "published"
+    }
+  ]
+}
